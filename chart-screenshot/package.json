@@ -1,0 +1,22 @@
+{
+  "name": "chart-screenshot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "SLS_DEBUG=* NODE_ENV=production serverless deploy",
+    "dev": "SLS_DEBUG=* NODE_ENV=development serverless offline",
+    "create_domain": "NODE_ENV=production serverless create_domain"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^1.18.1",
+    "middy": "^0.28.2",
+    "puppeteer-core": "^1.18.1"
+  },
+  "devDependencies": {
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-domain-manager": "^3.2.2",
+    "serverless-dotenv-plugin": "^2.1.1",
+    "serverless-offline": "^5.4.0"
+  }
+}

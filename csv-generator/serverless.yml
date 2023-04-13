@@ -1,0 +1,44 @@
+service: csv-generator
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  memorySize: 512
+  stage: ${env:NODE_ENV}
+  region: us-east-1
+  environment: 
+    NODE_ENV: ${env:NODE_ENV}
+
+plugins:
+  - serverless-dotenv-plugin
+  - serverless-domain-manager
+  - serverless-apigw-binary
+  - serverless-offline
+
+functions:
+  test:
+    handler: handler.test
+    events:
+      - http:
+          path: 'test'
+          method: GET
+  csv: # name of the service
+    handler: handler.csv # function that is going to handle the logic
+    events:
+      - http:
+          path: / # this matches any path, the token 'any' doesn't mean anything special
+          method: POST
+          cors: true
+
+
+custom:
+  customDomain:
+    domainName: ${env:CSV_URN}
+    basePath: ''
+    stage: ${env:NODE_ENV}
+    createRoute53Record: true
+  apigwBinary:
+    types:
+      - '*/*'
+  serverless-offline:
+    port: ${env:CSV_PORT}

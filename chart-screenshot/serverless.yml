@@ -1,0 +1,37 @@
+service: chart-screenshot
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  memorySize: 1600
+  stage: ${env:NODE_ENV}
+  region: us-east-1
+  environment:
+    NODE_ENV: ${env:NODE_ENV}
+
+plugins:
+  - serverless-dotenv-plugin
+  - serverless-domain-manager
+  - serverless-apigw-binary
+  - serverless-offline
+
+functions:
+  screen:
+    handler: handler.screenshot
+    events:
+      - http:
+          path: /{proxy+}
+          method: ANY
+          cors: true
+
+custom:
+  customDomain:
+    domainName: ${env:SCREENSHOT_URN}
+    basePath: ""
+    stage: ${env:NODE_ENV}
+    createRoute53Record: true
+  apigwBinary:
+    types:
+      - "*/*"
+  serverless-offline:
+    port: ${env:SCREENSHOT_PORT}

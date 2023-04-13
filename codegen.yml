@@ -1,0 +1,17 @@
+schema: http://localhost:4000
+overwrite: true
+generates:
+  server/types.ts:
+    config:
+      defaultMapper: any
+      contextType: ./server#Context
+    plugins:
+      - typescript
+      - typescript-resolvers
+  client/types.tsx:
+    documents:
+      - client/pages/**/*.tsx
+      - client/components/**/*.tsx
+    plugins:
+      - typescript
+      - typescript-operations

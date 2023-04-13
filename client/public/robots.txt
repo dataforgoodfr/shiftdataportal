@@ -1,0 +1,4 @@
+Sitemap: https://theshiftdataportal.org/api/sitemap.xml
+
+User-agent: *
+Allow: /*

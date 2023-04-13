@@ -1,0 +1,65 @@
+{
+  "GtCO2eq": {
+    "GtCO2eq": 1,
+    "MtCO2eq": null,
+    "KtCO2eq": null,
+    "GtCeq": null,
+    "MtCeq": null,
+    "KtCeq": null,
+    "tCO2eq": null
+  },
+  "MtCO2eq": {
+    "GtCO2eq": 0.001,
+    "MtCO2eq": 1,
+    "KtCO2eq": 1000,
+    "GtCeq": 0.0002703,
+    "MtCeq": 0.2702703,
+    "KtCeq": 270.2703,
+    "tCO2eq": 1000000
+  },
+  "KtCO2eq": {
+    "GtCO2eq": null,
+    "MtCO2eq": null,
+    "KtCO2eq": 1,
+    "GtCeq": null,
+    "MtCeq": null,
+    "KtCeq": null,
+    "tCO2eq": null
+  },
+  "GtCeq": {
+    "GtCO2eq": null,
+    "MtCO2eq": null,
+    "KtCO2eq": null,
+    "GtCeq": 1,
+    "MtCeq": null,
+    "KtCeq": null,
+    "tCO2eq": null
+  },
+  "MtCeq": {
+    "GtCO2eq": null,
+    "MtCO2eq": null,
+    "KtCO2eq": null,
+    "GtCeq": null,
+    "MtCeq": 1,
+    "KtCeq": null,
+    "tCO2eq": null
+  },
+  "KtCeq": {
+    "GtCO2eq": null,
+    "MtCO2eq": null,
+    "KtCO2eq": null,
+    "GtCeq": null,
+    "MtCeq": null,
+    "KtCeq": 1,
+    "tCO2eq": null
+  },
+  "tCO2eq": {
+    "GtCO2eq": null,
+    "MtCO2eq": null,
+    "KtCO2eq": null,
+    "GtCeq": null,
+    "MtCeq": null,
+    "KtCeq": null,
+    "tCO2eq": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "tsp-data-portal-v2",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "heroku-postbuild": "yarn build",
+    "start": "node ./server/dist/server.js",
+    "dev": "./node_modules/.bin/concurrently  \"cd server && yarn dev\" \"cd client && PORT=3001 npm run start\"",
+    "build": "yarn build-client && yarn build-server",
+    "build-client": "cd client && yarn && yarn build",
+    "build-server": "cd server && yarn && yarn build",
+    "generate": "graphql-codegen --config codegen.yml"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-codegen/add": "^1.9.1",
+    "concurrently": "^5.0.1",
+    "graphql": "^14.5.8",
+    "json2csv": "^4.5.4",
+    "typescript": "^3.7.3"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.9.1",
+    "@graphql-codegen/typescript": "^1.9.1",
+    "@graphql-codegen/typescript-operations": "^1.9.1",
+    "@graphql-codegen/typescript-react-apollo": "^1.9.1",
+    "@graphql-codegen/typescript-resolvers": "^1.9.1",
+    "react-apollo": "^3.1.3"
+  }
+}
