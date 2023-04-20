@@ -1,4 +1,3 @@
-import knex from "knex";
 export const knexConfig = {
   client: "pg",
   pool: {
@@ -16,4 +15,4 @@ export const knexConfig = {
     database: process.env.DB_NAME
   }
 };
-export default knex(knexConfig);
+export default require("knex")(knexConfig);

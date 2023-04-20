@@ -1,18 +1,19 @@
+import { SQLDataSource } from "datasource-sql"
+
 require("dotenv-flow").config();
 import { ApolloServer as ApolloServerExpress } from "apollo-server-express";
 import { ApolloServer as ApolloServerLambda } from "apollo-server-lambda";
 import bodyParser from "body-parser";
-import express, { Application } from "express";
-// import responseCachePlugin from "apollo-server-plugin-response-cache";
+import { Application } from "express";
 import resolvers from "./resolvers";
 import schema from "./schema";
 import { knexConfig } from "./db";
-import knexDatasource from "./knexDatasource";
 import knex from "knex";
 
-// @ts-ignore
-const db = new knexDatasource(knexConfig);
 
+const express = require("express")
+
+const db = new SQLDataSource(knexConfig);
 export interface Context {
   dataSources: { db: { knex: knex; db: knex } };
 }
@@ -42,8 +43,6 @@ if (process.env.NODE_ENV === "production") {
   const app: Application = express();
   const path = "/";
   app.set("port", process.env.PORT || 4000);
-  app.use(bodyParser.json());
-  app.use(bodyParser.urlencoded({ extended: true }));
   const server = new ApolloServerExpress({
     typeDefs: schema,
     resolvers: resolvers as any,
