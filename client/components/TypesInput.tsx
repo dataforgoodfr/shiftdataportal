@@ -13,7 +13,7 @@ import { useTheme } from "@emotion/react";
 import styled from "@emotion/styled"
 interface IProps {
   types: NameColor[];
-  selectedTypes: string[];
+  selectedTypes: string | string[];
   setSelectedTypes: (types: string[]) => void;
   isLoading?: boolean;
   typeName: string;
@@ -52,11 +52,11 @@ const TypesInput: React.FC<IProps> = ({
   const theme = useTheme();
   const [showPopup, setShowPopup] = useState(false);
   const popupRef = useRef(null);
-  useOutsideClick(popupRef, () => {
+  /*useOutsideClick(popupRef, () => {
     if (showPopup) {
       setShowPopup(false);
     }
-  });
+  });*/
   const computedTypes = useMemo(() => {
     return types.map((type) => ({ value: type.name, label: type.name, color: type.color }));
   }, [types]);
@@ -66,7 +66,7 @@ const TypesInput: React.FC<IProps> = ({
   );
   return (
     <Container mx={[1]}>
-      <InputSubtitle>{label}</InputSubtitle>
+      <InputSubtitle>{label} </InputSubtitle>
       <Title onClick={() => setShowPopup(!showPopup)} px={[3]} py={[2]} fontSize={[3]}>
         {isLoading
           ? "loading..."

@@ -4,14 +4,13 @@ import Clipboard from "react-clipboard.js";
 import { fontSize, layout } from "styled-system";
 import Icons, { IconName } from "./Icons";
 import { useTheme } from "@emotion/react";
-import useOutsideClick from "../hooks/useOutsideClick";
 import popup from "../styles/popup";
 
 const Button = styled.div`
   ${layout};
   align-items: center;
   background: #ffffff;
-  border-radius: 3px;
+  border-radius: 3px; 
   border: 1px solid #dfdfdf;
   color: ${p => p.theme.colors.darkBlue};
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.05);
@@ -135,11 +134,11 @@ export const IframeButton = () => {
   useEffect(() => {
     setIframeUri(window.location.href + "&iframe=true&chart-height=" + chartHeight);
   }, [chartHeight]);
-  useOutsideClick(popupRef, () => {
+  /*useOutsideClick(popupRef, () => {
     if (showPopup) {
       setShowPopup(false);
     }
-  });
+  });*/
   return (
     <Container>
       {showPopup && (

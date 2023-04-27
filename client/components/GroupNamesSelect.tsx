@@ -9,7 +9,6 @@ import popup from "../styles/popup";
 import { Title, PopupTitle } from "./RadioSelect";
 import Select from "react-select";
 import { layout, space } from "styled-system";
-import useOutsideClick from "../hooks/useOutsideClick";
 import { InputSubtitle } from ".";
 import { useTheme } from "@emotion/react";
 import styled from "@emotion/styled"
@@ -37,11 +36,11 @@ const GroupNamesSelect: React.FC<IProps> = ({
   const [showPopup, setShowPopup] = useState(false);
   const theme = useTheme();
   const popupRef = useRef(null);
-  useOutsideClick(popupRef, () => {
+  /*useOutsideClick(popupRef, () => {
     if (showPopup) {
       setShowPopup(false);
     }
-  });
+  });*/
   return (
     <Container mx={[1]}>
       <InputSubtitle>Countries</InputSubtitle>

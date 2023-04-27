@@ -1,7 +1,6 @@
 import React, { useState, useRef } from "react";
 import styled from "@emotion/styled"
 import { typography, space } from "styled-system";
-import useOutsideClick from "../hooks/useOutsideClick";
 import button1 from "../styles/button1";
 import popup from "../styles/popup";
 import Radio from "./Radio";
@@ -19,17 +18,18 @@ const RadioSelect: React.FC<IProps> = ({ options, selectedOption, onChange, isLo
   const [showPopup, setShowPopup] = useState(false);
   const popupRef = useRef(null);
   // Hide popup when clicked outside popup.
-  useOutsideClick(popupRef, () => {
+  /*useOutsideClick(popupRef, () => {
     if (showPopup) {
       setShowPopup(false);
     }
-  });
+  });*/
   return (
     <Container mx={[1]}>
       <InputSubtitle>{label}</InputSubtitle>
       <Title onClick={() => setShowPopup(!showPopup)} fontSize={[3]} px={[3]}>
         {isLoading ? "loading..." : selectedOption}
       </Title>
+
       {showPopup && (
         <Popup ref={popupRef} style={{ display: showPopup ? "block" : "none" }}>
           <PopupTitle>{inputName}</PopupTitle>
