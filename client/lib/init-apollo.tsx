@@ -27,7 +27,7 @@ function create(initialState: any): ApolloClient<NormalizedCacheObject> {
         if (networkError) console.log(`[Network error]: ${networkError}`);
       }),
       createHttpLink({
-        uri: process.env.API_URI, // Server URL (must be absolute)
+        uri: "http://localhost:4000", // Server URL (must be absolute)
         credentials: "same-origin", // Additional fetch() options like `credentials` or `headers`
         fetch
       })
