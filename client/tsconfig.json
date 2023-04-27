@@ -23,8 +23,14 @@
     "skipLibCheck": true,
     "strict": false /* Enable all strict type-checking options. */,
     "sourceMap": true,
-    "target": "esnext" /* The type checking input. */
+    "target": "esnext" /* The type checking input. */,
+    "incremental": true
   },
-  "exclude": ["node_modules"],
-  "include": ["**/*.ts", "**/*.tsx"]
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ]
 }

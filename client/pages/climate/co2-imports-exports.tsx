@@ -35,7 +35,7 @@ import useOnYearRangeChange from "../../hooks/useOnYearRangeChange";
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable";
 import { Options } from "highcharts";
 import chroma from "chroma-js";
-import { useTheme } from "emotion-theming";
+import { useTheme } from "@emotion/react";
 import { Theme } from "../../lib/styled";
 
 const Co2ImportsExports: NextPage<DefaultProps> = ({ params }) => {

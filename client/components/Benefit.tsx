@@ -1,8 +1,9 @@
-import styled, { Theme } from "../lib/styled";
+import { Theme } from "../lib/styled";
 import Icons from "../components/Icons";
-import { useTheme } from "emotion-theming";
+import { useTheme } from "@emotion/react";
 import { typography, space, layout } from "styled-system";
 import React from "react";
+import styled from "@emotion/styled"
 interface IProps {
   index: number;
   color: string;

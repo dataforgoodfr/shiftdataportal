@@ -1,10 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import styled, { Theme } from "../lib/styled";
+import { Theme } from "../lib/styled";
 import Link from "next/link";
-import { flexbox, layout, space, typography } from "styled-system";
-import { useTheme } from "emotion-theming";
+import { flexbox, layout, padding, space, typography } from "styled-system";
+import { useTheme } from "@emotion/react";
 import { Fragment } from "react";
+import styled from "@emotion/styled"
 
 const Nav = ({ mt = 4 }) => {
   const theme = useTheme<Theme>();
@@ -29,32 +30,24 @@ const Nav = ({ mt = 4 }) => {
           px={theme.mainPaddingX}
           mt={mt}
         >
-          <Link href="/" passHref>
-            <TsdLink aria-label="Homepage">
-              <TsdLogoSquare />
-            </TsdLink>
+          <Link href="/" aria-label="Homepage">
+            <TsdLogoSquare />
           </Link>
           <Ul marginTop={[2, 0]}>
             <li>
-              <Link href="/energy" passHref>
-                <CategoryLink fontSize={4} bubbleColor={theme.colors.orange}>
+              <CategoryLink href="/energy" passHref fontSize={4} bubbleColor={theme.colors.orange}>
                   ENERGY
-                </CategoryLink>
-              </Link>
+              </CategoryLink>
             </li>
             <li>
-              <Link href="/climate" passHref>
-                <CategoryLink fontSize={4} bubbleColor={theme.colors.blue}>
-                  CLIMATE
-                </CategoryLink>
-              </Link>
+              <CategoryLink href="/climate" passHref fontSize={4} bubbleColor={theme.colors.blue}>
+                CLIMATE
+              </CategoryLink>
             </li>
             <li>
-              <Link href="/about" passHref>
-                <CategoryLink fontSize={4} bubbleColor={theme.colors.lightGrey}>
-                  ABOUT
-                </CategoryLink>
-              </Link>
+              <CategoryLink href="/about" passHref fontSize={4} bubbleColor={theme.colors.lightGrey}>
+                ABOUT
+              </CategoryLink>
             </li>
           </Ul>
         </Container>
@@ -73,7 +66,7 @@ const Container = styled.nav`
   ${layout};
   ${space};
 `;
-const CategoryLink = styled.a`
+const CategoryLink = styled(Link)`
   ${space}
   ${typography}
   display: flex;

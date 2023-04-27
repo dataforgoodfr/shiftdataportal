@@ -1,4 +1,4 @@
-import styled from "../lib/styled";
+import styled from "@emotion/styled"
 import { Icons } from ".";
 import { typography, space } from "styled-system";
 import ReactTooltip from "react-tooltip";
@@ -23,7 +23,7 @@ export default function DatasetCategory({ tooltip, children, color, icon, index 
           <span dangerouslySetInnerHTML={{ __html: children }}></span>
         </Title>
       </div>
-      {tooltip && (
+     {/* {tooltip && (
         <Fragment>
           <TooltipButton data-tip data-for={index}>
             ?
@@ -32,7 +32,7 @@ export default function DatasetCategory({ tooltip, children, color, icon, index 
             <div style={{ width: "20rem", textAlign: "center" }}>{tooltip}</div>
           </ReactTooltip>
         </Fragment>
-      )}
+      )}*/}
     </Container>
   );
 };

@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import styled from "../lib/styled";
 import ReactTooltip from "react-tooltip";
 import { space } from "styled-system";
+import styled from "@emotion/styled"
 export default function SubCategoryTitle({ children, tooltip }) {
   const randomId = Math.random().toString();
   return (
@@ -9,7 +9,7 @@ export default function SubCategoryTitle({ children, tooltip }) {
       <Title mt={[2]}>
         <span>{children}</span>
       </Title>
-      {tooltip && (
+     {/* {tooltip && (
         <Fragment>
           <TooltipButton data-tip data-for={randomId}>
             ?
@@ -18,7 +18,7 @@ export default function SubCategoryTitle({ children, tooltip }) {
             <div style={{ width: "20rem", textAlign: "center" }}>{tooltip}</div>
           </ReactTooltip>
         </Fragment>
-      )}
+      )}*/}
     </Container>
   );
 };

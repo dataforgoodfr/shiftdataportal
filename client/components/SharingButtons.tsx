@@ -1,10 +1,10 @@
-import styled from "../lib/styled";
+import styled from "@emotion/styled"
 import React from "react";
+import Link from "next/link"
 export default function SharingButtons({ title = "" }) {
   const isBrowser = typeof window !== "undefined";
   const url = isBrowser ? encodeURIComponent(window.location.href) : "";
   const titleEncoded = encodeURIComponent(title);
-  console.log({ url, titleEncoded });
   return (
     <Container>
       <SharingButtonLink
@@ -60,7 +60,7 @@ const Container = styled.div`
   margin-top: 0.5rem;
 `;
 
-const SharingButtonLink = styled.a`
+const SharingButtonLink = styled(Link)`
   text-decoration: none;
   color: white;
   margin: 0.5em;

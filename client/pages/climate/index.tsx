@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect, useState } from "react";
 import { Nav, DatasetCategory, DimensionButton, SubCategoryTitle, Footer, CTA } from "../../components";
-import { useTheme } from "emotion-theming";
+import { useTheme } from "@emotion/react";
 import { IconName } from "../../components/Icons";
 import {
   Main,

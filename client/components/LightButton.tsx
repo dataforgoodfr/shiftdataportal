@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import Clipboard from "react-clipboard.js";
 import { fontSize, layout } from "styled-system";
 import Icons, { IconName } from "./Icons";
-import { useTheme } from "emotion-theming";
+import { useTheme } from "@emotion/react";
 import { Theme } from "../lib/styled";
 import useOutsideClick from "../hooks/useOutsideClick";
 import popup from "../styles/popup";

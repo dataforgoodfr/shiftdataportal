@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "../lib/styled";
+import styled from "@emotion/styled"
 import { animated, useSpring, config } from "react-spring";
 import { color } from "styled-system";
 const SPEED = 1000;

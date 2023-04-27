@@ -1,10 +1,11 @@
 import Link from "next/link";
 import React, { Fragment } from "react";
-import { useTheme } from "emotion-theming";
-import styled, { Theme } from "../lib/styled";
+import { useTheme } from "@emotion/react";
+import { Theme } from "../lib/styled";
 import { Nav, H2, Benefit, Footer, AnimatedChart } from "../components";
 import { color, typography, layout, space } from "styled-system";
 import Icons, { ExternalLink, IconName } from "../components/Icons";
+import styled from "@emotion/styled"
 
 export default function Index() {
   const theme = useTheme<Theme>();
@@ -18,19 +19,11 @@ export default function Index() {
         <Nav />
         <Hero height={["50vh", "60vh"]} lineHeight={["auto", "84px"]} ml={theme.mainPaddingX}>
           <H1 fontSize={[8, 10]} mt={[4, 5]} maxWidth={"45rem"}>
-            {/* Un portail de données pour ne plus confondre <Link href="/energy" passHref>
-              <H1Link color="orange"> 1 </H1Link>
-            </Link> et <Link href="/climate" passHref>
-              <H1Link color="blue">1000</H1Link>
-            </Link> */}
             Explore World
-            <Link href="/energy" passHref>
-              <H1Link color="orange"> energy </H1Link>
-            </Link>
+            <H1Link color="orange" href="/energy" passHref> energy </H1Link>
             and{" "}
-            <Link href="/climate" passHref>
-              <H1Link color="blue"> climate</H1Link>
-            </Link>{" "}
+            <H1Link color="blue" href="/climate" passHref> climate</H1Link>
+            {" "}
             data
           </H1>
           <Subtitle width={[0.9, 0.7]} fontSize={[4]}>
@@ -45,7 +38,7 @@ export default function Index() {
             , the carbon transition think tank.
           </Subtitle>
           <AnimatedChart />
-          <a href="#datasets">
+          <Link href="#datasets">
             <DownArrow width="18" height="24" viewBox="0 0 14 20" xmlns="http://www.w3.org/2000/svg">
               <title>Scroll to dateset section</title>
               <path
@@ -55,7 +48,7 @@ export default function Index() {
                 opacity=".8"
               />
             </DownArrow>
-          </a>
+          </Link>
         </Hero>
       </header>
       <Datasets px={theme.mainPaddingX} id="datasets">
@@ -105,9 +98,7 @@ export default function Index() {
                 </DatasetLink>
               </Fragment>
             </DatasetList>
-            <Link href="/energy" passHref>
-              <DatasetsCTA my={4}>See more</DatasetsCTA>
-            </Link>
+            <DatasetsCTA my={4} href="/energy" passHref>See more</DatasetsCTA>
           </DatasetCard>
           <DatasetCard px={[3, 4, 5]} mt={[3, 5]}>
             <DatasetCategory icon="Climate">Climate</DatasetCategory>
@@ -137,9 +128,7 @@ export default function Index() {
                 KAYA Identity
               </DatasetLink>
             </DatasetList>
-            <Link href="/climate" passHref>
-              <DatasetsCTA my={4}>See more</DatasetsCTA>
-            </Link>
+            <DatasetsCTA my={4} href="/climate" passHref>See more</DatasetsCTA>
           </DatasetCard>
         </div>
       </Datasets>
@@ -249,7 +238,7 @@ const H1 = styled.h1`
   color: ${p => p.theme.colors.lightBlack};
 `;
 
-const H1Link = styled.a`
+const H1Link = styled(Link)`
   ${color}
 `;
 
@@ -368,12 +357,10 @@ const DatasetLink: React.FunctionComponent<IDatasetLink> = ({ id, children, icon
   }
   return (
     <DatasetLinkContainer mt={3}>
-      <Link href={`${id}`} passHref>
-        <DatasetLinkA px={4} py={3} fontSize={3}>
-          <div style={{ width: "24px" }}>{Icon}</div>
-          <div style={{ marginLeft: ".8rem" }}>{children}</div>
-        </DatasetLinkA>
-      </Link>
+      <DatasetLinkA px={4} py={3} fontSize={3}  href={`${id}`} passHref>
+        <div style={{ width: "24px" }}>{Icon}</div>
+        <div style={{ marginLeft: ".8rem" }}>{children}</div>
+      </DatasetLinkA>
     </DatasetLinkContainer>
   );
 };
@@ -389,7 +376,7 @@ const DatasetLinkContainer = styled.li`
     margin-top: 0;
   }
 `;
-const DatasetLinkA = styled.a`
+const DatasetLinkA = styled(Link)`
   ${typography};
   ${space};
 
@@ -415,7 +402,7 @@ const DatasetLinkA = styled.a`
     }
   }
 `;
-const DatasetsCTA = styled.a`
+const DatasetsCTA = styled(Link)`
   ${space};
   font-weight: 700;
   font-size: ${p => p.theme.fontSizes[5]};

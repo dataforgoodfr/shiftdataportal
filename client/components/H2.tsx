@@ -1,6 +1,6 @@
 import React from "react";
-import styled from "../lib/styled";
 import { typography, layout, space } from "styled-system";
+import styled from "@emotion/styled"
 
 interface IProps {
   mt?: any;

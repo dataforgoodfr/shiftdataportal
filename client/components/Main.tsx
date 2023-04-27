@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
 import { space, width, layout } from "styled-system";
-import { useTheme } from "emotion-theming";
+import { useTheme } from "@emotion/react";
 import { Theme } from "../lib/styled";
 
 const StyledMain = styled.main`

@@ -1,15 +1,14 @@
 require("dotenv-flow").config();
-import fs from "fs";
 import pgStructure, { Entity } from "pg-structure";
 import parserTypescript from "prettier/parser-typescript";
 import prettier from "prettier/standalone";
-
+const fs = require("fs")
 pgStructure(
   {
-    database: process.env.DB_NAME,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    host: process.env.DB_HOST,
+    database: "shiftdataportal",
+    user: "postgres",
+    password: "",
+    host: "localhost",
     port: 5432
   },
   { includeSchemas: ["public"] }

@@ -1,15 +1,12 @@
-import { cache } from "emotion";
-import { CacheProvider, Global, css } from "@emotion/core";
-import { ThemeProvider } from "emotion-theming";
+
+import { Global, css } from "@emotion/react";
+import { ThemeProvider } from "@emotion/react";
 import { AppProps } from "next/app";
 import Router from "next/router";
 import Head from "next/head";
 import React from "react";
 import theme from "../lib/theme";
 import * as gtag from "../lib/gtag";
-import apple_touch_icon from "../public/static/apple-touch-icon.png";
-import favicon16 from "../public/static/favicon-16x16.png";
-import favicon32 from "../public/static/favicon-32x32.png";
 import { useApollo } from "../lib/apolloClient";
 import { ApolloProvider } from "@apollo/client";
 export interface IProps extends AppProps {}
@@ -19,7 +16,7 @@ export default function App({ pageProps, Component }: IProps) {
 
   return (
     <ThemeProvider theme={theme}>
-      <CacheProvider value={cache}>
+
         {globalStyles}
         <ApolloProvider client={apolloClient}>
           <Head>
@@ -29,15 +26,12 @@ export default function App({ pageProps, Component }: IProps) {
               href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans:400,700&display=swap"
               rel="stylesheet"
             ></link>
-            <link rel="apple-touch-icon" sizes="180x180" href={apple_touch_icon} />
-            <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
-            <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
+
             <meta name="description" content="The Shift Project's Data Portal" />
             <title>The Shift Data Portal</title>
           </Head>
           <Component {...pageProps} />
         </ApolloProvider>
-      </CacheProvider>
     </ThemeProvider>
   );
 }

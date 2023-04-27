@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import styled from "../lib/styled";
+import styled from "@emotion/styled"
 import { typography, space } from "styled-system";
 import useOutsideClick from "../hooks/useOutsideClick";
 import button1 from "../styles/button1";
