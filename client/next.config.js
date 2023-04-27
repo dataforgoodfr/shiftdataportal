@@ -14,7 +14,6 @@ module.exports = withImages({
         }
       };
     }
-    // Important: return the modified config
     return config
   },
   typescript: {
