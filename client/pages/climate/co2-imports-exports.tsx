@@ -39,7 +39,7 @@ import { useTheme } from "@emotion/react";
 import { Theme } from "../../lib/styled";
 
 const Co2ImportsExports: NextPage<DefaultProps> = ({ params }) => {
-  const theme = useTheme<Theme>();
+  const theme = useTheme();
   const stackedChartRef = useRef(null);
   // Reducer state
   const [

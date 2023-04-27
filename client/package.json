@@ -65,6 +65,7 @@
     "react-scripts": "^5.0.1",
     "serverless-next.js": "^1.15.0-alpha.2",
     "typescript": "^5.0.4",
+    "vercel": "^28.20.0",
     "webpack": "^5.81.0"
   },
   "eslintConfig": {

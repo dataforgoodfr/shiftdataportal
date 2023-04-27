@@ -64,7 +64,7 @@ const StackedChart = (
   ref
 ) => {
   const highchartsRef = useRef(null);
-  const theme = useTheme<Theme>();
+  const theme = useTheme();
   const [options, setOptions] = useState<Highcharts.Options>({
     ...defaultOptions(unit, title, theme),
     chart: {

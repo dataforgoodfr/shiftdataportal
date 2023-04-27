@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { Theme } from "../lib/styled";
 import Link from "next/link";
 import { flexbox, layout, padding, space, typography } from "styled-system";
 import { useTheme } from "@emotion/react";
@@ -8,7 +7,7 @@ import { Fragment } from "react";
 import styled from "@emotion/styled"
 
 const Nav = ({ mt = 4 }) => {
-  const theme = useTheme<Theme>();
+  const theme = useTheme();
   return (
     <Fragment>
       <Banner>

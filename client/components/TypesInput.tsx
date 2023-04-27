@@ -49,7 +49,7 @@ const TypesInput: React.FC<IProps> = ({
   typeName,
   label,
 }) => {
-  const theme = useTheme<Theme>();
+  const theme = useTheme();
   const [showPopup, setShowPopup] = useState(false);
   const popupRef = useRef(null);
   useOutsideClick(popupRef, () => {

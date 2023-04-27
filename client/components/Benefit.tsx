@@ -1,18 +1,17 @@
-import { Theme } from "../lib/styled";
 import Icons from "../components/Icons";
 import { useTheme } from "@emotion/react";
 import { typography, space, layout } from "styled-system";
 import React from "react";
 import styled from "@emotion/styled"
-interface IProps {
+/*interface IProps {
   index: number;
   color: string;
   title: string;
   icon: "Share" | "Table" | "Gear" | "MagnifyingGlass";
-}
+}*/
 const ovals = [Icons.Oval1, Icons.Oval2, Icons.Oval3, Icons.Oval4];
-const Benefit: React.SFC<IProps> = ({ index, color, title, children, icon }) => {
-  const theme = useTheme<Theme>();
+const Benefit = ({ index, color, title, children, icon }) => {
+  const theme = useTheme();
 
   return (
     <Container width={[0.44, 0.44, 0.2]}>

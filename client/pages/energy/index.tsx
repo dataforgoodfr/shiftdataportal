@@ -8,7 +8,7 @@ import { iconNameToIconComponent } from "../../components/DatasetCategory";
 import styled from "@emotion/styled"
 
 export default function Energy() {
-  const theme = useTheme<Theme>();
+  const theme = useTheme();
   const [columnsData, setColumnsData] = useState<IDataset[][]>([]);
   const [selectedAnchor, setSelectedAnchor] = useState<string>();
   useEffect(() => {

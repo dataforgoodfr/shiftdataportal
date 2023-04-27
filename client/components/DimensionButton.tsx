@@ -1,6 +1,4 @@
 import React from "react";
-import Link from "next/link";
-import { Theme } from "../lib/styled";
 import { Icons } from "../components";
 import { useTheme } from "@emotion/react";
 import { space, typography } from "styled-system";
@@ -16,7 +14,7 @@ interface IProps {
 }
 
 const DimensionButton = ({ href, children, icon, selected = false, active }: IProps) => {
-  const theme = useTheme<Theme>();
+  const theme = useTheme();
   let Icon;
   switch (icon) {
     case "LineChart":

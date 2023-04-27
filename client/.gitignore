@@ -8,3 +8,4 @@ jspm_packages
 .next
 sls-next-build
 .idea/
+.vercel

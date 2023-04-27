@@ -1,5 +1,4 @@
 import React from "react";
-import { Theme } from "../lib/styled";
 import { useTheme } from "@emotion/react";
 import { ChartType } from "./StackedChart";
 import { space } from "styled-system";
@@ -57,7 +56,7 @@ const ChartTypesSelect = ({
   function moveBorder(rect) {
     movingBorderRef.current.style.left = `${rect.left - iconsRef.current.getBoundingClientRect().left}px`;
   }
-  const theme = useTheme<Theme>();
+  const theme = useTheme();
   return (
     <Container id="chart-type-select" mb={[2, 1]} ml={["initial", "auto"]} mt={[3, 0]}>
       <InputSubtitle>Chart Type</InputSubtitle>

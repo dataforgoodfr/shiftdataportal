@@ -2,7 +2,6 @@ import React from "react";
 import styled from "@emotion/styled";
 import { space, width, layout } from "styled-system";
 import { useTheme } from "@emotion/react";
-import { Theme } from "../lib/styled";
 
 const StyledMain = styled.main`
   ${width};
@@ -12,7 +11,7 @@ const StyledMain = styled.main`
   margin: auto;
 `;
 const Main: React.FC = ({ children }) => {
-  const theme = useTheme<Theme>();
+  const theme = useTheme();
   return <StyledMain px={theme.mainPaddingX}>{children}</StyledMain>;
 };
 

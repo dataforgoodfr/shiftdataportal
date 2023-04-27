@@ -35,7 +35,7 @@ const GroupNamesSelect: React.FC<IProps> = ({
   isLoading = false
 }) => {
   const [showPopup, setShowPopup] = useState(false);
-  const theme = useTheme<Theme>();
+  const theme = useTheme();
   const popupRef = useRef(null);
   useOutsideClick(popupRef, () => {
     if (showPopup) {

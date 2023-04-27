@@ -1,14 +1,13 @@
 import Link from "next/link";
 import React, { Fragment } from "react";
 import { useTheme } from "@emotion/react";
-import { Theme } from "../lib/styled";
 import { Nav, H2, Benefit, Footer, AnimatedChart } from "../components";
 import { color, typography, layout, space } from "styled-system";
 import Icons, { ExternalLink, IconName } from "../components/Icons";
 import styled from "@emotion/styled"
 
 export default function Index() {
-  const theme = useTheme<Theme>();
+  const theme = useTheme();
   // const isDev =
   //   (process.browser && document.location.href.includes("staging")) ||
   //   process.env.NODE_ENV === "development" ||
@@ -279,7 +278,7 @@ type IDatasetCategory = {
   icon: IconName;
 };
 const DatasetCategory: React.FunctionComponent<IDatasetCategory> = ({ children, icon }) => {
-  const theme = useTheme<Theme>();
+  const theme = useTheme();
   let Icon;
   switch (icon) {
     case "Climate":
@@ -321,7 +320,7 @@ type IDatasetLink = {
   icon: IconName;
 };
 const DatasetLink: React.FunctionComponent<IDatasetLink> = ({ id, children, icon }) => {
-  const theme = useTheme<Theme>();
+  const theme = useTheme();
   let Icon;
   switch (icon) {
     case "EnergyProduction":

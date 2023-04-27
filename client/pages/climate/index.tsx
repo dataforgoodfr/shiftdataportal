@@ -20,7 +20,7 @@ import { Theme } from "../../lib/styled";
 import { iconNameToIconComponent } from "../../components/DatasetCategory";
 
 export default function Climate() {
-  const theme = useTheme<Theme>();
+  const theme = useTheme();
   const [columnsData, setColumnsData] = useState<IDataset[][]>([]);
   const [selectedAnchor, setSelectedAnchor] = useState<string>();
   useEffect(() => {

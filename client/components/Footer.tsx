@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { Theme } from "../lib/styled";
 import { color, fontSize, space, layout, flexbox, typography } from "styled-system";
 import logo from "../public/static/logo_tsp.svg";
 import Link from "next/link";
@@ -62,7 +61,7 @@ const Layout = styled.div`
 `;
 
 export default function Footer ({ mt = 5 }) {
-  const theme = useTheme<Theme>();
+  const theme = useTheme();
   return (
     <FooterEl mt={mt}>
       <Container>

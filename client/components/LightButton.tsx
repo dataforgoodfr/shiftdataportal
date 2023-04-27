@@ -4,7 +4,6 @@ import Clipboard from "react-clipboard.js";
 import { fontSize, layout } from "styled-system";
 import Icons, { IconName } from "./Icons";
 import { useTheme } from "@emotion/react";
-import { Theme } from "../lib/styled";
 import useOutsideClick from "../hooks/useOutsideClick";
 import popup from "../styles/popup";
 
@@ -91,7 +90,7 @@ export interface IProps {
   icon?: IconName;
 }
 const LightButton: React.FC<IProps> = props => {
-  const theme = useTheme<Theme>();
+  const theme = useTheme();
   let Icon;
   switch (props.icon) {
     case "Iframe":
