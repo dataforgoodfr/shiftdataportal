@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
 import { Footer, Nav, H2 } from "../components";
-import { useTheme } from "emotion-theming";
-import styled, { Theme } from "../lib/styled";
+import { useTheme } from "@emotion/react";
+import { Theme } from "../lib/styled";
 import { space, typography } from "styled-system";
+import styled from "@emotion/styled"
 
 export default function LegalNotice() {
   const theme = useTheme<Theme>();

@@ -18,7 +18,7 @@ import { EnergyUnit, Co2Unit, Co2eqUnit } from "../types";
 import { format } from "d3-format";
 import React, { useEffect, useState, useImperativeHandle, useRef, forwardRef, useCallback } from "react";
 import { RangeInput } from ".";
-import { useTheme } from "emotion-theming";
+import { useTheme } from "@emotion/react";
 import { Theme } from "../lib/styled";
 import chroma from "chroma-js";
 if (typeof Highcharts === "object") {

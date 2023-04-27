@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import styled from "@emotion/styled";
 import { color, fontSize, space } from "styled-system";
+import styled from "@emotion/styled"
 
 const StyledBreadcrumbs = styled.ul`
   ${fontSize}
@@ -40,11 +40,9 @@ const Breadcrumbs: React.FC<IProps> = ({ data }) => (
     {data.map((breadcrumb, index) => (
       <li key={index}>
         <Link href={breadcrumb.href} passHref>
-          <a>
             {breadcrumb.name}
             {index === data.length - 1 ? "" : " >"}
             {index === data.length - 1 ? "..." : ""}
-          </a>
         </Link>
       </li>
     ))}

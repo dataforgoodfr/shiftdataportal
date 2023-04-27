@@ -1,10 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import styled, { Theme } from "../lib/styled";
+import { Theme } from "../lib/styled";
 import { color, fontSize, space, layout, flexbox, typography } from "styled-system";
 import logo from "../public/static/logo_tsp.svg";
 import Link from "next/link";
-import { useTheme } from "emotion-theming";
+import { useTheme } from "@emotion/react";
+import styled from "@emotion/styled"
 
 const FooterEl = styled.footer`
   font-family: ${p => p.theme.fonts.primary};
@@ -72,17 +73,17 @@ export default function Footer ({ mt = 5 }) {
           <Ul ml={[0, 5]} height={["auto", "4rem"]}>
             <Li mt={[2, 1]}>
               <Link passHref href="/">
-                <a>HOME</a>
+                HOME
               </Link>
             </Li>
             <Li mt={[2, 1]}>
-              <Link passHref href="/energy">
-                <a>ENERGY</a>
+              <Link href="/energy">
+                ENERGY
               </Link>
             </Li>
             <Li mt={[2, 1]}>
-              <Link passHref href="/climate">
-                <a>CLIMATE</a>
+              <Link href="/climate">
+                CLIMATE
               </Link>
             </Li>
             <Li mt={[2, 1]}>
@@ -91,8 +92,8 @@ export default function Footer ({ mt = 5 }) {
               </a>
             </Li>
             <Li mt={[2, 1]}>
-              <Link passHref href="/about">
-                <a>ABOUT</a>
+              <Link href="/about">
+                ABOUT
               </Link>
             </Li>
             <Li mt={[2, 1]}>
@@ -101,8 +102,8 @@ export default function Footer ({ mt = 5 }) {
               </a>
             </Li>
             <Li mt={[2, 1]}>
-              <Link passHref href="/legal-notice">
-                <a>LEGAL NOTICE</a>
+              <Link href="/legal-notice">
+                LEGAL NOTICE
               </Link>
             </Li>
           </Ul>

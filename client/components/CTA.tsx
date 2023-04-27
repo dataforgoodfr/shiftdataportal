@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import styled from "../lib/styled";
-import css from "@emotion/css";
+import styled from "@emotion/styled"
 import { typography, layout, space } from "styled-system";
 import { Icons } from ".";
 import logo from "../public/static/logo_tsp.svg";
@@ -16,35 +15,33 @@ const CTA = ({ children }) => (
 );
 
 CTA.Energy = () => (
-  <Link href="/energy" passHref>
-    <EnergyLink>
-      <LogoContainer mx={[4]}>
-        <Logo primary>
-          <Icons.EnergyProduction color="white" />
-        </Logo>
-      </LogoContainer>
-      <TextContainer mr={[4]}>
-        <Title fontSize={[6]}>Energy Datasets</Title>
-        <Description fontSize={[3]}>Explore and customize energy datasets.</Description>
-      </TextContainer>
-    </EnergyLink>
-  </Link>
+  <EnergyLink  href="/energy" passHref>
+    <LogoContainer mx={[4]}>
+      <Logo primary>
+        <Icons.EnergyProduction color="white" />
+      </Logo>
+    </LogoContainer>
+    <TextContainer mr={[4]}>
+      <Title fontSize={[6]}>Energy Datasets</Title>
+      <Description fontSize={[3]}>Explore and customize energy datasets.</Description>
+    </TextContainer>
+  </EnergyLink>
+
 );
 
 CTA.Climate = () => (
-  <Link href="/climate" passHref>
-    <ClimateLink>
-      <LogoContainer mx={[4]}>
-        <Logo>
-          <Icons.CO2 color="white" />
-        </Logo>
-      </LogoContainer>
-      <TextContainer mr={[4]}>
-        <Title fontSize={[6]}>Climate Datasets</Title>
-        <Description fontSize={[3]}>Explore and customize climate datasets.</Description>
-      </TextContainer>
-    </ClimateLink>
-  </Link>
+  <ClimateLink href="/climate" passHref>
+    <LogoContainer mx={[4]}>
+      <Logo>
+        <Icons.CO2 color="white" />
+      </Logo>
+    </LogoContainer>
+    <TextContainer mr={[4]}>
+      <Title fontSize={[6]}>Climate Datasets</Title>
+      <Description fontSize={[3]}>Explore and customize climate datasets.</Description>
+    </TextContainer>
+  </ClimateLink>
+
 );
 CTA.Shift = () => (
   <ShiftLink href="https://theshiftproject.org/" target="_blank" rel="noopener noreferrer">
@@ -87,7 +84,7 @@ const SectionTitle = styled.h2`
   letter-spacing: 1.14px;
   line-height: 52px;
 `;
-const cardStyle = p => css`
+const cardStyle = p => styled.p`
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -102,17 +99,17 @@ const cardStyle = p => css`
   }
 `;
 
-const EnergyLink = styled.a`
+const EnergyLink = styled(Link)`
   ${cardStyle};
   ${layout};
   ${space};
 `;
-const ClimateLink = styled.a`
+const ClimateLink = styled(Link)`
   ${cardStyle};
   ${layout};
   ${space};
 `;
-const ShiftLink = styled.a`
+const ShiftLink = styled(Link)`
   ${cardStyle};
   ${layout};
   ${space};

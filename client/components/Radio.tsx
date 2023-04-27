@@ -1,4 +1,4 @@
-import styled from "../lib/styled";
+import styled from "@emotion/styled"
 import { space } from "styled-system";
 import React, { Fragment } from "react";
 interface IProps {

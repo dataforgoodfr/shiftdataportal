@@ -1,10 +1,11 @@
 import React from "react";
-import styled, { Theme } from "../lib/styled";
-import { useTheme } from "emotion-theming";
+import { Theme } from "../lib/styled";
+import { useTheme } from "@emotion/react";
 import { ChartType } from "./StackedChart";
 import { space } from "styled-system";
 import { useRef, useState, useEffect } from "react";
 import { InputSubtitle } from ".";
+import styled from "@emotion/styled"
 
 const ChartTypesSelect = ({
   available,

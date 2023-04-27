@@ -4,14 +4,15 @@ import React, { useState, useRef, Fragment } from "react";
 import makeAnimated from "react-select/animated";
 import stringToColor from "../utils/stringToColor";
 import { MultiSelect, NameColor } from "../types";
-import styled, { Theme } from "../lib/styled";
+import { Theme } from "../lib/styled";
 import popup from "../styles/popup";
 import { Title, PopupTitle } from "./RadioSelect";
 import Select from "react-select";
 import { layout, space } from "styled-system";
 import useOutsideClick from "../hooks/useOutsideClick";
 import { InputSubtitle } from ".";
-import { useTheme } from "emotion-theming";
+import { useTheme } from "@emotion/react";
+import styled from "@emotion/styled"
 
 interface IProps {
   isMulti: boolean;

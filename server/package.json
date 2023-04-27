@@ -13,7 +13,7 @@
     "create_domain": "NODE_ENV=production serverless create_domain",
     "deploy:prod": "NODE_ENV=production yarn generate:db_types && yarn tsc && SLS_DEBUG=* NODE_ENV=production serverless deploy",
     "test": "jest --config=./jest.config.js --coverage",
-    "generate:db_types": "ts-node-dev ./utils/schemaGenerator.ts"
+    "generate:db_types": "ts-node-dev ./utils/schempaGenerator.ts"
   },
   "author": "Ulysse Tallepied",
   "license": "ISC",

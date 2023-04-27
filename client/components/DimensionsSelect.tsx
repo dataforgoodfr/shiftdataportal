@@ -3,7 +3,7 @@ import { DimensionButton, InputSubtitle } from ".";
 import { IDimension as ReadableIDimension } from "../pages/energy";
 import React from "react";
 
-import styled from "../lib/styled";
+import styled from "@emotion/styled"
 import { space } from "styled-system";
 import { IconName } from "./Icons";
 import dimensionToHumanReadable, { IDimension } from "../utils/dimensionToHumanReadable";

@@ -320,10 +320,11 @@ const PrimaryEnergy: NextPage<DefaultProps> = ({ params }) => {
       />
     );
   }
+  const pageTitle = `The Shift Project - ${graphTitle}`
   return (
     <Fragment>
       <Head>
-        <title>The Shift Project - {graphTitle}</title>
+        <title>{pageTitle}</title>
       </Head>
       <Nav />
       <Main>
@@ -344,7 +345,7 @@ const PrimaryEnergy: NextPage<DefaultProps> = ({ params }) => {
             highchartsSeriesAndCategories={highchartsSeriesAndCategories}
             title={graphTitle}
           />
-          {/* {stackedChartRef?.current?.reflow()} */}
+           {stackedChartRef?.current?.reflow()}
         </div>
         <Share>
           <DownloadScreenshotButton onClick={handleScreenshotDownloadClick} />

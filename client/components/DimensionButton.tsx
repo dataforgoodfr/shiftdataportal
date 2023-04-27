@@ -1,12 +1,12 @@
 import React from "react";
 import Link from "next/link";
-import styled, { Theme } from "../lib/styled";
+import { Theme } from "../lib/styled";
 import { Icons } from "../components";
-import { useTheme } from "emotion-theming";
+import { useTheme } from "@emotion/react";
 import { space, typography } from "styled-system";
 import button1 from "../styles/button1";
-import css from "@emotion/css";
 import { IconName } from "./Icons";
+import styled from "@emotion/styled"
 interface IProps {
   href?: string;
   icon: IconName;
@@ -50,14 +50,14 @@ const DimensionButton = ({ href, children, icon, selected = false, active }: IPr
   const Container = A.withComponent("div");
   if (href) {
     return (
-      <Link passHref href={href}>
-        <A color="blue" py={["5px"]} px={[3]} mt={[2]} mr={[2]} active={active}>
+
+        <A color="blue" py={["5px"]} px={[3]} mt={[2]} mr={[2]} active={active} href={href}>
           <IconContainer>{Icon}</IconContainer>
           <Title pl={[2]} fontSize={[3]}>
             {children}
           </Title>
         </A>
-      </Link>
+
     );
   } else {
     return (
@@ -75,7 +75,7 @@ export default DimensionButton;
 type AProps = {
   selected: boolean;
 };
-const disabledA = () => css`
+const disabledA = () => `
   cursor: not-allowed;
   opacity: 0.3;
 `;

@@ -1,10 +1,11 @@
 import React, { Fragment, useEffect, useState } from "react";
 import { Nav, DatasetCategory, DimensionButton, SubCategoryTitle, Footer, CTA } from "../../components";
-import styled, { Theme } from "../../lib/styled";
-import { useTheme } from "emotion-theming";
+import { Theme } from "../../lib/styled";
+import { useTheme } from "@emotion/react";
 import { typography, space, layout } from "styled-system";
 import { IconName } from "../../components/Icons";
 import { iconNameToIconComponent } from "../../components/DatasetCategory";
+import styled from "@emotion/styled"
 
 export default function Energy() {
   const theme = useTheme<Theme>();
@@ -171,8 +172,8 @@ export const Dataset = styled.li`
   position: relative;
   display: inline-block;
   transition: background-color 0.1s ease-out, box-shadow 0.2s ease-out;
-  background-color: ${(p) => (p.highlighted ? p.theme.colors.darkBlue + "0f" : "white")};
-  border: ${(p) => (p.highlighted ? "2px solid " + p.theme.colors.darkBlue : "1px solid #e7eaf4")};
+  background-color: ${(p) => (p.theme.highlighted ? p.theme.colors.darkBlue + "0f" : "white")};
+  border: ${(p) => (p.theme.highlighted ? "2px solid " + p.theme.colors.darkBlue : "1px solid #e7eaf4")};
 
   ${space}
 `;

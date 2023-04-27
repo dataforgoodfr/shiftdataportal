@@ -2,14 +2,15 @@ import makeAnimated from "react-select/animated";
 import React, { useMemo, useState, useRef, Fragment } from "react";
 import chroma from "chroma-js";
 import { NameColor } from "../types";
-import styled, { Theme } from "../lib/styled";
+import { Theme } from "../lib/styled";
 import { space, layout } from "styled-system";
 import popup from "../styles/popup";
 import { Title, PopupTitle } from "./RadioSelect";
 import Select, { components, StylesConfig } from "react-select";
 import useOutsideClick from "../hooks/useOutsideClick";
 import { InputSubtitle } from ".";
-import { useTheme } from "emotion-theming";
+import { useTheme } from "@emotion/react";
+import styled from "@emotion/styled"
 interface IProps {
   types: NameColor[];
   selectedTypes: string[];

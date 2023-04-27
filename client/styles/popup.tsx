@@ -1,4 +1,4 @@
-import { css } from "@emotion/core";
+import { css } from "@emotion/react";
 export default function Popup() {
   return css`
     max-width: 90vw;

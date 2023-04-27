@@ -1,4 +1,4 @@
-import styled from "../lib/styled";
+import styled from "@emotion/styled"
 import { typography, space } from "styled-system";
 
 export default styled.div`

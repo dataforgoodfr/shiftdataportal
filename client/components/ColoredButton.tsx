@@ -1,19 +1,18 @@
 import React from "react";
 import Link from "next/link";
-import styled from "../lib/styled";
+import styled from "@emotion/styled"
 import chroma from "chroma-js";
 import { space } from "styled-system";
 export default function ColoredButton({ color, children, href }) {
   return (
-    <Link href={href} passHref>
-      <Container color={color} px={[4]} py={[3]}>
-        {children}
-      </Container>
-    </Link>
+    <ContainerLink color={color} px={[4]} py={[3]} href={href} passHref>
+      {children}
+    </ContainerLink>
+
   );
 }
 
-const Container = styled.a`
+const ContainerLink = styled(Link)`
   ${space};
   display: inline-block;
   box-sizing: border-box;

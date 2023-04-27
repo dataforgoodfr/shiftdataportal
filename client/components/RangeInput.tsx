@@ -1,6 +1,6 @@
 import InputRange, { Range } from "react-input-range";
 import React, { useState, useEffect, useRef, useLayoutEffect } from "react";
-import styled from "../lib/styled";
+import styled from "@emotion/styled"
 export interface RangeProps {
   loading: boolean;
   onChange: (range: Range) => void;
