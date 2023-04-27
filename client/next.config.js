@@ -1,8 +1,4 @@
-require("dotenv-flow").config();
-
-const path = require("path");
 const withImages = require("next-images");
-const webpack = require("webpack");
 // const isProd = process.env.NODE_ENV === "production";
 
 module.exports = withImages({
