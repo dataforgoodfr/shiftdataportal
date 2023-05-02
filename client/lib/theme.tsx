@@ -37,10 +37,16 @@ const sizes = [
 ]
 const mainPaddingX = [3, 5, 5, 5, 6]
 const colors = {
-  blue: "#265990",
-  darkBlue: "#313D6F",
-  orange: "#DD6D2D",
+  blue: "#00008E",
+  darkBlue: "#00005A",
+  brandeisBlue: "#0072FF",
+  orange: "#FF8200",
+  lightOrange: "#FFB758",
   darkOrange: "#c74900",
+  yellow: "#FFDC23",
+  sandYellow: "#FFF1B7",
+  cyan: "#00CAFE",
+  freshBlue: "#B0EBFF",
   green: "#6D893C",
   darkWhite: "#FAFAFA",
   lightBlack: "#292929",
@@ -49,8 +55,8 @@ const colors = {
   backgroundColor: "#F8F8F8",
 }
 const fonts = {
-  primary: "'IBM Plex Sans', sans-serif",
-  secondary: "'IBM Plex Mono', monospace",
+  primary: "'Poppins', Arial",
+  secondary: "'Poppins', Arial",
 }
 const breakpoints: any = ["40em", "52em", "64em", "80em"]
 
