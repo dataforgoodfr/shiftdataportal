@@ -11,6 +11,8 @@ import Highcharts, {
 } from "highcharts"
 import HighchartsExporting from "highcharts/modules/exporting"
 import HighchartsExportData from "highcharts/modules/export-data"
+import highchartsAccessibility from "highcharts/modules/accessibility"
+
 import SeriesLabel from "highcharts/modules/series-label"
 import HR from "highcharts-react-official"
 import { Range } from "react-input-range"
@@ -21,9 +23,10 @@ import { RangeInput } from "."
 import { useTheme } from "@emotion/react"
 import { Theme } from "../lib/styled"
 import chroma from "chroma-js"
-if (typeof Highcharts === "object") {
+if (typeof Highcharts === "object" && typeof window !== `undefined`) {
   HighchartsExporting(Highcharts)
   HighchartsExportData(Highcharts)
+  highchartsAccessibility(Highcharts)
   SeriesLabel(Highcharts)
 }
 
@@ -543,7 +546,7 @@ const toolTipOptions = (unit, enabled): Options["tooltip"] => ({
     color: "black",
     opacity: 0.1,
   },
-  formatter: function () {
+  formatter: function() {
     return this.points.reduce((previousValue, currentPoint) => {
       // Returns a line
       return (
@@ -560,14 +563,14 @@ const toolTipOptions = (unit, enabled): Options["tooltip"] => ({
         unit
       )
       // Initial reduce value that will represent the year
-    }, "<b>" + (new Date(this.x).getFullYear() ? new Date(this.x).getFullYear() : (this.x as unknown as string)) + "</b>")
+    }, "<b>" + (new Date(this.x).getFullYear() ? new Date(this.x).getFullYear() : ((this.x as unknown) as string)) + "</b>")
   },
 })
 
 // Function used for none range graphs (Pie or Ranking), to get the closest correct maxYear to display.
 // Since some graphs have only values every 5 years and the years only increment by 1 it has to return a value for every single years.
 const findCategoriesMaxIndex = (categories, yearRange) => {
-  const closestCategory = categories.reduce(function (prev, curr) {
+  const closestCategory = categories.reduce(function(prev, curr) {
     return Math.abs(curr - yearRange.max) < Math.abs(prev - yearRange.max) ? curr : prev
   })
   const maxIndex = categories.findIndex((year) => closestCategory && closestCategory.toString() === year)

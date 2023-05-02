@@ -34,17 +34,17 @@ const Nav = ({ mt = 4 }) => {
           </Link>
           <Ul marginTop={[2, 0]}>
             <li>
-              <CategoryLink href="/energy" passHref fontSize={4} bubbleColor={theme.colors.orange}>
+              <CategoryLink href="/energy" fontSize={4} bubblecolor={theme.colors.orange}>
                 ENERGY
               </CategoryLink>
             </li>
             <li>
-              <CategoryLink href="/climate" passHref fontSize={4} bubbleColor={theme.colors.blue}>
+              <CategoryLink href="/climate" fontSize={4} bubblecolor={theme.colors.blue}>
                 CLIMATE
               </CategoryLink>
             </li>
             <li>
-              <CategoryLink href="/about" passHref fontSize={4} bubbleColor={theme.colors.lightGrey}>
+              <CategoryLink href="/about" fontSize={4} bubblecolor={theme.colors.lightGrey}>
                 ABOUT
               </CategoryLink>
             </li>
@@ -65,7 +65,7 @@ const Container = styled.nav`
   ${layout};
   ${space};
 `
-const CategoryLink = styled(Link)`
+const CategoryLink = styled(Link)<{ bubblecolor: string }>`
   ${space}
   ${typography}
   display: flex;
@@ -84,7 +84,7 @@ const CategoryLink = styled(Link)`
     border-radius: 50%;
     width: 8px;
     height: 8px;
-    background-color: ${(p) => p.bubbleColor};
+    background-color: ${(p) => p.bubblecolor};
     transition: transform 0.3s;
     left: 2px;
   }

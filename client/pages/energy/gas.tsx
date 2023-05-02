@@ -59,7 +59,7 @@ const Gas: NextPage<DefaultProps> = ({ params }) => {
     },
     dispatch,
   ] = useReducer(reducer, { ...params })
-  debugger
+
   // Query all the inputs options, automatically re-fetches when a variable changes
   const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
     GasInputsQuery,

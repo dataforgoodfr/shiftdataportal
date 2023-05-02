@@ -35,6 +35,7 @@ import {
 
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
+import { ShareChart } from "../../components/Share"
 
 const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -58,11 +59,10 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
     dispatch,
   ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const {
-    loading: loadingInputs,
-    data: dataInputs,
-    error: errorInputs,
-  } = useQuery<GhgByGasInputsQuery, GhgByGasInputsQueryVariables>(INPUTS, {
+  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
+    GhgByGasInputsQuery,
+    GhgByGasInputsQueryVariables
+  >(INPUTS, {
     variables: {
       source: selectedSource,
       dimension: selectedDimension,
@@ -340,7 +340,7 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
     </Fragment>
   )
 }
-GhgByGas.getInitialProps = async function ({ query }) {
+GhgByGas.getInitialProps = async function({ query }) {
   // Get all the parameters from the URL or set default state
   return {
     params: {

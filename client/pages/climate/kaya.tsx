@@ -29,6 +29,7 @@ import {
 } from "../../types"
 
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
+import { ShareChart } from "../../components/Share"
 
 const Kaya: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -47,11 +48,10 @@ const Kaya: NextPage<DefaultProps> = ({ params }) => {
     dispatch,
   ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const {
-    loading: loadingInputs,
-    data: dataInputs,
-    error: errorInputs,
-  } = useQuery<KayaInputsQuery, KayaInputsQueryVariables>(INPUTS, {
+  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
+    KayaInputsQuery,
+    KayaInputsQueryVariables
+  >(INPUTS, {
     variables: {
       dimension: selectedDimension,
     },
@@ -194,7 +194,7 @@ const Kaya: NextPage<DefaultProps> = ({ params }) => {
     </Fragment>
   )
 }
-Kaya.getInitialProps = async function ({ query }) {
+Kaya.getInitialProps = async function({ query }) {
   // Get all the parameters from the URL or set default state
   return {
     params: {
