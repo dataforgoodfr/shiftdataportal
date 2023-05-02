@@ -10,9 +10,7 @@ test("gets Mtoe to Mtce quotient", () => {
 });
 
 test("365Mtoe to equal 521.428571Mtce", () => {
-  expect(
-    round(365 * energyMultiplier(EnergyUnit.Mtoe, EnergyUnit.Mtce), 6)
-  ).toBe(521.428572);
+  expect(round(365 * energyMultiplier(EnergyUnit.Mtoe, EnergyUnit.Mtce), 6)).toBe(521.428572);
 });
 
 test("100Mtce to equal 70Mtoe", () => {

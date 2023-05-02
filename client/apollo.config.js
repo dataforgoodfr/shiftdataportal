@@ -5,8 +5,8 @@ module.exports = [
       service: {
         name: "Server",
         url: "http://localhost:4000/",
-        skipSSLValidation: true
-      }
-    }
-  }
-];
+        skipSSLValidation: true,
+      },
+    },
+  },
+]

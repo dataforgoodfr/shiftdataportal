@@ -4,317 +4,317 @@ const colors2 = [
   {
     name: "transport",
     slug: "transport",
-    value: "#0390c0"
+    value: "#0390c0",
   },
   {
     name: "industry",
     slug: "industry",
-    value: "#a852d9"
+    value: "#a852d9",
   },
   {
     name: "fuel-ethanol",
     slug: "fuel-ethanol",
-    value: "#a6d8e3"
+    value: "#a6d8e3",
   },
   {
     name: "biodiesel",
     slug: "biodiesel",
-    value: "#abe9bc"
+    value: "#abe9bc",
   },
   {
     name: "tide",
     slug: "tide",
-    value: "#CB8A01"
+    value: "#CB8A01",
   },
   {
     name: "solar thermal",
     slug: "solar-thermal",
-    value: "#CB8A01"
+    value: "#CB8A01",
   },
   {
     name: "solar pv",
     slug: "solar-pv",
-    value: "#CB8A01"
+    value: "#CB8A01",
   },
   {
     name: "biomass",
     slug: "biomass",
-    value: "#a852d9"
+    value: "#a852d9",
   },
   {
     name: "wind",
     slug: "wind",
-    value: "#00C7B4"
+    value: "#00C7B4",
   },
   {
     name: "hydro",
     slug: "hydro",
-    value: "#8daacb"
+    value: "#8daacb",
   },
   {
     name: "electricity-heat",
     slug: "electricityheat",
-    value: "#fc7362"
+    value: "#fc7362",
   },
   {
     name: "electricityheat",
     slug: "electricity-heat",
-    value: "#fc7362"
+    value: "#fc7362",
   },
   {
     name: "manufacturing-construction",
     slug: "manufacturing-construction",
-    value: "#b3b3b3"
+    value: "#b3b3b3",
   },
   {
     name: "manufacturingconstruction",
     slug: "manufacturingconstruction",
-    value: "#b3b3b3"
+    value: "#b3b3b3",
   },
   {
     name: "bunker",
     slug: "bunker",
-    value: "#e5b694"
+    value: "#e5b694",
   },
   {
     name: "bunkers",
     slug: "bunkers",
-    value: "#e5b694"
+    value: "#e5b694",
   },
   {
     name: "f-gas",
     slug: "f-gas",
-    value: "#996800"
+    value: "#996800",
   },
   {
     name: "transportation",
     slug: "transportation",
-    value: "#0390c0"
+    value: "#0390c0",
   },
   {
     name: "industrial",
     slug: "industrial",
-    value: "#66c296"
+    value: "#66c296",
   },
   {
     name: "fugitive",
     slug: "fugitive",
-    value: "#CB8A01"
+    value: "#CB8A01",
   },
   {
     name: "gas",
     slug: "gas",
-    value: "#FB8888"
+    value: "#FB8888",
   },
   {
     name: "commercial and public services",
     slug: "commercial-and-public-services",
-    value: "#CB8A01"
+    value: "#CB8A01",
   },
   {
     name: "crude oil",
     slug: "crude-oil",
-    value: "#6D6D6D"
+    value: "#6D6D6D",
   },
   {
     name: "residential",
     slug: "residential",
-    value: "#996800"
+    value: "#996800",
   },
   {
     name: "other",
     slug: "other",
-    value: "#a6d8e3"
+    value: "#a6d8e3",
   },
   {
     name: "others",
     slug: "others",
-    value: "#a6d8e3"
+    value: "#a6d8e3",
   },
   {
     name: "biofuels and waste",
     slug: "biofuels-and-waste",
-    value: "#abe9bc"
+    value: "#abe9bc",
   },
   {
     name: "oil products",
     slug: "oil-products",
-    value: "#fc7362"
+    value: "#fc7362",
   },
   {
     name: "biomass and waste electricity",
     slug: "biomass-and-waste-electricity",
-    value: "#a852d9"
+    value: "#a852d9",
   },
   {
     name: "biomass and waste",
     slug: "biomass-and-waste",
-    value: "#a852d9"
+    value: "#a852d9",
   },
   {
     name: "solar, tide, wave, fuel cell",
     slug: "solar-tide-wave-fuel-cell",
-    value: "#CB8A01"
+    value: "#CB8A01",
   },
   {
     name: "solar, tide and wave electricity",
     slug: "solar-tide-and-wave-electricity",
-    value: "#CB8A01"
+    value: "#CB8A01",
   },
   {
     name: "solar, tide and wave",
     slug: "solar-tide-and-wave",
-    value: "#CB8A01"
+    value: "#CB8A01",
   },
   {
     name: "solar",
     slug: "solar",
-    value: "#CB8A01"
+    value: "#CB8A01",
   },
   {
     name: "geothermal electricity",
     slug: "geothermal-electricity",
-    value: "#b4dcbc"
+    value: "#b4dcbc",
   },
   {
     name: "geothermal",
     slug: "geothermal",
-    value: "#b4dcbc"
+    value: "#b4dcbc",
   },
   {
     name: "hydroelectric pumped storage",
     slug: "hydroelectric-pumped-storage",
-    value: "#8daacb"
+    value: "#8daacb",
   },
   {
     name: "hydroelectric electricity",
     slug: "hydroelectric-electricity",
-    value: "#8daacb"
+    value: "#8daacb",
   },
   {
     name: "hydroelectricity",
     slug: "hydroelectricity",
-    value: "#8daacb"
+    value: "#8daacb",
   },
   {
     name: "nuclear",
     slug: "nuclear",
-    value: "#ffd92f"
+    value: "#ffd92f",
   },
   {
     name: "oil",
     slug: "oil",
-    value: "#BC301A"
+    value: "#BC301A",
   },
   {
     name: "brown coal",
     slug: "brown-coal",
-    value: "#143c00"
+    value: "#143c00",
   },
   {
     name: "hard coal",
     slug: "hard-coal",
-    value: "#ff7800"
+    value: "#ff7800",
   },
   {
     name: "coal",
     slug: "coal",
-    value: "#4F1008"
+    value: "#4F1008",
   },
   {
     name: "waste",
     slug: "waste",
-    value: "#abe9bc"
+    value: "#abe9bc",
   },
   {
     name: "other fuel combustion",
     slug: "other-fuel-combustion",
-    value: "#a6d8e3"
+    value: "#a6d8e3",
   },
   {
     name: "construction",
     slug: "construction",
-    value: "#b3b3b3"
+    value: "#b3b3b3",
   },
   {
     name: "manufacturing",
     slug: "manufacturing",
-    value: "#b3b3b3"
+    value: "#b3b3b3",
   },
   {
     name: "lucf",
     slug: "lucf",
-    value: "#e78ad2"
+    value: "#e78ad2",
   },
   {
     name: "land-use change & forestry",
     slug: "land-use-change-and-forestry",
-    value: "#e78ad2"
+    value: "#e78ad2",
   },
   {
     name: "international bunkers",
     slug: "international-bunkers",
-    value: "#e5b694"
+    value: "#e5b694",
   },
   {
     name: "industrial processes",
     slug: "industrial-processes",
-    value: "#66c296"
+    value: "#66c296",
   },
   {
     name: "fugitive emissions",
     slug: "fugitive-emissions",
-    value: "#CB8A01"
+    value: "#CB8A01",
   },
   {
     name: "energy",
     slug: "energy",
-    value: "#bbd854"
+    value: "#bbd854",
   },
   {
     name: "heat",
     slug: "heat",
-    value: "#C648FF"
+    value: "#C648FF",
   },
   {
     name: "electricity",
     slug: "electricity",
-    value: "#CB8A01"
+    value: "#CB8A01",
   },
   {
     name: "agriculture",
     slug: "agriculture",
-    value: "#8daacb"
+    value: "#8daacb",
   },
   {
     name: "sf6s",
     slug: "sf6s",
-    value: "#e7c52b"
+    value: "#e7c52b",
   },
   {
     name: "pfcs",
     slug: "pfcs",
-    value: "#e5b694"
+    value: "#e5b694",
   },
   {
     name: "n2o",
     slug: "n2o",
-    value: "#996800"
+    value: "#996800",
   },
   {
     name: "hfcss",
     slug: "hfcss",
-    value: "#8daacb"
+    value: "#8daacb",
   },
   {
     name: "co2",
     slug: "co2",
-    value: "#ff2500"
+    value: "#ff2500",
   },
   {
     name: "ch4",
     slug: "ch4",
-    value: "#008000"
+    value: "#008000",
   },
   { name: "Solvent and Other Product Use", slug: "solvent-and-other-product-use", value: "#8daacb" },
   { name: "Industrial Processes and Product Use", slug: "industrial-processes-and-product-use", value: "#a852d9" },
@@ -323,7 +323,7 @@ const colors2 = [
   {
     name: "Non-energy use of lubricants/waxes (CO2)",
     slug: "non-energy-use-of-lubricantswaxes-(co2)",
-    value: "#e78ad2"
+    value: "#e78ad2",
   },
   { name: "Indirect N2O from non-agricultural NH3", slug: "indirect-n2o-from-non-agricultural-nh3", value: "#e78ad2" },
   { name: "Production of other minerals", slug: "production-of-other-minerals", value: "#e78ad2" },
@@ -331,18 +331,18 @@ const colors2 = [
   {
     name: "Solvent and other product use: chemicals",
     slug: "solvent-and-other-product-use:-chemicals",
-    value: "#e78ad2"
+    value: "#e78ad2",
   },
   {
     name: "Solvent and other product use: degrease",
     slug: "solvent-and-other-product-use:-degrease",
-    value: "#e78ad2"
+    value: "#e78ad2",
   },
   { name: "Public electricity and heat production", slug: "public-electricity-and-heat-production", value: "#e78ad2" },
   {
     name: "Manufacturing Industries and Construction",
     slug: "manufacturing-industries-and-construction",
-    value: "#e78ad2"
+    value: "#e78ad2",
   },
   { name: "Fugitive emissions from oil and gas", slug: "fugitive-emissions-from-oil-and-gas", value: "#e78ad2" },
   { name: "Fugitive emissions from solid fuels", slug: "fugitive-emissions-from-solid-fuels", value: "#e78ad2" },
@@ -388,7 +388,7 @@ const colors2 = [
   {
     name: "Petroleum, Chemical and Non-Metallic Mineral Products",
     slug: "petroleum-chemical-and-non-metallic-mineral-products",
-    value: "#BC301A"
+    value: "#BC301A",
   },
   { name: "Mining and Quarrying", slug: "mining-and-quarrying", value: "#e5b694" },
   { name: "Electrical and Machinery", slug: "electrical-and-machinery", value: "#8daacb" },
@@ -399,7 +399,7 @@ const colors2 = [
   {
     name: "Finacial Intermediation and Business Activities",
     slug: "finacial-intermediation-and-business-activities",
-    value: "#fc7362"
+    value: "#fc7362",
   },
   { name: "Wood and Paper", slug: "wood-and-paper", value: "#fc7362" },
   { name: "Other Manufacturing", slug: "other-manufacturing", value: "#fc7362" },
@@ -414,7 +414,7 @@ const colors2 = [
   { name: "Public Administration", slug: "public-administration", value: "#fc7362" },
   { name: "Private Households", slug: "private-households", value: "#fc7362" },
   { name: "Re-export & Re-import", slug: "re-export-and-re-import", value: "#fc7362" },
-  { name: "Fossil Fuels", slug: "fossil-fuels", value: "#fc7362" }
+  { name: "Fossil Fuels", slug: "fossil-fuels", value: "#fc7362" },
 ];
 
 const typeColor = (type: string): string => {

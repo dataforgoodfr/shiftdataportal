@@ -1,4 +1,4 @@
-import { SQLDataSource } from "datasource-sql"
+import { SQLDataSource } from "datasource-sql";
 
 require("dotenv-flow").config();
 import { ApolloServer as ApolloServerExpress } from "apollo-server-express";
@@ -9,8 +9,7 @@ import schema from "./schema";
 import { knexConfig } from "./db";
 import knex from "knex";
 
-
-const express = require("express")
+const express = require("express");
 
 const db = new SQLDataSource(knexConfig);
 
@@ -27,13 +26,13 @@ if (process.env.NODE_ENV === "production") {
     playground: true,
     introspection: false,
     tracing: false,
-    dataSources: () => ({ db })
+    dataSources: () => ({ db }),
   });
   exports.graphqlHandler = server.createHandler({
     cors: {
       origin: "*",
-      credentials: true
-    }
+      credentials: true,
+    },
   });
 } else if (process.env.NODE_ENV === "development") {
   const app: Application = express();
@@ -45,7 +44,7 @@ if (process.env.NODE_ENV === "production") {
     playground: true,
     introspection: true,
     tracing: true,
-    dataSources: () => ({ db })
+    dataSources: () => ({ db }),
     // plugins: [responseCachePlugin()],
     // cacheControl: {
     //   defaultMaxAge: 20

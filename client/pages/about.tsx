@@ -1,11 +1,11 @@
-import React, { Fragment } from "react";
-import { Footer, Nav, H2, LinkedInLogo } from "../components";
-import { useTheme } from "@emotion/react";
-import { space, typography } from "styled-system";
+import React, { Fragment } from "react"
+import { Footer, Nav, H2, LinkedInLogo } from "../components"
+import { useTheme } from "@emotion/react"
+import { space, typography } from "styled-system"
 import styled from "@emotion/styled"
 
 export default function About() {
-  const theme = useTheme();
+  const theme = useTheme()
   return (
     <Fragment>
       <header>
@@ -94,12 +94,12 @@ export default function About() {
       </Main>
       <Footer />
     </Fragment>
-  );
+  )
 }
 
 const Main = styled.main`
   ${space};
-`;
+`
 const H1 = styled.h1`
   ${typography};
   ${space};
@@ -107,13 +107,13 @@ const H1 = styled.h1`
   color: ${(p) => p.theme.colors.lightBlack};
   letter-spacing: 1.09px;
   line-height: 52px;
-`;
+`
 
 const P = styled.p`
   color: ${(p) => p.theme.colors.lightBlack};
   margin-top: 1rem;
   position: relative;
-`;
+`
 
 const LinkedInLink = styled.a`
   color: ${(p) => p.theme.colors.darkBlue};
@@ -123,4 +123,4 @@ const LinkedInLink = styled.a`
     width: 1rem;
     bottom: 0;
   }
-`;
+`

@@ -5,7 +5,7 @@ import energyMultiplier from "../utils/energyMultiplier";
 import {
   COUNTRY_multiselect_groups_prod as MULTI_SELECT,
   WORLD_ENERGY_HISTORY_primary_energy_prod as TOTAL,
-  ENERGY_PER_CAPITA_energy_per_capita_prod as PER_CAPITA
+  ENERGY_PER_CAPITA_energy_per_capita_prod as PER_CAPITA,
 } from "../dbSchema";
 import stringToColor from "../utils/stringToColor";
 import groupBy from "../utils/groupBy";
@@ -32,8 +32,8 @@ const coal: CoalResolvers = {
       res.push({
         name: key,
         data: groups[key]
-          .map(countryObject => countryObject.country)
-          .map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+          .map((countryObject) => countryObject.country)
+          .map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
       });
     }
     return res;
@@ -61,7 +61,7 @@ const coal: CoalResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           TOTAL.energy,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
-          TOTAL.energy
+          TOTAL.energy,
         ])
       )
       .where(TOTAL.energy_family, "Coal")
@@ -119,35 +119,35 @@ const coal: CoalResolvers = {
       resRawQuery,
       yearsQuery,
       topCountriesDataQuery,
-      flopCountriesDataQuery
+      flopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: flopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: flopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: topCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: topCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[TOTAL.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[TOTAL.year] === year)
-            ? groupNameRaw.find(row => row[TOTAL.year] === year)[TOTAL.energy]
+          groupNameRaw.find((row) => row[TOTAL.year] === year)
+            ? groupNameRaw.find((row) => row[TOTAL.year] === year)[TOTAL.energy]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
   },
   async perCapita(_, { groupNames, energyUnit, yearStart, yearEnd, type }, { dataSources: { db } }) {
@@ -160,7 +160,7 @@ const coal: CoalResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_CAPITA.energy_per_capita,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
-          PER_CAPITA.energy_per_capita
+          PER_CAPITA.energy_per_capita,
         ])
       )
       .whereIn(PER_CAPITA.group_name, groupNames)
@@ -218,36 +218,36 @@ const coal: CoalResolvers = {
       resRawQuery,
       yearsQuery,
       perCapitaTopCountriesDataQuery,
-      perCapitaFlopCountriesDataQuery
+      perCapitaFlopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: perCapitaFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: perCapitaTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[PER_CAPITA.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[PER_CAPITA.year] === year)
-            ? groupNameRaw.find(row => row[PER_CAPITA.year] === year)[PER_CAPITA.energy_per_capita]
+          groupNameRaw.find((row) => row[PER_CAPITA.year] === year)
+            ? groupNameRaw.find((row) => row[PER_CAPITA.year] === year)[PER_CAPITA.energy_per_capita]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
-  }
+  },
 };
 export default coal;

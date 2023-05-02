@@ -1,11 +1,11 @@
-import { useQuery } from "@apollo/client";
-import gql from "graphql-tag";
-import { NextPage } from "next";
-import Head from "next/head";
-import { ParsedUrlQueryInput } from "querystring";
-import React, { Fragment, useEffect, useReducer, useState, useRef } from "react";
-import { Range } from "react-input-range";
-import { useDebounce } from "use-debounce";
+import { useQuery } from "@apollo/client"
+import gql from "graphql-tag"
+import { NextPage } from "next"
+import Head from "next/head"
+import { ParsedUrlQueryInput } from "querystring"
+import React, { Fragment, useEffect, useReducer, useState, useRef } from "react"
+import { Range } from "react-input-range"
+import { useDebounce } from "use-debounce"
 import {
   ChartTypesSelect,
   Footer,
@@ -22,9 +22,9 @@ import {
   SelectContainer,
   GraphInfos,
   SharingButtons,
-} from "../../components";
-import StackedChart, { ChartType, StackedChartProps } from "../../components/StackedChart";
-import useSyncParamsWithUrl from "../../hooks/useSyncParamsWithUrl";
+} from "../../components"
+import StackedChart, { ChartType, StackedChartProps } from "../../components/StackedChart"
+import useSyncParamsWithUrl from "../../hooks/useSyncParamsWithUrl"
 import {
   Co2Unit,
   GetCo2FromEnergyDimensionQuery,
@@ -32,13 +32,13 @@ import {
   Co2FromEnergyDimensions,
   Co2FromEnergyInputsQuery,
   Co2FromEnergyInputsQueryVariables,
-} from "../../types";
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton";
-import useOnYearRangeChange from "../../hooks/useOnYearRangeChange";
-import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable";
+} from "../../types"
+import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
+import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
+import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
 
 const Co2FromEnergy: NextPage<DefaultProps> = ({ params }) => {
-  const stackedChartRef = useRef(null);
+  const stackedChartRef = useRef(null)
   // Reducer state
   const [
     {
@@ -57,21 +57,22 @@ const Co2FromEnergy: NextPage<DefaultProps> = ({ params }) => {
       iframe,
     },
     dispatch,
-  ] = useReducer(reducer, { ...params });
+  ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
-    Co2FromEnergyInputsQuery,
-    Co2FromEnergyInputsQueryVariables
-  >(INPUTS, {
+  const {
+    loading: loadingInputs,
+    data: dataInputs,
+    error: errorInputs,
+  } = useQuery<Co2FromEnergyInputsQuery, Co2FromEnergyInputsQueryVariables>(INPUTS, {
     variables: {
       dimension: selectedDimension,
     },
-  });
+  })
   // Manage specific state with URL params
-  const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}));
+  const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}))
 
   // Prevent re-fetching data each time year changes
-  const [debouncedYearRange] = useDebounce(selectedYearRange, 300);
+  const [debouncedYearRange] = useDebounce(selectedYearRange, 300)
 
   // Update the url params when any dependency changes (the array in the useEffect hook)
   useEffect(() => {
@@ -88,7 +89,7 @@ const Co2FromEnergy: NextPage<DefaultProps> = ({ params }) => {
       end: debouncedYearRange.max,
       start: debouncedYearRange.min,
       multi: isGroupNamesMulti,
-    });
+    })
   }, [
     selectedChartType,
     chartTypes,
@@ -101,11 +102,11 @@ const Co2FromEnergy: NextPage<DefaultProps> = ({ params }) => {
     isRange,
     isSelectEnergyFamilyDisabled,
     isGroupNamesMulti,
-  ]);
+  ])
   // Applies the urlParams change to the real URL.
-  useSyncParamsWithUrl(urlParams);
+  useSyncParamsWithUrl(urlParams)
 
-  const [graphTitle, setGraphTitle] = useState<string>("");
+  const [graphTitle, setGraphTitle] = useState<string>("")
   // Fetches the graph data, automatically re-fetches when any variable changes
   const { data: dimensionData, loading: dimensionLoading } = useQuery<
     GetCo2FromEnergyDimensionQuery,
@@ -125,30 +126,30 @@ const Co2FromEnergy: NextPage<DefaultProps> = ({ params }) => {
       yearStart: 0,
       yearEnd: 3000,
     },
-  });
+  })
 
   // Update graph title
   useEffect(() => {
-    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : "";
-    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : "";
-    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max;
-    setGraphTitle(`CO2 Emissions from Fossil Fuels${displayedDimension}, ${displayedGroupNames} ${displayedYears}`);
-  }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange]);
+    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : ""
+    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : ""
+    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
+    setGraphTitle(`CO2 Emissions from Fossil Fuels${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
+  }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange])
   function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV();
+    stackedChartRef.current.downloadCSV()
   }
   function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart();
+    stackedChartRef.current.exportChart()
   }
-  const onYearRangeChange = useOnYearRangeChange(dispatch);
-  let inputs: any;
+  const onYearRangeChange = useOnYearRangeChange(dispatch)
+  let inputs: any
 
   if (errorInputs) {
-    inputs = <p>Error, couldn\'t fetch data. Might be an internet connection problem.</p>;
+    inputs = <p>Error, couldn\'t fetch data. Might be an internet connection problem.</p>
   } else if (loadingInputs || !dataInputs || !dataInputs.cO2FromEnergy) {
-    inputs = <p>Loading...</p>;
+    inputs = <p>Loading...</p>
   } else {
-    const { emissionsUnits, zones, groups, countries, energyFamilies, dimensions, gdpUnits } = dataInputs.cO2FromEnergy;
+    const { emissionsUnits, zones, groups, countries, energyFamilies, dimensions, gdpUnits } = dataInputs.cO2FromEnergy
     inputs = (
       <Fragment>
         <div>
@@ -183,7 +184,7 @@ const Co2FromEnergy: NextPage<DefaultProps> = ({ params }) => {
               dispatch({
                 type: "selectGroupNames",
                 payload: { selectedGroupNames },
-              });
+              })
             }}
           />
           {selectedDimension === "byEnergyFamily" && (
@@ -197,7 +198,7 @@ const Co2FromEnergy: NextPage<DefaultProps> = ({ params }) => {
                 dispatch({
                   type: "selectEnergyFamilies",
                   payload: { selectedEnergyFamilies },
-                });
+                })
               }}
             />
           )}
@@ -211,7 +212,7 @@ const Co2FromEnergy: NextPage<DefaultProps> = ({ params }) => {
                 dispatch({
                   type: "selectGdpUnit",
                   payload: { selectedGdpUnit },
-                });
+                })
               }}
             />
           )}
@@ -224,7 +225,7 @@ const Co2FromEnergy: NextPage<DefaultProps> = ({ params }) => {
               dispatch({
                 type: "selectEmissionsUnit",
                 payload: { selectedCO2Unit },
-              });
+              })
             }}
           />
           <ChartTypesSelect
@@ -239,28 +240,28 @@ const Co2FromEnergy: NextPage<DefaultProps> = ({ params }) => {
                     payload: {
                       selectedEnergyFamilies: energyFamilies.map((item) => item.name),
                     },
-                  });
-                  break;
+                  })
+                  break
                 case "line":
-                  dispatch({ type: "selectLine" });
-                  break;
+                  dispatch({ type: "selectLine" })
+                  break
                 case "stacked":
-                  dispatch({ type: "selectStacked" });
-                  break;
+                  dispatch({ type: "selectStacked" })
+                  break
                 case "ranking":
-                  dispatch({ type: "selectRanking" });
-                  break;
+                  dispatch({ type: "selectRanking" })
+                  break
                 case "stacked-percent":
-                  dispatch({ type: "selectStackedPercent" });
-                  break;
+                  dispatch({ type: "selectStackedPercent" })
+                  break
                 default:
-                  console.warn(`ChartTypes input "${value}" didn't match any chartTypes`);
+                  console.warn(`ChartTypes input "${value}" didn't match any chartTypes`)
               }
             }}
           />
         </SelectContainer>
       </Fragment>
-    );
+    )
   }
   if (iframe) {
     return (
@@ -284,7 +285,7 @@ const Co2FromEnergy: NextPage<DefaultProps> = ({ params }) => {
             : { series: [], categories: [] }
         }
       />
-    );
+    )
   }
   return (
     <Fragment>
@@ -332,8 +333,8 @@ const Co2FromEnergy: NextPage<DefaultProps> = ({ params }) => {
       </Main>
       <Footer />
     </Fragment>
-  );
-};
+  )
+}
 Co2FromEnergy.getInitialProps = async function ({ query }) {
   // Get all the parameters from the URL or set default state
   return {
@@ -374,8 +375,8 @@ Co2FromEnergy.getInitialProps = async function ({ query }) {
       isSelectEnergyFamilyDisabled: (query["disable-en"] as string) ? JSON.parse(query["disable-en"] as string) : false,
       chartHeight: (query["chart-height"] as string) ? (query["chart-height"] as string) : "75rem",
     },
-  };
-};
+  }
+}
 
 export const INPUTS = gql`
   query co2FromEnergyInputs {
@@ -402,7 +403,7 @@ export const INPUTS = gql`
       dimensions
     }
   }
-`;
+`
 
 // GraphQL query to get all the chart data
 export const GET_DIMENSION = gql`
@@ -504,24 +505,24 @@ export const GET_DIMENSION = gql`
       }
     }
   }
-`;
+`
 interface DefaultProps {
-  params: ReducerState;
+  params: ReducerState
 }
 interface ReducerState {
-  chartTypes: ChartType[];
-  selectedChartType: ChartType;
-  isGroupNamesMulti: boolean;
-  selectedDimension: Co2FromEnergyDimensions;
-  selectedEnergyFamilies: GetCo2FromEnergyDimensionQueryVariables["energyFamilies"];
-  selectedCO2Unit: GetCo2FromEnergyDimensionQueryVariables["emissionsUnit"];
-  selectedGroupNames: GetCo2FromEnergyDimensionQueryVariables["groupNames"];
-  selectedGdpUnit: GetCo2FromEnergyDimensionQueryVariables["gdpUnit"];
-  iframe: boolean;
-  isRange: boolean;
-  isSelectEnergyFamilyDisabled: boolean;
-  selectedYearRange: Range;
-  chartHeight: string;
+  chartTypes: ChartType[]
+  selectedChartType: ChartType
+  isGroupNamesMulti: boolean
+  selectedDimension: Co2FromEnergyDimensions
+  selectedEnergyFamilies: GetCo2FromEnergyDimensionQueryVariables["energyFamilies"]
+  selectedCO2Unit: GetCo2FromEnergyDimensionQueryVariables["emissionsUnit"]
+  selectedGroupNames: GetCo2FromEnergyDimensionQueryVariables["groupNames"]
+  selectedGdpUnit: GetCo2FromEnergyDimensionQueryVariables["gdpUnit"]
+  iframe: boolean
+  isRange: boolean
+  isSelectEnergyFamilyDisabled: boolean
+  selectedYearRange: Range
+  chartHeight: string
 }
 type ReducerActions =
   | Co2FromEnergyDimensions
@@ -535,19 +536,19 @@ type ReducerActions =
   | "selectStacked"
   | "selectStackedPercent"
   | "selectRanking"
-  | "selectYears";
+  | "selectYears"
 const reducer: React.Reducer<
   ReducerState,
   {
-    type: ReducerActions;
+    type: ReducerActions
     payload?: {
-      selectedGroupNames?: ReducerState["selectedGroupNames"];
-      selectedCO2Unit?: ReducerState["selectedCO2Unit"];
-      selectedDimension?: ReducerState["selectedDimension"];
-      selectedEnergyFamilies?: ReducerState["selectedEnergyFamilies"];
-      selectedGdpUnit?: ReducerState["selectedGdpUnit"];
-      selectedYearRange?: ReducerState["selectedYearRange"];
-    };
+      selectedGroupNames?: ReducerState["selectedGroupNames"]
+      selectedCO2Unit?: ReducerState["selectedCO2Unit"]
+      selectedDimension?: ReducerState["selectedDimension"]
+      selectedEnergyFamilies?: ReducerState["selectedEnergyFamilies"]
+      selectedGdpUnit?: ReducerState["selectedGdpUnit"]
+      selectedYearRange?: ReducerState["selectedYearRange"]
+    }
   }
 > = (prevState, action) => {
   switch (action.type) {
@@ -562,7 +563,7 @@ const reducer: React.Reducer<
         isGroupNamesMulti: false,
         selectedCO2Unit: Co2Unit.MtCo2,
         isRange: true,
-      };
+      }
     case Co2FromEnergyDimensions.PerGdp:
       return {
         ...prevState,
@@ -574,7 +575,7 @@ const reducer: React.Reducer<
         selectedGdpUnit: action.payload.selectedGdpUnit,
         isGroupNamesMulti: true,
         selectedCO2Unit: Co2Unit.TCo2,
-      };
+      }
     case Co2FromEnergyDimensions.Total:
       return {
         ...prevState,
@@ -584,7 +585,7 @@ const reducer: React.Reducer<
         isGroupNamesMulti: true,
         selectedCO2Unit: Co2Unit.MtCo2,
         isRange: true,
-      };
+      }
     case Co2FromEnergyDimensions.PerCapita:
       return {
         ...prevState,
@@ -594,32 +595,32 @@ const reducer: React.Reducer<
         isGroupNamesMulti: true,
         selectedCO2Unit: Co2Unit.TCo2,
         isRange: true,
-      };
+      }
     case "selectGroupNames":
       return {
         ...prevState,
         selectedGroupNames: action.payload.selectedGroupNames,
-      };
+      }
     case "selectEmissionsUnit":
       return {
         ...prevState,
         selectedCO2Unit: action.payload.selectedCO2Unit,
-      };
+      }
     case "selectDimension":
       return {
         ...prevState,
         selectedDimension: action.payload.selectedDimension,
-      };
+      }
     case "selectEnergyFamilies":
       return {
         ...prevState,
         selectedEnergyFamilies: action.payload.selectedEnergyFamilies,
-      };
+      }
     case "selectGdpUnit":
       return {
         ...prevState,
         selectedGdpUnit: action.payload.selectedGdpUnit,
-      };
+      }
     case "selectPie":
       return {
         ...prevState,
@@ -628,44 +629,44 @@ const reducer: React.Reducer<
         selectedChartType: "pie",
         isRange: false,
         isSelectEnergyFamilyDisabled: true,
-      };
+      }
     case "selectStacked":
       return {
         ...prevState,
         selectedChartType: "stacked",
         isRange: true,
         isSelectEnergyFamilyDisabled: false,
-      };
+      }
     case "selectStackedPercent":
       return {
         ...prevState,
         selectedChartType: "stacked-percent",
         isRange: true,
         isSelectEnergyFamilyDisabled: false,
-      };
+      }
     case "selectLine":
       return {
         ...prevState,
         selectedChartType: "line",
         isRange: true,
         isSelectEnergyFamilyDisabled: false,
-      };
+      }
     case "selectRanking":
       return {
         ...prevState,
         selectedChartType: "ranking",
         isSelectEnergyFamilyDisabled: true,
         isRange: false,
-      };
+      }
     case "selectYears":
       return {
         ...prevState,
         selectedYearRange: action.payload.selectedYearRange,
-      };
+      }
     default:
-      console.warn(`Reducer didn't match any action of type ${action.type}`);
-      return prevState;
+      console.warn(`Reducer didn't match any action of type ${action.type}`)
+      return prevState
   }
-};
+}
 
-export default Co2FromEnergy;
+export default Co2FromEnergy

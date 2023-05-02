@@ -1,11 +1,11 @@
-import { useQuery } from "@apollo/client";
-import gql from "graphql-tag";
-import { NextPage } from "next";
-import Head from "next/head";
-import { ParsedUrlQueryInput } from "querystring";
-import React, { Fragment, useEffect, useReducer, useState, useRef } from "react";
-import { Range } from "react-input-range";
-import { useDebounce } from "use-debounce";
+import { useQuery } from "@apollo/client"
+import gql from "graphql-tag"
+import { NextPage } from "next"
+import Head from "next/head"
+import { ParsedUrlQueryInput } from "querystring"
+import React, { Fragment, useEffect, useReducer, useState, useRef } from "react"
+import { Range } from "react-input-range"
+import { useDebounce } from "use-debounce"
 import {
   ChartTypesSelect,
   Footer,
@@ -22,10 +22,10 @@ import {
   SelectContainer,
   GraphInfos,
   SharingButtons,
-} from "../../components";
+} from "../../components"
 
-import StackedChart, { ChartType, StackedChartProps } from "../../components/StackedChart";
-import useSyncParamsWithUrl from "../../hooks/useSyncParamsWithUrl";
+import StackedChart, { ChartType, StackedChartProps } from "../../components/StackedChart"
+import useSyncParamsWithUrl from "../../hooks/useSyncParamsWithUrl"
 import {
   EnergyUnit,
   GetOilDimensionQuery,
@@ -33,13 +33,13 @@ import {
   OilDimensions,
   OilInputsQuery,
   OilInputsQueryVariables,
-} from "../../types";
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton";
-import useOnYearRangeChange from "../../hooks/useOnYearRangeChange";
-import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable";
+} from "../../types"
+import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
+import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
+import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
 
 const Oil: NextPage<DefaultProps> = ({ params }) => {
-  const stackedChartRef = useRef(null);
+  const stackedChartRef = useRef(null)
   // Reducer state
   const [
     {
@@ -68,22 +68,23 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
       iframe,
     },
     dispatch,
-  ] = useReducer(reducer, { ...params });
+  ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
-    OilInputsQuery,
-    OilInputsQueryVariables
-  >(INPUTS, {
+  const {
+    loading: loadingInputs,
+    data: dataInputs,
+    error: errorInputs,
+  } = useQuery<OilInputsQuery, OilInputsQueryVariables>(INPUTS, {
     variables: {
       countriesOnly: selectedDimension === "importExport",
     },
-  });
+  })
 
   // Manage specific state with URL params
-  const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}));
-  const [highchartsSeriesAndCategories, setHighchartsSeriesAndCategories] = useState({ series: [], categories: [] });
+  const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}))
+  const [highchartsSeriesAndCategories, setHighchartsSeriesAndCategories] = useState({ series: [], categories: [] })
   // Prevent re-fetching data each time year changes
-  const [debouncedYearRange] = useDebounce(selectedYearRange, 300);
+  const [debouncedYearRange] = useDebounce(selectedYearRange, 300)
 
   // Update the url params when any dependency changes (the array in the useEffect hook)
   useEffect(() => {
@@ -110,7 +111,7 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
       type: selectedType,
       "import-types": selectedImportExportTypes,
       unit: displayedUnit,
-    });
+    })
   }, [
     selectedChartType,
     chartTypes,
@@ -133,11 +134,11 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
     selectedReserve,
     selectedCurves,
     selectedScenari,
-  ]);
+  ])
   // Applies the urlParams change to the real URL.
-  useSyncParamsWithUrl(urlParams);
+  useSyncParamsWithUrl(urlParams)
 
-  const [graphTitle, setGraphTitle] = useState<string>("");
+  const [graphTitle, setGraphTitle] = useState<string>("")
   // Fetches the graph data, automatically re-fetches when any variable changes
   const { data: dimensionData, loading: dimensionLoading } = useQuery<
     GetOilDimensionQuery,
@@ -167,40 +168,40 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
       scenari: selectedScenari,
       curves: selectedCurves,
     },
-  });
+  })
   useEffect(() => {
     if (dimensionData?.oil && dimensionData.oil[selectedDimension]) {
       setHighchartsSeriesAndCategories(
         dimensionData.oil[selectedDimension] as StackedChartProps["highchartsSeriesAndCategories"]
-      );
+      )
     } else if (dimensionData?.energyIntensityGDP?.total) {
-      setHighchartsSeriesAndCategories(dimensionData.energyIntensityGDP.total);
+      setHighchartsSeriesAndCategories(dimensionData.energyIntensityGDP.total)
     } else if (dimensionData?.importExport?.total) {
-      setHighchartsSeriesAndCategories(dimensionData.importExport.total);
+      setHighchartsSeriesAndCategories(dimensionData.importExport.total)
     } else {
-      setHighchartsSeriesAndCategories({ series: [], categories: [] });
+      setHighchartsSeriesAndCategories({ series: [], categories: [] })
     }
-  }, [dimensionData, selectedDimension]);
+  }, [dimensionData, selectedDimension])
 
   // Update graph title
   useEffect(() => {
-    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : "";
-    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : "";
-    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max;
-    setGraphTitle(`Oil ${selectedType}${displayedDimension}, ${displayedGroupNames} ${displayedYears}`);
-  }, [selectedGroupNames, selectedType, selectedYearRange, selectedDimension, isRange]);
+    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : ""
+    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : ""
+    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
+    setGraphTitle(`Oil ${selectedType}${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
+  }, [selectedGroupNames, selectedType, selectedYearRange, selectedDimension, isRange])
 
   function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV();
+    stackedChartRef.current.downloadCSV()
   }
   function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart();
+    stackedChartRef.current.exportChart()
   }
-  const onYearRangeChange = useOnYearRangeChange(dispatch);
-  let inputs: any;
+  const onYearRangeChange = useOnYearRangeChange(dispatch)
+  let inputs: any
 
   if (errorInputs) {
-    inputs = <p>Error, couldn\'t fetch data. Might be an internet connection problem.</p>;
+    inputs = <p>Error, couldn\'t fetch data. Might be an internet connection problem.</p>
   } else if (
     loadingInputs ||
     !dataInputs ||
@@ -209,7 +210,7 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
     !dataInputs.primaryEnergies ||
     !dataInputs.importExport
   ) {
-    inputs = <p>Loading...</p>;
+    inputs = <p>Loading...</p>
   } else {
     const {
       energyUnits,
@@ -226,10 +227,10 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
       reserves,
       curves,
       scenari,
-    } = dataInputs.oil;
-    const { gdpUnits } = dataInputs.energyIntensityGDP;
-    const { types } = dataInputs.primaryEnergies;
-    const { importExportTypes } = dataInputs.importExport;
+    } = dataInputs.oil
+    const { gdpUnits } = dataInputs.energyIntensityGDP
+    const { types } = dataInputs.primaryEnergies
+    const { importExportTypes } = dataInputs.importExport
     inputs = (
       <Fragment>
         <div>
@@ -274,7 +275,7 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
                 dispatch({
                   type: "selectGroupNames",
                   payload: { selectedGroupNames },
-                });
+                })
               }}
             />
           )}
@@ -289,7 +290,7 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
                 dispatch({
                   type: "selectSectors",
                   payload: { selectedSectors },
-                });
+                })
               }}
             />
           )}
@@ -303,7 +304,7 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
                 dispatch({
                   type: "selectEnergyUnit",
                   payload: { selectedEnergyUnit },
-                });
+                })
               }}
             />
           )}
@@ -317,7 +318,7 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
                 dispatch({
                   type: "selectGdpUnit",
                   payload: { selectedGdpUnit },
-                });
+                })
               }}
             />
           )}
@@ -334,7 +335,7 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
                   dispatch({
                     type: "selectType",
                     payload: { selectedType },
-                  });
+                  })
                 }}
               />
             )}
@@ -349,7 +350,7 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
                 dispatch({
                   type: "selectImportExportTypes",
                   payload: { selectedImportExportTypes },
-                });
+                })
               }}
             />
           )}
@@ -364,7 +365,7 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
                   dispatch({
                     type: "selectReserve",
                     payload: { selectedReserve },
-                  });
+                  })
                 }}
               />
               <TypesInput
@@ -377,7 +378,7 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
                   dispatch({
                     type: "selectScenari",
                     payload: { selectedScenari },
-                  });
+                  })
                 }}
               />
               <TypesInput
@@ -390,7 +391,7 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
                   dispatch({
                     type: "selectCurves",
                     payload: { selectedCurves },
-                  });
+                  })
                 }}
               />
             </Fragment>
@@ -406,7 +407,7 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
                   dispatch({
                     type: "selectOldUrr",
                     payload: { selectedOldUrr },
-                  });
+                  })
                 }}
               />
               <TypesInput
@@ -419,7 +420,7 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
                   dispatch({
                     type: "selectOldScenari",
                     payload: { selectedOldScenari },
-                  });
+                  })
                 }}
               />
               <TypesInput
@@ -432,7 +433,7 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
                   dispatch({
                     type: "selectOldCurves",
                     payload: { selectedOldCurves },
-                  });
+                  })
                 }}
               />
             </Fragment>
@@ -449,28 +450,28 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
                     payload: {
                       selectedSectors: sectors.map((item) => item.name),
                     },
-                  });
-                  break;
+                  })
+                  break
                 case "line":
-                  dispatch({ type: "selectLine" });
-                  break;
+                  dispatch({ type: "selectLine" })
+                  break
                 case "stacked":
-                  dispatch({ type: "selectStacked" });
-                  break;
+                  dispatch({ type: "selectStacked" })
+                  break
                 case "ranking":
-                  dispatch({ type: "selectRanking" });
-                  break;
+                  dispatch({ type: "selectRanking" })
+                  break
                 case "stacked-percent":
-                  dispatch({ type: "selectStackedPercent" });
-                  break;
+                  dispatch({ type: "selectStackedPercent" })
+                  break
                 default:
-                  console.warn(`ChartTypes input "${value}" didn't match any chartTypes`);
+                  console.warn(`ChartTypes input "${value}" didn't match any chartTypes`)
               }
             }}
           />
         </SelectContainer>
       </Fragment>
-    );
+    )
   }
   if (iframe) {
     return (
@@ -487,7 +488,7 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
         highchartsSeriesAndCategories={highchartsSeriesAndCategories}
         title={graphTitle}
       />
-    );
+    )
   }
   return (
     <Fragment>
@@ -526,8 +527,8 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
       </Main>
       <Footer />
     </Fragment>
-  );
-};
+  )
+}
 Oil.getInitialProps = async function ({ query }) {
   // Get all the parameters from the URL or set default state
   return {
@@ -611,8 +612,8 @@ Oil.getInitialProps = async function ({ query }) {
       displayedUnit: (query["unit"] as EnergyUnit) ? (query["unit"] as EnergyUnit) : EnergyUnit.Toe,
       chartHeight: (query["chart-height"] as string) ? (query["chart-height"] as string) : "75rem",
     },
-  };
-};
+  }
+}
 
 export const INPUTS = gql`
   query oilInputs($countriesOnly: Boolean!) {
@@ -666,7 +667,7 @@ export const INPUTS = gql`
       oldCurves
     }
   }
-`;
+`
 
 // GraphQL query to get all the chart data
 export const GET_DIMENSION = gql`
@@ -836,34 +837,34 @@ export const GET_DIMENSION = gql`
       }
     }
   }
-`;
+`
 interface DefaultProps {
-  params: ReducerState;
+  params: ReducerState
 }
 interface ReducerState {
-  chartTypes: ChartType[];
-  selectedChartType: ChartType;
-  isGroupNamesMulti: boolean;
-  selectedDimension: OilDimensions;
-  selectedEnergyUnit: GetOilDimensionQueryVariables["energyUnit"];
-  selectedGdpUnit: GetOilDimensionQueryVariables["gdpUnit"];
-  selectedGroupNames: GetOilDimensionQueryVariables["groupNames"];
-  selectedSectors: GetOilDimensionQueryVariables["sectors"];
-  selectedReserve: GetOilDimensionQueryVariables["reserve"];
-  selectedCurves: GetOilDimensionQueryVariables["curves"];
-  selectedScenari: GetOilDimensionQueryVariables["scenari"];
-  selectedOldUrr: GetOilDimensionQueryVariables["oldUrr"];
-  selectedOldCurves: GetOilDimensionQueryVariables["oldCurves"];
-  selectedOldScenari: GetOilDimensionQueryVariables["oldScenari"];
-  selectedType: GetOilDimensionQueryVariables["type"];
-  displayedUnit: StackedChartProps["unit"];
-  selectedImportExportTypes: GetOilDimensionQueryVariables["importExportsTypes"];
-  iframe: boolean;
-  isRange: boolean;
-  isSelectEnergyFamilyDisabled: boolean;
-  showUnitSelect: boolean;
-  selectedYearRange: Range;
-  chartHeight: string;
+  chartTypes: ChartType[]
+  selectedChartType: ChartType
+  isGroupNamesMulti: boolean
+  selectedDimension: OilDimensions
+  selectedEnergyUnit: GetOilDimensionQueryVariables["energyUnit"]
+  selectedGdpUnit: GetOilDimensionQueryVariables["gdpUnit"]
+  selectedGroupNames: GetOilDimensionQueryVariables["groupNames"]
+  selectedSectors: GetOilDimensionQueryVariables["sectors"]
+  selectedReserve: GetOilDimensionQueryVariables["reserve"]
+  selectedCurves: GetOilDimensionQueryVariables["curves"]
+  selectedScenari: GetOilDimensionQueryVariables["scenari"]
+  selectedOldUrr: GetOilDimensionQueryVariables["oldUrr"]
+  selectedOldCurves: GetOilDimensionQueryVariables["oldCurves"]
+  selectedOldScenari: GetOilDimensionQueryVariables["oldScenari"]
+  selectedType: GetOilDimensionQueryVariables["type"]
+  displayedUnit: StackedChartProps["unit"]
+  selectedImportExportTypes: GetOilDimensionQueryVariables["importExportsTypes"]
+  iframe: boolean
+  isRange: boolean
+  isSelectEnergyFamilyDisabled: boolean
+  showUnitSelect: boolean
+  selectedYearRange: Range
+  chartHeight: string
 }
 type ReducerActions =
   | OilDimensions
@@ -886,27 +887,27 @@ type ReducerActions =
   | "selectOldCurves"
   | "selectYears"
   | "selectType"
-  | "selectImportExportTypes";
+  | "selectImportExportTypes"
 const reducer: React.Reducer<
   ReducerState,
   {
-    type: ReducerActions;
+    type: ReducerActions
     payload?: {
-      selectedGroupNames?: ReducerState["selectedGroupNames"];
-      selectedEnergyUnit?: ReducerState["selectedEnergyUnit"];
-      selectedDimension?: ReducerState["selectedDimension"];
-      selectedSectors?: ReducerState["selectedSectors"];
-      selectedYearRange?: ReducerState["selectedYearRange"];
-      selectedReserve?: ReducerState["selectedReserve"];
-      selectedScenari?: ReducerState["selectedScenari"];
-      selectedCurves?: ReducerState["selectedCurves"];
-      selectedOldUrr?: ReducerState["selectedOldUrr"];
-      selectedOldScenari?: ReducerState["selectedOldScenari"];
-      selectedOldCurves?: ReducerState["selectedOldCurves"];
-      selectedGdpUnit?: ReducerState["selectedGdpUnit"];
-      selectedType?: ReducerState["selectedType"];
-      selectedImportExportTypes?: ReducerState["selectedImportExportTypes"];
-    };
+      selectedGroupNames?: ReducerState["selectedGroupNames"]
+      selectedEnergyUnit?: ReducerState["selectedEnergyUnit"]
+      selectedDimension?: ReducerState["selectedDimension"]
+      selectedSectors?: ReducerState["selectedSectors"]
+      selectedYearRange?: ReducerState["selectedYearRange"]
+      selectedReserve?: ReducerState["selectedReserve"]
+      selectedScenari?: ReducerState["selectedScenari"]
+      selectedCurves?: ReducerState["selectedCurves"]
+      selectedOldUrr?: ReducerState["selectedOldUrr"]
+      selectedOldScenari?: ReducerState["selectedOldScenari"]
+      selectedOldCurves?: ReducerState["selectedOldCurves"]
+      selectedGdpUnit?: ReducerState["selectedGdpUnit"]
+      selectedType?: ReducerState["selectedType"]
+      selectedImportExportTypes?: ReducerState["selectedImportExportTypes"]
+    }
   }
 > = (prevState, action) => {
   switch (action.type) {
@@ -922,7 +923,7 @@ const reducer: React.Reducer<
         selectedEnergyUnit: EnergyUnit.Mtoe,
         showUnitSelect: true,
         displayedUnit: EnergyUnit.Mtoe,
-      };
+      }
     case OilDimensions.PerCapita:
       return {
         ...prevState,
@@ -934,7 +935,7 @@ const reducer: React.Reducer<
         isRange: true,
         showUnitSelect: true,
         displayedUnit: EnergyUnit.Toe,
-      };
+      }
     case OilDimensions.ProvenReserve:
       return {
         ...prevState,
@@ -945,7 +946,7 @@ const reducer: React.Reducer<
         isRange: true,
         showUnitSelect: false,
         displayedUnit: "Gb",
-      };
+      }
     case OilDimensions.Extrapolation:
       return {
         ...prevState,
@@ -956,7 +957,7 @@ const reducer: React.Reducer<
         isRange: true,
         showUnitSelect: false,
         displayedUnit: "Mb/d",
-      };
+      }
     case OilDimensions.OldExtrapolation:
       return {
         ...prevState,
@@ -967,7 +968,7 @@ const reducer: React.Reducer<
         isRange: true,
         showUnitSelect: false,
         displayedUnit: "Mb/d",
-      };
+      }
     case OilDimensions.PerGdp:
       return {
         ...prevState,
@@ -979,7 +980,7 @@ const reducer: React.Reducer<
         isRange: true,
         showUnitSelect: true,
         displayedUnit: EnergyUnit.Toe,
-      };
+      }
     case OilDimensions.Total:
       return {
         ...prevState,
@@ -991,7 +992,7 @@ const reducer: React.Reducer<
         showUnitSelect: true,
         isRange: true,
         displayedUnit: EnergyUnit.Mtoe,
-      };
+      }
     case OilDimensions.ImportExport:
       return {
         ...prevState,
@@ -1002,73 +1003,73 @@ const reducer: React.Reducer<
         showUnitSelect: false,
         isRange: true,
         displayedUnit: "Mb/d",
-      };
+      }
     case "selectGroupNames":
       return {
         ...prevState,
         selectedGroupNames: action.payload.selectedGroupNames,
-      };
+      }
     case "selectEnergyUnit":
       return {
         ...prevState,
         selectedEnergyUnit: action.payload.selectedEnergyUnit,
         displayedUnit: action.payload.selectedEnergyUnit,
-      };
+      }
     case "selectGdpUnit":
       return {
         ...prevState,
         selectedGdpUnit: action.payload.selectedGdpUnit,
-      };
+      }
     case "selectType":
       return {
         ...prevState,
         selectedType: action.payload.selectedType,
-      };
+      }
     case "selectImportExportTypes":
       return {
         ...prevState,
         selectedImportExportTypes: action.payload.selectedImportExportTypes,
-      };
+      }
     case "selectDimension":
       return {
         ...prevState,
         selectedDimension: action.payload.selectedDimension,
-      };
+      }
     case "selectSectors":
       return {
         ...prevState,
         selectedSectors: action.payload.selectedSectors,
-      };
+      }
     case "selectReserve":
       return {
         ...prevState,
         selectedReserve: action.payload.selectedReserve,
-      };
+      }
     case "selectScenari":
       return {
         ...prevState,
         selectedScenari: action.payload.selectedScenari,
-      };
+      }
     case "selectCurves":
       return {
         ...prevState,
         selectedCurves: action.payload.selectedCurves,
-      };
+      }
     case "selectOldUrr":
       return {
         ...prevState,
         selectedOldUrr: action.payload.selectedOldUrr,
-      };
+      }
     case "selectOldScenari":
       return {
         ...prevState,
         selectedOldScenari: action.payload.selectedOldScenari,
-      };
+      }
     case "selectOldCurves":
       return {
         ...prevState,
         selectedOldCurves: action.payload.selectedOldCurves,
-      };
+      }
     case "selectPie":
       return {
         ...prevState,
@@ -1076,44 +1077,44 @@ const reducer: React.Reducer<
         selectedChartType: "pie",
         isRange: false,
         isSelectEnergyFamilyDisabled: true,
-      };
+      }
     case "selectStacked":
       return {
         ...prevState,
         selectedChartType: "stacked",
         isRange: true,
         isSelectEnergyFamilyDisabled: false,
-      };
+      }
     case "selectStackedPercent":
       return {
         ...prevState,
         selectedChartType: "stacked-percent",
         isRange: true,
         isSelectEnergyFamilyDisabled: false,
-      };
+      }
     case "selectLine":
       return {
         ...prevState,
         selectedChartType: "line",
         isRange: true,
         isSelectEnergyFamilyDisabled: false,
-      };
+      }
     case "selectRanking":
       return {
         ...prevState,
         selectedChartType: "ranking",
         isSelectEnergyFamilyDisabled: true,
         isRange: false,
-      };
+      }
     case "selectYears":
       return {
         ...prevState,
         selectedYearRange: action.payload.selectedYearRange,
-      };
+      }
     default:
-      console.warn(`Reducer didn't match any action of type ${action.type}`);
-      return prevState;
+      console.warn(`Reducer didn't match any action of type ${action.type}`)
+      return prevState
   }
-};
+}
 
-export default Oil;
+export default Oil

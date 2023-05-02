@@ -1,11 +1,11 @@
-import { useQuery } from "@apollo/client";
-import gql from "graphql-tag";
-import { NextPage } from "next";
-import Head from "next/head";
-import { ParsedUrlQueryInput } from "querystring";
-import React, { Fragment, useEffect, useReducer, useState, useRef } from "react";
-import { Range } from "react-input-range";
-import { useDebounce } from "use-debounce";
+import { useQuery } from "@apollo/client"
+import gql from "graphql-tag"
+import { NextPage } from "next"
+import Head from "next/head"
+import { ParsedUrlQueryInput } from "querystring"
+import React, { Fragment, useEffect, useReducer, useState, useRef } from "react"
+import { Range } from "react-input-range"
+import { useDebounce } from "use-debounce"
 import {
   ChartTypesSelect,
   Footer,
@@ -22,9 +22,9 @@ import {
   GraphInfos,
   SelectContainer,
   SharingButtons,
-} from "../../components";
-import StackedChart, { ChartType, StackedChartProps } from "../../components/StackedChart";
-import useSyncParamsWithUrl from "../../hooks/useSyncParamsWithUrl";
+} from "../../components"
+import StackedChart, { ChartType, StackedChartProps } from "../../components/StackedChart"
+import useSyncParamsWithUrl from "../../hooks/useSyncParamsWithUrl"
 import {
   Co2eqUnit,
   GetGhgByGasDimensionQuery,
@@ -32,13 +32,13 @@ import {
   GhgByGasDimensions,
   GhgByGasInputsQuery,
   GhgByGasInputsQueryVariables,
-} from "../../types";
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton";
-import useOnYearRangeChange from "../../hooks/useOnYearRangeChange";
-import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable";
+} from "../../types"
+import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
+import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
+import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
 
 const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
-  const stackedChartRef = useRef(null);
+  const stackedChartRef = useRef(null)
   // Reducer state
   const [
     {
@@ -57,30 +57,31 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
       iframe,
     },
     dispatch,
-  ] = useReducer(reducer, { ...params });
+  ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
-    GhgByGasInputsQuery,
-    GhgByGasInputsQueryVariables
-  >(INPUTS, {
+  const {
+    loading: loadingInputs,
+    data: dataInputs,
+    error: errorInputs,
+  } = useQuery<GhgByGasInputsQuery, GhgByGasInputsQueryVariables>(INPUTS, {
     variables: {
       source: selectedSource,
       dimension: selectedDimension,
     },
-  });
+  })
 
   // Manage specific state with URL params
-  const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}));
+  const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}))
   // Prevent re-fetching data each time year changes
-  const [debouncedYearRange] = useDebounce(selectedYearRange, 300);
+  const [debouncedYearRange] = useDebounce(selectedYearRange, 300)
 
   // Select all sectors if the list changes (normally when data source changes)
-  const tempSectors = dataInputs?.gHGByGas?.sectors;
+  const tempSectors = dataInputs?.gHGByGas?.sectors
   useEffect(() => {
     if (tempSectors) {
-      dispatch({ type: "selectSectors", payload: { selectedSectors: tempSectors.map((sector) => sector.name) } });
+      dispatch({ type: "selectSectors", payload: { selectedSectors: tempSectors.map((sector) => sector.name) } })
     }
-  }, [tempSectors]);
+  }, [tempSectors])
   // Update the url params when any dependency changes (the array in the useEffect hook)
   useEffect(() => {
     setUrlParams({
@@ -95,7 +96,7 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
       end: debouncedYearRange.max,
       start: debouncedYearRange.min,
       multi: isGroupNamesMulti,
-    });
+    })
   }, [
     selectedChartType,
     chartTypes,
@@ -107,11 +108,11 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
     selectedSource,
     isRange,
     isGroupNamesMulti,
-  ]);
+  ])
   // Applies the urlParams change to the real URL.
-  useSyncParamsWithUrl(urlParams);
+  useSyncParamsWithUrl(urlParams)
 
-  const [graphTitle, setGraphTitle] = useState<string>("");
+  const [graphTitle, setGraphTitle] = useState<string>("")
   // Fetches the graph data, automatically re-fetches when any variable changes
   const { data: dimensionData, loading: dimensionLoading } = useQuery<
     GetGhgByGasDimensionQuery,
@@ -133,30 +134,30 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
       yearStart: 0,
       yearEnd: 3000,
     },
-  });
+  })
 
   // Update graph title
   useEffect(() => {
-    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : "";
-    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : "";
-    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max;
-    setGraphTitle(`Greenhouse Gas${displayedDimension}, ${displayedGroupNames} ${displayedYears}`);
-  }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange]);
+    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : ""
+    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : ""
+    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
+    setGraphTitle(`Greenhouse Gas${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
+  }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange])
 
   function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV();
+    stackedChartRef.current.downloadCSV()
   }
   function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart();
+    stackedChartRef.current.exportChart()
   }
-  const onYearRangeChange = useOnYearRangeChange(dispatch);
-  let inputs: any;
+  const onYearRangeChange = useOnYearRangeChange(dispatch)
+  let inputs: any
   if (errorInputs) {
-    inputs = <p>Error, couldn\'t fetch data. Might be an internet connection problem.</p>;
+    inputs = <p>Error, couldn\'t fetch data. Might be an internet connection problem.</p>
   } else if (loadingInputs || !dataInputs || !dataInputs.gHGByGas) {
-    inputs = <p>Loading...</p>;
+    inputs = <p>Loading...</p>
   } else {
-    const { emissionsUnits, zones, groups, countries, dimensions, sectors, gases, sources } = dataInputs.gHGByGas;
+    const { emissionsUnits, zones, groups, countries, dimensions, sectors, gases, sources } = dataInputs.gHGByGas
 
     inputs = (
       <Fragment>
@@ -191,7 +192,7 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
               dispatch({
                 type: "selectGroupNames",
                 payload: { selectedGroupNames },
-              });
+              })
             }}
           />
           {selectedDimension === "bySector" && (
@@ -205,7 +206,7 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
                 dispatch({
                   type: "selectSectors",
                   payload: { selectedSectors },
-                });
+                })
               }}
             />
           )}
@@ -220,7 +221,7 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
                 dispatch({
                   type: "selectGases",
                   payload: { selectedGases },
-                });
+                })
               }}
             />
           )}
@@ -233,7 +234,7 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
               dispatch({
                 type: "selectCo2eqUnit",
                 payload: { selectedCo2eqUnit },
-              });
+              })
             }}
           />
           <RadioSelect
@@ -245,7 +246,7 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
               dispatch({
                 type: "selectSource",
                 payload: { selectedSource, selectedSectors: sectors.map((sector) => sector.name) },
-              });
+              })
             }}
           />
           <ChartTypesSelect
@@ -261,28 +262,28 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
                       selectedGases: gases.map((item) => item.name),
                       selectedSectors: sectors.map((item) => item.name),
                     },
-                  });
-                  break;
+                  })
+                  break
                 case "line":
-                  dispatch({ type: "selectLine" });
-                  break;
+                  dispatch({ type: "selectLine" })
+                  break
                 case "stacked":
-                  dispatch({ type: "selectStacked" });
-                  break;
+                  dispatch({ type: "selectStacked" })
+                  break
                 case "ranking":
-                  dispatch({ type: "selectRanking" });
-                  break;
+                  dispatch({ type: "selectRanking" })
+                  break
                 case "stacked-percent":
-                  dispatch({ type: "selectStackedPercent" });
-                  break;
+                  dispatch({ type: "selectStackedPercent" })
+                  break
                 default:
-                  console.warn(`ChartTypes input "${value}" didn't match any chartTypes`);
+                  console.warn(`ChartTypes input "${value}" didn't match any chartTypes`)
               }
             }}
           />
         </SelectContainer>
       </Fragment>
-    );
+    )
   }
   if (iframe) {
     return (
@@ -303,7 +304,7 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
             : { series: [], categories: [] }
         }
       />
-    );
+    )
   }
   return (
     <Fragment>
@@ -348,8 +349,8 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
       </Main>
       <Footer />
     </Fragment>
-  );
-};
+  )
+}
 GhgByGas.getInitialProps = async function ({ query }) {
   // Get all the parameters from the URL or set default state
   return {
@@ -396,8 +397,8 @@ GhgByGas.getInitialProps = async function ({ query }) {
         : ["CO2", "CH4", "N2O", "F-Gases"],
       chartHeight: (query["chart-height"] as string) ? (query["chart-height"] as string) : "75rem",
     },
-  };
-};
+  }
+}
 
 export const INPUTS = gql`
   query ghgByGasInputs($dimension: GHGByGasDimensions!, $source: String!) {
@@ -428,7 +429,7 @@ export const INPUTS = gql`
       dimensions
     }
   }
-`;
+`
 
 // GraphQL query to get all the chart data
 export const GET_DIMENSION = gql`
@@ -531,24 +532,24 @@ export const GET_DIMENSION = gql`
       }
     }
   }
-`;
+`
 interface DefaultProps {
-  params: ReducerState;
+  params: ReducerState
 }
 interface ReducerState {
-  chartTypes: ChartType[];
-  selectedChartType: ChartType;
-  isGroupNamesMulti: boolean;
-  selectedDimension: GhgByGasDimensions;
-  selectedCo2eqUnit: GetGhgByGasDimensionQueryVariables["emissionsUnit"];
-  selectedGroupNames: GetGhgByGasDimensionQueryVariables["groupNames"];
-  selectedGases: GetGhgByGasDimensionQueryVariables["gases"];
-  selectedSectors: GetGhgByGasDimensionQueryVariables["sectors"];
-  selectedSource: GetGhgByGasDimensionQueryVariables["source"];
-  iframe: boolean;
-  isRange: boolean;
-  selectedYearRange: Range;
-  chartHeight: string;
+  chartTypes: ChartType[]
+  selectedChartType: ChartType
+  isGroupNamesMulti: boolean
+  selectedDimension: GhgByGasDimensions
+  selectedCo2eqUnit: GetGhgByGasDimensionQueryVariables["emissionsUnit"]
+  selectedGroupNames: GetGhgByGasDimensionQueryVariables["groupNames"]
+  selectedGases: GetGhgByGasDimensionQueryVariables["gases"]
+  selectedSectors: GetGhgByGasDimensionQueryVariables["sectors"]
+  selectedSource: GetGhgByGasDimensionQueryVariables["source"]
+  iframe: boolean
+  isRange: boolean
+  selectedYearRange: Range
+  chartHeight: string
 }
 type ReducerActions =
   | GhgByGasDimensions
@@ -563,20 +564,20 @@ type ReducerActions =
   | "selectStacked"
   | "selectStackedPercent"
   | "selectRanking"
-  | "selectYears";
+  | "selectYears"
 const reducer: React.Reducer<
   ReducerState,
   {
-    type: ReducerActions;
+    type: ReducerActions
     payload?: {
-      selectedGroupNames?: ReducerState["selectedGroupNames"];
-      selectedCo2eqUnit?: ReducerState["selectedCo2eqUnit"];
-      selectedDimension?: ReducerState["selectedDimension"];
-      selectedSectors?: ReducerState["selectedSectors"];
-      selectedGases?: ReducerState["selectedGases"];
-      selectedYearRange?: ReducerState["selectedYearRange"];
-      selectedSource?: ReducerState["selectedSource"];
-    };
+      selectedGroupNames?: ReducerState["selectedGroupNames"]
+      selectedCo2eqUnit?: ReducerState["selectedCo2eqUnit"]
+      selectedDimension?: ReducerState["selectedDimension"]
+      selectedSectors?: ReducerState["selectedSectors"]
+      selectedGases?: ReducerState["selectedGases"]
+      selectedYearRange?: ReducerState["selectedYearRange"]
+      selectedSource?: ReducerState["selectedSource"]
+    }
   }
 > = (prevState, action) => {
   switch (action.type) {
@@ -590,7 +591,7 @@ const reducer: React.Reducer<
         selectedGroupNames: prevState.selectedGroupNames.splice(0, 1),
         isGroupNamesMulti: false,
         selectedCo2eqUnit: Co2eqUnit.MtCo2eq,
-      };
+      }
     case GhgByGasDimensions.BySector:
       return {
         ...prevState,
@@ -602,7 +603,7 @@ const reducer: React.Reducer<
         selectedSectors: action.payload.selectedSectors,
         isGroupNamesMulti: false,
         selectedCo2eqUnit: Co2eqUnit.MtCo2eq,
-      };
+      }
     case GhgByGasDimensions.Total:
       return {
         ...prevState,
@@ -612,7 +613,7 @@ const reducer: React.Reducer<
         isGroupNamesMulti: true,
         selectedCo2eqUnit: Co2eqUnit.MtCo2eq,
         isRange: true,
-      };
+      }
     case GhgByGasDimensions.PerCapita:
       return {
         ...prevState,
@@ -622,37 +623,37 @@ const reducer: React.Reducer<
         isGroupNamesMulti: true,
         selectedCo2eqUnit: Co2eqUnit.TCo2eq,
         isRange: true,
-      };
+      }
     case "selectGroupNames":
       return {
         ...prevState,
         selectedGroupNames: action.payload.selectedGroupNames,
-      };
+      }
     case "selectCo2eqUnit":
       return {
         ...prevState,
         selectedCo2eqUnit: action.payload.selectedCo2eqUnit,
-      };
+      }
     case "selectSource":
       return {
         ...prevState,
         selectedSource: action.payload.selectedSource,
-      };
+      }
     case "selectDimension":
       return {
         ...prevState,
         selectedDimension: action.payload.selectedDimension,
-      };
+      }
     case "selectGases":
       return {
         ...prevState,
         selectedGases: action.payload.selectedGases,
-      };
+      }
     case "selectSectors":
       return {
         ...prevState,
         selectedSectors: action.payload.selectedSectors,
-      };
+      }
     case "selectPie":
       return {
         ...prevState,
@@ -660,40 +661,40 @@ const reducer: React.Reducer<
         selectedGases: action.payload.selectedGases,
         selectedChartType: "pie",
         isRange: false,
-      };
+      }
     case "selectStacked":
       return {
         ...prevState,
         selectedChartType: "stacked",
         isRange: true,
-      };
+      }
     case "selectStackedPercent":
       return {
         ...prevState,
         selectedChartType: "stacked-percent",
         isRange: true,
-      };
+      }
     case "selectLine":
       return {
         ...prevState,
         selectedChartType: "line",
         isRange: true,
-      };
+      }
     case "selectRanking":
       return {
         ...prevState,
         selectedChartType: "ranking",
         isRange: false,
-      };
+      }
     case "selectYears":
       return {
         ...prevState,
         selectedYearRange: action.payload.selectedYearRange,
-      };
+      }
     default:
-      console.warn(`Reducer didn't match any action of type ${action.type}`);
-      return prevState;
+      console.warn(`Reducer didn't match any action of type ${action.type}`)
+      return prevState
   }
-};
+}
 
-export default GhgByGas;
+export default GhgByGas

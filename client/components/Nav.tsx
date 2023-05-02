@@ -1,13 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
-import Link from "next/link";
-import { flexbox, layout, padding, space, typography } from "styled-system";
-import { useTheme } from "@emotion/react";
-import { Fragment } from "react";
+import React from "react"
+import Link from "next/link"
+import { flexbox, layout, padding, space, typography } from "styled-system"
+import { useTheme } from "@emotion/react"
+import { Fragment } from "react"
 import styled from "@emotion/styled"
 
 const Nav = ({ mt = 4 }) => {
-  const theme = useTheme();
+  const theme = useTheme()
   return (
     <Fragment>
       <Banner>
@@ -35,7 +35,7 @@ const Nav = ({ mt = 4 }) => {
           <Ul marginTop={[2, 0]}>
             <li>
               <CategoryLink href="/energy" passHref fontSize={4} bubbleColor={theme.colors.orange}>
-                  ENERGY
+                ENERGY
               </CategoryLink>
             </li>
             <li>
@@ -52,19 +52,19 @@ const Nav = ({ mt = 4 }) => {
         </Container>
       </div>
     </Fragment>
-  );
-};
+  )
+}
 const Ul = styled.ul`
   ${space};
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-`;
+`
 const Container = styled.nav`
   ${flexbox};
   ${layout};
   ${space};
-`;
+`
 const CategoryLink = styled(Link)`
   ${space}
   ${typography}
@@ -84,16 +84,16 @@ const CategoryLink = styled(Link)`
     border-radius: 50%;
     width: 8px;
     height: 8px;
-    background-color: ${p => p.bubbleColor};
+    background-color: ${(p) => p.bubbleColor};
     transition: transform 0.3s;
     left: 2px;
   }
-`;
+`
 
 const TsdLink = styled.a`
   display: flex;
   justify-content: center;
-`;
+`
 const TsdLogoSquare = () => (
   <StyledTsdLogoSquare viewBox="0 0 132 53" xmlns="http://www.w3.org/2000/svg">
     <g fillRule="nonzero" fill="none">
@@ -106,10 +106,10 @@ const TsdLogoSquare = () => (
       />
     </g>
   </StyledTsdLogoSquare>
-);
+)
 const StyledTsdLogoSquare = styled.svg`
   width: 132px;
-`;
+`
 const Banner = styled.div`
   background-color: rgba(255, 0, 0, 0.1);
   color: black;
@@ -117,6 +117,6 @@ const Banner = styled.div`
   width: 100%;
   text-align: center;
   font-size: 0.9rem;
-`;
+`
 
-export default Nav;
+export default Nav

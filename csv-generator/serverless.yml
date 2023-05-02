@@ -6,7 +6,7 @@ provider:
   memorySize: 512
   stage: ${env:NODE_ENV}
   region: us-east-1
-  environment: 
+  environment:
     NODE_ENV: ${env:NODE_ENV}
 
 plugins:
@@ -20,7 +20,7 @@ functions:
     handler: handler.test
     events:
       - http:
-          path: 'test'
+          path: "test"
           method: GET
   csv: # name of the service
     handler: handler.csv # function that is going to handle the logic
@@ -30,15 +30,14 @@ functions:
           method: POST
           cors: true
 
-
 custom:
   customDomain:
     domainName: ${env:CSV_URN}
-    basePath: ''
+    basePath: ""
     stage: ${env:NODE_ENV}
     createRoute53Record: true
   apigwBinary:
     types:
-      - '*/*'
+      - "*/*"
   serverless-offline:
     port: ${env:CSV_PORT}

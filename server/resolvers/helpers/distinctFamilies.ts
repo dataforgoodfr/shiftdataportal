@@ -8,7 +8,7 @@ const distinctFamilies = async (tableName: string, columnName: string, source: s
 
   return (
     // Return a list of strings and not a list of objects
-    res.map(family => family[columnName])
+    res.map((family) => family[columnName])
   );
 };
 export default distinctFamilies;

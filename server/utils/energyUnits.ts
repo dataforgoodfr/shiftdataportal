@@ -11,5 +11,5 @@ export default {
   Mmbtu: "Mmbtu",
   EJ: "EJ",
   toe: "toe",
-  KWh: "KWh"
+  KWh: "KWh",
 };

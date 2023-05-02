@@ -1,5 +1,5 @@
-import React from "react";
-import Markdown from "markdown-to-jsx";
+import React from "react"
+import Markdown from "markdown-to-jsx"
 export default function GraphInfos({ children }) {
   return (
     <Markdown
@@ -15,5 +15,5 @@ export default function GraphInfos({ children }) {
         },
       }}
     />
-  );
+  )
 }

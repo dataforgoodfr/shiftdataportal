@@ -1,39 +1,37 @@
-
-import { Global, css } from "@emotion/react";
-import { ThemeProvider } from "@emotion/react";
-import { AppProps } from "next/app";
-import Router from "next/router";
-import Head from "next/head";
-import React from "react";
-import theme from "../lib/theme";
-import * as gtag from "../lib/gtag";
-import { useApollo } from "../lib/apolloClient";
-import { ApolloProvider } from "@apollo/client";
+import { Global, css } from "@emotion/react"
+import { ThemeProvider } from "@emotion/react"
+import { AppProps } from "next/app"
+import Router from "next/router"
+import Head from "next/head"
+import React from "react"
+import theme from "../lib/theme"
+import * as gtag from "../lib/gtag"
+import { useApollo } from "../lib/apolloClient"
+import { ApolloProvider } from "@apollo/client"
 export interface IProps extends AppProps {}
-Router.events.on("routeChangeComplete", (url) => gtag.pageview(url));
+Router.events.on("routeChangeComplete", (url) => gtag.pageview(url))
 export default function App({ pageProps, Component }: IProps) {
-  const apolloClient = useApollo(pageProps.initialApolloState);
+  const apolloClient = useApollo(pageProps.initialApolloState)
 
   return (
     <ThemeProvider theme={theme}>
+      {globalStyles}
+      <ApolloProvider client={apolloClient}>
+        <Head>
+          <link href="https://fonts.gstatic.com/" rel="preconnect" crossOrigin="anonymous" />
+          <link rel="preconnect" href="https://www.google-analytics.com"></link>
+          <link
+            href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans:400,700&display=swap"
+            rel="stylesheet"
+          ></link>
 
-        {globalStyles}
-        <ApolloProvider client={apolloClient}>
-          <Head>
-            <link href="https://fonts.gstatic.com/" rel="preconnect" crossOrigin="anonymous" />
-            <link rel="preconnect" href="https://www.google-analytics.com"></link>
-            <link
-              href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans:400,700&display=swap"
-              rel="stylesheet"
-            ></link>
-
-            <meta name="description" content="The Shift Project's Data Portal" />
-            <title>The Shift Data Portal</title>
-          </Head>
-          <Component {...pageProps} />
-        </ApolloProvider>
+          <meta name="description" content="The Shift Project's Data Portal" />
+          <title>The Shift Data Portal</title>
+        </Head>
+        <Component {...pageProps} />
+      </ApolloProvider>
     </ThemeProvider>
-  );
+  )
 }
 
 const globalStyles = (
@@ -311,4 +309,4 @@ const globalStyles = (
       }
     `}
   />
-);
+)

@@ -12,9 +12,9 @@ import {
   CoalDimensions,
   RenewableEnergiesDimensions,
   NuclearDimensions,
-  Co2ImportsExportsDimensions
-} from "../types";
-import { IDimension as ReadableIDimension } from "../pages/energy";
+  Co2ImportsExportsDimensions,
+} from "../types"
+import { IDimension as ReadableIDimension } from "../pages/energy"
 export type IDimension =
   | FinalEnergiesDimensions
   | GasDimensions
@@ -32,41 +32,41 @@ export type IDimension =
   | RenewableEnergiesDimensions
   | NuclearDimensions
   | Co2ImportsExportsDimensions
-  | "ranking";
-export default function dimensionToHumanReadable(dimension: IDimension): ReadableIDimension["title"]  {
+  | "ranking"
+export default function dimensionToHumanReadable(dimension: IDimension): ReadableIDimension["title"] {
   switch (dimension) {
     case "byGas":
-      return "by gas";
+      return "by gas"
     case "perCapita":
-      return "per capita";
+      return "per capita"
     case "total":
-      return "total";
+      return "total"
     case "perGDP":
-      return "per GDP";
+      return "per GDP"
     case "byEnergyFamily":
-      return "by source";
+      return "by source"
     case "bySector":
-      return "by sector";
+      return "by sector"
     case "ranking":
-      return "top countries";
+      return "top countries"
     case "provenReserve":
-      return "proven reserves";
+      return "proven reserves"
     case "oldExtrapolation":
-      return "old extrapolation";
+      return "old extrapolation"
     case "extrapolation":
-      return "extrapolation";
+      return "extrapolation"
     case "importExport":
-      return "import / export";
+      return "import / export"
     case "shareOfPrimaryEnergy":
-      return "share of primary energy";
+      return "share of primary energy"
     case "shareOfElectricityGeneration":
-      return "share of electricity generation";
+      return "share of electricity generation"
     case "byCountry":
-      return "by country";
+      return "by country"
     case "byContinent":
-      return "by continent";
+      return "by continent"
     default:
-      console.warn(`Dimension : ${dimension} not found, fallbacking to 'Unknown'`);
-      return "unknown";
+      console.warn(`Dimension : ${dimension} not found, fallbacking to 'Unknown'`)
+      return "unknown"
   }
-};
+}

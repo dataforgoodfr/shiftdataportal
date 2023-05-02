@@ -1,6 +1,6 @@
-import React from "react";
-import styled from "@emotion/styled";
-import { color, fontSize } from "styled-system";
+import React from "react"
+import styled from "@emotion/styled"
+import { color, fontSize } from "styled-system"
 
 const Container = styled.div`
   display: flex;
@@ -15,11 +15,11 @@ const Container = styled.div`
   }
   ${color}
   ${fontSize}
-`;
+`
 const Share: React.FC = ({ children }) => (
   <Container fontSize={[4]} color="lightBlack">
     {children}
   </Container>
-);
+)
 
-export default Share;
+export default Share

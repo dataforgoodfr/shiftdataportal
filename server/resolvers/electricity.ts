@@ -7,7 +7,7 @@ import {
   IEA_API_electricity_by_energy_family_prepared_prod as BY_ENERGY_FAMILY,
   ENERGY_PER_CAPITA_energy_per_capita_prod as PER_CAPITA,
   COUNTRY_multiselect_groups_prod as MULTI_SELECT,
-  WORLD_ENERGY_HISTORY_electricity_capacity_prod as CAPACITY
+  WORLD_ENERGY_HISTORY_electricity_capacity_prod as CAPACITY,
 } from "../dbSchema";
 
 import typeColor from "../utils/typeColor";
@@ -31,7 +31,7 @@ const electricity: ElectricityResolvers = {
       .orderBy("sumEnergy", "DESC")
       .pluck(BY_ENERGY_FAMILY.energy_family)
       .cache(15 * 60);
-    return res.map(energyFamily => ({ name: energyFamily, color: typeColor(energyFamily) }));
+    return res.map((energyFamily) => ({ name: energyFamily, color: typeColor(energyFamily) }));
   },
   async capacityEnergyFamilies(_, __, { dataSources: { db } }): Promise<Electricity["capacityEnergyFamilies"]> {
     const res = await db
@@ -42,7 +42,7 @@ const electricity: ElectricityResolvers = {
       .orderBy("sumEnergy", "DESC")
       .pluck(CAPACITY.energy_family)
       .cache(15 * 60);
-    return res.map(energyFamily => ({ name: energyFamily, color: typeColor(energyFamily) }));
+    return res.map((energyFamily) => ({ name: energyFamily, color: typeColor(energyFamily) }));
   },
   types(): Electricity["types"] {
     return Object.values(ElectricityTypes);
@@ -64,8 +64,8 @@ const electricity: ElectricityResolvers = {
       res.push({
         name: key,
         data: groups[key]
-          .map(countryObject => countryObject.country)
-          .map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+          .map((countryObject) => countryObject.country)
+          .map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
       });
     }
     return res;
@@ -109,22 +109,22 @@ const electricity: ElectricityResolvers = {
       const [resRaw, years] = await Promise.all([resRawQuery, yearsQuery]);
       return {
         categories: years,
-        series: capacityEnergyFamilies.map(energyFamily => {
-          const energyFamilyRaw = resRaw.filter(row => {
+        series: capacityEnergyFamilies.map((energyFamily) => {
+          const energyFamilyRaw = resRaw.filter((row) => {
             return row[CAPACITY.energy_family] === energyFamily;
           });
-          const data = years.map(year =>
+          const data = years.map((year) =>
             // Fill missing year with null in the
-            energyFamilyRaw.find(row => row[CAPACITY.year] === year)
-              ? energyFamilyRaw.find(row => row[CAPACITY.year] === year).sum
+            energyFamilyRaw.find((row) => row[CAPACITY.year] === year)
+              ? energyFamilyRaw.find((row) => row[CAPACITY.year] === year).sum
               : null
           );
           return {
             name: energyFamily,
             data: data as number[],
-            color: typeColor(energyFamily)
+            color: typeColor(energyFamily),
           };
-        })
+        }),
       };
     } else {
       const resRawQuery = db
@@ -137,7 +137,7 @@ const electricity: ElectricityResolvers = {
           db.knex.raw("SUM(??)::numeric * ? as ??", [
             BY_ENERGY_FAMILY.final_energy,
             energyUnit ? energyMultiplier(EnergyUnit.TWh, energyUnit) : 1,
-            BY_ENERGY_FAMILY.final_energy
+            BY_ENERGY_FAMILY.final_energy,
           ])
         )
         .whereIn(BY_ENERGY_FAMILY.energy_family, generationEnergyFamilies)
@@ -165,22 +165,22 @@ const electricity: ElectricityResolvers = {
       const [resRaw, years] = await Promise.all([resRawQuery, yearsQuery]);
       return {
         categories: years,
-        series: generationEnergyFamilies.map(energyFamily => {
-          const energyFamilyRaw = resRaw.filter(row => {
+        series: generationEnergyFamilies.map((energyFamily) => {
+          const energyFamilyRaw = resRaw.filter((row) => {
             return row[BY_ENERGY_FAMILY.energy_family] === energyFamily;
           });
-          const data = years.map(year =>
+          const data = years.map((year) =>
             // Fill missing year with null in the
-            energyFamilyRaw.find(row => row[BY_ENERGY_FAMILY.year] === year)
-              ? energyFamilyRaw.find(row => row[BY_ENERGY_FAMILY.year] === year)[BY_ENERGY_FAMILY.final_energy]
+            energyFamilyRaw.find((row) => row[BY_ENERGY_FAMILY.year] === year)
+              ? energyFamilyRaw.find((row) => row[BY_ENERGY_FAMILY.year] === year)[BY_ENERGY_FAMILY.final_energy]
               : null
           );
           return {
             name: energyFamily,
             data: data as number[],
-            color: typeColor(energyFamily)
+            color: typeColor(energyFamily),
           };
-        })
+        }),
       };
     }
   },
@@ -198,7 +198,7 @@ const electricity: ElectricityResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_CAPITA.energy_per_capita,
           energyUnit ? energyMultiplier(EnergyUnit.TWh, energyUnit) : 1,
-          PER_CAPITA.energy_per_capita
+          PER_CAPITA.energy_per_capita,
         ])
       )
       .whereIn(PER_CAPITA.group_name, groupNames)
@@ -252,36 +252,36 @@ const electricity: ElectricityResolvers = {
       resRawQuery,
       yearsQuery,
       perCapitaTopCountriesDataQuery,
-      perCapitaFlopCountriesDataQuery
+      perCapitaFlopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: perCapitaTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: perCapitaFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
 
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[PER_CAPITA.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[PER_CAPITA.year] === year)
-            ? groupNameRaw.find(row => row[PER_CAPITA.year] === year)[PER_CAPITA.energy_per_capita]
+          groupNameRaw.find((row) => row[PER_CAPITA.year] === year)
+            ? groupNameRaw.find((row) => row[PER_CAPITA.year] === year)[PER_CAPITA.energy_per_capita]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
   },
   async total(
@@ -337,35 +337,35 @@ const electricity: ElectricityResolvers = {
         resRawQuery,
         yearsQuery,
         TotalTopCountriesDataQuery,
-        TotalFlopCountriesDataQuery
+        TotalFlopCountriesDataQuery,
       ]);
       multiSelects.push({
         name: "Quickselect top countries (based on last year)",
-        data: TotalTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+        data: TotalTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
       });
       multiSelects.push({
         name: "Quickselect flop countries (based on last year)",
-        data: TotalFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+        data: TotalFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
       });
       return {
         multiSelects,
         categories: years,
-        series: groupNames.map(groupName => {
-          const groupNameRaw = resRaw.filter(row => {
+        series: groupNames.map((groupName) => {
+          const groupNameRaw = resRaw.filter((row) => {
             return row[CAPACITY.group_name] === groupName;
           });
-          const data = years.map(year =>
+          const data = years.map((year) =>
             // Fill missing year with null in the
-            groupNameRaw.find(row => row[CAPACITY.year] === year)
-              ? groupNameRaw.find(row => row[CAPACITY.year] === year).sum
+            groupNameRaw.find((row) => row[CAPACITY.year] === year)
+              ? groupNameRaw.find((row) => row[CAPACITY.year] === year).sum
               : null
           );
           return {
             name: groupName,
             data: data as number[],
-            color: stringToColor(groupName)
+            color: stringToColor(groupName),
           };
-        })
+        }),
       };
     } else {
       const resRawQuery = db
@@ -376,7 +376,7 @@ const electricity: ElectricityResolvers = {
           db.knex.raw("SUM(??)::numeric * ? as ??", [
             BY_ENERGY_FAMILY.final_energy,
             energyUnit ? energyMultiplier(EnergyUnit.TWh, energyUnit) : 1,
-            BY_ENERGY_FAMILY.final_energy
+            BY_ENERGY_FAMILY.final_energy,
           ])
         )
         .whereIn(BY_ENERGY_FAMILY.group_name, groupNames)
@@ -423,37 +423,37 @@ const electricity: ElectricityResolvers = {
         resRawQuery,
         yearsQuery,
         TotalTopCountriesDataQuery,
-        TotalFlopCountriesDataQuery
+        TotalFlopCountriesDataQuery,
       ]);
       multiSelects.push({
         name: "Quickselect top countries (based on last year)",
-        data: TotalTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+        data: TotalTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
       });
       multiSelects.push({
         name: "Quickselect flop countries (based on last year)",
-        data: TotalFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+        data: TotalFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
       });
       return {
         multiSelects,
         categories: years,
-        series: groupNames.map(groupName => {
-          const groupNameRaw = resRaw.filter(row => {
+        series: groupNames.map((groupName) => {
+          const groupNameRaw = resRaw.filter((row) => {
             return row[BY_ENERGY_FAMILY.group_name] === groupName;
           });
-          const data = years.map(year =>
+          const data = years.map((year) =>
             // Fill missing year with null in the
-            groupNameRaw.find(row => row[BY_ENERGY_FAMILY.year] === year)
-              ? groupNameRaw.find(row => row[BY_ENERGY_FAMILY.year] === year)[BY_ENERGY_FAMILY.final_energy]
+            groupNameRaw.find((row) => row[BY_ENERGY_FAMILY.year] === year)
+              ? groupNameRaw.find((row) => row[BY_ENERGY_FAMILY.year] === year)[BY_ENERGY_FAMILY.final_energy]
               : null
           );
           return {
             name: groupName,
             data: data as number[],
-            color: stringToColor(groupName)
+            color: stringToColor(groupName),
           };
-        })
+        }),
       };
     }
-  }
+  },
 };
 export default electricity;

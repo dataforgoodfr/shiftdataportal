@@ -1,6 +1,6 @@
-import React from "react";
-import styled from "@emotion/styled";
-import { color, space, SpaceProps } from "styled-system";
+import React from "react"
+import styled from "@emotion/styled"
+import { color, space, SpaceProps } from "styled-system"
 
 const StyledH1 = styled.h1`
   position: relative;
@@ -14,14 +14,14 @@ const StyledH1 = styled.h1`
     height: 6px;
     margin-bottom: 4px;
     display: block;
-    background-color: ${p => p.theme.colors.darkBlue};
+    background-color: ${(p) => p.theme.colors.darkBlue};
   }
-`;
+`
 interface IProps extends SpaceProps {}
 
-const H1: React.FC<IProps> = props => (
+const H1: React.FC<IProps> = (props) => (
   <StyledH1 color="lightBlack" {...props}>
     {props.children}
   </StyledH1>
-);
-export default H1;
+)
+export default H1

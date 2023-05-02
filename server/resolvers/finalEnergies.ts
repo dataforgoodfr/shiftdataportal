@@ -6,7 +6,7 @@ import {
   FINAL_ENERGY_CONSUMPTION_final_cons_by_energy_family_full_prod as BY_ENERGY_FAMILY,
   IEA_API_final_cons_by_sector_prod as BY_SECTOR,
   ENERGY_PER_CAPITA_energy_per_capita_prod as PER_CAPITA,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT
+  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
 } from "../dbSchema";
 import typeColor from "../utils/typeColor";
 import stringToColor from "../utils/stringToColor";
@@ -33,8 +33,8 @@ const finalEnergiesResolvers: FinalEnergiesResolvers = {
       res.push({
         name: key,
         data: groups[key]
-          .map(countryObject => countryObject.country)
-          .map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+          .map((countryObject) => countryObject.country)
+          .map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
       });
     }
     return res;
@@ -49,7 +49,7 @@ const finalEnergiesResolvers: FinalEnergiesResolvers = {
       .orderBy("sumEnergy", "DESC")
       .pluck(BY_ENERGY_FAMILY.energy_family)
       .cache(15 * 60);
-    return res.map(energyFamily => ({ name: energyFamily, color: typeColor(energyFamily) }));
+    return res.map((energyFamily) => ({ name: energyFamily, color: typeColor(energyFamily) }));
   },
   async sectors(_, __, { dataSources: { db } }): Promise<FinalEnergies["sectors"]> {
     const res = await db
@@ -60,7 +60,7 @@ const finalEnergiesResolvers: FinalEnergiesResolvers = {
       .orderBy("sumEnergy", "DESC")
       .pluck(BY_SECTOR.sector)
       .cache(15 * 60);
-    return res.map(sector => ({ name: sector, color: typeColor(sector) }));
+    return res.map((sector) => ({ name: sector, color: typeColor(sector) }));
   },
   async countries(_, __, { dataSources: { db } }): Promise<FinalEnergies["countries"]> {
     return await distinctCountries(BY_ENERGY_FAMILY.__tableName, db.knex);
@@ -89,10 +89,10 @@ const finalEnergiesResolvers: FinalEnergiesResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           BY_ENERGY_FAMILY.final_energy,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
-          BY_ENERGY_FAMILY.final_energy
+          BY_ENERGY_FAMILY.final_energy,
         ])
       )
-      .modify(builder => {
+      .modify((builder) => {
         if (energyFamilies) {
           builder.whereIn(BY_ENERGY_FAMILY.energy_family, energyFamilies);
         }
@@ -112,7 +112,7 @@ const finalEnergiesResolvers: FinalEnergiesResolvers = {
     const yearsQuery = db
       .knex(BY_ENERGY_FAMILY.__tableName)
       .distinct(BY_ENERGY_FAMILY.year)
-      .modify(builder => {
+      .modify((builder) => {
         if (energyFamilies) {
           builder.whereIn(BY_ENERGY_FAMILY.energy_family, energyFamilies);
         }
@@ -125,30 +125,30 @@ const finalEnergiesResolvers: FinalEnergiesResolvers = {
     const [resRaw, years] = await Promise.all([resRawQuery, yearsQuery]);
     let filledEnergyFamilies = [];
     const series = [];
-    resRaw.forEach(item => {
+    resRaw.forEach((item) => {
       const energyFamily = item[BY_ENERGY_FAMILY.energy_family];
       if (!filledEnergyFamilies.includes(energyFamily)) {
         filledEnergyFamilies.push(energyFamily);
-        const energyFamilyRaw = resRaw.filter(row => {
+        const energyFamilyRaw = resRaw.filter((row) => {
           return row[BY_ENERGY_FAMILY.energy_family] === energyFamily;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          energyFamilyRaw.find(row => row[BY_ENERGY_FAMILY.year] === year)
-            ? energyFamilyRaw.find(row => row[BY_ENERGY_FAMILY.year] === year)[BY_ENERGY_FAMILY.final_energy]
+          energyFamilyRaw.find((row) => row[BY_ENERGY_FAMILY.year] === year)
+            ? energyFamilyRaw.find((row) => row[BY_ENERGY_FAMILY.year] === year)[BY_ENERGY_FAMILY.final_energy]
             : null
         );
         series.push({
           name: energyFamily,
           data: data as number[],
-          color: typeColor(energyFamily)
+          color: typeColor(energyFamily),
         });
       }
     });
 
     return {
       categories: years,
-      series
+      series,
     };
   },
   async bySector(
@@ -166,7 +166,7 @@ const finalEnergiesResolvers: FinalEnergiesResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           BY_SECTOR.final_energy,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
-          BY_SECTOR.final_energy
+          BY_SECTOR.final_energy,
         ])
       )
       .whereIn(BY_SECTOR.sector, sectors)
@@ -188,22 +188,22 @@ const finalEnergiesResolvers: FinalEnergiesResolvers = {
     const [resRaw, years] = await Promise.all([resRawQuery, yearsQuery]);
     return {
       categories: years,
-      series: sectors.map(sector => {
-        const sectorRaw = resRaw.filter(row => {
+      series: sectors.map((sector) => {
+        const sectorRaw = resRaw.filter((row) => {
           return row[BY_SECTOR.sector] === sector;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          sectorRaw.find(row => row[BY_SECTOR.year] === year)
-            ? sectorRaw.find(row => row[BY_SECTOR.year] === year)[BY_SECTOR.final_energy]
+          sectorRaw.find((row) => row[BY_SECTOR.year] === year)
+            ? sectorRaw.find((row) => row[BY_SECTOR.year] === year)[BY_SECTOR.final_energy]
             : null
         );
         return {
           name: sector,
           data: data as number[],
-          color: typeColor(sector)
+          color: typeColor(sector),
         };
-      })
+      }),
     };
   },
   async perCapita(
@@ -220,7 +220,7 @@ const finalEnergiesResolvers: FinalEnergiesResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_CAPITA.energy_per_capita,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
-          PER_CAPITA.energy_per_capita
+          PER_CAPITA.energy_per_capita,
         ])
       )
       .whereIn(PER_CAPITA.group_name, groupNames)
@@ -274,35 +274,35 @@ const finalEnergiesResolvers: FinalEnergiesResolvers = {
       resRawQuery,
       yearsQuery,
       perCapitaTopCountriesDataQuery,
-      perCapitaFlopCountriesDataQuery
+      perCapitaFlopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: perCapitaTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: perCapitaFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[PER_CAPITA.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[PER_CAPITA.year] === year)
-            ? groupNameRaw.find(row => row[PER_CAPITA.year] === year)[PER_CAPITA.energy_per_capita]
+          groupNameRaw.find((row) => row[PER_CAPITA.year] === year)
+            ? groupNameRaw.find((row) => row[PER_CAPITA.year] === year)[PER_CAPITA.energy_per_capita]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
   },
   async total(
@@ -318,7 +318,7 @@ const finalEnergiesResolvers: FinalEnergiesResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           BY_ENERGY_FAMILY.final_energy,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
-          BY_ENERGY_FAMILY.final_energy
+          BY_ENERGY_FAMILY.final_energy,
         ])
       )
       .whereIn(BY_ENERGY_FAMILY.group_name, groupNames)
@@ -365,36 +365,36 @@ const finalEnergiesResolvers: FinalEnergiesResolvers = {
       resRawQuery,
       yearsQuery,
       TotalTopCountriesDataQuery,
-      TotalFlopCountriesDataQuery
+      TotalFlopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: TotalTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: TotalFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[BY_ENERGY_FAMILY.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[BY_ENERGY_FAMILY.year] === year)
-            ? groupNameRaw.find(row => row[BY_ENERGY_FAMILY.year] === year)[BY_ENERGY_FAMILY.final_energy]
+          groupNameRaw.find((row) => row[BY_ENERGY_FAMILY.year] === year)
+            ? groupNameRaw.find((row) => row[BY_ENERGY_FAMILY.year] === year)[BY_ENERGY_FAMILY.final_energy]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
-  }
+  },
 };
 export default finalEnergiesResolvers;

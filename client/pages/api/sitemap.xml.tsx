@@ -22,75 +22,75 @@
 // export default Sitemap;
 
 // Import built-in types for API routes
-import { NextApiRequest, NextApiResponse } from "next";
-import { SitemapStream, streamToPromise, EnumChangefreq } from "sitemap";
-import { createGzip } from "zlib";
+import { NextApiRequest, NextApiResponse } from "next"
+import { SitemapStream, streamToPromise, EnumChangefreq } from "sitemap"
+import { createGzip } from "zlib"
 
 export default async (_req: NextApiRequest, res: NextApiResponse) => {
-  if (!res) return {};
+  if (!res) return {}
   try {
     // Set response header
-    res.setHeader("content-type", "application/xml");
-    res.setHeader("Content-Encoding", "gzip");
+    res.setHeader("content-type", "application/xml")
+    res.setHeader("Content-Encoding", "gzip")
 
     // A Transform for turning a Readable stream of either SitemapItemOptions or url strings into a Sitemap.
     // The readable stream it transforms must be in object mode.
     const smStream = new SitemapStream({
-      hostname: "https://theshiftdataportal.org"
-    });
+      hostname: "https://theshiftdataportal.org",
+    })
 
-    const pipeline = smStream.pipe(createGzip());
+    const pipeline = smStream.pipe(createGzip())
     // Add any static entries here
-    smStream.write({ url: "/", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY });
-    smStream.write({ url: "/about", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY });
-    smStream.write({ url: "/energy", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY });
-    smStream.write({ url: "/climate", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY });
+    smStream.write({ url: "/", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY })
+    smStream.write({ url: "/about", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY })
+    smStream.write({ url: "/energy", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY })
+    smStream.write({ url: "/climate", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY })
     smStream.write({
       url: "/climate/carbon-footprint",
       lastmod: process.env.siteUpdatedAt,
-      changefreq: EnumChangefreq.DAILY
-    });
+      changefreq: EnumChangefreq.DAILY,
+    })
     smStream.write({
       url: "/climate/co2-from-energy",
       lastmod: process.env.siteUpdatedAt,
-      changefreq: EnumChangefreq.DAILY
-    });
+      changefreq: EnumChangefreq.DAILY,
+    })
     smStream.write({
       url: "/climate/co2-imports-exports",
       lastmod: process.env.siteUpdatedAt,
-      changefreq: EnumChangefreq.DAILY
-    });
-    smStream.write({ url: "/climate/ghg", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY });
-    smStream.write({ url: "/climate/kaya", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY });
-    smStream.write({ url: "/energy/coal", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY });
+      changefreq: EnumChangefreq.DAILY,
+    })
+    smStream.write({ url: "/climate/ghg", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY })
+    smStream.write({ url: "/climate/kaya", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY })
+    smStream.write({ url: "/energy/coal", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY })
     smStream.write({
       url: "/energy/electricity",
       lastmod: process.env.siteUpdatedAt,
-      changefreq: EnumChangefreq.DAILY
-    });
+      changefreq: EnumChangefreq.DAILY,
+    })
     smStream.write({
       url: "/energy/energy-intensity-gdp",
       lastmod: process.env.siteUpdatedAt,
-      changefreq: EnumChangefreq.DAILY
-    });
+      changefreq: EnumChangefreq.DAILY,
+    })
     smStream.write({
       url: "/energy/final-energy",
       lastmod: process.env.siteUpdatedAt,
-      changefreq: EnumChangefreq.DAILY
-    });
-    smStream.write({ url: "/energy/gas", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY });
-    smStream.write({ url: "/energy/nuclear", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY });
-    smStream.write({ url: "/energy/oil", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY });
+      changefreq: EnumChangefreq.DAILY,
+    })
+    smStream.write({ url: "/energy/gas", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY })
+    smStream.write({ url: "/energy/nuclear", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY })
+    smStream.write({ url: "/energy/oil", lastmod: process.env.siteUpdatedAt, changefreq: EnumChangefreq.DAILY })
     smStream.write({
       url: "/energy/primary-energy",
       lastmod: process.env.siteUpdatedAt,
-      changefreq: EnumChangefreq.DAILY
-    });
+      changefreq: EnumChangefreq.DAILY,
+    })
     smStream.write({
       url: "/energy/renewable-energy",
       lastmod: process.env.siteUpdatedAt,
-      changefreq: EnumChangefreq.DAILY
-    });
+      changefreq: EnumChangefreq.DAILY,
+    })
     // // E.g. we create a sitemap.xml for articles
     // // Set articles change frequencey is weekly
     // const articles = await fetchArticles();
@@ -101,16 +101,16 @@ export default async (_req: NextApiRequest, res: NextApiResponse) => {
     // 		changefreq: EnumChangefreq.WEEKLY,
     // 	});
     // });
-    smStream.end();
+    smStream.end()
 
     // cache the response
     // streamToPromise.then(sm => sitemap = sm)
-    streamToPromise(pipeline);
+    streamToPromise(pipeline)
     // stream the response
-    pipeline.pipe(res).on("error", e => {
-      throw e;
-    });
+    pipeline.pipe(res).on("error", (e) => {
+      throw e
+    })
   } catch (e) {
-    res.status(500).end();
+    res.status(500).end()
   }
-};
+}

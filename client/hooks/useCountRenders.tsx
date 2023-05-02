@@ -1,6 +1,6 @@
-import { useRef } from "react";
+import { useRef } from "react"
 
 export default function useCountRenders(name: string) {
-  const renders = useRef(0);
-  console.log(`renders: ${name}`, renders.current++);
+  const renders = useRef(0)
+  console.log(`renders: ${name}`, renders.current++)
 }

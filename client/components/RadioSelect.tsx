@@ -1,22 +1,22 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef } from "react"
 import styled from "@emotion/styled"
-import { typography, space } from "styled-system";
-import button1 from "../styles/button1";
-import popup from "../styles/popup";
-import Radio from "./Radio";
-import { InputSubtitle } from ".";
+import { typography, space } from "styled-system"
+import button1 from "../styles/button1"
+import popup from "../styles/popup"
+import Radio from "./Radio"
+import { InputSubtitle } from "."
 
 interface IProps {
-  options: (string | number)[];
-  selectedOption: string | number;
-  onChange: any;
-  isLoading?: boolean;
-  inputName: string;
-  label: string;
+  options: (string | number)[]
+  selectedOption: string | number
+  onChange: any
+  isLoading?: boolean
+  inputName: string
+  label: string
 }
 const RadioSelect: React.FC<IProps> = ({ options, selectedOption, onChange, isLoading = false, inputName, label }) => {
-  const [showPopup, setShowPopup] = useState(false);
-  const popupRef = useRef(null);
+  const [showPopup, setShowPopup] = useState(false)
+  const popupRef = useRef(null)
   // Hide popup when clicked outside popup.
   /*useOutsideClick(popupRef, () => {
     if (showPopup) {
@@ -39,8 +39,8 @@ const RadioSelect: React.FC<IProps> = ({ options, selectedOption, onChange, isLo
                 key={i}
                 uniqueName={inputName}
                 selectedValue={selectedOption}
-                onChange={newOption => {
-                  onChange(newOption);
+                onChange={(newOption) => {
+                  onChange(newOption)
                 }}
               >
                 {option}
@@ -50,15 +50,15 @@ const RadioSelect: React.FC<IProps> = ({ options, selectedOption, onChange, isLo
         </Popup>
       )}
     </Container>
-  );
-};
+  )
+}
 
 const Container = styled.div`
   ${space};
   position: relative;
-`;
+`
 export const Title = styled.div`
-  font-family: ${p => p.theme.fonts.secondary};
+  font-family: ${(p) => p.theme.fonts.secondary};
   ${typography};
   ${space};
   ${button1};
@@ -67,13 +67,13 @@ export const Title = styled.div`
     text-transform: capitalize;
   }
   &:hover {
-    border: 1px solid ${p => p.theme.colors.grey};
+    border: 1px solid ${(p) => p.theme.colors.grey};
   }
-`;
+`
 
 const Popup = styled.div`
   ${popup};
-`;
+`
 export const PopupTitle = styled.h4`
   ${space};
   font-weight: 700;
@@ -85,9 +85,9 @@ export const PopupTitle = styled.h4`
     height: 1px;
     width: 100%;
     transform: scaleX(1.2);
-    background-color: ${p => p.theme.colors.lightGrey};
+    background-color: ${(p) => p.theme.colors.lightGrey};
   }
-`;
+`
 const Options = styled.div`
   ${space};
   position: relative;
@@ -97,6 +97,6 @@ const Options = styled.div`
   & > * {
     min-width: 50%;
   }
-`;
+`
 
-export default RadioSelect;
+export default RadioSelect

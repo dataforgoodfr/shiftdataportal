@@ -8,4 +8,4 @@ export default styled.div`
   div:first-of-type {
     margin-left: 0;
   }
-`;
+`

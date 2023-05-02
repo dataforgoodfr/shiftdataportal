@@ -1,11 +1,11 @@
-import { useQuery } from "@apollo/client";
-import gql from "graphql-tag";
-import { NextPage } from "next";
-import Head from "next/head";
-import { ParsedUrlQueryInput } from "querystring";
-import React, { Fragment, useEffect, useReducer, useState, useRef } from "react";
-import { Range } from "react-input-range";
-import { useDebounce } from "use-debounce";
+import { useQuery } from "@apollo/client"
+import gql from "graphql-tag"
+import { NextPage } from "next"
+import Head from "next/head"
+import { ParsedUrlQueryInput } from "querystring"
+import React, { Fragment, useEffect, useReducer, useState, useRef } from "react"
+import { Range } from "react-input-range"
+import { useDebounce } from "use-debounce"
 import {
   ChartTypesSelect,
   Footer,
@@ -22,9 +22,9 @@ import {
   GraphInfos,
   TypesInput,
   SharingButtons,
-} from "../../components";
-import StackedChart, { ChartType, StackedChartProps } from "../../components/StackedChart";
-import useSyncParamsWithUrl from "../../hooks/useSyncParamsWithUrl";
+} from "../../components"
+import StackedChart, { ChartType, StackedChartProps } from "../../components/StackedChart"
+import useSyncParamsWithUrl from "../../hooks/useSyncParamsWithUrl"
 import {
   EnergyUnit,
   GetCoalDimensionQuery,
@@ -32,13 +32,13 @@ import {
   CoalDimensions,
   CoalInputsQuery,
   CoalInputsQueryVariables,
-} from "../../types";
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton";
-import useOnYearRangeChange from "../../hooks/useOnYearRangeChange";
-import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable";
+} from "../../types"
+import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
+import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
+import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
 
 const Coal: NextPage<DefaultProps> = ({ params }) => {
-  const stackedChartRef = useRef(null);
+  const stackedChartRef = useRef(null)
   // Reducer state
   const [
     {
@@ -57,22 +57,23 @@ const Coal: NextPage<DefaultProps> = ({ params }) => {
       iframe,
     },
     dispatch,
-  ] = useReducer(reducer, { ...params });
+  ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
-    CoalInputsQuery,
-    CoalInputsQueryVariables
-  >(INPUTS, {
+  const {
+    loading: loadingInputs,
+    data: dataInputs,
+    error: errorInputs,
+  } = useQuery<CoalInputsQuery, CoalInputsQueryVariables>(INPUTS, {
     variables: {
       countriesOnly: selectedDimension === "importExport",
     },
-  });
+  })
   // Manage specific state with URL params
-  const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}));
+  const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}))
   // The data used in the graph
-  const [highchartsSeriesAndCategories, setHighchartsSeriesAndCategories] = useState({ series: [], categories: [] });
+  const [highchartsSeriesAndCategories, setHighchartsSeriesAndCategories] = useState({ series: [], categories: [] })
   // Prevent re-fetching data each time year changes
-  const [debouncedYearRange] = useDebounce(selectedYearRange, 300);
+  const [debouncedYearRange] = useDebounce(selectedYearRange, 300)
 
   // Update the url params when any dependency changes (the array in the useEffect hook)
   useEffect(() => {
@@ -89,7 +90,7 @@ const Coal: NextPage<DefaultProps> = ({ params }) => {
       multi: isGroupNamesMulti,
       type: selectedType,
       "import-types": selectedImportExportTypes,
-    });
+    })
   }, [
     selectedChartType,
     chartTypes,
@@ -102,11 +103,11 @@ const Coal: NextPage<DefaultProps> = ({ params }) => {
     isGroupNamesMulti,
     selectedType,
     selectedImportExportTypes,
-  ]);
+  ])
   // Applies the urlParams change to the real URL.
-  useSyncParamsWithUrl(urlParams);
+  useSyncParamsWithUrl(urlParams)
 
-  const [graphTitle, setGraphTitle] = useState<string>("");
+  const [graphTitle, setGraphTitle] = useState<string>("")
   // Fetches the graph data, automatically re-fetches when any variable changes
   const { data: dimensionData, loading: dimensionLoading } = useQuery<
     GetCoalDimensionQuery,
@@ -123,38 +124,38 @@ const Coal: NextPage<DefaultProps> = ({ params }) => {
       yearStart: 0,
       yearEnd: 3000,
     },
-  });
+  })
 
   useEffect(() => {
     if (dimensionData?.coal && dimensionData.coal[selectedDimension]) {
       setHighchartsSeriesAndCategories(
-        (dimensionData.coal[selectedDimension] as unknown) as StackedChartProps["highchartsSeriesAndCategories"]
-      );
+        dimensionData.coal[selectedDimension] as unknown as StackedChartProps["highchartsSeriesAndCategories"]
+      )
     } else if (dimensionData?.importExport?.total) {
-      setHighchartsSeriesAndCategories(dimensionData.importExport.total);
+      setHighchartsSeriesAndCategories(dimensionData.importExport.total)
     } else {
-      setHighchartsSeriesAndCategories({ series: [], categories: [] });
+      setHighchartsSeriesAndCategories({ series: [], categories: [] })
     }
-  }, [dimensionData, selectedDimension]);
+  }, [dimensionData, selectedDimension])
   // Update graph title
   useEffect(() => {
-    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : "";
-    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : "";
-    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max;
-    setGraphTitle(`Coal ${selectedType}${displayedDimension}, ${displayedGroupNames} ${displayedYears}`);
-  }, [selectedGroupNames, selectedType, selectedYearRange, selectedDimension, isRange]);
+    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : ""
+    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : ""
+    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
+    setGraphTitle(`Coal ${selectedType}${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
+  }, [selectedGroupNames, selectedType, selectedYearRange, selectedDimension, isRange])
 
   function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV();
+    stackedChartRef.current.downloadCSV()
   }
   function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart();
+    stackedChartRef.current.exportChart()
   }
-  const onYearRangeChange = useOnYearRangeChange(dispatch);
-  let inputs: any;
+  const onYearRangeChange = useOnYearRangeChange(dispatch)
+  let inputs: any
 
   if (errorInputs) {
-    inputs = <p>Error, couldn\'t fetch data. Might be an internet connection problem.</p>;
+    inputs = <p>Error, couldn\'t fetch data. Might be an internet connection problem.</p>
   } else if (
     loadingInputs ||
     !dataInputs ||
@@ -162,11 +163,11 @@ const Coal: NextPage<DefaultProps> = ({ params }) => {
     !dataInputs.primaryEnergies ||
     !dataInputs.importExport
   ) {
-    inputs = <p>Loading...</p>;
+    inputs = <p>Loading...</p>
   } else {
-    const { energyUnits, zones, groups, countries, dimensions } = dataInputs.coal;
-    const { types } = dataInputs.primaryEnergies;
-    const { importExportTypes } = dataInputs.importExport;
+    const { energyUnits, zones, groups, countries, dimensions } = dataInputs.coal
+    const { types } = dataInputs.primaryEnergies
+    const { importExportTypes } = dataInputs.importExport
     inputs = (
       <Fragment>
         <div>
@@ -206,7 +207,7 @@ const Coal: NextPage<DefaultProps> = ({ params }) => {
               dispatch({
                 type: "selectGroupNames",
                 payload: { selectedGroupNames },
-              });
+              })
             }}
           />
           <RadioSelect
@@ -218,7 +219,7 @@ const Coal: NextPage<DefaultProps> = ({ params }) => {
               dispatch({
                 type: "selectEnergyUnit",
                 payload: { selectedEnergyUnit },
-              });
+              })
             }}
           />
           {selectedDimension !== "importExport" && (
@@ -231,7 +232,7 @@ const Coal: NextPage<DefaultProps> = ({ params }) => {
                 dispatch({
                   type: "selectType",
                   payload: { selectedType },
-                });
+                })
               }}
             />
           )}
@@ -247,7 +248,7 @@ const Coal: NextPage<DefaultProps> = ({ params }) => {
                 dispatch({
                   type: "selectImportExportTypes",
                   payload: { selectedImportExportTypes },
-                });
+                })
               }}
             />
           )}
@@ -261,28 +262,28 @@ const Coal: NextPage<DefaultProps> = ({ params }) => {
                 case "pie":
                   dispatch({
                     type: "selectPie",
-                  });
-                  break;
+                  })
+                  break
                 case "line":
-                  dispatch({ type: "selectLine" });
-                  break;
+                  dispatch({ type: "selectLine" })
+                  break
                 case "stacked":
-                  dispatch({ type: "selectStacked" });
-                  break;
+                  dispatch({ type: "selectStacked" })
+                  break
                 case "ranking":
-                  dispatch({ type: "selectRanking" });
-                  break;
+                  dispatch({ type: "selectRanking" })
+                  break
                 case "stacked-percent":
-                  dispatch({ type: "selectStackedPercent" });
-                  break;
+                  dispatch({ type: "selectStackedPercent" })
+                  break
                 default:
-                  console.warn(`ChartTypes input "${value}" didn't match any chartTypes`);
+                  console.warn(`ChartTypes input "${value}" didn't match any chartTypes`)
               }
             }}
           />
         </SelectContainer>
       </Fragment>
-    );
+    )
   }
   if (iframe) {
     return (
@@ -299,7 +300,7 @@ const Coal: NextPage<DefaultProps> = ({ params }) => {
         highchartsSeriesAndCategories={highchartsSeriesAndCategories}
         title={graphTitle}
       />
-    );
+    )
   }
   return (
     <Fragment>
@@ -341,8 +342,8 @@ const Coal: NextPage<DefaultProps> = ({ params }) => {
       </Main>
       <Footer />
     </Fragment>
-  );
-};
+  )
+}
 Coal.getInitialProps = async function ({ query }) {
   // Get all the parameters from the URL or set default state
   return {
@@ -383,8 +384,8 @@ Coal.getInitialProps = async function ({ query }) {
       selectedType: (query["type"] as string) ? (query["type"] as string) : "Consumption",
       chartHeight: (query["chart-height"] as string) ? (query["chart-height"] as string) : "75rem",
     },
-  };
-};
+  }
+}
 
 export const INPUTS = gql`
   query coalInputs($countriesOnly: Boolean!) {
@@ -412,7 +413,7 @@ export const INPUTS = gql`
       }
     }
   }
-`;
+`
 
 // GraphQL query to get all the chart data
 export const GET_DIMENSION = gql`
@@ -498,24 +499,24 @@ export const GET_DIMENSION = gql`
       }
     }
   }
-`;
+`
 interface DefaultProps {
-  params: ReducerState;
+  params: ReducerState
 }
 interface ReducerState {
-  chartTypes: ChartType[];
-  selectedChartType: ChartType;
-  isGroupNamesMulti: boolean;
-  selectedDimension: CoalDimensions;
-  selectedEnergyUnit: GetCoalDimensionQueryVariables["energyUnit"];
-  selectedGroupNames: GetCoalDimensionQueryVariables["groupNames"];
-  selectedType: GetCoalDimensionQueryVariables["type"];
-  selectedImportExportTypes: GetCoalDimensionQueryVariables["importExportsTypes"];
-  iframe: boolean;
-  isRange: boolean;
-  isSelectEnergyFamilyDisabled: boolean;
-  selectedYearRange: Range;
-  chartHeight: string;
+  chartTypes: ChartType[]
+  selectedChartType: ChartType
+  isGroupNamesMulti: boolean
+  selectedDimension: CoalDimensions
+  selectedEnergyUnit: GetCoalDimensionQueryVariables["energyUnit"]
+  selectedGroupNames: GetCoalDimensionQueryVariables["groupNames"]
+  selectedType: GetCoalDimensionQueryVariables["type"]
+  selectedImportExportTypes: GetCoalDimensionQueryVariables["importExportsTypes"]
+  iframe: boolean
+  isRange: boolean
+  isSelectEnergyFamilyDisabled: boolean
+  selectedYearRange: Range
+  chartHeight: string
 }
 type ReducerActions =
   | CoalDimensions
@@ -530,19 +531,19 @@ type ReducerActions =
   | "selectRanking"
   | "selectYears"
   | "selectType"
-  | "selectImportExportTypes";
+  | "selectImportExportTypes"
 const reducer: React.Reducer<
   ReducerState,
   {
-    type: ReducerActions;
+    type: ReducerActions
     payload?: {
-      selectedGroupNames?: ReducerState["selectedGroupNames"];
-      selectedEnergyUnit?: ReducerState["selectedEnergyUnit"];
-      selectedDimension?: ReducerState["selectedDimension"];
-      selectedYearRange?: ReducerState["selectedYearRange"];
-      selectedType?: ReducerState["selectedType"];
-      selectedImportExportTypes?: ReducerState["selectedImportExportTypes"];
-    };
+      selectedGroupNames?: ReducerState["selectedGroupNames"]
+      selectedEnergyUnit?: ReducerState["selectedEnergyUnit"]
+      selectedDimension?: ReducerState["selectedDimension"]
+      selectedYearRange?: ReducerState["selectedYearRange"]
+      selectedType?: ReducerState["selectedType"]
+      selectedImportExportTypes?: ReducerState["selectedImportExportTypes"]
+    }
   }
 > = (prevState, action) => {
   switch (action.type) {
@@ -554,7 +555,7 @@ const reducer: React.Reducer<
         selectedDimension: CoalDimensions.Total,
         isGroupNamesMulti: true,
         selectedEnergyUnit: EnergyUnit.Mtoe,
-      };
+      }
     case CoalDimensions.PerCapita:
       return {
         ...prevState,
@@ -565,7 +566,7 @@ const reducer: React.Reducer<
         selectedEnergyUnit: EnergyUnit.Toe,
         isRange: true,
         showUnitSelect: true,
-      };
+      }
     case CoalDimensions.ImportExport:
       return {
         ...prevState,
@@ -575,69 +576,69 @@ const reducer: React.Reducer<
         isGroupNamesMulti: true,
         showUnitSelect: false,
         isRange: true,
-      };
+      }
     case "selectGroupNames":
       return {
         ...prevState,
         selectedGroupNames: action.payload.selectedGroupNames,
-      };
+      }
     case "selectEnergyUnit":
       return {
         ...prevState,
         selectedEnergyUnit: action.payload.selectedEnergyUnit,
-      };
+      }
     case "selectType":
       return {
         ...prevState,
         selectedType: action.payload.selectedType,
-      };
+      }
     case "selectImportExportTypes":
       return {
         ...prevState,
         selectedImportExportTypes: action.payload.selectedImportExportTypes,
-      };
+      }
     case "selectDimension":
       return {
         ...prevState,
         selectedDimension: action.payload.selectedDimension,
-      };
+      }
     case "selectStacked":
       return {
         ...prevState,
         selectedChartType: "stacked",
         isRange: true,
         isSelectEnergyFamilyDisabled: false,
-      };
+      }
     case "selectStackedPercent":
       return {
         ...prevState,
         selectedChartType: "stacked-percent",
         isRange: true,
         isSelectEnergyFamilyDisabled: false,
-      };
+      }
     case "selectLine":
       return {
         ...prevState,
         selectedChartType: "line",
         isRange: true,
         isSelectEnergyFamilyDisabled: false,
-      };
+      }
     case "selectRanking":
       return {
         ...prevState,
         selectedChartType: "ranking",
         isSelectEnergyFamilyDisabled: true,
         isRange: false,
-      };
+      }
     case "selectYears":
       return {
         ...prevState,
         selectedYearRange: action.payload.selectedYearRange,
-      };
+      }
     default:
-      console.warn(`Reducer didn't match any action of type ${action.type}`);
-      return prevState;
+      console.warn(`Reducer didn't match any action of type ${action.type}`)
+      return prevState
   }
-};
+}
 
-export default Coal;
+export default Coal

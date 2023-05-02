@@ -1,11 +1,11 @@
-import React, { Fragment } from "react";
-import { Footer, Nav, H2 } from "../components";
-import { useTheme } from "@emotion/react";
-import { space, typography } from "styled-system";
+import React, { Fragment } from "react"
+import { Footer, Nav, H2 } from "../components"
+import { useTheme } from "@emotion/react"
+import { space, typography } from "styled-system"
 import styled from "@emotion/styled"
 
 export default function LegalNotice() {
-  const theme = useTheme();
+  const theme = useTheme()
   return (
     <Fragment>
       <header>
@@ -42,12 +42,12 @@ export default function LegalNotice() {
       </Main>
       <Footer />
     </Fragment>
-  );
+  )
 }
 
 const Main = styled.main`
   ${space};
-`;
+`
 const H1 = styled.h1`
   ${typography};
   ${space};
@@ -55,9 +55,9 @@ const H1 = styled.h1`
   color: ${(p) => p.theme.colors.lightBlack};
   letter-spacing: 1.09px;
   line-height: 52px;
-`;
+`
 
 const P = styled.p`
   color: ${(p) => p.theme.colors.lightBlack};
   margin-top: 1rem;
-`;
+`

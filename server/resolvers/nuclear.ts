@@ -5,7 +5,7 @@ import { NuclearResolvers, Nuclear, NuclearDimensions, EnergyUnit } from "../typ
 import {
   IEA_API_nuclear_share_of_electricity_generation_prod as SHARE,
   IEA_API_nuclear_share_of_electricity_generation_prod as TOTAL,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT
+  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
 } from "../dbSchema";
 import groupBy from "../utils/groupBy";
 import stringToColor from "../utils/stringToColor";
@@ -26,7 +26,7 @@ const nuclear: NuclearResolvers = {
       .whereNotNull("group_name")
       .orderBy("group_name", "asc")
       .cache(15 * 60);
-    return res.map(groupName => ({ name: groupName.group_name, color: stringToColor(groupName.group_name) }));
+    return res.map((groupName) => ({ name: groupName.group_name, color: stringToColor(groupName.group_name) }));
   },
   async groups(_, __, { dataSources: { db } }): Promise<Nuclear["groups"]> {
     return await distinctGroups(TOTAL.__tableName, db.knex);
@@ -47,8 +47,8 @@ const nuclear: NuclearResolvers = {
       res.push({
         name: key,
         data: groups[key]
-          .map(countryObject => countryObject.country)
-          .map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+          .map((countryObject) => countryObject.country)
+          .map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
       });
     }
     return res;
@@ -72,7 +72,7 @@ const nuclear: NuclearResolvers = {
           db.knex.raw("SUM(??)::numeric * ? as ??", [
             SHARE.nuclear_share_of_electricity_generation,
             100,
-            SHARE.nuclear_share_of_electricity_generation
+            SHARE.nuclear_share_of_electricity_generation,
           ])
         )
         .whereIn(SHARE.group_name, groupNames)
@@ -112,37 +112,37 @@ const nuclear: NuclearResolvers = {
         .orderBy("sum", "asc")
         .limit(10)
         .pluck(SHARE.group_name)
-        .cache(15 * 60)
+        .cache(15 * 60),
     ]);
     // Get the multi-selects option
     const multiSelects = [];
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: TotalTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: TotalFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[SHARE.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[SHARE.year] === year)
-            ? groupNameRaw.find(row => row[SHARE.year] === year)[SHARE.nuclear_share_of_electricity_generation]
+          groupNameRaw.find((row) => row[SHARE.year] === year)
+            ? groupNameRaw.find((row) => row[SHARE.year] === year)[SHARE.nuclear_share_of_electricity_generation]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
   },
   async total(
@@ -161,7 +161,7 @@ const nuclear: NuclearResolvers = {
           db.knex.raw("SUM(??)::numeric * ? as ??", [
             TOTAL.nuclear,
             energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
-            TOTAL.nuclear
+            TOTAL.nuclear,
           ])
         )
         .whereIn(TOTAL.group_name, groupNames)
@@ -201,39 +201,39 @@ const nuclear: NuclearResolvers = {
         .orderBy("sum", "asc")
         .limit(10)
         .pluck(TOTAL.group_name)
-        .cache(15 * 60)
+        .cache(15 * 60),
     ]);
     // Get the multi-selects option
     const multiSelects = [];
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: TotalTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: TotalFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[TOTAL.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[TOTAL.year] === year)
-            ? groupNameRaw.find(row => row[TOTAL.year] === year)[TOTAL.nuclear]
+          groupNameRaw.find((row) => row[TOTAL.year] === year)
+            ? groupNameRaw.find((row) => row[TOTAL.year] === year)[TOTAL.nuclear]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
-  }
+  },
 };
 
 export default nuclear;

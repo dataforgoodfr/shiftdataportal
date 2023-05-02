@@ -1,11 +1,11 @@
-import { useQuery } from "@apollo/client";
-import gql from "graphql-tag";
-import { NextPage } from "next";
-import Head from "next/head";
-import { ParsedUrlQueryInput } from "querystring";
-import React, { Fragment, useEffect, useReducer, useState, useRef } from "react";
-import { Range } from "react-input-range";
-import { useDebounce } from "use-debounce";
+import { useQuery } from "@apollo/client"
+import gql from "graphql-tag"
+import { NextPage } from "next"
+import Head from "next/head"
+import { ParsedUrlQueryInput } from "querystring"
+import React, { Fragment, useEffect, useReducer, useState, useRef } from "react"
+import { Range } from "react-input-range"
+import { useDebounce } from "use-debounce"
 import {
   ChartTypesSelect,
   Footer,
@@ -22,9 +22,9 @@ import {
   GraphInfos,
   TypesInput,
   SharingButtons,
-} from "../../components";
-import StackedChart, { ChartType, StackedChartProps } from "../../components/StackedChart";
-import useSyncParamsWithUrl from "../../hooks/useSyncParamsWithUrl";
+} from "../../components"
+import StackedChart, { ChartType, StackedChartProps } from "../../components/StackedChart"
+import useSyncParamsWithUrl from "../../hooks/useSyncParamsWithUrl"
 import {
   EnergyUnit,
   GetRenewableEnergyDimensionQuery,
@@ -32,13 +32,13 @@ import {
   RenewableEnergiesDimensions,
   RenewableEnergiesInputsQuery,
   RenewableEnergiesInputsQueryVariables,
-} from "../../types";
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton";
-import useOnYearRangeChange from "../../hooks/useOnYearRangeChange";
-import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable";
+} from "../../types"
+import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
+import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
+import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
 
 const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
-  const stackedChartRef = useRef(null);
+  const stackedChartRef = useRef(null)
   // Reducer state
   const [
     {
@@ -57,21 +57,22 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
       iframe,
     },
     dispatch,
-  ] = useReducer(reducer, { ...params });
+  ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
-    RenewableEnergiesInputsQuery,
-    RenewableEnergiesInputsQueryVariables
-  >(INPUTS, {
+  const {
+    loading: loadingInputs,
+    data: dataInputs,
+    error: errorInputs,
+  } = useQuery<RenewableEnergiesInputsQuery, RenewableEnergiesInputsQueryVariables>(INPUTS, {
     variables: {
       type: selectedType,
     },
-  });
+  })
   // Manage specific state with URL params
-  const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}));
+  const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}))
 
   // Prevent re-fetching data each time year changes
-  const [debouncedYearRange] = useDebounce(selectedYearRange, 300);
+  const [debouncedYearRange] = useDebounce(selectedYearRange, 300)
 
   // Update the url params when any dependency changes (the array in the useEffect hook)
   useEffect(() => {
@@ -88,7 +89,7 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
       multi: isGroupNamesMulti,
       type: selectedType,
       "energy-families": selectedEnergyFamilies,
-    });
+    })
   }, [
     selectedChartType,
     chartTypes,
@@ -101,11 +102,11 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
     isGroupNamesMulti,
     selectedType,
     selectedEnergyFamilies,
-  ]);
+  ])
   // Applies the urlParams change to the real URL.
-  useSyncParamsWithUrl(urlParams);
+  useSyncParamsWithUrl(urlParams)
 
-  const [graphTitle, setGraphTitle] = useState<string>("");
+  const [graphTitle, setGraphTitle] = useState<string>("")
   // Fetches the graph data, automatically re-fetches when any variable changes
   const { data: dimensionData, loading: dimensionLoading } = useQuery<
     GetRenewableEnergyDimensionQuery,
@@ -124,32 +125,32 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
       yearStart: 0,
       yearEnd: 3000,
     },
-  });
+  })
 
   // Update graph title
   useEffect(() => {
-    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : "";
-    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : "";
-    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max;
-    setGraphTitle(`Renewable Energy ${selectedType}${displayedDimension}, ${displayedGroupNames} ${displayedYears}`);
-  }, [selectedGroupNames, selectedType, selectedYearRange, selectedDimension, isRange]);
+    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : ""
+    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : ""
+    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
+    setGraphTitle(`Renewable Energy ${selectedType}${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
+  }, [selectedGroupNames, selectedType, selectedYearRange, selectedDimension, isRange])
 
   function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV();
+    stackedChartRef.current.downloadCSV()
   }
   function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart();
+    stackedChartRef.current.exportChart()
   }
-  const onYearRangeChange = useOnYearRangeChange(dispatch);
-  let inputs: any;
+  const onYearRangeChange = useOnYearRangeChange(dispatch)
+  let inputs: any
 
   if (errorInputs) {
-    inputs = <p>Error, couldn\'t fetch data. Might be an internet connection problem.</p>;
+    inputs = <p>Error, couldn\'t fetch data. Might be an internet connection problem.</p>
   } else if (loadingInputs || !dataInputs || !dataInputs.renewableEnergies || !dataInputs.primaryEnergies) {
-    inputs = <p>Loading...</p>;
+    inputs = <p>Loading...</p>
   } else {
-    const { energyUnits, zones, groups, countries, dimensions, energyFamilies } = dataInputs.renewableEnergies;
-    const { types } = dataInputs.primaryEnergies;
+    const { energyUnits, zones, groups, countries, dimensions, energyFamilies } = dataInputs.renewableEnergies
+    const { types } = dataInputs.primaryEnergies
     inputs = (
       <Fragment>
         <div>
@@ -188,7 +189,7 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
               dispatch({
                 type: "selectGroupNames",
                 payload: { selectedGroupNames },
-              });
+              })
             }}
           />
           {selectedDimension === "byEnergyFamily" && (
@@ -202,7 +203,7 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
                 dispatch({
                   type: "selectEnergyFamilies",
                   payload: { selectedEnergyFamilies },
-                });
+                })
               }}
             />
           )}
@@ -216,7 +217,7 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
                 dispatch({
                   type: "selectEnergyUnit",
                   payload: { selectedEnergyUnit },
-                });
+                })
               }}
             />
           )}
@@ -230,7 +231,7 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
               dispatch({
                 type: "selectType",
                 payload: { selectedType },
-              });
+              })
             }}
           />
 
@@ -243,28 +244,28 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
                 case "pie":
                   dispatch({
                     type: "selectPie",
-                  });
-                  break;
+                  })
+                  break
                 case "line":
-                  dispatch({ type: "selectLine" });
-                  break;
+                  dispatch({ type: "selectLine" })
+                  break
                 case "stacked":
-                  dispatch({ type: "selectStacked" });
-                  break;
+                  dispatch({ type: "selectStacked" })
+                  break
                 case "ranking":
-                  dispatch({ type: "selectRanking" });
-                  break;
+                  dispatch({ type: "selectRanking" })
+                  break
                 case "stacked-percent":
-                  dispatch({ type: "selectStackedPercent" });
-                  break;
+                  dispatch({ type: "selectStackedPercent" })
+                  break
                 default:
-                  console.warn(`ChartTypes input "${value}" didn't match any chartTypes`);
+                  console.warn(`ChartTypes input "${value}" didn't match any chartTypes`)
               }
             }}
           />
         </SelectContainer>
       </Fragment>
-    );
+    )
   }
   if (iframe) {
     return (
@@ -281,13 +282,13 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
         title={graphTitle}
         highchartsSeriesAndCategories={
           dimensionData?.renewableEnergies && dimensionData.renewableEnergies[selectedDimension]
-            ? ((dimensionData.renewableEnergies[
+            ? (dimensionData.renewableEnergies[
                 selectedDimension
-              ] as unknown) as StackedChartProps["highchartsSeriesAndCategories"])
+              ] as unknown as StackedChartProps["highchartsSeriesAndCategories"])
             : { series: [], categories: [] }
         }
       />
-    );
+    )
   }
   return (
     <Fragment>
@@ -313,9 +314,9 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
             title={graphTitle}
             highchartsSeriesAndCategories={
               dimensionData?.renewableEnergies && dimensionData.renewableEnergies[selectedDimension]
-                ? ((dimensionData.renewableEnergies[
+                ? (dimensionData.renewableEnergies[
                     selectedDimension
-                  ] as unknown) as StackedChartProps["highchartsSeriesAndCategories"])
+                  ] as unknown as StackedChartProps["highchartsSeriesAndCategories"])
                 : { series: [], categories: [] }
             }
           />
@@ -334,8 +335,8 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
       </Main>
       <Footer />
     </Fragment>
-  );
-};
+  )
+}
 RenewableEnergy.getInitialProps = async function ({ query }) {
   // Get all the parameters from the URL or set default state
   return {
@@ -376,8 +377,8 @@ RenewableEnergy.getInitialProps = async function ({ query }) {
       selectedType: (query["type"] as string) ? (query["type"] as string) : "Consumption",
       chartHeight: (query["chart-height"] as string) ? (query["chart-height"] as string) : "75rem",
     },
-  };
-};
+  }
+}
 
 export const INPUTS = gql`
   query renewableEnergiesInputs($type: String!) {
@@ -406,7 +407,7 @@ export const INPUTS = gql`
       }
     }
   }
-`;
+`
 
 // GraphQL query to get all the chart data
 export const GET_DIMENSION = gql`
@@ -487,24 +488,24 @@ export const GET_DIMENSION = gql`
       }
     }
   }
-`;
+`
 interface DefaultProps {
-  params: ReducerState;
+  params: ReducerState
 }
 interface ReducerState {
-  chartTypes: ChartType[];
-  selectedChartType: ChartType;
-  isGroupNamesMulti: boolean;
-  selectedDimension: RenewableEnergiesDimensions;
-  selectedEnergyUnit: GetRenewableEnergyDimensionQueryVariables["energyUnit"] | "%";
-  selectedGroupNames: GetRenewableEnergyDimensionQueryVariables["groupNames"];
-  selectedType: GetRenewableEnergyDimensionQueryVariables["type"];
-  selectedEnergyFamilies: GetRenewableEnergyDimensionQueryVariables["energyFamilies"];
-  iframe: boolean;
-  isRange: boolean;
-  isSelectEnergyFamilyDisabled: boolean;
-  selectedYearRange: Range;
-  chartHeight: string;
+  chartTypes: ChartType[]
+  selectedChartType: ChartType
+  isGroupNamesMulti: boolean
+  selectedDimension: RenewableEnergiesDimensions
+  selectedEnergyUnit: GetRenewableEnergyDimensionQueryVariables["energyUnit"] | "%"
+  selectedGroupNames: GetRenewableEnergyDimensionQueryVariables["groupNames"]
+  selectedType: GetRenewableEnergyDimensionQueryVariables["type"]
+  selectedEnergyFamilies: GetRenewableEnergyDimensionQueryVariables["energyFamilies"]
+  iframe: boolean
+  isRange: boolean
+  isSelectEnergyFamilyDisabled: boolean
+  selectedYearRange: Range
+  chartHeight: string
 }
 type ReducerActions =
   | RenewableEnergiesDimensions
@@ -519,19 +520,19 @@ type ReducerActions =
   | "selectRanking"
   | "selectYears"
   | "selectType"
-  | "selectEnergyFamilies";
+  | "selectEnergyFamilies"
 const reducer: React.Reducer<
   ReducerState,
   {
-    type: ReducerActions;
+    type: ReducerActions
     payload?: {
-      selectedGroupNames?: ReducerState["selectedGroupNames"];
-      selectedEnergyUnit?: ReducerState["selectedEnergyUnit"];
-      selectedDimension?: ReducerState["selectedDimension"];
-      selectedYearRange?: ReducerState["selectedYearRange"];
-      selectedType?: ReducerState["selectedType"];
-      selectedEnergyFamilies?: ReducerState["selectedEnergyFamilies"];
-    };
+      selectedGroupNames?: ReducerState["selectedGroupNames"]
+      selectedEnergyUnit?: ReducerState["selectedEnergyUnit"]
+      selectedDimension?: ReducerState["selectedDimension"]
+      selectedYearRange?: ReducerState["selectedYearRange"]
+      selectedType?: ReducerState["selectedType"]
+      selectedEnergyFamilies?: ReducerState["selectedEnergyFamilies"]
+    }
   }
 > = (prevState, action) => {
   switch (action.type) {
@@ -543,7 +544,7 @@ const reducer: React.Reducer<
         selectedDimension: RenewableEnergiesDimensions.Total,
         isGroupNamesMulti: true,
         selectedEnergyUnit: EnergyUnit.TWh,
-      };
+      }
     case RenewableEnergiesDimensions.ShareOfPrimaryEnergy:
       return {
         ...prevState,
@@ -552,7 +553,7 @@ const reducer: React.Reducer<
         selectedDimension: RenewableEnergiesDimensions.ShareOfPrimaryEnergy,
         isGroupNamesMulti: true,
         selectedEnergyUnit: "%",
-      };
+      }
     case RenewableEnergiesDimensions.ByEnergyFamily:
       return {
         ...prevState,
@@ -565,69 +566,69 @@ const reducer: React.Reducer<
         selectedEnergyUnit: EnergyUnit.Mtoe,
         isRange: true,
         selectedEnergyFamilies: action.payload.selectedEnergyFamilies,
-      };
+      }
     case "selectGroupNames":
       return {
         ...prevState,
         selectedGroupNames: action.payload.selectedGroupNames,
-      };
+      }
     case "selectEnergyFamilies":
       return {
         ...prevState,
         selectedEnergyFamilies: action.payload.selectedEnergyFamilies,
-      };
+      }
     case "selectEnergyUnit":
       return {
         ...prevState,
         selectedEnergyUnit: action.payload.selectedEnergyUnit,
-      };
+      }
     case "selectType":
       return {
         ...prevState,
         selectedType: action.payload.selectedType,
-      };
+      }
     case "selectDimension":
       return {
         ...prevState,
         selectedDimension: action.payload.selectedDimension,
-      };
+      }
     case "selectStacked":
       return {
         ...prevState,
         selectedChartType: "stacked",
         isRange: true,
         isSelectEnergyFamilyDisabled: false,
-      };
+      }
     case "selectStackedPercent":
       return {
         ...prevState,
         selectedChartType: "stacked-percent",
         isRange: true,
         isSelectEnergyFamilyDisabled: false,
-      };
+      }
     case "selectLine":
       return {
         ...prevState,
         selectedChartType: "line",
         isRange: true,
         isSelectEnergyFamilyDisabled: false,
-      };
+      }
     case "selectRanking":
       return {
         ...prevState,
         selectedChartType: "ranking",
         isSelectEnergyFamilyDisabled: true,
         isRange: false,
-      };
+      }
     case "selectYears":
       return {
         ...prevState,
         selectedYearRange: action.payload.selectedYearRange,
-      };
+      }
     default:
-      console.warn(`Reducer didn't match any action of type ${action.type}`);
-      return prevState;
+      console.warn(`Reducer didn't match any action of type ${action.type}`)
+      return prevState
   }
-};
+}
 
-export default RenewableEnergy;
+export default RenewableEnergy

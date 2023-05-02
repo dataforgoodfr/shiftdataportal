@@ -1,46 +1,46 @@
-import makeAnimated from "react-select/animated";
-import React, { useMemo, useState, useRef, Fragment } from "react";
-import chroma from "chroma-js";
-import { NameColor } from "../types";
-import { Theme } from "../lib/styled";
-import { space, layout } from "styled-system";
-import popup from "../styles/popup";
-import { Title, PopupTitle } from "./RadioSelect";
-import Select, { components, StylesConfig } from "react-select";
-import useOutsideClick from "../hooks/useOutsideClick";
-import { InputSubtitle } from ".";
-import { useTheme } from "@emotion/react";
+import makeAnimated from "react-select/animated"
+import React, { useMemo, useState, useRef, Fragment } from "react"
+import chroma from "chroma-js"
+import { NameColor } from "../types"
+import { Theme } from "../lib/styled"
+import { space, layout } from "styled-system"
+import popup from "../styles/popup"
+import { Title, PopupTitle } from "./RadioSelect"
+import Select, { components, StylesConfig } from "react-select"
+import useOutsideClick from "../hooks/useOutsideClick"
+import { InputSubtitle } from "."
+import { useTheme } from "@emotion/react"
 import styled from "@emotion/styled"
 interface IProps {
-  types: NameColor[];
-  selectedTypes: string | string[];
-  setSelectedTypes: (types: string[]) => void;
-  isLoading?: boolean;
-  typeName: string;
-  label: string;
-  [key: string]: any;
+  types: NameColor[]
+  selectedTypes: string | string[]
+  setSelectedTypes: (types: string[]) => void
+  isLoading?: boolean
+  typeName: string
+  label: string
+  [key: string]: any
 }
 export const menuHeaderStyle = {
   margin: "1rem 1rem",
   fontWeight: 700,
   fontSize: "1rem",
   color: "#292929",
-};
+}
 function getLength(options) {
   return options.reduce((acc, curr) => {
-    if (curr.options) return acc + getLength(curr.options);
-    return acc + 1;
-  }, 0);
+    if (curr.options) return acc + getLength(curr.options)
+    return acc + 1
+  }, 0)
 }
 export const Menu = (props) => {
-  const optionsLength = getLength(props.options);
+  const optionsLength = getLength(props.options)
   return (
     <Fragment>
       <div style={menuHeaderStyle}>Options ({optionsLength})</div>
       <components.Menu {...props}>{props.children}</components.Menu>
     </Fragment>
-  );
-};
+  )
+}
 const TypesInput: React.FC<IProps> = ({
   types = [],
   selectedTypes = [],
@@ -49,21 +49,21 @@ const TypesInput: React.FC<IProps> = ({
   typeName,
   label,
 }) => {
-  const theme = useTheme();
-  const [showPopup, setShowPopup] = useState(false);
-  const popupRef = useRef(null);
+  const theme = useTheme()
+  const [showPopup, setShowPopup] = useState(false)
+  const popupRef = useRef(null)
   /*useOutsideClick(popupRef, () => {
     if (showPopup) {
       setShowPopup(false);
     }
   });*/
   const computedTypes = useMemo(() => {
-    return types.map((type) => ({ value: type.name, label: type.name, color: type.color }));
-  }, [types]);
+    return types.map((type) => ({ value: type.name, label: type.name, color: type.color }))
+  }, [types])
   const computedSelectedTypes = useMemo(
     () => selectedTypes.map((type) => computedTypes.find(({ value }) => type === value)),
     [selectedTypes, computedTypes]
-  );
+  )
   return (
     <Container mx={[1]}>
       <InputSubtitle>{label} </InputSubtitle>
@@ -102,9 +102,9 @@ const TypesInput: React.FC<IProps> = ({
               value={computedSelectedTypes}
               onChange={(selectedTypes: { label: string; value: string; color: string }[]) => {
                 if (selectedTypes) {
-                  setSelectedTypes(selectedTypes.map(({ value }) => value));
+                  setSelectedTypes(selectedTypes.map(({ value }) => value))
                 } else {
-                  setSelectedTypes([]);
+                  setSelectedTypes([])
                 }
               }}
             />
@@ -117,8 +117,8 @@ const TypesInput: React.FC<IProps> = ({
         </Popup>
       )}
     </Container>
-  );
-};
+  )
+}
 const colourStyles = (theme: Theme): StylesConfig => ({
   menu: (provided) => ({ ...provided, position: "static", boxShadow: null }),
   container: (provided) => ({ ...provided, width: "100%" }),
@@ -131,7 +131,7 @@ const colourStyles = (theme: Theme): StylesConfig => ({
     svg: { path: { fill: "white" } },
   }),
   option: (styles, { data, isDisabled, isFocused, isSelected }) => {
-    const color = data.color ? chroma(data.color) : chroma("grey");
+    const color = data.color ? chroma(data.color) : chroma("grey")
     return {
       ...styles,
       backgroundColor: isDisabled ? null : isSelected ? data.color : isFocused ? color.alpha(0.1).css() : null,
@@ -142,14 +142,14 @@ const colourStyles = (theme: Theme): StylesConfig => ({
         ...styles[":active"],
         backgroundColor: !isDisabled && (isSelected ? data.color : color.alpha(0.3).css()),
       },
-    };
+    }
   },
   multiValue: (styles, { data }) => {
-    const color = data.color ? chroma(data.color) : chroma("grey");
+    const color = data.color ? chroma(data.color) : chroma("grey")
     return {
       ...styles,
       backgroundColor: color.alpha(0.1).css(),
-    };
+    }
   },
   multiValueLabel: (styles, { data }) => ({
     ...styles,
@@ -163,20 +163,20 @@ const colourStyles = (theme: Theme): StylesConfig => ({
       color: "white",
     },
   }),
-});
+})
 const Container = styled.div`
   ${space};
   position: relative;
-`;
+`
 type PopupProps = {
-  show: boolean;
-};
+  show: boolean
+}
 const Popup = styled.div`
   ${layout};
   ${popup};
   padding: 0;
   display: ${(p: PopupProps) => (p.show ? "block" : "none")};
-`;
+`
 const PopupControls = styled.div`
   ${space};
   width: 100%;
@@ -194,7 +194,7 @@ const PopupControls = styled.div`
     transform: scaleX(1.2);
     background-color: ${(p) => p.theme.colors.lightGrey};
   }
-`;
+`
 const OkButton = styled.button`
   ${space};
   font: inherit;
@@ -213,6 +213,6 @@ const OkButton = styled.button`
   align-items: center;
   justify-content: center;
   height: 2.5rem;
-`;
+`
 
-export default TypesInput;
+export default TypesInput

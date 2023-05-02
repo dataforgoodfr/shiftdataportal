@@ -1,7 +1,7 @@
-import Icons from "../components/Icons";
-import { useTheme } from "@emotion/react";
-import { typography, space, layout } from "styled-system";
-import React from "react";
+import Icons from "../components/Icons"
+import { useTheme } from "@emotion/react"
+import { typography, space, layout } from "styled-system"
+import React from "react"
 import styled from "@emotion/styled"
 /*interface IProps {
   index: number;
@@ -9,9 +9,9 @@ import styled from "@emotion/styled"
   title: string;
   icon: "Share" | "Table" | "Gear" | "MagnifyingGlass";
 }*/
-const ovals = [Icons.Oval1, Icons.Oval2, Icons.Oval3, Icons.Oval4];
+const ovals = [Icons.Oval1, Icons.Oval2, Icons.Oval3, Icons.Oval4]
 const Benefit = ({ index, color, title, children, icon }) => {
-  const theme = useTheme();
+  const theme = useTheme()
 
   return (
     <Container width={[0.44, 0.44, 0.2]}>
@@ -30,18 +30,18 @@ const Benefit = ({ index, color, title, children, icon }) => {
       </H4>
       <Body>{children}</Body>
     </Container>
-  );
-};
+  )
+}
 const Container = styled.div`
   ${layout};
   max-width: 15rem;
   margin-top: 4rem;
-`;
+`
 
 const IconContainer = styled.div`
   position: relative;
   max-width: 90px;
-`;
+`
 
 const Icon = styled.div`
   position: absolute;
@@ -50,24 +50,24 @@ const Icon = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-`;
+`
 const Oval = styled.div`
   position: float;
   z-index: -1;
   width: 100%;
-`;
+`
 const H4 = styled.h4`
   ${space}
   ${typography}
   font-weight: 700;
   font-size: 20px;
-  color: ${p => p.theme.colors.grey};
+  color: ${(p) => p.theme.colors.grey};
   letter-spacing: 0.49px;
-`;
+`
 
 const Body = styled.p`
   margin-top: 1rem;
-  color: ${p => p.theme.colors.grey};
+  color: ${(p) => p.theme.colors.grey};
   letter-spacing: 0.4px;
-`;
-export default Benefit;
+`
+export default Benefit

@@ -1,5 +1,5 @@
 const groupBy = (array: any, key: string) => {
-  return array.reduce(function(stock, nextValue) {
+  return array.reduce(function (stock, nextValue) {
     (stock[nextValue[key]] = stock[nextValue[key]] || []).push(nextValue);
     return stock;
   }, {});

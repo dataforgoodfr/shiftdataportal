@@ -1,70 +1,70 @@
-import React from "react";
+import React from "react"
 import styled from "@emotion/styled"
-import { animated, useSpring, config } from "react-spring";
-import { color } from "styled-system";
-const SPEED = 1000;
-const VIEW_BOX_HEIGHT = 618;
+import { animated, useSpring, config } from "react-spring"
+import { color } from "styled-system"
+const SPEED = 1000
+const VIEW_BOX_HEIGHT = 618
 export default function AnimatedChart() {
   const coralPathProps = useSpring({
     x: 0,
     from: { x: 1643.8424072265625 },
     delay: SPEED * 4,
     config: { ...config.slow },
-  });
+  })
   const redPathProps = useSpring({
     x: 0,
     from: { x: 1523.190673828125 },
     delay: SPEED * 3,
     config: { ...config.slow },
-  });
+  })
   const bluePathProps = useSpring({
     x: 0,
     from: { x: 1422.151611328125 },
     delay: SPEED * 2,
     config: { ...config.slow },
-  });
+  })
   const yellowPathProps = useSpring({
     x: 0,
     from: { x: 1387.2474365234375 },
     delay: SPEED * 1,
     config: { ...config.slow },
-  });
+  })
   const greyPathProps = useSpring({
     x: 0,
     from: { x: 1383.8446044921875 },
     delay: SPEED * 0,
     config: { ...config.slow },
-  });
+  })
   const coralProps = useSpring({
     x: 0,
     from: { x: VIEW_BOX_HEIGHT },
     delay: SPEED * 4,
     config: { ...config.slow },
-  });
+  })
   const redProps = useSpring({
     x: 0,
     from: { x: VIEW_BOX_HEIGHT },
     delay: SPEED * 3,
     config: { ...config.slow },
-  });
+  })
   const blueProps = useSpring({
     x: 0,
     from: { x: VIEW_BOX_HEIGHT },
     delay: SPEED * 2,
     config: { ...config.slow },
-  });
+  })
   const yellowProps = useSpring({
     x: 0,
     from: { x: VIEW_BOX_HEIGHT },
     delay: SPEED * 1,
     config: { ...config.slow },
-  });
+  })
   const greyProps = useSpring({
     x: 0,
     from: { x: VIEW_BOX_HEIGHT },
     delay: SPEED * 0,
     config: { ...config.slow },
-  });
+  })
 
   return (
     <Svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1382 618" opacity={0.7}>
@@ -141,7 +141,7 @@ export default function AnimatedChart() {
         </clipPath>
       </defs>
     </Svg>
-  );
+  )
 }
 
 const Svg = styled.svg`
@@ -150,4 +150,4 @@ const Svg = styled.svg`
   width: 100%;
   position: absolute;
   bottom: 0;
-`;
+`

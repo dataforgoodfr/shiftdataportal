@@ -6,7 +6,7 @@ import {
   WORLD_ENERGY_HISTORY_renewable_primary_energy_prod as BY_ENERGY_FAMILY,
   WORLD_ENERGY_HISTORY_renewable_share_of_primary_energy_prod as SHARE,
   WORLD_ENERGY_HISTORY_renewable_primary_energy_prod as TOTAL,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT
+  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
 } from "../dbSchema";
 import groupBy from "../utils/groupBy";
 import typeColor from "../utils/typeColor";
@@ -31,7 +31,7 @@ const renewableEnergies: RenewableEnergiesResolvers = {
       .orderBy("sumEnergy", "DESC")
       .pluck(BY_ENERGY_FAMILY.energy_family)
       .cache(15 * 60);
-    const res = resRaw.map(energyFamily => ({ name: energyFamily, color: typeColor(energyFamily) }));
+    const res = resRaw.map((energyFamily) => ({ name: energyFamily, color: typeColor(energyFamily) }));
     return res;
   },
   async countries(_, __, { dataSources: { db } }): Promise<RenewableEnergies["countries"]> {
@@ -42,7 +42,7 @@ const renewableEnergies: RenewableEnergiesResolvers = {
       .whereNotNull("group_name")
       .orderBy("group_name", "asc")
       .cache(15 * 60);
-    return res.map(groupName => ({ name: groupName.group_name, color: stringToColor(groupName.group_name) }));
+    return res.map((groupName) => ({ name: groupName.group_name, color: stringToColor(groupName.group_name) }));
   },
   async groups(_, __, { dataSources: { db } }): Promise<RenewableEnergies["groups"]> {
     return await distinctGroups(BY_ENERGY_FAMILY.__tableName, db.knex);
@@ -63,8 +63,8 @@ const renewableEnergies: RenewableEnergiesResolvers = {
       res.push({
         name: key,
         data: groups[key]
-          .map(countryObject => countryObject.country)
-          .map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+          .map((countryObject) => countryObject.country)
+          .map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
       });
     }
     return res;
@@ -98,7 +98,7 @@ const renewableEnergies: RenewableEnergiesResolvers = {
           db.knex.raw("SUM(??)::numeric * ? as ??", [
             BY_ENERGY_FAMILY.energy,
             energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
-            BY_ENERGY_FAMILY.energy
+            BY_ENERGY_FAMILY.energy,
           ])
         )
         .whereIn(BY_ENERGY_FAMILY.energy_family, energyFamilies)
@@ -125,26 +125,26 @@ const renewableEnergies: RenewableEnergiesResolvers = {
         .andWhere(BY_ENERGY_FAMILY.group_name, groupName)
         .orderBy(BY_ENERGY_FAMILY.year)
         .pluck(BY_ENERGY_FAMILY.year)
-        .cache(15 * 60)
+        .cache(15 * 60),
     ]);
     return {
       categories: years,
-      series: energyFamilies.map(energyFamily => {
-        const energyFamilyRaw = resRaw.filter(row => {
+      series: energyFamilies.map((energyFamily) => {
+        const energyFamilyRaw = resRaw.filter((row) => {
           return row[BY_ENERGY_FAMILY.energy_family] === energyFamily;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          energyFamilyRaw.find(row => row[BY_ENERGY_FAMILY.year] === year)
-            ? energyFamilyRaw.find(row => row[BY_ENERGY_FAMILY.year] === year)[BY_ENERGY_FAMILY.energy]
+          energyFamilyRaw.find((row) => row[BY_ENERGY_FAMILY.year] === year)
+            ? energyFamilyRaw.find((row) => row[BY_ENERGY_FAMILY.year] === year)[BY_ENERGY_FAMILY.energy]
             : null
         );
         return {
           name: energyFamily,
           data: data as number[],
-          color: typeColor(energyFamily)
+          color: typeColor(energyFamily),
         };
-      })
+      }),
     };
   },
   async shareOfPrimaryEnergy(
@@ -164,7 +164,7 @@ const renewableEnergies: RenewableEnergiesResolvers = {
           db.knex.raw("SUM(??)::numeric * ? as ??", [
             SHARE.renewable_share_of_primary_energy,
             100,
-            SHARE.renewable_share_of_primary_energy
+            SHARE.renewable_share_of_primary_energy,
           ])
         )
         .whereIn(SHARE.group_name, groupNames)
@@ -208,37 +208,37 @@ const renewableEnergies: RenewableEnergiesResolvers = {
         .orderBy("sum", "asc")
         .limit(10)
         .pluck(SHARE.group_name)
-        .cache(15 * 60)
+        .cache(15 * 60),
     ]);
     // Get the multi-selects option
     const multiSelects = [];
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: TotalTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: TotalFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[SHARE.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[SHARE.year] === year)
-            ? groupNameRaw.find(row => row[SHARE.year] === year)[SHARE.renewable_share_of_primary_energy]
+          groupNameRaw.find((row) => row[SHARE.year] === year)
+            ? groupNameRaw.find((row) => row[SHARE.year] === year)[SHARE.renewable_share_of_primary_energy]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
   },
   async total(
@@ -258,7 +258,7 @@ const renewableEnergies: RenewableEnergiesResolvers = {
           db.knex.raw("SUM(??)::numeric * ? as ??", [
             TOTAL.energy,
             energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
-            TOTAL.energy
+            TOTAL.energy,
           ])
         )
         .whereIn(TOTAL.group_name, groupNames)
@@ -302,39 +302,39 @@ const renewableEnergies: RenewableEnergiesResolvers = {
         .orderBy("sum", "asc")
         .limit(10)
         .pluck(TOTAL.group_name)
-        .cache(15 * 60)
+        .cache(15 * 60),
     ]);
     // Get the multi-selects option
     const multiSelects = [];
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: TotalTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: TotalFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[TOTAL.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[TOTAL.year] === year)
-            ? groupNameRaw.find(row => row[TOTAL.year] === year)[TOTAL.energy]
+          groupNameRaw.find((row) => row[TOTAL.year] === year)
+            ? groupNameRaw.find((row) => row[TOTAL.year] === year)[TOTAL.energy]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
-  }
+  },
 };
 
 export default renewableEnergies;

@@ -10,8 +10,8 @@ const fontSizes = [
   "1.875rem", // 8 30px
   "2rem", // 9 32px
   "3rem", // 10 48px
-  "4rem" // 11 64px
-];
+  "4rem", // 11 64px
+]
 const space = [
   // margin and padding
   0, // 0
@@ -22,8 +22,8 @@ const space = [
   64, // 5
   128, // 6
   256, // 7
-  512 // 8
-];
+  512, // 8
+]
 const sizes = [
   0, // 0
   4, // 1
@@ -33,9 +33,9 @@ const sizes = [
   64, // 5
   128, // 6
   256, // 7
-  512 // 8
-];
-const mainPaddingX = [3, 5, 5, 5, 6];
+  512, // 8
+]
+const mainPaddingX = [3, 5, 5, 5, 6]
 const colors = {
   blue: "#265990",
   darkBlue: "#313D6F",
@@ -46,18 +46,18 @@ const colors = {
   lightBlack: "#292929",
   lightGrey: "#D9D9D9",
   grey: "#484848",
-  backgroundColor: "#F8F8F8"
-};
+  backgroundColor: "#F8F8F8",
+}
 const fonts = {
   primary: "'IBM Plex Sans', sans-serif",
-  secondary: "'IBM Plex Mono', monospace"
-};
-const breakpoints: any = ["40em", "52em", "64em", "80em"];
+  secondary: "'IBM Plex Mono', monospace",
+}
+const breakpoints: any = ["40em", "52em", "64em", "80em"]
 
 // aliases
-breakpoints.sm = breakpoints[0];
-breakpoints.md = breakpoints[1];
-breakpoints.lg = breakpoints[2];
-breakpoints.xl = breakpoints[3];
+breakpoints.sm = breakpoints[0]
+breakpoints.md = breakpoints[1]
+breakpoints.lg = breakpoints[2]
+breakpoints.xl = breakpoints[3]
 
-export default { fontSizes, space, colors, breakpoints, mainPaddingX, sizes, fonts };
+export default { fontSizes, space, colors, breakpoints, mainPaddingX, sizes, fonts }

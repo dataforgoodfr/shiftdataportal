@@ -9,7 +9,7 @@ import {
   GHG_EMISSIONS_PER_CAPITA_ghg_per_capita_prod as PER_CAPITA,
   COUNTRY_multiselect_groups_prod as MULTI_SELECT,
   CARBON_INTENSITY_OF_GDP_carbon_intensity_of_gdp_prod as PER_GDP,
-  GHG_EMISSIONS_ghg_full_by_sector_prod as BY_SECTOR
+  GHG_EMISSIONS_ghg_full_by_sector_prod as BY_SECTOR,
 } from "../dbSchema";
 import typeColor from "../utils/typeColor";
 import stringToColor from "../utils/stringToColor";
@@ -44,8 +44,8 @@ const ghgByGas: GhgByGasResolvers = {
       res.push({
         name: key,
         data: groups[key]
-          .map(countryObject => countryObject.country)
-          .map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+          .map((countryObject) => countryObject.country)
+          .map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
       });
     }
     return res;
@@ -68,7 +68,7 @@ const ghgByGas: GhgByGasResolvers = {
       .select(BY_GAS.gas)
       .sum({ sumGhg: BY_GAS.ghg })
       .whereNotNull(BY_GAS.gas)
-      .andWhere(function() {
+      .andWhere(function () {
         this.where(BY_GAS.including_lucf, false).orWhere(BY_GAS.including_lucf, null);
       })
       .andWhere({ source })
@@ -77,7 +77,7 @@ const ghgByGas: GhgByGasResolvers = {
       .pluck(BY_GAS.gas)
       .cache(15 * 60);
 
-    return res.map(gas => ({ name: gas, color: typeColor(gas) }));
+    return res.map((gas) => ({ name: gas, color: typeColor(gas) }));
   },
   async sectors(_, { source }, { dataSources: { db } }): Promise<GhgByGas["sectors"]> {
     // Require "source" argument because group types might differ when source changes.
@@ -92,7 +92,7 @@ const ghgByGas: GhgByGasResolvers = {
       .orderBy("sumGhg", "DESC")
       .pluck(BY_SECTOR.sector)
       .cache(15 * 60);
-    return res.map(sector => ({ name: sector, color: typeColor(sector) }));
+    return res.map((sector) => ({ name: sector, color: typeColor(sector) }));
   },
   async countries(_, __, { dataSources: { db } }): Promise<GhgByGas["countries"]> {
     return await distinctCountries(BY_GAS.__tableName, db.knex);
@@ -120,7 +120,7 @@ const ghgByGas: GhgByGasResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_GDP.co2_per_gdp,
           emissionsUnit ? cO2Multiplier(Co2Unit.MtCo2, emissionsUnit) : 1,
-          PER_GDP.co2_per_gdp
+          PER_GDP.co2_per_gdp,
         ])
       )
       .whereIn(PER_GDP.group_name, groupNames)
@@ -176,36 +176,36 @@ const ghgByGas: GhgByGasResolvers = {
       resRawQuery,
       yearsQuery,
       perCapitaTopCountriesDataQuery,
-      perCapitaFlopCountriesDataQuery
+      perCapitaFlopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: perCapitaTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: perCapitaFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
 
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[PER_GDP.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[PER_GDP.year] === year)
-            ? groupNameRaw.find(row => row[PER_GDP.year] === year)[PER_GDP.co2_per_gdp]
+          groupNameRaw.find((row) => row[PER_GDP.year] === year)
+            ? groupNameRaw.find((row) => row[PER_GDP.year] === year)[PER_GDP.co2_per_gdp]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
   },
   async byGas(
@@ -223,10 +223,10 @@ const ghgByGas: GhgByGasResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           BY_GAS.ghg,
           emissionsUnit ? cO2EqMultiplier(Co2eqUnit.MtCo2eq, emissionsUnit) : 1,
-          BY_GAS.ghg
+          BY_GAS.ghg,
         ])
       )
-      .andWhere(function() {
+      .andWhere(function () {
         this.where(BY_GAS.including_lucf, false).orWhere(BY_GAS.including_lucf, null);
       })
       .whereIn(BY_GAS.gas, gases)
@@ -244,7 +244,7 @@ const ghgByGas: GhgByGasResolvers = {
       .andWhereBetween(BY_GAS.year, [yearStart, yearEnd])
       .andWhere(BY_GAS.source, source)
       .andWhere(BY_GAS.group_name, groupName)
-      .andWhere(function() {
+      .andWhere(function () {
         this.where(BY_GAS.including_lucf, false).orWhere(BY_GAS.including_lucf, null);
       })
       .orderBy(BY_GAS.year)
@@ -253,22 +253,22 @@ const ghgByGas: GhgByGasResolvers = {
     const [resRaw, years] = await Promise.all([resRawQuery, yearsQuery]);
     return {
       categories: years,
-      series: gases.map(gases => {
-        const gasesRaw = resRaw.filter(row => {
+      series: gases.map((gases) => {
+        const gasesRaw = resRaw.filter((row) => {
           return row[BY_GAS.gas] === gases;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          gasesRaw.find(row => row[BY_GAS.year] === year)
-            ? gasesRaw.find(row => row[BY_GAS.year] === year)[BY_GAS.ghg]
+          gasesRaw.find((row) => row[BY_GAS.year] === year)
+            ? gasesRaw.find((row) => row[BY_GAS.year] === year)[BY_GAS.ghg]
             : null
         );
         return {
           name: gases,
           data: data as number[],
-          color: typeColor(gases)
+          color: typeColor(gases),
         };
-      })
+      }),
     };
   },
   async perCapita(
@@ -285,7 +285,7 @@ const ghgByGas: GhgByGasResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_CAPITA.ghg_per_capita,
           emissionsUnit ? cO2EqMultiplier(Co2eqUnit.MtCo2eq, emissionsUnit) : 1,
-          PER_CAPITA.ghg_per_capita
+          PER_CAPITA.ghg_per_capita,
         ])
       )
       .andWhere(PER_CAPITA.source, source)
@@ -338,36 +338,36 @@ const ghgByGas: GhgByGasResolvers = {
       resRawQuery,
       yearsQuery,
       perCapitaTopCountriesDataQuery,
-      perCapitaFlopCountriesDataQuery
+      perCapitaFlopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: perCapitaTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: perCapitaFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
 
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[PER_CAPITA.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[PER_CAPITA.year] === year)
-            ? groupNameRaw.find(row => row[PER_CAPITA.year] === year)[PER_CAPITA.ghg_per_capita]
+          groupNameRaw.find((row) => row[PER_CAPITA.year] === year)
+            ? groupNameRaw.find((row) => row[PER_CAPITA.year] === year)[PER_CAPITA.ghg_per_capita]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
   },
   async bySector(
@@ -385,7 +385,7 @@ const ghgByGas: GhgByGasResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           BY_SECTOR.ghg,
           emissionsUnit ? cO2EqMultiplier(Co2eqUnit.MtCo2eq, emissionsUnit) : 1,
-          BY_SECTOR.ghg
+          BY_SECTOR.ghg,
         ])
       )
       .whereIn(BY_SECTOR.sector, sectors)
@@ -411,22 +411,22 @@ const ghgByGas: GhgByGasResolvers = {
     const [resRaw, years] = await Promise.all([resRawQuery, yearsQuery]);
     return {
       categories: years,
-      series: sectors.map(sector => {
-        const sectorRaw = resRaw.filter(row => {
+      series: sectors.map((sector) => {
+        const sectorRaw = resRaw.filter((row) => {
           return row[BY_SECTOR.sector] === sector;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          sectorRaw.find(row => row[BY_SECTOR.year] === year)
-            ? sectorRaw.find(row => row[BY_SECTOR.year] === year)[BY_SECTOR.ghg]
+          sectorRaw.find((row) => row[BY_SECTOR.year] === year)
+            ? sectorRaw.find((row) => row[BY_SECTOR.year] === year)[BY_SECTOR.ghg]
             : null
         );
         return {
           name: sector,
           data: data as number[],
-          color: typeColor(sector)
+          color: typeColor(sector),
         };
-      })
+      }),
     };
   },
 
@@ -443,7 +443,7 @@ const ghgByGas: GhgByGasResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           BY_SECTOR.ghg,
           emissionsUnit ? cO2EqMultiplier(Co2eqUnit.MtCo2eq, emissionsUnit) : 1,
-          BY_SECTOR.ghg
+          BY_SECTOR.ghg,
         ])
       )
       .whereIn(BY_SECTOR.group_name, groupNames)
@@ -494,37 +494,37 @@ const ghgByGas: GhgByGasResolvers = {
       resRawQuery,
       yearsQuery,
       TotalTopCountriesDataQuery,
-      TotalFlopCountriesDataQuery
+      TotalFlopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: TotalTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: TotalFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[BY_SECTOR.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[BY_SECTOR.year] === year)
-            ? groupNameRaw.find(row => row[BY_SECTOR.year] === year)[BY_SECTOR.ghg]
+          groupNameRaw.find((row) => row[BY_SECTOR.year] === year)
+            ? groupNameRaw.find((row) => row[BY_SECTOR.year] === year)[BY_SECTOR.ghg]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
-  }
+  },
 };
 const dimensionToTableName = (dimension: string): any => {
   switch (dimension) {

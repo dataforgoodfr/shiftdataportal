@@ -10,7 +10,7 @@ import {
   FOSSIL_RESERVES_bp_fossil_with_zones_prod as PROVEN_RESERVE,
   OIL_EXTRAPOLATION_oil_prod_extrapolation_prod as OLD_EXTRAPOLATION,
   OIL_EXTRAPOLATION_oil_prod_weo_extrapolated_prod as EXTRAPOLATION,
-  WORLD_ENERGY_HISTORY_primary_energy_prod as TOTAL
+  WORLD_ENERGY_HISTORY_primary_energy_prod as TOTAL,
 } from "../dbSchema";
 import groupBy from "../utils/groupBy";
 import stringToColor from "../utils/stringToColor";
@@ -37,8 +37,8 @@ const oil: OilResolvers = {
       res.push({
         name: key,
         data: groups[key]
-          .map(countryObject => countryObject.country)
-          .map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+          .map((countryObject) => countryObject.country)
+          .map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
       });
     }
     return res;
@@ -60,7 +60,7 @@ const oil: OilResolvers = {
       .orderBy(BY_SECTOR.sector, "asc")
       .pluck(BY_SECTOR.sector)
       .cache(15 * 60);
-    return res.map(sector => ({ name: sector, color: typeColor(sector) }));
+    return res.map((sector) => ({ name: sector, color: typeColor(sector) }));
   },
   dimensions(): Oil["dimensions"] {
     return Object.values(OilDimensions);
@@ -76,7 +76,7 @@ const oil: OilResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_CAPITA.energy_per_capita,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
-          PER_CAPITA.energy_per_capita
+          PER_CAPITA.energy_per_capita,
         ])
       )
       .whereIn(PER_CAPITA.group_name, groupNames)
@@ -134,35 +134,35 @@ const oil: OilResolvers = {
       resRawQuery,
       yearsQuery,
       perCapitaTopCountriesDataQuery,
-      perCapitaFlopCountriesDataQuery
+      perCapitaFlopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: perCapitaFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: perCapitaTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[PER_CAPITA.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[PER_CAPITA.year] === year)
-            ? groupNameRaw.find(row => row[PER_CAPITA.year] === year)[PER_CAPITA.energy_per_capita]
+          groupNameRaw.find((row) => row[PER_CAPITA.year] === year)
+            ? groupNameRaw.find((row) => row[PER_CAPITA.year] === year)[PER_CAPITA.energy_per_capita]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
   },
   async bySector(_, { energyUnit, sectors, groupName, yearStart, yearEnd }, { dataSources: { db } }) {
@@ -176,7 +176,7 @@ const oil: OilResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           BY_SECTOR.final_energy,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
-          BY_SECTOR.final_energy
+          BY_SECTOR.final_energy,
         ])
       )
       .whereIn(BY_SECTOR.sector, sectors)
@@ -199,22 +199,22 @@ const oil: OilResolvers = {
     const [resRaw, years] = await Promise.all([resRawQuery, yearsQuery]);
     return {
       categories: years,
-      series: sectors.map(sector => {
-        const sectorRaw = resRaw.filter(row => {
+      series: sectors.map((sector) => {
+        const sectorRaw = resRaw.filter((row) => {
           return row[BY_SECTOR.sector] === sector;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          sectorRaw.find(row => row[BY_SECTOR.year] === year)
-            ? sectorRaw.find(row => row[BY_SECTOR.year] === year)[BY_SECTOR.final_energy]
+          sectorRaw.find((row) => row[BY_SECTOR.year] === year)
+            ? sectorRaw.find((row) => row[BY_SECTOR.year] === year)[BY_SECTOR.final_energy]
             : null
         );
         return {
           name: sector,
           data: data as number[],
-          color: typeColor(sector)
+          color: typeColor(sector),
         };
-      })
+      }),
     };
   },
   async provenReserve(_, { groupNames, yearStart, yearEnd }, { dataSources: { db } }) {
@@ -277,36 +277,36 @@ const oil: OilResolvers = {
       resRawQuery,
       yearsQuery,
       topCountriesDataQuery,
-      flopCountriesDataQuery
+      flopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: topCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: topCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: flopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: flopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
 
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[PROVEN_RESERVE.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[PROVEN_RESERVE.year] === year)
-            ? groupNameRaw.find(row => row[PROVEN_RESERVE.year] === year)[PROVEN_RESERVE.proven_reserves]
+          groupNameRaw.find((row) => row[PROVEN_RESERVE.year] === year)
+            ? groupNameRaw.find((row) => row[PROVEN_RESERVE.year] === year)[PROVEN_RESERVE.proven_reserves]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
   },
   async total(_, { yearStart, yearEnd, groupNames, energyUnit, type }, { dataSources: { db } }) {
@@ -320,7 +320,7 @@ const oil: OilResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           TOTAL.energy,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
-          TOTAL.energy
+          TOTAL.energy,
         ])
       )
       .where(TOTAL.energy_family, "Oil")
@@ -379,35 +379,35 @@ const oil: OilResolvers = {
       resRawQuery,
       yearsQuery,
       topCountriesDataQuery,
-      flopCountriesDataQuery
+      flopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: topCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: topCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: flopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: flopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[TOTAL.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[TOTAL.year] === year)
-            ? groupNameRaw.find(row => row[TOTAL.year] === year)[TOTAL.energy]
+          groupNameRaw.find((row) => row[TOTAL.year] === year)
+            ? groupNameRaw.find((row) => row[TOTAL.year] === year)[TOTAL.energy]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
   },
   async scenari(_, __, { dataSources: { db } }): Promise<Oil["oldScenari"]> {
@@ -420,7 +420,7 @@ const oil: OilResolvers = {
       .pluck(EXTRAPOLATION.scenario)
       .cache(15 * 60);
     // Filter the historical data because it will all be displayed
-    return res.map(scenario => ({ name: scenario, color: stringToColor(scenario) }));
+    return res.map((scenario) => ({ name: scenario, color: stringToColor(scenario) }));
   },
   async curves(_, __, { dataSources: { db } }): Promise<Oil["oldCurves"]> {
     return await db
@@ -515,21 +515,15 @@ const oil: OilResolvers = {
       .andWhere(EXTRAPOLATION.type, "Extrapolation")
       .pluck(EXTRAPOLATION.year)
       .cache(15 * 60);
-    const [
-      historicalRaw,
-      historicalYears,
-      scenariRaw,
-      scenariYears,
-      extrapolationRaw,
-      extrapolationYears
-    ] = await Promise.all([
-      historicalRawQuery,
-      historicalYearsQuery,
-      scenariRawQuery,
-      scenariYearsQuery,
-      extrapolationRawQuery,
-      extrapolationYearsQuery
-    ]);
+    const [historicalRaw, historicalYears, scenariRaw, scenariYears, extrapolationRaw, extrapolationYears] =
+      await Promise.all([
+        historicalRawQuery,
+        historicalYearsQuery,
+        scenariRawQuery,
+        scenariYearsQuery,
+        extrapolationRawQuery,
+        extrapolationYearsQuery,
+      ]);
 
     // Delete and sort duplicated years
     const distinctYears = [...new Set([...extrapolationYears, ...scenariYears, ...historicalYears])];
@@ -538,24 +532,24 @@ const oil: OilResolvers = {
     // Format raw to match serie type
     const historicalSerie = {
       name: "Historical",
-      data: sortedYears.map(year =>
+      data: sortedYears.map((year) =>
         // Fill missing year with null
-        historicalRaw.find(row => row[EXTRAPOLATION.year] === year)
-          ? historicalRaw.find(row => row[EXTRAPOLATION.year] === year)[EXTRAPOLATION.oil_production]
+        historicalRaw.find((row) => row[EXTRAPOLATION.year] === year)
+          ? historicalRaw.find((row) => row[EXTRAPOLATION.year] === year)[EXTRAPOLATION.oil_production]
           : null
       ) as number[],
       dashStyle: "Solid",
-      color: "#000000"
+      color: "#000000",
     };
 
-    const scenariSeries = scenari.map(scenario => {
-      const scenarioRaw = scenariRaw.filter(row => {
+    const scenariSeries = scenari.map((scenario) => {
+      const scenarioRaw = scenariRaw.filter((row) => {
         return row[EXTRAPOLATION.scenario] === scenario;
       });
-      const data = sortedYears.map(year =>
+      const data = sortedYears.map((year) =>
         // Fill missing year with null
-        scenarioRaw.find(row => row[EXTRAPOLATION.year] === year)
-          ? scenarioRaw.find(row => row[EXTRAPOLATION.year] === year)[EXTRAPOLATION.oil_production]
+        scenarioRaw.find((row) => row[EXTRAPOLATION.year] === year)
+          ? scenarioRaw.find((row) => row[EXTRAPOLATION.year] === year)[EXTRAPOLATION.oil_production]
           : null
       );
       return {
@@ -563,31 +557,31 @@ const oil: OilResolvers = {
         data: data as number[],
         dashStyle: "Solid",
         type: "spline",
-        color: stringToColor(scenario)
+        color: stringToColor(scenario),
       };
     });
 
     const groupedExtrapolationSerieRaw = [];
-    extrapolationRaw.forEach(row => {
+    extrapolationRaw.forEach((row) => {
       const title = `${row[EXTRAPOLATION.scenario]} - ${row[EXTRAPOLATION.extrapolation_curve]}`;
-      const index = groupedExtrapolationSerieRaw.findIndex(o => o.title === title);
+      const index = groupedExtrapolationSerieRaw.findIndex((o) => o.title === title);
       if (index === -1) {
         groupedExtrapolationSerieRaw.push({
           title,
           unsortedData: [row],
           scenario: row[EXTRAPOLATION.scenario],
-          curve: row[EXTRAPOLATION.extrapolation_curve]
+          curve: row[EXTRAPOLATION.extrapolation_curve],
         });
       } else {
         groupedExtrapolationSerieRaw[index].unsortedData.push(row);
       }
     });
     // Format for series's type
-    const extrapolationSeries = groupedExtrapolationSerieRaw.map(extrapolation => {
-      const data = sortedYears.map(year =>
+    const extrapolationSeries = groupedExtrapolationSerieRaw.map((extrapolation) => {
+      const data = sortedYears.map((year) =>
         // Fill missing year with null
-        extrapolation.unsortedData.find(row => row[EXTRAPOLATION.year] === year)
-          ? extrapolation.unsortedData.find(row => row[EXTRAPOLATION.year] === year)[EXTRAPOLATION.oil_production]
+        extrapolation.unsortedData.find((row) => row[EXTRAPOLATION.year] === year)
+          ? extrapolation.unsortedData.find((row) => row[EXTRAPOLATION.year] === year)[EXTRAPOLATION.oil_production]
           : null
       );
       // Set different dashStyle per curve type.
@@ -613,12 +607,12 @@ const oil: OilResolvers = {
         data: data as number[],
         dashStyle,
         type: "spline",
-        color: stringToColor(extrapolation.scenario)
+        color: stringToColor(extrapolation.scenario),
       };
     });
     return {
       categories: sortedYears,
-      series: [historicalSerie, ...scenariSeries, ...extrapolationSeries]
+      series: [historicalSerie, ...scenariSeries, ...extrapolationSeries],
     };
   },
 
@@ -711,21 +705,15 @@ const oil: OilResolvers = {
       .whereIn(OLD_EXTRAPOLATION.extrapolation_curve, curves)
       .pluck(OLD_EXTRAPOLATION.year)
       .cache(15 * 60);
-    const [
-      historicalRaw,
-      historicalYears,
-      scenariRaw,
-      scenariYears,
-      extrapolationRaw,
-      extrapolationYears
-    ] = await Promise.all([
-      historicalRawQuery,
-      historicalYearsQuery,
-      scenariRawQuery,
-      scenariYearsQuery,
-      extrapolationRawQuery,
-      extrapolationYearsQuery
-    ]);
+    const [historicalRaw, historicalYears, scenariRaw, scenariYears, extrapolationRaw, extrapolationYears] =
+      await Promise.all([
+        historicalRawQuery,
+        historicalYearsQuery,
+        scenariRawQuery,
+        scenariYearsQuery,
+        extrapolationRawQuery,
+        extrapolationYearsQuery,
+      ]);
 
     // Delete and sort duplicated years
     const distinctYears = [...new Set([...extrapolationYears, ...scenariYears, ...historicalYears])];
@@ -734,26 +722,28 @@ const oil: OilResolvers = {
     // Format raw to match serie type
     const historicalSerie = {
       name: "Historical",
-      data: sortedYears.map(year =>
+      data: sortedYears.map((year) =>
         // Fill missing year with null
-        historicalRaw.find(row => row[OLD_EXTRAPOLATION.year] === year)
-          ? historicalRaw.find(row => row[OLD_EXTRAPOLATION.year] === year)[
+        historicalRaw.find((row) => row[OLD_EXTRAPOLATION.year] === year)
+          ? historicalRaw.find((row) => row[OLD_EXTRAPOLATION.year] === year)[
               OLD_EXTRAPOLATION.conventional_oil_production
             ]
           : null
       ) as number[],
       dashStyle: "Solid",
-      color: "#000000"
+      color: "#000000",
     };
 
-    const scenariSeries = scenari.map(scenario => {
-      const scenarioRaw = scenariRaw.filter(row => {
+    const scenariSeries = scenari.map((scenario) => {
+      const scenarioRaw = scenariRaw.filter((row) => {
         return row[OLD_EXTRAPOLATION.source_scenario] === scenario;
       });
-      const data = sortedYears.map(year =>
+      const data = sortedYears.map((year) =>
         // Fill missing year with null
-        scenarioRaw.find(row => row[OLD_EXTRAPOLATION.year] === year)
-          ? scenarioRaw.find(row => row[OLD_EXTRAPOLATION.year] === year)[OLD_EXTRAPOLATION.conventional_oil_production]
+        scenarioRaw.find((row) => row[OLD_EXTRAPOLATION.year] === year)
+          ? scenarioRaw.find((row) => row[OLD_EXTRAPOLATION.year] === year)[
+              OLD_EXTRAPOLATION.conventional_oil_production
+            ]
           : null
       );
       return {
@@ -761,31 +751,31 @@ const oil: OilResolvers = {
         data: data as number[],
         dashStyle: "Solid",
         type: "spline",
-        color: stringToColor(scenario)
+        color: stringToColor(scenario),
       };
     });
 
     const groupedExtrapolationSerieRaw = [];
-    extrapolationRaw.forEach(row => {
+    extrapolationRaw.forEach((row) => {
       const title = `${row[OLD_EXTRAPOLATION.source_scenario]} - ${row[OLD_EXTRAPOLATION.extrapolation_curve]}`;
-      const index = groupedExtrapolationSerieRaw.findIndex(o => o.title === title);
+      const index = groupedExtrapolationSerieRaw.findIndex((o) => o.title === title);
       if (index === -1) {
         groupedExtrapolationSerieRaw.push({
           title,
           unsortedData: [row],
           scenario: row[OLD_EXTRAPOLATION.source_scenario],
-          curve: row[OLD_EXTRAPOLATION.extrapolation_curve]
+          curve: row[OLD_EXTRAPOLATION.extrapolation_curve],
         });
       } else {
         groupedExtrapolationSerieRaw[index].unsortedData.push(row);
       }
     });
     // Format for series's type
-    const extrapolationSeries = groupedExtrapolationSerieRaw.map(extrapolation => {
-      const data = sortedYears.map(year =>
+    const extrapolationSeries = groupedExtrapolationSerieRaw.map((extrapolation) => {
+      const data = sortedYears.map((year) =>
         // Fill missing year with null
-        extrapolation.unsortedData.find(row => row[OLD_EXTRAPOLATION.year] === year)
-          ? extrapolation.unsortedData.find(row => row[OLD_EXTRAPOLATION.year] === year)[
+        extrapolation.unsortedData.find((row) => row[OLD_EXTRAPOLATION.year] === year)
+          ? extrapolation.unsortedData.find((row) => row[OLD_EXTRAPOLATION.year] === year)[
               OLD_EXTRAPOLATION.conventional_oil_production
             ]
           : null
@@ -813,12 +803,12 @@ const oil: OilResolvers = {
         data: data as number[],
         dashStyle,
         type: "spline",
-        color: stringToColor(extrapolation.scenario)
+        color: stringToColor(extrapolation.scenario),
       };
     });
     return {
       categories: sortedYears,
-      series: [historicalSerie, ...scenariSeries, ...extrapolationSeries]
+      series: [historicalSerie, ...scenariSeries, ...extrapolationSeries],
     };
   },
   async oldScenari(_, __, { dataSources: { db } }): Promise<Oil["oldScenari"]> {
@@ -830,7 +820,7 @@ const oil: OilResolvers = {
       .pluck(OLD_EXTRAPOLATION.source_scenario)
       .cache(15 * 60);
     // Filter the historical data because it will all be displayed
-    return res.map(scenario => ({ name: scenario, color: stringToColor(scenario) }));
+    return res.map((scenario) => ({ name: scenario, color: stringToColor(scenario) }));
   },
   async oldCurves(_, __, { dataSources: { db } }): Promise<Oil["oldCurves"]> {
     return await db
@@ -847,6 +837,6 @@ const oil: OilResolvers = {
       .orderBy(OLD_EXTRAPOLATION.urr)
       .pluck(OLD_EXTRAPOLATION.urr)
       .cache(15 * 60);
-  }
+  },
 };
 export default oil;

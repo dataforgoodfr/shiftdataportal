@@ -1,11 +1,11 @@
-import { useQuery } from "@apollo/client";
-import gql from "graphql-tag";
-import { NextPage } from "next";
-import Head from "next/head";
-import { ParsedUrlQueryInput } from "querystring";
-import React, { Fragment, useEffect, useReducer, useState, useRef } from "react";
-import { Range } from "react-input-range";
-import { useDebounce } from "use-debounce";
+import { useQuery } from "@apollo/client"
+import gql from "graphql-tag"
+import { NextPage } from "next"
+import Head from "next/head"
+import { ParsedUrlQueryInput } from "querystring"
+import React, { Fragment, useEffect, useReducer, useState, useRef } from "react"
+import { Range } from "react-input-range"
+import { useDebounce } from "use-debounce"
 import {
   ChartTypesSelect,
   Footer,
@@ -21,9 +21,9 @@ import {
   SelectContainer,
   GraphInfos,
   SharingButtons,
-} from "../../components";
-import StackedChart, { ChartType, StackedChartProps } from "../../components/StackedChart";
-import useSyncParamsWithUrl from "../../hooks/useSyncParamsWithUrl";
+} from "../../components"
+import StackedChart, { ChartType, StackedChartProps } from "../../components/StackedChart"
+import useSyncParamsWithUrl from "../../hooks/useSyncParamsWithUrl"
 import {
   EnergyUnit,
   GetNuclearDimensionQuery,
@@ -31,13 +31,13 @@ import {
   NuclearDimensions,
   NuclearInputsQuery,
   NuclearInputsQueryVariables,
-} from "../../types";
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton";
-import useOnYearRangeChange from "../../hooks/useOnYearRangeChange";
-import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable";
+} from "../../types"
+import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
+import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
+import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
 
 const Nuclear: NextPage<DefaultProps> = ({ params }) => {
-  const stackedChartRef = useRef(null);
+  const stackedChartRef = useRef(null)
   // Reducer state
   const [
     {
@@ -53,17 +53,18 @@ const Nuclear: NextPage<DefaultProps> = ({ params }) => {
       iframe,
     },
     dispatch,
-  ] = useReducer(reducer, { ...params });
+  ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
-    NuclearInputsQuery,
-    NuclearInputsQueryVariables
-  >(INPUTS);
+  const {
+    loading: loadingInputs,
+    data: dataInputs,
+    error: errorInputs,
+  } = useQuery<NuclearInputsQuery, NuclearInputsQueryVariables>(INPUTS)
   // Manage specific state with URL params
-  const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}));
+  const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}))
 
   // Prevent re-fetching data each time year changes
-  const [debouncedYearRange] = useDebounce(selectedYearRange, 300);
+  const [debouncedYearRange] = useDebounce(selectedYearRange, 300)
 
   // Update the url params when any dependency changes (the array in the useEffect hook)
   useEffect(() => {
@@ -77,7 +78,7 @@ const Nuclear: NextPage<DefaultProps> = ({ params }) => {
       end: debouncedYearRange.max,
       start: debouncedYearRange.min,
       multi: isGroupNamesMulti,
-    });
+    })
   }, [
     selectedChartType,
     chartTypes,
@@ -87,11 +88,11 @@ const Nuclear: NextPage<DefaultProps> = ({ params }) => {
     debouncedYearRange,
     isRange,
     isGroupNamesMulti,
-  ]);
+  ])
   // Applies the urlParams change to the real URL.
-  useSyncParamsWithUrl(urlParams);
+  useSyncParamsWithUrl(urlParams)
 
-  const [graphTitle, setGraphTitle] = useState<string>("");
+  const [graphTitle, setGraphTitle] = useState<string>("")
   // Fetches the graph data, automatically re-fetches when any variable changes
   const { data: dimensionData, loading: dimensionLoading } = useQuery<
     GetNuclearDimensionQuery,
@@ -106,30 +107,30 @@ const Nuclear: NextPage<DefaultProps> = ({ params }) => {
       yearStart: 0,
       yearEnd: 3000,
     },
-  });
+  })
 
   // Update graph title
   useEffect(() => {
-    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : "";
-    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : "";
-    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max;
-    setGraphTitle(`Nuclear ${displayedDimension}, ${displayedGroupNames} ${displayedYears}`);
-  }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange]);
+    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : ""
+    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : ""
+    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
+    setGraphTitle(`Nuclear ${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
+  }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange])
   function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV();
+    stackedChartRef.current.downloadCSV()
   }
   function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart();
+    stackedChartRef.current.exportChart()
   }
-  const onYearRangeChange = useOnYearRangeChange(dispatch);
-  let inputs: any;
+  const onYearRangeChange = useOnYearRangeChange(dispatch)
+  let inputs: any
 
   if (errorInputs) {
-    inputs = <p>Error, couldn\'t fetch data. Might be an internet connection problem.</p>;
+    inputs = <p>Error, couldn\'t fetch data. Might be an internet connection problem.</p>
   } else if (loadingInputs || !dataInputs || !dataInputs.nuclear) {
-    inputs = <p>Loading...</p>;
+    inputs = <p>Loading...</p>
   } else {
-    const { energyUnits, zones, groups, countries, dimensions } = dataInputs.nuclear;
+    const { energyUnits, zones, groups, countries, dimensions } = dataInputs.nuclear
     inputs = (
       <Fragment>
         <div>
@@ -167,7 +168,7 @@ const Nuclear: NextPage<DefaultProps> = ({ params }) => {
               dispatch({
                 type: "selectGroupNames",
                 payload: { selectedGroupNames },
-              });
+              })
             }}
           />
           {selectedDimension !== "shareOfElectricityGeneration" && (
@@ -180,7 +181,7 @@ const Nuclear: NextPage<DefaultProps> = ({ params }) => {
                 dispatch({
                   type: "selectEnergyUnit",
                   payload: { selectedEnergyUnit },
-                });
+                })
               }}
             />
           )}
@@ -193,28 +194,28 @@ const Nuclear: NextPage<DefaultProps> = ({ params }) => {
                 case "pie":
                   dispatch({
                     type: "selectPie",
-                  });
-                  break;
+                  })
+                  break
                 case "line":
-                  dispatch({ type: "selectLine" });
-                  break;
+                  dispatch({ type: "selectLine" })
+                  break
                 case "stacked":
-                  dispatch({ type: "selectStacked" });
-                  break;
+                  dispatch({ type: "selectStacked" })
+                  break
                 case "ranking":
-                  dispatch({ type: "selectRanking" });
-                  break;
+                  dispatch({ type: "selectRanking" })
+                  break
                 case "stacked-percent":
-                  dispatch({ type: "selectStackedPercent" });
-                  break;
+                  dispatch({ type: "selectStackedPercent" })
+                  break
                 default:
-                  console.warn(`ChartTypes input "${value}" didn't match any chartTypes`);
+                  console.warn(`ChartTypes input "${value}" didn't match any chartTypes`)
               }
             }}
           />
         </SelectContainer>
       </Fragment>
-    );
+    )
   }
   if (iframe) {
     return (
@@ -231,13 +232,13 @@ const Nuclear: NextPage<DefaultProps> = ({ params }) => {
         title={graphTitle}
         highchartsSeriesAndCategories={
           dimensionData?.nuclear && dimensionData.nuclear[selectedDimension]
-            ? ((dimensionData.nuclear[
+            ? (dimensionData.nuclear[
                 selectedDimension
-              ] as unknown) as StackedChartProps["highchartsSeriesAndCategories"])
+              ] as unknown as StackedChartProps["highchartsSeriesAndCategories"])
             : { series: [], categories: [] }
         }
       />
-    );
+    )
   }
   return (
     <Fragment>
@@ -261,9 +262,9 @@ const Nuclear: NextPage<DefaultProps> = ({ params }) => {
             title={graphTitle}
             highchartsSeriesAndCategories={
               dimensionData?.nuclear && dimensionData.nuclear[selectedDimension]
-                ? ((dimensionData.nuclear[
+                ? (dimensionData.nuclear[
                     selectedDimension
-                  ] as unknown) as StackedChartProps["highchartsSeriesAndCategories"])
+                  ] as unknown as StackedChartProps["highchartsSeriesAndCategories"])
                 : { series: [], categories: [] }
             }
           />
@@ -282,8 +283,8 @@ const Nuclear: NextPage<DefaultProps> = ({ params }) => {
       </Main>
       <Footer />
     </Fragment>
-  );
-};
+  )
+}
 Nuclear.getInitialProps = async function ({ query }) {
   // Get all the parameters from the URL or set default state
   return {
@@ -317,8 +318,8 @@ Nuclear.getInitialProps = async function ({ query }) {
       isRange: (query["is-range"] as string) ? JSON.parse(query["is-range"] as string) : true,
       chartHeight: (query["chart-height"] as string) ? (query["chart-height"] as string) : "75rem",
     },
-  };
-};
+  }
+}
 
 export const INPUTS = gql`
   query nuclearInputs {
@@ -340,7 +341,7 @@ export const INPUTS = gql`
       }
     }
   }
-`;
+`
 
 // GraphQL query to get all the chart data
 export const GET_DIMENSION = gql`
@@ -395,21 +396,21 @@ export const GET_DIMENSION = gql`
       }
     }
   }
-`;
+`
 interface DefaultProps {
-  params: ReducerState;
+  params: ReducerState
 }
 interface ReducerState {
-  chartTypes: ChartType[];
-  selectedChartType: ChartType;
-  isGroupNamesMulti: boolean;
-  selectedDimension: NuclearDimensions;
-  selectedEnergyUnit: GetNuclearDimensionQueryVariables["energyUnit"] | "%";
-  selectedGroupNames: GetNuclearDimensionQueryVariables["groupNames"];
-  iframe: boolean;
-  isRange: boolean;
-  selectedYearRange: Range;
-  chartHeight: string;
+  chartTypes: ChartType[]
+  selectedChartType: ChartType
+  isGroupNamesMulti: boolean
+  selectedDimension: NuclearDimensions
+  selectedEnergyUnit: GetNuclearDimensionQueryVariables["energyUnit"] | "%"
+  selectedGroupNames: GetNuclearDimensionQueryVariables["groupNames"]
+  iframe: boolean
+  isRange: boolean
+  selectedYearRange: Range
+  chartHeight: string
 }
 type ReducerActions =
   | NuclearDimensions
@@ -422,17 +423,17 @@ type ReducerActions =
   | "selectStackedPercent"
   | "selectRanking"
   | "selectYears"
-  | "selectType";
+  | "selectType"
 const reducer: React.Reducer<
   ReducerState,
   {
-    type: ReducerActions;
+    type: ReducerActions
     payload?: {
-      selectedGroupNames?: ReducerState["selectedGroupNames"];
-      selectedEnergyUnit?: ReducerState["selectedEnergyUnit"];
-      selectedDimension?: ReducerState["selectedDimension"];
-      selectedYearRange?: ReducerState["selectedYearRange"];
-    };
+      selectedGroupNames?: ReducerState["selectedGroupNames"]
+      selectedEnergyUnit?: ReducerState["selectedEnergyUnit"]
+      selectedDimension?: ReducerState["selectedDimension"]
+      selectedYearRange?: ReducerState["selectedYearRange"]
+    }
   }
 > = (prevState, action) => {
   switch (action.type) {
@@ -444,7 +445,7 @@ const reducer: React.Reducer<
         selectedDimension: NuclearDimensions.Total,
         isGroupNamesMulti: true,
         selectedEnergyUnit: EnergyUnit.TWh,
-      };
+      }
     case NuclearDimensions.ShareOfElectricityGeneration:
       return {
         ...prevState,
@@ -453,55 +454,55 @@ const reducer: React.Reducer<
         selectedDimension: NuclearDimensions.ShareOfElectricityGeneration,
         isGroupNamesMulti: true,
         selectedEnergyUnit: "%",
-      };
+      }
     case "selectGroupNames":
       return {
         ...prevState,
         selectedGroupNames: action.payload.selectedGroupNames,
-      };
+      }
     case "selectEnergyUnit":
       return {
         ...prevState,
         selectedEnergyUnit: action.payload.selectedEnergyUnit,
-      };
+      }
     case "selectDimension":
       return {
         ...prevState,
         selectedDimension: action.payload.selectedDimension,
-      };
+      }
     case "selectStacked":
       return {
         ...prevState,
         selectedChartType: "stacked",
         isRange: true,
-      };
+      }
     case "selectStackedPercent":
       return {
         ...prevState,
         selectedChartType: "stacked-percent",
         isRange: true,
-      };
+      }
     case "selectLine":
       return {
         ...prevState,
         selectedChartType: "line",
         isRange: true,
-      };
+      }
     case "selectRanking":
       return {
         ...prevState,
         selectedChartType: "ranking",
         isRange: false,
-      };
+      }
     case "selectYears":
       return {
         ...prevState,
         selectedYearRange: action.payload.selectedYearRange,
-      };
+      }
     default:
-      console.warn(`Reducer didn't match any action of type ${action.type}`);
-      return prevState;
+      console.warn(`Reducer didn't match any action of type ${action.type}`)
+      return prevState
   }
-};
+}
 
-export default Nuclear;
+export default Nuclear

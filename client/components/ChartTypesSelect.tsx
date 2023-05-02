@@ -1,62 +1,62 @@
-import React from "react";
-import { useTheme } from "@emotion/react";
-import { ChartType } from "./StackedChart";
-import { space } from "styled-system";
-import { useRef, useState, useEffect } from "react";
-import { InputSubtitle } from ".";
+import React from "react"
+import { useTheme } from "@emotion/react"
+import { ChartType } from "./StackedChart"
+import { space } from "styled-system"
+import { useRef, useState, useEffect } from "react"
+import { InputSubtitle } from "."
 import styled from "@emotion/styled"
 
 const ChartTypesSelect = ({
   available,
   selected,
-  onChange
+  onChange,
 }: {
-  available: ChartType[];
-  selected: ChartType;
-  onChange: any;
+  available: ChartType[]
+  selected: ChartType
+  onChange: any
 }) => {
-  const [selectedLabelRef, setSelectedLabelRef] = useState(null);
-  const [firstMount, setFirstMount] = useState(true);
+  const [selectedLabelRef, setSelectedLabelRef] = useState(null)
+  const [firstMount, setFirstMount] = useState(true)
   function chartTypeToLabelRef(chartType: ChartType) {
     switch (chartType) {
       case "line":
-        return lineRef;
+        return lineRef
       case "pie":
-        return pieRef;
+        return pieRef
       case "stacked":
-        return stackedRef;
+        return stackedRef
       case "stacked-percent":
-        return stackedPercentRef;
+        return stackedPercentRef
       case "ranking":
-        return rankingRef;
+        return rankingRef
       default:
-        return stackedRef;
+        return stackedRef
     }
   }
-  const movingBorderRef = useRef(null);
-  const iconsRef = useRef(null);
-  const stackedRef = useRef(null);
-  const stackedPercentRef = useRef(null);
-  const pieRef = useRef(null);
-  const lineRef = useRef(null);
-  const rankingRef = useRef(null);
+  const movingBorderRef = useRef(null)
+  const iconsRef = useRef(null)
+  const stackedRef = useRef(null)
+  const stackedPercentRef = useRef(null)
+  const pieRef = useRef(null)
+  const lineRef = useRef(null)
+  const rankingRef = useRef(null)
   useEffect(() => {
     if (chartTypeToLabelRef(selected) && chartTypeToLabelRef(selected).current) {
-      setSelectedLabelRef(chartTypeToLabelRef(selected));
+      setSelectedLabelRef(chartTypeToLabelRef(selected))
       if (firstMount) {
-        moveBorder(chartTypeToLabelRef(selected).current.getBoundingClientRect());
-        setFirstMount(false);
+        moveBorder(chartTypeToLabelRef(selected).current.getBoundingClientRect())
+        setFirstMount(false)
       }
     }
-  }, [selected, firstMount]);
-  useEffect(() => moveBorder(chartTypeToLabelRef(selected).current.getBoundingClientRect()), [
-    selectedLabelRef,
-    selected
-  ]);
+  }, [selected, firstMount])
+  useEffect(
+    () => moveBorder(chartTypeToLabelRef(selected).current.getBoundingClientRect()),
+    [selectedLabelRef, selected]
+  )
   function moveBorder(rect) {
-    movingBorderRef.current.style.left = `${rect.left - iconsRef.current.getBoundingClientRect().left}px`;
+    movingBorderRef.current.style.left = `${rect.left - iconsRef.current.getBoundingClientRect().left}px`
   }
-  const theme = useTheme();
+  const theme = useTheme()
   return (
     <Container id="chart-type-select" mb={[2, 1]} ml={["initial", "auto"]} mt={[3, 0]}>
       <InputSubtitle>Chart Type</InputSubtitle>
@@ -71,7 +71,7 @@ const ChartTypesSelect = ({
         />
         <Label
           onMouseOver={() => {
-            if (available.includes("stacked")) moveBorder(stackedRef.current.getBoundingClientRect());
+            if (available.includes("stacked")) moveBorder(stackedRef.current.getBoundingClientRect())
           }}
           selected={selected.includes("stacked")}
           htmlFor="stacked"
@@ -89,7 +89,7 @@ const ChartTypesSelect = ({
         />
         <Label
           onMouseOver={() => {
-            if (available.includes("stacked-percent")) moveBorder(stackedPercentRef.current.getBoundingClientRect());
+            if (available.includes("stacked-percent")) moveBorder(stackedPercentRef.current.getBoundingClientRect())
           }}
           selected={selected.includes("stacked-percent")}
           htmlFor="stacked-percent"
@@ -107,7 +107,7 @@ const ChartTypesSelect = ({
         />
         <Label
           onMouseOver={() => {
-            if (available.includes("line")) moveBorder(lineRef.current.getBoundingClientRect());
+            if (available.includes("line")) moveBorder(lineRef.current.getBoundingClientRect())
           }}
           ref={lineRef}
           selected={selected.includes("line")}
@@ -125,7 +125,7 @@ const ChartTypesSelect = ({
         />
         <Label
           onMouseOver={() => {
-            if (available.includes("pie")) moveBorder(pieRef.current.getBoundingClientRect());
+            if (available.includes("pie")) moveBorder(pieRef.current.getBoundingClientRect())
           }}
           ref={pieRef}
           selected={selected.includes("pie")}
@@ -143,7 +143,7 @@ const ChartTypesSelect = ({
         />
         <Label
           onMouseOver={() => {
-            if (available.includes("ranking")) moveBorder(rankingRef.current.getBoundingClientRect());
+            if (available.includes("ranking")) moveBorder(rankingRef.current.getBoundingClientRect())
           }}
           ref={rankingRef}
           selected={selected.includes("ranking")}
@@ -154,8 +154,8 @@ const ChartTypesSelect = ({
         </Label>
       </Icons>
     </Container>
-  );
-};
+  )
+}
 
 const Icons = styled.div`
   ${space};
@@ -174,28 +174,28 @@ const Icons = styled.div`
   &:hover {
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
   }
-`;
+`
 const MovingBorder = styled.div`
   position: absolute;
   pointer-events: none;
-  border: 1px solid ${p => p.theme.colors.darkBlue};
+  border: 1px solid ${(p) => p.theme.colors.darkBlue};
   border-radius: 2px;
   height: 100%;
   width: calc(100% / 5);
   will-change: width left;
   transition: 0.3s ease-in-out;
-`;
+`
 const Container = styled.div`
   ${space};
-`;
+`
 
 const HiddenInput = styled.input`
   display: none;
-`;
+`
 type LabelProps = {
-  disabled: boolean;
-  selected: boolean;
-};
+  disabled: boolean
+  selected: boolean
+}
 
 const Label = styled.label<LabelProps>`
   flex: 1;
@@ -206,7 +206,7 @@ const Label = styled.label<LabelProps>`
   width: 2.5rem;
   opacity: ${(props: LabelProps) => (props.disabled ? 0.2 : 1)};
   cursor: ${(props: LabelProps) => (props.disabled ? "not-allowed" : "pointer")};
-`;
+`
 
 const LineChartIcon = ({ color }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="100%">
@@ -224,7 +224,7 @@ const LineChartIcon = ({ color }) => (
       <rect fill="none" width="16" height="16" />
     </g>
   </svg>
-);
+)
 const StackedChartIcon = ({ color }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="100%">
     <title>Stacked Chart Icon</title>
@@ -241,7 +241,7 @@ const StackedChartIcon = ({ color }) => (
       <rect fill="none" width="16" height="16" />
     </g>
   </svg>
-);
+)
 
 const PieChartIcon = ({ color }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="100%">
@@ -258,7 +258,7 @@ const PieChartIcon = ({ color }) => (
       <rect fill="none" width="16" height="16" />
     </g>
   </svg>
-);
+)
 
 const RankingChartIcon = ({ color }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="100%">
@@ -270,7 +270,7 @@ const RankingChartIcon = ({ color }) => (
       <rect fill="none" width="16" height="16" />
     </g>
   </svg>
-);
+)
 
 const StackedPercentChartIcon = ({ color }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="100%">
@@ -282,5 +282,5 @@ const StackedPercentChartIcon = ({ color }) => (
     />
     <rect width="16" height="16" fill="none" />
   </svg>
-);
-export default ChartTypesSelect;
+)
+export default ChartTypesSelect

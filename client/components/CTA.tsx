@@ -1,9 +1,9 @@
-import React from "react";
-import Link from "next/link";
+import React from "react"
+import Link from "next/link"
 import styled from "@emotion/styled"
-import { typography, layout, space } from "styled-system";
-import { Icons } from ".";
-import logo from "../public/static/logo_tsp.svg";
+import { typography, layout, space } from "styled-system"
+import { Icons } from "."
+import logo from "../public/static/logo_tsp.svg"
 
 const CTA = ({ children }) => (
   <Section mt={[5]}>
@@ -12,10 +12,10 @@ const CTA = ({ children }) => (
     </SectionTitle>
     <Container>{children}</Container>
   </Section>
-);
+)
 
 CTA.Energy = () => (
-  <EnergyLink  href="/energy" passHref>
+  <EnergyLink href="/energy" passHref>
     <LogoContainer mx={[4]}>
       <Logo primary>
         <Icons.EnergyProduction color="white" />
@@ -26,8 +26,7 @@ CTA.Energy = () => (
       <Description fontSize={[3]}>Explore and customize energy datasets.</Description>
     </TextContainer>
   </EnergyLink>
-
-);
+)
 
 CTA.Climate = () => (
   <ClimateLink href="/climate" passHref>
@@ -41,8 +40,7 @@ CTA.Climate = () => (
       <Description fontSize={[3]}>Explore and customize climate datasets.</Description>
     </TextContainer>
   </ClimateLink>
-
-);
+)
 CTA.Shift = () => (
   <ShiftLink href="https://theshiftproject.org/" target="_blank" rel="noopener noreferrer">
     <LogoContainer mx={[4]}>
@@ -55,7 +53,7 @@ CTA.Shift = () => (
       <Description fontSize={[3]}>Visit The Shift Project’s website.</Description>
     </TextContainer>
   </ShiftLink>
-);
+)
 const Section = styled.section`
   margin: auto;
   ${space};
@@ -66,16 +64,16 @@ const Section = styled.section`
     display: block;
     width: 100%;
     height: 1px;
-    background-color: ${p => p.theme.colors.lightGrey};
+    background-color: ${(p) => p.theme.colors.lightGrey};
   }
-`;
+`
 const Container = styled.div`
   display: flex;
   flex-flow: row wrap;
   margin-top: 1rem;
   max-width: 50rem;
   justify-content: space-between;
-`;
+`
 const SectionTitle = styled.h2`
   ${typography};
   ${space};
@@ -83,8 +81,8 @@ const SectionTitle = styled.h2`
   color: #484848;
   letter-spacing: 1.14px;
   line-height: 52px;
-`;
-const cardStyle = p => styled.p`
+`
+const cardStyle = (p) => styled.p`
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -97,52 +95,52 @@ const cardStyle = p => styled.p`
   &:hover {
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
   }
-`;
+`
 
 const EnergyLink = styled(Link)`
   ${cardStyle};
   ${layout};
   ${space};
-`;
+`
 const ClimateLink = styled(Link)`
   ${cardStyle};
   ${layout};
   ${space};
-`;
+`
 const ShiftLink = styled(Link)`
   ${cardStyle};
   ${layout};
   ${space};
-`;
+`
 const LogoContainer = styled.div`
   ${space};
   flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-`;
+`
 const TextContainer = styled.div`
   ${space};
   flex-grow: 2;
-`;
+`
 
 const Title = styled.h4`
   ${typography};
   font-weight: 700;
-  color: ${p => p.theme.colors.lightBlack};
+  color: ${(p) => p.theme.colors.lightBlack};
   letter-spacing: 0.35px;
-`;
+`
 const Description = styled.p`
   ${typography};
-  color: ${p => p.theme.colors.lightBlack};
+  color: ${(p) => p.theme.colors.lightBlack};
   letter-spacing: 0.54px;
-`;
+`
 
 type ILogo = {
-  primary?: boolean;
-};
+  primary?: boolean
+}
 const Logo = styled.div<ILogo>`
-  background: ${p => (p.primary ? p.theme.colors.orange : p.theme.colors.blue)};
+  background: ${(p) => (p.primary ? p.theme.colors.orange : p.theme.colors.blue)};
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.05);
   width: 5rem;
   height: 5rem;
@@ -153,7 +151,7 @@ const Logo = styled.div<ILogo>`
   & > svg {
     height: 60%;
   }
-`;
+`
 const LogoShift = styled.div`
   ${space};
   background: white;
@@ -169,5 +167,5 @@ const LogoShift = styled.div`
   & > img {
     width: 60%;
   }
-`;
-export default CTA;
+`
+export default CTA

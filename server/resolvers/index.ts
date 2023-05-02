@@ -32,7 +32,7 @@ const resolvers: Resolvers = {
     importExport: () => [],
     renewableEnergies: () => [],
     nuclear: () => [],
-    co2ImportsExports: () => []
+    co2ImportsExports: () => [],
   },
   FinalEnergies,
   PrimaryEnergies,
@@ -48,7 +48,7 @@ const resolvers: Resolvers = {
   ImportExport,
   RenewableEnergies,
   Nuclear,
-  Co2ImportsExports
+  Co2ImportsExports,
 };
 
 export default resolvers;

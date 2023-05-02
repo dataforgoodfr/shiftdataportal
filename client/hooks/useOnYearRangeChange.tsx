@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { useCallback } from "react"
 
 export default function useOnYearRangeChange(dispatch) {
   return useCallback(
@@ -6,8 +6,8 @@ export default function useOnYearRangeChange(dispatch) {
       dispatch({
         type: "selectYears",
         payload: { selectedYearRange },
-      });
+      })
     },
     [dispatch]
-  );
+  )
 }

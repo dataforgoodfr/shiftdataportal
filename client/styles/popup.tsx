@@ -1,4 +1,4 @@
-import { css } from "@emotion/react";
+import { css } from "@emotion/react"
 export default function Popup() {
   return css`
     max-width: 90vw;
@@ -15,5 +15,5 @@ export default function Popup() {
     background: #ffffff;
     border: 1px solid #d9d9d9;
     box-shadow: 0 15px 46px -10px rgba(26, 26, 29, 0.3);
-  `;
+  `
 }

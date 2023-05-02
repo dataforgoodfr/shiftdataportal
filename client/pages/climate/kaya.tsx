@@ -1,11 +1,11 @@
-import { useQuery } from "@apollo/client";
-import gql from "graphql-tag";
-import { NextPage } from "next";
-import Head from "next/head";
-import { ParsedUrlQueryInput } from "querystring";
-import React, { Fragment, useEffect, useReducer, useState, useRef } from "react";
-import { Range } from "react-input-range";
-import { useDebounce } from "use-debounce";
+import { useQuery } from "@apollo/client"
+import gql from "graphql-tag"
+import { NextPage } from "next"
+import Head from "next/head"
+import { ParsedUrlQueryInput } from "querystring"
+import React, { Fragment, useEffect, useReducer, useState, useRef } from "react"
+import { Range } from "react-input-range"
+import { useDebounce } from "use-debounce"
 import {
   Footer,
   GroupNamesSelect,
@@ -18,21 +18,21 @@ import {
   SelectContainer,
   GraphInfos,
   SharingButtons,
-} from "../../components";
-import StackedChart, { ChartType, StackedChartProps } from "../../components/StackedChart";
-import useSyncParamsWithUrl from "../../hooks/useSyncParamsWithUrl";
+} from "../../components"
+import StackedChart, { ChartType, StackedChartProps } from "../../components/StackedChart"
+import useSyncParamsWithUrl from "../../hooks/useSyncParamsWithUrl"
 import {
   GetKayaDimensionQuery,
   GetKayaDimensionQueryVariables,
   KayaDimensions,
   KayaInputsQuery,
   KayaInputsQueryVariables,
-} from "../../types";
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton";
-import useOnYearRangeChange from "../../hooks/useOnYearRangeChange";
+} from "../../types"
+import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
+import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 
 const Kaya: NextPage<DefaultProps> = ({ params }) => {
-  const stackedChartRef = useRef(null);
+  const stackedChartRef = useRef(null)
   // Reducer state
   const [
     {
@@ -46,21 +46,22 @@ const Kaya: NextPage<DefaultProps> = ({ params }) => {
       iframe,
     },
     dispatch,
-  ] = useReducer(reducer, { ...params });
+  ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
-    KayaInputsQuery,
-    KayaInputsQueryVariables
-  >(INPUTS, {
+  const {
+    loading: loadingInputs,
+    data: dataInputs,
+    error: errorInputs,
+  } = useQuery<KayaInputsQuery, KayaInputsQueryVariables>(INPUTS, {
     variables: {
       dimension: selectedDimension,
     },
-  });
+  })
   // Manage specific state with URL params
-  const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}));
+  const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}))
 
   // Prevent re-fetching data each time year changes
-  const [debouncedYearRange] = useDebounce(selectedYearRange, 300);
+  const [debouncedYearRange] = useDebounce(selectedYearRange, 300)
 
   // Update the url params when any dependency changes (the array in the useEffect hook)
   useEffect(() => {
@@ -72,12 +73,12 @@ const Kaya: NextPage<DefaultProps> = ({ params }) => {
       dimension: selectedDimension,
       end: debouncedYearRange.max,
       start: debouncedYearRange.min,
-    });
-  }, [selectedChartType, chartTypes, selectedDimension, selectedGroupNames, debouncedYearRange, isRange]);
+    })
+  }, [selectedChartType, chartTypes, selectedDimension, selectedGroupNames, debouncedYearRange, isRange])
   // Applies the urlParams change to the real URL.
-  useSyncParamsWithUrl(urlParams);
+  useSyncParamsWithUrl(urlParams)
 
-  const [graphTitle, setGraphTitle] = useState<string>("");
+  const [graphTitle, setGraphTitle] = useState<string>("")
   // Fetches the graph data, automatically re-fetches when any variable changes
   const { data: dimensionData, loading: dimensionLoading } = useQuery<
     GetKayaDimensionQuery,
@@ -87,30 +88,30 @@ const Kaya: NextPage<DefaultProps> = ({ params }) => {
       groupName: selectedGroupNames[0],
       total: selectedDimension === "total",
     },
-  });
+  })
 
   // Update graph title
 
   useEffect(() => {
-    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : "";
-    setGraphTitle(`KAYA Identity, ${displayedGroupNames} ${selectedYearRange.min}-${selectedYearRange.max}`);
-  }, [selectedGroupNames, selectedYearRange]);
+    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : ""
+    setGraphTitle(`KAYA Identity, ${displayedGroupNames} ${selectedYearRange.min}-${selectedYearRange.max}`)
+  }, [selectedGroupNames, selectedYearRange])
 
   function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV();
+    stackedChartRef.current.downloadCSV()
   }
   function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart();
+    stackedChartRef.current.exportChart()
   }
-  const onYearRangeChange = useOnYearRangeChange(dispatch);
-  let inputs: any;
+  const onYearRangeChange = useOnYearRangeChange(dispatch)
+  let inputs: any
 
   if (errorInputs) {
-    inputs = <p>Error, couldn\'t fetch data. Might be an internet connection problem.</p>;
+    inputs = <p>Error, couldn\'t fetch data. Might be an internet connection problem.</p>
   } else if (loadingInputs || !dataInputs || !dataInputs.kaya) {
-    inputs = <p>Loading...</p>;
+    inputs = <p>Loading...</p>
   } else {
-    const { zones, groups, countries } = dataInputs.kaya;
+    const { zones, groups, countries } = dataInputs.kaya
     inputs = (
       <Fragment>
         <SelectContainer>
@@ -126,12 +127,12 @@ const Kaya: NextPage<DefaultProps> = ({ params }) => {
               dispatch({
                 type: "selectGroupNames",
                 payload: { selectedGroupNames },
-              });
+              })
             }}
           />
         </SelectContainer>
       </Fragment>
-    );
+    )
   }
   if (iframe) {
     return (
@@ -155,7 +156,7 @@ const Kaya: NextPage<DefaultProps> = ({ params }) => {
             : { series: [], categories: [] }
         }
       />
-    );
+    )
   }
   return (
     <Fragment>
@@ -202,8 +203,8 @@ const Kaya: NextPage<DefaultProps> = ({ params }) => {
       </Main>
       <Footer />
     </Fragment>
-  );
-};
+  )
+}
 Kaya.getInitialProps = async function ({ query }) {
   // Get all the parameters from the URL or set default state
   return {
@@ -234,8 +235,8 @@ Kaya.getInitialProps = async function ({ query }) {
       isRange: (query["is-range"] as string) ? JSON.parse(query["is-range"] as string) : true,
       chartHeight: (query["chart-height"] as string) ? (query["chart-height"] as string) : "75rem",
     },
-  };
-};
+  }
+}
 
 export const INPUTS = gql`
   query kayaInputs {
@@ -255,7 +256,7 @@ export const INPUTS = gql`
       }
     }
   }
-`;
+`
 
 // GraphQL query to get all the chart data
 export const GET_DIMENSION = gql`
@@ -271,30 +272,30 @@ export const GET_DIMENSION = gql`
       }
     }
   }
-`;
+`
 interface DefaultProps {
-  params: ReducerState;
+  params: ReducerState
 }
 interface ReducerState {
-  chartTypes: ChartType[];
-  selectedChartType: ChartType;
-  selectedDimension: KayaDimensions;
-  selectedGroupNames: GetKayaDimensionQueryVariables["groupName"][];
-  iframe: boolean;
-  isRange: boolean;
-  selectedYearRange: Range;
-  chartHeight: string;
+  chartTypes: ChartType[]
+  selectedChartType: ChartType
+  selectedDimension: KayaDimensions
+  selectedGroupNames: GetKayaDimensionQueryVariables["groupName"][]
+  iframe: boolean
+  isRange: boolean
+  selectedYearRange: Range
+  chartHeight: string
 }
-type ReducerActions = KayaDimensions | "selectGroupNames" | "selectDimension" | "selectLine" | "selectYears";
+type ReducerActions = KayaDimensions | "selectGroupNames" | "selectDimension" | "selectLine" | "selectYears"
 const reducer: React.Reducer<
   ReducerState,
   {
-    type: ReducerActions;
+    type: ReducerActions
     payload?: {
-      selectedGroupNames?: ReducerState["selectedGroupNames"];
-      selectedDimension?: ReducerState["selectedDimension"];
-      selectedYearRange?: ReducerState["selectedYearRange"];
-    };
+      selectedGroupNames?: ReducerState["selectedGroupNames"]
+      selectedDimension?: ReducerState["selectedDimension"]
+      selectedYearRange?: ReducerState["selectedYearRange"]
+    }
   }
 > = (prevState, action) => {
   switch (action.type) {
@@ -305,26 +306,26 @@ const reducer: React.Reducer<
         chartTypes: ["line"],
         selectedDimension: KayaDimensions.Total,
         isRange: true,
-      };
+      }
     case "selectGroupNames":
       return {
         ...prevState,
         selectedGroupNames: action.payload.selectedGroupNames,
-      };
+      }
     case "selectDimension":
       return {
         ...prevState,
         selectedDimension: action.payload.selectedDimension,
-      };
+      }
     case "selectYears":
       return {
         ...prevState,
         selectedYearRange: action.payload.selectedYearRange,
-      };
+      }
     default:
-      console.warn(`Reducer didn't match any action of type ${action.type}`);
-      return prevState;
+      console.warn(`Reducer didn't match any action of type ${action.type}`)
+      return prevState
   }
-};
+}
 
-export default Kaya;
+export default Kaya

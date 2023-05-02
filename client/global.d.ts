@@ -1,11 +1,11 @@
-declare module "*.png";
-declare module "*.svg";
+declare module "*.png"
+declare module "*.svg"
 
 declare namespace NodeJS {
   interface Process {
-    browser: boolean;
+    browser: boolean
   }
   interface Global {
-    fetch: any;
+    fetch: any
   }
 }

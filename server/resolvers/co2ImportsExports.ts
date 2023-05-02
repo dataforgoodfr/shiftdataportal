@@ -3,7 +3,7 @@ import cO2Units from "../utils/cO2Units";
 import {
   CO2_CONSUMPTION_BASED_ACCOUNTING_eora_co2_trade_by_country_prod as BY_COUNTRY,
   CO2_CONSUMPTION_BASED_ACCOUNTING_eora_co2_trade_by_sector as BY_SECTOR,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT
+  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
 } from "../dbSchema";
 import stringToColor from "../utils/stringToColor";
 import getMdInfos from "./helpers/getMdInfos";
@@ -33,7 +33,7 @@ const Co2ImportsExports: Co2ImportsExportsResolvers = {
           .orderBy(BY_COUNTRY.country, "asc")
           .pluck(BY_COUNTRY.country)
           .cache(15 * 60);
-        return res1.map(groupName => ({ name: groupName, color: stringToColor(groupName) }));
+        return res1.map((groupName) => ({ name: groupName, color: stringToColor(groupName) }));
       case "bySector":
         const res2 = await db
           .knex(BY_COUNTRY.__tableName)
@@ -42,7 +42,7 @@ const Co2ImportsExports: Co2ImportsExportsResolvers = {
           .orderBy(BY_COUNTRY.country, "asc")
           .pluck(BY_COUNTRY.country)
           .cache(15 * 60);
-        return res2.map(groupName => ({ name: groupName, color: stringToColor(groupName) }));
+        return res2.map((groupName) => ({ name: groupName, color: stringToColor(groupName) }));
     }
   },
   async types(_, { dimension }, { dataSources: { db } }): Promise<Co2ImportsExports["types"]> {
@@ -78,8 +78,8 @@ const Co2ImportsExports: Co2ImportsExportsResolvers = {
       res.push({
         name: key,
         data: groups[key]
-          .map(countryObject => countryObject.country)
-          .map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+          .map((countryObject) => countryObject.country)
+          .map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
       });
     }
     return res;
@@ -93,7 +93,7 @@ const Co2ImportsExports: Co2ImportsExportsResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           BY_COUNTRY.co2,
           emissionsUnit ? cO2EqMultiplier(Co2eqUnit.MtCo2eq, emissionsUnit) : 1,
-          BY_COUNTRY.co2
+          BY_COUNTRY.co2,
         ])
       )
       .whereIn(BY_COUNTRY.country, groupNames)
@@ -127,36 +127,36 @@ const Co2ImportsExports: Co2ImportsExportsResolvers = {
     const [resRaw, TotalTopCountriesData, TotalFlopCountriesData] = await Promise.all([
       resRawQuery,
       TotalTopCountriesDataQuery,
-      TotalFlopCountriesDataQuery
+      TotalFlopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect top countries",
-      data: TotalTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries",
-      data: TotalFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     return {
       multiSelects,
       categories: groupNames,
-      series: types.map(type => {
-        const typeRaw = resRaw.filter(row => {
+      series: types.map((type) => {
+        const typeRaw = resRaw.filter((row) => {
           return row[BY_COUNTRY.type] === type;
         });
 
-        const data = groupNames.map(groupName =>
+        const data = groupNames.map((groupName) =>
           // Fill missing type with null in the
-          typeRaw.find(row => row[BY_COUNTRY.country] === groupName)
-            ? typeRaw.find(row => row[BY_COUNTRY.country] === groupName)[BY_COUNTRY.co2]
+          typeRaw.find((row) => row[BY_COUNTRY.country] === groupName)
+            ? typeRaw.find((row) => row[BY_COUNTRY.country] === groupName)[BY_COUNTRY.co2]
             : null
         );
         return {
           name: type,
           data: data as number[],
-          color: stringToColor(type)
+          color: stringToColor(type),
         };
-      })
+      }),
     };
   },
   async bySector(
@@ -166,7 +166,7 @@ const Co2ImportsExports: Co2ImportsExportsResolvers = {
   ): Promise<Co2ImportsExports["byCountry"]> {
     const raw = (
       await Promise.all(
-        types.map(async type => {
+        types.map(async (type) => {
           // Get top x countries
           const mainSectorsToRaw = await db
             .knex(BY_SECTOR.__tableName)
@@ -179,7 +179,7 @@ const Co2ImportsExports: Co2ImportsExportsResolvers = {
           // Get rest of the other sectors except the first x sectors
           const restSectorsToRaw = await db.knex
             .sum("total")
-            .from(function() {
+            .from(function () {
               // Sum off all the sectors after specific offset
               this.sum({ total: BY_SECTOR.co2 })
                 .select(BY_SECTOR.sector, BY_SECTOR.type)
@@ -201,24 +201,24 @@ const Co2ImportsExports: Co2ImportsExportsResolvers = {
       // Transform [[], []] to []
       .reduce((total, currentValue) => [...total, ...currentValue], []);
     // Get all the sector names that were found (each one will be unique)
-    const topSectorsTo = [...new Set(raw.map(sector => sector[BY_SECTOR.sector]))];
-    const series = topSectorsTo.map(sector => {
+    const topSectorsTo = [...new Set(raw.map((sector) => sector[BY_SECTOR.sector]))];
+    const series = topSectorsTo.map((sector) => {
       // Get the rows for the corresponding sector
-      const sectorRaw = raw.filter(row => row[BY_SECTOR.sector] === sector);
+      const sectorRaw = raw.filter((row) => row[BY_SECTOR.sector] === sector);
       return {
         name: sector,
         color: typeColor(sector),
-        data: types.map(type =>
+        data: types.map((type) =>
           // Fills missing type with null if this sector wasn't selected as a top sector.
-          sectorRaw.find(row => row[BY_SECTOR.type] === type)
-            ? sectorRaw.find(row => row[BY_SECTOR.type] === type)[BY_SECTOR.co2]
+          sectorRaw.find((row) => row[BY_SECTOR.type] === type)
+            ? sectorRaw.find((row) => row[BY_SECTOR.type] === type)[BY_SECTOR.co2]
             : null
-        )
+        ),
       };
     });
     return {
       categories: types,
-      series: series as any
+      series: series as any,
     };
   },
   async byCountry(
@@ -228,7 +228,7 @@ const Co2ImportsExports: Co2ImportsExportsResolvers = {
   ): Promise<Co2ImportsExports["byCountry"]> {
     const raw = (
       await Promise.all(
-        types.map(async type => {
+        types.map(async (type) => {
           // Get top x countries
           const mainCountriesToRaw = await db
             .knex(BY_COUNTRY.__tableName)
@@ -241,7 +241,7 @@ const Co2ImportsExports: Co2ImportsExportsResolvers = {
           // Get rest of the other countries except the first x countries
           const restCountriesToRaw = await db.knex
             .sum("total")
-            .from(function() {
+            .from(function () {
               // Sum off all the countries after specific offset
               this.sum({ total: BY_COUNTRY.co2 })
                 .select(BY_COUNTRY.country_to, BY_COUNTRY.type)
@@ -263,30 +263,30 @@ const Co2ImportsExports: Co2ImportsExportsResolvers = {
       // Transform [[], []] to []
       .reduce((total, currentValue) => [...total, ...currentValue], []);
     // Get all the country names that were found (each one will be unique)
-    const topCountriesTo = [...new Set(raw.map(country => country[BY_COUNTRY.country_to]))];
-    const series = topCountriesTo.map(country => {
+    const topCountriesTo = [...new Set(raw.map((country) => country[BY_COUNTRY.country_to]))];
+    const series = topCountriesTo.map((country) => {
       // Get the rows for the corresponding country
-      const countryRaw = raw.filter(row => row[BY_COUNTRY.country_to] === country);
+      const countryRaw = raw.filter((row) => row[BY_COUNTRY.country_to] === country);
       return {
         name: country,
         color: stringToColor(country),
-        data: types.map(type =>
+        data: types.map((type) =>
           // Fills missing type with null if this country wasn't selected as a top country.
-          countryRaw.find(row => row[BY_COUNTRY.type] === type)
-            ? countryRaw.find(row => row[BY_COUNTRY.type] === type)[BY_COUNTRY.co2]
+          countryRaw.find((row) => row[BY_COUNTRY.type] === type)
+            ? countryRaw.find((row) => row[BY_COUNTRY.type] === type)[BY_COUNTRY.co2]
             : null
-        )
+        ),
       };
     });
     return {
       categories: types,
-      series: series as any
+      series: series as any,
     };
   },
   async byContinent(_, { types, groupName }, { dataSources: { db } }): Promise<Co2ImportsExports["byContinent"]> {
     const raw = (
       await Promise.all(
-        types.map(async type => {
+        types.map(async (type) => {
           const continentsToRaw = await db
             .knex(BY_COUNTRY.__tableName)
             .select(BY_COUNTRY.continent_to, BY_COUNTRY.type)
@@ -303,26 +303,26 @@ const Co2ImportsExports: Co2ImportsExportsResolvers = {
       // Transform [[], []] to [] (put everything in one array)
       .reduce((total, currentValue) => [...total, ...currentValue], []);
     // Get all the country names that were found (each one will be unique)
-    const uniqueContinentToNames = [...new Set(raw.map(country => country[BY_COUNTRY.continent_to]))];
-    const series = uniqueContinentToNames.map(continent => {
+    const uniqueContinentToNames = [...new Set(raw.map((country) => country[BY_COUNTRY.continent_to]))];
+    const series = uniqueContinentToNames.map((continent) => {
       // Get the rows for the corresponding continent
-      const continentRaw = raw.filter(row => row[BY_COUNTRY.continent_to] === continent);
+      const continentRaw = raw.filter((row) => row[BY_COUNTRY.continent_to] === continent);
       return {
         name: continent,
         color: stringToColor(continent),
-        data: types.map(type =>
+        data: types.map((type) =>
           // Fills missing type with null if this continent wasn't selected as a top continent.
-          continentRaw.find(row => row[BY_COUNTRY.type] === type)
-            ? continentRaw.find(row => row[BY_COUNTRY.type] === type)["total"]
+          continentRaw.find((row) => row[BY_COUNTRY.type] === type)
+            ? continentRaw.find((row) => row[BY_COUNTRY.type] === type)["total"]
             : null
-        )
+        ),
       };
     });
     return {
       categories: types,
-      series: series
+      series: series,
     };
-  }
+  },
   // async bySector(_, { types, groupName }, { dataSources: { db } }): Promise<Co2ImportsExports["bySector"]> {
   //   const resRawQuery = db
   //     .knex(BY_SECTOR.__tableName)

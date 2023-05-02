@@ -5,5 +5,5 @@ export default {
   GtC: "GtC",
   MtC: "MtC",
   KtC: "KtC",
-  tCO2: "tCO2"
+  tCO2: "tCO2",
 };

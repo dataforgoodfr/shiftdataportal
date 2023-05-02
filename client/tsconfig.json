@@ -7,10 +7,7 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true /* to match webpack loader */,
     "jsx": "preserve" /* Preserves jsx outside of Next.js. */,
-    "lib": [
-      "dom",
-      "es2017"
-    ] /* List of library files to be included in the type checking. */,
+    "lib": ["dom", "es2017"] /* List of library files to be included in the type checking. */,
     "module": "esnext" /* Specifies the type of module to type check. */,
     "moduleResolution": "node" /* Determine how modules get resolved. */,
     "noEmit": true /* Do not emit outputs. Makes sure tsc only does type checking. */,
@@ -26,11 +23,6 @@
     "target": "esnext" /* The type checking input. */,
     "incremental": true
   },
-  "exclude": [
-    "node_modules"
-  ],
-  "include": [
-    "**/*.ts",
-    "**/*.tsx"
-  ]
+  "exclude": ["node_modules"],
+  "include": ["**/*.ts", "**/*.tsx"]
 }

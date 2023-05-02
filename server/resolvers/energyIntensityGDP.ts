@@ -3,7 +3,7 @@ import energyMultiplier from "../utils/energyMultiplier";
 import { EnergyIntensityGdpResolvers, EnergyUnit, EnergyIntensityGdp } from "../types";
 import {
   ENERGY_INTENSITY_OF_GDP_energies_intensities_of_gdp_prod as TOTAL,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT
+  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
 } from "../dbSchema";
 import energyUnits from "../utils/energyUnits";
 import stringToColor from "../utils/stringToColor";
@@ -32,8 +32,8 @@ const energyIntensityGdp: EnergyIntensityGdpResolvers = {
       res.push({
         name: key,
         data: groups[key]
-          .map(countryObject => countryObject.country)
-          .map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+          .map((countryObject) => countryObject.country)
+          .map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
       });
     }
     return res;
@@ -78,7 +78,7 @@ const energyIntensityGdp: EnergyIntensityGdpResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           TOTAL.energy_intensity_of_gdp,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
-          TOTAL.energy_intensity_of_gdp
+          TOTAL.energy_intensity_of_gdp,
         ])
       )
       .whereIn(TOTAL.group_name, groupNames)
@@ -101,10 +101,7 @@ const energyIntensityGdp: EnergyIntensityGdpResolvers = {
 
     // Get the multi-selects option
     const multiSelects = [];
-    const maxYearSubQuery = db
-      .knex(TOTAL.__tableName)
-      .andWhere(TOTAL.energy_category, energyType)
-      .max(TOTAL.year);
+    const maxYearSubQuery = db.knex(TOTAL.__tableName).andWhere(TOTAL.energy_category, energyType).max(TOTAL.year);
     const TotalTopCountriesDataQuery = db
       .knex(TOTAL.__tableName)
       .select(TOTAL.group_name)
@@ -137,37 +134,37 @@ const energyIntensityGdp: EnergyIntensityGdpResolvers = {
       resRawQuery,
       yearsQuery,
       TotalTopCountriesDataQuery,
-      TotalFlopCountriesDataQuery
+      TotalFlopCountriesDataQuery,
     ]);
     console.log({ TotalTopCountriesData });
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: TotalTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: TotalFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[TOTAL.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[TOTAL.year] === year)
-            ? groupNameRaw.find(row => row[TOTAL.year] === year)[TOTAL.energy_intensity_of_gdp]
+          groupNameRaw.find((row) => row[TOTAL.year] === year)
+            ? groupNameRaw.find((row) => row[TOTAL.year] === year)[TOTAL.energy_intensity_of_gdp]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
-  }
+  },
 };
 export default energyIntensityGdp;

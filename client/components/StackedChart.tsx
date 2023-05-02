@@ -7,44 +7,44 @@ import Highcharts, {
   SeriesSplineOptions,
   DashStyleValue,
   AlignValue,
-  Options
-} from "highcharts";
-import HighchartsExporting from "highcharts/modules/exporting";
-import HighchartsExportData from "highcharts/modules/export-data";
-import SeriesLabel from "highcharts/modules/series-label";
-import HR from "highcharts-react-official";
-import { Range } from "react-input-range";
-import { EnergyUnit, Co2Unit, Co2eqUnit } from "../types";
-import { format } from "d3-format";
-import React, { useEffect, useState, useImperativeHandle, useRef, forwardRef, useCallback } from "react";
-import { RangeInput } from ".";
-import { useTheme } from "@emotion/react";
-import { Theme } from "../lib/styled";
-import chroma from "chroma-js";
+  Options,
+} from "highcharts"
+import HighchartsExporting from "highcharts/modules/exporting"
+import HighchartsExportData from "highcharts/modules/export-data"
+import SeriesLabel from "highcharts/modules/series-label"
+import HR from "highcharts-react-official"
+import { Range } from "react-input-range"
+import { EnergyUnit, Co2Unit, Co2eqUnit } from "../types"
+import { format } from "d3-format"
+import React, { useEffect, useState, useImperativeHandle, useRef, forwardRef, useCallback } from "react"
+import { RangeInput } from "."
+import { useTheme } from "@emotion/react"
+import { Theme } from "../lib/styled"
+import chroma from "chroma-js"
 if (typeof Highcharts === "object") {
-  HighchartsExporting(Highcharts);
-  HighchartsExportData(Highcharts);
-  SeriesLabel(Highcharts);
+  HighchartsExporting(Highcharts)
+  HighchartsExportData(Highcharts)
+  SeriesLabel(Highcharts)
 }
 
 export interface StackedChartProps {
-  unit: EnergyUnit | Co2Unit | Co2eqUnit | "Gb" | "Mb/d" | "base 100" | "GW" | "%";
-  type: ChartType | "custom";
-  yearRange: Range;
-  isRange: boolean;
-  historical?: boolean;
+  unit: EnergyUnit | Co2Unit | Co2eqUnit | "Gb" | "Mb/d" | "base 100" | "GW" | "%"
+  type: ChartType | "custom"
+  yearRange: Range
+  isRange: boolean
+  historical?: boolean
   highchartsSeriesAndCategories?: {
-    categories: Highcharts.XAxisOptions["categories"];
-    series: Array<SeriesAreasplineOptions | SeriesSplineOptions>;
-  };
-  isLoading?: boolean;
-  onYearRangeChange: any;
-  title?: string;
-  customOptions?: Options;
-  iframe?: boolean;
-  chartHeight?: string;
+    categories: Highcharts.XAxisOptions["categories"]
+    series: Array<SeriesAreasplineOptions | SeriesSplineOptions>
+  }
+  isLoading?: boolean
+  onYearRangeChange: any
+  title?: string
+  customOptions?: Options
+  iframe?: boolean
+  chartHeight?: string
 }
-export type ChartType = "stacked" | "stacked-percent" | "line" | "pie" | "ranking";
+export type ChartType = "stacked" | "stacked-percent" | "line" | "pie" | "ranking"
 
 const StackedChart = (
   {
@@ -59,50 +59,50 @@ const StackedChart = (
     historical = true,
     customOptions,
     iframe = false,
-    chartHeight = "75vh"
+    chartHeight = "75vh",
   }: StackedChartProps,
   ref
 ) => {
-  const highchartsRef = useRef(null);
-  const theme = useTheme();
+  const highchartsRef = useRef(null)
+  const theme = useTheme()
   const [options, setOptions] = useState<Highcharts.Options>({
     ...defaultOptions(unit, title, theme),
     chart: {
       ...chartOptions(theme),
-      type: "areaspline"
+      type: "areaspline",
     },
     xAxis: { ...xAxisOptions },
-    yAxis: { ...yAxisOptions }
-  });
+    yAxis: { ...yAxisOptions },
+  })
   useEffect(() => {
     if (isLoading) {
-      highchartsRef.current.chart.showLoading();
+      highchartsRef.current.chart.showLoading()
     } else {
-      highchartsRef.current.chart.hideLoading();
+      highchartsRef.current.chart.hideLoading()
     }
-  }, [isLoading]);
+  }, [isLoading])
   useImperativeHandle(ref, () => ({
     downloadCSV: () => {
       // @ts-ignore
-      highchartsRef?.current?.chart && highchartsRef.current.chart.downloadCSV();
+      highchartsRef?.current?.chart && highchartsRef.current.chart.downloadCSV()
     },
     exportChart: () => {
       highchartsRef?.current?.chart &&
-        highchartsRef.current.chart.exportChart({ filename: title }, { chart: { height: 450, width: 700 } });
+        highchartsRef.current.chart.exportChart({ filename: title }, { chart: { height: 450, width: 700 } })
     },
     reflow: () => {
-      highchartsRef?.current?.chart && highchartsRef.current.chart.reflow();
+      highchartsRef?.current?.chart && highchartsRef.current.chart.reflow()
     },
     setExtremes: (min, max) => {
       highchartsRef?.current?.chart &&
-        highchartsRef.current.chart.xAxis.forEach(axis =>
+        highchartsRef.current.chart.xAxis.forEach((axis) =>
           axis.update({ min: Date.UTC(min, 0), max: Date.UTC(max, 0) })
-        );
-    }
-  }));
+        )
+    },
+  }))
 
-  let RangeComponent;
-  const memoizedOnYearRangeChange = useCallback(onYearRangeChange, [onYearRangeChange]);
+  let RangeComponent
+  const memoizedOnYearRangeChange = useCallback(onYearRangeChange, [onYearRangeChange])
   if (
     highchartsSeriesAndCategories?.categories[0] &&
     highchartsSeriesAndCategories?.categories[highchartsSeriesAndCategories.categories.length - 1] &&
@@ -123,9 +123,9 @@ const StackedChart = (
           onChange={memoizedOnYearRangeChange}
         />
       </div>
-    );
+    )
   } else {
-    RangeComponent = <div></div>;
+    RangeComponent = <div></div>
   }
   useEffect(() => {
     switch (type) {
@@ -135,16 +135,16 @@ const StackedChart = (
           ...defaultOptions(unit, title, theme),
           chart: {
             ...chartOptions(theme),
-            type: "areaspline"
+            type: "areaspline",
           },
           plotOptions: {
             areaspline: {
               lineWidth: 1.5,
               fillOpacity: 0.6,
               marker: {
-                enabled: false
+                enabled: false,
               },
-              stacking: "normal"
+              stacking: "normal",
             },
             series: {
               ...defaultPlotOptionsSeries,
@@ -153,7 +153,7 @@ const StackedChart = (
                 connectorAllowed: true,
                 enabled: true,
                 onArea: true,
-                style: { fontFamily: theme.fonts.secondary }
+                style: { fontFamily: theme.fonts.secondary },
               },
               marker: {
                 symbol: "circle",
@@ -162,54 +162,54 @@ const StackedChart = (
                 lineColor: null,
                 states: {
                   hover: {
-                    radius: 4
-                  }
-                }
+                    radius: 4,
+                  },
+                },
               },
               states: {
                 hover: {
                   halo: {
-                    size: 1
-                  }
-                }
-              }
-            }
+                    size: 1,
+                  },
+                },
+              },
+            },
           },
           yAxis: { ...yAxisOptions, min: 0, title: { text: unit } },
           xAxis: {
             ...xAxisOptions,
             visible: true,
             min: Date.UTC(yearRange.min, 0),
-            max: Date.UTC(yearRange.max, 0)
+            max: Date.UTC(yearRange.max, 0),
           },
-          series: highchartsSeriesAndCategories.series.map(serie => ({
+          series: highchartsSeriesAndCategories.series.map((serie) => ({
             ...serie,
             dataLabels: {
-              enabled: false
+              enabled: false,
             },
             pointRange: 365 * 24 * 3600 * 1000,
             data: serie.data.map((item, index) => {
               // @ts-ignore
-              return [Date.UTC(highchartsSeriesAndCategories.categories[index], 0), item];
-            })
-          }))
-        });
-        break;
+              return [Date.UTC(highchartsSeriesAndCategories.categories[index], 0), item]
+            }),
+          })),
+        })
+        break
       case "stacked-percent":
         setOptions({
           ...defaultOptions(unit, title, theme),
           chart: {
             ...chartOptions(theme),
-            type: "areaspline"
+            type: "areaspline",
           },
           plotOptions: {
             areaspline: {
               lineWidth: 1,
               fillOpacity: 0.6,
               marker: {
-                enabled: false
+                enabled: false,
               },
-              stacking: "percent"
+              stacking: "percent",
             },
             series: {
               ...defaultPlotOptionsSeries,
@@ -218,7 +218,7 @@ const StackedChart = (
                 connectorAllowed: true,
                 enabled: true,
                 onArea: true,
-                style: { fontFamily: theme.fonts.secondary }
+                style: { fontFamily: theme.fonts.secondary },
               },
               marker: {
                 symbol: "circle",
@@ -227,50 +227,50 @@ const StackedChart = (
                 lineColor: null,
                 states: {
                   hover: {
-                    radius: 4
-                  }
-                }
+                    radius: 4,
+                  },
+                },
               },
               states: {
                 hover: {
                   halo: {
-                    size: 1
-                  }
-                }
-              }
-            }
+                    size: 1,
+                  },
+                },
+              },
+            },
           },
           yAxis: {
             ...yAxisOptions,
             min: 0,
             max: 100,
-            title: { text: "%" }
+            title: { text: "%" },
           },
           xAxis: {
             ...xAxisOptions,
             visible: true,
             min: Date.UTC(yearRange.min, 0),
-            max: Date.UTC(yearRange.max, 0)
+            max: Date.UTC(yearRange.max, 0),
           },
-          series: highchartsSeriesAndCategories.series.map(serie => ({
+          series: highchartsSeriesAndCategories.series.map((serie) => ({
             ...serie,
             dataLabels: {
-              enabled: false
+              enabled: false,
             },
             pointRange: 365 * 24 * 3600 * 1000,
             data: serie.data.map((item, index) => {
               // @ts-ignore
-              return [Date.UTC(highchartsSeriesAndCategories.categories[index], 0), item];
-            })
-          }))
-        });
-        break;
+              return [Date.UTC(highchartsSeriesAndCategories.categories[index], 0), item]
+            }),
+          })),
+        })
+        break
       case "line":
         setOptions({
           ...defaultOptions(unit, title, theme),
           chart: {
             ...chartOptions(theme),
-            type: "spline"
+            type: "spline",
           },
           plotOptions: {
             spline: {
@@ -279,12 +279,12 @@ const StackedChart = (
                 enabled: true,
                 connectorAllowed: false,
                 onArea: false,
-                style: { fontFamily: theme.fonts.secondary }
+                style: { fontFamily: theme.fonts.secondary },
               },
               lineWidth: 1.5,
               marker: {
-                enabled: false
-              }
+                enabled: false,
+              },
             },
             series: {
               ...defaultPlotOptionsSeries,
@@ -295,53 +295,53 @@ const StackedChart = (
                 lineColor: null,
                 states: {
                   hover: {
-                    radius: 4
-                  }
-                }
+                    radius: 4,
+                  },
+                },
               },
               states: {
                 hover: {
                   halo: {
-                    size: 1
-                  }
-                }
-              }
-            }
+                    size: 1,
+                  },
+                },
+              },
+            },
           },
           yAxis: { ...yAxisOptions, softMin: 0, title: { text: unit }, max: unit === "%" ? 100 : null },
           xAxis: {
             ...xAxisOptions,
             visible: true,
             min: Date.UTC(yearRange.min, 0),
-            max: Date.UTC(yearRange.max, 0)
+            max: Date.UTC(yearRange.max, 0),
           },
-          series: highchartsSeriesAndCategories.series.map(serie => ({
+          series: highchartsSeriesAndCategories.series.map((serie) => ({
             ...serie,
             dataSorting: {
-              enabled: false
+              enabled: false,
             },
             dataLabels: {
-              enabled: false
+              enabled: false,
             },
             pointRange: 365 * 24 * 3600 * 1000,
             data: serie.data.map((item, index) => {
               // @ts-ignore
-              return [Date.UTC(highchartsSeriesAndCategories.categories[index], 0), item];
-            })
-          }))
-        });
-        break;
+              return [Date.UTC(highchartsSeriesAndCategories.categories[index], 0), item]
+            }),
+          })),
+        })
+        break
       case "pie":
         setOptions({
           ...defaultOptions(unit, title, theme),
           chart: {
             ...chartOptions(theme),
             type: "pie",
-            animation: { duration: 300 }
+            animation: { duration: 300 },
           },
           tooltip: {
             ...toolTipOptions(unit, false),
-            enabled: false
+            enabled: false,
           },
           plotOptions: {
             pie: {
@@ -351,38 +351,38 @@ const StackedChart = (
               borderWidth: 1,
               dataLabels: {
                 enabled: true,
-                format: "<b>{point.name}</b>: {point.percentage:.1f} %"
-              }
-            }
+                format: "<b>{point.name}</b>: {point.percentage:.1f} %",
+              },
+            },
           },
           yAxis: { ...yAxisOptions, title: { text: unit } },
           xAxis: {
             ...xAxisOptions,
             categories: highchartsSeriesAndCategories.categories,
             crosshair: true,
-            visible: false
+            visible: false,
           },
           series: [
             {
               dataSorting: {
-                enabled: false
+                enabled: false,
               },
               dataLabels: {
                 enabled: true,
-                format: "<b>{point.name}</b>: {point.percentage:.1f} %"
+                format: "<b>{point.name}</b>: {point.percentage:.1f} %",
               },
               name: "Pie",
               type: null,
-              data: highchartsSeriesAndCategories.series.map(serie => ({
+              data: highchartsSeriesAndCategories.series.map((serie) => ({
                 pointRange: 365 * 24 * 3600 * 1000,
                 name: serie.name,
                 y: serie.data[findCategoriesMaxIndex(highchartsSeriesAndCategories.categories, yearRange)],
-                color: serie.color
-              }))
-            }
-          ]
-        });
-        break;
+                color: serie.color,
+              })),
+            },
+          ],
+        })
+        break
       case "ranking":
         setOptions({
           ...defaultOptions(unit, title, theme),
@@ -390,7 +390,7 @@ const StackedChart = (
           chart: {
             ...chartOptions(theme),
             type: "bar",
-            animation: { duration: 300 }
+            animation: { duration: 300 },
           },
           yAxis: null,
           xAxis: {
@@ -400,17 +400,17 @@ const StackedChart = (
             visible: false,
             min: 0,
             crosshair: false,
-            max: 10
+            max: 10,
           },
           tooltip: {
-            enabled: false
+            enabled: false,
           },
           series: [
             {
               type: undefined,
               dataSorting: {
                 enabled: true,
-                sortKey: "y"
+                sortKey: "y",
               },
               pointWidth: 25,
               borderRadius: 1,
@@ -420,25 +420,25 @@ const StackedChart = (
                 inside: true,
                 align: "left",
                 format: `{point.name}<br/>{point.y:.1f} ${unit}`,
-                style: { textOutline: "none", color: "black", fontSize: theme.fontSizes[1], textAlign: "right" }
+                style: { textOutline: "none", color: "black", fontSize: theme.fontSizes[1], textAlign: "right" },
               },
-              data: highchartsSeriesAndCategories.series.slice(0, 9).map(serie => ({
+              data: highchartsSeriesAndCategories.series.slice(0, 9).map((serie) => ({
                 borderColor: serie.color,
                 name: serie.name,
                 y: serie.data[findCategoriesMaxIndex(highchartsSeriesAndCategories.categories, yearRange)],
                 color: chroma(serie.color as string)
                   .alpha(0.4)
-                  .css()
-              }))
-            }
-          ]
-        });
-        break;
+                  .css(),
+              })),
+            },
+          ],
+        })
+        break
       case "custom":
         setOptions({
-          ...customOptions
-        });
-        break;
+          ...customOptions,
+        })
+        break
     }
   }, [
     customOptions,
@@ -449,8 +449,8 @@ const StackedChart = (
     type,
     unit,
     yearRange,
-    yearRange.min
-  ]);
+    yearRange.min,
+  ])
 
   return (
     <Wrapper isLoading={isLoading} RangeComponent={RangeComponent} iframe={iframe}>
@@ -461,24 +461,24 @@ const StackedChart = (
         options={options}
       />
     </Wrapper>
-  );
-};
+  )
+}
 
-const Wrapper = props => (
+const Wrapper = (props) => (
   <div className="screenshot" style={{ position: "relative" }}>
     {props.children}
     {!props.iframe && props.RangeComponent}
   </div>
-);
+)
 const chartOptions = (theme: Theme): Options["chart"] => ({
   style: { color: theme.fonts.secondary, fontFamily: theme.fonts.secondary },
-  backgroundColor: theme.colors.backgroundColor
-});
+  backgroundColor: theme.colors.backgroundColor,
+})
 const yAxisOptions: Options["yAxis"] = {
   softMin: 0,
   max: null,
-  softMax: null
-};
+  softMax: null,
+}
 const xAxisOptions: Options["xAxis"] = {
   crosshair: { width: 1, color: "gray", dashStyle: "Dash" as DashStyleValue, snap: false },
   categories: null,
@@ -486,15 +486,15 @@ const xAxisOptions: Options["xAxis"] = {
   type: "datetime",
   tickInterval: 365 * 24 * 3600 * 1000 * 5,
   dateTimeLabelFormats: {
-    year: "%Y"
-  }
-};
+    year: "%Y",
+  },
+}
 const defaultOptions = (unit: string, title: string, theme: Theme): Options => ({
   title: {
     text: title?.length > 66 ? title.slice(0, 66) + "..." : title,
     align: "left" as AlignValue,
     x: 0,
-    style: { fontFamily: theme.fonts.secondary, fontSize: "1rem", color: theme.colors.darkBlue }
+    style: { fontFamily: theme.fonts.secondary, fontSize: "1rem", color: theme.colors.darkBlue },
   },
   legend: { enabled: true, align: "left", itemDistance: 5 },
   loading: {
@@ -503,32 +503,32 @@ const defaultOptions = (unit: string, title: string, theme: Theme): Options => (
     style: {
       backgroundColor: theme.colors.backgroundColor,
       fontFamily: theme.fonts.secondary,
-      color: theme.colors.darkBlue
-    }
+      color: theme.colors.darkBlue,
+    },
   },
   chart: chartOptions(theme),
   tooltip: toolTipOptions(unit, true),
   credits: {
     text: "The Shift Dataportal",
-    href: "https://theshiftproject.org/"
+    href: "https://theshiftproject.org/",
   },
   exporting: {
     enabled: false,
     filename: title + " (in " + unit + ")",
     csv: {
-      columnHeaderFormatter: i => {
-        return i.name;
-      }
-    }
-  }
-});
+      columnHeaderFormatter: (i) => {
+        return i.name
+      },
+    },
+  },
+})
 const defaultPlotOptionsSeries: Options["plotOptions"]["series"] = {
   events: {
-    legendItemClick: e => {
-      e.preventDefault();
-    }
-  }
-};
+    legendItemClick: (e) => {
+      e.preventDefault()
+    },
+  },
+}
 const toolTipOptions = (unit, enabled): Options["tooltip"] => ({
   enabled,
   shared: true,
@@ -541,9 +541,9 @@ const toolTipOptions = (unit, enabled): Options["tooltip"] => ({
     offsetX: 0,
     offsetY: 1,
     color: "black",
-    opacity: 0.1
+    opacity: 0.1,
   },
-  formatter: function() {
+  formatter: function () {
     return this.points.reduce((previousValue, currentPoint) => {
       // Returns a line
       return (
@@ -558,20 +558,20 @@ const toolTipOptions = (unit, enabled): Options["tooltip"] => ({
         format(",.3r")(currentPoint.y).replace(",", " ") +
         " " +
         unit
-      );
+      )
       // Initial reduce value that will represent the year
-    }, "<b>" + (new Date(this.x).getFullYear() ? new Date(this.x).getFullYear() : ((this.x as unknown) as string)) + "</b>");
-  }
-});
+    }, "<b>" + (new Date(this.x).getFullYear() ? new Date(this.x).getFullYear() : (this.x as unknown as string)) + "</b>")
+  },
+})
 
 // Function used for none range graphs (Pie or Ranking), to get the closest correct maxYear to display.
 // Since some graphs have only values every 5 years and the years only increment by 1 it has to return a value for every single years.
 const findCategoriesMaxIndex = (categories, yearRange) => {
-  const closestCategory = categories.reduce(function(prev, curr) {
-    return Math.abs(curr - yearRange.max) < Math.abs(prev - yearRange.max) ? curr : prev;
-  });
-  const maxIndex = categories.findIndex(year => closestCategory && closestCategory.toString() === year);
-  return maxIndex === -1 ? 0 : maxIndex;
-};
+  const closestCategory = categories.reduce(function (prev, curr) {
+    return Math.abs(curr - yearRange.max) < Math.abs(prev - yearRange.max) ? curr : prev
+  })
+  const maxIndex = categories.findIndex((year) => closestCategory && closestCategory.toString() === year)
+  return maxIndex === -1 ? 0 : maxIndex
+}
 
-export default React.memo(forwardRef(StackedChart));
+export default React.memo(forwardRef(StackedChart))

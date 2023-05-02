@@ -27,7 +27,7 @@ const kaya: KayaResolvers = {
       TOTAL.energy_per_gdp_b100,
       TOTAL.gdp_per_capita_b100,
       TOTAL.population_b100,
-      TOTAL.co2_b100
+      TOTAL.co2_b100,
     ];
     const resRawQuery = db
       .knex(TOTAL.__tableName)
@@ -62,11 +62,11 @@ const kaya: KayaResolvers = {
       .cache(15 * 60);
     const [resRaw, years] = await Promise.all([resRawQuery, yearsQuery]);
     const series = [];
-    factors.map(factor => {
-      const data = years.map(year =>
+    factors.map((factor) => {
+      const data = years.map((year) =>
         // Fill missing year with null in the
-        resRaw.find(row => row[TOTAL.year] === year)
-          ? resRaw.find(row => row[TOTAL.year] === year)[TOTAL[factor]]
+        resRaw.find((row) => row[TOTAL.year] === year)
+          ? resRaw.find((row) => row[TOTAL.year] === year)[TOTAL[factor]]
           : null
       );
       let name;
@@ -93,14 +93,14 @@ const kaya: KayaResolvers = {
       series.push({
         name,
         data: data as number[],
-        color: stringToColor(name)
+        color: stringToColor(name),
       });
     });
     return {
       categories: years,
-      series
+      series,
     };
-  }
+  },
 };
 
 export default kaya;

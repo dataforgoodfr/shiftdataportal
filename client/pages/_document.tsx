@@ -1,7 +1,7 @@
-import React from "react";
-import Document, { Html, Head, Main, NextScript } from "next/document";
-import { extractCritical } from "@emotion/server";
-import { GA_TRACKING_ID } from "../lib/gtag";
+import React from "react"
+import Document, { Html, Head, Main, NextScript } from "next/document"
+import { extractCritical } from "@emotion/server"
+import { GA_TRACKING_ID } from "../lib/gtag"
 import { renderToString } from "react-dom/server"
 
 /*class MyDocument extends Document<{ html: string; ids: Array<string>; css: string }> {
@@ -43,7 +43,6 @@ import { renderToString } from "react-dom/server"
   }
 }*/
 
-
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const originalRenderPage = ctx.renderPage
@@ -76,7 +75,7 @@ class MyDocument extends Document {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', '${GA_TRACKING_ID}',  { 'anonymize_ip': true, 'storage': 'none' });
-          `
+          `,
             }}
           />
           <meta property="og:image:type" content="image/png" />
@@ -84,8 +83,8 @@ class MyDocument extends Document {
           <meta property="og:image:height" content="600" />
         </Head>
         <body>
-        <Main />
-        <NextScript />
+          <Main />
+          <NextScript />
         </body>
       </Html>
     )
@@ -93,4 +92,3 @@ class MyDocument extends Document {
 }
 
 export default MyDocument
-

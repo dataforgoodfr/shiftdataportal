@@ -4,5 +4,5 @@ module.exports = {
   preset: "ts-jest",
   testEnvironment: "node",
   modulePathIgnorePatterns: ["<rootDir>/dist/"],
-  reporters: ["default", "jest-junit"]
+  reporters: ["default", "jest-junit"],
 };

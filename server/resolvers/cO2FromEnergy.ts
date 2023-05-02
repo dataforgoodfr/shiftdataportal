@@ -7,7 +7,7 @@ import {
   HISTORICAL_CO2_EMISSIONS_PER_CAPITA_co2_per_capita_prod as PER_CAPITA,
   CARBON_INTENSITY_OF_GDP_carbon_intensity_of_gdp_prod as PER_GDP,
   HISTORICAL_CO2_EMISSIONS_FROM_ENERGY_eia_with_zones_prod as TOTAL,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT
+  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
 } from "../dbSchema";
 import typeColor from "../utils/typeColor";
 import stringToColor from "../utils/stringToColor";
@@ -36,8 +36,8 @@ const cO2FromEnergy: Co2FromEnergyResolvers = {
       res.push({
         name: key,
         data: groups[key]
-          .map(countryObject => countryObject.country)
-          .map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+          .map((countryObject) => countryObject.country)
+          .map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
       });
     }
     return res;
@@ -52,7 +52,7 @@ const cO2FromEnergy: Co2FromEnergyResolvers = {
       .whereNotNull(BY_ENERGY_FAMILY.energy_family)
       .pluck(BY_ENERGY_FAMILY.energy_family)
       .cache(15 * 60);
-    return res.map(energyFamily => ({ name: energyFamily, color: typeColor(energyFamily) }));
+    return res.map((energyFamily) => ({ name: energyFamily, color: typeColor(energyFamily) }));
   },
   async countries(_, __, { dataSources: { db } }): Promise<Co2FromEnergy["countries"]> {
     return await distinctCountries(BY_ENERGY_FAMILY.__tableName, db.knex);
@@ -89,7 +89,7 @@ const cO2FromEnergy: Co2FromEnergyResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           BY_ENERGY_FAMILY.co2,
           emissionsUnit ? cO2Multiplier(Co2Unit.MtCo2, emissionsUnit) : 1,
-          BY_ENERGY_FAMILY.co2
+          BY_ENERGY_FAMILY.co2,
         ])
       )
       .whereIn(BY_ENERGY_FAMILY.energy_family, energyFamilies)
@@ -118,22 +118,22 @@ const cO2FromEnergy: Co2FromEnergyResolvers = {
     const [resRaw, years] = await Promise.all([resRawQuery, yearsQuery]);
     return {
       categories: years,
-      series: energyFamilies.map(energyFamily => {
-        const energyFamilyRaw = resRaw.filter(row => {
+      series: energyFamilies.map((energyFamily) => {
+        const energyFamilyRaw = resRaw.filter((row) => {
           return row[BY_ENERGY_FAMILY.energy_family] === energyFamily;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          energyFamilyRaw.find(row => row[BY_ENERGY_FAMILY.year] === year)
-            ? energyFamilyRaw.find(row => row[BY_ENERGY_FAMILY.year] === year)[BY_ENERGY_FAMILY.co2]
+          energyFamilyRaw.find((row) => row[BY_ENERGY_FAMILY.year] === year)
+            ? energyFamilyRaw.find((row) => row[BY_ENERGY_FAMILY.year] === year)[BY_ENERGY_FAMILY.co2]
             : null
         );
         return {
           name: energyFamily,
           data: data as number[],
-          color: typeColor(energyFamily)
+          color: typeColor(energyFamily),
         };
-      })
+      }),
     };
   },
   async perCapita(
@@ -150,7 +150,7 @@ const cO2FromEnergy: Co2FromEnergyResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_CAPITA.co2_per_capita,
           emissionsUnit ? cO2Multiplier(Co2Unit.MtCo2, emissionsUnit) : 1,
-          PER_CAPITA.co2_per_capita
+          PER_CAPITA.co2_per_capita,
         ])
       )
       .whereIn(PER_CAPITA.group_name, groupNames)
@@ -203,36 +203,36 @@ const cO2FromEnergy: Co2FromEnergyResolvers = {
       resRawQuery,
       yearsQuery,
       perCapitaTopCountriesDataQuery,
-      perCapitaFlopCountriesDataQuery
+      perCapitaFlopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: perCapitaTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: perCapitaFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
 
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[PER_CAPITA.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[PER_CAPITA.year] === year)
-            ? groupNameRaw.find(row => row[PER_CAPITA.year] === year)[PER_CAPITA.co2_per_capita]
+          groupNameRaw.find((row) => row[PER_CAPITA.year] === year)
+            ? groupNameRaw.find((row) => row[PER_CAPITA.year] === year)[PER_CAPITA.co2_per_capita]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
   },
   async perGDP(
@@ -249,7 +249,7 @@ const cO2FromEnergy: Co2FromEnergyResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_GDP.co2_per_gdp,
           emissionsUnit ? cO2Multiplier(Co2Unit.MtCo2, emissionsUnit) : 1,
-          PER_GDP.co2_per_gdp
+          PER_GDP.co2_per_gdp,
         ])
       )
       .whereIn(PER_GDP.group_name, groupNames)
@@ -305,36 +305,36 @@ const cO2FromEnergy: Co2FromEnergyResolvers = {
       resRawQuery,
       yearsQuery,
       perCapitaTopCountriesDataQuery,
-      perCapitaFlopCountriesDataQuery
+      perCapitaFlopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: perCapitaTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: perCapitaFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
 
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[PER_GDP.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[PER_GDP.year] === year)
-            ? groupNameRaw.find(row => row[PER_GDP.year] === year)[PER_GDP.co2_per_gdp]
+          groupNameRaw.find((row) => row[PER_GDP.year] === year)
+            ? groupNameRaw.find((row) => row[PER_GDP.year] === year)[PER_GDP.co2_per_gdp]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
   },
   async total(
@@ -350,7 +350,7 @@ const cO2FromEnergy: Co2FromEnergyResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           TOTAL.co2,
           emissionsUnit ? cO2Multiplier(Co2Unit.MtCo2, emissionsUnit) : 1,
-          TOTAL.co2
+          TOTAL.co2,
         ])
       )
       .whereIn(TOTAL.group_name, groupNames)
@@ -399,36 +399,36 @@ const cO2FromEnergy: Co2FromEnergyResolvers = {
       resRawQuery,
       yearsQuery,
       TotalTopCountriesDataQuery,
-      TotalFlopCountriesDataQuery
+      TotalFlopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: TotalTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: TotalFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[TOTAL.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[TOTAL.year] === year)
-            ? groupNameRaw.find(row => row[TOTAL.year] === year)[TOTAL.co2]
+          groupNameRaw.find((row) => row[TOTAL.year] === year)
+            ? groupNameRaw.find((row) => row[TOTAL.year] === year)[TOTAL.co2]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
-  }
+  },
 };
 export default cO2FromEnergy;

@@ -1,4 +1,4 @@
-import { css } from "@emotion/react";
+import { css } from "@emotion/react"
 
 export default function Button1() {
   return css`
@@ -22,5 +22,5 @@ export default function Button1() {
     &:hover {
       box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
     }
-  `;
+  `
 }

@@ -1,6 +1,6 @@
-import Link from "next/link";
-import React from "react";
-import { color, fontSize, space } from "styled-system";
+import Link from "next/link"
+import React from "react"
+import { color, fontSize, space } from "styled-system"
 import styled from "@emotion/styled"
 
 const StyledBreadcrumbs = styled.ul`
@@ -22,30 +22,30 @@ const StyledBreadcrumbs = styled.ul`
     padding: 0.6rem 0;
     padding-left: 0.2rem;
     justify-content: center;
-    transition: opacity .2s ease-out; 
+    transition: opacity 0.2s ease-out;
     &:hover {
       opacity: 1;
     }
   }
-`;
+`
 export interface Breadcrumb {
-  name: string;
-  href: string;
+  name: string
+  href: string
 }
 export interface IProps {
-  data: Array<Breadcrumb>;
+  data: Array<Breadcrumb>
 }
 const Breadcrumbs: React.FC<IProps> = ({ data }) => (
   <StyledBreadcrumbs fontSize={[2]} color="grey">
     {data.map((breadcrumb, index) => (
       <li key={index}>
         <Link href={breadcrumb.href} passHref>
-            {breadcrumb.name}
-            {index === data.length - 1 ? "" : " >"}
-            {index === data.length - 1 ? "..." : ""}
+          {breadcrumb.name}
+          {index === data.length - 1 ? "" : " >"}
+          {index === data.length - 1 ? "..." : ""}
         </Link>
       </li>
     ))}
   </StyledBreadcrumbs>
-);
-export default Breadcrumbs;
+)
+export default Breadcrumbs

@@ -6,7 +6,7 @@ import {
   CO2_CBA_PER_CAPITA_eora_cba_zones_per_capita_prod as PER_CAPITA,
   CO2_CBA_PER_GDP_eora_cba_per_gdp_prod as PER_GDP,
   CO2_CONSUMPTION_BASED_ACCOUNTING_footprint_vs_territorial_prod as TOTAL,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT
+  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
 } from "../dbSchema";
 import stringToColor from "../utils/stringToColor";
 import groupBy from "../utils/groupBy";
@@ -34,8 +34,8 @@ const footprint: FootprintResolvers = {
       res.push({
         name: key,
         data: groups[key]
-          .map(countryObject => countryObject.country)
-          .map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+          .map((countryObject) => countryObject.country)
+          .map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
       });
     }
     return res;
@@ -83,7 +83,7 @@ const footprint: FootprintResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_CAPITA.co2_per_capita,
           emissionsUnit ? cO2Multiplier(Co2Unit.MtCo2, emissionsUnit) : 1,
-          PER_CAPITA.co2_per_capita
+          PER_CAPITA.co2_per_capita,
         ])
       )
       .whereIn(PER_CAPITA.group_name, groupNames)
@@ -140,40 +140,40 @@ const footprint: FootprintResolvers = {
       resRawQuery,
       yearsQuery,
       perCapitaTopCountriesDataQuery,
-      perCapitaFlopCountriesDataQuery
+      perCapitaFlopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: perCapitaTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: perCapitaFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     const series = [];
-    scopes.map(scope => {
-      groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+    scopes.map((scope) => {
+      groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[PER_CAPITA.group_name] === groupName && row[PER_CAPITA.scope] === scope;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[PER_CAPITA.year] === year)
-            ? groupNameRaw.find(row => row[PER_CAPITA.year] === year)[PER_CAPITA.co2_per_capita]
+          groupNameRaw.find((row) => row[PER_CAPITA.year] === year)
+            ? groupNameRaw.find((row) => row[PER_CAPITA.year] === year)[PER_CAPITA.co2_per_capita]
             : null
         );
         series.push({
           name: groupName + " - " + scope,
           data: data as number[],
           color: stringToColor(groupName),
-          dashStyle: scope === "Carbon Footprint" ? "Solid" : "LongDash"
+          dashStyle: scope === "Carbon Footprint" ? "Solid" : "LongDash",
         });
       });
     });
     return {
       multiSelects,
       categories: years,
-      series
+      series,
     };
   },
   async perGDP(
@@ -191,7 +191,7 @@ const footprint: FootprintResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_GDP.co2_per_gdp,
           emissionsUnit ? cO2Multiplier(Co2Unit.MtCo2, emissionsUnit) : 1,
-          PER_GDP.co2_per_gdp
+          PER_GDP.co2_per_gdp,
         ])
       )
       .whereIn(PER_GDP.group_name, groupNames)
@@ -251,40 +251,40 @@ const footprint: FootprintResolvers = {
       resRawQuery,
       yearsQuery,
       perCapitaTopCountriesDataQuery,
-      perCapitaFlopCountriesDataQuery
+      perCapitaFlopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: perCapitaTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: perCapitaFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     const series = [];
-    scopes.map(scope => {
-      groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+    scopes.map((scope) => {
+      groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[PER_GDP.group_name] === groupName && row[PER_GDP.scope] === scope;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[PER_GDP.year] === year)
-            ? groupNameRaw.find(row => row[PER_GDP.year] === year)[PER_GDP.co2_per_gdp]
+          groupNameRaw.find((row) => row[PER_GDP.year] === year)
+            ? groupNameRaw.find((row) => row[PER_GDP.year] === year)[PER_GDP.co2_per_gdp]
             : null
         );
         series.push({
           name: groupName + " - " + scope,
           data: data as number[],
           color: stringToColor(groupName),
-          dashStyle: scope === "Carbon Footprint" ? "Solid" : "LongDash"
+          dashStyle: scope === "Carbon Footprint" ? "Solid" : "LongDash",
         });
       });
     });
     return {
       multiSelects,
       categories: years,
-      series
+      series,
     };
   },
   async total(
@@ -301,7 +301,7 @@ const footprint: FootprintResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           TOTAL.co2,
           emissionsUnit ? cO2Multiplier(Co2Unit.MtCo2, emissionsUnit) : 1,
-          TOTAL.co2
+          TOTAL.co2,
         ])
       )
       .whereIn(TOTAL.group_name, groupNames)
@@ -355,42 +355,42 @@ const footprint: FootprintResolvers = {
       resRawQuery,
       yearsQuery,
       TotalTopCountriesDataQuery,
-      TotalFlopCountriesDataQuery
+      TotalFlopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: TotalTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: TotalFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: TotalFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
 
     const series = [];
-    scopes.map(scope => {
-      groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+    scopes.map((scope) => {
+      groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[TOTAL.group_name] === groupName && row[TOTAL.scope] === scope;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[TOTAL.year] === year)
-            ? groupNameRaw.find(row => row[TOTAL.year] === year)[TOTAL.co2]
+          groupNameRaw.find((row) => row[TOTAL.year] === year)
+            ? groupNameRaw.find((row) => row[TOTAL.year] === year)[TOTAL.co2]
             : null
         );
         series.push({
           name: groupName + " - " + scope,
           data: data as number[],
           color: stringToColor(groupName),
-          dashStyle: scope === "Carbon Footprint" ? "Solid" : "LongDash"
+          dashStyle: scope === "Carbon Footprint" ? "Solid" : "LongDash",
         });
       });
     });
     return {
       multiSelects,
       categories: years,
-      series
+      series,
     };
-  }
+  },
 };
 export default footprint;

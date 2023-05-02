@@ -1,10 +1,10 @@
 import styled from "@emotion/styled"
-import React from "react";
+import React from "react"
 import Link from "next/link"
 export default function SharingButtons({ title = "" }) {
-  const isBrowser = typeof window !== "undefined";
-  const url = isBrowser ? encodeURIComponent(window.location.href) : "";
-  const titleEncoded = encodeURIComponent(title);
+  const isBrowser = typeof window !== "undefined"
+  const url = isBrowser ? encodeURIComponent(window.location.href) : ""
+  const titleEncoded = encodeURIComponent(title)
   return (
     <Container>
       <SharingButtonLink
@@ -52,13 +52,13 @@ export default function SharingButtons({ title = "" }) {
         </IconContainer>
       </SharingButtonLink>
     </Container>
-  );
+  )
 }
 
 const Container = styled.div`
   display: flex;
   margin-top: 0.5rem;
-`;
+`
 
 const SharingButtonLink = styled(Link)`
   text-decoration: none;
@@ -67,7 +67,7 @@ const SharingButtonLink = styled(Link)`
   &:hover {
     opacity: 0.8;
   }
-`;
+`
 
 const Icon = styled.div`
   fill: #fff;
@@ -83,10 +83,10 @@ const Icon = styled.div`
     margin: 0;
     vertical-align: middle;
   }
-`;
+`
 const IconContainer = styled.div`
   border-radius: 5px;
   transition: 25ms ease-out;
 
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-`;
+`

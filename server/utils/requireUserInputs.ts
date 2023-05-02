@@ -10,7 +10,7 @@ const requireUserInputs = (userInputs: Arguments) => {
   if (undefinedNames.length > 0) {
     console.warn(undefinedNames);
     throw new UserInputError("Arguments missing", {
-      missingArgs: undefinedNames.map(name => Object.keys(name)[0])
+      missingArgs: undefinedNames.map((name) => Object.keys(name)[0]),
     });
   }
 };

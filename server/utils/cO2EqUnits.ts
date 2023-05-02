@@ -5,5 +5,5 @@ export default {
   GtCeq: "GtCeq",
   MtCeq: "MtCeq",
   KtCeq: "KtCeq",
-  tCO2eq: "tCO2eq"
+  tCO2eq: "tCO2eq",
 };

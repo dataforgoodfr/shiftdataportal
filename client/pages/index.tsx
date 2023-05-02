@@ -1,13 +1,13 @@
-import Link from "next/link";
-import React, { Fragment } from "react";
-import { useTheme } from "@emotion/react";
-import { Nav, H2, Benefit, Footer, AnimatedChart } from "../components";
-import { color, typography, layout, space } from "styled-system";
-import Icons, { ExternalLink, IconName } from "../components/Icons";
+import Link from "next/link"
+import React, { Fragment } from "react"
+import { useTheme } from "@emotion/react"
+import { Nav, H2, Benefit, Footer, AnimatedChart } from "../components"
+import { color, typography, layout, space } from "styled-system"
+import Icons, { ExternalLink, IconName } from "../components/Icons"
 import styled from "@emotion/styled"
 
 export default function Index() {
-  const theme = useTheme();
+  const theme = useTheme()
   // const isDev =
   //   (process.browser && document.location.href.includes("staging")) ||
   //   process.env.NODE_ENV === "development" ||
@@ -19,10 +19,15 @@ export default function Index() {
         <Hero height={["50vh", "60vh"]} lineHeight={["auto", "84px"]} ml={theme.mainPaddingX}>
           <H1 fontSize={[8, 10]} mt={[4, 5]} maxWidth={"45rem"}>
             Explore World
-            <H1Link color="orange" href="/energy" passHref> energy </H1Link>
+            <H1Link color="orange" href="/energy" passHref>
+              {" "}
+              energy{" "}
+            </H1Link>
             and{" "}
-            <H1Link color="blue" href="/climate" passHref> climate</H1Link>
-            {" "}
+            <H1Link color="blue" href="/climate" passHref>
+              {" "}
+              climate
+            </H1Link>{" "}
             data
           </H1>
           <Subtitle width={[0.9, 0.7]} fontSize={[4]}>
@@ -97,7 +102,9 @@ export default function Index() {
                 </DatasetLink>
               </Fragment>
             </DatasetList>
-            <DatasetsCTA my={4} href="/energy" passHref>See more</DatasetsCTA>
+            <DatasetsCTA my={4} href="/energy" passHref>
+              See more
+            </DatasetsCTA>
           </DatasetCard>
           <DatasetCard px={[3, 4, 5]} mt={[3, 5]}>
             <DatasetCategory icon="Climate">Climate</DatasetCategory>
@@ -127,7 +134,9 @@ export default function Index() {
                 KAYA Identity
               </DatasetLink>
             </DatasetList>
-            <DatasetsCTA my={4} href="/climate" passHref>See more</DatasetsCTA>
+            <DatasetsCTA my={4} href="/climate" passHref>
+              See more
+            </DatasetsCTA>
           </DatasetCard>
         </div>
       </Datasets>
@@ -166,103 +175,103 @@ export default function Index() {
       </Purpose>
       <Footer mt={0} />
     </Fragment>
-  );
+  )
 }
 const Datasets = styled.section`
   ${space};
-`;
+`
 const Benefits = styled.section`
   ${space};
-`;
+`
 const Purpose = styled.section`
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  margin-top: ${p => p.theme.space[6]}px;
-  padding: ${p => p.theme.space[6]}px 0;
-  background-color: ${p => p.theme.colors.blue}19;
+  margin-top: ${(p) => p.theme.space[6]}px;
+  padding: ${(p) => p.theme.space[6]}px 0;
+  background-color: ${(p) => p.theme.colors.blue}19;
   aside {
     font-weight: 700;
-    font-size: ${p => p.theme.fontSizes[2]};
-    color: ${p => p.theme.colors.blue};
+    font-size: ${(p) => p.theme.fontSizes[2]};
+    color: ${(p) => p.theme.colors.blue};
     letter-spacing: 0.3px;
     text-align: center;
   }
   h2 {
     font-weight: bold;
-    font-size: ${p => p.theme.fontSizes[9]};
-    color: ${p => p.theme.colors.lightBlack};
+    font-size: ${(p) => p.theme.fontSizes[9]};
+    color: ${(p) => p.theme.colors.lightBlack};
     letter-spacing: 0.89px;
     line-height: 52px;
     text-align: center;
   }
   p {
-    padding-top: ${p => p.theme.space[3]}px;
+    padding-top: ${(p) => p.theme.space[3]}px;
     max-width: 32rem;
     margin: auto;
-    font-family: ${p => p.theme.fonts.primary};
-    color: ${p => p.theme.colors.grey};
+    font-family: ${(p) => p.theme.fonts.primary};
+    color: ${(p) => p.theme.colors.grey};
     letter-spacing: 0.4px;
     line-height: 25.6px;
   }
 
   & > a {
     font-weight: 700;
-    color: ${p => p.theme.colors.lightBlack};
-    border: 2px solid ${p => p.theme.colors.lightBlack};
+    color: ${(p) => p.theme.colors.lightBlack};
+    border: 2px solid ${(p) => p.theme.colors.lightBlack};
     border-radius: 5px;
     padding: 5px 10px;
     margin: auto;
-    margin-top: ${p => p.theme.space[5]}px;
+    margin-top: ${(p) => p.theme.space[5]}px;
     svg {
       width: 17px;
       margin-left: 0.5rem;
     }
   }
-`;
+`
 
 const Hero = styled.div`
   ${space};
   ${layout};
   position: relative;
   padding-bottom: 1rem;
-`;
+`
 const H1 = styled.h1`
   ${typography};
   ${layout};
   ${space};
-  font-family: ${p => p.theme.fonts.primary};
+  font-family: ${(p) => p.theme.fonts.primary};
   font-weight: 700;
-  color: ${p => p.theme.colors.lightBlack};
-`;
+  color: ${(p) => p.theme.colors.lightBlack};
+`
 
 const H1Link = styled(Link)`
   ${color}
-`;
+`
 
 const Subtitle = styled.blockquote`
   ${typography};
   margin-top: 1rem;
   max-width: 50rem;
-  color: ${p => p.theme.colors.lightBlack};
+  color: ${(p) => p.theme.colors.lightBlack};
   letter-spacing: 0.76px;
   line-height: 28px;
   & > b {
     font-weight: 700;
   }
   ${layout}
-`;
+`
 
 const DownArrow = styled.svg`
   position: absolute;
   bottom: -40px;
   left: 50%;
   transform: translateX(-50%);
-`;
+`
 const DatasetList = styled.ul`
   list-style-type: none;
-`;
+`
 
 const DatasetCard = styled.div`
   ${space};
@@ -271,24 +280,24 @@ const DatasetCard = styled.div`
   display: flex;
   flex-flow: column;
   align-items: center;
-`;
+`
 
 type IDatasetCategory = {
-  children: any;
-  icon: IconName;
-};
+  children: any
+  icon: IconName
+}
 const DatasetCategory: React.FunctionComponent<IDatasetCategory> = ({ children, icon }) => {
-  const theme = useTheme();
-  let Icon;
+  const theme = useTheme()
+  let Icon
   switch (icon) {
     case "Climate":
-      Icon = Icons.Climate({ color: theme.colors.blue });
-      break;
+      Icon = Icons.Climate({ color: theme.colors.blue })
+      break
     case "Energy":
-      Icon = Icons.Energy({ color: theme.colors.orange });
-      break;
+      Icon = Icons.Energy({ color: theme.colors.orange })
+      break
     default:
-      Icon = Icons.Energy({ color: theme.colors.orange });
+      Icon = Icons.Energy({ color: theme.colors.orange })
   }
   return (
     <div
@@ -296,7 +305,7 @@ const DatasetCategory: React.FunctionComponent<IDatasetCategory> = ({ children, 
         display: "flex",
         flexFlow: "row nowrap",
         margin: "2rem",
-        justifyContent: "center"
+        justifyContent: "center",
       }}
     >
       <div style={{ width: "33px" }}>{Icon}</div>
@@ -306,67 +315,67 @@ const DatasetCategory: React.FunctionComponent<IDatasetCategory> = ({ children, 
           fontSize: theme.fontSizes[7],
           color: theme.colors.grey,
           marginTop: 0,
-          marginLeft: ".5rem"
+          marginLeft: ".5rem",
         }}
       >
         {children}
       </h3>
     </div>
-  );
-};
+  )
+}
 type IDatasetLink = {
-  id: string;
-  children: any;
-  icon: IconName;
-};
+  id: string
+  children: any
+  icon: IconName
+}
 const DatasetLink: React.FunctionComponent<IDatasetLink> = ({ id, children, icon }) => {
-  const theme = useTheme();
-  let Icon;
+  const theme = useTheme()
+  let Icon
   switch (icon) {
     case "EnergyProduction":
-      Icon = Icons.EnergyProduction({ color: theme.colors.grey });
-      break;
+      Icon = Icons.EnergyProduction({ color: theme.colors.grey })
+      break
     case "EnergyConsumption":
-      Icon = Icons.EnergyConsumption({ color: theme.colors.grey });
-      break;
+      Icon = Icons.EnergyConsumption({ color: theme.colors.grey })
+      break
     case "Energy":
-      Icon = Icons.Energy({ color: theme.colors.grey });
-      break;
+      Icon = Icons.Energy({ color: theme.colors.grey })
+      break
     case "Electricity":
-      Icon = Icons.Electricity({ color: theme.colors.grey });
-      break;
+      Icon = Icons.Electricity({ color: theme.colors.grey })
+      break
     case "FossilFuels":
-      Icon = Icons.FossilFuels({ color: theme.colors.grey });
-      break;
+      Icon = Icons.FossilFuels({ color: theme.colors.grey })
+      break
     case "Gas":
-      Icon = Icons.Gas({ color: theme.colors.grey });
-      break;
+      Icon = Icons.Gas({ color: theme.colors.grey })
+      break
     case "CO2":
-      Icon = Icons.CO2({ color: theme.colors.grey });
-      break;
+      Icon = Icons.CO2({ color: theme.colors.grey })
+      break
     case "Footprint":
-      Icon = Icons.Footprint({ color: theme.colors.grey });
-      break;
+      Icon = Icons.Footprint({ color: theme.colors.grey })
+      break
     case "Fire":
-      Icon = Icons.Fire({ color: theme.colors.grey });
-      break;
+      Icon = Icons.Fire({ color: theme.colors.grey })
+      break
     default:
-      console.warn(`Dimension Icon : ${icon} not found, fallbacking to the line chart icon`);
-      Icon = Icons.EnergyProduction({ color: theme.colors.lightBlack });
+      console.warn(`Dimension Icon : ${icon} not found, fallbacking to the line chart icon`)
+      Icon = Icons.EnergyProduction({ color: theme.colors.lightBlack })
   }
   return (
     <DatasetLinkContainer mt={3}>
-      <DatasetLinkA px={4} py={3} fontSize={3}  href={`${id}`} passHref>
+      <DatasetLinkA px={4} py={3} fontSize={3} href={`${id}`} passHref>
         <div style={{ width: "24px" }}>{Icon}</div>
         <div style={{ marginLeft: ".8rem" }}>{children}</div>
       </DatasetLinkA>
     </DatasetLinkContainer>
-  );
-};
+  )
+}
 const DatasetLinkContainer = styled.li`
   ${space};
   font-weight: 500;
-  color: ${p => p.theme.colors.grey};
+  color: ${(p) => p.theme.colors.grey};
   position: relative;
   &:last-child {
     margin-bottom: 2rem;
@@ -374,7 +383,7 @@ const DatasetLinkContainer = styled.li`
   &:first-of-type {
     margin-top: 0;
   }
-`;
+`
 const DatasetLinkA = styled(Link)`
   ${typography};
   ${space};
@@ -393,19 +402,19 @@ const DatasetLinkA = styled(Link)`
   }
   &:hover {
     color: white;
-    background-color: ${p => p.theme.colors.darkBlue};
+    background-color: ${(p) => p.theme.colors.darkBlue};
     svg {
       path {
         fill: white;
       }
     }
   }
-`;
+`
 const DatasetsCTA = styled(Link)`
   ${space};
   font-weight: 700;
-  font-size: ${p => p.theme.fontSizes[5]};
-  color: ${p => p.theme.colors.orange};
+  font-size: ${(p) => p.theme.fontSizes[5]};
+  color: ${(p) => p.theme.colors.orange};
   cursor: pointer;
   transition: all 0.3s ease-out;
   margin-top: auto;
@@ -414,43 +423,40 @@ const DatasetsCTA = styled(Link)`
   padding: 1rem;
   border-radius: 2px;
   &:hover {
-    background-color: ${p => p.theme.colors.orange};
+    background-color: ${(p) => p.theme.colors.orange};
     color: white;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.05);
   }
-`;
+`
 
 const benefits: {
-  icon: "Share" | "Table" | "Gear" | "MagnifyingGlass";
-  color: string;
-  title: string;
-  body: string;
+  icon: "Share" | "Table" | "Gear" | "MagnifyingGlass"
+  color: string
+  title: string
+  body: string
 }[] = [
   {
     icon: "MagnifyingGlass",
     color: "orange",
     title: "Discover",
-    body:
-      "Discover a wide range of energy and climate statistics.  Multidimensional data gathered from multiple referenced sources to cover the largest geographical and historical span available."
+    body: "Discover a wide range of energy and climate statistics.  Multidimensional data gathered from multiple referenced sources to cover the largest geographical and historical span available.",
   },
   {
     icon: "Gear",
     color: "blue",
     title: "Customize chart",
-    body:
-      "Compare countries, continents, organizations. Change chart types, energy sources, units or other indicators. Create customized graphics to illustrate or verify an argument."
+    body: "Compare countries, continents, organizations. Change chart types, energy sources, units or other indicators. Create customized graphics to illustrate or verify an argument.",
   },
   {
     icon: "Table",
     color: "green",
     title: "Export raw data",
-    body: "Export personalized datasets at any point as Excel spreadsheets for further analysis."
+    body: "Export personalized datasets at any point as Excel spreadsheets for further analysis.",
   },
   {
     icon: "Share",
     color: "lightBlack",
     title: "Share",
-    body:
-      "Share customized graphics as dynamic graphs and image files– those can in turn be embedded in other websites, blogs and be shared through social media."
-  }
-];
+    body: "Share customized graphics as dynamic graphs and image files– those can in turn be embedded in other websites, blogs and be shared through social media.",
+  },
+]

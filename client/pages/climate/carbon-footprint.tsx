@@ -1,12 +1,12 @@
-import { useQuery } from "@apollo/client";
-import gql from "graphql-tag";
-import { NextPage } from "next";
-import Head from "next/head";
-import { ParsedUrlQueryInput } from "querystring";
-import React, { Fragment, useEffect, useReducer, useState, useRef } from "react";
+import { useQuery } from "@apollo/client"
+import gql from "graphql-tag"
+import { NextPage } from "next"
+import Head from "next/head"
+import { ParsedUrlQueryInput } from "querystring"
+import React, { Fragment, useEffect, useReducer, useState, useRef } from "react"
 
-import { Range } from "react-input-range";
-import { useDebounce } from "use-debounce";
+import { Range } from "react-input-range"
+import { useDebounce } from "use-debounce"
 import {
   ChartTypesSelect,
   Footer,
@@ -23,9 +23,9 @@ import {
   SelectContainer,
   GraphInfos,
   SharingButtons,
-} from "../../components";
-import StackedChart, { ChartType, StackedChartProps } from "../../components/StackedChart";
-import useSyncParamsWithUrl from "../../hooks/useSyncParamsWithUrl";
+} from "../../components"
+import StackedChart, { ChartType, StackedChartProps } from "../../components/StackedChart"
+import useSyncParamsWithUrl from "../../hooks/useSyncParamsWithUrl"
 import {
   Co2Unit,
   GetFootprintDimensionQuery,
@@ -33,13 +33,13 @@ import {
   FootprintDimensions,
   FootprintInputsQuery,
   FootprintInputsQueryVariables,
-} from "../../types";
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton";
-import useOnYearRangeChange from "../../hooks/useOnYearRangeChange";
-import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable";
+} from "../../types"
+import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
+import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
+import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
 
 const Footprint: NextPage<DefaultProps> = ({ params }) => {
-  const stackedChartRef = useRef(null);
+  const stackedChartRef = useRef(null)
   // Reducer state
   const [
     {
@@ -56,21 +56,22 @@ const Footprint: NextPage<DefaultProps> = ({ params }) => {
       chartHeight,
     },
     dispatch,
-  ] = useReducer(reducer, { ...params });
+  ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
-    FootprintInputsQuery,
-    FootprintInputsQueryVariables
-  >(INPUTS, {
+  const {
+    loading: loadingInputs,
+    data: dataInputs,
+    error: errorInputs,
+  } = useQuery<FootprintInputsQuery, FootprintInputsQueryVariables>(INPUTS, {
     variables: {
       dimension: selectedDimension,
     },
-  });
+  })
   // Manage specific state with URL params
-  const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}));
+  const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}))
 
   // Prevent re-fetching data each time year changes
-  const [debouncedYearRange] = useDebounce(selectedYearRange, 300);
+  const [debouncedYearRange] = useDebounce(selectedYearRange, 300)
 
   // Update the url params when any dependency changes (the array in the useEffect hook)
   useEffect(() => {
@@ -85,7 +86,7 @@ const Footprint: NextPage<DefaultProps> = ({ params }) => {
       end: debouncedYearRange.max,
       start: debouncedYearRange.min,
       scopes: selectedScopes,
-    });
+    })
   }, [
     selectedChartType,
     chartTypes,
@@ -96,11 +97,11 @@ const Footprint: NextPage<DefaultProps> = ({ params }) => {
     debouncedYearRange,
     isRange,
     selectedScopes,
-  ]);
+  ])
   // Applies the urlParams change to the real URL.
-  useSyncParamsWithUrl(urlParams);
+  useSyncParamsWithUrl(urlParams)
 
-  const [graphTitle, setGraphTitle] = useState<string>("");
+  const [graphTitle, setGraphTitle] = useState<string>("")
   // Fetches the graph data, automatically re-fetches when any variable changes
   const { data: dimensionData, loading: dimensionLoading } = useQuery<
     GetFootprintDimensionQuery,
@@ -118,30 +119,30 @@ const Footprint: NextPage<DefaultProps> = ({ params }) => {
       yearStart: 0,
       yearEnd: 3000,
     },
-  });
+  })
 
   // Update graph title
   useEffect(() => {
-    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : "";
-    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : "";
-    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max;
-    setGraphTitle(`CO2 Footprint${displayedDimension}, ${displayedGroupNames} ${displayedYears}`);
-  }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange]);
+    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : ""
+    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : ""
+    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
+    setGraphTitle(`CO2 Footprint${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
+  }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange])
   function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV();
+    stackedChartRef.current.downloadCSV()
   }
   function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart();
+    stackedChartRef.current.exportChart()
   }
-  const onYearRangeChange = useOnYearRangeChange(dispatch);
-  let inputs: any;
+  const onYearRangeChange = useOnYearRangeChange(dispatch)
+  let inputs: any
 
   if (errorInputs) {
-    inputs = <p>Error, couldn\'t fetch data. Might be an internet connection problem.</p>;
+    inputs = <p>Error, couldn\'t fetch data. Might be an internet connection problem.</p>
   } else if (loadingInputs || !dataInputs || !dataInputs.footprint) {
-    inputs = <p>Loading...</p>;
+    inputs = <p>Loading...</p>
   } else {
-    const { emissionsUnits, zones, groups, countries, dimensions, gdpUnits, scopes } = dataInputs.footprint;
+    const { emissionsUnits, zones, groups, countries, dimensions, gdpUnits, scopes } = dataInputs.footprint
     inputs = (
       <Fragment>
         <div>
@@ -176,7 +177,7 @@ const Footprint: NextPage<DefaultProps> = ({ params }) => {
               dispatch({
                 type: "selectGroupNames",
                 payload: { selectedGroupNames },
-              });
+              })
             }}
           />
           {selectedDimension === "perGDP" && (
@@ -189,7 +190,7 @@ const Footprint: NextPage<DefaultProps> = ({ params }) => {
                 dispatch({
                   type: "selectGdpUnit",
                   payload: { selectedGdpUnit },
-                });
+                })
               }}
             />
           )}
@@ -203,7 +204,7 @@ const Footprint: NextPage<DefaultProps> = ({ params }) => {
               dispatch({
                 type: "selectScopes",
                 payload: { selectedScopes },
-              });
+              })
             }}
           />
           <RadioSelect
@@ -215,7 +216,7 @@ const Footprint: NextPage<DefaultProps> = ({ params }) => {
               dispatch({
                 type: "selectEmissionsUnit",
                 payload: { selectedCO2Unit },
-              });
+              })
             }}
           />
           <ChartTypesSelect
@@ -227,28 +228,28 @@ const Footprint: NextPage<DefaultProps> = ({ params }) => {
                 case "pie":
                   dispatch({
                     type: "selectPie",
-                  });
-                  break;
+                  })
+                  break
                 case "line":
-                  dispatch({ type: "selectLine" });
-                  break;
+                  dispatch({ type: "selectLine" })
+                  break
                 case "stacked":
-                  dispatch({ type: "selectStacked" });
-                  break;
+                  dispatch({ type: "selectStacked" })
+                  break
                 case "ranking":
-                  dispatch({ type: "selectRanking" });
-                  break;
+                  dispatch({ type: "selectRanking" })
+                  break
                 case "stacked-percent":
-                  dispatch({ type: "selectStackedPercent" });
-                  break;
+                  dispatch({ type: "selectStackedPercent" })
+                  break
                 default:
-                  console.warn(`ChartTypes input "${value}" didn't match any chartTypes`);
+                  console.warn(`ChartTypes input "${value}" didn't match any chartTypes`)
               }
             }}
           />
         </SelectContainer>
       </Fragment>
-    );
+    )
   }
   if (iframe) {
     return (
@@ -272,7 +273,7 @@ const Footprint: NextPage<DefaultProps> = ({ params }) => {
             : { series: [], categories: [] }
         }
       />
-    );
+    )
   }
   return (
     <Fragment>
@@ -320,8 +321,8 @@ const Footprint: NextPage<DefaultProps> = ({ params }) => {
       </Main>
       <Footer />
     </Fragment>
-  );
-};
+  )
+}
 Footprint.getInitialProps = async function ({ query }) {
   // Get all the parameters from the URL or set default state
   return {
@@ -359,8 +360,8 @@ Footprint.getInitialProps = async function ({ query }) {
       isRange: (query["is-range"] as string) ? JSON.parse(query["is-range"] as string) : true,
       chartHeight: (query["chart-height"] as string) ? (query["chart-height"] as string) : "75rem",
     },
-  };
-};
+  }
+}
 
 export const INPUTS = gql`
   query footprintInputs {
@@ -384,7 +385,7 @@ export const INPUTS = gql`
       dimensions
     }
   }
-`;
+`
 
 // GraphQL query to get all the chart data
 export const GET_DIMENSION = gql`
@@ -477,22 +478,22 @@ export const GET_DIMENSION = gql`
       }
     }
   }
-`;
+`
 interface DefaultProps {
-  params: ReducerState;
+  params: ReducerState
 }
 interface ReducerState {
-  chartTypes: ChartType[];
-  selectedChartType: ChartType;
-  selectedDimension: FootprintDimensions;
-  selectedCO2Unit: GetFootprintDimensionQueryVariables["emissionsUnit"];
-  selectedGroupNames: GetFootprintDimensionQueryVariables["groupNames"];
-  selectedGdpUnit: GetFootprintDimensionQueryVariables["gdpUnit"];
-  selectedScopes: GetFootprintDimensionQueryVariables["scopes"];
-  iframe: boolean;
-  isRange: boolean;
-  selectedYearRange: Range;
-  chartHeight: string;
+  chartTypes: ChartType[]
+  selectedChartType: ChartType
+  selectedDimension: FootprintDimensions
+  selectedCO2Unit: GetFootprintDimensionQueryVariables["emissionsUnit"]
+  selectedGroupNames: GetFootprintDimensionQueryVariables["groupNames"]
+  selectedGdpUnit: GetFootprintDimensionQueryVariables["gdpUnit"]
+  selectedScopes: GetFootprintDimensionQueryVariables["scopes"]
+  iframe: boolean
+  isRange: boolean
+  selectedYearRange: Range
+  chartHeight: string
 }
 type ReducerActions =
   | FootprintDimensions
@@ -506,19 +507,19 @@ type ReducerActions =
   | "selectStackedPercent"
   | "selectRanking"
   | "selectScopes"
-  | "selectYears";
+  | "selectYears"
 const reducer: React.Reducer<
   ReducerState,
   {
-    type: ReducerActions;
+    type: ReducerActions
     payload?: {
-      selectedGroupNames?: ReducerState["selectedGroupNames"];
-      selectedCO2Unit?: ReducerState["selectedCO2Unit"];
-      selectedDimension?: ReducerState["selectedDimension"];
-      selectedGdpUnit?: ReducerState["selectedGdpUnit"];
-      selectedYearRange?: ReducerState["selectedYearRange"];
-      selectedScopes?: ReducerState["selectedScopes"];
-    };
+      selectedGroupNames?: ReducerState["selectedGroupNames"]
+      selectedCO2Unit?: ReducerState["selectedCO2Unit"]
+      selectedDimension?: ReducerState["selectedDimension"]
+      selectedGdpUnit?: ReducerState["selectedGdpUnit"]
+      selectedYearRange?: ReducerState["selectedYearRange"]
+      selectedScopes?: ReducerState["selectedScopes"]
+    }
   }
 > = (prevState, action) => {
   switch (action.type) {
@@ -529,7 +530,7 @@ const reducer: React.Reducer<
         chartTypes: ["line", "ranking"],
         selectedDimension: FootprintDimensions.PerGdp,
         selectedCO2Unit: Co2Unit.TCo2,
-      };
+      }
     case FootprintDimensions.Total:
       return {
         ...prevState,
@@ -538,7 +539,7 @@ const reducer: React.Reducer<
         selectedDimension: FootprintDimensions.Total,
         selectedCO2Unit: Co2Unit.MtCo2,
         isRange: true,
-      };
+      }
     case FootprintDimensions.PerCapita:
       return {
         ...prevState,
@@ -547,72 +548,72 @@ const reducer: React.Reducer<
         selectedDimension: FootprintDimensions.PerCapita,
         selectedCO2Unit: Co2Unit.TCo2,
         isRange: true,
-      };
+      }
     case "selectGroupNames":
       return {
         ...prevState,
         selectedGroupNames: action.payload.selectedGroupNames,
-      };
+      }
     case "selectScopes":
       return {
         ...prevState,
         selectedScopes: action.payload.selectedScopes,
-      };
+      }
     case "selectEmissionsUnit":
       return {
         ...prevState,
         selectedCO2Unit: action.payload.selectedCO2Unit,
-      };
+      }
     case "selectDimension":
       return {
         ...prevState,
         selectedDimension: action.payload.selectedDimension,
-      };
+      }
     case "selectGdpUnit":
       return {
         ...prevState,
         selectedGdpUnit: action.payload.selectedGdpUnit,
-      };
+      }
     case "selectPie":
       return {
         ...prevState,
         selectedGdpUnit: action.payload.selectedGdpUnit,
         selectedChartType: "pie",
         isRange: false,
-      };
+      }
     case "selectStacked":
       return {
         ...prevState,
         selectedChartType: "stacked",
         isRange: true,
-      };
+      }
     case "selectStackedPercent":
       return {
         ...prevState,
         selectedChartType: "stacked-percent",
         isRange: true,
-      };
+      }
     case "selectLine":
       return {
         ...prevState,
         selectedChartType: "line",
         isRange: true,
-      };
+      }
     case "selectRanking":
       return {
         ...prevState,
         selectedChartType: "ranking",
         isRange: false,
-      };
+      }
     case "selectYears":
       return {
         ...prevState,
         selectedYearRange: action.payload.selectedYearRange,
-      };
+      }
     default:
-      console.warn(`Reducer didn't match any action of type ${action.type}`);
-      return prevState;
+      console.warn(`Reducer didn't match any action of type ${action.type}`)
+      return prevState
   }
-};
+}
 
-export default Footprint;
+export default Footprint

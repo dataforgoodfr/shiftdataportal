@@ -7,7 +7,7 @@ import {
   FOSSIL_RESERVES_bp_fossil_with_zones_prod as PROVEN_RESERVE,
   COUNTRY_multiselect_groups_prod as MULTI_SELECT,
   WORLD_ENERGY_HISTORY_primary_energy_prod as TOTAL,
-  ENERGY_PER_CAPITA_energy_per_capita_prod as PER_CAPITA
+  ENERGY_PER_CAPITA_energy_per_capita_prod as PER_CAPITA,
 } from "../dbSchema";
 import typeColor from "../utils/typeColor";
 import stringToColor from "../utils/stringToColor";
@@ -35,8 +35,8 @@ const gas: GasResolvers = {
       res.push({
         name: key,
         data: groups[key]
-          .map(countryObject => countryObject.country)
-          .map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+          .map((countryObject) => countryObject.country)
+          .map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
       });
     }
     return res;
@@ -61,7 +61,7 @@ const gas: GasResolvers = {
       .orderBy(BY_SECTOR.sector, "asc")
       .pluck(BY_SECTOR.sector)
       .cache(15 * 60);
-    return res.map(sector => ({ name: sector, color: typeColor(sector) }));
+    return res.map((sector) => ({ name: sector, color: typeColor(sector) }));
   },
 
   async bySector(
@@ -79,7 +79,7 @@ const gas: GasResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           BY_SECTOR.final_energy,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
-          BY_SECTOR.final_energy
+          BY_SECTOR.final_energy,
         ])
       )
       .whereIn(BY_SECTOR.sector, sectors)
@@ -101,22 +101,22 @@ const gas: GasResolvers = {
     const [resRaw, years] = await Promise.all([resRawQuery, yearsQuery]);
     return {
       categories: years,
-      series: sectors.map(sector => {
-        const sectorRaw = resRaw.filter(row => {
+      series: sectors.map((sector) => {
+        const sectorRaw = resRaw.filter((row) => {
           return row[BY_SECTOR.sector] === sector;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          sectorRaw.find(row => row[BY_SECTOR.year] === year)
-            ? sectorRaw.find(row => row[BY_SECTOR.year] === year)[BY_SECTOR.final_energy]
+          sectorRaw.find((row) => row[BY_SECTOR.year] === year)
+            ? sectorRaw.find((row) => row[BY_SECTOR.year] === year)[BY_SECTOR.final_energy]
             : null
         );
         return {
           name: sector,
           data: data as number[],
-          color: typeColor(sector)
+          color: typeColor(sector),
         };
-      })
+      }),
     };
   },
   async total(_, { yearStart, yearEnd, groupNames, energyUnit, type }, { dataSources: { db } }) {
@@ -130,7 +130,7 @@ const gas: GasResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           TOTAL.energy,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
-          TOTAL.energy
+          TOTAL.energy,
         ])
       )
       .where(TOTAL.energy_family, "Gas")
@@ -188,35 +188,35 @@ const gas: GasResolvers = {
       resRawQuery,
       yearsQuery,
       topCountriesDataQuery,
-      flopCountriesDataQuery
+      flopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: flopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: flopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: topCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: topCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[TOTAL.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[TOTAL.year] === year)
-            ? groupNameRaw.find(row => row[TOTAL.year] === year)[TOTAL.energy]
+          groupNameRaw.find((row) => row[TOTAL.year] === year)
+            ? groupNameRaw.find((row) => row[TOTAL.year] === year)[TOTAL.energy]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
   },
   async provenReserve(_, { groupNames, yearStart, yearEnd }, { dataSources: { db } }) {
@@ -279,36 +279,36 @@ const gas: GasResolvers = {
       resRawQuery,
       yearsQuery,
       topCountriesDataQuery,
-      flopCountriesDataQuery
+      flopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: topCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: topCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: flopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: flopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
 
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[PROVEN_RESERVE.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[PROVEN_RESERVE.year] === year)
-            ? groupNameRaw.find(row => row[PROVEN_RESERVE.year] === year)[PROVEN_RESERVE.proven_reserves]
+          groupNameRaw.find((row) => row[PROVEN_RESERVE.year] === year)
+            ? groupNameRaw.find((row) => row[PROVEN_RESERVE.year] === year)[PROVEN_RESERVE.proven_reserves]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
   },
   async perCapita(_, { groupNames, energyUnit, yearStart, yearEnd }, { dataSources: { db } }) {
@@ -321,7 +321,7 @@ const gas: GasResolvers = {
         db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_CAPITA.energy_per_capita,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
-          PER_CAPITA.energy_per_capita
+          PER_CAPITA.energy_per_capita,
         ])
       )
       .whereIn(PER_CAPITA.group_name, groupNames)
@@ -375,36 +375,36 @@ const gas: GasResolvers = {
       resRawQuery,
       yearsQuery,
       perCapitaTopCountriesDataQuery,
-      perCapitaFlopCountriesDataQuery
+      perCapitaFlopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: perCapitaFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: perCapitaTopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaTopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     return {
       multiSelects,
       categories: years,
-      series: groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+      series: groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[PER_CAPITA.group_name] === groupName;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[PER_CAPITA.year] === year)
-            ? groupNameRaw.find(row => row[PER_CAPITA.year] === year)[PER_CAPITA.energy_per_capita]
+          groupNameRaw.find((row) => row[PER_CAPITA.year] === year)
+            ? groupNameRaw.find((row) => row[PER_CAPITA.year] === year)[PER_CAPITA.energy_per_capita]
             : null
         );
         return {
           name: groupName,
           data: data as number[],
-          color: stringToColor(groupName)
+          color: stringToColor(groupName),
         };
-      })
+      }),
     };
-  }
+  },
 };
 export default gas;

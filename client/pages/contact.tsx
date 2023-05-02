@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from "react"
 export default function Contact() {
   return (
     <Fragment>
@@ -16,5 +16,5 @@ export default function Contact() {
         <input type="submit" value="Submit" />
       </form>
     </Fragment>
-  );
+  )
 }

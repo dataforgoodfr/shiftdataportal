@@ -1,27 +1,27 @@
 /* eslint-disable no-sparse-arrays */
-import chroma from "chroma-js";
-import React, { useState, useRef, Fragment } from "react";
-import makeAnimated from "react-select/animated";
-import stringToColor from "../utils/stringToColor";
-import { MultiSelect, NameColor } from "../types";
-import { Theme } from "../lib/styled";
-import popup from "../styles/popup";
-import { Title, PopupTitle } from "./RadioSelect";
-import Select from "react-select";
-import { layout, space } from "styled-system";
-import { InputSubtitle } from ".";
-import { useTheme } from "@emotion/react";
+import chroma from "chroma-js"
+import React, { useState, useRef, Fragment } from "react"
+import makeAnimated from "react-select/animated"
+import stringToColor from "../utils/stringToColor"
+import { MultiSelect, NameColor } from "../types"
+import { Theme } from "../lib/styled"
+import popup from "../styles/popup"
+import { Title, PopupTitle } from "./RadioSelect"
+import Select from "react-select"
+import { layout, space } from "styled-system"
+import { InputSubtitle } from "."
+import { useTheme } from "@emotion/react"
 import styled from "@emotion/styled"
 
 interface IProps {
-  isMulti: boolean;
-  zones: NameColor[];
-  groups: NameColor[];
-  countries: NameColor[];
-  value: string[];
-  setSelectedGroupNames: any;
-  multiSelect?: MultiSelect[];
-  isLoading?: boolean;
+  isMulti: boolean
+  zones: NameColor[]
+  groups: NameColor[]
+  countries: NameColor[]
+  value: string[]
+  setSelectedGroupNames: any
+  multiSelect?: MultiSelect[]
+  isLoading?: boolean
 }
 const GroupNamesSelect: React.FC<IProps> = ({
   zones,
@@ -31,11 +31,11 @@ const GroupNamesSelect: React.FC<IProps> = ({
   setSelectedGroupNames,
   isMulti,
   multiSelect = [],
-  isLoading = false
+  isLoading = false,
 }) => {
-  const [showPopup, setShowPopup] = useState(false);
-  const theme = useTheme();
-  const popupRef = useRef(null);
+  const [showPopup, setShowPopup] = useState(false)
+  const theme = useTheme()
+  const popupRef = useRef(null)
   /*useOutsideClick(popupRef, () => {
     if (showPopup) {
       setShowPopup(false);
@@ -68,10 +68,10 @@ const GroupNamesSelect: React.FC<IProps> = ({
               aria-label="group names"
               styles={colourStyles(theme)}
               placeholder="Countries, Zones and Groups"
-              value={value.map(selectedGroupName => ({
+              value={value.map((selectedGroupName) => ({
                 label: selectedGroupName,
                 value: selectedGroupName,
-                color: stringToColor(selectedGroupName)
+                color: stringToColor(selectedGroupName),
               }))}
               options={[
                 // Only show multi-select when isMulti is true (conditional spreading)
@@ -79,14 +79,14 @@ const GroupNamesSelect: React.FC<IProps> = ({
                   ? [
                       {
                         label: "Multi-select",
-                        options: multiSelect.map(multi => {
+                        options: multiSelect.map((multi) => {
                           return {
                             label: multi.name,
                             value: multi.data,
-                            group: "multiselect"
-                          };
-                        })
-                      }
+                            group: "multiselect",
+                          }
+                        }),
+                      },
                     ]
                   : []),
                 ,
@@ -96,8 +96,8 @@ const GroupNamesSelect: React.FC<IProps> = ({
                     label: name,
                     value: name,
                     group: "zones",
-                    color
-                  }))
+                    color,
+                  })),
                 },
                 {
                   label: "Groups",
@@ -105,8 +105,8 @@ const GroupNamesSelect: React.FC<IProps> = ({
                     label: name,
                     value: name,
                     group: "groups",
-                    color
-                  }))
+                    color,
+                  })),
                 },
                 {
                   label: "Countries",
@@ -114,39 +114,41 @@ const GroupNamesSelect: React.FC<IProps> = ({
                     label: name,
                     value: name,
                     group: "countries",
-                    color
-                  }))
-                }
+                    color,
+                  })),
+                },
               ]}
               onChange={(
                 result:
                   | { value: string } /* Case when not multi */
                   | { value: string }[] /* Case when classic is-multi */
                   | {
-                      value: NameColor[];
+                      value: NameColor[]
                     }[] /* Case when multi and with a multiselect value */
               ) => {
                 if (result) {
                   if (Array.isArray(result)) {
                     // Case when multi-select ({ value: string }[])
-                    const filteredMultiSelect = (result as {
-                      value: NameColor[];
-                    }[]).filter(item => {
-                      return Array.isArray(item.value);
-                    });
+                    const filteredMultiSelect = (
+                      result as {
+                        value: NameColor[]
+                      }[]
+                    ).filter((item) => {
+                      return Array.isArray(item.value)
+                    })
                     if (filteredMultiSelect.length === 0) {
                       /* Case when classic is-multi */
-                      setSelectedGroupNames((result as { value: string }[]).map(({ value }) => value));
+                      setSelectedGroupNames((result as { value: string }[]).map(({ value }) => value))
                     } else {
                       /* Case when multi and with a multiselect value */
-                      setSelectedGroupNames(filteredMultiSelect[0].value.map(groupName => groupName.name));
+                      setSelectedGroupNames(filteredMultiSelect[0].value.map((groupName) => groupName.name))
                     }
                   } else {
                     /* Case when not multi */
-                    setSelectedGroupNames([result.value]);
+                    setSelectedGroupNames([result.value])
                   }
                 } else {
-                  setSelectedGroupNames([]);
+                  setSelectedGroupNames([])
                 }
               }}
             />
@@ -159,22 +161,22 @@ const GroupNamesSelect: React.FC<IProps> = ({
         </Popup>
       )}
     </Container>
-  );
-};
+  )
+}
 
 const Container = styled.div`
   ${space};
   position: relative;
-`;
+`
 type PopupProps = {
-  show: boolean;
-};
+  show: boolean
+}
 const Popup = styled.div`
   ${layout};
   ${popup};
   padding: 0;
   display: ${(p: PopupProps) => (p.show ? "block" : "none")};
-`;
+`
 const PopupControls = styled.div`
   ${space};
   width: 100%;
@@ -190,18 +192,18 @@ const PopupControls = styled.div`
     height: 1px;
     width: 100%;
     transform: scaleX(1.2);
-    background-color: ${p => p.theme.colors.lightGrey};
+    background-color: ${(p) => p.theme.colors.lightGrey};
   }
-`;
+`
 const OkButton = styled.button`
   ${space};
   font: inherit;
   cursor: pointer;
   outline: inherit;
-  background: ${p => p.theme.colors.lightBlack};
+  background: ${(p) => p.theme.colors.lightBlack};
   color: white;
   text-align: center;
-  border: 1px solid ${p => p.theme.colors.grey};
+  border: 1px solid ${(p) => p.theme.colors.grey};
   border-radius: 8px;
   font-weight: 700;
   font-size: 1rem;
@@ -211,37 +213,37 @@ const OkButton = styled.button`
   align-items: center;
   justify-content: center;
   height: 2.5rem;
-`;
+`
 const colourStyles = (theme: Theme) => ({
-  menu: provided => ({ ...provided, position: "static", boxShadow: null }),
-  container: provided => ({ ...provided, width: "100%", fontFamily: theme.fonts.secondary }),
-  control: provided => ({ ...provided, margin: "8px" }),
-  menuList: provided => ({ ...provided, height: "25vh" }),
-  dropdownIndicator: provided => ({ ...provided, display: "none" }),
-  indicatorsContainer: provided => ({
+  menu: (provided) => ({ ...provided, position: "static", boxShadow: null }),
+  container: (provided) => ({ ...provided, width: "100%", fontFamily: theme.fonts.secondary }),
+  control: (provided) => ({ ...provided, margin: "8px" }),
+  menuList: (provided) => ({ ...provided, height: "25vh" }),
+  dropdownIndicator: (provided) => ({ ...provided, display: "none" }),
+  indicatorsContainer: (provided) => ({
     ...provided,
     backgroundColor: theme.colors.darkBlue,
-    svg: { path: { fill: "white" } }
+    svg: { path: { fill: "white" } },
   }),
-  indicatorSeparator: provided => ({ ...provided, display: "none" }),
+  indicatorSeparator: (provided) => ({ ...provided, display: "none" }),
   multiValue: (styles, { data }) => {
-    const color = chroma(data.color);
+    const color = chroma(data.color)
     return {
       ...styles,
-      backgroundColor: color.alpha(0.1).css()
-    };
+      backgroundColor: color.alpha(0.1).css(),
+    }
   },
   multiValueLabel: (styles, { data }) => ({
     ...styles,
-    color: data.color
+    color: data.color,
   }),
   multiValueRemove: (styles, { data }) => ({
     ...styles,
     color: data.color,
     ":hover": {
       backgroundColor: data.color,
-      color: "white"
-    }
-  })
-});
-export default GroupNamesSelect;
+      color: "white",
+    },
+  }),
+})
+export default GroupNamesSelect

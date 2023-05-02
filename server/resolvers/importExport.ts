@@ -73,40 +73,40 @@ const importExport: ImportExportResolvers = {
       resRawQuery,
       yearsQuery,
       topCountriesDataQuery,
-      perCapitaFlopCountriesDataQuery
+      perCapitaFlopCountriesDataQuery,
     ]);
     multiSelects.push({
       name: "Quickselect top countries (based on last year)",
-      data: topCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: topCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     multiSelects.push({
       name: "Quickselect flop countries (based on last year)",
-      data: perCapitaFlopCountriesData.map(groupName => ({ name: groupName, color: stringToColor(groupName) }))
+      data: perCapitaFlopCountriesData.map((groupName) => ({ name: groupName, color: stringToColor(groupName) })),
     });
     const series = [];
-    types.map(type => {
-      groupNames.map(groupName => {
-        const groupNameRaw = resRaw.filter(row => {
+    types.map((type) => {
+      groupNames.map((groupName) => {
+        const groupNameRaw = resRaw.filter((row) => {
           return row[TOTAL.group_name] === groupName && row[TOTAL.type] === type;
         });
-        const data = years.map(year =>
+        const data = years.map((year) =>
           // Fill missing year with null in the
-          groupNameRaw.find(row => row[TOTAL.year] === year)
-            ? groupNameRaw.find(row => row[TOTAL.year] === year).sum
+          groupNameRaw.find((row) => row[TOTAL.year] === year)
+            ? groupNameRaw.find((row) => row[TOTAL.year] === year).sum
             : null
         );
         series.push({
           name: groupName + " - " + type,
           data: data as number[],
           color: stringToColor(groupName),
-          dashStyle: type === "Net Imports" ? "LongDash" : type === "Imports" ? "Solid" : "LongDashDotDot"
+          dashStyle: type === "Net Imports" ? "LongDash" : type === "Imports" ? "Solid" : "LongDashDotDot",
         });
       });
     });
     return {
       multiSelects,
       categories: years,
-      series
+      series,
     };
   },
   async types(_, __, { dataSources: { db } }): Promise<ImportExport["types"]> {
@@ -116,7 +116,7 @@ const importExport: ImportExportResolvers = {
       .orderBy(TOTAL.type)
       .pluck(TOTAL.type)
       .cache(15 * 60);
-  }
+  },
 };
 
 export default importExport;
