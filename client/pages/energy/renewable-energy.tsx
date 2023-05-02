@@ -12,7 +12,6 @@ import {
   GroupNamesSelect,
   Nav,
   Main,
-  Share,
   RadioSelect,
   CTA,
   CategoryName,
@@ -33,9 +32,9 @@ import {
   RenewableEnergiesInputsQuery,
   RenewableEnergiesInputsQueryVariables,
 } from "../../types"
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
+import { ShareChart } from "../../components/Share"
 
 const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -135,12 +134,6 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
     setGraphTitle(`Renewable Energy ${selectedType}${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
   }, [selectedGroupNames, selectedType, selectedYearRange, selectedDimension, isRange])
 
-  function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV()
-  }
-  function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart()
-  }
   const onYearRangeChange = useOnYearRangeChange(dispatch)
   let inputs: any
 
@@ -321,11 +314,7 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
             }
           />
         </div>
-        <Share>
-          <DownloadScreenshotButton onClick={handleScreenshotDownloadClick} />
-          <ExportDataButton onClick={handleCsvDownloadClick} />
-          <IframeButton />
-        </Share>
+        <ShareChart chartRef={stackedChartRef}></ShareChart>
         {dataInputs?.renewableEnergies?.mdInfos && <GraphInfos>{dataInputs.renewableEnergies.mdInfos}</GraphInfos>}
         <SharingButtons title={graphTitle} />
         <CTA>

@@ -12,7 +12,6 @@ import {
   GroupNamesSelect,
   Nav,
   Main,
-  Share,
   TypesInput,
   DimensionsSelect,
   RadioSelect,
@@ -33,7 +32,7 @@ import {
   GhgByGasInputsQuery,
   GhgByGasInputsQueryVariables,
 } from "../../types"
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
+
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
 
@@ -144,12 +143,6 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
     setGraphTitle(`Greenhouse Gas${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
   }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange])
 
-  function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV()
-  }
-  function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart()
-  }
   const onYearRangeChange = useOnYearRangeChange(dispatch)
   let inputs: any
   if (errorInputs) {
@@ -335,11 +328,7 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
             }
           />
         </div>
-        <Share>
-          <DownloadScreenshotButton onClick={handleScreenshotDownloadClick} />
-          <ExportDataButton onClick={handleCsvDownloadClick} />
-          <IframeButton />
-        </Share>
+        <ShareChart chartRef={stackedChartRef}></ShareChart>
         {dataInputs?.gHGByGas?.mdInfos && <GraphInfos>{dataInputs.gHGByGas.mdInfos}</GraphInfos>}
         <SharingButtons title={graphTitle} />
         <CTA>

@@ -10,7 +10,6 @@ import {
   Footer,
   GroupNamesSelect,
   Main,
-  Share,
   Nav,
   CategoryName,
   MainChartTitle,
@@ -28,7 +27,7 @@ import {
   KayaInputsQuery,
   KayaInputsQueryVariables,
 } from "../../types"
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
+
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 
 const Kaya: NextPage<DefaultProps> = ({ params }) => {
@@ -97,12 +96,6 @@ const Kaya: NextPage<DefaultProps> = ({ params }) => {
     setGraphTitle(`KAYA Identity, ${displayedGroupNames} ${selectedYearRange.min}-${selectedYearRange.max}`)
   }, [selectedGroupNames, selectedYearRange])
 
-  function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV()
-  }
-  function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart()
-  }
   const onYearRangeChange = useOnYearRangeChange(dispatch)
   let inputs: any
 
@@ -189,11 +182,7 @@ const Kaya: NextPage<DefaultProps> = ({ params }) => {
             }
           />
         </div>
-        <Share>
-          <DownloadScreenshotButton onClick={handleScreenshotDownloadClick} />
-          <ExportDataButton onClick={handleCsvDownloadClick} />
-          <IframeButton />
-        </Share>
+        <ShareChart chartRef={stackedChartRef}></ShareChart>
         {dataInputs?.kaya?.mdInfos && <GraphInfos>{dataInputs.kaya.mdInfos}</GraphInfos>}
         <SharingButtons title={graphTitle} />
         <CTA>

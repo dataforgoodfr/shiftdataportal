@@ -12,7 +12,6 @@ import {
   GroupNamesSelect,
   Nav,
   Main,
-  Share,
   TypesInput,
   DimensionsSelect,
   RadioSelect,
@@ -37,6 +36,7 @@ import {
 import { DownloadScreenshotButton, IframeButton } from "../../components/LightButton"
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
+import { ShareChart } from "../../components/Share"
 
 const Electricity: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -156,9 +156,7 @@ const Electricity: NextPage<DefaultProps> = ({ params }) => {
     const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
     setGraphTitle(`Electricity ${selectedType}${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
   }, [selectedGroupNames, selectedType, selectedYearRange, selectedDimension, isRange])
-  function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart()
-  }
+
   const onYearRangeChange = useOnYearRangeChange(dispatch)
   let inputs: any
 
@@ -365,10 +363,7 @@ const Electricity: NextPage<DefaultProps> = ({ params }) => {
             title={graphTitle}
           />
         </div>
-        <Share>
-          <DownloadScreenshotButton onClick={handleScreenshotDownloadClick} />
-          <IframeButton />
-        </Share>
+        <ShareChart chartRef={stackedChartRef}></ShareChart>
         {dataInputs?.electricity?.mdInfos && <GraphInfos>{dataInputs.electricity.mdInfos}</GraphInfos>}
         <SharingButtons title={graphTitle} />
         <CTA>

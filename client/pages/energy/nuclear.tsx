@@ -12,7 +12,6 @@ import {
   GroupNamesSelect,
   Nav,
   Main,
-  Share,
   RadioSelect,
   CTA,
   CategoryName,
@@ -32,9 +31,10 @@ import {
   NuclearInputsQuery,
   NuclearInputsQueryVariables,
 } from "../../types"
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
+
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
+import { ShareChart } from "../../components/Share"
 
 const Nuclear: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -55,11 +55,10 @@ const Nuclear: NextPage<DefaultProps> = ({ params }) => {
     dispatch,
   ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const {
-    loading: loadingInputs,
-    data: dataInputs,
-    error: errorInputs,
-  } = useQuery<NuclearInputsQuery, NuclearInputsQueryVariables>(INPUTS)
+  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
+    NuclearInputsQuery,
+    NuclearInputsQueryVariables
+  >(INPUTS)
   // Manage specific state with URL params
   const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}))
 
@@ -116,12 +115,7 @@ const Nuclear: NextPage<DefaultProps> = ({ params }) => {
     const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
     setGraphTitle(`Nuclear ${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
   }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange])
-  function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV()
-  }
-  function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart()
-  }
+
   const onYearRangeChange = useOnYearRangeChange(dispatch)
   let inputs: any
 
@@ -232,9 +226,9 @@ const Nuclear: NextPage<DefaultProps> = ({ params }) => {
         title={graphTitle}
         highchartsSeriesAndCategories={
           dimensionData?.nuclear && dimensionData.nuclear[selectedDimension]
-            ? (dimensionData.nuclear[
+            ? ((dimensionData.nuclear[
                 selectedDimension
-              ] as unknown as StackedChartProps["highchartsSeriesAndCategories"])
+              ] as unknown) as StackedChartProps["highchartsSeriesAndCategories"])
             : { series: [], categories: [] }
         }
       />
@@ -262,18 +256,14 @@ const Nuclear: NextPage<DefaultProps> = ({ params }) => {
             title={graphTitle}
             highchartsSeriesAndCategories={
               dimensionData?.nuclear && dimensionData.nuclear[selectedDimension]
-                ? (dimensionData.nuclear[
+                ? ((dimensionData.nuclear[
                     selectedDimension
-                  ] as unknown as StackedChartProps["highchartsSeriesAndCategories"])
+                  ] as unknown) as StackedChartProps["highchartsSeriesAndCategories"])
                 : { series: [], categories: [] }
             }
           />
         </div>
-        <Share>
-          <DownloadScreenshotButton onClick={handleScreenshotDownloadClick} />
-          <ExportDataButton onClick={handleCsvDownloadClick} />
-          <IframeButton />
-        </Share>
+        <ShareChart chartRef={stackedChartRef}></ShareChart>
         {dataInputs?.nuclear?.mdInfos && <GraphInfos>{dataInputs.nuclear.mdInfos}</GraphInfos>}
         <SharingButtons title={graphTitle} />
         <CTA>
@@ -285,7 +275,7 @@ const Nuclear: NextPage<DefaultProps> = ({ params }) => {
     </Fragment>
   )
 }
-Nuclear.getInitialProps = async function ({ query }) {
+Nuclear.getInitialProps = async function({ query }) {
   // Get all the parameters from the URL or set default state
   return {
     params: {

@@ -12,7 +12,6 @@ import {
   GroupNamesSelect,
   Nav,
   Main,
-  Share,
   TypesInput,
   RadioSelect,
   CTA,
@@ -33,9 +32,10 @@ import {
   GasInputsQuery,
   GasInputsQueryVariables,
 } from "../../types"
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
+
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
+import { ShareChart } from "../../components/Share"
 
 const Gas: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -61,11 +61,10 @@ const Gas: NextPage<DefaultProps> = ({ params }) => {
   ] = useReducer(reducer, { ...params })
   debugger
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const {
-    loading: loadingInputs,
-    data: dataInputs,
-    error: errorInputs,
-  } = useQuery<GasInputsQuery, GasInputsQueryVariables>(INPUTS, {
+  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
+    GasInputsQuery,
+    GasInputsQueryVariables
+  >(INPUTS, {
     variables: {
       countriesOnly: selectedDimension === "importExport",
     },
@@ -135,7 +134,7 @@ const Gas: NextPage<DefaultProps> = ({ params }) => {
   useEffect(() => {
     if (dimensionData?.gas && dimensionData.gas[selectedDimension]) {
       setHighchartsSeriesAndCategories(
-        dimensionData.gas[selectedDimension] as unknown as StackedChartProps["highchartsSeriesAndCategories"]
+        (dimensionData.gas[selectedDimension] as unknown) as StackedChartProps["highchartsSeriesAndCategories"]
       )
     } else if (dimensionData?.importExport?.total) {
       setHighchartsSeriesAndCategories(dimensionData.importExport.total)
@@ -152,12 +151,6 @@ const Gas: NextPage<DefaultProps> = ({ params }) => {
     setGraphTitle(`Gas ${selectedType}${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
   }, [selectedGroupNames, selectedType, selectedYearRange, selectedDimension, isRange])
 
-  function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV()
-  }
-  function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart()
-  }
   const onYearRangeChange = useOnYearRangeChange(dispatch)
   let inputs: any
 
@@ -350,11 +343,7 @@ const Gas: NextPage<DefaultProps> = ({ params }) => {
             title={graphTitle}
           />
         </div>
-        <Share>
-          <DownloadScreenshotButton onClick={handleScreenshotDownloadClick} />
-          <ExportDataButton onClick={handleCsvDownloadClick} />
-          <IframeButton />
-        </Share>
+        <ShareChart chartRef={stackedChartRef}></ShareChart>
         {dataInputs?.gas?.mdInfos && <GraphInfos>{dataInputs.gas.mdInfos}</GraphInfos>}
         <SharingButtons title={graphTitle} />
         <CTA>
@@ -366,7 +355,7 @@ const Gas: NextPage<DefaultProps> = ({ params }) => {
     </Fragment>
   )
 }
-Gas.getInitialProps = async function ({ query }) {
+Gas.getInitialProps = async function({ query }) {
   // Get all the parameters from the URL or set default state
   return {
     params: {

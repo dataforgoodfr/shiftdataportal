@@ -12,7 +12,6 @@ import {
   Footer,
   GroupNamesSelect,
   Main,
-  Share,
   DimensionsSelect,
   Nav,
   RadioSelect,
@@ -34,9 +33,9 @@ import {
   FootprintInputsQuery,
   FootprintInputsQueryVariables,
 } from "../../types"
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
+import { ShareChart } from "../../components/Share"
 
 const Footprint: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -128,12 +127,7 @@ const Footprint: NextPage<DefaultProps> = ({ params }) => {
     const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
     setGraphTitle(`CO2 Footprint${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
   }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange])
-  function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV()
-  }
-  function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart()
-  }
+
   const onYearRangeChange = useOnYearRangeChange(dispatch)
   let inputs: any
 
@@ -307,11 +301,7 @@ const Footprint: NextPage<DefaultProps> = ({ params }) => {
             }
           />
         </div>
-        <Share>
-          <DownloadScreenshotButton onClick={handleScreenshotDownloadClick} />
-          <ExportDataButton onClick={handleCsvDownloadClick} />
-          <IframeButton />
-        </Share>
+        <ShareChart chartRef={stackedChartRef}></ShareChart>
         {dataInputs?.footprint?.mdInfos && <GraphInfos>{dataInputs.footprint.mdInfos}</GraphInfos>}
         <SharingButtons title={graphTitle} />
         <CTA>

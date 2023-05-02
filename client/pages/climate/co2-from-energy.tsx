@@ -11,7 +11,6 @@ import {
   Footer,
   GroupNamesSelect,
   Main,
-  Share,
   TypesInput,
   DimensionsSelect,
   Nav,
@@ -33,9 +32,10 @@ import {
   Co2FromEnergyInputsQuery,
   Co2FromEnergyInputsQueryVariables,
 } from "../../types"
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
+
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
+import { ShareChart } from "../../components/Share"
 
 const Co2FromEnergy: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -59,11 +59,10 @@ const Co2FromEnergy: NextPage<DefaultProps> = ({ params }) => {
     dispatch,
   ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const {
-    loading: loadingInputs,
-    data: dataInputs,
-    error: errorInputs,
-  } = useQuery<Co2FromEnergyInputsQuery, Co2FromEnergyInputsQueryVariables>(INPUTS, {
+  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
+    Co2FromEnergyInputsQuery,
+    Co2FromEnergyInputsQueryVariables
+  >(INPUTS, {
     variables: {
       dimension: selectedDimension,
     },
@@ -135,12 +134,7 @@ const Co2FromEnergy: NextPage<DefaultProps> = ({ params }) => {
     const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
     setGraphTitle(`CO2 Emissions from Fossil Fuels${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
   }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange])
-  function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV()
-  }
-  function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart()
-  }
+
   const onYearRangeChange = useOnYearRangeChange(dispatch)
   let inputs: any
 
@@ -319,11 +313,7 @@ const Co2FromEnergy: NextPage<DefaultProps> = ({ params }) => {
             }
           />
         </div>
-        <Share>
-          <DownloadScreenshotButton onClick={handleScreenshotDownloadClick} />
-          <ExportDataButton onClick={handleCsvDownloadClick} />
-          <IframeButton />
-        </Share>
+        <ShareChart chartRef={stackedChartRef}></ShareChart>
         {dataInputs?.cO2FromEnergy?.mdInfos && <GraphInfos>{dataInputs.cO2FromEnergy.mdInfos}</GraphInfos>}
         <SharingButtons title={graphTitle} />
         <CTA>
@@ -335,7 +325,7 @@ const Co2FromEnergy: NextPage<DefaultProps> = ({ params }) => {
     </Fragment>
   )
 }
-Co2FromEnergy.getInitialProps = async function ({ query }) {
+Co2FromEnergy.getInitialProps = async function({ query }) {
   // Get all the parameters from the URL or set default state
   return {
     params: {

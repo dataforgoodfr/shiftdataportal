@@ -12,7 +12,6 @@ import {
   GroupNamesSelect,
   Nav,
   Main,
-  Share,
   RadioSelect,
   CTA,
   MainChartTitle,
@@ -32,9 +31,10 @@ import {
   EnergyIntensityGdpInputsQuery,
   EnergyIntensityGdpInputsQueryVariables,
 } from "../../types"
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
+
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
+import { ShareChart } from "../../components/Share"
 
 const EnergyIntensityGDP: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -58,11 +58,10 @@ const EnergyIntensityGDP: NextPage<DefaultProps> = ({ params }) => {
     dispatch,
   ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const {
-    loading: loadingInputs,
-    data: dataInputs,
-    error: errorInputs,
-  } = useQuery<EnergyIntensityGdpInputsQuery, EnergyIntensityGdpInputsQueryVariables>(INPUTS, {
+  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
+    EnergyIntensityGdpInputsQuery,
+    EnergyIntensityGdpInputsQueryVariables
+  >(INPUTS, {
     variables: {
       dimension: selectedDimension,
     },
@@ -133,12 +132,6 @@ const EnergyIntensityGDP: NextPage<DefaultProps> = ({ params }) => {
     )
   }, [selectedGroupNames, selectedEnergyType, selectedYearRange, selectedDimension, isRange])
 
-  function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV()
-  }
-  function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart()
-  }
   const onYearRangeChange = useOnYearRangeChange(dispatch)
   let inputs: any
 
@@ -287,11 +280,7 @@ const EnergyIntensityGDP: NextPage<DefaultProps> = ({ params }) => {
             }
           />
         </div>
-        <Share>
-          <DownloadScreenshotButton onClick={handleScreenshotDownloadClick} />
-          <ExportDataButton onClick={handleCsvDownloadClick} />
-          <IframeButton />
-        </Share>
+        <ShareChart chartRef={stackedChartRef}></ShareChart>
         {dataInputs?.energyIntensityGDP?.mdInfos && <GraphInfos>{dataInputs.energyIntensityGDP.mdInfos}</GraphInfos>}
         <SharingButtons title={graphTitle} />
         <CTA>
@@ -303,7 +292,7 @@ const EnergyIntensityGDP: NextPage<DefaultProps> = ({ params }) => {
     </Fragment>
   )
 }
-EnergyIntensityGDP.getInitialProps = async function ({ query }) {
+EnergyIntensityGDP.getInitialProps = async function({ query }) {
   // Get all the parameters from the URL or set default state
   return {
     params: {

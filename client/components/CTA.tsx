@@ -78,7 +78,7 @@ const SectionTitle = styled.h2`
   ${typography};
   ${space};
   font-weight: 700;
-  color: #484848;
+  color: {p.theme.colors.darkBlue};
   letter-spacing: 1.14px;
   line-height: 52px;
 `

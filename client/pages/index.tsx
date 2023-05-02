@@ -439,15 +439,13 @@ const benefits: {
     icon: "MagnifyingGlass",
     color: "orange",
     title: "Discover",
-    body:
-      "Discover a wide range of energy and climate statistics.  Multidimensional data gathered from multiple referenced sources to cover the largest geographical and historical span available.",
+    body: "Discover a wide range of energy and climate statistics.  Multidimensional data gathered from multiple referenced sources to cover the largest geographical and historical span available.",
   },
   {
     icon: "Gear",
     color: "blue",
     title: "Customize chart",
-    body:
-      "Compare countries, continents, organizations. Change chart types, energy sources, units or other indicators. Create customized graphics to illustrate or verify an argument.",
+    body: "Compare countries, continents, organizations. Change chart types, energy sources, units or other indicators. Create customized graphics to illustrate or verify an argument.",
   },
   {
     icon: "Table",
@@ -459,7 +457,6 @@ const benefits: {
     icon: "Share",
     color: "darkBlue",
     title: "Share",
-    body:
-      "Share customized graphics as dynamic graphs and image files– those can in turn be embedded in other websites, blogs and be shared through social media.",
+    body: "Share customized graphics as dynamic graphs and image files– those can in turn be embedded in other websites, blogs and be shared through social media.",
   },
 ]

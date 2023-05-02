@@ -13,7 +13,6 @@ import {
   GroupNamesSelect,
   Nav,
   Main,
-  Share,
   TypesInput,
   DimensionsSelect,
   RadioSelect,
@@ -35,12 +34,13 @@ import {
   PrimaryEnergyInputsQuery,
   PrimaryEnergyInputsQueryVariables,
 } from "../../types"
-import { IframeButton, DownloadScreenshotButton, ExportDataButton } from "../../components/LightButton"
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
+import { ShareChart } from "../../components/Share"
 
 const PrimaryEnergy: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
+
   // Reducer state
   const [
     {
@@ -155,12 +155,6 @@ const PrimaryEnergy: NextPage<DefaultProps> = ({ params }) => {
     setGraphTitle(`Primary Energy ${selectedType}${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
   }, [selectedGroupNames, selectedType, selectedYearRange, selectedDimension, isRange])
 
-  function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV()
-  }
-  function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart()
-  }
   const onYearRangeChange = useOnYearRangeChange(dispatch)
 
   let inputs: any
@@ -348,11 +342,7 @@ const PrimaryEnergy: NextPage<DefaultProps> = ({ params }) => {
           />
           {stackedChartRef?.current?.reflow()}
         </div>
-        <Share>
-          <DownloadScreenshotButton onClick={handleScreenshotDownloadClick} />
-          <ExportDataButton onClick={handleCsvDownloadClick} />
-          <IframeButton />
-        </Share>
+        <ShareChart chartRef={stackedChartRef}></ShareChart>
         {dataInputs?.primaryEnergies?.mdInfos && <GraphInfos>{dataInputs.primaryEnergies.mdInfos}</GraphInfos>}
         <SharingButtons title={graphTitle} />
         <CTA>

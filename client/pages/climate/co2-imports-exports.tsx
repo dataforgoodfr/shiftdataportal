@@ -9,7 +9,6 @@ import {
   GroupNamesSelect,
   Nav,
   Main,
-  Share,
   DimensionsSelect,
   RadioSelect,
   CategoryName,
@@ -30,12 +29,13 @@ import {
   Co2ImportsExportsInputsQuery,
   Co2ImportsExportsInputsQueryVariables,
 } from "../../types"
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
+
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
 import { Options } from "highcharts"
 import chroma from "chroma-js"
 import { useTheme } from "@emotion/react"
+import { ShareChart } from "../../components/Share"
 
 const Co2ImportsExports: NextPage<DefaultProps> = ({ params }) => {
   const theme = useTheme()
@@ -46,10 +46,11 @@ const Co2ImportsExports: NextPage<DefaultProps> = ({ params }) => {
     dispatch,
   ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
-    Co2ImportsExportsInputsQuery,
-    Co2ImportsExportsInputsQueryVariables
-  >(INPUTS, {
+  const {
+    loading: loadingInputs,
+    data: dataInputs,
+    error: errorInputs,
+  } = useQuery<Co2ImportsExportsInputsQuery, Co2ImportsExportsInputsQueryVariables>(INPUTS, {
     variables: { dimension: selectedDimension },
   })
 
@@ -153,7 +154,7 @@ const Co2ImportsExports: NextPage<DefaultProps> = ({ params }) => {
               enabled: true,
               inside: true,
               align: "center",
-              formatter: function() {
+              formatter: function () {
                 return this.point.name.length > 18 ? `${this.point.name.slice(0, 16)}...` : this.point.name
               },
               style: { textOutline: "none", color: "black", fontSize: theme.fontSizes[1], textAlign: "right" },
@@ -235,12 +236,7 @@ const Co2ImportsExports: NextPage<DefaultProps> = ({ params }) => {
         break
     }
   }, [dimensionData, graphTitle, selectedCo2eqUnit, selectedDimension, theme.fontSizes])
-  function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV()
-  }
-  function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart()
-  }
+
   const onYearRangeChange = useOnYearRangeChange(dispatch)
   let inputs: any
   if (errorInputs) {
@@ -362,11 +358,7 @@ const Co2ImportsExports: NextPage<DefaultProps> = ({ params }) => {
             highchartsSeriesAndCategories={{ series: [], categories: [] }}
           />
         </div>
-        <Share>
-          <DownloadScreenshotButton onClick={handleScreenshotDownloadClick} />
-          <ExportDataButton onClick={handleCsvDownloadClick} />
-          <IframeButton />
-        </Share>
+        <ShareChart chartRef={stackedChartRef}></ShareChart>
         {dataInputs?.co2ImportsExports?.mdInfos && <GraphInfos>{dataInputs.co2ImportsExports.mdInfos}</GraphInfos>}
         <SharingButtons title={graphTitle} />
         <CTA>
@@ -378,7 +370,7 @@ const Co2ImportsExports: NextPage<DefaultProps> = ({ params }) => {
     </Fragment>
   )
 }
-Co2ImportsExports.getInitialProps = async function({ query }) {
+Co2ImportsExports.getInitialProps = async function ({ query }) {
   // Get all the parameters from the URL or set default state
   return {
     params: {

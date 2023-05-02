@@ -12,7 +12,6 @@ import {
   GroupNamesSelect,
   Nav,
   Main,
-  Share,
   TypesInput,
   DimensionsSelect,
   RadioSelect,
@@ -34,9 +33,10 @@ import {
   OilInputsQuery,
   OilInputsQueryVariables,
 } from "../../types"
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
+
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
+import { ShareChart } from "../../components/Share"
 
 const Oil: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -70,11 +70,10 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
     dispatch,
   ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const {
-    loading: loadingInputs,
-    data: dataInputs,
-    error: errorInputs,
-  } = useQuery<OilInputsQuery, OilInputsQueryVariables>(INPUTS, {
+  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
+    OilInputsQuery,
+    OilInputsQueryVariables
+  >(INPUTS, {
     variables: {
       countriesOnly: selectedDimension === "importExport",
     },
@@ -191,12 +190,6 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
     setGraphTitle(`Oil ${selectedType}${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
   }, [selectedGroupNames, selectedType, selectedYearRange, selectedDimension, isRange])
 
-  function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV()
-  }
-  function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart()
-  }
   const onYearRangeChange = useOnYearRangeChange(dispatch)
   let inputs: any
 
@@ -513,11 +506,7 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
             title={graphTitle}
           />
         </div>
-        <Share>
-          <DownloadScreenshotButton onClick={handleScreenshotDownloadClick} />
-          <ExportDataButton onClick={handleCsvDownloadClick} />
-          <IframeButton />
-        </Share>
+        <ShareChart chartRef={stackedChartRef}></ShareChart>
         {dataInputs?.oil?.mdInfos && <GraphInfos>{dataInputs.oil.mdInfos}</GraphInfos>}
         <SharingButtons title={graphTitle} />
         <CTA>
@@ -529,7 +518,7 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
     </Fragment>
   )
 }
-Oil.getInitialProps = async function ({ query }) {
+Oil.getInitialProps = async function({ query }) {
   // Get all the parameters from the URL or set default state
   return {
     params: {

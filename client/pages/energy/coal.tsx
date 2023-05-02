@@ -12,7 +12,6 @@ import {
   GroupNamesSelect,
   Nav,
   Main,
-  Share,
   RadioSelect,
   CTA,
   CategoryName,
@@ -33,9 +32,10 @@ import {
   CoalInputsQuery,
   CoalInputsQueryVariables,
 } from "../../types"
-import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "../../components/LightButton"
+
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
+import { ShareChart } from "../../components/Share"
 
 const Coal: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -59,11 +59,10 @@ const Coal: NextPage<DefaultProps> = ({ params }) => {
     dispatch,
   ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const {
-    loading: loadingInputs,
-    data: dataInputs,
-    error: errorInputs,
-  } = useQuery<CoalInputsQuery, CoalInputsQueryVariables>(INPUTS, {
+  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
+    CoalInputsQuery,
+    CoalInputsQueryVariables
+  >(INPUTS, {
     variables: {
       countriesOnly: selectedDimension === "importExport",
     },
@@ -129,7 +128,7 @@ const Coal: NextPage<DefaultProps> = ({ params }) => {
   useEffect(() => {
     if (dimensionData?.coal && dimensionData.coal[selectedDimension]) {
       setHighchartsSeriesAndCategories(
-        dimensionData.coal[selectedDimension] as unknown as StackedChartProps["highchartsSeriesAndCategories"]
+        (dimensionData.coal[selectedDimension] as unknown) as StackedChartProps["highchartsSeriesAndCategories"]
       )
     } else if (dimensionData?.importExport?.total) {
       setHighchartsSeriesAndCategories(dimensionData.importExport.total)
@@ -145,12 +144,6 @@ const Coal: NextPage<DefaultProps> = ({ params }) => {
     setGraphTitle(`Coal ${selectedType}${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
   }, [selectedGroupNames, selectedType, selectedYearRange, selectedDimension, isRange])
 
-  function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV()
-  }
-  function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart()
-  }
   const onYearRangeChange = useOnYearRangeChange(dispatch)
   let inputs: any
 
@@ -328,11 +321,7 @@ const Coal: NextPage<DefaultProps> = ({ params }) => {
             title={graphTitle}
           />
         </div>
-        <Share>
-          <DownloadScreenshotButton onClick={handleScreenshotDownloadClick} />
-          <ExportDataButton onClick={handleCsvDownloadClick} />
-          <IframeButton />
-        </Share>
+        <ShareChart chartRef={stackedChartRef}></ShareChart>
         {dataInputs?.coal?.mdInfos && <GraphInfos>{dataInputs.coal.mdInfos}</GraphInfos>}
         <SharingButtons title={graphTitle} />
         <CTA>
@@ -344,7 +333,7 @@ const Coal: NextPage<DefaultProps> = ({ params }) => {
     </Fragment>
   )
 }
-Coal.getInitialProps = async function ({ query }) {
+Coal.getInitialProps = async function({ query }) {
   // Get all the parameters from the URL or set default state
   return {
     params: {

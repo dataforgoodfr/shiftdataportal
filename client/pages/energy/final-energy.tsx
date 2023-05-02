@@ -12,7 +12,6 @@ import {
   GroupNamesSelect,
   Nav,
   Main,
-  Share,
   TypesInput,
   DimensionsSelect,
   MainChartTitle,
@@ -37,6 +36,7 @@ import {
 import { DownloadScreenshotButton, IframeButton, ExportDataButton } from "../../components/LightButton"
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
+import { ShareChart } from "../../components/Share"
 
 //
 
@@ -63,11 +63,10 @@ const FinalEnergy: NextPage<DefaultProps> = ({ params }) => {
     dispatch,
   ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const {
-    loading: loadingInputs,
-    data: dataInputs,
-    error: errorInputs,
-  } = useQuery<FinalEnergyInputsQuery, FinalEnergyInputsQueryVariables>(INPUTS, {
+  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
+    FinalEnergyInputsQuery,
+    FinalEnergyInputsQueryVariables
+  >(INPUTS, {
     variables: {
       dimension: selectedDimension,
     },
@@ -161,12 +160,6 @@ const FinalEnergy: NextPage<DefaultProps> = ({ params }) => {
     setGraphTitle(`Final Energy ${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
   }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange])
 
-  function handleScreenshotDownloadClick() {
-    stackedChartRef.current.exportChart()
-  }
-  function handleCsvDownloadClick() {
-    stackedChartRef.current.downloadCSV()
-  }
   const onYearRangeChange = useOnYearRangeChange(dispatch)
   let inputs: any
 
@@ -350,11 +343,7 @@ const FinalEnergy: NextPage<DefaultProps> = ({ params }) => {
             title={graphTitle}
           />
         </div>
-        <Share>
-          <DownloadScreenshotButton onClick={handleScreenshotDownloadClick} />
-          <ExportDataButton onClick={handleCsvDownloadClick} />
-          <IframeButton />
-        </Share>
+        <ShareChart chartRef={stackedChartRef}></ShareChart>
         <SharingButtons title={graphTitle} />
         {dataInputs?.finalEnergies?.mdInfos && <GraphInfos>{dataInputs.finalEnergies.mdInfos}</GraphInfos>}
         <CTA>
@@ -366,7 +355,7 @@ const FinalEnergy: NextPage<DefaultProps> = ({ params }) => {
     </Fragment>
   )
 }
-FinalEnergy.getInitialProps = async function ({ query }) {
+FinalEnergy.getInitialProps = async function({ query }) {
   // Get all the parameters from the URL or set default state
   return {
     params: {

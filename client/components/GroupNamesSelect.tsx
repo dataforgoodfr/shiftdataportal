@@ -18,7 +18,7 @@ interface IProps {
   zones: NameColor[]
   groups: NameColor[]
   countries: NameColor[]
-  value: string[]
+  value: string[] | string
   setSelectedGroupNames: any
   multiSelect?: MultiSelect[]
   isLoading?: boolean
@@ -129,9 +129,11 @@ const GroupNamesSelect: React.FC<IProps> = ({
                 if (result) {
                   if (Array.isArray(result)) {
                     // Case when multi-select ({ value: string }[])
-                    const filteredMultiSelect = (result as {
-                      value: NameColor[]
-                    }[]).filter((item) => {
+                    const filteredMultiSelect = (
+                      result as {
+                        value: NameColor[]
+                      }[]
+                    ).filter((item) => {
                       return Array.isArray(item.value)
                     })
                     if (filteredMultiSelect.length === 0) {

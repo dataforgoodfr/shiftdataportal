@@ -1,8 +1,26 @@
-import React from "react"
 import styled from "@emotion/styled"
 import { color, fontSize } from "styled-system"
+import React from "react"
+import { DownloadScreenshotButton, ExportDataButton, IframeButton } from "./LightButton"
 
-const Container = styled.div`
+export const ShareChart = ({ chartRef }) => {
+  function handleCsvDownloadClick() {
+    chartRef.current.downloadCSV()
+  }
+  function handleScreenshotDownloadClick() {
+    chartRef.current.exportChart()
+  }
+
+  return (
+    <ShareContainer>
+      <DownloadScreenshotButton onClick={handleScreenshotDownloadClick} />
+      <ExportDataButton onClick={handleCsvDownloadClick} />
+      <IframeButton />
+    </ShareContainer>
+  )
+}
+
+export const ShareContainer = styled.div`
   display: flex;
   flex-flow: row wrap;
   margin: auto;
@@ -16,10 +34,3 @@ const Container = styled.div`
   ${color}
   ${fontSize}
 `
-const Share: React.FC = ({ children }) => (
-  <Container fontSize={[4]} color="darkBlue">
-    {children}
-  </Container>
-)
-
-export default Share
