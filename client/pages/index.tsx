@@ -170,7 +170,7 @@ export default function Index() {
         </p>
         <a href="https://theshiftproject.org" target="_blank" rel="noopener noreferrer">
           Go to The Shift Project’s website
-          <ExternalLink color={theme.colors.lightBlack} />
+          <ExternalLink color={theme.colors.darkBlue} />
         </a>
       </Purpose>
       <Footer mt={0} />
@@ -201,7 +201,7 @@ const Purpose = styled.section`
   h2 {
     font-weight: bold;
     font-size: ${(p) => p.theme.fontSizes[9]};
-    color: ${(p) => p.theme.colors.lightBlack};
+    color: ${(p) => p.theme.colors.darkBlue};
     letter-spacing: 0.89px;
     line-height: 52px;
     text-align: center;
@@ -211,15 +211,15 @@ const Purpose = styled.section`
     max-width: 32rem;
     margin: auto;
     font-family: ${(p) => p.theme.fonts.primary};
-    color: ${(p) => p.theme.colors.grey};
+    color: ${(p) => p.theme.colors.darkBlue};
     letter-spacing: 0.4px;
     line-height: 25.6px;
   }
 
   & > a {
     font-weight: 700;
-    color: ${(p) => p.theme.colors.lightBlack};
-    border: 2px solid ${(p) => p.theme.colors.lightBlack};
+    color: ${(p) => p.theme.colors.darkBlue};
+    border: 2px solid ${(p) => p.theme.colors.darkBlue};
     border-radius: 5px;
     padding: 5px 10px;
     margin: auto;
@@ -243,7 +243,7 @@ const H1 = styled.h1`
   ${space};
   font-family: ${(p) => p.theme.fonts.primary};
   font-weight: 700;
-  color: ${(p) => p.theme.colors.lightBlack};
+  color: ${(p) => p.theme.colors.darkBlue};
 `
 
 const H1Link = styled(Link)`
@@ -254,7 +254,7 @@ const Subtitle = styled.blockquote`
   ${typography};
   margin-top: 1rem;
   max-width: 50rem;
-  color: ${(p) => p.theme.colors.lightBlack};
+  color: ${(p) => p.theme.colors.darkBlue};
   letter-spacing: 0.76px;
   line-height: 28px;
   & > b {
@@ -313,7 +313,7 @@ const DatasetCategory: React.FunctionComponent<IDatasetCategory> = ({ children, 
         style={{
           fontWeight: 700,
           fontSize: theme.fontSizes[7],
-          color: theme.colors.grey,
+          color: theme.colors.darkBlue,
           marginTop: 0,
           marginLeft: ".5rem",
         }}
@@ -333,35 +333,35 @@ const DatasetLink: React.FunctionComponent<IDatasetLink> = ({ id, children, icon
   let Icon
   switch (icon) {
     case "EnergyProduction":
-      Icon = Icons.EnergyProduction({ color: theme.colors.grey })
+      Icon = Icons.EnergyProduction({ color: theme.colors.darkBlue })
       break
     case "EnergyConsumption":
-      Icon = Icons.EnergyConsumption({ color: theme.colors.grey })
+      Icon = Icons.EnergyConsumption({ color: theme.colors.darkBlue })
       break
     case "Energy":
-      Icon = Icons.Energy({ color: theme.colors.grey })
+      Icon = Icons.Energy({ color: theme.colors.darkBlue })
       break
     case "Electricity":
-      Icon = Icons.Electricity({ color: theme.colors.grey })
+      Icon = Icons.Electricity({ color: theme.colors.darkBlue })
       break
     case "FossilFuels":
-      Icon = Icons.FossilFuels({ color: theme.colors.grey })
+      Icon = Icons.FossilFuels({ color: theme.colors.darkBlue })
       break
     case "Gas":
-      Icon = Icons.Gas({ color: theme.colors.grey })
+      Icon = Icons.Gas({ color: theme.colors.darkBlue })
       break
     case "CO2":
-      Icon = Icons.CO2({ color: theme.colors.grey })
+      Icon = Icons.CO2({ color: theme.colors.darkBlue })
       break
     case "Footprint":
-      Icon = Icons.Footprint({ color: theme.colors.grey })
+      Icon = Icons.Footprint({ color: theme.colors.darkBlue })
       break
     case "Fire":
-      Icon = Icons.Fire({ color: theme.colors.grey })
+      Icon = Icons.Fire({ color: theme.colors.darkBlue })
       break
     default:
       console.warn(`Dimension Icon : ${icon} not found, fallbacking to the line chart icon`)
-      Icon = Icons.EnergyProduction({ color: theme.colors.lightBlack })
+      Icon = Icons.EnergyProduction({ color: theme.colors.darkBlue })
   }
   return (
     <DatasetLinkContainer mt={3}>
@@ -375,7 +375,7 @@ const DatasetLink: React.FunctionComponent<IDatasetLink> = ({ id, children, icon
 const DatasetLinkContainer = styled.li`
   ${space};
   font-weight: 500;
-  color: ${(p) => p.theme.colors.grey};
+  color: ${(p) => p.theme.colors.darkBlue};
   position: relative;
   &:last-child {
     margin-bottom: 2rem;
@@ -439,13 +439,15 @@ const benefits: {
     icon: "MagnifyingGlass",
     color: "orange",
     title: "Discover",
-    body: "Discover a wide range of energy and climate statistics.  Multidimensional data gathered from multiple referenced sources to cover the largest geographical and historical span available.",
+    body:
+      "Discover a wide range of energy and climate statistics.  Multidimensional data gathered from multiple referenced sources to cover the largest geographical and historical span available.",
   },
   {
     icon: "Gear",
     color: "blue",
     title: "Customize chart",
-    body: "Compare countries, continents, organizations. Change chart types, energy sources, units or other indicators. Create customized graphics to illustrate or verify an argument.",
+    body:
+      "Compare countries, continents, organizations. Change chart types, energy sources, units or other indicators. Create customized graphics to illustrate or verify an argument.",
   },
   {
     icon: "Table",
@@ -455,8 +457,9 @@ const benefits: {
   },
   {
     icon: "Share",
-    color: "lightBlack",
+    color: "darkBlue",
     title: "Share",
-    body: "Share customized graphics as dynamic graphs and image files– those can in turn be embedded in other websites, blogs and be shared through social media.",
+    body:
+      "Share customized graphics as dynamic graphs and image files– those can in turn be embedded in other websites, blogs and be shared through social media.",
   },
 ]

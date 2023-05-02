@@ -49,10 +49,10 @@ const ChartTypesSelect = ({
       }
     }
   }, [selected, firstMount])
-  useEffect(
-    () => moveBorder(chartTypeToLabelRef(selected).current.getBoundingClientRect()),
-    [selectedLabelRef, selected]
-  )
+  useEffect(() => moveBorder(chartTypeToLabelRef(selected).current.getBoundingClientRect()), [
+    selectedLabelRef,
+    selected,
+  ])
   function moveBorder(rect) {
     movingBorderRef.current.style.left = `${rect.left - iconsRef.current.getBoundingClientRect().left}px`
   }
@@ -78,7 +78,7 @@ const ChartTypesSelect = ({
           disabled={!available.includes("stacked")}
           ref={stackedRef}
         >
-          <StackedChartIcon color={theme.colors.lightBlack} />
+          <StackedChartIcon color={theme.colors.darkBlue} />
         </Label>
         <HiddenInput
           type="radio"
@@ -96,7 +96,7 @@ const ChartTypesSelect = ({
           disabled={!available.includes("stacked-percent")}
           ref={stackedPercentRef}
         >
-          <StackedPercentChartIcon color={theme.colors.lightBlack} />
+          <StackedPercentChartIcon color={theme.colors.darkBlue} />
         </Label>
         <HiddenInput
           type="radio"
@@ -114,7 +114,7 @@ const ChartTypesSelect = ({
           htmlFor="line"
           disabled={!available.includes("line")}
         >
-          <LineChartIcon color={theme.colors.lightBlack} />
+          <LineChartIcon color={theme.colors.darkBlue} />
         </Label>
         <HiddenInput
           type="radio"
@@ -132,7 +132,7 @@ const ChartTypesSelect = ({
           htmlFor="pie"
           disabled={!available.includes("pie")}
         >
-          <PieChartIcon color={theme.colors.lightBlack} />
+          <PieChartIcon color={theme.colors.darkBlue} />
         </Label>
         <HiddenInput
           type="radio"
@@ -150,7 +150,7 @@ const ChartTypesSelect = ({
           htmlFor="ranking"
           disabled={!available.includes("ranking")}
         >
-          <RankingChartIcon color={theme.colors.lightBlack} />
+          <RankingChartIcon color={theme.colors.darkBlue} />
         </Label>
       </Icons>
     </Container>

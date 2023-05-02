@@ -12,7 +12,7 @@ const H2: React.FC<IProps> = ({ mt = 6, overTitle, children, subTitle }) => {
   return (
     <Container mt={mt}>
       {overTitle && <OverTitle fontSize={[2]}>{overTitle}</OverTitle>}
-      <Title fontSize={[9]} color="lightBlack" width={["100%", 0.6]}>
+      <Title fontSize={[9]} color="darkBlue" width={["100%", 0.6]}>
         {children}
       </Title>
       {subTitle && (
@@ -37,14 +37,14 @@ const Title = styled.h2`
   ${typography}
   ${layout}
   font-weight: bold;
-  color: ${(p) => p.theme.colors.lightBlack};
+  color: ${(p) => p.theme.colors.darkBlue};
   letter-spacing: 0.89px;
   line-height: 52px;
 `
 const SubTitle = styled.p`
   ${typography}
   ${layout}
-  color: ${(p) => p.theme.colors.grey};
+  color: ${(p) => p.theme.colors.darkBlue};
   letter-spacing: 0.4px;
 `
 

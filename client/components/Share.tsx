@@ -17,7 +17,7 @@ const Container = styled.div`
   ${fontSize}
 `
 const Share: React.FC = ({ children }) => (
-  <Container fontSize={[4]} color="lightBlack">
+  <Container fontSize={[4]} color="darkBlue">
     {children}
   </Container>
 )

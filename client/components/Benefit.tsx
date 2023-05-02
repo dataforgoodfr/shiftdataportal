@@ -61,13 +61,13 @@ const H4 = styled.h4`
   ${typography}
   font-weight: 700;
   font-size: 20px;
-  color: ${(p) => p.theme.colors.grey};
+  color: ${(p) => p.theme.colors.darkBlue};
   letter-spacing: 0.49px;
 `
 
 const Body = styled.p`
   margin-top: 1rem;
-  color: ${(p) => p.theme.colors.grey};
+  color: ${(p) => p.theme.colors.darkBlue};
   letter-spacing: 0.4px;
 `
 export default Benefit

@@ -49,7 +49,6 @@ const colors = {
   freshBlue: "#B0EBFF",
   green: "#6D893C",
   darkWhite: "#FAFAFA",
-  lightBlack: "#292929",
   lightGrey: "#D9D9D9",
   grey: "#484848",
   backgroundColor: "#F8F8F8",

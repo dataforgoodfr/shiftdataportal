@@ -127,12 +127,12 @@ const TextContainer = styled.div`
 const Title = styled.h4`
   ${typography};
   font-weight: 700;
-  color: ${(p) => p.theme.colors.lightBlack};
+  color: ${(p) => p.theme.colors.darkBlue};
   letter-spacing: 0.35px;
 `
 const Description = styled.p`
   ${typography};
-  color: ${(p) => p.theme.colors.lightBlack};
+  color: ${(p) => p.theme.colors.darkBlue};
   letter-spacing: 0.54px;
 `
 

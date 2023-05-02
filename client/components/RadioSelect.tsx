@@ -67,7 +67,7 @@ export const Title = styled.div`
     text-transform: capitalize;
   }
   &:hover {
-    border: 1px solid ${(p) => p.theme.colors.grey};
+    border: 1px solid ${(p) => p.theme.colors.darkBlue};
   }
 `
 

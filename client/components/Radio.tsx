@@ -42,7 +42,7 @@ const RadioButton = styled.div<RadioIconProps>`
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  color: ${(p) => (p.selected ? p.theme.colors.darkBlue : p.theme.colors.grey)};
+  color: ${(p) => (p.selected ? p.theme.colors.darkBlue : p.theme.colors.darkBlue)};
 `
 type RadioIconProps = {
   selected: boolean
@@ -52,7 +52,7 @@ const RadioIcon = styled.div<RadioIconProps>`
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  border: 1px solid ${(p) => p.theme.colors.lightBlack};
+  border: 1px solid ${(p) => p.theme.colors.darkBlue};
   margin-right: 0.5rem;
   &::after {
     content: "";
@@ -63,6 +63,6 @@ const RadioIcon = styled.div<RadioIconProps>`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: ${(p) => (p.selected ? p.theme.colors.darkBlue : p.theme.colors.lightBlack)};
+    background-color: ${(p) => (p.selected ? p.theme.colors.darkBlue : p.theme.colors.darkBlue)};
   }
 `

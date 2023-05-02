@@ -100,8 +100,8 @@ export default function Footer({ mt = 5 }) {
           </Ul>
         </Layout>
       </Container>
-      <Copyright fontSize={3} color="lightBlack" my={1}>
-        © 2020 The Shift Project. All rights reserved.
+      <Copyright fontSize={3} color="darkBlue" my={1}>
+        © 2023 The Shift Project. All rights reserved.
       </Copyright>
     </FooterEl>
   )

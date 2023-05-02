@@ -20,7 +20,7 @@ const StyledH1 = styled.h1`
 interface IProps extends SpaceProps {}
 
 const H1: React.FC<IProps> = (props) => (
-  <StyledH1 color="lightBlack" {...props}>
+  <StyledH1 color="darkBlue" {...props}>
     {props.children}
   </StyledH1>
 )

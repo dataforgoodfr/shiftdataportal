@@ -88,8 +88,8 @@ const TooltipButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: ${(p) => p.theme.colors.grey};
-  border: 1px solid ${(p) => p.theme.colors.grey};
+  color: ${(p) => p.theme.colors.darkBlue};
+  border: 1px solid ${(p) => p.theme.colors.darkBlue};
   border-radius: 50%;
   height: 1rem;
   width: 1rem;

@@ -200,10 +200,10 @@ const OkButton = styled.button`
   font: inherit;
   cursor: pointer;
   outline: inherit;
-  background: ${(p) => p.theme.colors.lightBlack};
+  background: ${(p) => p.theme.colors.darkBlue};
   color: white;
   text-align: center;
-  border: 1px solid ${(p) => p.theme.colors.grey};
+  border: 1px solid ${(p) => p.theme.colors.darkBlue};
   border-radius: 8px;
   font-weight: 700;
   font-size: 1rem;

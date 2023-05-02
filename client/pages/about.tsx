@@ -104,13 +104,13 @@ const H1 = styled.h1`
   ${typography};
   ${space};
   font-weight: 700;
-  color: ${(p) => p.theme.colors.lightBlack};
+  color: ${(p) => p.theme.colors.darkBlue};
   letter-spacing: 1.09px;
   line-height: 52px;
 `
 
 const P = styled.p`
-  color: ${(p) => p.theme.colors.lightBlack};
+  color: ${(p) => p.theme.colors.darkBlue};
   margin-top: 1rem;
   position: relative;
 `

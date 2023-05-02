@@ -18,32 +18,32 @@ const DimensionButton = ({ href, children, icon, selected = false, active }: IPr
   let Icon
   switch (icon) {
     case "LineChart":
-      Icon = Icons.LineChart({ color: theme.colors.lightBlack })
+      Icon = Icons.LineChart({ color: theme.colors.orange })
       break
     case "StackedChart":
-      Icon = Icons.StackedChart({ color: theme.colors.lightBlack })
+      Icon = Icons.StackedChart({ color: theme.colors.orange })
       break
     case "Capita":
-      Icon = Icons.Capita({ color: theme.colors.lightBlack })
+      Icon = Icons.Capita({ color: theme.colors.orange })
       break
     case "PieChart":
-      Icon = Icons.PieChart({ color: theme.colors.lightBlack })
+      Icon = Icons.PieChart({ color: theme.colors.orange })
       break
     case "Dollar":
-      Icon = Icons.Dollar({ color: theme.colors.lightBlack })
+      Icon = Icons.Dollar({ color: theme.colors.orange })
       break
     case "TopChart":
-      Icon = Icons.TopChart({ color: theme.colors.lightBlack })
+      Icon = Icons.TopChart({ color: theme.colors.orange })
       break
     case "ProvenReserves":
-      Icon = Icons.ProvenReserves({ color: theme.colors.lightBlack })
+      Icon = Icons.ProvenReserves({ color: theme.colors.orange })
       break
     case "ImportExport":
-      Icon = Icons.ImportExport({ color: theme.colors.lightBlack })
+      Icon = Icons.ImportExport({ color: theme.colors.orange })
       break
     default:
       console.warn(`Dimension Icon : ${icon} not found, fallback to the line chart icon`)
-      Icon = Icons.LineChart({ color: theme.colors.lightBlack })
+      Icon = Icons.LineChart({ color: theme.colors.orange })
   }
   const Container = A.withComponent("div")
   if (href) {
@@ -57,7 +57,7 @@ const DimensionButton = ({ href, children, icon, selected = false, active }: IPr
     )
   } else {
     return (
-      <Container selected={selected} color="blue" py={["5px"]} px={[3]} mt={[1]} mx={[1]} active>
+      <Container selected={selected} py={["5px"]} px={[3]} mt={[1]} mx={[1]} active>
         <IconContainer>{Icon}</IconContainer>
         <Title pl={[2]} fontSize={[3]}>
           {children}
@@ -80,12 +80,12 @@ const A = styled.a`
   ${button1};
   ${(p) => (p.active ? null : disabledA)};
   /* border: ${(p: AProps) => (p.selected ? "1px solid black" : `1px solid ${(p) => p.theme.colors.lightGrey}`)}; */
-  background-color: ${(p) => (p.selected ? p.theme.colors.darkBlue : "white")};
-  color: ${(p) => (p.selected ? "white" : "inherit")};
+  background-color: ${(p) => (p.selected ? p.theme.colors.blue : "white")};
+  color: ${(p) => (p.selected ? "white" : p.theme.colors.darkBlue)};
   path,
   circle,
   rect {
-    fill: ${(p) => (p.selected ? "white" : p.theme.colors.lightBlack)};
+    fill: ${(p) => (p.selected ? "white" : p.theme.colors.darkBlue)};
   }
   transition: all 0.2s ease-in;
   font-weight: inherit;
@@ -93,9 +93,9 @@ const A = styled.a`
     margin-left: 0;
   }
   &:hover {
-    border: 1px solid ${(p) => (p.active ? p.theme.colors.grey : `1px solid ${(p) => p.theme.colors.lightGrey}`)};
+    border: 1px solid ${(p) => (p.active ? p.theme.colors.darkBlue : `1px solid ${(p) => p.theme.colors.lightGrey}`)};
     border: 1px solid #c4cfff;
-    background-color: ${(p) => p.theme.colors.darkBlue};
+    background-color: ${(p) => p.theme.colors.blue};
     color: white;
     path,
     circle,

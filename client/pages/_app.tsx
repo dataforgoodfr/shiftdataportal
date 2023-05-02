@@ -182,11 +182,11 @@ const globalStyles = (
         font-weight: 700;
         margin-top: ${theme.space[4]}px;
         font-size: ${theme.fontSizes[6]};
-        color: ${theme.colors.grey};
+        color: ${theme.colors.darkBlue};
       }
       h4.markdown {
         font-weight: 700;
-        color: ${theme.colors.grey};
+        color: ${theme.colors.darkBlue};
         margin-top: ${theme.space[3]}px;
         &::before {
           content: " - ";

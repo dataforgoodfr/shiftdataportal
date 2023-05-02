@@ -129,11 +129,9 @@ const GroupNamesSelect: React.FC<IProps> = ({
                 if (result) {
                   if (Array.isArray(result)) {
                     // Case when multi-select ({ value: string }[])
-                    const filteredMultiSelect = (
-                      result as {
-                        value: NameColor[]
-                      }[]
-                    ).filter((item) => {
+                    const filteredMultiSelect = (result as {
+                      value: NameColor[]
+                    }[]).filter((item) => {
                       return Array.isArray(item.value)
                     })
                     if (filteredMultiSelect.length === 0) {
@@ -200,10 +198,10 @@ const OkButton = styled.button`
   font: inherit;
   cursor: pointer;
   outline: inherit;
-  background: ${(p) => p.theme.colors.lightBlack};
+  background: ${(p) => p.theme.colors.darkBlue};
   color: white;
   text-align: center;
-  border: 1px solid ${(p) => p.theme.colors.grey};
+  border: 1px solid ${(p) => p.theme.colors.darkBlue};
   border-radius: 8px;
   font-weight: 700;
   font-size: 1rem;
