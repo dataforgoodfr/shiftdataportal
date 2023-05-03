@@ -5,15 +5,14 @@ import prettier from "prettier/standalone";
 const fs = require("fs");
 pgStructure(
   {
-    database: "shiftdataportal",
-    user: "postgres",
-    password: "",
-    host: "localhost",
-    port: 5432,
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME
   },
   { includeSchemas: ["public"] }
 )
-  .then((db) => {
+  .then(db => {
     const tables = db.schemas.get("public").tables; // Map of Table objects.
     const res = [];
     // List of table names
@@ -27,14 +26,14 @@ pgStructure(
     }
     return prettier.format(res.join("\r\n\r\n"), {
       parser: "typescript",
-      plugins: [parserTypescript],
+      plugins: [parserTypescript]
     });
   })
-  .then((res) => {
-    fs.writeFile("./dbSchema.ts", res, function (err) {
+  .then(res => {
+    fs.writeFile("./dbSchema.ts", res, function(err) {
       if (err) {
         return console.error(err);
       }
     });
   })
-  .catch((err) => console.error(err.stack));
+  .catch(err => console.error(err.stack));

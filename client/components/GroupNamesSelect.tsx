@@ -12,6 +12,7 @@ import { layout, space } from "styled-system"
 import { InputSubtitle } from "."
 import { useTheme } from "@emotion/react"
 import styled from "@emotion/styled"
+import useOutsideClick from "../hooks/useOutsideClick"
 
 interface IProps {
   isMulti: boolean
@@ -35,20 +36,22 @@ const GroupNamesSelect: React.FC<IProps> = ({
 }) => {
   const [showPopup, setShowPopup] = useState(false)
   const theme = useTheme()
-  const popupRef = useRef(null)
-  /*useOutsideClick(popupRef, () => {
+  const containerRef = useRef(null)
+  useOutsideClick(containerRef, () => {
     if (showPopup) {
-      setShowPopup(false);
+      setShowPopup(false)
     }
-  });*/
+  })
+
   return (
-    <Container mx={[1]}>
+    <Container mx={[1]} ref={containerRef}>
       <InputSubtitle>Countries</InputSubtitle>
+      {showPopup}
       <Title onClick={() => setShowPopup(!showPopup)} fontSize={[3]} px={[3]} minWidth={[8]}>
         {isLoading ? "loading..." : <Fragment>{value.length === 1 ? value[0] : `${value.length} selected`}</Fragment>}
       </Title>
       {showPopup && (
-        <Popup show={showPopup} ref={popupRef} width={["90vw", "90vw"]} maxWidth={["1rem", "30rem"]}>
+        <Popup show={showPopup} width={["90vw", "90vw"]} maxWidth={["1rem", "30rem"]}>
           <PopupTitle mt={[3]}>
             Countries, Zones, Regions {value.length === 0 ? "" : `·  ${value.length} selected `}
           </PopupTitle>
@@ -66,7 +69,7 @@ const GroupNamesSelect: React.FC<IProps> = ({
               isSearchable={true}
               name="groupNames"
               aria-label="group names"
-              styles={colourStyles(theme)}
+              styles={colorStyles(theme)}
               placeholder="Countries, Zones and Groups"
               value={value.map((selectedGroupName) => ({
                 label: selectedGroupName,
@@ -129,11 +132,9 @@ const GroupNamesSelect: React.FC<IProps> = ({
                 if (result) {
                   if (Array.isArray(result)) {
                     // Case when multi-select ({ value: string }[])
-                    const filteredMultiSelect = (
-                      result as {
-                        value: NameColor[]
-                      }[]
-                    ).filter((item) => {
+                    const filteredMultiSelect = (result as {
+                      value: NameColor[]
+                    }[]).filter((item) => {
                       return Array.isArray(item.value)
                     })
                     if (filteredMultiSelect.length === 0) {
@@ -214,7 +215,7 @@ const OkButton = styled.button`
   justify-content: center;
   height: 2.5rem;
 `
-const colourStyles = (theme: Theme) => ({
+const colorStyles = (theme: Theme) => ({
   menu: (provided) => ({ ...provided, position: "static", boxShadow: null }),
   container: (provided) => ({ ...provided, width: "100%", fontFamily: theme.fonts.secondary }),
   control: (provided) => ({ ...provided, margin: "8px" }),

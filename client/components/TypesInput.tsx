@@ -51,12 +51,12 @@ const TypesInput: React.FC<IProps> = ({
 }) => {
   const theme = useTheme()
   const [showPopup, setShowPopup] = useState(false)
-  const popupRef = useRef(null)
-  /*useOutsideClick(popupRef, () => {
+  const containerRef = useRef(null)
+  useOutsideClick(containerRef, () => {
     if (showPopup) {
-      setShowPopup(false);
+      setShowPopup(false)
     }
-  });*/
+  })
   const computedTypes = useMemo(() => {
     return types.map((type) => ({ value: type.name, label: type.name, color: type.color }))
   }, [types])
@@ -65,7 +65,7 @@ const TypesInput: React.FC<IProps> = ({
     [selectedTypes, computedTypes]
   )
   return (
-    <Container mx={[1]}>
+    <Container mx={[1]} ref={containerRef}>
       <InputSubtitle>{label} </InputSubtitle>
       <Title onClick={() => setShowPopup(!showPopup)} px={[3]} py={[2]} fontSize={[3]}>
         {isLoading
@@ -77,7 +77,7 @@ const TypesInput: React.FC<IProps> = ({
           : "0 selected"}
       </Title>
       {showPopup && (
-        <Popup show={showPopup} ref={popupRef} width={["90vw", "90vw"]} maxWidth={["1rem", "30rem"]}>
+        <Popup show={showPopup} width={["90vw", "90vw"]} maxWidth={["1rem", "30rem"]}>
           <PopupTitle mt={[3]}>
             {computedSelectedTypes.length > 1 ? `${typeName} · ${computedSelectedTypes.length}` : typeName}
           </PopupTitle>

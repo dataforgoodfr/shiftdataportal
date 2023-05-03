@@ -5,6 +5,7 @@ import button1 from "../styles/button1"
 import popup from "../styles/popup"
 import Radio from "./Radio"
 import { InputSubtitle } from "."
+import useOutsideClick from "../hooks/useOutsideClick"
 
 interface IProps {
   options: (string | number)[]
@@ -16,22 +17,22 @@ interface IProps {
 }
 const RadioSelect: React.FC<IProps> = ({ options, selectedOption, onChange, isLoading = false, inputName, label }) => {
   const [showPopup, setShowPopup] = useState(false)
-  const popupRef = useRef(null)
-  // Hide popup when clicked outside popup.
-  /*useOutsideClick(popupRef, () => {
+  const containerRef = useRef(null)
+
+  useOutsideClick(containerRef, () => {
     if (showPopup) {
-      setShowPopup(false);
+      setShowPopup(false)
     }
-  });*/
+  })
   return (
-    <Container mx={[1]}>
+    <Container mx={[1]} ref={containerRef}>
       <InputSubtitle>{label}</InputSubtitle>
       <Title onClick={() => setShowPopup(!showPopup)} fontSize={[3]} px={[3]}>
         {isLoading ? "loading..." : selectedOption}
       </Title>
 
       {showPopup && (
-        <Popup ref={popupRef} style={{ display: showPopup ? "block" : "none" }}>
+        <Popup style={{ display: showPopup ? "block" : "none" }}>
           <PopupTitle>{inputName}</PopupTitle>
           <Options mt={[1]}>
             {options.map((option, i) => (

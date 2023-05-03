@@ -5,6 +5,7 @@ import { fontSize, layout } from "styled-system"
 import Icons, { IconName } from "./Icons"
 import { useTheme } from "@emotion/react"
 import popup from "../styles/popup"
+import useOutsideClick from "../hooks/useOutsideClick"
 
 const Button = styled.div`
   ${layout};
@@ -126,7 +127,7 @@ export const ExportDataButton = (props) => (
 )
 export const IframeButton = () => {
   const [showPopup, setShowPopup] = useState(false)
-  const popupRef = useRef(null)
+  const containerRef = useRef(null)
   const [chartHeight, setChartHeight] = useState("75vh")
   const [iframeUri, setIframeUri] = useState(
     typeof window !== "undefined" && window.location.href + "&iframe=true&chart-height=" + chartHeight
@@ -134,15 +135,16 @@ export const IframeButton = () => {
   useEffect(() => {
     setIframeUri(window.location.href + "&iframe=true&chart-height=" + chartHeight)
   }, [chartHeight])
-  /*useOutsideClick(popupRef, () => {
+
+  useOutsideClick(containerRef, () => {
     if (showPopup) {
-      setShowPopup(false);
+      setShowPopup(false)
     }
-  });*/
+  })
   return (
-    <Container>
+    <Container ref={containerRef}>
       {showPopup && (
-        <Popup ref={popupRef}>
+        <Popup>
           Copy iframe URL and integrate it in you website.
           <div>
             <input type="url" value={iframeUri}></input>
