@@ -36,6 +36,7 @@ import {
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
 import { ShareChart } from "../../components/Share"
+import useGraphTitle from "../../hooks/useGraphTitle"
 
 const Gas: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -69,7 +70,7 @@ const Gas: NextPage<DefaultProps> = ({ params }) => {
       countriesOnly: selectedDimension === "importExport",
     },
   })
-  // Manage specific state with URL params
+  // Manage specific state with  URL params
   const [urlParams, setUrlParams] = useState<ParsedUrlQueryInput>(() => ({}))
   // The data used in the graph
   const [highchartsSeriesAndCategories, setHighchartsSeriesAndCategories] = useState({ series: [], categories: [] })
@@ -110,7 +111,6 @@ const Gas: NextPage<DefaultProps> = ({ params }) => {
   // Applies the urlParams change to the real URL.
   useSyncParamsWithUrl(urlParams)
 
-  const [graphTitle, setGraphTitle] = useState<string>("")
   // Fetches the graph data, automatically re-fetches when any variable changes
   const { data: dimensionData, loading: dimensionLoading } = useQuery<
     GetGasDimensionQuery,
@@ -143,13 +143,17 @@ const Gas: NextPage<DefaultProps> = ({ params }) => {
     }
   }, [dimensionData, selectedDimension])
 
+  const [graphTitle, setGraphTitle] = useGraphTitle(
+    "Gas",
+    selectedGroupNames,
+    selectedYearRange,
+    selectedDimension,
+    isRange
+  )
   // Update graph title
   useEffect(() => {
-    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : ""
-    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : ""
-    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
-    setGraphTitle(`Gas ${selectedType}${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
-  }, [selectedGroupNames, selectedType, selectedYearRange, selectedDimension, isRange])
+    setGraphTitle()
+  }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange, selectedType])
 
   const onYearRangeChange = useOnYearRangeChange(dispatch)
   let inputs: any

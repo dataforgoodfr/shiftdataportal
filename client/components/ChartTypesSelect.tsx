@@ -49,10 +49,10 @@ const ChartTypesSelect = ({
       }
     }
   }, [selected, firstMount])
-  useEffect(
-    () => moveBorder(chartTypeToLabelRef(selected).current.getBoundingClientRect()),
-    [selectedLabelRef, selected]
-  )
+  useEffect(() => moveBorder(chartTypeToLabelRef(selected).current.getBoundingClientRect()), [
+    selectedLabelRef,
+    selected,
+  ])
   function moveBorder(rect) {
     movingBorderRef.current.style.left = `${rect.left - iconsRef.current.getBoundingClientRect().left}px`
   }

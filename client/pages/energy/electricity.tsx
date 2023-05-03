@@ -33,10 +33,9 @@ import {
   ElectricityInputsQueryVariables,
   ElectricityTypes,
 } from "../../types"
-import { DownloadScreenshotButton, IframeButton } from "../../components/LightButton"
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
-import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
 import { ShareChart } from "../../components/Share"
+import useGraphTitle from "../../hooks/useGraphTitle"
 
 const Electricity: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -62,11 +61,10 @@ const Electricity: NextPage<DefaultProps> = ({ params }) => {
     dispatch,
   ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const {
-    loading: loadingInputs,
-    data: dataInputs,
-    error: errorInputs,
-  } = useQuery<ElectricityInputsQuery, ElectricityInputsQueryVariables>(INPUTS, {
+  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
+    ElectricityInputsQuery,
+    ElectricityInputsQueryVariables
+  >(INPUTS, {
     variables: {
       dimension: selectedDimension,
     },
@@ -113,7 +111,6 @@ const Electricity: NextPage<DefaultProps> = ({ params }) => {
   // Applies the urlParams change to the real URL.
   useSyncParamsWithUrl(urlParams)
 
-  const [graphTitle, setGraphTitle] = useState<string>("")
   // Fetches the graph data, automatically re-fetches when any variable changes
   const { data: dimensionData, loading: dimensionLoading } = useQuery<
     GetElectricityDimensionQuery,
@@ -150,12 +147,18 @@ const Electricity: NextPage<DefaultProps> = ({ params }) => {
   }, [dimensionData, selectedDimension])
 
   // Update graph title
+  const [graphTitle, setGraphTitle] = useGraphTitle(
+    "Electricity",
+    selectedGroupNames,
+    selectedYearRange,
+    selectedDimension,
+    isRange,
+    selectedType
+  )
+  // Update graph title
   useEffect(() => {
-    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : ""
-    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : ""
-    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
-    setGraphTitle(`Electricity ${selectedType}${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
-  }, [selectedGroupNames, selectedType, selectedYearRange, selectedDimension, isRange])
+    setGraphTitle()
+  }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange, selectedType])
 
   const onYearRangeChange = useOnYearRangeChange(dispatch)
   let inputs: any
@@ -375,7 +378,7 @@ const Electricity: NextPage<DefaultProps> = ({ params }) => {
     </Fragment>
   )
 }
-Electricity.getInitialProps = async function ({ query }) {
+Electricity.getInitialProps = async function({ query }) {
   // Get all the parameters from the URL or set default state
   return {
     params: {

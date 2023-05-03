@@ -36,6 +36,7 @@ import {
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
 import { ShareChart } from "../../components/Share"
+import useGraphTitle from "../../hooks/useGraphTitle"
 
 const Footprint: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -57,11 +58,10 @@ const Footprint: NextPage<DefaultProps> = ({ params }) => {
     dispatch,
   ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const {
-    loading: loadingInputs,
-    data: dataInputs,
-    error: errorInputs,
-  } = useQuery<FootprintInputsQuery, FootprintInputsQueryVariables>(INPUTS, {
+  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
+    FootprintInputsQuery,
+    FootprintInputsQueryVariables
+  >(INPUTS, {
     variables: {
       dimension: selectedDimension,
     },
@@ -100,7 +100,6 @@ const Footprint: NextPage<DefaultProps> = ({ params }) => {
   // Applies the urlParams change to the real URL.
   useSyncParamsWithUrl(urlParams)
 
-  const [graphTitle, setGraphTitle] = useState<string>("")
   // Fetches the graph data, automatically re-fetches when any variable changes
   const { data: dimensionData, loading: dimensionLoading } = useQuery<
     GetFootprintDimensionQuery,
@@ -121,11 +120,16 @@ const Footprint: NextPage<DefaultProps> = ({ params }) => {
   })
 
   // Update graph title
+  const [graphTitle, setGraphTitle] = useGraphTitle(
+    "Renewable energy",
+    selectedGroupNames,
+    selectedYearRange,
+    selectedDimension,
+    isRange
+  )
+
   useEffect(() => {
-    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : ""
-    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : ""
-    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
-    setGraphTitle(`CO2 Footprint${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
+    setGraphTitle()
   }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange])
 
   const onYearRangeChange = useOnYearRangeChange(dispatch)
@@ -313,7 +317,7 @@ const Footprint: NextPage<DefaultProps> = ({ params }) => {
     </Fragment>
   )
 }
-Footprint.getInitialProps = async function ({ query }) {
+Footprint.getInitialProps = async function({ query }) {
   // Get all the parameters from the URL or set default state
   return {
     params: {

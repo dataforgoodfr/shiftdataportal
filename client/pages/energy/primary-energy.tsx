@@ -37,6 +37,7 @@ import {
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
 import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
 import { ShareChart } from "../../components/Share"
+import useGraphTitle from "../../hooks/useGraphTitle"
 
 const PrimaryEnergy: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -62,11 +63,10 @@ const PrimaryEnergy: NextPage<DefaultProps> = ({ params }) => {
     dispatch,
   ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const {
-    loading: loadingInputs,
-    data: dataInputs,
-    error: errorInputs,
-  } = useQuery<PrimaryEnergyInputsQuery, PrimaryEnergyInputsQueryVariables>(INPUTS, {
+  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
+    PrimaryEnergyInputsQuery,
+    PrimaryEnergyInputsQueryVariables
+  >(INPUTS, {
     variables: {
       type: selectedType,
     },
@@ -111,7 +111,6 @@ const PrimaryEnergy: NextPage<DefaultProps> = ({ params }) => {
   // Applies the urlParams change to the real URL.
   useSyncParamsWithUrl(urlParams)
 
-  const [graphTitle, setGraphTitle] = useState<string>("")
   // Fetches the graph data, automatically re-fetches when any variable changes
   const { data: dimensionData, loading: dimensionLoading } = useQuery<
     GetPrimaryEnergyDimensionQuery,
@@ -147,12 +146,18 @@ const PrimaryEnergy: NextPage<DefaultProps> = ({ params }) => {
     }
   }, [dimensionData, selectedDimension])
 
+  const [graphTitle, setGraphTitle] = useGraphTitle(
+    "Primary Energy",
+    selectedGroupNames,
+    selectedYearRange,
+    selectedDimension,
+    isRange,
+    selectedType
+  )
+
   // Update graph title
   useEffect(() => {
-    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
-    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : ""
-    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : ""
-    setGraphTitle(`Primary Energy ${selectedType}${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
+    setGraphTitle()
   }, [selectedGroupNames, selectedType, selectedYearRange, selectedDimension, isRange])
 
   const onYearRangeChange = useOnYearRangeChange(dispatch)
@@ -354,7 +359,7 @@ const PrimaryEnergy: NextPage<DefaultProps> = ({ params }) => {
     </Fragment>
   )
 }
-PrimaryEnergy.getInitialProps = async function ({ query }) {
+PrimaryEnergy.getInitialProps = async function({ query }) {
   // Get all the parameters from the URL or set default state
   return {
     params: {

@@ -33,8 +33,8 @@ import {
 } from "../../types"
 
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
-import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
 import { ShareChart } from "../../components/Share"
+import useGraphTitle from "../../hooks/useGraphTitle"
 
 const Nuclear: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -91,7 +91,6 @@ const Nuclear: NextPage<DefaultProps> = ({ params }) => {
   // Applies the urlParams change to the real URL.
   useSyncParamsWithUrl(urlParams)
 
-  const [graphTitle, setGraphTitle] = useState<string>("")
   // Fetches the graph data, automatically re-fetches when any variable changes
   const { data: dimensionData, loading: dimensionLoading } = useQuery<
     GetNuclearDimensionQuery,
@@ -108,12 +107,16 @@ const Nuclear: NextPage<DefaultProps> = ({ params }) => {
     },
   })
 
+  const [graphTitle, setGraphTitle] = useGraphTitle(
+    "Nuclear",
+    selectedGroupNames,
+    selectedYearRange,
+    selectedDimension,
+    isRange
+  )
   // Update graph title
   useEffect(() => {
-    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : ""
-    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : ""
-    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
-    setGraphTitle(`Nuclear ${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
+    setGraphTitle()
   }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange])
 
   const onYearRangeChange = useOnYearRangeChange(dispatch)

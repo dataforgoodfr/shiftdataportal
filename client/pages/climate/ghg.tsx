@@ -34,8 +34,8 @@ import {
 } from "../../types"
 
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
-import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
 import { ShareChart } from "../../components/Share"
+import useGraphTitle from "../../hooks/useGraphTitle"
 
 const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -111,7 +111,13 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
   // Applies the urlParams change to the real URL.
   useSyncParamsWithUrl(urlParams)
 
-  const [graphTitle, setGraphTitle] = useState<string>("")
+  const [graphTitle, setGraphTitle] = useGraphTitle(
+    "Greenhouse Gas",
+    selectedGroupNames,
+    selectedYearRange,
+    selectedDimension,
+    isRange
+  )
   // Fetches the graph data, automatically re-fetches when any variable changes
   const { data: dimensionData, loading: dimensionLoading } = useQuery<
     GetGhgByGasDimensionQuery,
@@ -137,10 +143,7 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
 
   // Update graph title
   useEffect(() => {
-    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : ""
-    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : ""
-    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
-    setGraphTitle(`Greenhouse Gas${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
+    setGraphTitle()
   }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange])
 
   const onYearRangeChange = useOnYearRangeChange(dispatch)
@@ -154,18 +157,16 @@ const GhgByGas: NextPage<DefaultProps> = ({ params }) => {
 
     inputs = (
       <Fragment>
-        <div>
-          <DimensionsSelect
-            dimensions={dimensions}
-            onChange={(newDimension) =>
-              dispatch({
-                type: newDimension as ReducerActions,
-                payload: { selectedSectors: sectors.map((sector) => sector.name) },
-              })
-            }
-            selectedDimension={selectedDimension}
-          />
-        </div>
+        <DimensionsSelect
+          dimensions={dimensions}
+          onChange={(newDimension) =>
+            dispatch({
+              type: newDimension as ReducerActions,
+              payload: { selectedSectors: sectors.map((sector) => sector.name) },
+            })
+          }
+          selectedDimension={selectedDimension}
+        />
         <SelectContainer>
           <GroupNamesSelect
             isLoading={loadingInputs}

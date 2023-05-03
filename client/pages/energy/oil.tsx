@@ -35,8 +35,8 @@ import {
 } from "../../types"
 
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
-import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
 import { ShareChart } from "../../components/Share"
+import useGraphTitle from "../../hooks/useGraphTitle"
 
 const Oil: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -137,7 +137,6 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
   // Applies the urlParams change to the real URL.
   useSyncParamsWithUrl(urlParams)
 
-  const [graphTitle, setGraphTitle] = useState<string>("")
   // Fetches the graph data, automatically re-fetches when any variable changes
   const { data: dimensionData, loading: dimensionLoading } = useQuery<
     GetOilDimensionQuery,
@@ -183,12 +182,18 @@ const Oil: NextPage<DefaultProps> = ({ params }) => {
   }, [dimensionData, selectedDimension])
 
   // Update graph title
+  const [graphTitle, setGraphTitle] = useGraphTitle(
+    "Oil",
+    selectedGroupNames,
+    selectedYearRange,
+    selectedDimension,
+    isRange,
+    selectedType
+  )
+
   useEffect(() => {
-    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : ""
-    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : ""
-    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
-    setGraphTitle(`Oil ${selectedType}${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
-  }, [selectedGroupNames, selectedType, selectedYearRange, selectedDimension, isRange])
+    setGraphTitle()
+  }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange])
 
   const onYearRangeChange = useOnYearRangeChange(dispatch)
   let inputs: any

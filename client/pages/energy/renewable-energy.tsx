@@ -33,8 +33,8 @@ import {
   RenewableEnergiesInputsQueryVariables,
 } from "../../types"
 import useOnYearRangeChange from "../../hooks/useOnYearRangeChange"
-import dimensionToHumanReadable from "../../utils/dimensionToHumanReadable"
 import { ShareChart } from "../../components/Share"
+import useGraphTitle from "../../hooks/useGraphTitle"
 
 const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
   const stackedChartRef = useRef(null)
@@ -58,11 +58,10 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
     dispatch,
   ] = useReducer(reducer, { ...params })
   // Query all the inputs options, automatically re-fetches when a variable changes
-  const {
-    loading: loadingInputs,
-    data: dataInputs,
-    error: errorInputs,
-  } = useQuery<RenewableEnergiesInputsQuery, RenewableEnergiesInputsQueryVariables>(INPUTS, {
+  const { loading: loadingInputs, data: dataInputs, error: errorInputs } = useQuery<
+    RenewableEnergiesInputsQuery,
+    RenewableEnergiesInputsQueryVariables
+  >(INPUTS, {
     variables: {
       type: selectedType,
     },
@@ -105,7 +104,6 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
   // Applies the urlParams change to the real URL.
   useSyncParamsWithUrl(urlParams)
 
-  const [graphTitle, setGraphTitle] = useState<string>("")
   // Fetches the graph data, automatically re-fetches when any variable changes
   const { data: dimensionData, loading: dimensionLoading } = useQuery<
     GetRenewableEnergyDimensionQuery,
@@ -127,12 +125,18 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
   })
 
   // Update graph title
+  const [graphTitle, setGraphTitle] = useGraphTitle(
+    "Renewable energy",
+    selectedGroupNames,
+    selectedYearRange,
+    selectedDimension,
+    isRange,
+    selectedType
+  )
+
   useEffect(() => {
-    const displayedDimension = selectedDimension !== "total" ? ` ${dimensionToHumanReadable(selectedDimension)}` : ""
-    const displayedGroupNames = selectedGroupNames.length === 1 ? selectedGroupNames[0] + "," : ""
-    const displayedYears = isRange ? `${selectedYearRange.min}-${selectedYearRange.max}` : selectedYearRange.max
-    setGraphTitle(`Renewable Energy ${selectedType}${displayedDimension}, ${displayedGroupNames} ${displayedYears}`)
-  }, [selectedGroupNames, selectedType, selectedYearRange, selectedDimension, isRange])
+    setGraphTitle()
+  }, [selectedGroupNames, selectedYearRange, selectedDimension, isRange, selectedType])
 
   const onYearRangeChange = useOnYearRangeChange(dispatch)
   let inputs: any
@@ -275,9 +279,9 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
         title={graphTitle}
         highchartsSeriesAndCategories={
           dimensionData?.renewableEnergies && dimensionData.renewableEnergies[selectedDimension]
-            ? (dimensionData.renewableEnergies[
+            ? ((dimensionData.renewableEnergies[
                 selectedDimension
-              ] as unknown as StackedChartProps["highchartsSeriesAndCategories"])
+              ] as unknown) as StackedChartProps["highchartsSeriesAndCategories"])
             : { series: [], categories: [] }
         }
       />
@@ -307,9 +311,9 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
             title={graphTitle}
             highchartsSeriesAndCategories={
               dimensionData?.renewableEnergies && dimensionData.renewableEnergies[selectedDimension]
-                ? (dimensionData.renewableEnergies[
+                ? ((dimensionData.renewableEnergies[
                     selectedDimension
-                  ] as unknown as StackedChartProps["highchartsSeriesAndCategories"])
+                  ] as unknown) as StackedChartProps["highchartsSeriesAndCategories"])
                 : { series: [], categories: [] }
             }
           />
@@ -326,7 +330,7 @@ const RenewableEnergy: NextPage<DefaultProps> = ({ params }) => {
     </Fragment>
   )
 }
-RenewableEnergy.getInitialProps = async function ({ query }) {
+RenewableEnergy.getInitialProps = async function({ query }) {
   // Get all the parameters from the URL or set default state
   return {
     params: {
