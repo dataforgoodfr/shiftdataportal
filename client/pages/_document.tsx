@@ -1,8 +1,6 @@
 import React from "react"
 import Document, { Html, Head, Main, NextScript } from "next/document"
-import { extractCritical } from "@emotion/server"
 import { GA_TRACKING_ID } from "../lib/gtag"
-import { renderToString } from "react-dom/server"
 
 /*class MyDocument extends Document<{ html: string; ids: Array<string>; css: string }> {
   static async getInitialProps(ctx) {

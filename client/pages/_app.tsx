@@ -1,5 +1,4 @@
-import { Global, css } from "@emotion/react"
-import { ThemeProvider } from "@emotion/react"
+import { Global, css, ThemeProvider } from "@emotion/react"
 import { AppProps } from "next/app"
 import Router from "next/router"
 import Head from "next/head"
