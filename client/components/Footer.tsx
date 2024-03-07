@@ -101,7 +101,7 @@ export default function Footer({ mt = 5 }) {
         </Layout>
       </Container>
       <Copyright fontSize={3} color="darkBlue" my={1}>
-        © 2023 The Shift Project. All rights reserved.
+        © 2023 The Shift Project. All rights reserved. Graciously hosted by <Link href="https://scalingo.com">Scalingo</Link> in 🇫🇷 !
       </Copyright>
     </FooterEl>
   )
