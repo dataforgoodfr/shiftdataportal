@@ -1,3 +1,5 @@
+console.log(JSON.stringify(process.env))
+console.log(`>>> ${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}/${process.env.DB_NAME}`)
 export const knexConfig = {
   client: "pg",
   pool: {
