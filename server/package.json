@@ -25,8 +25,8 @@
     "datasource-sql": "^1.1.1",
     "express": "^4.17.1",
     "graphql": "^14.6.0",
-    "knex": "^0.20.10",
-    "pg": "^7.18.2",
+    "knex": "^0.21.1",
+    "pg": "^8.0.3",
     "slugify": "^1.4.0"
   },
   "devDependencies": {
