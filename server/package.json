@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is the server",
   "main": "server.js",
+  "engines": {
+    "node": ">=20.11.0"
+  },
   "scripts": {
     "start": "node ./dist/server.js",
     "tsc": "tsc",
