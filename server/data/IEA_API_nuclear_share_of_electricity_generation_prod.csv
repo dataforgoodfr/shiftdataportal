@@ -1,0 +1,3458 @@
+group_type,group_name,year,nuclear,nuclear_share_of_electricity_generation,final_energy_unit,source
+zone,Central and South America,1990,9.518,0.022755636311473447,TWh,IEA
+country,Singapore,2009,0,0,TWh,IEA
+country,Greece,2003,0,0,TWh,IEA
+country,Belgium,2013,42.644,0.5133810871004635,TWh,IEA
+country,Romania,1999,5.1979999999999995,0.1025044369946756,TWh,IEA
+country,Panama,2012,0,0,TWh,IEA
+country,NZ,1996,0,0,TWh,IEA
+zone,World,2015,2316.0930000000008,0.10549471962282875,TWh,IEA
+country,Brunei Darussalam,2002,0,0,TWh,IEA
+zone,Middle East,2010,0,0,TWh,IEA
+country,United Kingdom,2009,69.098,0.18340252046417307,TWh,IEA
+country,Malta,2007,0,0,TWh,IEA
+country,Haiti,2011,0,0,TWh,IEA
+country,Nicaragua,2003,0,0,TWh,IEA
+country,Pakistan,1994,0.511,0.009541592755111569,TWh,IEA
+country,Senegal,2010,0,0,TWh,IEA
+country,Nepal,1996,0,0,TWh,IEA
+country,Kenya,2006,0,0,TWh,IEA
+country,Georgia,1992,0,0,TWh,IEA
+country,Japan,2012,15.939,0.015460722547978293,TWh,IEA
+country,Paraguay,2013,0,0,TWh,IEA
+country,Zambia,2002,0,0,TWh,IEA
+country,Tunisia,1998,0,0,TWh,IEA
+country,Denmark,2005,0,0,TWh,IEA
+zone,Middle East,1993,0,0,TWh,IEA
+country,Iraq,2007,0,0,TWh,IEA
+country,Azerbaijan,1997,0,0,TWh,IEA
+country,Peru,1990,0,0,TWh,IEA
+zone,Asia and Oceania,2004,352.717,0.07540725867312711,TWh,IEA
+country,Slovenia,2007,5.695,0.3785813999867047,TWh,IEA
+country,Sweden,2013,66.45700000000001,0.43388872204013945,TWh,IEA
+country,Niger,2015,0,0,TWh,IEA
+zone,World,2005,2533.132,0.1519706926022866,TWh,IEA
+country,Kenya,1998,0,0,TWh,IEA
+country,Greece,2009,0,0,TWh,IEA
+country,Panama,2003,0,0,TWh,IEA
+country,Algeria,2011,0,0,TWh,IEA
+country,Zambia,2007,0,0,TWh,IEA
+country,Dominican Republic,2015,0,0,TWh,IEA
+country,Suriname,2005,0,0,TWh,IEA
+country,Benin,1999,0,0,TWh,IEA
+country,Slovakia,2005,17.727,0.5639255606807698,TWh,IEA
+country,Mongolia,1999,0,0,TWh,IEA
+country,Lebanon,2011,0,0,TWh,IEA
+country,Nepal,1993,0,0,TWh,IEA
+country,Ukraine,2005,88.756,0.47704173497084185,TWh,IEA
+country,Nigeria,2006,0,0,TWh,IEA
+country,Sweden,2003,67.415,0.49775910570966575,TWh,IEA
+country,Panama,1999,0,0,TWh,IEA
+country,Iraq,1991,0,0,TWh,IEA
+country,Thailand,1991,0,0,TWh,IEA
+country,India,2010,26.266,0.026790477171588178,TWh,IEA
+country,Romania,2011,11.747,0.18880691772345182,TWh,IEA
+country,Lebanon,2012,0,0,TWh,IEA
+country,Ghana,2015,0,0,TWh,IEA
+country,Germany,2015,91.786,0.14228953671335445,TWh,IEA
+country,Kenya,1995,0,0,TWh,IEA
+zone,North America,2015,943.674,0.17837597216827195,TWh,IEA
+country,Iceland,2015,0,0,TWh,IEA
+country,Bulgaria,2006,19.493,0.4252121370765439,TWh,IEA
+country,Estonia,2007,0,0,TWh,IEA
+country,Benin,2004,0,0,TWh,IEA
+country,Croatia,1999,0,0,TWh,IEA
+country,Israel,2012,0,0,TWh,IEA
+country,Greece,1999,0,0,TWh,IEA
+zone,North America,1996,815.8570000000001,0.1850958980686985,TWh,IEA
+country,Uruguay,2016,0,0,TWh,IEA
+country,Iceland,1995,0,0,TWh,IEA
+country,Haiti,1990,0,0,TWh,IEA
+zone,Eurasia,1995,182.181,0.1423858605942377,TWh,IEA
+country,Brunei Darussalam,2013,0,0,TWh,IEA
+country,Ivory Coast,1991,0,0,TWh,IEA
+country,United States of America,2009,830.21,0.19825531691334858,TWh,IEA
+country,Mongolia,2010,0,0,TWh,IEA
+country,Lithuania,2008,9.894,0.723510054844607,TWh,IEA
+country,Gibraltar,2007,0,0,TWh,IEA
+zone,North America,2012,904.7609999999999,0.1731591714872177,TWh,IEA
+country,Mauritius,2010,0,0,TWh,IEA
+zone,Asia and Oceania,1991,219.369,0.09883115865048023,TWh,IEA
+country,Namibia,2007,0,0,TWh,IEA
+country,Mozambique,2002,0,0,TWh,IEA
+country,Qatar,1999,0,0,TWh,IEA
+country,Albania,1990,0,0,TWh,IEA
+zone,Central and South America,1999,11.083,0.017262917204039805,TWh,IEA
+country,Kenya,2003,0,0,TWh,IEA
+country,Cyprus,2005,0,0,TWh,IEA
+country,Slovenia,1991,4.952,0.3885750156936597,TWh,IEA
+country,Ethiopia,2009,0,0,TWh,IEA
+country,Poland,2001,0,0,TWh,IEA
+country,Kazakhstan,2000,0,0,TWh,IEA
+country,India,2008,14.927,0.017563862708414226,TWh,IEA
+country,Montenegro,2005,0,0,TWh,IEA
+country,Algeria,1995,0,0,TWh,IEA
+country,Israel,1994,0,0,TWh,IEA
+country,Mexico,1998,9.265,0.05082170440582764,TWh,IEA
+country,Japan,2013,9.302999999999999,0.008852327982415241,TWh,IEA
+country,Singapore,2001,0,0,TWh,IEA
+country,Israel,2014,0,0,TWh,IEA
+country,Ukraine,1995,70.523,0.36348689296869363,TWh,IEA
+country,Niger,2004,0,0,TWh,IEA
+country,Zambia,2013,0,0,TWh,IEA
+country,Slovakia,1992,11.05,0.4676852753206078,TWh,IEA
+country,Slovenia,1993,3.9560000000000004,0.3311568725933367,TWh,IEA
+country,Italy,1991,0,0,TWh,IEA
+country,Belarus,2015,0,0,TWh,IEA
+country,Peru,2002,0,0,TWh,IEA
+country,Jordan,2001,0,0,TWh,IEA
+country,Poland,1996,0,0,TWh,IEA
+country,Cyprus,1997,0,0,TWh,IEA
+country,Azerbaijan,1998,0,0,TWh,IEA
+country,Jordan,1999,0,0,TWh,IEA
+country,Senegal,2009,0,0,TWh,IEA
+country,Spain,2005,57.538999999999994,0.1990397221559206,TWh,IEA
+country,Peru,2008,0,0,TWh,IEA
+country,China,1993,1.604,0.0019131702208614273,TWh,IEA
+country,Bolivia,1992,0,0,TWh,IEA
+country,Brunei Darussalam,2012,0,0,TWh,IEA
+country,Dominican Republic,2016,0,0,TWh,IEA
+country,Australia,1998,0,0,TWh,IEA
+country,Cameroon,2008,0,0,TWh,IEA
+country,Gabon,1994,0,0,TWh,IEA
+country,Denmark,1995,0,0,TWh,IEA
+country,Congo,1998,0,0,TWh,IEA
+country,France,2015,437.42800000000005,0.7679227561992541,TWh,IEA
+country,Greece,2011,0,0,TWh,IEA
+country,Zambia,2001,0,0,TWh,IEA
+country,Serbia,1991,0,0,TWh,IEA
+country,Albania,2012,0,0,TWh,IEA
+country,Dominican Republic,2008,0,0,TWh,IEA
+country,Greece,1992,0,0,TWh,IEA
+country,Tajikistan,1997,0,0,TWh,IEA
+country,France,2003,441.07,0.7781235555837822,TWh,IEA
+country,Paraguay,2003,0,0,TWh,IEA
+country,Qatar,2011,0,0,TWh,IEA
+country,Lebanon,2006,0,0,TWh,IEA
+country,Cameroon,2007,0,0,TWh,IEA
+country,Poland,2016,0,0,TWh,IEA
+country,Togo,1992,0,0,TWh,IEA
+country,Pakistan,2016,4.869,0.042709402384147784,TWh,IEA
+country,Indonesia,2007,0,0,TWh,IEA
+country,Paraguay,2011,0,0,TWh,IEA
+country,Singapore,1995,0,0,TWh,IEA
+country,Peru,2015,0,0,TWh,IEA
+country,Egypt,2004,0,0,TWh,IEA
+country,Lithuania,1999,9.862,0.7318195310181063,TWh,IEA
+country,Brazil,2015,14.734000000000002,0.025348293884685395,TWh,IEA
+country,Australia,2013,0,0,TWh,IEA
+country,Paraguay,1990,0,0,TWh,IEA
+country,Brunei Darussalam,1992,0,0,TWh,IEA
+country,Qatar,2003,0,0,TWh,IEA
+country,Ethiopia,1997,0,0,TWh,IEA
+country,Lebanon,2005,0,0,TWh,IEA
+country,Lebanon,2010,0,0,TWh,IEA
+country,Guatemala,2004,0,0,TWh,IEA
+country,Bolivia,2005,0,0,TWh,IEA
+country,Yemen,2011,0,0,TWh,IEA
+country,Brunei Darussalam,2014,0,0,TWh,IEA
+country,Zimbabwe,1997,0,0,TWh,IEA
+country,Israel,1997,0,0,TWh,IEA
+country,Japan,2009,279.75,0.2690661888397404,TWh,IEA
+group,OECD,2005,2150.868,0.21714917428275043,TWh,IEA
+country,Uruguay,1992,0,0,TWh,IEA
+country,Georgia,2008,0,0,TWh,IEA
+country,Mauritius,1995,0,0,TWh,IEA
+country,Israel,2004,0,0,TWh,IEA
+country,Denmark,2015,0,0,TWh,IEA
+country,NZ,2014,0,0,TWh,IEA
+group,OPEC,1994,0,0,TWh,IEA
+group,EU28,2012,852.042,0.2662488141262407,TWh,IEA
+country,Qatar,1995,0,0,TWh,IEA
+zone,World,1994,2111.437,0.17675618981142402,TWh,IEA
+country,Slovakia,2002,17.953,0.553985250100287,TWh,IEA
+country,Uzbekistan,2006,0,0,TWh,IEA
+country,Dominican Republic,1999,0,0,TWh,IEA
+country,Bangladesh,2015,0,0,TWh,IEA
+country,Sweden,1991,76.76100000000001,0.5207807538874868,TWh,IEA
+country,Mozambique,1999,0,0,TWh,IEA
+country,Benin,2007,0,0,TWh,IEA
+country,Azerbaijan,2007,0,0,TWh,IEA
+country,Portugal,2015,0,0,TWh,IEA
+country,Egypt,1991,0,0,TWh,IEA
+country,South Africa,2008,13.004000000000001,0.050346314815460085,TWh,IEA
+country,Ghana,2007,0,0,TWh,IEA
+country,Malaysia,2008,0,0,TWh,IEA
+country,Bulgaria,1996,18.082,0.42330742578893155,TWh,IEA
+country,NZ,2013,0,0,TWh,IEA
+country,Kyrgyzstan,2012,0,0,TWh,IEA
+country,Gabon,1998,0,0,TWh,IEA
+zone,Central and South America,2002,19.657,0.029111173969513012,TWh,IEA
+country,Tajikistan,2005,0,0,TWh,IEA
+country,France,1996,397.34,0.7739414645168077,TWh,IEA
+country,Oman,2005,0,0,TWh,IEA
+country,Kenya,1994,0,0,TWh,IEA
+country,Greece,2007,0,0,TWh,IEA
+country,Montenegro,2013,0,0,TWh,IEA
+country,Mauritius,2000,0,0,TWh,IEA
+zone,Eurasia,1990,211.517,0.12460287865479765,TWh,IEA
+country,Tajikistan,2003,0,0,TWh,IEA
+country,Hungary,2009,15.425999999999998,0.42959786120084653,TWh,IEA
+zone,Asia and Oceania,2003,302.895,0.07073695390765651,TWh,IEA
+country,United States of America,2013,822.0039999999999,0.19107418267951176,TWh,IEA
+country,Kenya,2004,0,0,TWh,IEA
+country,Estonia,1998,0,0,TWh,IEA
+country,Denmark,1997,0,0,TWh,IEA
+country,Belgium,2006,46.645,0.546443926383243,TWh,IEA
+country,Nepal,1995,0,0,TWh,IEA
+country,Australia,2016,0,0,TWh,IEA
+country,Iceland,1996,0,0,TWh,IEA
+country,Malta,1992,0,0,TWh,IEA
+country,Azerbaijan,2010,0,0,TWh,IEA
+country,Italy,2009,0,0,TWh,IEA
+country,Colombia,2010,0,0,TWh,IEA
+country,Canada,1992,80.58200000000002,0.15484924767962494,TWh,IEA
+country,Oman,2010,0,0,TWh,IEA
+country,Algeria,1998,0,0,TWh,IEA
+country,Georgia,2011,0,0,TWh,IEA
+country,Argentina,2011,6.371,0.04904844024266314,TWh,IEA
+zone,Africa,2015,12.237,0.016228797262708382,TWh,IEA
+country,Gabon,2002,0,0,TWh,IEA
+zone,Middle East,2015,0,0,TWh,IEA
+country,Turkey,2011,0,0,TWh,IEA
+group,OECD,1990,1635.723,0.22189813639116251,TWh,IEA
+country,Cuba,2008,0,0,TWh,IEA
+country,Georgia,1994,0,0,TWh,IEA
+zone,World,2003,2413.428,0.15762033285234892,TWh,IEA
+country,Estonia,1992,0,0,TWh,IEA
+country,Austria,1992,0,0,TWh,IEA
+country,Greece,2013,0,0,TWh,IEA
+country,Sweden,2010,57.828,0.3892490054724258,TWh,IEA
+country,Lithuania,2015,0,0,TWh,IEA
+country,Spain,2008,58.973,0.18814104915919871,TWh,IEA
+country,Bahrain,1990,0,0,TWh,IEA
+country,Belgium,2011,48.233999999999995,0.5352969247672211,TWh,IEA
+country,Brunei Darussalam,2015,0,0,TWh,IEA
+country,Sweden,1992,63.544,0.4338510907042637,TWh,IEA
+country,Senegal,1996,0,0,TWh,IEA
+country,Chile,1997,0,0,TWh,IEA
+country,Serbia,1999,0,0,TWh,IEA
+country,Mexico,2004,9.193999999999999,0.03869805499551736,TWh,IEA
+country,Eritrea,2006,0,0,TWh,IEA
+country,Benin,1993,0,0,TWh,IEA
+country,Senegal,2007,0,0,TWh,IEA
+country,Cyprus,2001,0,0,TWh,IEA
+country,Botswana,1991,0,0,TWh,IEA
+country,Romania,2001,5.446000000000001,0.10110273642000521,TWh,IEA
+country,Belarus,2009,0,0,TWh,IEA
+country,Burma,2011,0,0,TWh,IEA
+country,Eritrea,1997,0,0,TWh,IEA
+country,Zambia,1993,0,0,TWh,IEA
+country,Bolivia,1995,0,0,TWh,IEA
+country,Peru,2000,0,0,TWh,IEA
+country,Libya,1993,0,0,TWh,IEA
+country,Spain,2004,63.606,0.22958807987178934,TWh,IEA
+group,EU28,2016,815.5799999999999,0.2574662627584038,TWh,IEA
+country,Nicaragua,2002,0,0,TWh,IEA
+country,El Salvador,2010,0,0,TWh,IEA
+country,Burma,2002,0,0,TWh,IEA
+country,Angola,2013,0,0,TWh,IEA
+country,Norway,2008,0,0,TWh,IEA
+country,Norway,2005,0,0,TWh,IEA
+country,Kuwait,1991,0,0,TWh,IEA
+country,Jordan,1994,0,0,TWh,IEA
+country,Gabon,1992,0,0,TWh,IEA
+country,Poland,1990,0,0,TWh,IEA
+country,Portugal,2004,0,0,TWh,IEA
+country,Yemen,1992,0,0,TWh,IEA
+country,Burma,2000,0,0,TWh,IEA
+country,Iceland,1991,0,0,TWh,IEA
+country,Greece,2014,0,0,TWh,IEA
+country,Estonia,2014,0,0,TWh,IEA
+country,Belgium,1997,47.408,0.6013725216597111,TWh,IEA
+country,Netherlands,2010,3.969,0.033320460727358205,TWh,IEA
+country,Bahrain,2006,0,0,TWh,IEA
+country,Nicaragua,2013,0,0,TWh,IEA
+country,Belgium,1992,43.456,0.6016753201799929,TWh,IEA
+country,Bahrain,2011,0,0,TWh,IEA
+country,Namibia,2000,0,0,TWh,IEA
+country,Lebanon,2004,0,0,TWh,IEA
+country,Uzbekistan,1996,0,0,TWh,IEA
+country,Greece,2008,0,0,TWh,IEA
+country,Mexico,2002,9.747,0.04466572877954001,TWh,IEA
+group,EU28,2005,972.971,0.3013747807766099,TWh,IEA
+country,Australia,2005,0,0,TWh,IEA
+country,Morocco,1999,0,0,TWh,IEA
+country,Botswana,2004,0,0,TWh,IEA
+country,Sudan,2011,0,0,TWh,IEA
+country,Botswana,2003,0,0,TWh,IEA
+country,Turkey,2009,0,0,TWh,IEA
+country,Oman,1994,0,0,TWh,IEA
+country,Paraguay,2006,0,0,TWh,IEA
+zone,Europe,1997,913.1039999999999,0.30186234132543793,TWh,IEA
+country,Portugal,1991,0,0,TWh,IEA
+country,Ivory Coast,2005,0,0,TWh,IEA
+country,Estonia,2006,0,0,TWh,IEA
+country,Eritrea,1992,0,0,TWh,IEA
+country,Slovenia,2002,5.5280000000000005,0.37868201123441564,TWh,IEA
+country,Chile,2014,0,0,TWh,IEA
+country,Hungary,1995,14.026,0.4123111294020813,TWh,IEA
+country,Sudan,2008,0,0,TWh,IEA
+country,Thailand,1997,0,0,TWh,IEA
+country,Chile,2011,0,0,TWh,IEA
+country,Austria,2003,0,0,TWh,IEA
+country,Dominican Republic,2005,0,0,TWh,IEA
+zone,Africa,2006,10.026,0.01774164721621062,TWh,IEA
+country,Russian Federation & USSR,2002,141.629,0.1589042786538537,TWh,IEA
+country,Japan,2001,319.858,0.3097967315494679,TWh,IEA
+country,Eritrea,2007,0,0,TWh,IEA
+country,Austria,1999,0,0,TWh,IEA
+country,Yemen,2015,0,0,TWh,IEA
+country,Morocco,2005,0,0,TWh,IEA
+country,Cuba,2013,0,0,TWh,IEA
+country,Spain,2006,60.12600000000001,0.20100626828249063,TWh,IEA
+country,Slovenia,2004,5.4590000000000005,0.3574749525243927,TWh,IEA
+country,Jamaica,2014,0,0,TWh,IEA
+country,Tajikistan,1992,0,0,TWh,IEA
+country,Ethiopia,2011,0,0,TWh,IEA
+country,Croatia,1990,0,0,TWh,IEA
+country,Kazakhstan,2009,0,0,TWh,IEA
+country,Belgium,1993,41.927,0.5919050173645427,TWh,IEA
+country,United Kingdom,1990,65.749,0.20563463096232212,TWh,IEA
+country,Gabon,2014,0,0,TWh,IEA
+country,Armenia,2013,2.36,0.30609597924773024,TWh,IEA
+country,United States of America,1997,666.363,0.18020876603146585,TWh,IEA
+country,Tajikistan,2011,0,0,TWh,IEA
+country,Finland,1993,19.928,0.32626598339854945,TWh,IEA
+country,Tunisia,1995,0,0,TWh,IEA
+country,Angola,1994,0,0,TWh,IEA
+country,Iraq,2000,0,0,TWh,IEA
+country,Indonesia,2012,0,0,TWh,IEA
+country,Serbia,2014,0,0,TWh,IEA
+country,Kyrgyzstan,1996,0,0,TWh,IEA
+country,Russian Federation & USSR,2012,177.53400000000002,0.1658058864293092,TWh,IEA
+country,Mauritius,1994,0,0,TWh,IEA
+country,Israel,1990,0,0,TWh,IEA
+country,Gabon,2003,0,0,TWh,IEA
+country,Jordan,2005,0,0,TWh,IEA
+country,Kosovo,2013,0,0,TWh,IEA
+country,Bulgaria,2016,15.776,0.3486948257188957,TWh,IEA
+zone,Eurasia,1999,205.879,0.16805173158282677,TWh,IEA
+zone,World,1996,2267.489,0.17834954257348115,TWh,IEA
+country,Cameroon,2002,0,0,TWh,IEA
+country,Kuwait,2004,0,0,TWh,IEA
+country,Cyprus,1993,0,0,TWh,IEA
+country,Sweden,2014,64.877,0.4222058804388853,TWh,IEA
+country,Pakistan,2007,3.077,0.032165668349693186,TWh,IEA
+country,El Salvador,2013,0,0,TWh,IEA
+country,Ivory Coast,1992,0,0,TWh,IEA
+country,Mexico,1997,10.456,0.06242648946523139,TWh,IEA
+country,Cambodia,1997,0,0,TWh,IEA
+country,Mongolia,1995,0,0,TWh,IEA
+country,Iraq,2013,0,0,TWh,IEA
+country,Iraq,2006,0,0,TWh,IEA
+country,Turkey,2007,0,0,TWh,IEA
+country,Iraq,2004,0,0,TWh,IEA
+country,Georgia,1990,0,0,TWh,IEA
+country,Ireland,2000,0,0,TWh,IEA
+country,Guatemala,2005,0,0,TWh,IEA
+country,Ghana,2000,0,0,TWh,IEA
+country,El Salvador,2005,0,0,TWh,IEA
+country,NZ,2016,0,0,TWh,IEA
+country,Singapore,1996,0,0,TWh,IEA
+country,Mongolia,1996,0,0,TWh,IEA
+country,Malaysia,1996,0,0,TWh,IEA
+country,Benin,1996,0,0,TWh,IEA
+country,Congo,2015,0,0,TWh,IEA
+country,Latvia,1994,0,0,TWh,IEA
+country,Greece,1995,0,0,TWh,IEA
+country,Botswana,1997,0,0,TWh,IEA
+country,Sudan,2015,0,0,TWh,IEA
+zone,Africa,1996,11.775,0.0318847329670538,TWh,IEA
+country,Malaysia,2003,0,0,TWh,IEA
+country,Angola,2011,0,0,TWh,IEA
+country,Burma,1993,0,0,TWh,IEA
+country,Iceland,2012,0,0,TWh,IEA
+country,Egypt,2002,0,0,TWh,IEA
+zone,Eurasia,2012,269.982,0.17513796277616073,TWh,IEA
+country,Mexico,2001,8.726,0.04077798755070378,TWh,IEA
+country,Argentina,2001,7.059,0.0783132530120482,TWh,IEA
+country,Italy,2005,0,0,TWh,IEA
+country,Jordan,1990,0,0,TWh,IEA
+country,Cameroon,1991,0,0,TWh,IEA
+country,Germany,2016,84.634,0.13076320509987935,TWh,IEA
+country,Thailand,1999,0,0,TWh,IEA
+country,Paraguay,2012,0,0,TWh,IEA
+country,Jamaica,2000,0,0,TWh,IEA
+country,Hungary,1997,13.968,0.3946097126875158,TWh,IEA
+country,Gabon,2012,0,0,TWh,IEA
+country,Estonia,2013,0,0,TWh,IEA
+country,China,1997,14.418,0.012693152846055242,TWh,IEA
+country,Turkey,2006,0,0,TWh,IEA
+country,Gabon,2010,0,0,TWh,IEA
+country,Tunisia,2005,0,0,TWh,IEA
+country,Togo,1997,0,0,TWh,IEA
+country,Mozambique,2003,0,0,TWh,IEA
+zone,Europe,2006,955.1800000000001,0.2651669098524674,TWh,IEA
+country,Turkey,1996,0,0,TWh,IEA
+country,Kyrgyzstan,2010,0,0,TWh,IEA
+country,Germany,1990,152.468,0.27720698526403825,TWh,IEA
+country,Sweden,1997,69.928,0.4685324524787436,TWh,IEA
+country,Pakistan,2011,5.265,0.0553685981701546,TWh,IEA
+country,Serbia,2000,0,0,TWh,IEA
+country,Ivory Coast,2002,0,0,TWh,IEA
+country,Argentina,1991,7.756,0.1440163401726859,TWh,IEA
+country,Honduras,2016,0,0,TWh,IEA
+country,Haiti,1996,0,0,TWh,IEA
+group,EU28,2010,888.612,0.27161563269601613,TWh,IEA
+country,Canada,2011,93.589,0.14824524165547306,TWh,IEA
+country,Botswana,2008,0,0,TWh,IEA
+country,Yemen,1997,0,0,TWh,IEA
+country,Jamaica,2007,0,0,TWh,IEA
+group,Persian Gulf,2003,0,0,TWh,IEA
+country,Tunisia,2008,0,0,TWh,IEA
+country,Montenegro,2008,0,0,TWh,IEA
+country,Singapore,1999,0,0,TWh,IEA
+country,Kyrgyzstan,2009,0,0,TWh,IEA
+country,Ireland,1991,0,0,TWh,IEA
+zone,Eurasia,2006,257.952,0.17917066055428216,TWh,IEA
+country,Tunisia,2010,0,0,TWh,IEA
+country,Eritrea,2014,0,0,TWh,IEA
+country,Zambia,1996,0,0,TWh,IEA
+country,Pakistan,2000,1.9969999999999999,0.029317634623289682,TWh,IEA
+country,United States of America,1995,713.806,0.19926948165245437,TWh,IEA
+country,Paraguay,2015,0,0,TWh,IEA
+country,China,1999,14.949000000000002,0.012056354930572525,TWh,IEA
+country,France,2013,423.685,0.7393314894470958,TWh,IEA
+country,Jamaica,1995,0,0,TWh,IEA
+country,Thailand,1995,0,0,TWh,IEA
+country,Mozambique,2000,0,0,TWh,IEA
+zone,Eurasia,2008,265.28100000000006,0.17791293780582026,TWh,IEA
+country,Spain,2011,57.718,0.1965356497103961,TWh,IEA
+country,Panama,1993,0,0,TWh,IEA
+country,Iraq,1999,0,0,TWh,IEA
+country,Finland,2015,23.245,0.34009275922105664,TWh,IEA
+zone,Middle East,2005,0,0,TWh,IEA
+country,Sudan,1991,0,0,TWh,IEA
+country,Bahrain,2016,0,0,TWh,IEA
+country,Nicaragua,1991,0,0,TWh,IEA
+country,Malta,1991,0,0,TWh,IEA
+country,Honduras,2004,0,0,TWh,IEA
+zone,North America,1990,687.493,0.1801318447522802,TWh,IEA
+country,Portugal,1998,0,0,TWh,IEA
+country,Uzbekistan,2015,0,0,TWh,IEA
+country,Qatar,2002,0,0,TWh,IEA
+country,Mauritius,2009,0,0,TWh,IEA
+country,Russian Federation & USSR,2004,144.707,0.155287514822426,TWh,IEA
+country,Kyrgyzstan,2003,0,0,TWh,IEA
+country,Kosovo,2007,0,0,TWh,IEA
+country,Iraq,2005,0,0,TWh,IEA
+country,Gibraltar,2011,0,0,TWh,IEA
+country,Niger,2001,0,0,TWh,IEA
+country,Singapore,2010,0,0,TWh,IEA
+country,Ivory Coast,2009,0,0,TWh,IEA
+country,Cambodia,2001,0,0,TWh,IEA
+zone,Central and South America,2009,21.118000000000002,0.023522125924350042,TWh,IEA
+country,Kenya,1997,0,0,TWh,IEA
+country,Cameroon,2004,0,0,TWh,IEA
+country,Cameroon,2003,0,0,TWh,IEA
+country,Niger,2013,0,0,TWh,IEA
+country,Niger,2002,0,0,TWh,IEA
+country,Russian Federation & USSR,1999,121.874,0.14402062805917096,TWh,IEA
+country,Uzbekistan,1997,0,0,TWh,IEA
+country,Russian Federation & USSR,2010,170.415,0.16417155573538336,TWh,IEA
+country,Mongolia,2013,0,0,TWh,IEA
+country,Burma,1990,0,0,TWh,IEA
+country,Zimbabwe,1992,0,0,TWh,IEA
+country,Algeria,2013,0,0,TWh,IEA
+country,Ivory Coast,1993,0,0,TWh,IEA
+country,Croatia,2014,0,0,TWh,IEA
+country,Netherlands,1991,3.3289999999999997,0.04482716830723241,TWh,IEA
+country,Guatemala,2009,0,0,TWh,IEA
+group,OECD,1993,1814.4680000000003,0.2333162741774958,TWh,IEA
+country,Kosovo,2004,0,0,TWh,IEA
+country,Malaysia,2001,0,0,TWh,IEA
+country,Gabon,1991,0,0,TWh,IEA
+country,Zambia,2009,0,0,TWh,IEA
+country,Croatia,1995,0,0,TWh,IEA
+country,NZ,2008,0,0,TWh,IEA
+country,Togo,1991,0,0,TWh,IEA
+country,Jamaica,2001,0,0,TWh,IEA
+country,Angola,1999,0,0,TWh,IEA
+country,Kenya,2005,0,0,TWh,IEA
+country,Libya,1996,0,0,TWh,IEA
+country,Nepal,1997,0,0,TWh,IEA
+zone,World,2004,2514.5239999999994,0.15719799268612764,TWh,IEA
+country,Chile,2010,0,0,TWh,IEA
+zone,Europe,2000,922.984,0.2839722717652521,TWh,IEA
+country,Israel,2011,0,0,TWh,IEA
+group,EU28,1999,930.027,0.3220027435222201,TWh,IEA
+country,Malta,1999,0,0,TWh,IEA
+country,El Salvador,1999,0,0,TWh,IEA
+country,Hungary,2015,15.834000000000001,0.5229366887942136,TWh,IEA
+country,Bulgaria,1998,16.899,0.4051449257989499,TWh,IEA
+country,Kenya,2008,0,0,TWh,IEA
+country,Haiti,2016,0,0,TWh,IEA
+country,Romania,2014,11.675999999999998,0.17778183811437964,TWh,IEA
+country,Greece,1996,0,0,TWh,IEA
+country,Kosovo,2011,0,0,TWh,IEA
+country,Uzbekistan,2016,0,0,TWh,IEA
+country,Uzbekistan,2013,0,0,TWh,IEA
+country,Mozambique,2011,0,0,TWh,IEA
+country,Slovakia,1993,11.485999999999999,0.46992881106292445,TWh,IEA
+country,Portugal,1999,0,0,TWh,IEA
+country,Ecuador,1997,0,0,TWh,IEA
+country,Belgium,2002,47.36,0.5770753877834505,TWh,IEA
+country,Cameroon,2015,0,0,TWh,IEA
+country,Tunisia,1991,0,0,TWh,IEA
+country,Portugal,2001,0,0,TWh,IEA
+country,Cambodia,2013,0,0,TWh,IEA
+country,Bahrain,2005,0,0,TWh,IEA
+country,Ireland,2015,0,0,TWh,IEA
+zone,World,2008,2487.049,0.13538182447447222,TWh,IEA
+zone,Asia and Oceania,1996,325.95500000000004,0.10853000453158677,TWh,IEA
+country,Canada,2002,75.52600000000001,0.12561099940292947,TWh,IEA
+country,Kazakhstan,1996,0,0,TWh,IEA
+country,Togo,2012,0,0,TWh,IEA
+country,Argentina,2012,6.3950000000000005,0.04700201384703582,TWh,IEA
+country,United States of America,2015,830.288,0.19256890821847178,TWh,IEA
+country,Australia,2000,0,0,TWh,IEA
+country,Bolivia,2009,0,0,TWh,IEA
+country,Tajikistan,1996,0,0,TWh,IEA
+country,Serbia,2001,0,0,TWh,IEA
+zone,World,2013,2237.402,0.10557525462445767,TWh,IEA
+country,South Africa,1991,9.144,0.054326386083319474,TWh,IEA
+group,Persian Gulf,2009,0,0,TWh,IEA
+country,Haiti,1994,0,0,TWh,IEA
+country,Dominican Republic,2011,0,0,TWh,IEA
+country,United Kingdom,2012,70.405,0.193484647369043,TWh,IEA
+country,Georgia,1997,0,0,TWh,IEA
+zone,North America,2006,925.0250000000001,0.1789729320913786,TWh,IEA
+country,Ukraine,2014,88.389,0.48348083886707,TWh,IEA
+country,Jordan,2011,0,0,TWh,IEA
+country,Finland,2008,22.958,0.29814035634512487,TWh,IEA
+country,India,2000,16.902,0.029668871382230275,TWh,IEA
+country,Peru,2006,0,0,TWh,IEA
+country,Iceland,2004,0,0,TWh,IEA
+country,Finland,2013,23.605999999999998,0.332628790440762,TWh,IEA
+country,Burma,1999,0,0,TWh,IEA
+country,Mozambique,2006,0,0,TWh,IEA
+country,Cyprus,1996,0,0,TWh,IEA
+country,Denmark,1998,0,0,TWh,IEA
+country,Libya,1999,0,0,TWh,IEA
+country,Guatemala,1990,0,0,TWh,IEA
+country,Togo,2000,0,0,TWh,IEA
+country,Netherlands,2015,4.077,0.03709061135371179,TWh,IEA
+country,Algeria,2016,0,0,TWh,IEA
+country,Kazakhstan,2007,0,0,TWh,IEA
+country,Gibraltar,2013,0,0,TWh,IEA
+country,Botswana,2010,0,0,TWh,IEA
+group,EU28,2000,931.4029999999998,0.3146904984655762,TWh,IEA
+country,Morocco,1991,0,0,TWh,IEA
+country,Estonia,2001,0,0,TWh,IEA
+country,Tajikistan,2000,0,0,TWh,IEA
+country,Burma,1992,0,0,TWh,IEA
+country,Belarus,2014,0,0,TWh,IEA
+country,Croatia,1997,0,0,TWh,IEA
+country,Malaysia,1998,0,0,TWh,IEA
+country,Congo,1993,0,0,TWh,IEA
+country,Bulgaria,1991,13.184,0.32264695805393767,TWh,IEA
+country,South Africa,2001,10.719000000000001,0.051018562589243234,TWh,IEA
+country,Uruguay,1991,0,0,TWh,IEA
+country,United States of America,1998,714.1239999999999,0.18643154960110833,TWh,IEA
+country,Suriname,2011,0,0,TWh,IEA
+country,Suriname,2004,0,0,TWh,IEA
+country,Kazakhstan,1997,0,0,TWh,IEA
+zone,Europe,2011,878.466,0.24392340647431376,TWh,IEA
+zone,Europe,2001,952.875,0.28826719612334134,TWh,IEA
+country,Thailand,2007,0,0,TWh,IEA
+zone,North America,2008,943.6279999999999,0.1790955261040686,TWh,IEA
+country,Romania,2008,11.225999999999999,0.17282468132274156,TWh,IEA
+zone,North America,2011,925.083,0.17522376434764456,TWh,IEA
+zone,Central and South America,2000,12.223,0.018162420150286115,TWh,IEA
+country,Mexico,2005,10.805,0.0430876347859376,TWh,IEA
+country,Panama,1990,0,0,TWh,IEA
+country,Ecuador,2012,0,0,TWh,IEA
+country,Zambia,2012,0,0,TWh,IEA
+country,Poland,2004,0,0,TWh,IEA
+country,Nepal,2001,0,0,TWh,IEA
+country,Spain,2010,61.99,0.20569536248042258,TWh,IEA
+country,Lebanon,2000,0,0,TWh,IEA
+country,Cuba,2001,0,0,TWh,IEA
+country,Greece,1991,0,0,TWh,IEA
+country,Serbia,1993,0,0,TWh,IEA
+country,Egypt,1998,0,0,TWh,IEA
+country,Dominican Republic,2003,0,0,TWh,IEA
+country,Togo,2016,0,0,TWh,IEA
+country,Denmark,2010,0,0,TWh,IEA
+country,Spain,1998,58.993,0.3022043041048313,TWh,IEA
+country,China,2006,54.843,0.01913603637741569,TWh,IEA
+country,Belgium,1996,43.336000000000006,0.5694687183800049,TWh,IEA
+country,Pakistan,2012,4.553,0.047365409622886864,TWh,IEA
+country,Ethiopia,2002,0,0,TWh,IEA
+country,France,1995,377.231,0.763202191497024,TWh,IEA
+country,Mexico,1992,3.9189999999999996,0.029496327071290948,TWh,IEA
+country,Qatar,2016,0,0,TWh,IEA
+country,Ivory Coast,2010,0,0,TWh,IEA
+group,OECD,1999,2066.377,0.23141987596768995,TWh,IEA
+country,Iraq,1995,0,0,TWh,IEA
+country,Guatemala,1995,0,0,TWh,IEA
+country,Chile,1992,0,0,TWh,IEA
+country,Netherlands,2009,4.248,0.037407208460651105,TWh,IEA
+country,Burma,2009,0,0,TWh,IEA
+country,Malta,1993,0,0,TWh,IEA
+country,Iraq,1992,0,0,TWh,IEA
+country,Nepal,1991,0,0,TWh,IEA
+country,Mexico,2009,10.501,0.03921883519947414,TWh,IEA
+country,Slovenia,2003,5.207000000000001,0.37677279305354555,TWh,IEA
+country,Guatemala,1997,0,0,TWh,IEA
+country,Suriname,2012,0,0,TWh,IEA
+country,Kenya,2001,0,0,TWh,IEA
+country,Croatia,2005,0,0,TWh,IEA
+country,China,1992,0,0,TWh,IEA
+country,Slovenia,1994,4.609,0.35742535866614966,TWh,IEA
+zone,North America,2016,951.6279999999999,0.1794131537494945,TWh,IEA
+country,Malaysia,2009,0,0,TWh,IEA
+country,Croatia,2008,0,0,TWh,IEA
+country,Bulgaria,2003,17.28,0.40563380281690137,TWh,IEA
+country,Lithuania,1994,7.706,0.7706770677067707,TWh,IEA
+country,Ireland,1993,0,0,TWh,IEA
+country,Cuba,2011,0,0,TWh,IEA
+country,Mauritius,2013,0,0,TWh,IEA
+country,Kyrgyzstan,1990,0,0,TWh,IEA
+country,Ethiopia,2005,0,0,TWh,IEA
+country,Armenia,1998,1.589,0.2566628977548054,TWh,IEA
+country,United States of America,2002,804.5189999999999,0.19861008317974024,TWh,IEA
+group,OECD,1991,1724.597,0.228470620622192,TWh,IEA
+country,Australia,2006,0,0,TWh,IEA
+country,Belarus,1990,0,0,TWh,IEA
+country,Bangladesh,1996,0,0,TWh,IEA
+country,Italy,2011,0,0,TWh,IEA
+country,Guatemala,2000,0,0,TWh,IEA
+country,Bulgaria,1993,13.972999999999999,0.3677395583861884,TWh,IEA
+country,France,1994,359.981,0.7548860481307196,TWh,IEA
+country,Colombia,2015,0,0,TWh,IEA
+country,Romania,1993,0,0,TWh,IEA
+country,Australia,2008,0,0,TWh,IEA
+zone,Middle East,2009,0,0,TWh,IEA
+country,Canada,2016,101.14299999999999,0.15157005373878693,TWh,IEA
+zone,Europe,2014,845.9730000000001,0.23971420394492635,TWh,IEA
+country,Israel,2002,0,0,TWh,IEA
+country,Hungary,1996,14.18,0.4041037332573383,TWh,IEA
+country,South Africa,1995,11.300999999999998,0.060544855482039056,TWh,IEA
+country,Ecuador,2008,0,0,TWh,IEA
+country,Burma,2004,0,0,TWh,IEA
+country,Togo,2010,0,0,TWh,IEA
+country,Argentina,1999,7.106,0.08800653918557415,TWh,IEA
+country,Gabon,2004,0,0,TWh,IEA
+country,Singapore,1994,0,0,TWh,IEA
+country,Nigeria,1998,0,0,TWh,IEA
+country,Cameroon,2001,0,0,TWh,IEA
+country,Malaysia,2011,0,0,TWh,IEA
+country,Kazakhstan,2013,0,0,TWh,IEA
+country,Ukraine,2011,90.24799999999999,0.4629337053983626,TWh,IEA
+country,Egypt,1997,0,0,TWh,IEA
+country,Suriname,2000,0,0,TWh,IEA
+country,Jamaica,1997,0,0,TWh,IEA
+country,Haiti,2008,0,0,TWh,IEA
+country,Bulgaria,2014,15.867,0.33424617134671697,TWh,IEA
+country,Togo,2005,0,0,TWh,IEA
+country,Mexico,2013,11.8,0.03968707748397382,TWh,IEA
+country,Dominican Republic,1997,0,0,TWh,IEA
+country,Uzbekistan,2009,0,0,TWh,IEA
+zone,North America,2009,930.802,0.18383038661572307,TWh,IEA
+country,Uruguay,2014,0,0,TWh,IEA
+country,India,2004,17.011,0.024870210280544622,TWh,IEA
+country,Yemen,2013,0,0,TWh,IEA
+country,Uzbekistan,2000,0,0,TWh,IEA
+country,Nepal,2012,0,0,TWh,IEA
+country,Libya,2004,0,0,TWh,IEA
+country,Serbia,2003,0,0,TWh,IEA
+country,Paraguay,1992,0,0,TWh,IEA
+country,Iraq,1990,0,0,TWh,IEA
+country,Italy,1992,0,0,TWh,IEA
+country,Ecuador,2002,0,0,TWh,IEA
+zone,Middle East,1999,0,0,TWh,IEA
+country,Ukraine,2013,83.209,0.4280804827731676,TWh,IEA
+country,Sudan,2001,0,0,TWh,IEA
+country,Honduras,2000,0,0,TWh,IEA
+country,South Africa,1998,13.600999999999999,0.06622552027033608,TWh,IEA
+country,Georgia,2006,0,0,TWh,IEA
+zone,World,1990,1890.9279999999997,0.1700691535962811,TWh,IEA
+country,Iceland,2016,0,0,TWh,IEA
+country,Zambia,1997,0,0,TWh,IEA
+country,Iceland,1999,0,0,TWh,IEA
+country,Lithuania,2003,15.484000000000002,0.8014077946276073,TWh,IEA
+country,Ghana,2002,0,0,TWh,IEA
+country,Tunisia,2013,0,0,TWh,IEA
+country,Kenya,2012,0,0,TWh,IEA
+country,Hungary,2006,13.460999999999999,0.37538693215092445,TWh,IEA
+country,Ukraine,1993,75.243,0.32727723504388745,TWh,IEA
+country,Cambodia,2014,0,0,TWh,IEA
+country,Romania,2016,11.286,0.17335606654071242,TWh,IEA
+country,Togo,2013,0,0,TWh,IEA
+country,Greece,2015,0,0,TWh,IEA
+country,Albania,2014,0,0,TWh,IEA
+country,Dominican Republic,1992,0,0,TWh,IEA
+country,Qatar,1991,0,0,TWh,IEA
+country,Mongolia,2008,0,0,TWh,IEA
+zone,Eurasia,2014,271.611,0.17665181620109915,TWh,IEA
+country,Uruguay,2000,0,0,TWh,IEA
+country,Eritrea,1996,0,0,TWh,IEA
+country,Denmark,1993,0,0,TWh,IEA
+country,Algeria,1990,0,0,TWh,IEA
+country,Turkey,2002,0,0,TWh,IEA
+country,Israel,2005,0,0,TWh,IEA
+country,Congo,2001,0,0,TWh,IEA
+country,Brazil,2000,6.046,0.01734674554854851,TWh,IEA
+country,Kosovo,2015,0,0,TWh,IEA
+country,Italy,2015,0,0,TWh,IEA
+zone,Asia and Oceania,1992,230.56699999999998,0.09829414362718934,TWh,IEA
+country,Mozambique,1990,0,0,TWh,IEA
+group,OPEC,1993,0,0,TWh,IEA
+country,United Kingdom,2000,85.06299999999999,0.22559001137722803,TWh,IEA
+country,Senegal,2016,0,0,TWh,IEA
+country,Cuba,2006,0,0,TWh,IEA
+country,Singapore,2012,0,0,TWh,IEA
+country,Honduras,1999,0,0,TWh,IEA
+country,Egypt,1990,0,0,TWh,IEA
+country,Cambodia,2003,0,0,TWh,IEA
+country,Senegal,2005,0,0,TWh,IEA
+country,Zimbabwe,2015,0,0,TWh,IEA
+country,Portugal,2014,0,0,TWh,IEA
+country,Paraguay,1993,0,0,TWh,IEA
+country,Botswana,2007,0,0,TWh,IEA
+country,Armenia,1991,0,0,TWh,IEA
+country,Yemen,2014,0,0,TWh,IEA
+country,Paraguay,2000,0,0,TWh,IEA
+country,Croatia,1992,0,0,TWh,IEA
+country,Austria,2004,0,0,TWh,IEA
+country,Azerbaijan,2000,0,0,TWh,IEA
+country,Portugal,2007,0,0,TWh,IEA
+country,Bahrain,1992,0,0,TWh,IEA
+country,Jordan,2006,0,0,TWh,IEA
+country,Estonia,2005,0,0,TWh,IEA
+country,Cameroon,1997,0,0,TWh,IEA
+country,Turkey,2003,0,0,TWh,IEA
+country,Mauritius,2011,0,0,TWh,IEA
+country,Colombia,1995,0,0,TWh,IEA
+country,Australia,2003,0,0,TWh,IEA
+country,Georgia,2016,0,0,TWh,IEA
+country,Hungary,2005,13.834000000000001,0.386900100682403,TWh,IEA
+country,Zambia,2016,0,0,TWh,IEA
+country,Japan,2015,9.437000000000001,0.00920071640207823,TWh,IEA
+zone,Middle East,1996,0,0,TWh,IEA
+country,Benin,2005,0,0,TWh,IEA
+country,Armenia,2008,2.461,0.42651646447140384,TWh,IEA
+country,Spain,2016,58.633,0.21346629240072665,TWh,IEA
+group,OPEC,1997,0,0,TWh,IEA
+country,Thailand,2010,0,0,TWh,IEA
+country,Cameroon,2000,0,0,TWh,IEA
+country,Zambia,2000,0,0,TWh,IEA
+country,Canada,1996,92.76700000000001,0.16188573223509703,TWh,IEA
+country,Nepal,2011,0,0,TWh,IEA
+country,Kyrgyzstan,1995,0,0,TWh,IEA
+country,Israel,1993,0,0,TWh,IEA
+country,Serbia,2002,0,0,TWh,IEA
+country,Bulgaria,2007,14.642999999999999,0.3381989514285054,TWh,IEA
+group,EU28,2007,909.105,0.27660367484414317,TWh,IEA
+country,Nicaragua,2009,0,0,TWh,IEA
+country,Honduras,1997,0,0,TWh,IEA
+country,Russian Federation & USSR,2001,136.935,0.15363789768468858,TWh,IEA
+country,Slovenia,1998,5.042,0.36727855477855476,TWh,IEA
+country,Iraq,2012,0,0,TWh,IEA
+country,Armenia,1999,2.0780000000000003,0.3634773482595767,TWh,IEA
+country,Congo,2006,0,0,TWh,IEA
+country,Singapore,2008,0,0,TWh,IEA
+country,Pakistan,2015,4.605,0.04137540656615573,TWh,IEA
+country,Slovakia,1997,11.073,0.43685643271393065,TWh,IEA
+group,OECD,1992,1748.642,0.22970057149222445,TWh,IEA
+country,Russian Federation & USSR,2007,160.03900000000004,0.15762217912743903,TWh,IEA
+country,Senegal,1998,0,0,TWh,IEA
+country,Egypt,2006,0,0,TWh,IEA
+zone,Europe,1990,765.2449999999998,0.28269921235291867,TWh,IEA
+country,Ukraine,2006,90.225,0.4665660018305831,TWh,IEA
+country,Guatemala,2015,0,0,TWh,IEA
+country,Paraguay,2010,0,0,TWh,IEA
+country,El Salvador,2009,0,0,TWh,IEA
+zone,Middle East,2014,0,0,TWh,IEA
+country,Armenia,2002,2.282,0.4134807030259105,TWh,IEA
+group,OECD,1996,1993.0890000000002,0.23648963484806912,TWh,IEA
+country,Nicaragua,2000,0,0,TWh,IEA
+country,Eritrea,2016,0,0,TWh,IEA
+country,Jamaica,2016,0,0,TWh,IEA
+country,NZ,1994,0,0,TWh,IEA
+country,Iraq,2009,0,0,TWh,IEA
+country,Finland,2012,22.987,0.3279546881241796,TWh,IEA
+country,Albania,2010,0,0,TWh,IEA
+country,Peru,2016,0,0,TWh,IEA
+country,Ghana,2014,0,0,TWh,IEA
+country,Sudan,1994,0,0,TWh,IEA
+country,Thailand,2014,0,0,TWh,IEA
+country,Belarus,1995,0,0,TWh,IEA
+country,Norway,2016,0,0,TWh,IEA
+country,Cameroon,1993,0,0,TWh,IEA
+country,Indonesia,1992,0,0,TWh,IEA
+country,Denmark,2002,0,0,TWh,IEA
+country,Ecuador,2010,0,0,TWh,IEA
+country,Cyprus,2016,0,0,TWh,IEA
+country,Yemen,2001,0,0,TWh,IEA
+country,Yemen,2006,0,0,TWh,IEA
+country,Togo,2002,0,0,TWh,IEA
+country,Nicaragua,2016,0,0,TWh,IEA
+zone,North America,1997,759.3470000000001,0.17106524722613456,TWh,IEA
+country,Cameroon,2006,0,0,TWh,IEA
+country,Albania,1999,0,0,TWh,IEA
+country,United Kingdom,1996,94.671,0.2698186502654837,TWh,IEA
+country,Mongolia,2005,0,0,TWh,IEA
+country,United States of America,2011,821.405,0.1890297155021143,TWh,IEA
+country,Angola,2001,0,0,TWh,IEA
+country,Italy,2000,0,0,TWh,IEA
+country,Finland,2006,22.906,0.27913041358972485,TWh,IEA
+country,Bolivia,2015,0,0,TWh,IEA
+country,NZ,1990,0,0,TWh,IEA
+country,India,2006,18.802,0.02429877071637562,TWh,IEA
+group,EU28,2011,878.466,0.27406191387165735,TWh,IEA
+country,Romania,1998,5.307,0.09920367877972183,TWh,IEA
+country,Uruguay,2004,0,0,TWh,IEA
+country,Kyrgyzstan,2016,0,0,TWh,IEA
+country,Mozambique,2012,0,0,TWh,IEA
+country,Paraguay,2007,0,0,TWh,IEA
+country,Mozambique,2005,0,0,TWh,IEA
+group,Persian Gulf,1999,0,0,TWh,IEA
+country,Gabon,2011,0,0,TWh,IEA
+country,Uruguay,2007,0,0,TWh,IEA
+country,Slovenia,2009,5.739,0.3498750228616716,TWh,IEA
+country,Indonesia,2013,0,0,TWh,IEA
+country,Latvia,1995,0,0,TWh,IEA
+country,Armenia,1996,2.324,0.3739942066301899,TWh,IEA
+zone,Eurasia,1996,204.869,0.16407673449904975,TWh,IEA
+country,Ecuador,2004,0,0,TWh,IEA
+country,Canada,1999,73.491,0.1269151860959907,TWh,IEA
+country,Zambia,1991,0,0,TWh,IEA
+country,Portugal,2016,0,0,TWh,IEA
+country,Uruguay,2011,0,0,TWh,IEA
+country,Tunisia,2000,0,0,TWh,IEA
+country,Morocco,2015,0,0,TWh,IEA
+country,Panama,2008,0,0,TWh,IEA
+zone,Asia and Oceania,2008,343.067,0.05520057629088209,TWh,IEA
+country,Brunei Darussalam,2010,0,0,TWh,IEA
+country,Eritrea,2003,0,0,TWh,IEA
+country,Zimbabwe,1993,0,0,TWh,IEA
+country,Suriname,2016,0,0,TWh,IEA
+country,Haiti,1991,0,0,TWh,IEA
+country,Gibraltar,1997,0,0,TWh,IEA
+country,Gibraltar,2016,0,0,TWh,IEA
+group,EU28,2014,845.9730000000001,0.2731358448642204,TWh,IEA
+country,Israel,1996,0,0,TWh,IEA
+country,Lithuania,2010,0,0,TWh,IEA
+country,Argentina,2010,7.171,0.057096676592830874,TWh,IEA
+country,Uruguay,1994,0,0,TWh,IEA
+country,Turkey,2004,0,0,TWh,IEA
+country,Malaysia,1997,0,0,TWh,IEA
+country,Benin,2009,0,0,TWh,IEA
+country,Ethiopia,1992,0,0,TWh,IEA
+country,Serbia,2006,0,0,TWh,IEA
+country,Oman,2011,0,0,TWh,IEA
+country,Morocco,2009,0,0,TWh,IEA
+group,EU28,1994,845.7470000000001,0.3244717604022198,TWh,IEA
+country,Turkey,2000,0,0,TWh,IEA
+country,Sweden,2009,52.173,0.38157962100212817,TWh,IEA
+country,Zambia,2006,0,0,TWh,IEA
+country,Poland,1993,0,0,TWh,IEA
+country,Nepal,2015,0,0,TWh,IEA
+zone,World,1993,2062.032,0.176489000121452,TWh,IEA
+country,Denmark,2004,0,0,TWh,IEA
+country,Denmark,2003,0,0,TWh,IEA
+country,Angola,1993,0,0,TWh,IEA
+country,Kuwait,1995,0,0,TWh,IEA
+country,Angola,2010,0,0,TWh,IEA
+zone,Africa,2005,11.293,0.02092563459724685,TWh,IEA
+country,Nicaragua,1997,0,0,TWh,IEA
+country,Malta,1998,0,0,TWh,IEA
+country,Zimbabwe,2010,0,0,TWh,IEA
+country,Iraq,2011,0,0,TWh,IEA
+country,Lebanon,1995,0,0,TWh,IEA
+country,Nicaragua,2004,0,0,TWh,IEA
+country,South Africa,1990,8.449,0.05052443997942902,TWh,IEA
+country,NZ,2001,0,0,TWh,IEA
+country,Libya,2006,0,0,TWh,IEA
+zone,World,2009,2451.944,0.1343571523721072,TWh,IEA
+country,Finland,2014,23.58,0.3477670933868209,TWh,IEA
+zone,Central and South America,1994,8.29,0.01662095403073172,TWh,IEA
+country,Uruguay,2002,0,0,TWh,IEA
+country,Sudan,2009,0,0,TWh,IEA
+country,Japan,1990,202.27200000000002,0.2379858177056309,TWh,IEA
+country,Kazakhstan,1991,0,0,TWh,IEA
+group,OECD,2013,1761.542,0.1755502544595827,TWh,IEA
+country,South Africa,2011,13.502,0.051428745553024714,TWh,IEA
+country,Kazakhstan,2010,0,0,TWh,IEA
+group,OPEC,1995,0,0,TWh,IEA
+country,Bangladesh,1994,0,0,TWh,IEA
+country,Angola,1995,0,0,TWh,IEA
+zone,Eurasia,2009,259.854,0.1837245919906219,TWh,IEA
+country,Tunisia,2014,0,0,TWh,IEA
+country,Ireland,2012,0,0,TWh,IEA
+country,Yemen,1995,0,0,TWh,IEA
+country,Nepal,2010,0,0,TWh,IEA
+country,Argentina,2005,6.872999999999999,0.06499290780141843,TWh,IEA
+group,OECD,2010,2079.7810000000004,0.20546611240298365,TWh,IEA
+country,Malta,2015,0,0,TWh,IEA
+country,Montenegro,2006,0,0,TWh,IEA
+country,India,1993,5.398,0.014959331568956196,TWh,IEA
+country,Ethiopia,1995,0,0,TWh,IEA
+country,Croatia,2001,0,0,TWh,IEA
+country,Panama,1997,0,0,TWh,IEA
+country,Kuwait,1999,0,0,TWh,IEA
+country,Kenya,2010,0,0,TWh,IEA
+country,Benin,2011,0,0,TWh,IEA
+country,Libya,1997,0,0,TWh,IEA
+country,Serbia,1998,0,0,TWh,IEA
+country,Japan,2008,258.128,0.24029856720880802,TWh,IEA
+country,Congo,1991,0,0,TWh,IEA
+zone,Africa,1998,13.600999999999999,0.03466724441159229,TWh,IEA
+country,United States of America,1990,611.589,0.19001584840215735,TWh,IEA
+country,Namibia,1995,0,0,TWh,IEA
+country,Zambia,1999,0,0,TWh,IEA
+country,Chile,2006,0,0,TWh,IEA
+zone,Middle East,2012,0,0,TWh,IEA
+zone,Africa,2016,15.026,0.019567703002221656,TWh,IEA
+country,Yemen,2005,0,0,TWh,IEA
+country,Nigeria,1995,0,0,TWh,IEA
+country,Italy,2003,0,0,TWh,IEA
+country,Uruguay,2013,0,0,TWh,IEA
+country,Jordan,2010,0,0,TWh,IEA
+country,Cyprus,2013,0,0,TWh,IEA
+country,NZ,1998,0,0,TWh,IEA
+country,Iraq,1994,0,0,TWh,IEA
+country,Croatia,1994,0,0,TWh,IEA
+country,Jordan,2012,0,0,TWh,IEA
+country,Congo,2002,0,0,TWh,IEA
+country,Ivory Coast,1999,0,0,TWh,IEA
+country,Gibraltar,1999,0,0,TWh,IEA
+country,Mongolia,2006,0,0,TWh,IEA
+country,Eritrea,2005,0,0,TWh,IEA
+group,OECD,1994,1878.217,0.23544337087874412,TWh,IEA
+country,Kenya,1993,0,0,TWh,IEA
+country,Belarus,1992,0,0,TWh,IEA
+country,Ethiopia,1993,0,0,TWh,IEA
+country,Germany,2004,167.065,0.27148839635534566,TWh,IEA
+zone,Eurasia,2000,218.48000000000005,0.17357012000870714,TWh,IEA
+country,Indonesia,1991,0,0,TWh,IEA
+country,Chile,1991,0,0,TWh,IEA
+country,Armenia,2006,2.64,0.444369634741626,TWh,IEA
+country,Netherlands,1999,3.832,0.04427907836657346,TWh,IEA
+country,Botswana,1992,0,0,TWh,IEA
+country,Yemen,2007,0,0,TWh,IEA
+country,Uzbekistan,2005,0,0,TWh,IEA
+country,Oman,1996,0,0,TWh,IEA
+country,Malta,2016,0,0,TWh,IEA
+country,Sudan,2016,0,0,TWh,IEA
+country,Malta,1994,0,0,TWh,IEA
+country,Morocco,1997,0,0,TWh,IEA
+country,Botswana,1993,0,0,TWh,IEA
+country,India,2005,17.324,0.02420716098237142,TWh,IEA
+country,Greece,2000,0,0,TWh,IEA
+country,Ivory Coast,2001,0,0,TWh,IEA
+country,Ukraine,2009,82.92399999999999,0.4776205369228022,TWh,IEA
+country,Qatar,2001,0,0,TWh,IEA
+country,Armenia,1992,0,0,TWh,IEA
+country,United States of America,1993,646.987,0.1896610656410497,TWh,IEA
+country,Colombia,2001,0,0,TWh,IEA
+country,Brunei Darussalam,1994,0,0,TWh,IEA
+country,Jamaica,1994,0,0,TWh,IEA
+country,Senegal,2000,0,0,TWh,IEA
+country,United States of America,1999,771.811,0.1980262823673938,TWh,IEA
+country,Slovenia,2013,5.3,0.32913121778550575,TWh,IEA
+country,Austria,2015,0,0,TWh,IEA
+country,Panama,2005,0,0,TWh,IEA
+country,Cuba,1991,0,0,TWh,IEA
+country,France,2010,428.52099999999996,0.7529073802391263,TWh,IEA
+country,Spain,2003,61.875,0.2373171938464371,TWh,IEA
+country,Bangladesh,2009,0,0,TWh,IEA
+zone,Africa,1992,9.288,0.029621125143513203,TWh,IEA
+country,NZ,2012,0,0,TWh,IEA
+country,Mongolia,1992,0,0,TWh,IEA
+country,Ghana,1999,0,0,TWh,IEA
+zone,Europe,2005,962.6339999999999,0.2710041947017257,TWh,IEA
+country,Slovenia,2006,5.547999999999999,0.3670525967581872,TWh,IEA
+country,Cuba,2014,0,0,TWh,IEA
+country,Gibraltar,1991,0,0,TWh,IEA
+country,Namibia,2010,0,0,TWh,IEA
+country,Burma,1998,0,0,TWh,IEA
+country,Guatemala,2006,0,0,TWh,IEA
+country,Spain,2007,55.103,0.18082683573547556,TWh,IEA
+country,Greece,1997,0,0,TWh,IEA
+country,Pakistan,1998,0.28400000000000003,0.004340649263312344,TWh,IEA
+country,Sweden,2004,77.486,0.51069018243172,TWh,IEA
+country,Suriname,2006,0,0,TWh,IEA
+country,Uruguay,2010,0,0,TWh,IEA
+country,Uzbekistan,2008,0,0,TWh,IEA
+country,Qatar,2014,0,0,TWh,IEA
+country,Nigeria,2013,0,0,TWh,IEA
+country,Malaysia,1991,0,0,TWh,IEA
+country,Lithuania,2002,14.142000000000001,0.804299607575499,TWh,IEA
+country,Morocco,2004,0,0,TWh,IEA
+country,Zimbabwe,2012,0,0,TWh,IEA
+country,Mexico,1996,7.877999999999999,0.04995846307018155,TWh,IEA
+country,Slovakia,2013,15.72,0.5465354796092202,TWh,IEA
+country,Egypt,2005,0,0,TWh,IEA
+zone,North America,2004,912.92,0.1821573510523651,TWh,IEA
+country,Ethiopia,2007,0,0,TWh,IEA
+country,Angola,2007,0,0,TWh,IEA
+country,Mexico,2012,8.77,0.02854557527308708,TWh,IEA
+country,United Kingdom,1999,95.133,0.2584068536908668,TWh,IEA
+country,France,2001,421.07599999999996,0.7662461262421955,TWh,IEA
+country,Belgium,1995,41.356,0.5558004515643479,TWh,IEA
+country,Libya,2001,0,0,TWh,IEA
+country,Tunisia,1992,0,0,TWh,IEA
+country,Ivory Coast,2003,0,0,TWh,IEA
+country,Poland,2003,0,0,TWh,IEA
+country,Japan,1992,223.259,0.2527381217871289,TWh,IEA
+country,Togo,1995,0,0,TWh,IEA
+country,Armenia,2009,2.494,0.43978134367836363,TWh,IEA
+country,Bahrain,1993,0,0,TWh,IEA
+country,Burma,2007,0,0,TWh,IEA
+country,Bangladesh,1997,0,0,TWh,IEA
+country,Panama,1994,0,0,TWh,IEA
+country,Argentina,2006,7.691,0.07182748701856626,TWh,IEA
+country,Morocco,2003,0,0,TWh,IEA
+country,Bulgaria,1995,17.261,0.413051281437699,TWh,IEA
+country,Oman,1991,0,0,TWh,IEA
+country,Congo,2013,0,0,TWh,IEA
+country,Lithuania,1990,17.033,0.6004512285402052,TWh,IEA
+country,Canada,2014,107.28,0.16269187723496603,TWh,IEA
+country,Panama,2006,0,0,TWh,IEA
+country,El Salvador,2016,0,0,TWh,IEA
+country,Cameroon,2016,0,0,TWh,IEA
+country,France,2005,451.529,0.7838201443594615,TWh,IEA
+country,France,1992,338.445,0.7299752609249868,TWh,IEA
+country,Algeria,2008,0,0,TWh,IEA
+zone,North America,1999,855.304,0.18322378089168917,TWh,IEA
+country,Mozambique,2007,0,0,TWh,IEA
+country,Kyrgyzstan,1999,0,0,TWh,IEA
+country,Brunei Darussalam,2006,0,0,TWh,IEA
+country,Sudan,2013,0,0,TWh,IEA
+country,Mozambique,2008,0,0,TWh,IEA
+country,Malta,1996,0,0,TWh,IEA
+country,Kazakhstan,2011,0,0,TWh,IEA
+country,Kuwait,1993,0,0,TWh,IEA
+country,Mongolia,2004,0,0,TWh,IEA
+country,Chile,2001,0,0,TWh,IEA
+country,Honduras,2012,0,0,TWh,IEA
+country,Kuwait,2002,0,0,TWh,IEA
+country,Azerbaijan,1992,0,0,TWh,IEA
+group,OPEC,2002,0,0,TWh,IEA
+country,Tajikistan,1999,0,0,TWh,IEA
+country,Mozambique,2009,0,0,TWh,IEA
+country,Eritrea,2009,0,0,TWh,IEA
+country,Finland,2002,22.295,0.29838860783211546,TWh,IEA
+country,Eritrea,2015,0,0,TWh,IEA
+country,Algeria,1992,0,0,TWh,IEA
+country,Cyprus,1992,0,0,TWh,IEA
+country,Austria,2016,0,0,TWh,IEA
+country,Denmark,2016,0,0,TWh,IEA
+country,Cuba,2010,0,0,TWh,IEA
+zone,Africa,2007,11.317,0.01921186698196967,TWh,IEA
+country,El Salvador,2014,0,0,TWh,IEA
+country,Israel,2015,0,0,TWh,IEA
+zone,World,1992,1997.6150000000002,0.1745842969875433,TWh,IEA
+country,Albania,2002,0,0,TWh,IEA
+country,Greece,2006,0,0,TWh,IEA
+group,Persian Gulf,1992,0,0,TWh,IEA
+country,Mozambique,1995,0,0,TWh,IEA
+country,El Salvador,2008,0,0,TWh,IEA
+country,Nepal,2009,0,0,TWh,IEA
+country,Estonia,2010,0,0,TWh,IEA
+country,Peru,1994,0,0,TWh,IEA
+country,Ethiopia,2012,0,0,TWh,IEA
+country,Ghana,2012,0,0,TWh,IEA
+country,Jordan,1991,0,0,TWh,IEA
+country,Lithuania,1997,12.024,0.8114455392090701,TWh,IEA
+country,Haiti,2012,0,0,TWh,IEA
+country,Norway,2002,0,0,TWh,IEA
+country,Nigeria,2011,0,0,TWh,IEA
+country,Honduras,2007,0,0,TWh,IEA
+country,Pakistan,1997,0.375,0.00603330383718124,TWh,IEA
+country,Kosovo,2001,0,0,TWh,IEA
+country,Jordan,2013,0,0,TWh,IEA
+country,Croatia,2006,0,0,TWh,IEA
+country,Russian Federation & USSR,1996,109.02600000000001,0.12869238405397654,TWh,IEA
+country,Bahrain,2014,0,0,TWh,IEA
+group,OPEC,2011,0,0,TWh,IEA
+country,Sudan,2005,0,0,TWh,IEA
+country,Ivory Coast,2012,0,0,TWh,IEA
+country,Hungary,2007,14.677,0.3672922922922923,TWh,IEA
+country,France,2002,436.76,0.7812343488402044,TWh,IEA
+country,Dominican Republic,1998,0,0,TWh,IEA
+country,United States of America,2003,787.818,0.1930630724460101,TWh,IEA
+country,Mexico,1995,8.443,0.055455572486994904,TWh,IEA
+country,Albania,1994,0,0,TWh,IEA
+country,Uruguay,2012,0,0,TWh,IEA
+country,United Kingdom,2002,87.848,0.22685262894225136,TWh,IEA
+country,Ukraine,2000,77.34100000000002,0.45111260170900297,TWh,IEA
+zone,Eurasia,2004,249.032,0.1827607565469848,TWh,IEA
+country,Algeria,2015,0,0,TWh,IEA
+zone,North America,2010,935.4680000000001,0.17813087383085116,TWh,IEA
+country,Bangladesh,1999,0,0,TWh,IEA
+country,South Africa,2016,15.026,0.05945075510292902,TWh,IEA
+country,Croatia,1993,0,0,TWh,IEA
+group,EU28,2006,963.831,0.2941751350955397,TWh,IEA
+group,EU28,1991,807.703,0.313307144982275,TWh,IEA
+country,Mongolia,1991,0,0,TWh,IEA
+country,Croatia,2000,0,0,TWh,IEA
+country,Romania,2000,5.456,0.10505641776100436,TWh,IEA
+country,France,1999,394.244,0.7497898464452669,TWh,IEA
+country,Malta,1997,0,0,TWh,IEA
+country,El Salvador,2006,0,0,TWh,IEA
+country,Indonesia,2015,0,0,TWh,IEA
+country,Ukraine,1996,79.577,0.4348802640639175,TWh,IEA
+country,Azerbaijan,1991,0,0,TWh,IEA
+country,Congo,1997,0,0,TWh,IEA
+country,Bahrain,2010,0,0,TWh,IEA
+zone,Europe,2002,957.3159999999999,0.28662069874042295,TWh,IEA
+zone,Central and South America,1998,10.718,0.017291280148423013,TWh,IEA
+country,Latvia,1998,0,0,TWh,IEA
+country,Italy,1998,0,0,TWh,IEA
+country,Cyprus,2007,0,0,TWh,IEA
+country,Tajikistan,2004,0,0,TWh,IEA
+country,Kyrgyzstan,2004,0,0,TWh,IEA
+country,Greece,2010,0,0,TWh,IEA
+country,Uruguay,2006,0,0,TWh,IEA
+country,Angola,1996,0,0,TWh,IEA
+country,Panama,1996,0,0,TWh,IEA
+country,Lebanon,2007,0,0,TWh,IEA
+country,Indonesia,1996,0,0,TWh,IEA
+country,Lithuania,1993,12.26,0.8692569483834373,TWh,IEA
+country,Cameroon,1998,0,0,TWh,IEA
+group,OECD,2012,1739.963,0.17367331972730313,TWh,IEA
+country,Singapore,2004,0,0,TWh,IEA
+country,Malta,1995,0,0,TWh,IEA
+country,Brazil,2001,14.279000000000002,0.043523982540417956,TWh,IEA
+country,Georgia,2007,0,0,TWh,IEA
+country,Nepal,1999,0,0,TWh,IEA
+country,Chile,1994,0,0,TWh,IEA
+zone,Asia and Oceania,2009,371.41400000000004,0.05684098469238465,TWh,IEA
+country,Belarus,2010,0,0,TWh,IEA
+country,Armenia,1994,0,0,TWh,IEA
+country,Peru,2010,0,0,TWh,IEA
+country,Mozambique,2014,0,0,TWh,IEA
+country,Colombia,1993,0,0,TWh,IEA
+zone,World,1998,2279.6889999999994,0.17176835534980725,TWh,IEA
+country,Togo,2001,0,0,TWh,IEA
+country,Botswana,2012,0,0,TWh,IEA
+country,Estonia,2012,0,0,TWh,IEA
+zone,Asia and Oceania,2015,222.24500000000003,0.02383265358252251,TWh,IEA
+country,El Salvador,1997,0,0,TWh,IEA
+zone,Asia and Oceania,2016,274.132,0.027822765012364508,TWh,IEA
+country,Senegal,2011,0,0,TWh,IEA
+country,Netherlands,2008,4.1690000000000005,0.03881605899221631,TWh,IEA
+country,Italy,2013,0,0,TWh,IEA
+country,Tunisia,1990,0,0,TWh,IEA
+country,Ukraine,2007,92.542,0.47154918955826974,TWh,IEA
+country,Lebanon,2003,0,0,TWh,IEA
+country,Slovakia,2009,14.081,0.5391713891867055,TWh,IEA
+country,Nepal,2004,0,0,TWh,IEA
+country,Mexico,1991,4.242,0.03299369992999922,TWh,IEA
+country,Japan,2003,240.013,0.23066794936728327,TWh,IEA
+country,Kenya,2000,0,0,TWh,IEA
+zone,North America,1998,794.8999999999999,0.17376561163462306,TWh,IEA
+country,Turkey,1997,0,0,TWh,IEA
+country,Bulgaria,2015,15.383,0.3126308302001829,TWh,IEA
+country,Belgium,2000,48.157,0.5732157310860353,TWh,IEA
+country,Egypt,2015,0,0,TWh,IEA
+country,Mozambique,1994,0,0,TWh,IEA
+country,Hungary,1999,14.095999999999998,0.3725946288855996,TWh,IEA
+country,Libya,2015,0,0,TWh,IEA
+country,Albania,2000,0,0,TWh,IEA
+country,India,2011,32.287,0.030101201269793914,TWh,IEA
+country,Guatemala,2001,0,0,TWh,IEA
+country,Iraq,2002,0,0,TWh,IEA
+country,El Salvador,2003,0,0,TWh,IEA
+country,Libya,1991,0,0,TWh,IEA
+country,Bangladesh,2002,0,0,TWh,IEA
+country,United Kingdom,2015,70.345,0.2075539058904061,TWh,IEA
+country,Greece,1990,0,0,TWh,IEA
+country,Iceland,2005,0,0,TWh,IEA
+country,Angola,1998,0,0,TWh,IEA
+country,Colombia,2004,0,0,TWh,IEA
+country,Congo,2010,0,0,TWh,IEA
+zone,World,2014,2274.497,0.10543833036271436,TWh,IEA
+country,El Salvador,1993,0,0,TWh,IEA
+country,Russian Federation & USSR,2008,163.085,0.15675537472401882,TWh,IEA
+country,Bulgaria,2008,15.765,0.35004551812953794,TWh,IEA
+country,Cameroon,1994,0,0,TWh,IEA
+country,Germany,2010,140.556,0.22286915736697396,TWh,IEA
+zone,Middle East,2013,0,0,TWh,IEA
+country,Bolivia,1990,0,0,TWh,IEA
+zone,World,2000,2403.12,0.16918896774045022,TWh,IEA
+country,Tajikistan,2006,0,0,TWh,IEA
+country,Georgia,2014,0,0,TWh,IEA
+country,Benin,2015,0,0,TWh,IEA
+country,Finland,1999,22.974,0.33076579754380403,TWh,IEA
+country,Brunei Darussalam,2009,0,0,TWh,IEA
+country,Kosovo,2009,0,0,TWh,IEA
+country,France,1991,331.3400000000001,0.727332594308042,TWh,IEA
+country,Nigeria,2012,0,0,TWh,IEA
+country,Gibraltar,1994,0,0,TWh,IEA
+country,Latvia,2016,0,0,TWh,IEA
+country,Cambodia,2005,0,0,TWh,IEA
+country,Namibia,2014,0,0,TWh,IEA
+country,Azerbaijan,1990,0,0,TWh,IEA
+country,Sudan,2006,0,0,TWh,IEA
+country,Angola,2003,0,0,TWh,IEA
+country,Libya,2007,0,0,TWh,IEA
+country,France,2014,436.47900000000004,0.7746103690978593,TWh,IEA
+country,Brazil,2005,9.855,0.024501029266982905,TWh,IEA
+country,Australia,1997,0,0,TWh,IEA
+country,Tunisia,2002,0,0,TWh,IEA
+country,Sweden,1993,61.395,0.42105588017447115,TWh,IEA
+country,Paraguay,2008,0,0,TWh,IEA
+country,Jordan,1992,0,0,TWh,IEA
+country,Libya,1992,0,0,TWh,IEA
+country,Ecuador,1998,0,0,TWh,IEA
+country,Malaysia,2012,0,0,TWh,IEA
+country,Latvia,2008,0,0,TWh,IEA
+country,Cuba,2002,0,0,TWh,IEA
+country,Croatia,1991,0,0,TWh,IEA
+country,Dominican Republic,2006,0,0,TWh,IEA
+country,Pakistan,1991,0.385,0.009372869802317657,TWh,IEA
+country,Finland,1990,19.215999999999998,0.3533847030913805,TWh,IEA
+country,Lebanon,1998,0,0,TWh,IEA
+country,Gabon,2001,0,0,TWh,IEA
+country,France,2011,442.388,0.7837463880960861,TWh,IEA
+country,Turkey,1992,0,0,TWh,IEA
+country,Portugal,1996,0,0,TWh,IEA
+group,OPEC,2013,0,0,TWh,IEA
+country,Netherlands,1993,3.948,0.05130937682760413,TWh,IEA
+country,Albania,1995,0,0,TWh,IEA
+zone,North America,2003,873.212,0.17797062872783928,TWh,IEA
+country,NZ,1997,0,0,TWh,IEA
+country,France,2000,415.162,0.7688840160458114,TWh,IEA
+country,Sweden,1998,73.583,0.46327857911868586,TWh,IEA
+country,Libya,2009,0,0,TWh,IEA
+country,Turkey,2015,0,0,TWh,IEA
+country,Armenia,1990,0,0,TWh,IEA
+country,Zambia,2005,0,0,TWh,IEA
+country,Japan,2011,101.76100000000001,0.09762614236622112,TWh,IEA
+country,Peru,1991,0,0,TWh,IEA
+country,Burma,2006,0,0,TWh,IEA
+country,Ecuador,2007,0,0,TWh,IEA
+country,Turkey,2008,0,0,TWh,IEA
+country,Ireland,1999,0,0,TWh,IEA
+zone,Asia and Oceania,2002,341.351,0.0858329848644215,TWh,IEA
+country,Australia,2014,0,0,TWh,IEA
+country,Morocco,1995,0,0,TWh,IEA
+country,United States of America,2012,801.1289999999999,0.18689470214341405,TWh,IEA
+country,Pakistan,2005,2.484,0.02653024169861902,TWh,IEA
+country,Kosovo,2003,0,0,TWh,IEA
+country,Ivory Coast,2000,0,0,TWh,IEA
+country,Gibraltar,2010,0,0,TWh,IEA
+country,South Africa,2005,11.293,0.04610855700998685,TWh,IEA
+country,United States of America,1991,649.399,0.1982389249780209,TWh,IEA
+country,Norway,2004,0,0,TWh,IEA
+country,Thailand,1993,0,0,TWh,IEA
+country,France,1997,395.483,0.7834914911741981,TWh,IEA
+country,Suriname,2013,0,0,TWh,IEA
+country,Hungary,2016,16.054000000000002,0.5051445832415594,TWh,IEA
+country,Montenegro,2014,0,0,TWh,IEA
+country,Georgia,2000,0,0,TWh,IEA
+country,Bolivia,2014,0,0,TWh,IEA
+country,Panama,2009,0,0,TWh,IEA
+country,Portugal,2008,0,0,TWh,IEA
+country,Eritrea,1995,0,0,TWh,IEA
+country,Hungary,2004,11.915,0.3534769194256556,TWh,IEA
+country,Germany,2014,97.12899999999999,0.1552146788287108,TWh,IEA
+country,Namibia,2012,0,0,TWh,IEA
+country,Latvia,2013,0,0,TWh,IEA
+country,Finland,1997,20.894,0.3020411703480976,TWh,IEA
+country,Congo,2005,0,0,TWh,IEA
+country,Thailand,2001,0,0,TWh,IEA
+country,Eritrea,2011,0,0,TWh,IEA
+country,Turkey,2016,0,0,TWh,IEA
+country,Bolivia,2002,0,0,TWh,IEA
+country,Nepal,2002,0,0,TWh,IEA
+country,Algeria,1997,0,0,TWh,IEA
+country,Cyprus,2009,0,0,TWh,IEA
+country,Bulgaria,2001,19.553,0.44470978893740903,TWh,IEA
+country,Bahrain,1994,0,0,TWh,IEA
+country,Bolivia,2016,0,0,TWh,IEA
+zone,Africa,2003,12.663,0.02581719800932543,TWh,IEA
+country,Benin,2012,0,0,TWh,IEA
+country,Italy,1997,0,0,TWh,IEA
+country,Indonesia,1990,0,0,TWh,IEA
+country,Bulgaria,2005,18.653,0.420444043728164,TWh,IEA
+country,Bolivia,2010,0,0,TWh,IEA
+country,Dominican Republic,2000,0,0,TWh,IEA
+country,Netherlands,1992,3.8,0.049318624269954564,TWh,IEA
+country,Chile,2009,0,0,TWh,IEA
+group,Persian Gulf,2002,0,0,TWh,IEA
+country,El Salvador,2004,0,0,TWh,IEA
+country,Niger,2012,0,0,TWh,IEA
+country,Jamaica,2004,0,0,TWh,IEA
+country,Poland,2012,0,0,TWh,IEA
+country,Denmark,2008,0,0,TWh,IEA
+country,Albania,2001,0,0,TWh,IEA
+country,Burma,2016,0,0,TWh,IEA
+country,Thailand,2011,0,0,TWh,IEA
+country,Togo,2004,0,0,TWh,IEA
+country,Iceland,2000,0,0,TWh,IEA
+country,Benin,2001,0,0,TWh,IEA
+country,Albania,2016,0,0,TWh,IEA
+country,Nepal,2013,0,0,TWh,IEA
+country,Colombia,2013,0,0,TWh,IEA
+country,Bahrain,2013,0,0,TWh,IEA
+country,Nepal,2016,0,0,TWh,IEA
+country,Belgium,2015,26.103,0.37614017897027247,TWh,IEA
+country,Brazil,2012,16.038,0.029036410478309602,TWh,IEA
+country,Gabon,1990,0,0,TWh,IEA
+country,Mauritius,1991,0,0,TWh,IEA
+country,Brazil,2004,11.610999999999999,0.030008864904540737,TWh,IEA
+country,Pakistan,2014,5.803999999999999,0.05424907466257897,TWh,IEA
+country,Germany,2009,134.93200000000002,0.2273480886396722,TWh,IEA
+country,Mozambique,2015,0,0,TWh,IEA
+country,Iceland,2003,0,0,TWh,IEA
+zone,Central and South America,2014,21.134,0.019201032098630836,TWh,IEA
+country,Zimbabwe,2016,0,0,TWh,IEA
+country,Uruguay,2003,0,0,TWh,IEA
+country,Italy,2006,0,0,TWh,IEA
+country,Azerbaijan,2013,0,0,TWh,IEA
+zone,Asia and Oceania,2007,345.996,0.057293145756275796,TWh,IEA
+country,Honduras,2001,0,0,TWh,IEA
+country,Zimbabwe,2001,0,0,TWh,IEA
+country,Nigeria,2005,0,0,TWh,IEA
+country,Thailand,2002,0,0,TWh,IEA
+country,Cameroon,1990,0,0,TWh,IEA
+country,Belgium,1998,46.165,0.5549811860596516,TWh,IEA
+country,Jamaica,2015,0,0,TWh,IEA
+country,Morocco,1994,0,0,TWh,IEA
+country,India,1991,5.525,0.01730586112712056,TWh,IEA
+country,Eritrea,2004,0,0,TWh,IEA
+country,India,1994,5.648,0.014451924577739222,TWh,IEA
+country,Paraguay,2014,0,0,TWh,IEA
+country,Poland,1999,0,0,TWh,IEA
+country,Brunei Darussalam,1999,0,0,TWh,IEA
+country,Ivory Coast,2011,0,0,TWh,IEA
+country,Mozambique,2004,0,0,TWh,IEA
+country,Mongolia,1998,0,0,TWh,IEA
+country,Austria,1991,0,0,TWh,IEA
+country,Morocco,2012,0,0,TWh,IEA
+country,Estonia,1990,0,0,TWh,IEA
+country,Brunei Darussalam,2000,0,0,TWh,IEA
+country,Ghana,2011,0,0,TWh,IEA
+country,Brazil,2006,13.754000000000001,0.0328531402050873,TWh,IEA
+country,Dominican Republic,1990,0,0,TWh,IEA
+country,Norway,1999,0,0,TWh,IEA
+country,Armenia,2001,1.9869999999999999,0.3458659704090513,TWh,IEA
+country,Kyrgyzstan,2014,0,0,TWh,IEA
+country,Namibia,2009,0,0,TWh,IEA
+country,Kyrgyzstan,2013,0,0,TWh,IEA
+zone,Europe,1994,838.0409999999999,0.2976285351425989,TWh,IEA
+country,Kyrgyzstan,2008,0,0,TWh,IEA
+country,Ecuador,1995,0,0,TWh,IEA
+country,Serbia,1992,0,0,TWh,IEA
+country,Kuwait,1992,0,0,TWh,IEA
+country,Qatar,2007,0,0,TWh,IEA
+country,Norway,1992,0,0,TWh,IEA
+zone,Africa,2011,13.502,0.020257000757649638,TWh,IEA
+country,Italy,2010,0,0,TWh,IEA
+country,Ireland,1996,0,0,TWh,IEA
+country,Azerbaijan,2008,0,0,TWh,IEA
+country,Bolivia,1999,0,0,TWh,IEA
+country,United States of America,1994,678.92,0.1954606894903748,TWh,IEA
+country,Turkey,2014,0,0,TWh,IEA
+country,Suriname,2009,0,0,TWh,IEA
+country,Yemen,1993,0,0,TWh,IEA
+country,Mexico,1993,4.931,0.036344740663212284,TWh,IEA
+country,Kazakhstan,2014,0,0,TWh,IEA
+country,Tajikistan,1995,0,0,TWh,IEA
+country,Romania,2005,5.555,0.09349805598101425,TWh,IEA
+country,Paraguay,1995,0,0,TWh,IEA
+country,Ivory Coast,2014,0,0,TWh,IEA
+country,Paraguay,1991,0,0,TWh,IEA
+country,Armenia,2010,2.49,0.38360807271606845,TWh,IEA
+country,Senegal,2006,0,0,TWh,IEA
+country,Panama,2007,0,0,TWh,IEA
+country,Haiti,2013,0,0,TWh,IEA
+country,Ecuador,2009,0,0,TWh,IEA
+country,Cambodia,2011,0,0,TWh,IEA
+zone,Africa,2001,10.719000000000001,0.024282555705573732,TWh,IEA
+country,Uzbekistan,1990,0,0,TWh,IEA
+country,Poland,2007,0,0,TWh,IEA
+country,Zimbabwe,2004,0,0,TWh,IEA
+country,Togo,2006,0,0,TWh,IEA
+country,Bolivia,1997,0,0,TWh,IEA
+country,Bolivia,1994,0,0,TWh,IEA
+country,Brunei Darussalam,2016,0,0,TWh,IEA
+country,Paraguay,1998,0,0,TWh,IEA
+country,Libya,2013,0,0,TWh,IEA
+group,OPEC,1996,0,0,TWh,IEA
+country,Namibia,2005,0,0,TWh,IEA
+country,Spain,2015,57.196000000000005,0.203765653111028,TWh,IEA
+country,Germany,1992,158.804,0.29546579343963375,TWh,IEA
+country,Algeria,2007,0,0,TWh,IEA
+country,Norway,2000,0,0,TWh,IEA
+country,Nepal,1992,0,0,TWh,IEA
+country,Austria,2012,0,0,TWh,IEA
+country,Algeria,2009,0,0,TWh,IEA
+group,EU28,2009,866.8019999999999,0.2767430092061216,TWh,IEA
+country,Kuwait,1998,0,0,TWh,IEA
+country,Malaysia,2016,0,0,TWh,IEA
+country,Peru,1998,0,0,TWh,IEA
+country,Angola,2016,0,0,TWh,IEA
+country,Japan,2005,304.755,0.27950712169710085,TWh,IEA
+country,Albania,1992,0,0,TWh,IEA
+zone,Eurasia,2010,262.057,0.17646353756677388,TWh,IEA
+country,United States of America,2005,810.7260000000001,0.18881664644721904,TWh,IEA
+country,Turkey,1994,0,0,TWh,IEA
+country,Kuwait,2011,0,0,TWh,IEA
+country,Oman,2009,0,0,TWh,IEA
+country,Tajikistan,2009,0,0,TWh,IEA
+country,Mauritius,2016,0,0,TWh,IEA
+country,Ghana,1997,0,0,TWh,IEA
+country,Cuba,2015,0,0,TWh,IEA
+group,OPEC,2015,0,0,TWh,IEA
+country,Ivory Coast,1990,0,0,TWh,IEA
+country,El Salvador,1998,0,0,TWh,IEA
+country,China,2005,53.088,0.021231242496398673,TWh,IEA
+group,Persian Gulf,2008,0,0,TWh,IEA
+country,Botswana,2001,0,0,TWh,IEA
+country,Benin,2013,0,0,TWh,IEA
+group,Persian Gulf,2006,0,0,TWh,IEA
+country,Poland,2009,0,0,TWh,IEA
+country,Peru,2004,0,0,TWh,IEA
+country,Armenia,2007,2.553,0.43285859613428285,TWh,IEA
+country,Oman,2000,0,0,TWh,IEA
+country,Poland,1998,0,0,TWh,IEA
+group,OECD,2006,2152.958,0.2160882387892881,TWh,IEA
+country,Denmark,1990,0,0,TWh,IEA
+country,Indonesia,1999,0,0,TWh,IEA
+country,Bulgaria,2000,18.178,0.44418922881438766,TWh,IEA
+country,Tunisia,1999,0,0,TWh,IEA
+country,Eritrea,2001,0,0,TWh,IEA
+country,Sudan,1996,0,0,TWh,IEA
+country,Cyprus,2011,0,0,TWh,IEA
+country,Gibraltar,1996,0,0,TWh,IEA
+country,China,2001,17.472,0.011797840438799716,TWh,IEA
+country,Malaysia,1999,0,0,TWh,IEA
+zone,World,2007,2481.6560000000004,0.13747434047486523,TWh,IEA
+country,Paraguay,2016,0,0,TWh,IEA
+country,Slovakia,2000,16.494,0.5293664548430579,TWh,IEA
+country,Italy,2012,0,0,TWh,IEA
+country,Ireland,2001,0,0,TWh,IEA
+country,Jordan,2014,0,0,TWh,IEA
+country,Senegal,2013,0,0,TWh,IEA
+country,Algeria,2002,0,0,TWh,IEA
+country,Armenia,2011,2.548,0.34293405114401077,TWh,IEA
+country,Russian Federation & USSR,2006,156.436,0.15709674892598266,TWh,IEA
+country,Denmark,2011,0,0,TWh,IEA
+country,Nicaragua,1995,0,0,TWh,IEA
+country,El Salvador,1996,0,0,TWh,IEA
+country,Nigeria,2014,0,0,TWh,IEA
+country,Spain,1996,56.33,0.32289499177428876,TWh,IEA
+group,OECD,2008,2069.262,0.20443501622281365,TWh,IEA
+country,Sudan,2014,0,0,TWh,IEA
+country,Panama,2016,0,0,TWh,IEA
+country,Latvia,2012,0,0,TWh,IEA
+country,Colombia,2012,0,0,TWh,IEA
+country,Tajikistan,1994,0,0,TWh,IEA
+country,Uzbekistan,1994,0,0,TWh,IEA
+country,Belgium,2005,47.595,0.5485886190481679,TWh,IEA
+country,Mongolia,2009,0,0,TWh,IEA
+country,Nigeria,1992,0,0,TWh,IEA
+country,Estonia,2004,0,0,TWh,IEA
+country,United Kingdom,2013,70.607,0.19706662201010353,TWh,IEA
+country,Cuba,2012,0,0,TWh,IEA
+country,Jordan,2003,0,0,TWh,IEA
+zone,Middle East,1998,0,0,TWh,IEA
+country,Ukraine,2003,81.406,0.45135284985584384,TWh,IEA
+country,NZ,2000,0,0,TWh,IEA
+zone,North America,2000,878.738,0.18065977542578207,TWh,IEA
+country,Dominican Republic,2002,0,0,TWh,IEA
+country,Colombia,2006,0,0,TWh,IEA
+country,Bolivia,1993,0,0,TWh,IEA
+country,Kenya,2007,0,0,TWh,IEA
+country,Uzbekistan,1991,0,0,TWh,IEA
+country,India,2007,16.957,0.02058977808646322,TWh,IEA
+country,Bahrain,1996,0,0,TWh,IEA
+country,Bolivia,2008,0,0,TWh,IEA
+country,Zimbabwe,2006,0,0,TWh,IEA
+country,Turkey,2010,0,0,TWh,IEA
+country,Uzbekistan,2014,0,0,TWh,IEA
+country,Togo,1990,0,0,TWh,IEA
+country,Qatar,2005,0,0,TWh,IEA
+country,Poland,2006,0,0,TWh,IEA
+zone,Europe,1995,856.769,0.2946609007154933,TWh,IEA
+country,Norway,1998,0,0,TWh,IEA
+country,Namibia,2016,0,0,TWh,IEA
+country,Oman,2007,0,0,TWh,IEA
+country,Dominican Republic,1995,0,0,TWh,IEA
+country,Malta,2010,0,0,TWh,IEA
+country,Angola,2004,0,0,TWh,IEA
+country,Ukraine,1991,75.131,0.2695930501681122,TWh,IEA
+country,Ethiopia,2004,0,0,TWh,IEA
+country,Sweden,2007,66.96900000000001,0.44967970669997187,TWh,IEA
+country,Slovenia,2010,5.657,0.3440997566909975,TWh,IEA
+country,Morocco,2011,0,0,TWh,IEA
+country,Cuba,2005,0,0,TWh,IEA
+country,Paraguay,1997,0,0,TWh,IEA
+country,Belarus,2013,0,0,TWh,IEA
+country,Austria,2007,0,0,TWh,IEA
+zone,Asia and Oceania,2012,150.75199999999998,0.018570907836178555,TWh,IEA
+country,Bolivia,2013,0,0,TWh,IEA
+country,Panama,1991,0,0,TWh,IEA
+country,Canada,1997,82.52799999999999,0.1438494294165529,TWh,IEA
+country,Kenya,2013,0,0,TWh,IEA
+country,Cambodia,2002,0,0,TWh,IEA
+country,Nicaragua,1994,0,0,TWh,IEA
+country,Peru,2013,0,0,TWh,IEA
+country,Mongolia,1997,0,0,TWh,IEA
+country,Singapore,2005,0,0,TWh,IEA
+country,Kyrgyzstan,1993,0,0,TWh,IEA
+country,Uzbekistan,2012,0,0,TWh,IEA
+country,Ecuador,2000,0,0,TWh,IEA
+group,OPEC,1998,0,0,TWh,IEA
+country,Russian Federation & USSR,2011,172.94099999999997,0.1639616407446208,TWh,IEA
+country,Zimbabwe,2007,0,0,TWh,IEA
+country,Kuwait,2000,0,0,TWh,IEA
+country,Croatia,2002,0,0,TWh,IEA
+country,Israel,2008,0,0,TWh,IEA
+country,Zimbabwe,2011,0,0,TWh,IEA
+country,Paraguay,1999,0,0,TWh,IEA
+country,Iceland,2007,0,0,TWh,IEA
+country,Norway,2006,0,0,TWh,IEA
+country,Colombia,2007,0,0,TWh,IEA
+zone,Central and South America,1996,9.886,0.017697594194129324,TWh,IEA
+country,Jordan,1997,0,0,TWh,IEA
+country,Botswana,2016,0,0,TWh,IEA
+country,Ukraine,1990,76.179,0.25491993909682603,TWh,IEA
+country,Togo,2003,0,0,TWh,IEA
+country,Lebanon,2016,0,0,TWh,IEA
+country,Congo,2003,0,0,TWh,IEA
+zone,Central and South America,2008,21.299,0.023879864068983535,TWh,IEA
+country,Nicaragua,1996,0,0,TWh,IEA
+country,Netherlands,1996,4.16,0.04883374223766537,TWh,IEA
+country,Lebanon,1994,0,0,TWh,IEA
+country,Namibia,2008,0,0,TWh,IEA
+country,Japan,1997,319.177,0.3149270593342839,TWh,IEA
+country,Indonesia,2009,0,0,TWh,IEA
+country,Pakistan,1996,0.34600000000000003,0.0058520084566596195,TWh,IEA
+country,Germany,2002,164.842,0.28096759128267884,TWh,IEA
+country,Singapore,2011,0,0,TWh,IEA
+country,Netherlands,2007,4.2,0.040003809886655875,TWh,IEA
+country,Mauritius,1998,0,0,TWh,IEA
+country,Benin,2006,0,0,TWh,IEA
+country,Algeria,2000,0,0,TWh,IEA
+country,Haiti,2004,0,0,TWh,IEA
+country,Armenia,1997,1.607,0.2665450323436723,TWh,IEA
+country,Brunei Darussalam,2007,0,0,TWh,IEA
+country,China,2009,70.134,0.018878290289176945,TWh,IEA
+country,Azerbaijan,1993,0,0,TWh,IEA
+country,Benin,1992,0,0,TWh,IEA
+country,Nigeria,2001,0,0,TWh,IEA
+country,Libya,1994,0,0,TWh,IEA
+country,Brunei Darussalam,2005,0,0,TWh,IEA
+country,Morocco,1990,0,0,TWh,IEA
+country,Haiti,2000,0,0,TWh,IEA
+country,Belarus,1993,0,0,TWh,IEA
+group,OECD,2009,2033.7549999999999,0.20924154486189425,TWh,IEA
+country,Cyprus,2002,0,0,TWh,IEA
+country,Benin,2002,0,0,TWh,IEA
+country,Albania,1997,0,0,TWh,IEA
+country,Uzbekistan,2002,0,0,TWh,IEA
+country,Italy,1996,0,0,TWh,IEA
+country,Indonesia,2016,0,0,TWh,IEA
+country,Belgium,2007,48.227,0.5444702854046242,TWh,IEA
+country,Australia,2009,0,0,TWh,IEA
+country,Norway,1996,0,0,TWh,IEA
+group,EU28,1995,868.591,0.32400222618618646,TWh,IEA
+country,Spain,1993,56.06,0.357530070536614,TWh,IEA
+country,Thailand,2006,0,0,TWh,IEA
+country,Germany,2003,165.06,0.2720817069311109,TWh,IEA
+country,Cyprus,2010,0,0,TWh,IEA
+country,Ireland,2006,0,0,TWh,IEA
+country,Estonia,1993,0,0,TWh,IEA
+country,Niger,2009,0,0,TWh,IEA
+country,NZ,2004,0,0,TWh,IEA
+country,Indonesia,2001,0,0,TWh,IEA
+country,Haiti,2007,0,0,TWh,IEA
+group,Persian Gulf,2004,0,0,TWh,IEA
+country,Estonia,1995,0,0,TWh,IEA
+country,Peru,1995,0,0,TWh,IEA
+country,Norway,1994,0,0,TWh,IEA
+country,Mongolia,2016,0,0,TWh,IEA
+country,Germany,2001,171.305,0.29212695640904074,TWh,IEA
+country,Benin,2010,0,0,TWh,IEA
+group,OECD,2002,2110.9390000000003,0.2254703398067586,TWh,IEA
+country,Dominican Republic,2013,0,0,TWh,IEA
+zone,Central and South America,1997,11.129999999999999,0.018779358565952163,TWh,IEA
+country,Eritrea,2013,0,0,TWh,IEA
+country,Benin,2000,0,0,TWh,IEA
+country,South Africa,1992,9.288,0.055256112796716036,TWh,IEA
+country,United Kingdom,2001,90.094,0.2341381013020089,TWh,IEA
+country,Serbia,2011,0,0,TWh,IEA
+country,Poland,2000,0,0,TWh,IEA
+country,Russian Federation & USSR,2000,130.715,0.14891782092266048,TWh,IEA
+country,Mexico,2008,9.804,0.036403468057850476,TWh,IEA
+country,Israel,2013,0,0,TWh,IEA
+country,Finland,1995,19.215999999999998,0.3000858905286171,TWh,IEA
+country,Namibia,1994,0,0,TWh,IEA
+country,Chile,2004,0,0,TWh,IEA
+country,Belgium,2008,45.568000000000005,0.5380945633177459,TWh,IEA
+country,Cameroon,2005,0,0,TWh,IEA
+country,Belgium,2010,47.943999999999996,0.5050245433669707,TWh,IEA
+country,Namibia,1992,0,0,TWh,IEA
+country,Japan,2006,303.426,0.2775581367693684,TWh,IEA
+country,Ivory Coast,2013,0,0,TWh,IEA
+country,Romania,1997,5.4,0.09449149576538113,TWh,IEA
+country,Congo,2014,0,0,TWh,IEA
+country,Brazil,1999,3.977,0.011894721100643038,TWh,IEA
+country,Slovenia,1996,4.647,0.3559010492456154,TWh,IEA
+country,Bolivia,2001,0,0,TWh,IEA
+country,Oman,2013,0,0,TWh,IEA
+country,Lithuania,2009,10.852,0.7192947570756282,TWh,IEA
+group,OPEC,1999,0,0,TWh,IEA
+country,Cuba,2003,0,0,TWh,IEA
+country,Ukraine,2008,89.84100000000002,0.46649808397287457,TWh,IEA
+country,Togo,2008,0,0,TWh,IEA
+country,Togo,2015,0,0,TWh,IEA
+country,Egypt,2012,0,0,TWh,IEA
+country,Ukraine,2010,89.152,0.4721333700510518,TWh,IEA
+country,Algeria,2001,0,0,TWh,IEA
+country,Turkey,2001,0,0,TWh,IEA
+country,Ireland,2013,0,0,TWh,IEA
+country,Egypt,2001,0,0,TWh,IEA
+country,Ecuador,1990,0,0,TWh,IEA
+zone,Central and South America,2001,21.338,0.0327024670147696,TWh,IEA
+country,Ukraine,1997,79.433,0.4462477949685958,TWh,IEA
+country,Australia,2007,0,0,TWh,IEA
+country,Serbia,1996,0,0,TWh,IEA
+country,South Africa,2009,12.806,0.05131493005605934,TWh,IEA
+country,Mongolia,2014,0,0,TWh,IEA
+country,Lebanon,2015,0,0,TWh,IEA
+country,Japan,1995,291.254,0.3006511524200408,TWh,IEA
+country,Japan,2007,263.832,0.23516261956140982,TWh,IEA
+country,Guatemala,1994,0,0,TWh,IEA
+zone,Eurasia,2003,249.23000000000005,0.18676314434708588,TWh,IEA
+country,Bulgaria,1997,17.750999999999998,0.41471392192136053,TWh,IEA
+zone,World,2006,2548.9869999999996,0.14726025774893894,TWh,IEA
+country,Nigeria,2016,0,0,TWh,IEA
+country,Kyrgyzstan,2001,0,0,TWh,IEA
+group,Persian Gulf,1996,0,0,TWh,IEA
+country,NZ,2009,0,0,TWh,IEA
+country,China,2000,16.737000000000002,0.01234530565640264,TWh,IEA
+country,Turkey,1993,0,0,TWh,IEA
+country,Estonia,1994,0,0,TWh,IEA
+group,OPEC,2012,0,0,TWh,IEA
+country,Mongolia,2003,0,0,TWh,IEA
+country,Uzbekistan,2011,0,0,TWh,IEA
+country,Algeria,2010,0,0,TWh,IEA
+country,Kazakhstan,1993,0,0,TWh,IEA
+country,Ireland,2003,0,0,TWh,IEA
+country,China,2003,43.342,0.02268318020887031,TWh,IEA
+country,Haiti,1997,0,0,TWh,IEA
+country,Eritrea,1994,0,0,TWh,IEA
+country,Benin,1994,0,0,TWh,IEA
+country,Pakistan,2002,1.74,0.022984254464757478,TWh,IEA
+country,Estonia,2000,0,0,TWh,IEA
+country,Brunei Darussalam,2008,0,0,TWh,IEA
+country,Ghana,1991,0,0,TWh,IEA
+country,Gabon,1996,0,0,TWh,IEA
+country,Ethiopia,2003,0,0,TWh,IEA
+group,Persian Gulf,2015,0,0,TWh,IEA
+country,Nicaragua,2008,0,0,TWh,IEA
+country,Greece,2004,0,0,TWh,IEA
+country,Morocco,1996,0,0,TWh,IEA
+country,Austria,2006,0,0,TWh,IEA
+country,Lithuania,2014,0,0,TWh,IEA
+country,Kazakhstan,1992,0,0,TWh,IEA
+country,Netherlands,1995,4.018,0.049684064745087866,TWh,IEA
+country,Sudan,2007,0,0,TWh,IEA
+country,Poland,2015,0,0,TWh,IEA
+country,Oman,2006,0,0,TWh,IEA
+country,France,2012,425.406,0.7545843813524148,TWh,IEA
+country,Norway,2010,0,0,TWh,IEA
+country,Burma,1995,0,0,TWh,IEA
+country,Senegal,1997,0,0,TWh,IEA
+country,Pakistan,2001,2.291,0.031630539831561506,TWh,IEA
+country,Canada,1991,84.93,0.16699700337415355,TWh,IEA
+country,Indonesia,2002,0,0,TWh,IEA
+country,United Kingdom,2011,68.98,0.18745380233923215,TWh,IEA
+country,Ecuador,1992,0,0,TWh,IEA
+country,Kazakhstan,2003,0,0,TWh,IEA
+country,Brazil,2007,12.35,0.027817696109126457,TWh,IEA
+country,Netherlands,2004,3.822,0.0378374632465771,TWh,IEA
+country,Mauritius,2004,0,0,TWh,IEA
+country,Gibraltar,2005,0,0,TWh,IEA
+country,Mexico,1999,10.002,0.052227037752597766,TWh,IEA
+country,Botswana,1994,0,0,TWh,IEA
+country,Jordan,2007,0,0,TWh,IEA
+country,Romania,1995,0,0,TWh,IEA
+country,Egypt,1995,0,0,TWh,IEA
+country,Brazil,1992,1.759,0.0072766534840236295,TWh,IEA
+country,Oman,2004,0,0,TWh,IEA
+country,Senegal,1991,0,0,TWh,IEA
+country,Niger,2011,0,0,TWh,IEA
+zone,North America,1995,820.0930000000001,0.1909645363185002,TWh,IEA
+country,Zimbabwe,2009,0,0,TWh,IEA
+country,Latvia,1991,0,0,TWh,IEA
+country,Algeria,2006,0,0,TWh,IEA
+country,Gabon,1999,0,0,TWh,IEA
+country,Chile,2003,0,0,TWh,IEA
+country,Belgium,1991,42.861,0.5958212855871887,TWh,IEA
+country,Sweden,2005,72.377,0.45682168194097295,TWh,IEA
+country,Argentina,2007,7.217,0.06697601039394924,TWh,IEA
+zone,Europe,2009,855.95,0.24508610870432931,TWh,IEA
+country,Dominican Republic,1993,0,0,TWh,IEA
+country,Qatar,2008,0,0,TWh,IEA
+country,Honduras,2013,0,0,TWh,IEA
+country,Colombia,2008,0,0,TWh,IEA
+country,Russian Federation & USSR,1992,119.626,0.11862363032376419,TWh,IEA
+country,Kosovo,2005,0,0,TWh,IEA
+country,Senegal,1994,0,0,TWh,IEA
+country,Turkey,2005,0,0,TWh,IEA
+country,Paraguay,2001,0,0,TWh,IEA
+country,Finland,2004,22.715999999999998,0.2654110389306912,TWh,IEA
+country,Yemen,2009,0,0,TWh,IEA
+country,Germany,1994,150.703,0.28479665885554467,TWh,IEA
+country,Burma,1991,0,0,TWh,IEA
+group,OPEC,2014,0,0,TWh,IEA
+country,Sweden,2006,66.977,0.46700228003263167,TWh,IEA
+country,El Salvador,1994,0,0,TWh,IEA
+country,Nicaragua,1992,0,0,TWh,IEA
+country,Benin,1995,0,0,TWh,IEA
+country,India,2002,19.39,0.03176074771253821,TWh,IEA
+country,Tunisia,1993,0,0,TWh,IEA
+country,Indonesia,1997,0,0,TWh,IEA
+country,Albania,2011,0,0,TWh,IEA
+country,Spain,2001,63.708,0.26989997585185754,TWh,IEA
+group,EU28,2003,969.9879999999999,0.30846992571825094,TWh,IEA
+country,Uruguay,1999,0,0,TWh,IEA
+country,Malta,2004,0,0,TWh,IEA
+country,Kenya,1996,0,0,TWh,IEA
+country,Bahrain,2004,0,0,TWh,IEA
+country,Norway,2007,0,0,TWh,IEA
+country,United Kingdom,2016,71.726,0.2113323845974797,TWh,IEA
+country,Uzbekistan,1995,0,0,TWh,IEA
+country,Mauritius,1997,0,0,TWh,IEA
+country,United Kingdom,2006,75.45100000000002,0.189917514718727,TWh,IEA
+country,Libya,2012,0,0,TWh,IEA
+country,Kuwait,1997,0,0,TWh,IEA
+country,Gibraltar,2015,0,0,TWh,IEA
+country,Cyprus,1998,0,0,TWh,IEA
+country,Netherlands,2013,2.891,0.02845108401484062,TWh,IEA
+country,Thailand,2008,0,0,TWh,IEA
+country,Oman,2012,0,0,TWh,IEA
+country,Cameroon,2010,0,0,TWh,IEA
+zone,Europe,1992,800.4350000000001,0.2902206726414801,TWh,IEA
+country,Suriname,2007,0,0,TWh,IEA
+group,OPEC,2016,0,0,TWh,IEA
+country,Bahrain,2009,0,0,TWh,IEA
+country,Iceland,2006,0,0,TWh,IEA
+country,Libya,1995,0,0,TWh,IEA
+country,Belarus,2006,0,0,TWh,IEA
+country,El Salvador,2011,0,0,TWh,IEA
+country,Honduras,1998,0,0,TWh,IEA
+country,Kazakhstan,2004,0,0,TWh,IEA
+country,United Kingdom,1991,70.543,0.2184839334107627,TWh,IEA
+country,Mongolia,1993,0,0,TWh,IEA
+country,Colombia,1991,0,0,TWh,IEA
+country,Guatemala,2013,0,0,TWh,IEA
+country,Tunisia,2004,0,0,TWh,IEA
+country,Kyrgyzstan,2005,0,0,TWh,IEA
+country,Iraq,2010,0,0,TWh,IEA
+country,Peru,2007,0,0,TWh,IEA
+country,Qatar,2015,0,0,TWh,IEA
+country,Ivory Coast,1996,0,0,TWh,IEA
+zone,Central and South America,2013,21.657,0.019946139804416025,TWh,IEA
+country,Namibia,2015,0,0,TWh,IEA
+country,Ghana,1993,0,0,TWh,IEA
+zone,World,2010,2511.7259999999997,0.12903573487908152,TWh,IEA
+country,Singapore,1990,0,0,TWh,IEA
+country,Sweden,1990,68.185,0.4653821477810995,TWh,IEA
+zone,North America,2002,889.7919999999998,0.18269997593545773,TWh,IEA
+zone,Africa,1994,9.697,0.028712199946110958,TWh,IEA
+country,Kyrgyzstan,1998,0,0,TWh,IEA
+zone,Asia and Oceania,2010,391.79600000000005,0.05440495809470171,TWh,IEA
+country,Slovenia,1999,4.696000000000001,0.35409440506710904,TWh,IEA
+country,Gibraltar,1992,0,0,TWh,IEA
+country,Austria,1990,0,0,TWh,IEA
+country,Kyrgyzstan,2011,0,0,TWh,IEA
+zone,Middle East,1995,0,0,TWh,IEA
+country,Romania,2006,5.632000000000001,0.08982885943506069,TWh,IEA
+country,Malta,2005,0,0,TWh,IEA
+country,Serbia,1995,0,0,TWh,IEA
+country,Portugal,2002,0,0,TWh,IEA
+country,Congo,2009,0,0,TWh,IEA
+country,Bolivia,2000,0,0,TWh,IEA
+country,Croatia,2010,0,0,TWh,IEA
+country,Ivory Coast,1994,0,0,TWh,IEA
+country,Australia,1994,0,0,TWh,IEA
+group,EU28,2013,846.0850000000002,0.26636156744645684,TWh,IEA
+group,EU28,2002,971.458,0.31717856570320524,TWh,IEA
+country,Namibia,1993,0,0,TWh,IEA
+country,Angola,2008,0,0,TWh,IEA
+country,South Africa,2002,11.991,0.05436246174770486,TWh,IEA
+country,Lebanon,1996,0,0,TWh,IEA
+country,Ireland,2016,0,0,TWh,IEA
+country,Germany,1991,147.22899999999998,0.272831215231064,TWh,IEA
+country,China,1990,0,0,TWh,IEA
+country,Netherlands,2005,3.997,0.040106764065463235,TWh,IEA
+zone,Europe,1991,790.703,0.28779397130879336,TWh,IEA
+country,Cuba,1997,0,0,TWh,IEA
+country,Chile,1993,0,0,TWh,IEA
+country,Belarus,2012,0,0,TWh,IEA
+country,Bangladesh,2007,0,0,TWh,IEA
+country,India,2001,19.475,0.03311111904531165,TWh,IEA
+country,Nigeria,2008,0,0,TWh,IEA
+country,Spain,1997,55.298,0.2904367738818042,TWh,IEA
+country,Belarus,1999,0,0,TWh,IEA
+country,Qatar,2010,0,0,TWh,IEA
+country,Australia,2015,0,0,TWh,IEA
+country,Angola,1997,0,0,TWh,IEA
+group,OPEC,1992,0,0,TWh,IEA
+country,Finland,2009,23.526,0.32777886142614315,TWh,IEA
+country,Nicaragua,2006,0,0,TWh,IEA
+country,Slovakia,1994,12.595,0.48984909769757323,TWh,IEA
+country,Cuba,1993,0,0,TWh,IEA
+country,Mauritius,2005,0,0,TWh,IEA
+country,Zambia,2010,0,0,TWh,IEA
+country,Argentina,2008,7.33,0.060117939422769356,TWh,IEA
+country,Spain,2009,52.761,0.1792890420315415,TWh,IEA
+country,Brazil,1997,3.1689999999999996,0.010289562377022034,TWh,IEA
+country,Iraq,2016,0,0,TWh,IEA
+country,Burma,2003,0,0,TWh,IEA
+country,Bulgaria,2010,15.249,0.32695812517421047,TWh,IEA
+country,Bahrain,2000,0,0,TWh,IEA
+country,Albania,2007,0,0,TWh,IEA
+country,Guatemala,1992,0,0,TWh,IEA
+country,Serbia,1997,0,0,TWh,IEA
+country,Iraq,2001,0,0,TWh,IEA
+country,Iceland,2010,0,0,TWh,IEA
+country,Gabon,1997,0,0,TWh,IEA
+country,El Salvador,1992,0,0,TWh,IEA
+country,Angola,1990,0,0,TWh,IEA
+country,Ecuador,2013,0,0,TWh,IEA
+country,South Africa,2014,13.794,0.05461283247155335,TWh,IEA
+country,Guatemala,1991,0,0,TWh,IEA
+country,Tunisia,2009,0,0,TWh,IEA
+country,Spain,1999,58.852,0.2823301399369636,TWh,IEA
+country,Georgia,1996,0,0,TWh,IEA
+country,Argentina,2000,6.1770000000000005,0.06942243501129507,TWh,IEA
+country,China,1996,14.338,0.013272976375620232,TWh,IEA
+country,Nicaragua,1990,0,0,TWh,IEA
+country,Malaysia,2005,0,0,TWh,IEA
+country,Honduras,2015,0,0,TWh,IEA
+country,Mexico,2011,10.089,0.03332441511341002,TWh,IEA
+country,Jordan,2015,0,0,TWh,IEA
+country,Latvia,1996,0,0,TWh,IEA
+zone,Middle East,2016,0,0,TWh,IEA
+country,Mongolia,2001,0,0,TWh,IEA
+country,Chile,1996,0,0,TWh,IEA
+country,Singapore,2014,0,0,TWh,IEA
+zone,Africa,1997,12.647,0.032678319961758594,TWh,IEA
+country,Nepal,1998,0,0,TWh,IEA
+group,OPEC,2008,0,0,TWh,IEA
+zone,Africa,1995,11.300999999999998,0.03244123059080875,TWh,IEA
+group,EU28,2015,830.1790000000001,0.2640784710163207,TWh,IEA
+country,Georgia,1995,0,0,TWh,IEA
+zone,Asia and Oceania,2014,174.444,0.01929216284361995,TWh,IEA
+country,Brazil,1993,0.442,0.0017541353144743944,TWh,IEA
+country,Austria,2014,0,0,TWh,IEA
+country,Zimbabwe,2013,0,0,TWh,IEA
+country,Chile,1990,0,0,TWh,IEA
+country,Senegal,1993,0,0,TWh,IEA
+country,Guatemala,2008,0,0,TWh,IEA
+country,Latvia,1990,0,0,TWh,IEA
+country,Kyrgyzstan,2002,0,0,TWh,IEA
+country,Mongolia,2015,0,0,TWh,IEA
+country,Israel,1992,0,0,TWh,IEA
+country,Senegal,1992,0,0,TWh,IEA
+country,Japan,2014,0,0,TWh,IEA
+country,Botswana,2015,0,0,TWh,IEA
+country,Nigeria,2007,0,0,TWh,IEA
+country,Netherlands,2006,3.469,0.035151895912287456,TWh,IEA
+zone,Middle East,2000,0,0,TWh,IEA
+country,Mauritius,2001,0,0,TWh,IEA
+country,Georgia,2003,0,0,TWh,IEA
+country,Gabon,1995,0,0,TWh,IEA
+country,Romania,2003,4.906000000000001,0.0889735219441422,TWh,IEA
+zone,Europe,1999,920.1650000000001,0.2923410220061546,TWh,IEA
+country,Qatar,1994,0,0,TWh,IEA
+country,Hungary,1992,13.964,0.440713271264005,TWh,IEA
+zone,Middle East,1991,0,0,TWh,IEA
+zone,World,2002,2456.149999999999,0.16600619700596095,TWh,IEA
+country,Thailand,2009,0,0,TWh,IEA
+country,Benin,2016,0,0,TWh,IEA
+country,Hungary,2002,13.953,0.38590037890311696,TWh,IEA
+country,Austria,2010,0,0,TWh,IEA
+country,Austria,1996,0,0,TWh,IEA
+country,Hungary,1990,13.731,0.48287382191588135,TWh,IEA
+country,Bolivia,2003,0,0,TWh,IEA
+country,Tunisia,2006,0,0,TWh,IEA
+country,Lebanon,2001,0,0,TWh,IEA
+country,Congo,2011,0,0,TWh,IEA
+country,El Salvador,2000,0,0,TWh,IEA
+country,Togo,1998,0,0,TWh,IEA
+country,Yemen,2002,0,0,TWh,IEA
+country,Japan,1998,332.343,0.32782362352606964,TWh,IEA
+country,Cambodia,2012,0,0,TWh,IEA
+country,Zimbabwe,2014,0,0,TWh,IEA
+country,Portugal,2010,0,0,TWh,IEA
+country,Bahrain,2012,0,0,TWh,IEA
+country,Panama,2002,0,0,TWh,IEA
+country,Kazakhstan,2008,0,0,TWh,IEA
+country,Jamaica,1990,0,0,TWh,IEA
+country,Honduras,2005,0,0,TWh,IEA
+country,Cyprus,2008,0,0,TWh,IEA
+country,Jamaica,2002,0,0,TWh,IEA
+country,Serbia,2015,0,0,TWh,IEA
+country,Libya,2014,0,0,TWh,IEA
+country,Brazil,2002,13.835999999999999,0.040074495231088726,TWh,IEA
+zone,World,1991,1979.1000000000001,0.17419446830683427,TWh,IEA
+country,Peru,2011,0,0,TWh,IEA
+country,Belgium,1999,49.016999999999996,0.5799867477577679,TWh,IEA
+country,Malta,2001,0,0,TWh,IEA
+country,Malaysia,1993,0,0,TWh,IEA
+country,Niger,2010,0,0,TWh,IEA
+country,Iceland,2014,0,0,TWh,IEA
+country,Hungary,2001,14.126,0.387917067142661,TWh,IEA
+country,United States of America,1992,655.97,0.199315792943959,TWh,IEA
+country,South Africa,2003,12.663,0.054062477319204716,TWh,IEA
+country,Guatemala,2010,0,0,TWh,IEA
+country,Chile,2016,0,0,TWh,IEA
+country,Bangladesh,1992,0,0,TWh,IEA
+country,Tunisia,2003,0,0,TWh,IEA
+country,Jamaica,2009,0,0,TWh,IEA
+country,India,1995,7.982,0.01884057971014492,TWh,IEA
+country,Malta,2011,0,0,TWh,IEA
+country,Zimbabwe,2005,0,0,TWh,IEA
+zone,Europe,2016,815.5800000000002,0.22423194003325625,TWh,IEA
+zone,North America,1994,790.9929999999999,0.1893981586792295,TWh,IEA
+country,Guatemala,1993,0,0,TWh,IEA
+group,Persian Gulf,1993,0,0,TWh,IEA
+country,Senegal,2002,0,0,TWh,IEA
+country,Spain,1992,55.782,0.35145352133973456,TWh,IEA
+country,Australia,1999,0,0,TWh,IEA
+zone,Europe,2003,954.5039999999999,0.2800947241467344,TWh,IEA
+country,Kazakhstan,2001,0,0,TWh,IEA
+country,France,2008,439.44699999999995,0.766159725648612,TWh,IEA
+country,Azerbaijan,1996,0,0,TWh,IEA
+country,Argentina,1993,7.75,0.12526669683843022,TWh,IEA
+country,Ivory Coast,2006,0,0,TWh,IEA
+country,Canada,2013,103.439,0.15744906905663594,TWh,IEA
+group,Persian Gulf,2012,0,0,TWh,IEA
+country,Dominican Republic,1991,0,0,TWh,IEA
+country,Morocco,2014,0,0,TWh,IEA
+country,Namibia,2006,0,0,TWh,IEA
+country,Lebanon,1993,0,0,TWh,IEA
+country,Singapore,2007,0,0,TWh,IEA
+country,Iceland,1994,0,0,TWh,IEA
+country,Armenia,1993,0,0,TWh,IEA
+country,Tunisia,2012,0,0,TWh,IEA
+country,China,2015,170.78900000000004,0.02914729290734814,TWh,IEA
+country,Mexico,2000,8.221,0.03997082776224626,TWh,IEA
+country,Kuwait,2009,0,0,TWh,IEA
+country,Mauritius,2012,0,0,TWh,IEA
+country,Dominican Republic,1994,0,0,TWh,IEA
+country,Kuwait,2015,0,0,TWh,IEA
+country,Morocco,1998,0,0,TWh,IEA
+country,Kyrgyzstan,1997,0,0,TWh,IEA
+country,Jordan,2016,0,0,TWh,IEA
+country,Egypt,2003,0,0,TWh,IEA
+country,Thailand,1996,0,0,TWh,IEA
+country,Yemen,2016,0,0,TWh,IEA
+country,Canada,2003,74.892,0.12701029249406007,TWh,IEA
+country,Latvia,2006,0,0,TWh,IEA
+country,Poland,2011,0,0,TWh,IEA
+country,China,2014,132.53799999999998,0.023338489807525873,TWh,IEA
+country,Angola,2005,0,0,TWh,IEA
+country,India,1997,10.083,0.021331646490845776,TWh,IEA
+country,Spain,2012,61.47,0.20670244532321846,TWh,IEA
+country,India,1998,11.922,0.023666454260140423,TWh,IEA
+zone,Africa,2000,13.01,0.03056135644501657,TWh,IEA
+country,Hungary,2011,15.685,0.4354646158971655,TWh,IEA
+country,Belarus,2008,0,0,TWh,IEA
+country,Zambia,2004,0,0,TWh,IEA
+country,Croatia,2015,0,0,TWh,IEA
+country,Botswana,2011,0,0,TWh,IEA
+country,Portugal,1990,0,0,TWh,IEA
+country,Jordan,2008,0,0,TWh,IEA
+country,Belarus,2002,0,0,TWh,IEA
+country,El Salvador,2012,0,0,TWh,IEA
+country,Zimbabwe,1999,0,0,TWh,IEA
+country,Serbia,2013,0,0,TWh,IEA
+country,Kosovo,2010,0,0,TWh,IEA
+country,Georgia,2010,0,0,TWh,IEA
+country,El Salvador,1995,0,0,TWh,IEA
+country,Egypt,1993,0,0,TWh,IEA
+country,Tunisia,2016,0,0,TWh,IEA
+country,Niger,2003,0,0,TWh,IEA
+country,Sudan,2002,0,0,TWh,IEA
+country,Croatia,2016,0,0,TWh,IEA
+country,Colombia,1992,0,0,TWh,IEA
+country,United States of America,2006,816.195,0.18982899238144274,TWh,IEA
+country,Cambodia,1995,0,0,TWh,IEA
+country,Bolivia,2012,0,0,TWh,IEA
+country,Albania,2005,0,0,TWh,IEA
+country,Italy,2007,0,0,TWh,IEA
+country,Finland,2007,23.423,0.28919783191139975,TWh,IEA
+country,Libya,2000,0,0,TWh,IEA
+country,Iraq,1996,0,0,TWh,IEA
+country,Estonia,2003,0,0,TWh,IEA
+country,Lebanon,2002,0,0,TWh,IEA
+country,Cambodia,2004,0,0,TWh,IEA
+country,Bangladesh,2006,0,0,TWh,IEA
+country,Mauritius,2007,0,0,TWh,IEA
+country,Poland,2002,0,0,TWh,IEA
+country,Indonesia,2006,0,0,TWh,IEA
+group,OPEC,1990,0,0,TWh,IEA
+country,Finland,1991,19.511,0.3364777704963267,TWh,IEA
+country,Lithuania,2006,8.651,0.7041921041921042,TWh,IEA
+country,Latvia,1999,0,0,TWh,IEA
+country,Niger,2005,0,0,TWh,IEA
+country,Brunei Darussalam,2004,0,0,TWh,IEA
+country,Qatar,1992,0,0,TWh,IEA
+country,Senegal,2012,0,0,TWh,IEA
+country,Cameroon,1996,0,0,TWh,IEA
+country,Ivory Coast,2004,0,0,TWh,IEA
+country,Serbia,2005,0,0,TWh,IEA
+country,Senegal,1999,0,0,TWh,IEA
+country,Albania,1991,0,0,TWh,IEA
+country,Nicaragua,1993,0,0,TWh,IEA
+country,Ethiopia,1990,0,0,TWh,IEA
+country,Finland,1994,19.427,0.2960034130212856,TWh,IEA
+country,Ivory Coast,2015,0,0,TWh,IEA
+country,Georgia,2015,0,0,TWh,IEA
+country,Tajikistan,1991,0,0,TWh,IEA
+country,Albania,2009,0,0,TWh,IEA
+country,Bangladesh,2000,0,0,TWh,IEA
+country,Azerbaijan,2009,0,0,TWh,IEA
+country,Turkey,1991,0,0,TWh,IEA
+country,Cuba,1996,0,0,TWh,IEA
+country,Belarus,1998,0,0,TWh,IEA
+country,Oman,1992,0,0,TWh,IEA
+country,Brazil,1998,3.265,0.010147693225754317,TWh,IEA
+country,Netherlands,2000,3.926,0.043922849727020506,TWh,IEA
+country,Austria,2001,0,0,TWh,IEA
+country,Iceland,1997,0,0,TWh,IEA
+country,Libya,2016,0,0,TWh,IEA
+country,Georgia,2012,0,0,TWh,IEA
+country,Ukraine,2001,76.169,0.4403545082441088,TWh,IEA
+country,Ecuador,1991,0,0,TWh,IEA
+country,Canada,1995,97.844,0.17468524377093317,TWh,IEA
+country,Brazil,1994,0.055,0.00021150510880976463,TWh,IEA
+country,Yemen,1998,0,0,TWh,IEA
+country,Sudan,2004,0,0,TWh,IEA
+country,Nicaragua,2014,0,0,TWh,IEA
+zone,Asia and Oceania,2001,359.096,0.09610331636408012,TWh,IEA
+country,Tunisia,1997,0,0,TWh,IEA
+country,Romania,2013,11.618,0.19729312072274013,TWh,IEA
+country,Nigeria,1990,0,0,TWh,IEA
+country,Jordan,2009,0,0,TWh,IEA
+country,Cambodia,1998,0,0,TWh,IEA
+country,Belgium,2004,47.312,0.552432773256425,TWh,IEA
+country,Uruguay,1995,0,0,TWh,IEA
+zone,Asia and Oceania,1990,208.70600000000002,0.09996426871079016,TWh,IEA
+country,Burma,2008,0,0,TWh,IEA
+country,Slovenia,1997,5.019,0.38091985428051,TWh,IEA
+country,Ethiopia,2010,0,0,TWh,IEA
+country,Israel,2003,0,0,TWh,IEA
+country,Honduras,2003,0,0,TWh,IEA
+country,Burma,2013,0,0,TWh,IEA
+country,Honduras,1994,0,0,TWh,IEA
+country,China,2016,213.287,0.034302056946171756,TWh,IEA
+country,Zambia,2011,0,0,TWh,IEA
+country,Slovenia,2000,4.761,0.3494568408690546,TWh,IEA
+country,Belgium,2014,33.703,0.46632905787776907,TWh,IEA
+country,Egypt,2009,0,0,TWh,IEA
+country,Belgium,2016,43.523,0.5119871070958028,TWh,IEA
+country,Latvia,2010,0,0,TWh,IEA
+country,Bulgaria,2012,15.785,0.3336221837088389,TWh,IEA
+country,Uzbekistan,2003,0,0,TWh,IEA
+country,Angola,2015,0,0,TWh,IEA
+country,Slovakia,2011,15.411,0.5392609699769054,TWh,IEA
+country,Uruguay,1996,0,0,TWh,IEA
+country,Tajikistan,2012,0,0,TWh,IEA
+country,Italy,2004,0,0,TWh,IEA
+group,OECD,1997,1963.4579999999999,0.23037218663608586,TWh,IEA
+country,India,1996,9.071,0.020474865190020557,TWh,IEA
+country,Israel,2001,0,0,TWh,IEA
+country,Indonesia,1995,0,0,TWh,IEA
+country,Slovenia,2014,6.37,0.3653151344841429,TWh,IEA
+country,Nigeria,1996,0,0,TWh,IEA
+country,Canada,2005,92.04,0.14831478055729228,TWh,IEA
+group,Persian Gulf,1995,0,0,TWh,IEA
+country,Zambia,2015,0,0,TWh,IEA
+country,Armenia,2000,2.005,0.3365223229271568,TWh,IEA
+zone,Africa,2002,11.991,0.025545540342183697,TWh,IEA
+zone,Asia and Oceania,2013,160.234,0.018426056412936664,TWh,IEA
+country,Togo,1994,0,0,TWh,IEA
+country,Austria,1993,0,0,TWh,IEA
+country,United Kingdom,2007,63.028,0.158828717586876,TWh,IEA
+country,Cyprus,2015,0,0,TWh,IEA
+country,Togo,2014,0,0,TWh,IEA
+country,Belgium,2001,46.349,0.5806617306222672,TWh,IEA
+country,Mozambique,1993,0,0,TWh,IEA
+country,Gibraltar,1998,0,0,TWh,IEA
+country,Nicaragua,2012,0,0,TWh,IEA
+country,Ukraine,2002,77.99,0.4489046473344308,TWh,IEA
+country,South Africa,2010,12.099,0.046606137880824815,TWh,IEA
+country,Ecuador,2006,0,0,TWh,IEA
+country,Bahrain,1995,0,0,TWh,IEA
+country,Nepal,2003,0,0,TWh,IEA
+country,Gabon,2015,0,0,TWh,IEA
+country,United States of America,2000,797.7180000000001,0.19683778608012947,TWh,IEA
+country,Sweden,2011,60.475,0.40215858913656444,TWh,IEA
+country,Israel,1995,0,0,TWh,IEA
+country,Honduras,2002,0,0,TWh,IEA
+country,Namibia,1999,0,0,TWh,IEA
+country,Turkey,1999,0,0,TWh,IEA
+group,Persian Gulf,2014,0,0,TWh,IEA
+country,Spain,1995,55.455,0.33189693868390335,TWh,IEA
+country,Norway,2015,0,0,TWh,IEA
+country,Senegal,2004,0,0,TWh,IEA
+country,United Kingdom,1995,88.964,0.26632658865229114,TWh,IEA
+country,Belarus,2007,0,0,TWh,IEA
+zone,North America,1992,740.471,0.18772891845907694,TWh,IEA
+country,El Salvador,2015,0,0,TWh,IEA
+country,Albania,2013,0,0,TWh,IEA
+country,Oman,1990,0,0,TWh,IEA
+country,Gibraltar,2009,0,0,TWh,IEA
+country,Colombia,2005,0,0,TWh,IEA
+country,Colombia,1999,0,0,TWh,IEA
+country,Ghana,2005,0,0,TWh,IEA
+country,Gabon,2006,0,0,TWh,IEA
+country,Peru,2001,0,0,TWh,IEA
+country,Kuwait,2006,0,0,TWh,IEA
+country,Canada,2010,90.65799999999999,0.15075645958952627,TWh,IEA
+group,OECD,2003,2040.3359999999998,0.21588944979158983,TWh,IEA
+country,Serbia,2004,0,0,TWh,IEA
+country,Panama,2004,0,0,TWh,IEA
+country,China,2013,111.613,0.02048979970983508,TWh,IEA
+country,Ireland,2010,0,0,TWh,IEA
+country,Slovakia,1996,11.249,0.43668478260869564,TWh,IEA
+country,Ireland,1992,0,0,TWh,IEA
+country,Gibraltar,2000,0,0,TWh,IEA
+country,Canada,2001,76.69500000000002,0.1300155452447995,TWh,IEA
+country,Mauritius,1992,0,0,TWh,IEA
+country,Iraq,1997,0,0,TWh,IEA
+zone,Europe,2010,888.6120000000001,0.24358754710433256,TWh,IEA
+country,Burma,1997,0,0,TWh,IEA
+country,Brazil,1995,2.519,0.009140024891056274,TWh,IEA
+country,China,2010,73.88,0.017557063426673947,TWh,IEA
+country,Slovakia,2016,14.774,0.5485260265835005,TWh,IEA
+country,Georgia,2004,0,0,TWh,IEA
+country,Mozambique,2013,0,0,TWh,IEA
+country,Belgium,2012,40.295,0.48726661507207125,TWh,IEA
+country,Oman,1999,0,0,TWh,IEA
+country,Norway,2012,0,0,TWh,IEA
+country,Colombia,1997,0,0,TWh,IEA
+country,Serbia,1990,0,0,TWh,IEA
+country,Cyprus,1991,0,0,TWh,IEA
+country,Azerbaijan,2006,0,0,TWh,IEA
+country,United States of America,2007,836.6339999999999,0.1923874156240931,TWh,IEA
+country,Australia,1991,0,0,TWh,IEA
+country,Slovenia,1990,4.622,0.3714239794278367,TWh,IEA
+country,Colombia,2014,0,0,TWh,IEA
+country,Nigeria,2000,0,0,TWh,IEA
+country,Azerbaijan,2011,0,0,TWh,IEA
+country,Albania,2006,0,0,TWh,IEA
+country,Jamaica,2013,0,0,TWh,IEA
+country,Spain,2002,63.016000000000005,0.25724701281418005,TWh,IEA
+country,Angola,1991,0,0,TWh,IEA
+zone,Asia and Oceania,1998,358.64900000000006,0.11114561340060661,TWh,IEA
+country,Kuwait,2013,0,0,TWh,IEA
+country,China,1991,0,0,TWh,IEA
+country,Germany,2005,163.055,0.26327304315252736,TWh,IEA
+country,United States of America,2008,837.804,0.19182808914903424,TWh,IEA
+country,Cyprus,1999,0,0,TWh,IEA
+country,Israel,2000,0,0,TWh,IEA
+country,Belarus,2011,0,0,TWh,IEA
+country,Sweden,1999,73.188,0.47260751646648574,TWh,IEA
+country,Hungary,2008,14.818,0.3702186133666459,TWh,IEA
+group,Persian Gulf,1997,0,0,TWh,IEA
+country,Bolivia,1998,0,0,TWh,IEA
+country,Oman,2008,0,0,TWh,IEA
+country,Austria,1995,0,0,TWh,IEA
+country,Japan,1993,249.25599999999997,0.27947570834314417,TWh,IEA
+country,Slovakia,1999,13.117,0.4617523849755342,TWh,IEA
+country,Hungary,2000,14.18,0.4029439345287147,TWh,IEA
+country,Gibraltar,2003,0,0,TWh,IEA
+country,Chile,2008,0,0,TWh,IEA
+country,Portugal,1995,0,0,TWh,IEA
+country,South Africa,2000,13.01,0.061755351972278924,TWh,IEA
+country,Cyprus,2012,0,0,TWh,IEA
+country,Colombia,2003,0,0,TWh,IEA
+country,Sweden,2016,63.101000000000006,0.40446766232933795,TWh,IEA
+country,Hungary,1993,13.796,0.4191402096308674,TWh,IEA
+country,El Salvador,1991,0,0,TWh,IEA
+country,Italy,1993,0,0,TWh,IEA
+country,Argentina,1990,7.2810000000000015,0.14275071071463585,TWh,IEA
+group,EU28,1996,913.089,0.3284768111859735,TWh,IEA
+country,Argentina,1997,7.961,0.10986144844336498,TWh,IEA
+country,Ethiopia,1994,0,0,TWh,IEA
+country,Guatemala,2014,0,0,TWh,IEA
+country,Russian Federation & USSR,2003,150.342,0.16407759149435874,TWh,IEA
+country,France,1993,368.18800000000005,0.778892633280235,TWh,IEA
+country,Cameroon,2011,0,0,TWh,IEA
+country,Slovakia,2015,15.145999999999999,0.5650859978360632,TWh,IEA
+country,Botswana,2006,0,0,TWh,IEA
+group,EU28,1990,782.2779999999998,0.3090748394626537,TWh,IEA
+country,Nepal,1990,0,0,TWh,IEA
+country,Colombia,1994,0,0,TWh,IEA
+country,Niger,2006,0,0,TWh,IEA
+country,Nicaragua,2001,0,0,TWh,IEA
+country,Russian Federation & USSR,2013,172.50799999999998,0.16288292235235463,TWh,IEA
+country,Ghana,1995,0,0,TWh,IEA
+country,Peru,2014,0,0,TWh,IEA
+country,Morocco,1993,0,0,TWh,IEA
+country,Netherlands,1990,3.502,0.04877844945260051,TWh,IEA
+country,Iceland,2008,0,0,TWh,IEA
+country,Sweden,2012,64.03699999999999,0.3844634430422305,TWh,IEA
+country,Panama,2014,0,0,TWh,IEA
+country,Angola,2009,0,0,TWh,IEA
+country,Malta,2012,0,0,TWh,IEA
+zone,Africa,1990,8.449,0.027796329134329726,TWh,IEA
+country,Pakistan,1999,0.39899999999999997,0.006065673456977804,TWh,IEA
+country,Thailand,1998,0,0,TWh,IEA
+country,Latvia,2004,0,0,TWh,IEA
+country,Malaysia,1994,0,0,TWh,IEA
+country,Tunisia,2001,0,0,TWh,IEA
+country,Portugal,1992,0,0,TWh,IEA
+country,United Kingdom,1994,88.28200000000001,0.2703997402653092,TWh,IEA
+country,Jamaica,2006,0,0,TWh,IEA
+country,Hungary,1998,13.949000000000002,0.37507394460876586,TWh,IEA
+zone,North America,2013,937.2429999999999,0.17830820067846084,TWh,IEA
+country,Lithuania,2004,15.102,0.7905150753768844,TWh,IEA
+country,Guatemala,2012,0,0,TWh,IEA
+country,Guatemala,2003,0,0,TWh,IEA
+zone,Europe,1993,837.2860000000002,0.30191388405202396,TWh,IEA
+country,Qatar,2000,0,0,TWh,IEA
+country,Portugal,2009,0,0,TWh,IEA
+zone,Central and South America,2015,21.873,0.0195298304700356,TWh,IEA
+country,Slovenia,2015,5.648,0.37403973509933774,TWh,IEA
+country,Botswana,2002,0,0,TWh,IEA
+country,Bangladesh,2004,0,0,TWh,IEA
+zone,Africa,2009,12.806,0.021292125770854424,TWh,IEA
+zone,Middle East,1997,0,0,TWh,IEA
+country,Armenia,2005,2.716,0.4299509260725028,TWh,IEA
+country,Georgia,2005,0,0,TWh,IEA
+country,Cuba,1995,0,0,TWh,IEA
+country,Malta,2002,0,0,TWh,IEA
+country,Cuba,2000,0,0,TWh,IEA
+country,Algeria,1996,0,0,TWh,IEA
+country,Kazakhstan,2012,0,0,TWh,IEA
+country,Estonia,1996,0,0,TWh,IEA
+country,Estonia,1991,0,0,TWh,IEA
+country,Kenya,2009,0,0,TWh,IEA
+zone,Africa,2013,14.106,0.0198737077018014,TWh,IEA
+zone,Africa,2012,11.954,0.0172472997890618,TWh,IEA
+country,Angola,2002,0,0,TWh,IEA
+country,Cameroon,2013,0,0,TWh,IEA
+country,Congo,2004,0,0,TWh,IEA
+country,Mongolia,2007,0,0,TWh,IEA
+country,Poland,1997,0,0,TWh,IEA
+country,Malaysia,2007,0,0,TWh,IEA
+country,Guatemala,1999,0,0,TWh,IEA
+country,Zimbabwe,2003,0,0,TWh,IEA
+country,Sudan,2003,0,0,TWh,IEA
+group,OPEC,2000,0,0,TWh,IEA
+country,Gabon,2008,0,0,TWh,IEA
+group,Persian Gulf,1994,0,0,TWh,IEA
+country,Croatia,2009,0,0,TWh,IEA
+country,Ukraine,1994,68.848,0.3392830742847005,TWh,IEA
+country,Togo,2009,0,0,TWh,IEA
+country,Cyprus,2004,0,0,TWh,IEA
+country,Mozambique,2010,0,0,TWh,IEA
+country,Oman,2003,0,0,TWh,IEA
+country,Benin,2008,0,0,TWh,IEA
+country,Austria,2009,0,0,TWh,IEA
+group,EU28,2008,910.6639999999999,0.27635221293829815,TWh,IEA
+country,Romania,1992,0,0,TWh,IEA
+zone,Eurasia,1998,195.702,0.16185075313174285,TWh,IEA
+country,Egypt,2010,0,0,TWh,IEA
+country,El Salvador,2001,0,0,TWh,IEA
+country,Ecuador,1999,0,0,TWh,IEA
+zone,North America,2001,878.025,0.18804669593372378,TWh,IEA
+country,Yemen,1990,0,0,TWh,IEA
+country,Slovakia,2003,17.864,0.5733359008922267,TWh,IEA
+country,Portugal,2012,0,0,TWh,IEA
+country,Georgia,2009,0,0,TWh,IEA
+country,Slovakia,2010,14.574000000000002,0.5239053850025164,TWh,IEA
+country,Oman,2016,0,0,TWh,IEA
+country,Nicaragua,1998,0,0,TWh,IEA
+country,Ghana,1990,0,0,TWh,IEA
+country,Albania,2003,0,0,TWh,IEA
+country,Zimbabwe,1996,0,0,TWh,IEA
+country,NZ,1995,0,0,TWh,IEA
+country,Australia,2012,0,0,TWh,IEA
+country,Chile,2005,0,0,TWh,IEA
+country,Algeria,2004,0,0,TWh,IEA
+country,Slovakia,2014,15.499,0.568082688853865,TWh,IEA
+zone,Asia and Oceania,1995,312.5520000000001,0.1093502526882567,TWh,IEA
+country,Niger,2000,0,0,TWh,IEA
+country,Namibia,2011,0,0,TWh,IEA
+country,Pakistan,1993,0.49700000000000005,0.009813213284365992,TWh,IEA
+country,Colombia,2011,0,0,TWh,IEA
+country,Argentina,1996,7.459,0.10692527129115956,TWh,IEA
+country,Eritrea,2010,0,0,TWh,IEA
+country,Ireland,1994,0,0,TWh,IEA
+zone,Eurasia,2001,226.45299999999997,0.1767410459934284,TWh,IEA
+zone,Asia and Oceania,1997,344.05300000000005,0.10947869440039101,TWh,IEA
+country,Ecuador,2015,0,0,TWh,IEA
+country,Lithuania,2005,10.337,0.7087904552934722,TWh,IEA
+country,Lithuania,1996,13.942,0.8321098179647867,TWh,IEA
+group,OPEC,2007,0,0,TWh,IEA
+country,Slovakia,2008,16.703,0.5774988763267986,TWh,IEA
+country,Oman,2002,0,0,TWh,IEA
+country,Sudan,2012,0,0,TWh,IEA
+country,Gibraltar,2006,0,0,TWh,IEA
+country,Russian Federation & USSR,1993,119.186,0.124595044674452,TWh,IEA
+country,Ghana,2008,0,0,TWh,IEA
+country,France,2016,403.195,0.7256668226485729,TWh,IEA
+country,Jamaica,2011,0,0,TWh,IEA
+country,Mauritius,2008,0,0,TWh,IEA
+country,Hungary,2014,15.649,0.533421958618809,TWh,IEA
+country,Denmark,2006,0,0,TWh,IEA
+country,Slovakia,1995,11.437000000000001,0.4271681482034811,TWh,IEA
+country,South Africa,1996,11.775,0.05837414979476095,TWh,IEA
+country,Serbia,2010,0,0,TWh,IEA
+zone,Middle East,2006,0,0,TWh,IEA
+country,Peru,2009,0,0,TWh,IEA
+country,Suriname,2008,0,0,TWh,IEA
+country,Hungary,1994,14.049000000000001,0.4191854393555125,TWh,IEA
+country,Cameroon,2014,0,0,TWh,IEA
+group,Persian Gulf,2010,0,0,TWh,IEA
+country,Ivory Coast,2008,0,0,TWh,IEA
+country,NZ,2005,0,0,TWh,IEA
+country,Mexico,2006,10.866,0.04214862568948262,TWh,IEA
+country,Angola,1992,0,0,TWh,IEA
+country,United Kingdom,1993,89.35300000000002,0.2765473441823327,TWh,IEA
+country,Colombia,2009,0,0,TWh,IEA
+country,Morocco,2001,0,0,TWh,IEA
+country,India,2016,37.916,0.025661155794266775,TWh,IEA
+country,Argentina,1994,8.235,0.12705784333389905,TWh,IEA
+country,Sweden,2015,56.348,0.3477026743511582,TWh,IEA
+country,India,1990,6.141,0.020978232649659076,TWh,IEA
+country,Spain,2014,57.305,0.20557847533632287,TWh,IEA
+country,Indonesia,2010,0,0,TWh,IEA
+country,Haiti,2006,0,0,TWh,IEA
+zone,Middle East,2011,0,0,TWh,IEA
+country,Tunisia,2007,0,0,TWh,IEA
+country,Libya,2010,0,0,TWh,IEA
+country,Ireland,1990,0,0,TWh,IEA
+country,Guatemala,1998,0,0,TWh,IEA
+country,Botswana,1995,0,0,TWh,IEA
+country,India,2014,36.102,0.027894793775401393,TWh,IEA
+country,Sweden,1996,74.274,0.5280317356499978,TWh,IEA
+country,Ghana,2016,0,0,TWh,IEA
+country,Iraq,1993,0,0,TWh,IEA
+country,Ethiopia,1999,0,0,TWh,IEA
+country,Mauritius,2003,0,0,TWh,IEA
+country,Australia,1996,0,0,TWh,IEA
+country,Gibraltar,2008,0,0,TWh,IEA
+country,Croatia,2012,0,0,TWh,IEA
+country,NZ,1992,0,0,TWh,IEA
+country,Indonesia,2011,0,0,TWh,IEA
+country,Zimbabwe,2000,0,0,TWh,IEA
+country,Uruguay,1990,0,0,TWh,IEA
+country,Eritrea,2008,0,0,TWh,IEA
+country,Thailand,2013,0,0,TWh,IEA
+country,Sweden,2002,68.111,0.46417691757249463,TWh,IEA
+country,Canada,2008,96.02,0.15191475560266746,TWh,IEA
+country,Malaysia,2006,0,0,TWh,IEA
+country,Ghana,2013,0,0,TWh,IEA
+country,Angola,2000,0,0,TWh,IEA
+country,Ethiopia,2013,0,0,TWh,IEA
+country,Bangladesh,2011,0,0,TWh,IEA
+country,Azerbaijan,2015,0,0,TWh,IEA
+group,OECD,1998,2006.1139999999998,0.22922553139365767,TWh,IEA
+country,Bahrain,1991,0,0,TWh,IEA
+country,Lebanon,1990,0,0,TWh,IEA
+country,Italy,1995,0,0,TWh,IEA
+country,Estonia,2016,0,0,TWh,IEA
+country,Argentina,2004,7.869,0.07849376558603491,TWh,IEA
+country,Norway,2001,0,0,TWh,IEA
+country,Colombia,2000,0,0,TWh,IEA
+country,Australia,2002,0,0,TWh,IEA
+country,Peru,2012,0,0,TWh,IEA
+country,Austria,2008,0,0,TWh,IEA
+country,Turkey,1990,0,0,TWh,IEA
+country,Tajikistan,2002,0,0,TWh,IEA
+country,Romania,2002,5.513,0.10072165890198226,TWh,IEA
+country,Austria,2005,0,0,TWh,IEA
+country,Uruguay,1993,0,0,TWh,IEA
+country,Iraq,2015,0,0,TWh,IEA
+country,Australia,1993,0,0,TWh,IEA
+country,Russian Federation & USSR,2016,196.614,0.18021894217363768,TWh,IEA
+country,Senegal,2008,0,0,TWh,IEA
+country,Norway,1991,0,0,TWh,IEA
+country,Nicaragua,2005,0,0,TWh,IEA
+country,Denmark,2014,0,0,TWh,IEA
+country,Nigeria,2015,0,0,TWh,IEA
+country,Lebanon,1997,0,0,TWh,IEA
+country,Greece,2005,0,0,TWh,IEA
+country,Singapore,2015,0,0,TWh,IEA
+country,Nigeria,2002,0,0,TWh,IEA
+country,United States of America,2010,838.931,0.1917694207081377,TWh,IEA
+country,Botswana,2014,0,0,TWh,IEA
+zone,Middle East,2004,0,0,TWh,IEA
+country,Russian Federation & USSR,1991,119.984,0.11232742568315884,TWh,IEA
+country,Albania,1996,0,0,TWh,IEA
+country,Uzbekistan,2010,0,0,TWh,IEA
+country,Tajikistan,1990,0,0,TWh,IEA
+country,Angola,2014,0,0,TWh,IEA
+country,Suriname,2010,0,0,TWh,IEA
+country,Malaysia,2014,0,0,TWh,IEA
+country,Jamaica,2012,0,0,TWh,IEA
+country,Belarus,1991,0,0,TWh,IEA
+country,NZ,2003,0,0,TWh,IEA
+country,Burma,2014,0,0,TWh,IEA
+country,Chile,2012,0,0,TWh,IEA
+country,Russian Federation & USSR,1995,99.53200000000001,0.11573125029795577,TWh,IEA
+country,Malaysia,2004,0,0,TWh,IEA
+country,Haiti,2010,0,0,TWh,IEA
+country,Bangladesh,2003,0,0,TWh,IEA
+country,Mozambique,1992,0,0,TWh,IEA
+country,Croatia,2011,0,0,TWh,IEA
+country,United Kingdom,2008,52.486,0.13495355073935703,TWh,IEA
+country,Yemen,2003,0,0,TWh,IEA
+country,Egypt,2016,0,0,TWh,IEA
+country,Zambia,1990,0,0,TWh,IEA
+country,Romania,1996,1.386,0.02259168704156479,TWh,IEA
+country,Armenia,1995,0.304,0.054666426901636395,TWh,IEA
+country,Mauritius,1996,0,0,TWh,IEA
+country,Serbia,2016,0,0,TWh,IEA
+country,Benin,1997,0,0,TWh,IEA
+country,Netherlands,2002,3.915,0.040886020427345064,TWh,IEA
+country,Eritrea,1999,0,0,TWh,IEA
+country,Malta,2006,0,0,TWh,IEA
+country,Jamaica,1993,0,0,TWh,IEA
+country,Ecuador,2011,0,0,TWh,IEA
+country,Tajikistan,1993,0,0,TWh,IEA
+country,Sudan,1993,0,0,TWh,IEA
+zone,Asia and Oceania,1999,345.213,0.10205373938076528,TWh,IEA
+country,Cuba,2004,0,0,TWh,IEA
+country,Thailand,2005,0,0,TWh,IEA
+country,Mexico,2010,5.879,0.021336517418713275,TWh,IEA
+country,Austria,2002,0,0,TWh,IEA
+zone,Eurasia,1993,206.689,0.1436742099061932,TWh,IEA
+zone,Asia and Oceania,2011,225.663,0.02907588465353309,TWh,IEA
+country,Brazil,2008,13.969000000000001,0.030197562836828534,TWh,IEA
+country,Togo,1993,0,0,TWh,IEA
+country,Russian Federation & USSR,2009,163.584,0.16490655053529304,TWh,IEA
+country,Estonia,2002,0,0,TWh,IEA
+country,Georgia,1991,0,0,TWh,IEA
+country,Kazakhstan,2016,0,0,TWh,IEA
+country,Gibraltar,1995,0,0,TWh,IEA
+country,Finland,2011,23.186999999999998,0.31675796778732535,TWh,IEA
+country,Ukraine,2012,90.137,0.4532276068745663,TWh,IEA
+country,India,1999,13.249,0.02427579383256683,TWh,IEA
+country,Ethiopia,2006,0,0,TWh,IEA
+country,Kazakhstan,1994,0,0,TWh,IEA
+country,Argentina,1998,7.452999999999999,0.10048672626029741,TWh,IEA
+country,Slovenia,2001,5.257000000000001,0.36340384349509197,TWh,IEA
+country,Guatemala,2002,0,0,TWh,IEA
+country,Croatia,2013,0,0,TWh,IEA
+country,Canada,2015,101.809,0.15240754185971658,TWh,IEA
+country,Bahrain,2008,0,0,TWh,IEA
+country,Azerbaijan,1994,0,0,TWh,IEA
+country,NZ,2007,0,0,TWh,IEA
+country,Paraguay,1994,0,0,TWh,IEA
+country,El Salvador,1990,0,0,TWh,IEA
+zone,Eurasia,1991,212.11499999999998,0.12819768970375192,TWh,IEA
+country,Austria,1994,0,0,TWh,IEA
+country,Gabon,2009,0,0,TWh,IEA
+country,Georgia,1999,0,0,TWh,IEA
+country,Belarus,1996,0,0,TWh,IEA
+country,Peru,1999,0,0,TWh,IEA
+country,Kazakhstan,2005,0,0,TWh,IEA
+country,Haiti,1995,0,0,TWh,IEA
+country,Yemen,2012,0,0,TWh,IEA
+country,Uruguay,2008,0,0,TWh,IEA
+country,Pakistan,1992,0.5820000000000001,0.011923786109403811,TWh,IEA
+country,Greece,2016,0,0,TWh,IEA
+country,Kyrgyzstan,2006,0,0,TWh,IEA
+country,Namibia,1998,0,0,TWh,IEA
+country,United States of America,2016,839.918,0.1945849144901146,TWh,IEA
+country,Algeria,2003,0,0,TWh,IEA
+country,Canada,1994,107.834,0.19402141839275686,TWh,IEA
+country,Belarus,1994,0,0,TWh,IEA
+country,Kenya,1990,0,0,TWh,IEA
+country,Nigeria,2003,0,0,TWh,IEA
+country,Norway,1993,0,0,TWh,IEA
+country,Ghana,2010,0,0,TWh,IEA
+group,Persian Gulf,1991,0,0,TWh,IEA
+country,Germany,1993,153.276,0.2912464182292181,TWh,IEA
+country,Sudan,1997,0,0,TWh,IEA
+country,Sudan,1999,0,0,TWh,IEA
+country,Kazakhstan,2006,0,0,TWh,IEA
+country,Slovenia,2016,5.715,0.34636363636363643,TWh,IEA
+zone,World,2011,2330.4809999999998,0.1159135449501023,TWh,IEA
+country,Germany,2011,107.971,0.17678254491155226,TWh,IEA
+country,Bangladesh,2013,0,0,TWh,IEA
+country,Peru,1993,0,0,TWh,IEA
+country,Gabon,2016,0,0,TWh,IEA
+country,Russian Federation & USSR,1990,118.305,0.10932382881517569,TWh,IEA
+country,Lithuania,1992,14.638,0.783199571963617,TWh,IEA
+country,Kuwait,2010,0,0,TWh,IEA
+country,Cuba,1998,0,0,TWh,IEA
+country,Brazil,1991,1.442,0.006152480832163565,TWh,IEA
+zone,World,1999,2350.4809999999998,0.1725478010089705,TWh,IEA
+country,Brazil,2014,15.378,0.02605160175506954,TWh,IEA
+country,Portugal,2006,0,0,TWh,IEA
+country,Brazil,1996,2.427,0.008332246170325255,TWh,IEA
+country,Belarus,2005,0,0,TWh,IEA
+country,Austria,2013,0,0,TWh,IEA
+country,Singapore,1993,0,0,TWh,IEA
+country,Spain,1994,55.313,0.34175893430873416,TWh,IEA
+country,Paraguay,1996,0,0,TWh,IEA
+zone,Africa,2014,13.794,0.01882792932360589,TWh,IEA
+country,Panama,2013,0,0,TWh,IEA
+country,Peru,1996,0,0,TWh,IEA
+country,Germany,1998,161.644,0.2905212682402547,TWh,IEA
+country,Singapore,1998,0,0,TWh,IEA
+country,Honduras,2011,0,0,TWh,IEA
+group,OECD,2001,2120.502,0.23290019393137681,TWh,IEA
+country,Peru,2005,0,0,TWh,IEA
+country,Lithuania,1991,17,0.5796310818643663,TWh,IEA
+country,Gibraltar,1990,0,0,TWh,IEA
+country,Bulgaria,1992,11.552,0.32440325751193483,TWh,IEA
+country,Slovakia,2004,17.026,0.5573706092251285,TWh,IEA
+country,Ethiopia,2015,0,0,TWh,IEA
+country,Israel,2016,0,0,TWh,IEA
+country,Russian Federation & USSR,2015,195.47,0.1831025231746888,TWh,IEA
+country,Ireland,2002,0,0,TWh,IEA
+country,Qatar,2012,0,0,TWh,IEA
+country,Croatia,1998,0,0,TWh,IEA
+country,Mauritius,2002,0,0,TWh,IEA
+country,Finland,1996,19.476,0.2807432286336183,TWh,IEA
+country,Malaysia,2015,0,0,TWh,IEA
+country,Uruguay,2001,0,0,TWh,IEA
+country,Gabon,1993,0,0,TWh,IEA
+country,Mongolia,1994,0,0,TWh,IEA
+country,Senegal,2014,0,0,TWh,IEA
+country,Egypt,2000,0,0,TWh,IEA
+country,Guatemala,1996,0,0,TWh,IEA
+country,Canada,1998,71.51100000000001,0.127298134434634,TWh,IEA
+country,Japan,1996,302.2,0.3056665645080862,TWh,IEA
+country,Peru,2003,0,0,TWh,IEA
+country,Tajikistan,2015,0,0,TWh,IEA
+country,Paraguay,2005,0,0,TWh,IEA
+country,Latvia,2003,0,0,TWh,IEA
+country,Bangladesh,1990,0,0,TWh,IEA
+country,United States of America,2014,830.5840000000002,0.19155389269408238,TWh,IEA
+country,Romania,2004,5.547999999999999,0.09819642825536733,TWh,IEA
+country,Azerbaijan,2004,0,0,TWh,IEA
+country,Netherlands,2014,4.091,0.03961345172503947,TWh,IEA
+country,Ethiopia,2014,0,0,TWh,IEA
+country,Honduras,2008,0,0,TWh,IEA
+country,Cyprus,2003,0,0,TWh,IEA
+country,Canada,2004,90.387,0.15065102604104164,TWh,IEA
+country,Zambia,1995,0,0,TWh,IEA
+country,Italy,2001,0,0,TWh,IEA
+zone,Middle East,2003,0,0,TWh,IEA
+country,Cyprus,1994,0,0,TWh,IEA
+country,Tajikistan,2007,0,0,TWh,IEA
+group,OECD,2007,2075.5940000000005,0.20504039671025592,TWh,IEA
+country,Slovenia,2008,6.273,0.38252332459296295,TWh,IEA
+country,Poland,2010,0,0,TWh,IEA
+country,South Africa,2012,11.954,0.04634788441332357,TWh,IEA
+country,Denmark,2012,0,0,TWh,IEA
+country,Nigeria,2004,0,0,TWh,IEA
+country,Cyprus,1990,0,0,TWh,IEA
+zone,Europe,1998,906.1189999999999,0.29223715575130077,TWh,IEA
+country,Uzbekistan,2007,0,0,TWh,IEA
+country,Jamaica,2003,0,0,TWh,IEA
+country,Portugal,2013,0,0,TWh,IEA
+country,Portugal,1993,0,0,TWh,IEA
+country,Bangladesh,2012,0,0,TWh,IEA
+country,Jamaica,1996,0,0,TWh,IEA
+country,Greece,1993,0,0,TWh,IEA
+country,Denmark,1994,0,0,TWh,IEA
+group,Persian Gulf,2013,0,0,TWh,IEA
+country,Nepal,2006,0,0,TWh,IEA
+country,Jamaica,2005,0,0,TWh,IEA
+country,Senegal,2003,0,0,TWh,IEA
+country,Thailand,1992,0,0,TWh,IEA
+country,Jamaica,1998,0,0,TWh,IEA
+zone,Central and South America,2012,22.433,0.02155930900266693,TWh,IEA
+country,Gibraltar,2002,0,0,TWh,IEA
+country,Latvia,1997,0,0,TWh,IEA
+country,Georgia,2001,0,0,TWh,IEA
+country,Mongolia,2000,0,0,TWh,IEA
+country,United Kingdom,1997,98.146,0.2798845625181797,TWh,IEA
+country,Morocco,2016,0,0,TWh,IEA
+country,Iceland,1993,0,0,TWh,IEA
+country,Zimbabwe,1990,0,0,TWh,IEA
+country,Congo,1996,0,0,TWh,IEA
+country,Sudan,1990,0,0,TWh,IEA
+country,Sweden,2000,57.316,0.3945589470350943,TWh,IEA
+country,Latvia,2015,0,0,TWh,IEA
+country,Cambodia,2009,0,0,TWh,IEA
+country,Chile,1995,0,0,TWh,IEA
+country,Haiti,1998,0,0,TWh,IEA
+country,Oman,1998,0,0,TWh,IEA
+country,Latvia,2002,0,0,TWh,IEA
+country,Bahrain,2007,0,0,TWh,IEA
+country,Cambodia,2007,0,0,TWh,IEA
+country,Angola,2012,0,0,TWh,IEA
+country,Algeria,2005,0,0,TWh,IEA
+country,Italy,1990,0,0,TWh,IEA
+country,Mozambique,1997,0,0,TWh,IEA
+country,Israel,2009,0,0,TWh,IEA
+country,Thailand,1994,0,0,TWh,IEA
+group,Persian Gulf,1990,0,0,TWh,IEA
+country,United Kingdom,2014,63.74800000000001,0.18854776693286016,TWh,IEA
+country,Brunei Darussalam,1991,0,0,TWh,IEA
+country,Thailand,2003,0,0,TWh,IEA
+country,Slovenia,1995,4.779,0.3700921551924417,TWh,IEA
+zone,Eurasia,1997,201.562,0.16479533645925742,TWh,IEA
+country,Mauritius,2015,0,0,TWh,IEA
+country,Congo,1992,0,0,TWh,IEA
+country,Kuwait,2003,0,0,TWh,IEA
+group,OECD,2004,2134.55,0.22070527875990212,TWh,IEA
+country,Lebanon,2008,0,0,TWh,IEA
+country,Eritrea,1998,0,0,TWh,IEA
+country,Sweden,2001,72.109,0.44617212298211184,TWh,IEA
+country,Morocco,2006,0,0,TWh,IEA
+country,Sweden,1994,73.156,0.5113908830992708,TWh,IEA
+country,Azerbaijan,1995,0,0,TWh,IEA
+country,Nigeria,1993,0,0,TWh,IEA
+country,NZ,2015,0,0,TWh,IEA
+country,Belarus,2000,0,0,TWh,IEA
+country,Singapore,2013,0,0,TWh,IEA
+country,Jamaica,1991,0,0,TWh,IEA
+country,Cambodia,2006,0,0,TWh,IEA
+country,Ukraine,2015,87.62700000000001,0.5368840908255418,TWh,IEA
+country,Austria,2011,0,0,TWh,IEA
+country,Armenia,2012,2.311,0.2875808860129418,TWh,IEA
+country,Paraguay,2002,0,0,TWh,IEA
+country,Nicaragua,2015,0,0,TWh,IEA
+country,Norway,2003,0,0,TWh,IEA
+country,Germany,2008,148.495,0.23267930228331113,TWh,IEA
+country,Latvia,2000,0,0,TWh,IEA
+country,Germany,1996,160.016,0.288123996168334,TWh,IEA
+country,Kuwait,2008,0,0,TWh,IEA
+country,Yemen,2004,0,0,TWh,IEA
+zone,Asia and Oceania,2000,357.6850000000001,0.10012019405714005,TWh,IEA
+group,OECD,2016,1752.4909999999998,0.17320866725796766,TWh,IEA
+country,Greece,1998,0,0,TWh,IEA
+country,Hungary,2013,15.37,0.5078976934769679,TWh,IEA
+country,Paraguay,2009,0,0,TWh,IEA
+country,Australia,1995,0,0,TWh,IEA
+country,Kazakhstan,1990,0,0,TWh,IEA
+country,India,2013,34.228,0.02871755976252724,TWh,IEA
+country,Senegal,2015,0,0,TWh,IEA
+country,Ukraine,1999,72.065,0.41869044852428544,TWh,IEA
+country,Greece,1994,0,0,TWh,IEA
+country,Iraq,1998,0,0,TWh,IEA
+country,Malta,2013,0,0,TWh,IEA
+country,France,2009,409.736,0.7648666407813388,TWh,IEA
+country,Gabon,2000,0,0,TWh,IEA
+country,Burma,2010,0,0,TWh,IEA
+country,Congo,1994,0,0,TWh,IEA
+zone,North America,2014,947.5410000000002,0.17888477015481596,TWh,IEA
+country,South Africa,1994,9.697,0.053371126644284214,TWh,IEA
+country,Sudan,2010,0,0,TWh,IEA
+country,Brunei Darussalam,1996,0,0,TWh,IEA
+country,Canada,2006,97.964,0.16031183928887027,TWh,IEA
+country,Sudan,1998,0,0,TWh,IEA
+country,Ecuador,1993,0,0,TWh,IEA
+country,Denmark,2013,0,0,TWh,IEA
+country,Denmark,1991,0,0,TWh,IEA
+country,Botswana,2009,0,0,TWh,IEA
+country,Portugal,2005,0,0,TWh,IEA
+country,Tunisia,1996,0,0,TWh,IEA
+country,Iraq,2003,0,0,TWh,IEA
+country,Malta,2003,0,0,TWh,IEA
+country,Singapore,2006,0,0,TWh,IEA
+country,Nicaragua,2011,0,0,TWh,IEA
+country,Thailand,2015,0,0,TWh,IEA
+country,Singapore,2016,0,0,TWh,IEA
+country,Finland,1992,19.26,0.3336509311390212,TWh,IEA
+country,Oman,2014,0,0,TWh,IEA
+country,Greece,2012,0,0,TWh,IEA
+country,Cuba,1992,0,0,TWh,IEA
+country,Kosovo,2014,0,0,TWh,IEA
+country,Indonesia,2005,0,0,TWh,IEA
+country,Egypt,2014,0,0,TWh,IEA
+country,Armenia,2014,2.465,0.31806451612903225,TWh,IEA
+country,Nigeria,1991,0,0,TWh,IEA
+country,Iceland,2001,0,0,TWh,IEA
+country,Tunisia,2011,0,0,TWh,IEA
+country,Montenegro,2007,0,0,TWh,IEA
+country,Tajikistan,2016,0,0,TWh,IEA
+country,Burma,2001,0,0,TWh,IEA
+country,Greece,2002,0,0,TWh,IEA
+country,Egypt,1996,0,0,TWh,IEA
+country,Morocco,2000,0,0,TWh,IEA
+country,Latvia,2009,0,0,TWh,IEA
+country,Gabon,2005,0,0,TWh,IEA
+country,Cameroon,2009,0,0,TWh,IEA
+country,Spain,2013,56.726000000000006,0.1985981962805288,TWh,IEA
+country,Ukraine,2016,80.95,0.49211521392877544,TWh,IEA
+country,Kosovo,2012,0,0,TWh,IEA
+country,Namibia,2001,0,0,TWh,IEA
+zone,Europe,2004,967.0100000000001,0.2773578254682982,TWh,IEA
+zone,Europe,2007,899.272,0.24718251807473648,TWh,IEA
+country,France,1998,387.99,0.7588660527777561,TWh,IEA
+country,Egypt,2011,0,0,TWh,IEA
+country,Bangladesh,2008,0,0,TWh,IEA
+country,Namibia,2013,0,0,TWh,IEA
+country,Cyprus,2014,0,0,TWh,IEA
+country,Malaysia,2000,0,0,TWh,IEA
+zone,Eurasia,2007,264.96700000000004,0.18048306006611275,TWh,IEA
+zone,Asia and Oceania,1993,256.755,0.10329815430814317,TWh,IEA
+country,Australia,2011,0,0,TWh,IEA
+country,Qatar,1997,0,0,TWh,IEA
+country,Nigeria,2010,0,0,TWh,IEA
+country,Ukraine,2004,87.022,0.4777097686163643,TWh,IEA
+country,Thailand,2004,0,0,TWh,IEA
+country,Brazil,2011,15.659,0.0294784836624931,TWh,IEA
+country,Hungary,2003,11.013,0.32253624249524093,TWh,IEA
+country,Japan,2010,288.23,0.26061874686354214,TWh,IEA
+country,Estonia,2015,0,0,TWh,IEA
+country,Thailand,2012,0,0,TWh,IEA
+country,Jordan,1995,0,0,TWh,IEA
+country,Botswana,2005,0,0,TWh,IEA
+zone,Europe,2008,900.7699999999999,0.24566077121178767,TWh,IEA
+country,Denmark,2000,0,0,TWh,IEA
+country,Israel,2007,0,0,TWh,IEA
+country,China,2004,50.468999999999994,0.022903995548903516,TWh,IEA
+country,Eritrea,2002,0,0,TWh,IEA
+country,Germany,2000,169.606,0.29417753749503506,TWh,IEA
+zone,Central and South America,2011,22.03,0.02207624974321203,TWh,IEA
+group,OECD,2011,1871.0339999999999,0.1861803920881836,TWh,IEA
+country,Bolivia,2004,0,0,TWh,IEA
+country,Egypt,2007,0,0,TWh,IEA
+country,Brunei Darussalam,2003,0,0,TWh,IEA
+country,Panama,2001,0,0,TWh,IEA
+country,Libya,2003,0,0,TWh,IEA
+country,Niger,2008,0,0,TWh,IEA
+country,Malaysia,1990,0,0,TWh,IEA
+group,Persian Gulf,2011,0,0,TWh,IEA
+country,Brunei Darussalam,1997,0,0,TWh,IEA
+country,Portugal,1994,0,0,TWh,IEA
+country,Belgium,1994,40.624,0.5628229817536958,TWh,IEA
+zone,World,2001,2448.5060000000003,0.1717939992576777,TWh,IEA
+country,Dominican Republic,2012,0,0,TWh,IEA
+country,Gibraltar,2012,0,0,TWh,IEA
+country,Tajikistan,2010,0,0,TWh,IEA
+country,Romania,2012,11.466,0.1941908713692946,TWh,IEA
+country,Bulgaria,2013,14.171,0.32377536099433374,TWh,IEA
+country,Qatar,2004,0,0,TWh,IEA
+country,Suriname,2014,0,0,TWh,IEA
+country,Poland,1991,0,0,TWh,IEA
+country,Uruguay,2015,0,0,TWh,IEA
+country,Israel,2006,0,0,TWh,IEA
+country,Kuwait,2012,0,0,TWh,IEA
+country,Cambodia,1999,0,0,TWh,IEA
+country,South Africa,2006,10.026,0.03950385739840345,TWh,IEA
+country,China,2007,62.13,0.018931741519109997,TWh,IEA
+country,Armenia,2003,1.9980000000000002,0.36320668969278314,TWh,IEA
+country,Algeria,2012,0,0,TWh,IEA
+country,Cyprus,1995,0,0,TWh,IEA
+country,Bangladesh,1998,0,0,TWh,IEA
+country,Benin,2003,0,0,TWh,IEA
+country,Mexico,2014,9.677,0.032096611563669164,TWh,IEA
+country,Algeria,1993,0,0,TWh,IEA
+country,Tunisia,1994,0,0,TWh,IEA
+country,Senegal,1990,0,0,TWh,IEA
+country,Japan,2000,322.0490000000001,0.30668909029095803,TWh,IEA
+country,Montenegro,2012,0,0,TWh,IEA
+country,Montenegro,2010,0,0,TWh,IEA
+country,Malta,1990,0,0,TWh,IEA
+country,Malta,2000,0,0,TWh,IEA
+country,Tunisia,2015,0,0,TWh,IEA
+zone,Middle East,2002,0,0,TWh,IEA
+zone,North America,1993,745.855,0.1828443013438237,TWh,IEA
+country,Panama,1995,0,0,TWh,IEA
+country,India,2012,32.866,0.029225730665497614,TWh,IEA
+country,United Kingdom,2004,79.999,0.2030807738489618,TWh,IEA
+country,United Kingdom,2003,88.686,0.22271834614940306,TWh,IEA
+country,Argentina,1995,7.066,0.10519733805773497,TWh,IEA
+country,Honduras,2010,0,0,TWh,IEA
+country,Brazil,1990,2.237,0.01003944870546313,TWh,IEA
+country,Libya,2011,0,0,TWh,IEA
+country,Cuba,1990,0,0,TWh,IEA
+zone,Eurasia,2002,236.04299999999998,0.18327557839698796,TWh,IEA
+country,Portugal,2011,0,0,TWh,IEA
+country,Egypt,2013,0,0,TWh,IEA
+country,Malaysia,1995,0,0,TWh,IEA
+country,India,2015,37.414,0.0272543834728323,TWh,IEA
+country,El Salvador,2007,0,0,TWh,IEA
+country,Niger,2016,0,0,TWh,IEA
+country,Kosovo,2008,0,0,TWh,IEA
+country,Norway,1995,0,0,TWh,IEA
+country,Bangladesh,1993,0,0,TWh,IEA
+country,Bulgaria,1990,14.665,0.3479983863695688,TWh,IEA
+country,Netherlands,2001,3.9760000000000004,0.0425600239774783,TWh,IEA
+country,Jamaica,1992,0,0,TWh,IEA
+country,Sweden,2008,63.888999999999996,0.42582446879415603,TWh,IEA
+country,Kyrgyzstan,2000,0,0,TWh,IEA
+country,Montenegro,2009,0,0,TWh,IEA
+country,Denmark,2007,0,0,TWh,IEA
+country,Algeria,1994,0,0,TWh,IEA
+country,Kenya,2015,0,0,TWh,IEA
+group,OPEC,2001,0,0,TWh,IEA
+country,Zambia,1998,0,0,TWh,IEA
+country,Croatia,2003,0,0,TWh,IEA
+country,Israel,2010,0,0,TWh,IEA
+country,Oman,2001,0,0,TWh,IEA
+country,Ireland,2007,0,0,TWh,IEA
+country,Haiti,1993,0,0,TWh,IEA
+country,Uruguay,2005,0,0,TWh,IEA
+country,Togo,2007,0,0,TWh,IEA
+country,Tajikistan,2013,0,0,TWh,IEA
+country,Malaysia,2013,0,0,TWh,IEA
+country,Singapore,1991,0,0,TWh,IEA
+country,Argentina,2013,6.207000000000001,0.044505151756329464,TWh,IEA
+zone,Central and South America,1992,8.84,0.019837974910796433,TWh,IEA
+country,NZ,2010,0,0,TWh,IEA
+country,Japan,1991,213.459,0.24326255521468204,TWh,IEA
+country,Brazil,2010,14.523,0.02818019178752023,TWh,IEA
+country,United Kingdom,2005,81.618,0.20488708592314414,TWh,IEA
+country,Congo,2012,0,0,TWh,IEA
+zone,Middle East,2007,0,0,TWh,IEA
+country,India,2009,18.636,0.020313399257050176,TWh,IEA
+country,Kyrgyzstan,1994,0,0,TWh,IEA
+country,Malaysia,1992,0,0,TWh,IEA
+zone,North America,2005,913.571,0.17687516178414933,TWh,IEA
+zone,Africa,2008,13.004000000000001,0.021762778352361546,TWh,IEA
+country,Israel,1991,0,0,TWh,IEA
+country,Uzbekistan,2004,0,0,TWh,IEA
+country,China,1998,14.1,0.012077087794432548,TWh,IEA
+country,Armenia,2016,2.38,0.3253588516746411,TWh,IEA
+country,Angola,2006,0,0,TWh,IEA
+country,Qatar,1990,0,0,TWh,IEA
+group,Persian Gulf,2007,0,0,TWh,IEA
+country,Ukraine,1992,73.75,0.29205144857518495,TWh,IEA
+country,Paraguay,2004,0,0,TWh,IEA
+country,Ireland,2011,0,0,TWh,IEA
+country,Algeria,1991,0,0,TWh,IEA
+zone,Central and South America,2004,19.479999999999997,0.025962775138110496,TWh,IEA
+country,Italy,1999,0,0,TWh,IEA
+country,Namibia,2002,0,0,TWh,IEA
+country,Poland,1992,0,0,TWh,IEA
+country,Nepal,2007,0,0,TWh,IEA
+country,Bolivia,2006,0,0,TWh,IEA
+country,Australia,2001,0,0,TWh,IEA
+country,Estonia,1997,0,0,TWh,IEA
+country,Lithuania,2001,11.362,0.7745585929511214,TWh,IEA
+country,Suriname,2001,0,0,TWh,IEA
+country,Eritrea,2000,0,0,TWh,IEA
+country,Ecuador,2001,0,0,TWh,IEA
+country,Bangladesh,2016,0,0,TWh,IEA
+country,Cambodia,2000,0,0,TWh,IEA
+country,Congo,1999,0,0,TWh,IEA
+country,Kenya,2016,0,0,TWh,IEA
+country,Russian Federation & USSR,1998,105.32,0.12732754806215985,TWh,IEA
+country,China,2012,97.39399999999999,0.01950202691405464,TWh,IEA
+country,Iceland,1992,0,0,TWh,IEA
+country,Libya,1998,0,0,TWh,IEA
+country,Haiti,2014,0,0,TWh,IEA
+country,Canada,2007,93.48200000000001,0.14866304717740272,TWh,IEA
+country,Morocco,2008,0,0,TWh,IEA
+country,Mongolia,1990,0,0,TWh,IEA
+country,Brazil,2016,15.864,0.027422739577319194,TWh,IEA
+country,Turkey,1995,0,0,TWh,IEA
+country,Romania,2015,11.64,0.1755762036925305,TWh,IEA
+country,Zambia,1992,0,0,TWh,IEA
+country,Cyprus,2000,0,0,TWh,IEA
+country,Cuba,1994,0,0,TWh,IEA
+country,Dominican Republic,2010,0,0,TWh,IEA
+country,Indonesia,2014,0,0,TWh,IEA
+country,Lebanon,2013,0,0,TWh,IEA
+country,Nepal,1994,0,0,TWh,IEA
+country,Cuba,2009,0,0,TWh,IEA
+country,Haiti,2002,0,0,TWh,IEA
+country,Mozambique,1996,0,0,TWh,IEA
+country,Namibia,1991,0,0,TWh,IEA
+country,Ivory Coast,1997,0,0,TWh,IEA
+country,Jamaica,2010,0,0,TWh,IEA
+country,Argentina,2003,7.566,0.08218731669165091,TWh,IEA
+country,Italy,1994,0,0,TWh,IEA
+country,Pakistan,2010,3.42,0.03623495507713172,TWh,IEA
+country,Pakistan,2008,1.618,0.017660670625218304,TWh,IEA
+country,Slovakia,1990,12.036,0.46058472371039333,TWh,IEA
+country,Congo,2000,0,0,TWh,IEA
+country,United Kingdom,1998,99.486,0.2742905352313049,TWh,IEA
+country,Benin,1991,0,0,TWh,IEA
+country,Indonesia,2004,0,0,TWh,IEA
+country,Romania,1994,0,0,TWh,IEA
+country,Pakistan,1995,0.483,0.008480081464964798,TWh,IEA
+zone,North America,1991,738.5709999999999,0.18874888767696854,TWh,IEA
+country,Ireland,1997,0,0,TWh,IEA
+country,Jordan,1996,0,0,TWh,IEA
+country,Indonesia,2003,0,0,TWh,IEA
+country,Kyrgyzstan,1992,0,0,TWh,IEA
+country,Honduras,1990,0,0,TWh,IEA
+country,Portugal,2003,0,0,TWh,IEA
+country,Burma,1994,0,0,TWh,IEA
+country,Libya,1990,0,0,TWh,IEA
+country,Bulgaria,2009,15.255999999999998,0.35521199562271527,TWh,IEA
+country,Kyrgyzstan,2015,0,0,TWh,IEA
+country,France,1990,314.08099999999996,0.7464771325558347,TWh,IEA
+country,Netherlands,2016,3.96,0.034441970498190935,TWh,IEA
+country,Bangladesh,2014,0,0,TWh,IEA
+country,Uzbekistan,2001,0,0,TWh,IEA
+country,Mauritius,2014,0,0,TWh,IEA
+country,Mexico,2007,10.421,0.039284206399469224,TWh,IEA
+country,Germany,1999,170.00400000000002,0.3055976990832284,TWh,IEA
+country,Yemen,1999,0,0,TWh,IEA
+zone,Middle East,1992,0,0,TWh,IEA
+country,Slovakia,1991,11.689,0.4723400816260557,TWh,IEA
+country,Slovakia,2012,15.495,0.5418779506906802,TWh,IEA
+country,Pakistan,1990,0.293,0.007777453348552013,TWh,IEA
+country,Montenegro,2016,0,0,TWh,IEA
+country,Congo,1995,0,0,TWh,IEA
+country,Bolivia,2007,0,0,TWh,IEA
+country,Argentina,2009,8.161,0.06670317455127996,TWh,IEA
+zone,Central and South America,1991,9.198,0.021084530675493537,TWh,IEA
+country,Japan,1994,269.127,0.2838431309681761,TWh,IEA
+country,Ghana,1992,0,0,TWh,IEA
+country,Argentina,2015,7.138999999999999,0.04908317118950546,TWh,IEA
+country,Greece,2001,0,0,TWh,IEA
+country,Finland,2016,23.203000000000003,0.33879917063341414,TWh,IEA
+country,Norway,1990,0,0,TWh,IEA
+country,Iceland,2009,0,0,TWh,IEA
+country,Brazil,2009,12.957,0.0278323144404968,TWh,IEA
+country,Bangladesh,1995,0,0,TWh,IEA
+country,Eritrea,2012,0,0,TWh,IEA
+country,Congo,2008,0,0,TWh,IEA
+country,Singapore,2003,0,0,TWh,IEA
+country,Germany,2012,99.46,0.1584242316122126,TWh,IEA
+country,Honduras,2009,0,0,TWh,IEA
+country,France,2004,448.241,0.7808342072348593,TWh,IEA
+country,Armenia,2015,2.7880000000000003,0.3574817284267214,TWh,IEA
+zone,Central and South America,2007,19.567,0.022964345233903713,TWh,IEA
+country,United States of America,1996,715.212,0.19450849083851005,TWh,IEA
+country,Sweden,1995,69.935,0.47141576396519075,TWh,IEA
+country,Yemen,2010,0,0,TWh,IEA
+country,Egypt,1994,0,0,TWh,IEA
+country,Haiti,2003,0,0,TWh,IEA
+zone,Eurasia,2015,285.885,0.1877488590982197,TWh,IEA
+country,Burma,2015,0,0,TWh,IEA
+country,Libya,2005,0,0,TWh,IEA
+country,Malta,2009,0,0,TWh,IEA
+country,United States of America,2001,792.6039999999999,0.2050558985353557,TWh,IEA
+country,Mexico,1994,4.239,0.0288110595319817,TWh,IEA
+country,Colombia,2016,0,0,TWh,IEA
+country,Chile,2000,0,0,TWh,IEA
+country,Zimbabwe,2002,0,0,TWh,IEA
+country,Portugal,1997,0,0,TWh,IEA
+country,Panama,2000,0,0,TWh,IEA
+country,Germany,2006,167.269,0.2631207213329306,TWh,IEA
+country,NZ,2011,0,0,TWh,IEA
+country,Uruguay,1998,0,0,TWh,IEA
+country,Montenegro,2015,0,0,TWh,IEA
+country,Netherlands,2011,4.141,0.036383604972982465,TWh,IEA
+country,Thailand,1990,0,0,TWh,IEA
+country,Namibia,1996,0,0,TWh,IEA
+country,Netherlands,1994,3.967,0.04980539861895795,TWh,IEA
+country,Turkey,2013,0,0,TWh,IEA
+country,Argentina,2016,8.285,0.05627632115201739,TWh,IEA
+country,Cyprus,2006,0,0,TWh,IEA
+country,Suriname,2015,0,0,TWh,IEA
+country,Qatar,2009,0,0,TWh,IEA
+country,Qatar,1993,0,0,TWh,IEA
+country,Spain,1991,55.578,0.356733441593869,TWh,IEA
+country,Mauritius,1990,0,0,TWh,IEA
+country,Gibraltar,2001,0,0,TWh,IEA
+country,Chile,2013,0,0,TWh,IEA
+country,Ecuador,2003,0,0,TWh,IEA
+country,Croatia,2004,0,0,TWh,IEA
+country,Indonesia,1993,0,0,TWh,IEA
+country,Germany,1997,170.328,0.30881473074259275,TWh,IEA
+country,Finland,2005,23.271,0.3308641624250007,TWh,IEA
+country,Denmark,1996,0,0,TWh,IEA
+country,Norway,2014,0,0,TWh,IEA
+country,Azerbaijan,2016,0,0,TWh,IEA
+country,Pakistan,2013,5.09,0.048906568277028314,TWh,IEA
+country,Gibraltar,2004,0,0,TWh,IEA
+country,Bangladesh,2001,0,0,TWh,IEA
+zone,Central and South America,2006,21.445,0.02645763755318978,TWh,IEA
+country,Algeria,2014,0,0,TWh,IEA
+country,Romania,2007,7.709,0.12499797318113273,TWh,IEA
+country,Kuwait,2001,0,0,TWh,IEA
+country,South Africa,1993,7.255,0.04152690806268817,TWh,IEA
+country,Slovenia,2005,5.8839999999999995,0.3892306674604749,TWh,IEA
+country,Kuwait,2016,0,0,TWh,IEA
+country,Indonesia,2000,0,0,TWh,IEA
+country,Finland,2001,22.773000000000003,0.3064759238823245,TWh,IEA
+country,Malta,2008,0,0,TWh,IEA
+country,Italy,2016,0,0,TWh,IEA
+country,Israel,1998,0,0,TWh,IEA
+country,Morocco,2010,0,0,TWh,IEA
+country,Canada,2009,90.091,0.14816623906321952,TWh,IEA
+country,Ireland,2014,0,0,TWh,IEA
+country,NZ,2002,0,0,TWh,IEA
+country,Israel,1999,0,0,TWh,IEA
+country,Nigeria,1999,0,0,TWh,IEA
+country,Singapore,2000,0,0,TWh,IEA
+group,Persian Gulf,2000,0,0,TWh,IEA
+country,Iceland,2002,0,0,TWh,IEA
+country,Belarus,2016,0,0,TWh,IEA
+country,Lithuania,2011,0,0,TWh,IEA
+country,Ireland,2009,0,0,TWh,IEA
+country,Belarus,1997,0,0,TWh,IEA
+country,Australia,1990,0,0,TWh,IEA
+country,Lithuania,2007,9.833,0.7137775842044135,TWh,IEA
+country,Canada,1993,93.93700000000001,0.17649766641364228,TWh,IEA
+country,Netherlands,2003,4.018,0.04159549468409992,TWh,IEA
+country,Nepal,2005,0,0,TWh,IEA
+country,Ukraine,1998,75.23899999999999,0.4353554524308248,TWh,IEA
+country,Bolivia,1991,0,0,TWh,IEA
+country,Haiti,1999,0,0,TWh,IEA
+group,OPEC,2005,0,0,TWh,IEA
+country,Iceland,2011,0,0,TWh,IEA
+country,Bahrain,1997,0,0,TWh,IEA
+country,Yemen,1994,0,0,TWh,IEA
+country,Ethiopia,2000,0,0,TWh,IEA
+zone,Central and South America,2005,16.728,0.021486758309934417,TWh,IEA
+country,Poland,2013,0,0,TWh,IEA
+country,Norway,2011,0,0,TWh,IEA
+country,Nicaragua,2007,0,0,TWh,IEA
+country,Cuba,1999,0,0,TWh,IEA
+country,Slovenia,2012,5.5280000000000005,0.35129639044229793,TWh,IEA
+country,Panama,1998,0,0,TWh,IEA
+country,Ethiopia,2008,0,0,TWh,IEA
+country,Egypt,1992,0,0,TWh,IEA
+country,Mozambique,1991,0,0,TWh,IEA
+country,Finland,2000,22.479,0.3221133178574499,TWh,IEA
+country,Ireland,2004,0,0,TWh,IEA
+country,Brunei Darussalam,2001,0,0,TWh,IEA
+country,Bangladesh,1991,0,0,TWh,IEA
+country,Chile,2015,0,0,TWh,IEA
+country,Slovakia,2006,18.012,0.5742157612853864,TWh,IEA
+country,Indonesia,1998,0,0,TWh,IEA
+country,Mexico,1990,2.9370000000000003,0.02535459309201723,TWh,IEA
+country,Cuba,2016,0,0,TWh,IEA
+country,China,2002,25.127,0.015190150432484324,TWh,IEA
+country,Suriname,2003,0,0,TWh,IEA
+country,Albania,2008,0,0,TWh,IEA
+country,Georgia,2002,0,0,TWh,IEA
+group,Persian Gulf,1998,0,0,TWh,IEA
+group,EU28,2004,982.112,0.3062041993205661,TWh,IEA
+country,Yemen,2000,0,0,TWh,IEA
+country,Tajikistan,2014,0,0,TWh,IEA
+country,Georgia,1993,0,0,TWh,IEA
+country,Ghana,1994,0,0,TWh,IEA
+zone,Africa,2010,12.099,0.018763841415375838,TWh,IEA
+country,Egypt,1999,0,0,TWh,IEA
+country,Azerbaijan,2014,0,0,TWh,IEA
+country,Azerbaijan,2001,0,0,TWh,IEA
+zone,Africa,2004,13.365,0.025707707311068067,TWh,IEA
+country,NZ,1993,0,0,TWh,IEA
+country,Libya,2008,0,0,TWh,IEA
+country,Japan,1999,316.616,0.3073222673141527,TWh,IEA
+country,Haiti,2001,0,0,TWh,IEA
+country,Morocco,2013,0,0,TWh,IEA
+country,Mexico,2015,11.577,0.03725874503973043,TWh,IEA
+country,Morocco,2002,0,0,TWh,IEA
+country,Namibia,1997,0,0,TWh,IEA
+country,Chile,1998,0,0,TWh,IEA
+group,EU28,1998,919.673,0.32209386420667563,TWh,IEA
+country,Slovakia,2001,17.102999999999998,0.5340348466870667,TWh,IEA
+country,El Salvador,2002,0,0,TWh,IEA
+country,Kuwait,2007,0,0,TWh,IEA
+country,Chile,1999,0,0,TWh,IEA
+country,Haiti,2015,0,0,TWh,IEA
+group,OPEC,2010,0,0,TWh,IEA
+country,Denmark,1999,0,0,TWh,IEA
+country,Jordan,1998,0,0,TWh,IEA
+country,Croatia,2007,0,0,TWh,IEA
+zone,Middle East,1990,0,0,TWh,IEA
+country,Uzbekistan,1993,0,0,TWh,IEA
+country,Singapore,2002,0,0,TWh,IEA
+country,China,1995,12.833,0.012732237075782261,TWh,IEA
+country,Cambodia,1996,0,0,TWh,IEA
+country,Argentina,2014,5.756,0.041536774044567605,TWh,IEA
+zone,North America,2007,940.5369999999999,0.1793964809536307,TWh,IEA
+country,Haiti,2009,0,0,TWh,IEA
+country,Nicaragua,2010,0,0,TWh,IEA
+country,Gibraltar,2014,0,0,TWh,IEA
+country,Jamaica,1999,0,0,TWh,IEA
+zone,Eurasia,2005,251.255,0.18137475356985333,TWh,IEA
+country,Kenya,2011,0,0,TWh,IEA
+country,Montenegro,2011,0,0,TWh,IEA
+country,France,2006,450.191,0.7831192845674406,TWh,IEA
+country,China,1994,14.755999999999998,0.01589666521230925,TWh,IEA
+country,Kazakhstan,1998,0,0,TWh,IEA
+country,Ghana,2003,0,0,TWh,IEA
+country,Ivory Coast,1995,0,0,TWh,IEA
+country,Eritrea,1993,0,0,TWh,IEA
+country,Kuwait,2005,0,0,TWh,IEA
+country,Mexico,2016,10.567,0.032985487883678326,TWh,IEA
+country,Lithuania,1998,13.554,0.7710336196598213,TWh,IEA
+country,Ghana,2001,0,0,TWh,IEA
+country,Australia,1992,0,0,TWh,IEA
+country,Senegal,2001,0,0,TWh,IEA
+country,Qatar,2013,0,0,TWh,IEA
+country,Lithuania,2016,0,0,TWh,IEA
+country,Bahrain,2015,0,0,TWh,IEA
+country,Togo,1996,0,0,TWh,IEA
+country,Chile,2007,0,0,TWh,IEA
+country,Benin,2014,0,0,TWh,IEA
+country,Peru,1992,0,0,TWh,IEA
+country,Latvia,2011,0,0,TWh,IEA
+country,Romania,1991,0,0,TWh,IEA
+country,Denmark,2009,0,0,TWh,IEA
+country,Cambodia,2015,0,0,TWh,IEA
+country,Libya,2002,0,0,TWh,IEA
+country,Ethiopia,2016,0,0,TWh,IEA
+country,Poland,2008,0,0,TWh,IEA
+country,Ireland,2005,0,0,TWh,IEA
+country,Ghana,1998,0,0,TWh,IEA
+zone,Asia and Oceania,1994,290.04200000000003,0.10784315183604265,TWh,IEA
+country,Lebanon,2009,0,0,TWh,IEA
+country,Estonia,2008,0,0,TWh,IEA
+country,Mongolia,2012,0,0,TWh,IEA
+zone,Africa,1993,7.255,0.02229104640409012,TWh,IEA
+country,Russian Federation & USSR,1994,97.82,0.11167763045230471,TWh,IEA
+country,Austria,1998,0,0,TWh,IEA
+country,United Kingdom,1992,76.807,0.23924209529564572,TWh,IEA
+country,Dominican Republic,2007,0,0,TWh,IEA
+country,Ivory Coast,1998,0,0,TWh,IEA
+country,Lithuania,2000,8.419,0.742809246514911,TWh,IEA
+country,Iraq,2014,0,0,TWh,IEA
+country,Cuba,2007,0,0,TWh,IEA
+group,OPEC,2003,0,0,TWh,IEA
+country,Kosovo,2016,0,0,TWh,IEA
+country,Brunei Darussalam,1993,0,0,TWh,IEA
+country,Kenya,2002,0,0,TWh,IEA
+country,South Africa,2015,12.237,0.04901564158538785,TWh,IEA
+country,Nepal,2000,0,0,TWh,IEA
+country,Ghana,2006,0,0,TWh,IEA
+country,Zimbabwe,1991,0,0,TWh,IEA
+country,Dominican Republic,2004,0,0,TWh,IEA
+country,Kenya,1992,0,0,TWh,IEA
+country,NZ,1999,0,0,TWh,IEA
+country,Belarus,2004,0,0,TWh,IEA
+zone,Africa,1999,12.837,0.03179954667624509,TWh,IEA
+country,Mexico,2003,10.502,0.04445912021573384,TWh,IEA
+country,Honduras,1993,0,0,TWh,IEA
+country,Norway,1997,0,0,TWh,IEA
+country,Iraq,2008,0,0,TWh,IEA
+country,Ecuador,1996,0,0,TWh,IEA
+country,Sudan,1995,0,0,TWh,IEA
+country,Croatia,1996,0,0,TWh,IEA
+country,Colombia,1990,0,0,TWh,IEA
+country,Algeria,1999,0,0,TWh,IEA
+country,Slovakia,1998,11.394,0.4376920712968653,TWh,IEA
+zone,World,2012,2211.924,0.10769416532693507,TWh,IEA
+country,Jordan,2000,0,0,TWh,IEA
+country,Ghana,1996,0,0,TWh,IEA
+country,Bulgaria,1994,15.335,0.4021451236461857,TWh,IEA
+group,EU28,1993,849.546,0.33109897472052974,TWh,IEA
+country,Russian Federation & USSR,1997,108.49799999999999,0.13007293809612866,TWh,IEA
+country,Tajikistan,2008,0,0,TWh,IEA
+country,Spain,1990,54.268,0.35721432332806735,TWh,IEA
+country,Tajikistan,1998,0,0,TWh,IEA
+country,Italy,2002,0,0,TWh,IEA
+country,Congo,1990,0,0,TWh,IEA
+country,Argentina,1992,7.081,0.12620528632790917,TWh,IEA
+group,OECD,2014,1759.6009999999999,0.17627845889676755,TWh,IEA
+country,Mozambique,2016,0,0,TWh,IEA
+country,Italy,2014,0,0,TWh,IEA
+country,Honduras,2006,0,0,TWh,IEA
+country,Japan,2016,18.06,0.01742355247518639,TWh,IEA
+country,Belarus,2001,0,0,TWh,IEA
+country,Bangladesh,2005,0,0,TWh,IEA
+country,Honduras,1992,0,0,TWh,IEA
+country,Estonia,1999,0,0,TWh,IEA
+country,Ethiopia,1998,0,0,TWh,IEA
+country,Kazakhstan,2002,0,0,TWh,IEA
+country,Indonesia,1994,0,0,TWh,IEA
+country,Belgium,1990,42.722,0.602371586086319,TWh,IEA
+country,Azerbaijan,2005,0,0,TWh,IEA
+country,Yemen,2008,0,0,TWh,IEA
+country,Senegal,1995,0,0,TWh,IEA
+country,Bulgaria,1999,15.814,0.4134595272955448,TWh,IEA
+country,Mozambique,1998,0,0,TWh,IEA
+country,Poland,2014,0,0,TWh,IEA
+country,Poland,2005,0,0,TWh,IEA
+country,Kenya,1999,0,0,TWh,IEA
+country,Iceland,1998,0,0,TWh,IEA
+country,Ecuador,1994,0,0,TWh,IEA
+country,Brazil,2003,13.357999999999999,0.036709198185150886,TWh,IEA
+country,Benin,1990,0,0,TWh,IEA
+country,Zambia,2003,0,0,TWh,IEA
+country,Honduras,1995,0,0,TWh,IEA
+country,South Africa,1999,12.837,0.0632327153074695,TWh,IEA
+country,Russian Federation & USSR,2014,180.757,0.16985135410686078,TWh,IEA
+country,Qatar,1996,0,0,TWh,IEA
+country,Kuwait,1990,0,0,TWh,IEA
+country,Niger,2014,0,0,TWh,IEA
+country,Jamaica,2008,0,0,TWh,IEA
+group,OECD,2000,2095.376,0.22646343158389393,TWh,IEA
+zone,Middle East,2008,0,0,TWh,IEA
+country,Oman,1993,0,0,TWh,IEA
+country,Mauritius,1993,0,0,TWh,IEA
+zone,Eurasia,2016,279.944,0.18050282672388893,TWh,IEA
+country,United States of America,2004,813.3389999999999,0.1948513135123014,TWh,IEA
+country,Netherlands,1997,2.408,0.027906868937383384,TWh,IEA
+country,Haiti,1992,0,0,TWh,IEA
+country,Germany,2007,140.534,0.22020645824454083,TWh,IEA
+country,Belarus,2003,0,0,TWh,IEA
+country,Colombia,1998,0,0,TWh,IEA
+country,Benin,1998,0,0,TWh,IEA
+zone,Central and South America,2003,20.924,0.029383142187502195,TWh,IEA
+country,Zambia,1994,0,0,TWh,IEA
+country,Latvia,2007,0,0,TWh,IEA
+country,Ethiopia,2001,0,0,TWh,IEA
+country,Sudan,1992,0,0,TWh,IEA
+zone,Central and South America,2010,21.694,0.02260031795044889,TWh,IEA
+country,Portugal,2000,0,0,TWh,IEA
+country,Dominican Republic,2014,0,0,TWh,IEA
+country,Yemen,1991,0,0,TWh,IEA
+country,Serbia,2007,0,0,TWh,IEA
+country,Slovenia,2011,6.215,0.38701039915312285,TWh,IEA
+country,Congo,2016,0,0,TWh,IEA
+country,Botswana,1999,0,0,TWh,IEA
+country,Namibia,2003,0,0,TWh,IEA
+country,Austria,2000,0,0,TWh,IEA
+country,Gabon,2013,0,0,TWh,IEA
+country,Australia,2010,0,0,TWh,IEA
+country,Kuwait,1994,0,0,TWh,IEA
+country,Bulgaria,2004,16.815,0.40400278705461196,TWh,IEA
+country,Austria,1997,0,0,TWh,IEA
+country,Albania,1998,0,0,TWh,IEA
+country,Ecuador,2014,0,0,TWh,IEA
+country,Singapore,1992,0,0,TWh,IEA
+country,Slovakia,2007,15.334000000000001,0.5475255302435192,TWh,IEA
+country,Ireland,1998,0,0,TWh,IEA
+country,Burma,1996,0,0,TWh,IEA
+country,Kosovo,2000,0,0,TWh,IEA
+country,Ireland,2008,0,0,TWh,IEA
+country,Suriname,2002,0,0,TWh,IEA
+country,Romania,2009,11.752,0.202571793015479,TWh,IEA
+country,Hungary,2010,15.761,0.421744133151374,TWh,IEA
+country,France,2007,439.73,0.7721822626188836,TWh,IEA
+country,Singapore,1997,0,0,TWh,IEA
+country,Brunei Darussalam,1995,0,0,TWh,IEA
+country,Gibraltar,1993,0,0,TWh,IEA
+country,Thailand,2000,0,0,TWh,IEA
+country,Tajikistan,2001,0,0,TWh,IEA
+zone,Europe,1996,899.1469999999999,0.3000198868319142,TWh,IEA
+country,South Africa,1997,12.647,0.060120173795647505,TWh,IEA
+country,Pakistan,2004,2.795,0.03264081094021885,TWh,IEA
+country,Norway,2009,0,0,TWh,IEA
+country,Estonia,2011,0,0,TWh,IEA
+country,United Kingdom,2010,62.14,0.16263992818088782,TWh,IEA
+country,Japan,2002,295.094,0.2809199052601917,TWh,IEA
+country,Lithuania,2013,0,0,TWh,IEA
+zone,Middle East,1994,0,0,TWh,IEA
+country,Nicaragua,1999,0,0,TWh,IEA
+country,Morocco,1992,0,0,TWh,IEA
+country,Lebanon,2014,0,0,TWh,IEA
+country,Ethiopia,1991,0,0,TWh,IEA
+country,Kazakhstan,2015,0,0,TWh,IEA
+country,Yemen,1996,0,0,TWh,IEA
+group,OPEC,2009,0,0,TWh,IEA
+country,Malaysia,2002,0,0,TWh,IEA
+country,Turkey,2012,0,0,TWh,IEA
+country,Cameroon,1995,0,0,TWh,IEA
+country,Bulgaria,2002,20.222,0.4738161625155229,TWh,IEA
+country,Ethiopia,1996,0,0,TWh,IEA
+zone,Africa,1991,9.144,0.029302432896659576,TWh,IEA
+country,Botswana,2000,0,0,TWh,IEA
+country,Australia,2004,0,0,TWh,IEA
+country,Oman,1995,0,0,TWh,IEA
+country,Bahrain,2003,0,0,TWh,IEA
+country,Albania,2015,0,0,TWh,IEA
+country,Burma,2012,0,0,TWh,IEA
+country,India,2003,17.78,0.02731866811505799,TWh,IEA
+country,Latvia,1992,0,0,TWh,IEA
+country,Denmark,2001,0,0,TWh,IEA
+country,Serbia,1994,0,0,TWh,IEA
+country,Ireland,1995,0,0,TWh,IEA
+country,Chile,2002,0,0,TWh,IEA
+country,Lebanon,1991,0,0,TWh,IEA
+country,Colombia,2002,0,0,TWh,IEA
+country,Nepal,2008,0,0,TWh,IEA
+country,Brunei Darussalam,1990,0,0,TWh,IEA
+country,Azerbaijan,2003,0,0,TWh,IEA
+country,Togo,2011,0,0,TWh,IEA
+zone,Eurasia,1992,208.014,0.13533168343885896,TWh,IEA
+country,Netherlands,2012,3.915,0.037954067338174136,TWh,IEA
+country,Italy,2008,0,0,TWh,IEA
+country,Cambodia,2008,0,0,TWh,IEA
+country,Mauritius,1999,0,0,TWh,IEA
+country,South Africa,2013,14.106,0.055085854424324315,TWh,IEA
+country,Morocco,2007,0,0,TWh,IEA
+country,Panama,2015,0,0,TWh,IEA
+country,Belgium,2009,47.222,0.518069116840373,TWh,IEA
+country,Bahrain,2001,0,0,TWh,IEA
+country,Norway,2013,0,0,TWh,IEA
+country,Zimbabwe,1998,0,0,TWh,IEA
+zone,Europe,2015,830.1790000000001,0.23093622221400056,TWh,IEA
+country,NZ,2006,0,0,TWh,IEA
+country,Kazakhstan,1995,0,0,TWh,IEA
+country,Hungary,2012,15.793,0.45598383138443754,TWh,IEA
+country,Nigeria,1997,0,0,TWh,IEA
+country,Albania,1993,0,0,TWh,IEA
+country,Niger,2007,0,0,TWh,IEA
+country,Lithuania,1995,11.822,0.8523431867339581,TWh,IEA
+country,Kazakhstan,1999,0,0,TWh,IEA
+country,Serbia,2009,0,0,TWh,IEA
+country,Qatar,1998,0,0,TWh,IEA
+country,Botswana,1990,0,0,TWh,IEA
+country,Burma,2005,0,0,TWh,IEA
+country,Spain,2000,62.206,0.277121422716419,TWh,IEA
+country,Gabon,2007,0,0,TWh,IEA
+country,Botswana,1998,0,0,TWh,IEA
+country,Cambodia,2016,0,0,TWh,IEA
+country,Lithuania,2012,0,0,TWh,IEA
+zone,Eurasia,2013,258.077,0.16774367574032187,TWh,IEA
+group,OECD,1995,1946.076,0.23716373968969082,TWh,IEA
+country,Ghana,2004,0,0,TWh,IEA
+country,Latvia,1993,0,0,TWh,IEA
+country,Qatar,2006,0,0,TWh,IEA
+group,EU28,2001,964.2370000000001,0.31702377324036685,TWh,IEA
+country,Uzbekistan,1998,0,0,TWh,IEA
+country,Oman,2015,0,0,TWh,IEA
+country,Armenia,2004,2.201,0.3650082918739635,TWh,IEA
+country,Guatemala,2016,0,0,TWh,IEA
+country,Iceland,2013,0,0,TWh,IEA
+country,Kosovo,2006,0,0,TWh,IEA
+country,Bolivia,1996,0,0,TWh,IEA
+country,Lebanon,1992,0,0,TWh,IEA
+country,Bahrain,1999,0,0,TWh,IEA
+country,Nigeria,1994,0,0,TWh,IEA
+country,Jordan,1993,0,0,TWh,IEA
+country,Honduras,1991,0,0,TWh,IEA
+country,Zimbabwe,1995,0,0,TWh,IEA
+country,South Africa,2007,11.317,0.0429521897380816,TWh,IEA
+country,Namibia,2004,0,0,TWh,IEA
+zone,World,2016,2360.4590000000003,0.10437112815851958,TWh,IEA
+zone,Central and South America,2016,24.149,0.021230151404061235,TWh,IEA
+group,EU28,1997,925.128,0.33155988271930364,TWh,IEA
+country,Hungary,1991,13.725999999999999,0.45809832126289096,TWh,IEA
+country,Latvia,2001,0,0,TWh,IEA
+country,Germany,2013,97.29,0.15274018625856406,TWh,IEA
+country,Zambia,2014,0,0,TWh,IEA
+group,OPEC,2004,0,0,TWh,IEA
+country,Mozambique,2001,0,0,TWh,IEA
+country,Russian Federation & USSR,2005,149.446,0.1568022193170396,TWh,IEA
+country,Uzbekistan,1992,0,0,TWh,IEA
+country,Jordan,2002,0,0,TWh,IEA
+country,Ivory Coast,2007,0,0,TWh,IEA
+country,Indonesia,2008,0,0,TWh,IEA
+country,Honduras,2014,0,0,TWh,IEA
+country,China,2011,86.35000000000002,0.01831093645331051,TWh,IEA
+zone,Eurasia,2011,265.73699999999997,0.17554706311745874,TWh,IEA
+country,Pakistan,2009,2.8939999999999997,0.03034910913724215,TWh,IEA
+country,Lebanon,1999,0,0,TWh,IEA
+country,NZ,1991,0,0,TWh,IEA
+country,Mongolia,2011,0,0,TWh,IEA
+zone,Europe,2013,846.0850000000002,0.235335103268632,TWh,IEA
+country,Bulgaria,2011,16.314,0.3213061803285146,TWh,IEA
+country,Slovenia,1992,3.971,0.32169475048606616,TWh,IEA
+country,Pakistan,2006,2.2880000000000003,0.023296304969810517,TWh,IEA
+country,Uruguay,1997,0,0,TWh,IEA
+country,Albania,2004,0,0,TWh,IEA
+group,OPEC,1991,0,0,TWh,IEA
+country,Germany,1995,153.091,0.28493496921553596,TWh,IEA
+country,Georgia,2013,0,0,TWh,IEA
+zone,Middle East,2001,0,0,TWh,IEA
+country,Zimbabwe,1994,0,0,TWh,IEA
+country,Kyrgyzstan,2007,0,0,TWh,IEA
+country,Ecuador,2005,0,0,TWh,IEA
+group,OPEC,2006,0,0,TWh,IEA
+country,Azerbaijan,1999,0,0,TWh,IEA
+country,Kosovo,2002,0,0,TWh,IEA
+country,Guatemala,2007,0,0,TWh,IEA
+country,Bangladesh,2010,0,0,TWh,IEA
+country,Peru,1997,0,0,TWh,IEA
+country,Kyrgyzstan,1991,0,0,TWh,IEA
+country,Jordan,2004,0,0,TWh,IEA
+country,Canada,2000,72.79899999999999,0.12018847396513495,TWh,IEA
+country,Zambia,2008,0,0,TWh,IEA
+country,Canada,2012,94.862,0.15027143651458724,TWh,IEA
+group,Persian Gulf,2001,0,0,TWh,IEA
+country,Dominican Republic,1996,0,0,TWh,IEA
+country,Pakistan,2003,1.76,0.02177409377706297,TWh,IEA
+country,Nepal,2014,0,0,TWh,IEA
+country,Ghana,2009,0,0,TWh,IEA
+country,Argentina,2002,5.821000000000001,0.06889491188410601,TWh,IEA
+country,Panama,2010,0,0,TWh,IEA
+country,Cameroon,1999,0,0,TWh,IEA
+country,Cambodia,2010,0,0,TWh,IEA
+country,Denmark,1992,0,0,TWh,IEA
+country,Belgium,2003,47.379,0.5598369372562921,TWh,IEA
+country,Ecuador,2016,0,0,TWh,IEA
+zone,Central and South America,1995,9.585,0.01812426609485884,TWh,IEA
+country,Romania,2010,11.623,0.19060660227291362,TWh,IEA
+group,OECD,2015,1750.6190000000001,0.17432226804889536,TWh,IEA
+country,South Africa,2004,13.365,0.05463911203777518,TWh,IEA
+zone,Eurasia,1994,174.374,0.1328722750073723,TWh,IEA
+country,Georgia,1998,0,0,TWh,IEA
+country,Ivory Coast,2016,0,0,TWh,IEA
+country,Uzbekistan,1999,0,0,TWh,IEA
+country,Kenya,1991,0,0,TWh,IEA
+country,Guatemala,2011,0,0,TWh,IEA
+country,Romania,1990,0,0,TWh,IEA
+country,Mongolia,2002,0,0,TWh,IEA
+group,Persian Gulf,2016,0,0,TWh,IEA
+country,Kuwait,1996,0,0,TWh,IEA
+group,EU28,1992,815.073,0.3180023128207049,TWh,IEA
+country,Canada,1990,72.967,0.15133609318223298,TWh,IEA
+country,Mauritius,2006,0,0,TWh,IEA
+country,Togo,1999,0,0,TWh,IEA
+country,Malta,2014,0,0,TWh,IEA
+country,Azerbaijan,2012,0,0,TWh,IEA
+zone,Central and South America,1993,8.192,0.017271659677463563,TWh,IEA
+country,Estonia,2009,0,0,TWh,IEA
+country,Kuwait,2014,0,0,TWh,IEA
+country,Brazil,2013,15.45,0.027069313210350467,TWh,IEA
+zone,World,1997,2241.8429999999994,0.1731701557644093,TWh,IEA
+country,Dominican Republic,2001,0,0,TWh,IEA
+country,Panama,2011,0,0,TWh,IEA
+country,Bahrain,1998,0,0,TWh,IEA
+country,Bahrain,2002,0,0,TWh,IEA
+country,Serbia,2008,0,0,TWh,IEA
+country,Cameroon,1992,0,0,TWh,IEA
+country,Bolivia,2011,0,0,TWh,IEA
+country,Serbia,2012,0,0,TWh,IEA
+country,Oman,1997,0,0,TWh,IEA
+country,Nigeria,2009,0,0,TWh,IEA
+country,Brunei Darussalam,2011,0,0,TWh,IEA
+country,Sudan,2000,0,0,TWh,IEA
+country,Finland,2010,22.8,0.2837020630614937,TWh,IEA
+country,Dominican Republic,2009,0,0,TWh,IEA
+country,Iceland,1990,0,0,TWh,IEA
+country,Colombia,1996,0,0,TWh,IEA
+country,Finland,2003,22.730999999999998,0.2703528824082113,TWh,IEA
+country,Botswana,2013,0,0,TWh,IEA
+country,Japan,2004,282.442,0.2637522516927967,TWh,IEA
+country,Zimbabwe,2008,0,0,TWh,IEA
+country,Congo,2007,0,0,TWh,IEA
+zone,Europe,2012,852.0419999999999,0.23495791923581769,TWh,IEA
+country,Panama,1992,0,0,TWh,IEA
+country,Latvia,2014,0,0,TWh,IEA
+country,Poland,1995,0,0,TWh,IEA
+country,Malaysia,2010,0,0,TWh,IEA
+zone,Asia and Oceania,2006,379.35900000000004,0.06883008326727484,TWh,IEA
+country,Poland,1994,0,0,TWh,IEA
+country,Thailand,2016,0,0,TWh,IEA
+group,Persian Gulf,2005,0,0,TWh,IEA
+country,Azerbaijan,2002,0,0,TWh,IEA
+country,Botswana,1996,0,0,TWh,IEA
+country,Brunei Darussalam,1998,0,0,TWh,IEA
+zone,Asia and Oceania,2005,377.651,0.07475297833366916,TWh,IEA
+country,Uruguay,2009,0,0,TWh,IEA
+country,Haiti,2005,0,0,TWh,IEA
+country,Turkey,1998,0,0,TWh,IEA
+country,Latvia,2005,0,0,TWh,IEA
+country,Kenya,2014,0,0,TWh,IEA
+zone,World,1995,2192.4809999999993,0.17769555758066755,TWh,IEA
+country,Honduras,1996,0,0,TWh,IEA
+country,Netherlands,1998,3.8139999999999996,0.04195681110634412,TWh,IEA
+country,India,1992,6.726,0.01994774320023963,TWh,IEA
+country,China,2008,68.39399999999999,0.01972608903188033,TWh,IEA
+country,Finland,1998,21.853,0.31144270098479343,TWh,IEA
+country,Egypt,2008,0,0,TWh,IEA
+country,Cameroon,2012,0,0,TWh,IEA
