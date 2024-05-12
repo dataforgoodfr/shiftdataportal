@@ -69,7 +69,7 @@ const nuclear: NuclearResolvers = {
         .select(
           SHARE.year,
           SHARE.group_name,
-          db.knex.raw("SUM(??)::numeric * ? as ??", [
+          db.knex.raw("SUM(??) * ? as ??", [
             SHARE.nuclear_share_of_electricity_generation,
             100,
             SHARE.nuclear_share_of_electricity_generation,
@@ -158,7 +158,7 @@ const nuclear: NuclearResolvers = {
         .select(
           TOTAL.year,
           TOTAL.group_name,
-          db.knex.raw("SUM(??)::numeric * ? as ??", [
+          db.knex.raw("SUM(??) * ? as ??", [
             TOTAL.nuclear,
             energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
             TOTAL.nuclear,

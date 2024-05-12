@@ -9,12 +9,12 @@
   "scripts": {
     "start": "node ./dist/server.js",
     "tsc": "tsc",
-    "dev": "DEBUG=knex:query ts-node-dev --respawn --transpileOnly ./server.ts",
+    "dev": "DEBUG=knex:query ts-node-dev --respawn --transpile-only ./server.ts",
     "debug": "NODE_ENV=development ts-node-dev --inspect --respawn ./server.ts",
     "generate:types": "cd ../ && yarn generate",
-    "build": "yarn tsc",
+    "build": "yarn db:prepare && yarn tsc",
     "test": "jest --config=./jest.config.js --coverage",
-    "generate:db_types": "ts-node-dev ./utils/schempaGenerator.ts"
+    "db:prepare": "ts-node-dev --transpile-only ./csv-to-sqlite.ts"
   },
   "author": "Ulysse Tallepied",
   "license": "ISC",
@@ -30,7 +30,6 @@
     "knex": "^0.21.1",
     "lodash": "^4.17.21",
     "papaparse": "^5.4.1",
-    "pg": "^8.0.3",
     "slugify": "^1.4.0",
     "sqlite3": "^5.1.7"
   },
@@ -45,7 +44,6 @@
     "jest": "^25.1.0",
     "jest-cli": "^25.1.0",
     "jest-junit": "^10.0.0",
-    "pg-structure": "^5.10.7",
     "prettier": "^1.19.1",
     "ts-jest": "^25.2.1",
     "ts-node-dev": "^2.0.0",

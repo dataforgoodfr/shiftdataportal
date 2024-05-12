@@ -75,7 +75,7 @@ const energyIntensityGdp: EnergyIntensityGdpResolvers = {
       .select(
         TOTAL.year,
         TOTAL.group_name,
-        db.knex.raw("SUM(??)::numeric * ? as ??", [
+        db.knex.raw("SUM(??) * ? as ??", [
           TOTAL.energy_intensity_of_gdp,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
           TOTAL.energy_intensity_of_gdp,

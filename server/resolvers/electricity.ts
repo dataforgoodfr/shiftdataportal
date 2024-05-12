@@ -134,7 +134,7 @@ const electricity: ElectricityResolvers = {
           BY_ENERGY_FAMILY.energy_family,
           BY_ENERGY_FAMILY.group_type,
           BY_ENERGY_FAMILY.group_name,
-          db.knex.raw("SUM(??)::numeric * ? as ??", [
+          db.knex.raw("SUM(??) * ? as ??", [
             BY_ENERGY_FAMILY.final_energy,
             energyUnit ? energyMultiplier(EnergyUnit.TWh, energyUnit) : 1,
             BY_ENERGY_FAMILY.final_energy,
@@ -195,7 +195,7 @@ const electricity: ElectricityResolvers = {
       .select(
         PER_CAPITA.year,
         PER_CAPITA.group_name,
-        db.knex.raw("SUM(??)::numeric * ? as ??", [
+        db.knex.raw("SUM(??) * ? as ??", [
           PER_CAPITA.energy_per_capita,
           energyUnit ? energyMultiplier(EnergyUnit.TWh, energyUnit) : 1,
           PER_CAPITA.energy_per_capita,
@@ -373,7 +373,7 @@ const electricity: ElectricityResolvers = {
         .select(
           BY_ENERGY_FAMILY.year,
           BY_ENERGY_FAMILY.group_name,
-          db.knex.raw("SUM(??)::numeric * ? as ??", [
+          db.knex.raw("SUM(??) * ? as ??", [
             BY_ENERGY_FAMILY.final_energy,
             energyUnit ? energyMultiplier(EnergyUnit.TWh, energyUnit) : 1,
             BY_ENERGY_FAMILY.final_energy,
