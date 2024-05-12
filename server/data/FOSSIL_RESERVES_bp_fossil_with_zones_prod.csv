@@ -1,0 +1,4912 @@
+group_type,group_name,energy_source,year,proven_reserves,proven_reserves_unit
+group,EU28,Gas,1989,3.1,Bcm
+zone,Asia and Oceania,Oil,2016,46.49999999999999,Gb
+zone,Africa,Gas,1995,8.7,Bcm
+group,OECD,Oil,2004,243.10000000000002,Gb
+group,EU28,Oil,2014,4.6,Gb
+group,OPEC,Gas,1982,31.000000000000004,Bcm
+zone,Eurasia,Oil,1990,58.4,Gb
+zone,Asia and Oceania,Oil,2014,48.199999999999996,Gb
+group,Persian Gulf,Oil,1990,651.3000000000001,Gb
+group,Persian Gulf,Gas,1987,29.799999999999997,Bcm
+group,OECD,Gas,1986,14.099999999999998,Bcm
+group,EU28,Oil,2001,7.6,Gb
+zone,Africa,Gas,2000,10.9,Bcm
+zone,Africa,Oil,1980,52.900000000000006,Gb
+group,OECD,Oil,1983,148.20000000000002,Gb
+group,EU28,Gas,2003,2.8,Bcm
+zone,Africa,Gas,2017,13.100000000000001,Bcm
+zone,World,Gas,1999,131.39999999999998,Bcm
+group,OPEC,Oil,2005,885.9999999999999,Gb
+zone,World,Oil,1989,1021.9,Gb
+zone,Central and South America,Gas,1993,5.5,Bcm
+group,OPEC,Oil,1988,732.2,Gb
+zone,Central and South America,Gas,2015,8.1,Bcm
+zone,Africa,Oil,1998,76.60000000000001,Gb
+group,OPEC,Oil,1987,645.9000000000001,Gb
+zone,North America,Gas,1990,9.2,Bcm
+group,OPEC,Oil,1984,482.2,Gb
+group,Persian Gulf,Gas,1995,43.099999999999994,Bcm
+group,Persian Gulf,Gas,2007,71.1,Bcm
+zone,Eurasia,Oil,1982,63,Gb
+zone,North America,Gas,2001,7.4,Bcm
+group,OPEC,Gas,2015,90.9,Bcm
+zone,Central and South America,Oil,2000,96.69999999999999,Gb
+zone,Middle East,Gas,1985,27,Bcm
+zone,Eurasia,Gas,1984,24,Bcm
+group,OECD,Gas,2004,13.7,Bcm
+zone,Europe,Oil,2014,11.100000000000001,Gb
+zone,Europe,Oil,1989,14.8,Gb
+zone,Middle East,Oil,2001,698.4999999999999,Gb
+zone,North America,Oil,1981,133.7,Gb
+zone,Africa,Oil,1985,56.099999999999994,Gb
+zone,Central and South America,Oil,1994,80.60000000000001,Gb
+zone,Middle East,Oil,1980,362.19999999999993,Gb
+zone,Asia and Oceania,Oil,1980,33.5,Gb
+group,OPEC,Oil,2001,820.8,Gb
+zone,Central and South America,Gas,1994,6,Bcm
+zone,World,Oil,2015,1672.9,Gb
+zone,North America,Oil,2005,223.6,Gb
+zone,Asia and Oceania,Gas,2017,18.099999999999998,Bcm
+group,OPEC,Oil,1994,756.2,Gb
+zone,World,Oil,2018,1718.5000000000002,Gb
+zone,Asia and Oceania,Gas,2005,11.599999999999998,Bcm
+zone,Middle East,Gas,1981,24.4,Bcm
+group,Persian Gulf,Gas,2014,76.20000000000002,Bcm
+zone,Eurasia,Oil,1983,63,Gb
+group,Persian Gulf,Oil,1997,673.4,Gb
+zone,Europe,Oil,1987,14.2,Gb
+zone,Middle East,Oil,1987,566.5,Gb
+zone,Middle East,Gas,1984,26.6,Bcm
+zone,Africa,Gas,1992,8.6,Bcm
+group,OECD,Gas,1990,14.7,Bcm
+group,OECD,Gas,1983,14.2,Bcm
+group,EU28,Gas,2014,1.2,Bcm
+zone,North America,Gas,1984,10.3,Bcm
+zone,Central and South America,Gas,2006,7.1000000000000005,Bcm
+zone,North America,Gas,2013,11.399999999999999,Bcm
+zone,North America,Oil,1993,120.5,Gb
+zone,North America,Oil,1989,127.6,Gb
+group,OECD,Oil,2003,245.20000000000002,Gb
+zone,Central and South America,Oil,2005,101.9,Gb
+zone,Middle East,Gas,2016,77.60000000000001,Bcm
+zone,Eurasia,Oil,1993,122.39999999999999,Gb
+zone,Eurasia,Gas,1991,36.3,Bcm
+group,Persian Gulf,Oil,2017,823.3,Gb
+zone,Middle East,Oil,1986,536.9,Gb
+group,Persian Gulf,Gas,1997,46.7,Bcm
+group,EU28,Oil,1992,7.1,Gb
+zone,Asia and Oceania,Gas,1997,9.299999999999999,Bcm
+zone,Middle East,Oil,2014,802.9,Gb
+zone,Eurasia,Oil,2015,140.6,Gb
+zone,Asia and Oceania,Oil,1982,34.2,Gb
+zone,Middle East,Oil,2013,802.7,Gb
+zone,Middle East,Oil,1995,663.3,Gb
+zone,North America,Oil,1997,127.1,Gb
+zone,Eurasia,Gas,2018,63.800000000000004,Bcm
+group,OPEC,Oil,1995,757.1,Gb
+zone,Europe,Oil,2005,15.9,Gb
+zone,World,Gas,2014,188.49999999999997,Bcm
+zone,Central and South America,Oil,2011,322.5,Gb
+zone,Europe,Gas,1989,4.799999999999999,Bcm
+group,OPEC,Gas,2002,82.3,Bcm
+group,Persian Gulf,Gas,1988,32.900000000000006,Bcm
+zone,World,Gas,1980,70.39999999999999,Bcm
+zone,Africa,Oil,2006,116.69999999999999,Gb
+group,OECD,Gas,1994,13.6,Bcm
+group,OECD,Oil,2018,252.8,Gb
+zone,Central and South America,Gas,2002,6.6,Bcm
+zone,Middle East,Oil,1983,396.70000000000005,Gb
+zone,Europe,Oil,1985,13.9,Gb
+zone,North America,Oil,2013,232.6,Gb
+group,Persian Gulf,Oil,1984,425.3,Gb
+zone,Europe,Gas,1994,4.9,Bcm
+group,OPEC,Gas,2001,81.3,Bcm
+zone,North America,Gas,1992,9,Bcm
+group,OECD,Gas,2018,18.9,Bcm
+zone,Central and South America,Oil,1990,71,Gb
+zone,Africa,Oil,2016,119.1,Gb
+zone,North America,Oil,2003,225.3,Gb
+group,OPEC,Gas,2018,89.60000000000001,Bcm
+zone,World,Oil,1993,1099.1000000000001,Gb
+group,Persian Gulf,Oil,2006,744.3999999999999,Gb
+group,Persian Gulf,Oil,2003,734.8,Gb
+zone,Eurasia,Gas,2013,58.800000000000004,Bcm
+zone,Central and South America,Oil,1991,73.9,Gb
+zone,World,Gas,2010,176.70000000000005,Bcm
+zone,Africa,Gas,2013,12.4,Bcm
+zone,Central and South America,Oil,1980,26.099999999999998,Gb
+zone,Central and South America,Gas,1983,3,Bcm
+zone,North America,Oil,1990,125.39999999999999,Gb
+zone,World,Oil,2014,1686,Gb
+zone,Eurasia,Gas,2012,58.5,Bcm
+group,EU28,Oil,1998,7.8,Gb
+zone,Central and South America,Oil,1984,35.8,Gb
+zone,World,Gas,2008,168.60000000000002,Bcm
+zone,Central and South America,Gas,1995,6.1,Bcm
+group,OPEC,Gas,2013,91.4,Bcm
+zone,Europe,Oil,2008,12.4,Gb
+zone,Africa,Oil,2004,107.10000000000001,Gb
+group,EU28,Oil,1989,6.3999999999999995,Gb
+group,OPEC,Gas,2003,82.9,Bcm
+zone,Africa,Oil,2007,119.1,Gb
+zone,Eurasia,Gas,2003,40.89999999999999,Bcm
+group,OECD,Oil,2015,243.1,Gb
+group,Persian Gulf,Gas,2002,68.9,Bcm
+zone,Central and South America,Gas,2016,8.200000000000001,Bcm
+zone,Eurasia,Gas,2001,40.39999999999999,Bcm
+zone,Middle East,Gas,2011,77.8,Bcm
+group,Persian Gulf,Oil,1986,530.8,Gb
+zone,Africa,Oil,1982,57.79999999999999,Gb
+zone,World,Gas,1985,81.7,Bcm
+group,OECD,Gas,2011,17.799999999999997,Bcm
+group,OECD,Oil,1980,138.60000000000002,Gb
+zone,Asia and Oceania,Oil,2009,47.599999999999994,Gb
+group,Persian Gulf,Oil,2008,742.8,Gb
+zone,Eurasia,Oil,2007,144.6,Gb
+zone,Middle East,Gas,2017,75.50000000000001,Bcm
+group,OECD,Oil,2006,238.9,Gb
+zone,Asia and Oceania,Gas,2003,11.2,Bcm
+group,EU28,Oil,2011,5.1,Gb
+group,OPEC,Gas,2014,91.60000000000001,Bcm
+group,EU28,Gas,2011,1.7000000000000002,Bcm
+zone,North America,Oil,2002,228.29999999999998,Gb
+zone,North America,Gas,2002,7.1,Bcm
+group,EU28,Oil,2004,6.3,Gb
+zone,Africa,Oil,2005,110.89999999999999,Gb
+zone,Middle East,Oil,2015,802.6999999999999,Gb
+group,OPEC,Gas,1989,44.8,Bcm
+zone,Eurasia,Gas,1992,37.1,Bcm
+zone,Central and South America,Oil,2010,320.6,Gb
+zone,World,Gas,1988,94.10000000000001,Bcm
+zone,Asia and Oceania,Gas,1981,4.8999999999999995,Bcm
+group,EU28,Oil,2012,4.9,Gb
+zone,Central and South America,Gas,1980,2.5999999999999996,Bcm
+zone,Europe,Gas,2009,4.5,Bcm
+zone,Europe,Gas,2016,2.9000000000000004,Bcm
+zone,Middle East,Gas,1989,36.7,Bcm
+zone,Middle East,Gas,1980,24,Bcm
+zone,World,Oil,1982,720.6,Gb
+zone,Africa,Oil,1983,57.300000000000004,Gb
+zone,Europe,Oil,2016,11.399999999999999,Gb
+zone,Africa,Oil,1992,60.300000000000004,Gb
+zone,Middle East,Oil,1999,685.6999999999999,Gb
+zone,Europe,Oil,2003,16.7,Gb
+zone,Europe,Oil,2004,16,Gb
+zone,Middle East,Gas,2000,57.4,Bcm
+zone,Europe,Gas,2010,4.5,Bcm
+group,OPEC,Gas,1987,37.800000000000004,Bcm
+zone,North America,Oil,1987,130.70000000000002,Gb
+zone,North America,Gas,1980,9.600000000000001,Bcm
+zone,Eurasia,Oil,2003,124.89999999999999,Gb
+zone,Eurasia,Oil,1980,67,Gb
+zone,North America,Oil,2004,223.70000000000002,Gb
+zone,North America,Oil,2006,221.60000000000002,Gb
+group,OECD,Gas,2017,19.1,Bcm
+zone,World,Gas,2009,169.3,Bcm
+zone,Asia and Oceania,Gas,1996,9,Bcm
+group,OPEC,Gas,1992,52.6,Bcm
+group,EU28,Gas,1981,3.5,Bcm
+zone,Eurasia,Oil,1996,121.19999999999999,Gb
+zone,World,Oil,2012,1675.9,Gb
+zone,Asia and Oceania,Gas,1998,10.200000000000001,Bcm
+group,OPEC,Oil,2012,1147.4,Gb
+zone,Europe,Oil,1990,15.5,Gb
+zone,Africa,Gas,1993,8.9,Bcm
+zone,Central and South America,Oil,1987,67.5,Gb
+zone,Central and South America,Oil,2013,324.59999999999997,Gb
+zone,Eurasia,Gas,1999,39.8,Bcm
+zone,Eurasia,Oil,1992,123.39999999999999,Gb
+zone,North America,Gas,1993,8.5,Bcm
+zone,Central and South America,Gas,2013,8.2,Bcm
+group,EU28,Gas,1985,3.4000000000000004,Bcm
+zone,North America,Gas,2000,7.2,Bcm
+zone,Africa,Oil,2002,100.99999999999999,Gb
+group,Persian Gulf,Gas,2015,75.5,Bcm
+group,EU28,Oil,2018,4.1,Gb
+group,OECD,Gas,2003,13.799999999999999,Bcm
+zone,World,Gas,1993,117.59999999999998,Bcm
+zone,Europe,Oil,1995,18,Gb
+zone,World,Gas,2005,155.3,Bcm
+group,OPEC,Gas,1990,45.5,Bcm
+zone,Eurasia,Oil,2001,118.99999999999999,Gb
+zone,World,Gas,1982,75.39999999999998,Bcm
+zone,North America,Oil,2015,227.5,Gb
+group,EU28,Gas,2015,1.0999999999999999,Bcm
+zone,Africa,Oil,2008,119.79999999999998,Gb
+zone,North America,Oil,1992,122.00000000000001,Gb
+group,Persian Gulf,Gas,2016,76.10000000000001,Bcm
+zone,World,Oil,1991,1094.6,Gb
+zone,Central and South America,Oil,2004,103.10000000000001,Gb
+zone,Africa,Gas,1987,6.3,Bcm
+zone,Middle East,Gas,1986,29.6,Bcm
+group,EU28,Gas,2010,2.5,Bcm
+zone,Asia and Oceania,Oil,2010,48.9,Gb
+group,EU28,Gas,2012,1.4000000000000001,Bcm
+group,OPEC,Gas,2000,68.69999999999999,Bcm
+zone,Asia and Oceania,Gas,1986,7.300000000000001,Bcm
+zone,Africa,Gas,2006,12.399999999999999,Bcm
+zone,North America,Gas,1991,9.1,Bcm
+zone,Europe,Gas,2008,4.7,Bcm
+group,Persian Gulf,Gas,2003,69.2,Bcm
+zone,Middle East,Gas,1995,44,Bcm
+group,Persian Gulf,Gas,1994,43.300000000000004,Bcm
+group,OECD,Gas,1995,13.6,Bcm
+zone,Eurasia,Oil,1998,120.79999999999998,Gb
+group,OPEC,Oil,1989,740.4000000000001,Gb
+group,EU28,Oil,1995,7.2,Gb
+zone,Europe,Gas,2001,5.3,Bcm
+zone,Middle East,Gas,2009,73.60000000000001,Bcm
+group,Persian Gulf,Oil,2016,796.6999999999999,Gb
+zone,World,Oil,1996,1142.1,Gb
+zone,Central and South America,Oil,2008,195.20000000000002,Gb
+zone,Central and South America,Oil,1981,26.5,Gb
+zone,Eurasia,Gas,1987,26.7,Bcm
+zone,Europe,Oil,1982,13,Gb
+zone,North America,Gas,2017,14.100000000000001,Bcm
+group,OECD,Gas,1988,14.799999999999999,Bcm
+zone,Europe,Gas,1985,3.9000000000000004,Bcm
+group,OPEC,Gas,1986,37.1,Bcm
+group,EU28,Oil,1997,7.6,Gb
+zone,Middle East,Gas,2007,72.6,Bcm
+zone,World,Gas,1984,79.3,Bcm
+zone,World,Oil,2016,1680.4,Gb
+zone,Middle East,Oil,1991,660.8,Gb
+zone,Asia and Oceania,Gas,2006,12.1,Bcm
+zone,Europe,Oil,1999,18.6,Gb
+group,EU28,Gas,2013,1.4000000000000001,Bcm
+zone,North America,Oil,1982,132.4,Gb
+group,OPEC,Gas,1998,61.9,Bcm
+zone,Asia and Oceania,Oil,1981,34.199999999999996,Gb
+zone,Asia and Oceania,Oil,2004,42,Gb
+group,Persian Gulf,Gas,1983,25.5,Bcm
+zone,Eurasia,Oil,1997,120.69999999999999,Gb
+zone,North America,Gas,1985,10,Bcm
+zone,Eurasia,Gas,1997,40.10000000000001,Bcm
+group,OECD,Gas,2009,16,Bcm
+group,OECD,Oil,2012,245,Gb
+group,OPEC,Oil,2015,1154.6999999999998,Gb
+zone,Central and South America,Gas,1986,4.3,Bcm
+zone,Middle East,Gas,2018,75.60000000000001,Bcm
+zone,Europe,Gas,1993,4.8,Bcm
+zone,World,Oil,1984,769.7999999999998,Gb
+group,EU28,Gas,1980,3.5999999999999996,Bcm
+zone,North America,Gas,2012,10.7,Bcm
+zone,North America,Oil,2009,217.8,Gb
+zone,Europe,Gas,2004,5.099999999999999,Bcm
+zone,Eurasia,Oil,2013,143.2,Gb
+group,OECD,Oil,2017,253.2,Gb
+zone,Europe,Gas,1992,4.9,Bcm
+zone,World,Oil,2005,1371.1999999999998,Gb
+zone,Middle East,Gas,2003,70.7,Bcm
+zone,Africa,Gas,1994,8,Bcm
+zone,World,Oil,1980,679.3000000000001,Gb
+zone,Eurasia,Oil,1999,119.79999999999998,Gb
+group,OECD,Oil,2010,236.40000000000003,Gb
+group,OECD,Oil,2002,249.7,Gb
+group,OPEC,Oil,1992,749.8000000000001,Gb
+group,EU28,Gas,1982,3.3000000000000003,Bcm
+group,OECD,Gas,2016,16.1,Bcm
+group,OECD,Oil,1987,146.5,Gb
+group,Persian Gulf,Gas,1996,46.4,Bcm
+zone,Europe,Oil,2007,13.7,Gb
+zone,Central and South America,Oil,1982,31.4,Gb
+zone,Asia and Oceania,Gas,1983,5.6000000000000005,Bcm
+zone,Europe,Gas,2000,4.5,Bcm
+group,Persian Gulf,Oil,2002,730.4,Gb
+zone,Asia and Oceania,Gas,1991,8,Bcm
+zone,Middle East,Gas,2015,77,Bcm
+group,EU28,Oil,2010,4.9,Gb
+zone,Europe,Gas,1988,4.999999999999999,Bcm
+zone,Middle East,Oil,1993,662,Gb
+group,Persian Gulf,Gas,2012,76.20000000000002,Bcm
+group,OPEC,Oil,2002,868.5999999999999,Gb
+zone,Africa,Oil,2018,117.9,Gb
+group,EU28,Gas,1993,3.5000000000000004,Bcm
+group,Persian Gulf,Gas,1992,41.9,Bcm
+zone,Central and South America,Gas,1981,2.8,Bcm
+group,Persian Gulf,Gas,2018,73.90000000000002,Bcm
+zone,Central and South America,Gas,1984,3,Bcm
+group,OPEC,Gas,2017,89.4,Bcm
+group,EU28,Oil,2007,5.5,Gb
+group,OPEC,Gas,1993,53.1,Bcm
+zone,Central and South America,Gas,1989,4.8999999999999995,Bcm
+group,OECD,Gas,1997,13.6,Bcm
+zone,Eurasia,Oil,1988,59,Gb
+zone,North America,Gas,2006,7.7,Bcm
+zone,World,Gas,1989,104.3,Bcm
+group,OPEC,Oil,1985,508.5,Gb
+zone,Central and South America,Oil,1995,82.8,Gb
+zone,North America,Gas,2010,10.600000000000001,Bcm
+zone,World,Gas,2002,153.29999999999998,Bcm
+group,OECD,Oil,2008,232.70000000000002,Gb
+zone,Central and South America,Gas,1988,4.9,Bcm
+zone,Eurasia,Gas,2004,40.699999999999996,Bcm
+zone,Central and South America,Gas,2004,6.7,Bcm
+zone,Middle East,Gas,1982,25.3,Bcm
+group,OPEC,Oil,2000,813.6999999999998,Gb
+zone,Central and South America,Oil,2006,109.69999999999999,Gb
+zone,Africa,Gas,2014,12.9,Bcm
+zone,World,Gas,2003,153.9,Bcm
+zone,Africa,Oil,2000,92.4,Gb
+zone,Africa,Gas,2003,12.3,Bcm
+zone,Asia and Oceania,Oil,1997,38,Gb
+zone,Africa,Oil,1990,57.9,Gb
+zone,World,Oil,2008,1488.8999999999999,Gb
+zone,Central and South America,Oil,2017,323.5,Gb
+zone,North America,Gas,2016,10.899999999999999,Bcm
+zone,Asia and Oceania,Oil,1986,38.2,Gb
+group,Persian Gulf,Gas,2011,76.5,Bcm
+group,Persian Gulf,Gas,1999,51.5,Bcm
+group,OECD,Gas,1996,13.9,Bcm
+group,OPEC,Oil,2003,874.3,Gb
+zone,Asia and Oceania,Gas,2000,10.8,Bcm
+group,Persian Gulf,Gas,2013,76.20000000000002,Bcm
+group,Persian Gulf,Oil,2013,792.2,Gb
+zone,Middle East,Gas,2008,73.69999999999999,Bcm
+zone,Europe,Gas,1999,4.5,Bcm
+group,OPEC,Oil,1981,406.8,Gb
+zone,North America,Gas,2011,11.3,Bcm
+group,OECD,Gas,2008,15.5,Bcm
+group,OPEC,Gas,2010,90.6,Bcm
+zone,Central and South America,Oil,2007,122.4,Gb
+zone,World,Oil,1999,1274.5,Gb
+zone,World,Gas,2018,195.30000000000004,Bcm
+zone,Europe,Oil,1988,15,Gb
+zone,Middle East,Gas,2002,70.3,Bcm
+group,EU28,Oil,1994,6.9,Gb
+zone,Central and South America,Gas,2007,7.300000000000001,Bcm
+zone,Africa,Gas,1990,7.4,Bcm
+zone,Asia and Oceania,Oil,1994,37.00000000000001,Gb
+zone,World,Gas,2001,151.79999999999998,Bcm
+zone,Middle East,Gas,2006,71.19999999999999,Bcm
+zone,Asia and Oceania,Gas,1994,9.200000000000001,Bcm
+zone,Middle East,Gas,1996,47.5,Bcm
+zone,World,Oil,1987,934.0000000000002,Gb
+group,OPEC,Gas,1985,32.6,Bcm
+group,EU28,Gas,2001,3.0999999999999996,Bcm
+group,OPEC,Oil,2018,1189.1999999999998,Gb
+zone,Africa,Oil,1997,74.6,Gb
+zone,Asia and Oceania,Gas,1985,6.7,Bcm
+group,EU28,Gas,1998,3.5,Bcm
+group,Persian Gulf,Oil,1989,652.7,Gb
+zone,Africa,Oil,1984,56.69999999999999,Gb
+zone,North America,Oil,2018,236.7,Gb
+zone,World,Gas,2006,156.4,Bcm
+group,Persian Gulf,Gas,1986,29.3,Bcm
+zone,Eurasia,Gas,2015,59.2,Bcm
+group,OPEC,Gas,1980,29.3,Bcm
+zone,Africa,Gas,1991,8.3,Bcm
+group,EU28,Oil,1981,9.700000000000001,Gb
+zone,Asia and Oceania,Gas,1993,8.8,Bcm
+zone,Middle East,Oil,1998,685.0999999999998,Gb
+group,Persian Gulf,Oil,2012,788,Gb
+group,OECD,Oil,1994,146.89999999999998,Gb
+zone,North America,Oil,2007,221.5,Gb
+group,OECD,Oil,1982,147.29999999999998,Gb
+zone,Africa,Gas,1980,5.5,Bcm
+group,OPEC,Gas,1995,54.1,Bcm
+zone,Asia and Oceania,Gas,2016,17.5,Bcm
+zone,Eurasia,Oil,2005,121.5,Gb
+group,Persian Gulf,Oil,1991,651.4,Gb
+zone,Europe,Oil,1981,13.7,Gb
+group,OECD,Gas,2012,16.9,Bcm
+group,OPEC,Oil,1999,802.3999999999999,Gb
+group,Persian Gulf,Oil,1993,652,Gb
+group,OECD,Oil,1992,140.8,Gb
+zone,North America,Oil,2012,229.3,Gb
+group,EU28,Gas,1992,3.5000000000000004,Bcm
+zone,Africa,Gas,1988,6.6,Bcm
+group,OPEC,Gas,2009,87.10000000000001,Bcm
+zone,Central and South America,Oil,2001,98.80000000000001,Gb
+zone,Eurasia,Oil,2018,144.39999999999998,Gb
+zone,North America,Gas,1995,8.2,Bcm
+group,OECD,Oil,1988,146.6,Gb
+group,Persian Gulf,Oil,2014,792.2,Gb
+group,OECD,Gas,1993,13.7,Bcm
+zone,Middle East,Oil,2002,741.2999999999998,Gb
+zone,Central and South America,Gas,2018,8.1,Bcm
+group,OPEC,Gas,2016,91.80000000000001,Bcm
+group,OPEC,Oil,2009,1016.5,Gb
+zone,Asia and Oceania,Gas,1982,5.5,Bcm
+zone,Europe,Oil,2001,19.2,Gb
+zone,Asia and Oceania,Oil,2003,39,Gb
+zone,Central and South America,Oil,1992,78,Gb
+zone,Central and South America,Gas,2011,8,Bcm
+zone,Africa,Oil,2017,117.9,Gb
+zone,Africa,Gas,2004,12.6,Bcm
+zone,Asia and Oceania,Oil,2018,46.4,Gb
+zone,Europe,Gas,1983,3.8000000000000007,Bcm
+group,EU28,Oil,1986,7.699999999999999,Gb
+zone,Asia and Oceania,Gas,1990,8.8,Bcm
+group,OECD,Oil,2000,254.79999999999998,Gb
+group,OECD,Oil,2014,252.5,Gb
+zone,World,Gas,1992,115.89999999999999,Bcm
+zone,Europe,Oil,1993,16.4,Gb
+group,EU28,Gas,1990,3.2,Bcm
+zone,Asia and Oceania,Oil,2017,46.4,Gb
+zone,Africa,Gas,1981,5.300000000000001,Bcm
+zone,World,Oil,2001,1300.8999999999999,Gb
+group,OPEC,Gas,2007,85.60000000000001,Bcm
+group,OECD,Gas,2010,17.4,Bcm
+group,Persian Gulf,Oil,1982,383.6,Gb
+zone,Africa,Oil,1993,60.699999999999996,Gb
+zone,Europe,Gas,2013,3.4000000000000004,Bcm
+zone,Africa,Gas,1999,10.100000000000001,Bcm
+group,OECD,Gas,1987,14.9,Bcm
+group,Persian Gulf,Oil,1987,559.6,Gb
+group,OPEC,Gas,1983,31.4,Bcm
+zone,Asia and Oceania,Gas,2015,16.099999999999998,Bcm
+group,OECD,Gas,1989,14.499999999999998,Bcm
+zone,Eurasia,Gas,1988,27.2,Bcm
+group,EU28,Oil,1988,6.8,Gb
+group,Persian Gulf,Gas,2005,69.7,Bcm
+group,OECD,Oil,1984,147.7,Gb
+zone,Eurasia,Gas,2007,40.99999999999999,Bcm
+group,OECD,Oil,2001,253.10000000000002,Gb
+zone,World,Gas,2015,186.60000000000002,Bcm
+group,OPEC,Oil,2016,1161.3999999999999,Gb
+group,Persian Gulf,Gas,1980,23.8,Bcm
+zone,North America,Oil,2001,230.10000000000002,Gb
+zone,Central and South America,Gas,2012,8.3,Bcm
+zone,Asia and Oceania,Gas,1995,9.4,Bcm
+zone,North America,Oil,1980,123.2,Gb
+zone,Eurasia,Oil,2006,121.19999999999999,Gb
+group,OPEC,Gas,1994,53.5,Bcm
+group,OPEC,Gas,1988,41.1,Bcm
+zone,World,Oil,1990,1022.6,Gb
+zone,Middle East,Oil,1981,365.09999999999997,Gb
+group,EU28,Gas,2000,3.3,Bcm
+zone,Central and South America,Gas,1985,3.1999999999999997,Bcm
+group,Persian Gulf,Gas,1993,42.3,Bcm
+group,OECD,Gas,2013,17.499999999999996,Bcm
+zone,World,Oil,1988,1021.8,Gb
+zone,Middle East,Gas,2010,76.80000000000001,Bcm
+group,OPEC,Oil,1993,752.2,Gb
+zone,Eurasia,Gas,2002,40.89999999999999,Bcm
+group,EU28,Gas,1995,3.5,Bcm
+zone,World,Oil,1994,1112.1,Gb
+group,EU28,Gas,1991,3.5,Bcm
+group,OPEC,Oil,2007,906.5999999999999,Gb
+zone,Central and South America,Oil,2009,234.5,Gb
+zone,Eurasia,Oil,1986,61,Gb
+zone,Central and South America,Gas,1991,5.4,Bcm
+group,OPEC,Gas,1981,29.7,Bcm
+group,EU28,Gas,2006,2.7,Bcm
+zone,Europe,Oil,1992,16.799999999999997,Gb
+zone,Central and South America,Gas,2010,7.9,Bcm
+zone,World,Gas,2012,186.3,Bcm
+group,OPEC,Gas,2011,91.6,Bcm
+zone,North America,Gas,1987,9.8,Bcm
+zone,Central and South America,Oil,1998,94.49999999999999,Gb
+zone,World,Oil,2007,1420.3000000000004,Gb
+zone,Africa,Oil,1987,57.800000000000004,Gb
+zone,Asia and Oceania,Gas,1992,8.299999999999999,Bcm
+zone,Africa,Gas,1986,6.3999999999999995,Bcm
+zone,Europe,Gas,1986,3.7,Bcm
+group,OECD,Gas,2005,13.9,Bcm
+zone,Africa,Gas,2009,12.9,Bcm
+zone,Africa,Oil,1989,58.199999999999996,Gb
+zone,Europe,Oil,2015,12.2,Gb
+zone,Asia and Oceania,Gas,2018,18.1,Bcm
+zone,Asia and Oceania,Gas,1999,10.600000000000001,Bcm
+zone,Europe,Oil,1997,19.6,Gb
+zone,Africa,Gas,2015,12.7,Bcm
+zone,Europe,Gas,2018,2.6000000000000005,Bcm
+zone,World,Gas,2013,187.39999999999998,Bcm
+zone,Eurasia,Gas,1996,37.3,Bcm
+zone,Central and South America,Gas,1990,5.199999999999999,Bcm
+zone,North America,Gas,2018,14,Bcm
+zone,Europe,Oil,2006,14.299999999999999,Gb
+group,Persian Gulf,Oil,1996,664,Gb
+group,OECD,Oil,1989,144.3,Gb
+zone,Europe,Gas,1987,4.5,Bcm
+zone,Africa,Oil,2009,121.9,Gb
+group,EU28,Oil,1991,7.1,Gb
+zone,World,Oil,2010,1634.7,Gb
+zone,Eurasia,Gas,2009,46.5,Bcm
+group,OPEC,Gas,2008,86.8,Bcm
+group,EU28,Gas,2016,1.0999999999999999,Bcm
+zone,North America,Oil,1995,126.99999999999999,Gb
+zone,World,Oil,1992,1099.7000000000003,Gb
+group,Persian Gulf,Oil,1988,645,Gb
+zone,Africa,Gas,1985,5.3,Bcm
+group,OECD,Gas,2002,13.9,Bcm
+zone,North America,Gas,1983,10.100000000000001,Bcm
+zone,Europe,Gas,2002,5.099999999999999,Bcm
+zone,Europe,Oil,2018,12.7,Gb
+zone,Africa,Gas,2002,12.100000000000001,Bcm
+zone,North America,Oil,1984,133,Gb
+zone,World,Oil,1985,797,Gb
+zone,Asia and Oceania,Gas,2008,14.5,Bcm
+group,Persian Gulf,Oil,2010,754.6999999999999,Gb
+group,OPEC,Oil,1998,793.5,Gb
+group,OECD,Gas,2007,14.4,Bcm
+zone,World,Gas,1997,125.59999999999998,Bcm
+zone,Africa,Oil,1988,58.099999999999994,Gb
+group,EU28,Oil,2017,4.1,Gb
+zone,Central and South America,Gas,2005,6.6,Bcm
+group,Persian Gulf,Gas,2000,56.1,Bcm
+group,OECD,Gas,1981,14,Bcm
+zone,Africa,Gas,1996,8.9,Bcm
+group,OPEC,Oil,2010,1113.1999999999998,Gb
+zone,Middle East,Oil,2011,797.3,Gb
+group,EU28,Gas,2007,2.5,Bcm
+group,OECD,Gas,1999,12.8,Bcm
+zone,Africa,Gas,2008,12.9,Bcm
+zone,World,Oil,2011,1671,Gb
+zone,North America,Gas,2009,9.3,Bcm
+zone,North America,Gas,1981,10,Bcm
+zone,Middle East,Oil,1989,661.0000000000001,Gb
+zone,Eurasia,Oil,2010,144,Gb
+zone,Asia and Oceania,Oil,2002,39.599999999999994,Gb
+zone,World,Gas,1994,118.6,Bcm
+zone,Asia and Oceania,Gas,1980,4.2,Bcm
+group,OECD,Gas,2015,15.8,Bcm
+zone,Eurasia,Oil,2014,141.39999999999998,Gb
+group,OPEC,Oil,2013,1152.4,Gb
+zone,Eurasia,Oil,2016,144.39999999999998,Gb
+zone,Europe,Gas,1981,3.8999999999999995,Bcm
+group,OPEC,Oil,1990,740.7,Gb
+group,Persian Gulf,Gas,1998,50.39999999999999,Bcm
+zone,Europe,Oil,2002,17.3,Gb
+zone,Asia and Oceania,Oil,2011,47.9,Gb
+zone,Middle East,Oil,2009,752.8,Gb
+zone,Central and South America,Gas,2008,7.4,Bcm
+zone,Middle East,Gas,1997,47.7,Bcm
+zone,Asia and Oceania,Gas,2001,11.000000000000002,Bcm
+zone,North America,Gas,1998,6.9,Bcm
+zone,North America,Oil,1983,133.2,Gb
+zone,Africa,Gas,1982,5.6,Bcm
+zone,Europe,Oil,2011,12,Gb
+group,OECD,Gas,1984,14.399999999999999,Bcm
+zone,World,Gas,1996,122.10000000000001,Bcm
+zone,North America,Oil,2010,221.5,Gb
+zone,Middle East,Oil,1988,652.9,Gb
+zone,World,Oil,2017,1716.3,Gb
+group,EU28,Oil,2005,6.199999999999999,Gb
+zone,Eurasia,Gas,1989,33.3,Bcm
+group,OPEC,Oil,1982,437.1,Gb
+zone,Central and South America,Oil,1996,89.80000000000001,Gb
+zone,Central and South America,Gas,1992,5.5,Bcm
+zone,Central and South America,Oil,1997,92.4,Gb
+zone,Eurasia,Gas,2011,58.3,Bcm
+group,Persian Gulf,Gas,2009,72.4,Bcm
+zone,World,Gas,1998,129,Bcm
+group,EU28,Oil,1983,9.2,Gb
+group,OPEC,Gas,2005,83.49999999999999,Bcm
+group,EU28,Gas,2017,1,Bcm
+zone,North America,Oil,1996,127.2,Gb
+zone,Eurasia,Gas,1995,37.800000000000004,Bcm
+zone,Africa,Oil,2003,105.69999999999999,Gb
+zone,Asia and Oceania,Oil,2007,44.199999999999996,Gb
+zone,Eurasia,Gas,1985,25.6,Bcm
+zone,Eurasia,Oil,2002,123.2,Gb
+zone,Middle East,Oil,2010,765.6999999999999,Gb
+zone,North America,Gas,2008,8.7,Bcm
+zone,Middle East,Gas,1999,52.8,Bcm
+group,Persian Gulf,Gas,1981,24.2,Bcm
+zone,World,Oil,1998,1135.8999999999999,Gb
+zone,Central and South America,Oil,2016,323.7,Gb
+group,Persian Gulf,Gas,2004,69.2,Bcm
+group,OPEC,Gas,1999,63.49999999999999,Bcm
+group,EU28,Gas,1996,3.5999999999999996,Bcm
+zone,Africa,Oil,1999,84.2,Gb
+zone,Central and South America,Oil,2015,323.59999999999997,Gb
+group,OPEC,Oil,1997,787.9,Gb
+group,OECD,Oil,1985,147.9,Gb
+group,EU28,Oil,2008,4.9,Gb
+zone,World,Oil,2003,1357.5,Gb
+zone,Eurasia,Gas,2008,46.69999999999999,Bcm
+group,OECD,Gas,1985,14.2,Bcm
+group,EU28,Gas,1983,3.4000000000000004,Bcm
+zone,Asia and Oceania,Gas,2012,15.100000000000001,Bcm
+group,EU28,Oil,2009,4.8,Gb
+zone,Eurasia,Oil,1991,123.39999999999999,Gb
+zone,Eurasia,Gas,2016,58.9,Bcm
+zone,Africa,Gas,2005,12.3,Bcm
+group,Persian Gulf,Gas,2008,72.2,Bcm
+group,OPEC,Gas,2006,83.9,Bcm
+zone,Middle East,Oil,2005,755.4,Gb
+zone,North America,Gas,1997,8,Bcm
+zone,North America,Oil,2017,237.8,Gb
+zone,North America,Oil,2016,227.7,Gb
+zone,Europe,Gas,2015,2.9000000000000004,Bcm
+group,EU28,Gas,2005,2.9000000000000004,Bcm
+group,EU28,Oil,1990,6.9,Gb
+zone,Central and South America,Gas,2000,6.6,Bcm
+zone,Middle East,Gas,2013,77.70000000000002,Bcm
+zone,Africa,Oil,2011,122,Gb
+group,OECD,Gas,1982,14,Bcm
+zone,Eurasia,Gas,1981,21.7,Bcm
+zone,Central and South America,Gas,2003,6.6000000000000005,Bcm
+zone,Asia and Oceania,Oil,1993,37.2,Gb
+zone,Europe,Oil,2013,11.9,Gb
+group,OPEC,Gas,1996,57.5,Bcm
+zone,Asia and Oceania,Oil,1987,38.3,Gb
+zone,Asia and Oceania,Oil,2012,48.6,Gb
+group,OECD,Oil,1996,149.4,Gb
+zone,Europe,Oil,1983,14.100000000000001,Gb
+zone,North America,Gas,2003,7,Bcm
+zone,North America,Oil,1986,131.1,Gb
+zone,Africa,Oil,1991,59.6,Gb
+zone,World,Gas,1981,73,Bcm
+zone,World,Gas,2017,194.50000000000003,Bcm
+zone,Europe,Oil,1998,19.5,Gb
+group,EU28,Oil,1980,10.4,Gb
+zone,Asia and Oceania,Gas,2010,14.499999999999998,Bcm
+group,OPEC,Oil,1980,405,Gb
+zone,Asia and Oceania,Gas,2007,13.200000000000001,Bcm
+zone,Middle East,Oil,1984,430.6,Gb
+group,EU28,Gas,2018,1,Bcm
+zone,Middle East,Gas,1992,42.5,Bcm
+group,Persian Gulf,Oil,1998,675.5,Gb
+group,OPEC,Oil,1986,613.8000000000001,Gb
+zone,Asia and Oceania,Oil,2008,46.7,Gb
+group,OPEC,Gas,2004,83.2,Bcm
+group,OECD,Oil,1998,123.1,Gb
+zone,North America,Oil,1999,232.79999999999998,Gb
+group,EU28,Oil,1982,9.2,Gb
+zone,Asia and Oceania,Gas,1984,6.199999999999999,Bcm
+zone,Eurasia,Oil,2017,144.5,Gb
+zone,Central and South America,Gas,2001,6.6,Bcm
+zone,North America,Oil,1998,100,Gb
+group,EU28,Gas,2009,2.5,Bcm
+zone,North America,Gas,2004,7.1,Bcm
+zone,North America,Gas,2014,12.2,Bcm
+zone,Asia and Oceania,Oil,2013,48.6,Gb
+group,OECD,Oil,1981,149,Gb
+zone,Central and South America,Oil,2018,324.5,Gb
+group,EU28,Gas,1986,3.3000000000000003,Bcm
+zone,Africa,Gas,1984,5.3999999999999995,Bcm
+group,EU28,Gas,2002,3,Bcm
+group,Persian Gulf,Oil,1995,653.5,Gb
+group,EU28,Gas,2008,2.5,Bcm
+zone,Africa,Gas,2016,13,Bcm
+zone,Central and South America,Gas,1998,6.5,Bcm
+zone,World,Gas,1986,87.4,Bcm
+zone,North America,Gas,1999,7,Bcm
+zone,Europe,Oil,2000,19,Gb
+zone,Eurasia,Oil,2008,144.6,Gb
+zone,Asia and Oceania,Oil,1991,37.900000000000006,Gb
+zone,Africa,Oil,2014,118.19999999999999,Gb
+zone,Central and South America,Gas,1997,6.5,Bcm
+zone,World,Oil,2004,1364.5,Gb
+group,OPEC,Oil,2011,1144.7999999999997,Gb
+zone,Europe,Oil,2017,12,Gb
+zone,Europe,Gas,1998,4.7,Bcm
+zone,Europe,Oil,2009,11.899999999999999,Gb
+zone,World,Oil,1981,691.9000000000001,Gb
+group,OPEC,Oil,2017,1187.1999999999998,Gb
+zone,World,Oil,2013,1682.9,Gb
+zone,Middle East,Oil,2008,753.6000000000001,Gb
+zone,Central and South America,Oil,1989,68.8,Gb
+group,OPEC,Oil,2008,978.3,Gb
+zone,Europe,Gas,2005,5.199999999999999,Bcm
+zone,Middle East,Oil,2016,807.5999999999999,Gb
+group,EU28,Gas,1988,3.3000000000000003,Bcm
+zone,Africa,Gas,2010,12.700000000000001,Bcm
+zone,Eurasia,Gas,2000,40.199999999999996,Bcm
+zone,Asia and Oceania,Gas,2011,14.7,Bcm
+zone,Eurasia,Oil,2011,143.89999999999998,Gb
+group,EU28,Oil,2000,7.6000000000000005,Gb
+group,Persian Gulf,Oil,2005,743.8999999999999,Gb
+zone,Middle East,Gas,2001,69.6,Bcm
+zone,World,Gas,1995,118.99999999999999,Bcm
+zone,Middle East,Oil,2017,834.1999999999998,Gb
+group,Persian Gulf,Oil,1980,358.19999999999993,Gb
+group,OECD,Gas,1991,14.2,Bcm
+group,EU28,Oil,2013,4.9,Gb
+group,Persian Gulf,Oil,2004,738.1999999999999,Gb
+group,EU28,Oil,1999,7.7,Gb
+group,Persian Gulf,Oil,1985,425.5,Gb
+zone,Asia and Oceania,Gas,2014,15.399999999999999,Bcm
+zone,Africa,Oil,2013,119.29999999999998,Gb
+zone,Eurasia,Gas,1998,39.9,Bcm
+zone,Central and South America,Oil,2003,100.2,Gb
+group,Persian Gulf,Gas,1990,36.2,Bcm
+zone,Eurasia,Oil,2000,119.79999999999998,Gb
+zone,Eurasia,Gas,1990,34.9,Bcm
+zone,Middle East,Gas,1993,43,Bcm
+zone,North America,Gas,1994,8.100000000000001,Bcm
+zone,Africa,Gas,2011,12.8,Bcm
+zone,Asia and Oceania,Oil,1988,38.50000000000001,Gb
+zone,Middle East,Gas,1990,36.900000000000006,Bcm
+group,Persian Gulf,Gas,1982,25.1,Bcm
+zone,North America,Oil,1988,129.6,Gb
+zone,Asia and Oceania,Gas,1987,7.5,Bcm
+zone,Asia and Oceania,Gas,2009,15,Bcm
+group,OECD,Gas,2000,13.100000000000001,Bcm
+zone,Middle East,Gas,2012,77.50000000000001,Bcm
+zone,Eurasia,Oil,2004,122.6,Gb
+group,OPEC,Gas,1997,58.199999999999996,Bcm
+zone,Middle East,Gas,1988,33.50000000000001,Bcm
+zone,Europe,Gas,2003,5.199999999999998,Bcm
+zone,Middle East,Oil,1992,661.5,Gb
+group,OECD,Oil,1993,139.2,Gb
+zone,Central and South America,Oil,2014,326.2,Gb
+zone,Europe,Gas,1984,3.8000000000000007,Bcm
+zone,Eurasia,Oil,1985,63,Gb
+zone,Africa,Gas,1997,9.3,Bcm
+zone,Middle East,Oil,2004,750,Gb
+zone,World,Gas,1987,89.9,Bcm
+zone,Africa,Oil,2012,119.79999999999998,Gb
+group,Persian Gulf,Oil,2009,741.8,Gb
+zone,Middle East,Gas,2004,70.7,Bcm
+group,OECD,Oil,1990,142.59999999999997,Gb
+zone,World,Oil,1986,902.5,Gb
+group,Persian Gulf,Gas,1991,40.699999999999996,Bcm
+zone,Middle East,Oil,2007,754.8,Gb
+group,Persian Gulf,Oil,2007,744,Gb
+zone,Asia and Oceania,Oil,1995,36.89999999999999,Gb
+group,Persian Gulf,Oil,2000,686,Gb
+zone,Africa,Oil,1994,64.39999999999999,Gb
+group,OECD,Oil,1991,140.7,Gb
+zone,Europe,Oil,2010,11.7,Gb
+zone,North America,Oil,2011,225.39999999999998,Gb
+zone,Eurasia,Gas,2005,40.89999999999999,Bcm
+zone,Eurasia,Gas,2014,59.2,Bcm
+zone,Europe,Gas,2012,3.5000000000000004,Bcm
+zone,Europe,Gas,1996,5.1,Bcm
+zone,Africa,Oil,1981,55.7,Gb
+group,OPEC,Gas,1991,51,Bcm
+zone,Central and South America,Oil,1993,79.9,Gb
+group,OPEC,Oil,2014,1153.1999999999998,Gb
+zone,Africa,Oil,1986,57,Gb
+zone,Eurasia,Gas,2017,62.9,Bcm
+zone,Eurasia,Oil,1994,122.39999999999999,Gb
+zone,Europe,Gas,1991,4.8,Bcm
+zone,North America,Oil,1994,127.5,Gb
+zone,Africa,Gas,2012,12.7,Bcm
+zone,Central and South America,Gas,1987,4.8,Bcm
+zone,Middle East,Oil,2000,696.4999999999999,Gb
+zone,World,Gas,1983,76.8,Bcm
+zone,Eurasia,Gas,1993,38.1,Bcm
+zone,World,Gas,2007,160.10000000000008,Bcm
+zone,Central and South America,Oil,1988,68.7,Gb
+zone,Asia and Oceania,Oil,1996,36.5,Gb
+group,OPEC,Gas,1984,32.199999999999996,Bcm
+zone,Asia and Oceania,Oil,1983,35.6,Gb
+zone,Asia and Oceania,Oil,1998,39.4,Gb
+group,EU28,Oil,1987,7.6000000000000005,Gb
+zone,North America,Oil,1985,132.9,Gb
+group,Persian Gulf,Oil,1992,651.8000000000001,Gb
+zone,Middle East,Oil,2006,755.8,Gb
+group,EU28,Gas,1999,3.3,Bcm
+zone,Middle East,Oil,1985,431.6,Gb
+zone,Asia and Oceania,Oil,1990,34.8,Gb
+zone,Europe,Gas,2007,4.8,Bcm
+zone,Africa,Gas,2001,11.5,Bcm
+group,OECD,Oil,2016,242.5,Gb
+zone,Middle East,Gas,2014,77.60000000000001,Bcm
+zone,Middle East,Oil,1997,682.8999999999999,Gb
+zone,Africa,Gas,1989,7.3,Bcm
+group,Persian Gulf,Oil,2011,786.3,Gb
+group,EU28,Oil,1993,6.8,Gb
+zone,Africa,Oil,1996,74.19999999999999,Gb
+zone,Asia and Oceania,Gas,2002,11.2,Bcm
+zone,World,Oil,2006,1383.4999999999995,Gb
+zone,Central and South America,Oil,2002,100,Gb
+zone,North America,Oil,1991,123.1,Gb
+zone,Middle East,Oil,2003,745.6999999999999,Gb
+zone,World,Oil,1997,1155.3,Gb
+zone,World,Gas,1991,113.19999999999999,Bcm
+group,OECD,Gas,1980,13.4,Bcm
+group,Persian Gulf,Gas,1989,36.1,Bcm
+zone,Asia and Oceania,Gas,1989,8.2,Bcm
+group,EU28,Gas,1987,3.3000000000000003,Bcm
+zone,Eurasia,Oil,1987,59,Gb
+group,OECD,Oil,2009,233.20000000000002,Gb
+zone,Africa,Oil,1995,71.3,Gb
+zone,Central and South America,Oil,2012,323.09999999999997,Gb
+zone,Europe,Gas,2006,5,Bcm
+zone,Europe,Oil,1994,16.599999999999998,Gb
+zone,Asia and Oceania,Oil,1984,37.1,Gb
+zone,Africa,Gas,2007,12.8,Bcm
+zone,Eurasia,Oil,2009,143.79999999999998,Gb
+zone,Eurasia,Oil,1984,63,Gb
+zone,Central and South America,Oil,1999,96.5,Gb
+group,OECD,Oil,1997,149.8,Gb
+zone,Eurasia,Gas,1983,23,Bcm
+zone,World,Gas,2016,189,Bcm
+zone,Africa,Gas,1983,5.5,Bcm
+zone,Middle East,Oil,2012,799,Gb
+zone,Middle East,Oil,1990,659.5999999999999,Gb
+group,EU28,Oil,2002,6.9,Gb
+zone,Asia and Oceania,Oil,2005,42,Gb
+group,OECD,Oil,2011,240.7,Gb
+zone,Eurasia,Oil,1989,58.5,Gb
+zone,Eurasia,Gas,1986,26.2,Bcm
+group,EU28,Oil,1984,8.6,Gb
+group,OPEC,Oil,2006,894.6999999999999,Gb
+zone,North America,Oil,2000,232.1,Gb
+zone,Asia and Oceania,Oil,2001,39.20000000000001,Gb
+zone,Europe,Gas,2011,3.8000000000000007,Bcm
+group,Persian Gulf,Oil,2018,824.9999999999999,Gb
+group,OECD,Oil,2013,247.89999999999998,Gb
+group,OPEC,Oil,1983,446,Gb
+zone,Europe,Gas,1982,3.6,Bcm
+zone,Europe,Oil,1991,15.900000000000002,Gb
+group,OECD,Oil,1986,146.8,Gb
+zone,Middle East,Oil,2018,835.8999999999999,Gb
+group,Persian Gulf,Oil,1994,653.8000000000001,Gb
+group,EU28,Oil,2015,4.2,Gb
+zone,Europe,Oil,1984,13.6,Gb
+group,EU28,Oil,2006,5.800000000000001,Gb
+zone,Middle East,Oil,1982,388.8,Gb
+group,Persian Gulf,Gas,1984,26.299999999999997,Bcm
+zone,Middle East,Gas,1987,30.300000000000004,Bcm
+zone,Asia and Oceania,Oil,2006,44.199999999999996,Gb
+group,OECD,Gas,1998,12.9,Bcm
+group,EU28,Oil,2016,3.8,Gb
+zone,World,Gas,2011,186.7,Bcm
+group,EU28,Gas,2004,2.6999999999999997,Bcm
+group,OECD,Gas,2006,14,Bcm
+zone,Middle East,Oil,1994,663.6,Gb
+zone,North America,Gas,1989,9.1,Bcm
+zone,North America,Oil,2008,216.60000000000002,Gb
+group,Persian Gulf,Gas,2001,68.2,Bcm
+zone,Central and South America,Gas,1982,2.9,Bcm
+group,OECD,Oil,2005,242.7,Gb
+group,OECD,Oil,2007,238.1,Gb
+group,OECD,Oil,1999,254.89999999999998,Gb
+zone,Africa,Gas,1998,9.4,Bcm
+zone,Central and South America,Gas,2014,8.1,Bcm
+zone,World,Oil,1995,1120.1999999999998,Gb
+group,OPEC,Oil,1991,746.2,Gb
+zone,Africa,Oil,2001,96.1,Gb
+zone,Eurasia,Gas,1982,22.4,Bcm
+zone,Africa,Oil,2015,118.80000000000001,Gb
+zone,World,Oil,1983,732.6999999999999,Gb
+zone,North America,Gas,1988,9.2,Bcm
+group,EU28,Gas,1994,3.6000000000000005,Bcm
+zone,Asia and Oceania,Gas,1988,7.7,Bcm
+group,OPEC,Oil,1996,775.5,Gb
+group,EU28,Oil,1985,8,Gb
+zone,Europe,Oil,1980,14.4,Gb
+zone,Europe,Oil,2012,12.4,Gb
+zone,Central and South America,Oil,1983,32.8,Gb
+zone,Middle East,Gas,1991,41.3,Bcm
+zone,Eurasia,Gas,1994,38.4,Bcm
+group,Persian Gulf,Oil,1999,675.8,Gb
+zone,Asia and Oceania,Oil,1989,33.00000000000001,Gb
+zone,Eurasia,Oil,1981,63,Gb
+zone,Middle East,Gas,1998,51.39999999999999,Bcm
+zone,Asia and Oceania,Oil,2015,47.5,Gb
+zone,Middle East,Gas,2005,71.19999999999999,Bcm
+group,OECD,Gas,2014,17.599999999999998,Bcm
+group,EU28,Oil,1996,7.7,Gb
+zone,Eurasia,Gas,1980,20.5,Bcm
+zone,Middle East,Gas,1994,44,Bcm
+zone,Central and South America,Gas,2009,7.5,Bcm
+zone,Asia and Oceania,Oil,1992,37.7,Gb
+zone,North America,Gas,1996,8.1,Bcm
+zone,Central and South America,Gas,2017,8.1,Bcm
+zone,Europe,Gas,1995,4.8,Bcm
+zone,North America,Gas,2007,8.4,Bcm
+zone,Africa,Gas,2018,13.100000000000001,Bcm
+zone,World,Oil,2009,1530.3000000000002,Gb
+group,EU28,Gas,1984,3.4000000000000004,Bcm
+zone,Middle East,Oil,1996,673.8,Gb
+group,Persian Gulf,Gas,2006,69.7,Bcm
+group,Persian Gulf,Gas,2010,75.5,Bcm
+group,Persian Gulf,Oil,1983,391.70000000000005,Gb
+zone,World,Oil,2002,1350.6999999999998,Gb
+zone,Central and South America,Gas,1999,6.6,Bcm
+zone,Eurasia,Gas,2006,40.89999999999999,Bcm
+group,EU28,Gas,1997,3.5,Bcm
+zone,Africa,Oil,2010,122.3,Gb
+zone,North America,Gas,2015,10.600000000000001,Bcm
+zone,Europe,Gas,1990,4.8999999999999995,Bcm
+zone,World,Gas,2004,154.70000000000002,Bcm
+group,OECD,Gas,2001,14.499999999999998,Bcm
+zone,Asia and Oceania,Oil,1999,36.9,Gb
+group,OPEC,Oil,2004,880.8999999999999,Gb
+zone,Eurasia,Oil,2012,143.7,Gb
+group,OECD,Gas,1992,14.299999999999999,Bcm
+zone,Europe,Oil,1996,19.4,Gb
+zone,Europe,Gas,2014,3.1,Bcm
+zone,North America,Gas,1982,10.1,Bcm
+zone,World,Oil,2000,1294.1000000000001,Gb
+group,Persian Gulf,Gas,1985,26.700000000000003,Bcm
+zone,Middle East,Gas,1983,25.8,Bcm
+group,EU28,Oil,2003,6.6,Gb
+zone,Europe,Gas,1997,4.7,Bcm
+zone,Europe,Gas,1980,4,Bcm
+zone,Asia and Oceania,Gas,2004,11.799999999999999,Bcm
+group,Persian Gulf,Oil,2001,687.9,Gb
+group,Persian Gulf,Oil,2015,791.8999999999999,Gb
+zone,Europe,Gas,2017,2.7,Bcm
+zone,Asia and Oceania,Oil,2000,37.6,Gb
+zone,Asia and Oceania,Oil,1985,37.1,Gb
+zone,Asia and Oceania,Gas,2013,15.499999999999996,Bcm
+zone,Central and South America,Oil,1986,64.1,Gb
+group,OPEC,Gas,2012,91.4,Bcm
+zone,Eurasia,Oil,1995,120.89999999999999,Gb
+group,Persian Gulf,Gas,2017,73.70000000000002,Bcm
+zone,Central and South America,Gas,1996,6.199999999999999,Bcm
+zone,World,Gas,1990,107.30000000000001,Bcm
+zone,North America,Gas,2005,7.5,Bcm
+zone,World,Gas,2000,137.60000000000002,Bcm
+group,Persian Gulf,Oil,1981,360.3,Gb
+zone,Eurasia,Gas,2010,49.7,Bcm
+zone,Europe,Oil,1986,14.2,Gb
+group,OECD,Oil,1995,147.79999999999998,Gb
+zone,North America,Oil,2014,238,Gb
+zone,Central and South America,Oil,1985,62.4,Gb
+zone,North America,Gas,1986,9.9,Bcm
+country,Algeria,Gas,1980,3.6,Bcm
+country,Algeria,Gas,1981,3.5,Bcm
+country,Algeria,Gas,1982,3.5,Bcm
+country,Algeria,Gas,1983,3.4,Bcm
+country,Algeria,Gas,1984,3.3,Bcm
+country,Algeria,Gas,1985,3.2,Bcm
+country,Algeria,Gas,1986,3.1,Bcm
+country,Algeria,Gas,1987,3,Bcm
+country,Algeria,Gas,1988,3.1,Bcm
+country,Algeria,Gas,1989,3.1,Bcm
+country,Algeria,Gas,1990,3.2,Bcm
+country,Algeria,Gas,1991,3.5,Bcm
+country,Algeria,Gas,1992,3.5,Bcm
+country,Algeria,Gas,1993,3.6,Bcm
+country,Algeria,Gas,1994,2.9,Bcm
+country,Algeria,Gas,1995,3.6,Bcm
+country,Algeria,Gas,1996,3.6,Bcm
+country,Algeria,Gas,1997,3.9,Bcm
+country,Algeria,Gas,1998,3.9,Bcm
+country,Algeria,Gas,1999,4.4,Bcm
+country,Algeria,Gas,2000,4.4,Bcm
+country,Algeria,Gas,2001,4.4,Bcm
+country,Algeria,Gas,2002,4.4,Bcm
+country,Algeria,Gas,2003,4.4,Bcm
+country,Algeria,Gas,2004,4.4,Bcm
+country,Algeria,Gas,2005,4.3,Bcm
+country,Algeria,Gas,2006,4.3,Bcm
+country,Algeria,Gas,2007,4.3,Bcm
+country,Algeria,Gas,2008,4.3,Bcm
+country,Algeria,Gas,2009,4.3,Bcm
+country,Algeria,Gas,2010,4.3,Bcm
+country,Algeria,Gas,2011,4.3,Bcm
+country,Algeria,Gas,2012,4.3,Bcm
+country,Algeria,Gas,2013,4.3,Bcm
+country,Algeria,Gas,2014,4.3,Bcm
+country,Algeria,Gas,2015,4.3,Bcm
+country,Algeria,Gas,2016,4.3,Bcm
+country,Algeria,Gas,2017,4.3,Bcm
+country,Algeria,Gas,2018,4.3,Bcm
+country,Argentina,Gas,1980,0.6,Bcm
+country,Argentina,Gas,1981,0.6,Bcm
+country,Argentina,Gas,1982,0.7,Bcm
+country,Argentina,Gas,1983,0.7,Bcm
+country,Argentina,Gas,1984,0.6,Bcm
+country,Argentina,Gas,1985,0.7,Bcm
+country,Argentina,Gas,1986,0.7,Bcm
+country,Argentina,Gas,1987,0.7,Bcm
+country,Argentina,Gas,1988,0.8,Bcm
+country,Argentina,Gas,1989,0.7,Bcm
+country,Argentina,Gas,1990,0.6,Bcm
+country,Argentina,Gas,1991,0.6,Bcm
+country,Argentina,Gas,1992,0.5,Bcm
+country,Argentina,Gas,1993,0.5,Bcm
+country,Argentina,Gas,1994,0.5,Bcm
+country,Argentina,Gas,1995,0.6,Bcm
+country,Argentina,Gas,1996,0.6,Bcm
+country,Argentina,Gas,1997,0.7,Bcm
+country,Argentina,Gas,1998,0.7,Bcm
+country,Argentina,Gas,1999,0.7,Bcm
+country,Argentina,Gas,2000,0.8,Bcm
+country,Argentina,Gas,2001,0.7,Bcm
+country,Argentina,Gas,2002,0.6,Bcm
+country,Argentina,Gas,2003,0.6,Bcm
+country,Argentina,Gas,2004,0.5,Bcm
+country,Argentina,Gas,2005,0.4,Bcm
+country,Argentina,Gas,2006,0.4,Bcm
+country,Argentina,Gas,2007,0.4,Bcm
+country,Argentina,Gas,2008,0.4,Bcm
+country,Argentina,Gas,2009,0.4,Bcm
+country,Argentina,Gas,2010,0.3,Bcm
+country,Argentina,Gas,2011,0.3,Bcm
+country,Argentina,Gas,2012,0.3,Bcm
+country,Argentina,Gas,2013,0.3,Bcm
+country,Argentina,Gas,2014,0.3,Bcm
+country,Argentina,Gas,2015,0.3,Bcm
+country,Argentina,Gas,2016,0.3,Bcm
+country,Argentina,Gas,2017,0.3,Bcm
+country,Argentina,Gas,2018,0.3,Bcm
+country,Australia,Gas,1980,0.1,Bcm
+country,Australia,Gas,1981,0.4,Bcm
+country,Australia,Gas,1982,0.5,Bcm
+country,Australia,Gas,1983,0.5,Bcm
+country,Australia,Gas,1984,0.5,Bcm
+country,Australia,Gas,1985,0.6,Bcm
+country,Australia,Gas,1986,0.7,Bcm
+country,Australia,Gas,1987,0.8,Bcm
+country,Australia,Gas,1988,0.8,Bcm
+country,Australia,Gas,1989,0.7,Bcm
+country,Australia,Gas,1990,0.7,Bcm
+country,Australia,Gas,1991,0.7,Bcm
+country,Australia,Gas,1992,0.8,Bcm
+country,Australia,Gas,1993,0.8,Bcm
+country,Australia,Gas,1994,1,Bcm
+country,Australia,Gas,1995,1,Bcm
+country,Australia,Gas,1996,1.1,Bcm
+country,Australia,Gas,1997,1.2,Bcm
+country,Australia,Gas,1998,1.6,Bcm
+country,Australia,Gas,1999,1.6,Bcm
+country,Australia,Gas,2000,1.7,Bcm
+country,Australia,Gas,2001,2.1,Bcm
+country,Australia,Gas,2002,2,Bcm
+country,Australia,Gas,2003,1.9,Bcm
+country,Australia,Gas,2004,1.8,Bcm
+country,Australia,Gas,2005,1.8,Bcm
+country,Australia,Gas,2006,1.9,Bcm
+country,Australia,Gas,2007,1.8,Bcm
+country,Australia,Gas,2008,2.7,Bcm
+country,Australia,Gas,2009,2.8,Bcm
+country,Australia,Gas,2010,2.9,Bcm
+country,Australia,Gas,2011,2.8,Bcm
+country,Australia,Gas,2012,2.8,Bcm
+country,Australia,Gas,2013,2.8,Bcm
+country,Australia,Gas,2014,2.4,Bcm
+country,Australia,Gas,2015,2.4,Bcm
+country,Australia,Gas,2016,2.4,Bcm
+country,Australia,Gas,2017,2.4,Bcm
+country,Australia,Gas,2018,2.4,Bcm
+country,Azerbaijan,Gas,1997,0.7,Bcm
+country,Azerbaijan,Gas,1998,0.7,Bcm
+country,Azerbaijan,Gas,1999,1,Bcm
+country,Azerbaijan,Gas,2000,1,Bcm
+country,Azerbaijan,Gas,2001,1,Bcm
+country,Azerbaijan,Gas,2002,1,Bcm
+country,Azerbaijan,Gas,2003,1,Bcm
+country,Azerbaijan,Gas,2004,1,Bcm
+country,Azerbaijan,Gas,2005,1,Bcm
+country,Azerbaijan,Gas,2006,1,Bcm
+country,Azerbaijan,Gas,2007,1,Bcm
+country,Azerbaijan,Gas,2008,1.1,Bcm
+country,Azerbaijan,Gas,2009,1,Bcm
+country,Azerbaijan,Gas,2010,1,Bcm
+country,Azerbaijan,Gas,2011,1,Bcm
+country,Azerbaijan,Gas,2012,1,Bcm
+country,Azerbaijan,Gas,2013,1,Bcm
+country,Azerbaijan,Gas,2014,1.3,Bcm
+country,Azerbaijan,Gas,2015,1.3,Bcm
+country,Azerbaijan,Gas,2016,1.3,Bcm
+country,Azerbaijan,Gas,2017,1.3,Bcm
+country,Azerbaijan,Gas,2018,2.1,Bcm
+country,Bahrain,Gas,1980,0.6,Bcm
+country,Bahrain,Gas,1981,0.6,Bcm
+country,Bahrain,Gas,1982,0.5,Bcm
+country,Bahrain,Gas,1983,0.5,Bcm
+country,Bahrain,Gas,1984,0.5,Bcm
+country,Bahrain,Gas,1985,0.5,Bcm
+country,Bahrain,Gas,1986,0.5,Bcm
+country,Bahrain,Gas,1987,0.5,Bcm
+country,Bahrain,Gas,1988,0.5,Bcm
+country,Bahrain,Gas,1989,0.4,Bcm
+country,Bahrain,Gas,1990,0.4,Bcm
+country,Bahrain,Gas,1991,0.4,Bcm
+country,Bahrain,Gas,1992,0.4,Bcm
+country,Bahrain,Gas,1993,0.4,Bcm
+country,Bahrain,Gas,1994,0.4,Bcm
+country,Bahrain,Gas,1995,0.4,Bcm
+country,Bahrain,Gas,1996,0.3,Bcm
+country,Bahrain,Gas,1997,0.3,Bcm
+country,Bahrain,Gas,1998,0.3,Bcm
+country,Bahrain,Gas,1999,0.3,Bcm
+country,Bahrain,Gas,2000,0.3,Bcm
+country,Bahrain,Gas,2001,0.3,Bcm
+country,Bahrain,Gas,2002,0.3,Bcm
+country,Bahrain,Gas,2003,0.2,Bcm
+country,Bahrain,Gas,2004,0.2,Bcm
+country,Bahrain,Gas,2005,0.2,Bcm
+country,Bahrain,Gas,2006,0.2,Bcm
+country,Bahrain,Gas,2007,0.2,Bcm
+country,Bahrain,Gas,2008,0.2,Bcm
+country,Bahrain,Gas,2009,0.2,Bcm
+country,Bahrain,Gas,2010,0.2,Bcm
+country,Bahrain,Gas,2011,0.2,Bcm
+country,Bahrain,Gas,2012,0.2,Bcm
+country,Bahrain,Gas,2013,0.2,Bcm
+country,Bahrain,Gas,2014,0.2,Bcm
+country,Bahrain,Gas,2015,0.2,Bcm
+country,Bahrain,Gas,2016,0.2,Bcm
+country,Bahrain,Gas,2017,0.2,Bcm
+country,Bahrain,Gas,2018,0.2,Bcm
+country,Bangladesh,Gas,1980,0.3,Bcm
+country,Bangladesh,Gas,1981,0.3,Bcm
+country,Bangladesh,Gas,1982,0.3,Bcm
+country,Bangladesh,Gas,1983,0.3,Bcm
+country,Bangladesh,Gas,1984,0.3,Bcm
+country,Bangladesh,Gas,1985,0.3,Bcm
+country,Bangladesh,Gas,1986,0.3,Bcm
+country,Bangladesh,Gas,1987,0.3,Bcm
+country,Bangladesh,Gas,1988,0.3,Bcm
+country,Bangladesh,Gas,1989,0.7,Bcm
+country,Bangladesh,Gas,1990,0.7,Bcm
+country,Bangladesh,Gas,1991,0.7,Bcm
+country,Bangladesh,Gas,1992,0.3,Bcm
+country,Bangladesh,Gas,1993,0.3,Bcm
+country,Bangladesh,Gas,1994,0.3,Bcm
+country,Bangladesh,Gas,1995,0.3,Bcm
+country,Bangladesh,Gas,1996,0.3,Bcm
+country,Bangladesh,Gas,1997,0.3,Bcm
+country,Bangladesh,Gas,1998,0.3,Bcm
+country,Bangladesh,Gas,1999,0.3,Bcm
+country,Bangladesh,Gas,2000,0.3,Bcm
+country,Bangladesh,Gas,2001,0.3,Bcm
+country,Bangladesh,Gas,2002,0.3,Bcm
+country,Bangladesh,Gas,2003,0.4,Bcm
+country,Bangladesh,Gas,2004,0.4,Bcm
+country,Bangladesh,Gas,2005,0.4,Bcm
+country,Bangladesh,Gas,2006,0.4,Bcm
+country,Bangladesh,Gas,2007,0.4,Bcm
+country,Bangladesh,Gas,2008,0.3,Bcm
+country,Bangladesh,Gas,2009,0.4,Bcm
+country,Bangladesh,Gas,2010,0.3,Bcm
+country,Bangladesh,Gas,2011,0.3,Bcm
+country,Bangladesh,Gas,2012,0.3,Bcm
+country,Bangladesh,Gas,2013,0.2,Bcm
+country,Bangladesh,Gas,2014,0.2,Bcm
+country,Bangladesh,Gas,2015,0.2,Bcm
+country,Bangladesh,Gas,2016,0.2,Bcm
+country,Bangladesh,Gas,2017,0.2,Bcm
+country,Bangladesh,Gas,2018,0.2,Bcm
+country,Bolivia,Gas,1980,0.1,Bcm
+country,Bolivia,Gas,1981,0.2,Bcm
+country,Bolivia,Gas,1982,0.1,Bcm
+country,Bolivia,Gas,1983,0.1,Bcm
+country,Bolivia,Gas,1984,0.1,Bcm
+country,Bolivia,Gas,1985,0.1,Bcm
+country,Bolivia,Gas,1986,0.1,Bcm
+country,Bolivia,Gas,1987,0.1,Bcm
+country,Bolivia,Gas,1988,0.1,Bcm
+country,Bolivia,Gas,1989,0.1,Bcm
+country,Bolivia,Gas,1990,0.1,Bcm
+country,Bolivia,Gas,1991,0.1,Bcm
+country,Bolivia,Gas,1992,0.1,Bcm
+country,Bolivia,Gas,1993,0.1,Bcm
+country,Bolivia,Gas,1994,0.1,Bcm
+country,Bolivia,Gas,1995,0.1,Bcm
+country,Bolivia,Gas,1996,0.1,Bcm
+country,Bolivia,Gas,1997,0.1,Bcm
+country,Bolivia,Gas,1998,0.1,Bcm
+country,Bolivia,Gas,1999,0.1,Bcm
+country,Bolivia,Gas,2000,0.2,Bcm
+country,Bolivia,Gas,2001,0.2,Bcm
+country,Bolivia,Gas,2002,0.2,Bcm
+country,Bolivia,Gas,2003,0.2,Bcm
+country,Bolivia,Gas,2004,0.2,Bcm
+country,Bolivia,Gas,2005,0.2,Bcm
+country,Bolivia,Gas,2006,0.2,Bcm
+country,Bolivia,Gas,2007,0.2,Bcm
+country,Bolivia,Gas,2008,0.3,Bcm
+country,Bolivia,Gas,2009,0.3,Bcm
+country,Bolivia,Gas,2010,0.3,Bcm
+country,Bolivia,Gas,2011,0.3,Bcm
+country,Bolivia,Gas,2012,0.3,Bcm
+country,Bolivia,Gas,2013,0.3,Bcm
+country,Bolivia,Gas,2014,0.3,Bcm
+country,Bolivia,Gas,2015,0.3,Bcm
+country,Bolivia,Gas,2016,0.3,Bcm
+country,Bolivia,Gas,2017,0.3,Bcm
+country,Bolivia,Gas,2018,0.3,Bcm
+country,Brazil,Gas,1980,0.1,Bcm
+country,Brazil,Gas,1981,0.1,Bcm
+country,Brazil,Gas,1982,0.1,Bcm
+country,Brazil,Gas,1983,0.1,Bcm
+country,Brazil,Gas,1984,0.1,Bcm
+country,Brazil,Gas,1985,0.1,Bcm
+country,Brazil,Gas,1986,0.1,Bcm
+country,Brazil,Gas,1987,0.1,Bcm
+country,Brazil,Gas,1988,0.1,Bcm
+country,Brazil,Gas,1989,0.1,Bcm
+country,Brazil,Gas,1990,0.1,Bcm
+country,Brazil,Gas,1991,0.1,Bcm
+country,Brazil,Gas,1992,0.1,Bcm
+country,Brazil,Gas,1993,0.1,Bcm
+country,Brazil,Gas,1994,0.2,Bcm
+country,Brazil,Gas,1995,0.2,Bcm
+country,Brazil,Gas,1996,0.2,Bcm
+country,Brazil,Gas,1997,0.2,Bcm
+country,Brazil,Gas,1998,0.2,Bcm
+country,Brazil,Gas,1999,0.2,Bcm
+country,Brazil,Gas,2000,0.2,Bcm
+country,Brazil,Gas,2001,0.2,Bcm
+country,Brazil,Gas,2002,0.3,Bcm
+country,Brazil,Gas,2003,0.3,Bcm
+country,Brazil,Gas,2004,0.3,Bcm
+country,Brazil,Gas,2005,0.3,Bcm
+country,Brazil,Gas,2006,0.4,Bcm
+country,Brazil,Gas,2007,0.4,Bcm
+country,Brazil,Gas,2008,0.4,Bcm
+country,Brazil,Gas,2009,0.4,Bcm
+country,Brazil,Gas,2010,0.4,Bcm
+country,Brazil,Gas,2011,0.5,Bcm
+country,Brazil,Gas,2012,0.5,Bcm
+country,Brazil,Gas,2013,0.5,Bcm
+country,Brazil,Gas,2014,0.5,Bcm
+country,Brazil,Gas,2015,0.4,Bcm
+country,Brazil,Gas,2016,0.4,Bcm
+country,Brazil,Gas,2017,0.4,Bcm
+country,Brazil,Gas,2018,0.4,Bcm
+country,Brunei Darussalam,Gas,1980,0.2,Bcm
+country,Brunei Darussalam,Gas,1981,0.2,Bcm
+country,Brunei Darussalam,Gas,1982,0.2,Bcm
+country,Brunei Darussalam,Gas,1983,0.2,Bcm
+country,Brunei Darussalam,Gas,1984,0.2,Bcm
+country,Brunei Darussalam,Gas,1985,0.2,Bcm
+country,Brunei Darussalam,Gas,1986,0.3,Bcm
+country,Brunei Darussalam,Gas,1987,0.3,Bcm
+country,Brunei Darussalam,Gas,1988,0.3,Bcm
+country,Brunei Darussalam,Gas,1989,0.3,Bcm
+country,Brunei Darussalam,Gas,1990,0.3,Bcm
+country,Brunei Darussalam,Gas,1991,0.4,Bcm
+country,Brunei Darussalam,Gas,1992,0.4,Bcm
+country,Brunei Darussalam,Gas,1993,0.4,Bcm
+country,Brunei Darussalam,Gas,1994,0.4,Bcm
+country,Brunei Darussalam,Gas,1995,0.4,Bcm
+country,Brunei Darussalam,Gas,1996,0.4,Bcm
+country,Brunei Darussalam,Gas,1997,0.4,Bcm
+country,Brunei Darussalam,Gas,1998,0.4,Bcm
+country,Brunei Darussalam,Gas,1999,0.4,Bcm
+country,Brunei Darussalam,Gas,2000,0.4,Bcm
+country,Brunei Darussalam,Gas,2001,0.3,Bcm
+country,Brunei Darussalam,Gas,2002,0.3,Bcm
+country,Brunei Darussalam,Gas,2003,0.3,Bcm
+country,Brunei Darussalam,Gas,2004,0.3,Bcm
+country,Brunei Darussalam,Gas,2005,0.3,Bcm
+country,Brunei Darussalam,Gas,2006,0.3,Bcm
+country,Brunei Darussalam,Gas,2007,0.3,Bcm
+country,Brunei Darussalam,Gas,2008,0.3,Bcm
+country,Brunei Darussalam,Gas,2009,0.3,Bcm
+country,Brunei Darussalam,Gas,2010,0.3,Bcm
+country,Brunei Darussalam,Gas,2011,0.3,Bcm
+country,Brunei Darussalam,Gas,2012,0.3,Bcm
+country,Brunei Darussalam,Gas,2013,0.3,Bcm
+country,Brunei Darussalam,Gas,2014,0.3,Bcm
+country,Brunei Darussalam,Gas,2015,0.3,Bcm
+country,Brunei Darussalam,Gas,2016,0.3,Bcm
+country,Brunei Darussalam,Gas,2017,0.3,Bcm
+country,Brunei Darussalam,Gas,2018,0.3,Bcm
+country,Canada,Gas,1980,2.4,Bcm
+country,Canada,Gas,1981,2.4,Bcm
+country,Canada,Gas,1982,2.5,Bcm
+country,Canada,Gas,1983,2.5,Bcm
+country,Canada,Gas,1984,2.7,Bcm
+country,Canada,Gas,1985,2.7,Bcm
+country,Canada,Gas,1986,2.6,Bcm
+country,Canada,Gas,1987,2.6,Bcm
+country,Canada,Gas,1988,2.5,Bcm
+country,Canada,Gas,1989,2.6,Bcm
+country,Canada,Gas,1990,2.6,Bcm
+country,Canada,Gas,1991,2.6,Bcm
+country,Canada,Gas,1992,2.5,Bcm
+country,Canada,Gas,1993,2.1,Bcm
+country,Canada,Gas,1994,1.8,Bcm
+country,Canada,Gas,1995,1.8,Bcm
+country,Canada,Gas,1996,1.8,Bcm
+country,Canada,Gas,1997,1.7,Bcm
+country,Canada,Gas,1998,1.7,Bcm
+country,Canada,Gas,1999,1.6,Bcm
+country,Canada,Gas,2000,1.6,Bcm
+country,Canada,Gas,2001,1.6,Bcm
+country,Canada,Gas,2002,1.6,Bcm
+country,Canada,Gas,2003,1.5,Bcm
+country,Canada,Gas,2004,1.5,Bcm
+country,Canada,Gas,2005,1.6,Bcm
+country,Canada,Gas,2006,1.6,Bcm
+country,Canada,Gas,2007,1.6,Bcm
+country,Canada,Gas,2008,1.7,Bcm
+country,Canada,Gas,2009,1.6,Bcm
+country,Canada,Gas,2010,1.9,Bcm
+country,Canada,Gas,2011,1.8,Bcm
+country,Canada,Gas,2012,1.9,Bcm
+country,Canada,Gas,2013,1.9,Bcm
+country,Canada,Gas,2014,1.9,Bcm
+country,Canada,Gas,2015,2.1,Bcm
+country,Canada,Gas,2016,2,Bcm
+country,Canada,Gas,2017,2,Bcm
+country,Canada,Gas,2018,1.9,Bcm
+country,China,Gas,1980,0.7,Bcm
+country,China,Gas,1981,0.7,Bcm
+country,China,Gas,1982,0.9,Bcm
+country,China,Gas,1983,0.9,Bcm
+country,China,Gas,1984,0.9,Bcm
+country,China,Gas,1985,0.9,Bcm
+country,China,Gas,1986,0.9,Bcm
+country,China,Gas,1987,0.9,Bcm
+country,China,Gas,1988,0.9,Bcm
+country,China,Gas,1989,1,Bcm
+country,China,Gas,1990,1,Bcm
+country,China,Gas,1991,1,Bcm
+country,China,Gas,1992,1.4,Bcm
+country,China,Gas,1993,1.7,Bcm
+country,China,Gas,1994,1.7,Bcm
+country,China,Gas,1995,1.7,Bcm
+country,China,Gas,1996,1.2,Bcm
+country,China,Gas,1997,1.2,Bcm
+country,China,Gas,1998,1.4,Bcm
+country,China,Gas,1999,1.4,Bcm
+country,China,Gas,2000,1.4,Bcm
+country,China,Gas,2001,1.4,Bcm
+country,China,Gas,2002,1.3,Bcm
+country,China,Gas,2003,1.3,Bcm
+country,China,Gas,2004,1.5,Bcm
+country,China,Gas,2005,1.5,Bcm
+country,China,Gas,2006,1.7,Bcm
+country,China,Gas,2007,2.3,Bcm
+country,China,Gas,2008,2.7,Bcm
+country,China,Gas,2009,2.9,Bcm
+country,China,Gas,2010,2.7,Bcm
+country,China,Gas,2011,2.9,Bcm
+country,China,Gas,2012,3.1,Bcm
+country,China,Gas,2013,3.4,Bcm
+country,China,Gas,2014,3.6,Bcm
+country,China,Gas,2015,4.7,Bcm
+country,China,Gas,2016,5.5,Bcm
+country,China,Gas,2017,6.1,Bcm
+country,China,Gas,2018,6.1,Bcm
+country,Colombia,Gas,1980,0.1,Bcm
+country,Colombia,Gas,1981,0.1,Bcm
+country,Colombia,Gas,1982,0.1,Bcm
+country,Colombia,Gas,1983,0.1,Bcm
+country,Colombia,Gas,1984,0.1,Bcm
+country,Colombia,Gas,1985,0.1,Bcm
+country,Colombia,Gas,1986,0.1,Bcm
+country,Colombia,Gas,1987,0.1,Bcm
+country,Colombia,Gas,1988,0.1,Bcm
+country,Colombia,Gas,1989,0.1,Bcm
+country,Colombia,Gas,1990,0.1,Bcm
+country,Colombia,Gas,1991,0.1,Bcm
+country,Colombia,Gas,1992,0.2,Bcm
+country,Colombia,Gas,1993,0.2,Bcm
+country,Colombia,Gas,1994,0.2,Bcm
+country,Colombia,Gas,1995,0.2,Bcm
+country,Colombia,Gas,1996,0.2,Bcm
+country,Colombia,Gas,1997,0.2,Bcm
+country,Colombia,Gas,1998,0.2,Bcm
+country,Colombia,Gas,1999,0.2,Bcm
+country,Colombia,Gas,2000,0.1,Bcm
+country,Colombia,Gas,2001,0.1,Bcm
+country,Colombia,Gas,2002,0.1,Bcm
+country,Colombia,Gas,2003,0.1,Bcm
+country,Colombia,Gas,2004,0.1,Bcm
+country,Colombia,Gas,2005,0.1,Bcm
+country,Colombia,Gas,2006,0.1,Bcm
+country,Colombia,Gas,2007,0.1,Bcm
+country,Colombia,Gas,2008,0.1,Bcm
+country,Colombia,Gas,2009,0.1,Bcm
+country,Colombia,Gas,2010,0.1,Bcm
+country,Colombia,Gas,2011,0.1,Bcm
+country,Colombia,Gas,2012,0.2,Bcm
+country,Colombia,Gas,2013,0.2,Bcm
+country,Colombia,Gas,2014,0.1,Bcm
+country,Colombia,Gas,2015,0.1,Bcm
+country,Colombia,Gas,2016,0.1,Bcm
+country,Colombia,Gas,2017,0.1,Bcm
+country,Colombia,Gas,2018,0.1,Bcm
+country,Denmark,Gas,1980,0.1,Bcm
+country,Denmark,Gas,1981,0.1,Bcm
+country,Denmark,Gas,1982,0.1,Bcm
+country,Denmark,Gas,1983,0.1,Bcm
+country,Denmark,Gas,1984,0.1,Bcm
+country,Denmark,Gas,1985,0.1,Bcm
+country,Denmark,Gas,1986,0.1,Bcm
+country,Denmark,Gas,1987,0.1,Bcm
+country,Denmark,Gas,1988,0.1,Bcm
+country,Denmark,Gas,1989,0.1,Bcm
+country,Denmark,Gas,1990,0.1,Bcm
+country,Denmark,Gas,1991,0.1,Bcm
+country,Denmark,Gas,1992,0.1,Bcm
+country,Denmark,Gas,1993,0.1,Bcm
+country,Denmark,Gas,1994,0.1,Bcm
+country,Denmark,Gas,1995,0.1,Bcm
+country,Denmark,Gas,1996,0.1,Bcm
+country,Denmark,Gas,1997,0.1,Bcm
+country,Denmark,Gas,1998,0.1,Bcm
+country,Denmark,Gas,1999,0.1,Bcm
+country,Denmark,Gas,2000,0.2,Bcm
+country,Denmark,Gas,2001,0.1,Bcm
+country,Denmark,Gas,2002,0.1,Bcm
+country,Denmark,Gas,2003,0.1,Bcm
+country,Denmark,Gas,2004,0.1,Bcm
+country,Denmark,Gas,2005,0.1,Bcm
+country,Denmark,Gas,2006,0.1,Bcm
+country,Denmark,Gas,2007,0.1,Bcm
+country,Denmark,Gas,2008,0.1,Bcm
+country,Denmark,Gas,2009,0.1,Bcm
+country,Denmark,Gas,2010,0.1,Bcm
+country,Egypt,Gas,1980,0.1,Bcm
+country,Egypt,Gas,1981,0.1,Bcm
+country,Egypt,Gas,1982,0.2,Bcm
+country,Egypt,Gas,1983,0.2,Bcm
+country,Egypt,Gas,1984,0.2,Bcm
+country,Egypt,Gas,1985,0.2,Bcm
+country,Egypt,Gas,1986,0.3,Bcm
+country,Egypt,Gas,1987,0.3,Bcm
+country,Egypt,Gas,1988,0.3,Bcm
+country,Egypt,Gas,1989,0.3,Bcm
+country,Egypt,Gas,1990,0.4,Bcm
+country,Egypt,Gas,1991,0.4,Bcm
+country,Egypt,Gas,1992,0.4,Bcm
+country,Egypt,Gas,1993,0.6,Bcm
+country,Egypt,Gas,1994,0.6,Bcm
+country,Egypt,Gas,1995,0.6,Bcm
+country,Egypt,Gas,1996,0.8,Bcm
+country,Egypt,Gas,1997,0.9,Bcm
+country,Egypt,Gas,1998,1,Bcm
+country,Egypt,Gas,1999,1.2,Bcm
+country,Egypt,Gas,2000,1.4,Bcm
+country,Egypt,Gas,2001,1.5,Bcm
+country,Egypt,Gas,2002,1.6,Bcm
+country,Egypt,Gas,2003,1.7,Bcm
+country,Egypt,Gas,2004,1.8,Bcm
+country,Egypt,Gas,2005,1.8,Bcm
+country,Egypt,Gas,2006,1.9,Bcm
+country,Egypt,Gas,2007,2,Bcm
+country,Egypt,Gas,2008,2.1,Bcm
+country,Egypt,Gas,2009,2.1,Bcm
+country,Egypt,Gas,2010,2.1,Bcm
+country,Egypt,Gas,2011,2.1,Bcm
+country,Egypt,Gas,2012,2,Bcm
+country,Egypt,Gas,2013,1.8,Bcm
+country,Egypt,Gas,2014,2.1,Bcm
+country,Egypt,Gas,2015,2,Bcm
+country,Egypt,Gas,2016,2.1,Bcm
+country,Egypt,Gas,2017,2.1,Bcm
+country,Egypt,Gas,2018,2.1,Bcm
+country,Germany,Gas,1980,0.2,Bcm
+country,Germany,Gas,1981,0.2,Bcm
+country,Germany,Gas,1982,0.2,Bcm
+country,Germany,Gas,1983,0.3,Bcm
+country,Germany,Gas,1984,0.3,Bcm
+country,Germany,Gas,1985,0.3,Bcm
+country,Germany,Gas,1986,0.3,Bcm
+country,Germany,Gas,1987,0.3,Bcm
+country,Germany,Gas,1988,0.3,Bcm
+country,Germany,Gas,1989,0.3,Bcm
+country,Germany,Gas,1990,0.2,Bcm
+country,Germany,Gas,1991,0.2,Bcm
+country,Germany,Gas,1992,0.2,Bcm
+country,Germany,Gas,1993,0.2,Bcm
+country,Germany,Gas,1994,0.2,Bcm
+country,Germany,Gas,1995,0.2,Bcm
+country,Germany,Gas,1996,0.2,Bcm
+country,Germany,Gas,1997,0.2,Bcm
+country,Germany,Gas,1998,0.2,Bcm
+country,Germany,Gas,1999,0.2,Bcm
+country,Germany,Gas,2000,0.2,Bcm
+country,Germany,Gas,2001,0.2,Bcm
+country,Germany,Gas,2002,0.2,Bcm
+country,Germany,Gas,2003,0.2,Bcm
+country,Germany,Gas,2004,0.2,Bcm
+country,Germany,Gas,2005,0.2,Bcm
+country,Germany,Gas,2006,0.1,Bcm
+country,Germany,Gas,2007,0.1,Bcm
+country,Germany,Gas,2008,0.1,Bcm
+country,Germany,Gas,2009,0.1,Bcm
+country,Germany,Gas,2010,0.1,Bcm
+country,Germany,Gas,2011,0.1,Bcm
+country,Germany,Gas,2012,0.1,Bcm
+country,Germany,Gas,2013,0.1,Bcm
+country,India,Gas,1980,0.3,Bcm
+country,India,Gas,1981,0.4,Bcm
+country,India,Gas,1982,0.4,Bcm
+country,India,Gas,1983,0.4,Bcm
+country,India,Gas,1984,0.5,Bcm
+country,India,Gas,1985,0.5,Bcm
+country,India,Gas,1986,0.5,Bcm
+country,India,Gas,1987,0.5,Bcm
+country,India,Gas,1988,0.6,Bcm
+country,India,Gas,1989,0.7,Bcm
+country,India,Gas,1990,0.7,Bcm
+country,India,Gas,1991,0.7,Bcm
+country,India,Gas,1992,0.7,Bcm
+country,India,Gas,1993,0.7,Bcm
+country,India,Gas,1994,0.7,Bcm
+country,India,Gas,1995,0.7,Bcm
+country,India,Gas,1996,0.6,Bcm
+country,India,Gas,1997,0.7,Bcm
+country,India,Gas,1998,0.6,Bcm
+country,India,Gas,1999,0.6,Bcm
+country,India,Gas,2000,0.7,Bcm
+country,India,Gas,2001,0.7,Bcm
+country,India,Gas,2002,0.7,Bcm
+country,India,Gas,2003,0.8,Bcm
+country,India,Gas,2004,0.9,Bcm
+country,India,Gas,2005,1.1,Bcm
+country,India,Gas,2006,1,Bcm
+country,India,Gas,2007,1,Bcm
+country,India,Gas,2008,1,Bcm
+country,India,Gas,2009,1.1,Bcm
+country,India,Gas,2010,1.1,Bcm
+country,India,Gas,2011,1.2,Bcm
+country,India,Gas,2012,1.3,Bcm
+country,India,Gas,2013,1.3,Bcm
+country,India,Gas,2014,1.4,Bcm
+country,India,Gas,2015,1.2,Bcm
+country,India,Gas,2016,1.2,Bcm
+country,India,Gas,2017,1.2,Bcm
+country,India,Gas,2018,1.3,Bcm
+country,Indonesia,Gas,1980,0.8,Bcm
+country,Indonesia,Gas,1981,0.9,Bcm
+country,Indonesia,Gas,1982,1,Bcm
+country,Indonesia,Gas,1983,1.2,Bcm
+country,Indonesia,Gas,1984,1.7,Bcm
+country,Indonesia,Gas,1985,2,Bcm
+country,Indonesia,Gas,1986,2.3,Bcm
+country,Indonesia,Gas,1987,2.4,Bcm
+country,Indonesia,Gas,1988,2.6,Bcm
+country,Indonesia,Gas,1989,2.6,Bcm
+country,Indonesia,Gas,1990,2.9,Bcm
+country,Indonesia,Gas,1991,1.9,Bcm
+country,Indonesia,Gas,1992,1.8,Bcm
+country,Indonesia,Gas,1993,1.8,Bcm
+country,Indonesia,Gas,1994,1.8,Bcm
+country,Indonesia,Gas,1995,2,Bcm
+country,Indonesia,Gas,1996,2.1,Bcm
+country,Indonesia,Gas,1997,2.2,Bcm
+country,Indonesia,Gas,1998,2.2,Bcm
+country,Indonesia,Gas,1999,2.7,Bcm
+country,Indonesia,Gas,2000,2.7,Bcm
+country,Indonesia,Gas,2001,2.6,Bcm
+country,Indonesia,Gas,2002,2.6,Bcm
+country,Indonesia,Gas,2003,2.6,Bcm
+country,Indonesia,Gas,2004,2.8,Bcm
+country,Indonesia,Gas,2005,2.5,Bcm
+country,Indonesia,Gas,2006,2.7,Bcm
+country,Indonesia,Gas,2007,3,Bcm
+country,Indonesia,Gas,2008,3.2,Bcm
+country,Indonesia,Gas,2009,3.1,Bcm
+country,Indonesia,Gas,2010,3,Bcm
+country,Indonesia,Gas,2011,3,Bcm
+country,Indonesia,Gas,2012,3,Bcm
+country,Indonesia,Gas,2013,2.9,Bcm
+country,Indonesia,Gas,2014,2.9,Bcm
+country,Indonesia,Gas,2015,2.8,Bcm
+country,Indonesia,Gas,2016,2.9,Bcm
+country,Indonesia,Gas,2017,2.9,Bcm
+country,Indonesia,Gas,2018,2.8,Bcm
+country,Iran,Gas,1980,13.3,Bcm
+country,Iran,Gas,1981,13.3,Bcm
+country,Iran,Gas,1982,13.3,Bcm
+country,Iran,Gas,1983,13.3,Bcm
+country,Iran,Gas,1984,13.2,Bcm
+country,Iran,Gas,1985,13.2,Bcm
+country,Iran,Gas,1986,13.2,Bcm
+country,Iran,Gas,1987,13.1,Bcm
+country,Iran,Gas,1988,13.4,Bcm
+country,Iran,Gas,1989,16.1,Bcm
+country,Iran,Gas,1990,16.1,Bcm
+country,Iran,Gas,1991,18.7,Bcm
+country,Iran,Gas,1992,19.6,Bcm
+country,Iran,Gas,1993,19.6,Bcm
+country,Iran,Gas,1994,19.6,Bcm
+country,Iran,Gas,1995,18.3,Bcm
+country,Iran,Gas,1996,21.7,Bcm
+country,Iran,Gas,1997,21.7,Bcm
+country,Iran,Gas,1998,22.8,Bcm
+country,Iran,Gas,1999,23.6,Bcm
+country,Iran,Gas,2000,24.6,Bcm
+country,Iran,Gas,2001,24.7,Bcm
+country,Iran,Gas,2002,25.2,Bcm
+country,Iran,Gas,2003,26,Bcm
+country,Iran,Gas,2004,26,Bcm
+country,Iran,Gas,2005,26,Bcm
+country,Iran,Gas,2006,25.4,Bcm
+country,Iran,Gas,2007,26.6,Bcm
+country,Iran,Gas,2008,28,Bcm
+country,Iran,Gas,2009,28,Bcm
+country,Iran,Gas,2010,31.3,Bcm
+country,Iran,Gas,2011,31.8,Bcm
+country,Iran,Gas,2012,31.9,Bcm
+country,Iran,Gas,2013,32.1,Bcm
+country,Iran,Gas,2014,32.1,Bcm
+country,Iran,Gas,2015,31.6,Bcm
+country,Iran,Gas,2016,31.8,Bcm
+country,Iran,Gas,2017,31.9,Bcm
+country,Iran,Gas,2018,31.9,Bcm
+country,Iraq,Gas,1980,0.7,Bcm
+country,Iraq,Gas,1981,0.7,Bcm
+country,Iraq,Gas,1982,0.8,Bcm
+country,Iraq,Gas,1983,0.8,Bcm
+country,Iraq,Gas,1984,0.8,Bcm
+country,Iraq,Gas,1985,0.8,Bcm
+country,Iraq,Gas,1986,0.8,Bcm
+country,Iraq,Gas,1987,1,Bcm
+country,Iraq,Gas,1988,2.6,Bcm
+country,Iraq,Gas,1989,3,Bcm
+country,Iraq,Gas,1990,3,Bcm
+country,Iraq,Gas,1991,2.9,Bcm
+country,Iraq,Gas,1992,2.9,Bcm
+country,Iraq,Gas,1993,2.9,Bcm
+country,Iraq,Gas,1994,3,Bcm
+country,Iraq,Gas,1995,3.2,Bcm
+country,Iraq,Gas,1996,3.2,Bcm
+country,Iraq,Gas,1997,3,Bcm
+country,Iraq,Gas,1998,3,Bcm
+country,Iraq,Gas,1999,3.1,Bcm
+country,Iraq,Gas,2000,3,Bcm
+country,Iraq,Gas,2001,3,Bcm
+country,Iraq,Gas,2002,3,Bcm
+country,Iraq,Gas,2003,3,Bcm
+country,Iraq,Gas,2004,3,Bcm
+country,Iraq,Gas,2005,3,Bcm
+country,Iraq,Gas,2006,3,Bcm
+country,Iraq,Gas,2007,3,Bcm
+country,Iraq,Gas,2008,3,Bcm
+country,Iraq,Gas,2009,3,Bcm
+country,Iraq,Gas,2010,3,Bcm
+country,Iraq,Gas,2011,3.4,Bcm
+country,Iraq,Gas,2012,3,Bcm
+country,Iraq,Gas,2013,3,Bcm
+country,Iraq,Gas,2014,3,Bcm
+country,Iraq,Gas,2015,3,Bcm
+country,Iraq,Gas,2016,3.6,Bcm
+country,Iraq,Gas,2017,3.6,Bcm
+country,Iraq,Gas,2018,3.6,Bcm
+country,Israel,Gas,2009,0.1,Bcm
+country,Israel,Gas,2010,0.2,Bcm
+country,Israel,Gas,2011,0.2,Bcm
+country,Israel,Gas,2012,0.2,Bcm
+country,Israel,Gas,2013,0.2,Bcm
+country,Israel,Gas,2014,0.2,Bcm
+country,Israel,Gas,2015,0.2,Bcm
+country,Israel,Gas,2016,0.2,Bcm
+country,Israel,Gas,2017,0.5,Bcm
+country,Israel,Gas,2018,0.4,Bcm
+country,Italy,Gas,1980,0.2,Bcm
+country,Italy,Gas,1981,0.2,Bcm
+country,Italy,Gas,1982,0.2,Bcm
+country,Italy,Gas,1983,0.2,Bcm
+country,Italy,Gas,1984,0.2,Bcm
+country,Italy,Gas,1985,0.2,Bcm
+country,Italy,Gas,1986,0.3,Bcm
+country,Italy,Gas,1987,0.3,Bcm
+country,Italy,Gas,1988,0.3,Bcm
+country,Italy,Gas,1989,0.3,Bcm
+country,Italy,Gas,1990,0.3,Bcm
+country,Italy,Gas,1991,0.4,Bcm
+country,Italy,Gas,1992,0.3,Bcm
+country,Italy,Gas,1993,0.3,Bcm
+country,Italy,Gas,1994,0.3,Bcm
+country,Italy,Gas,1995,0.3,Bcm
+country,Italy,Gas,1996,0.3,Bcm
+country,Italy,Gas,1997,0.3,Bcm
+country,Italy,Gas,1998,0.3,Bcm
+country,Italy,Gas,1999,0.2,Bcm
+country,Italy,Gas,2000,0.2,Bcm
+country,Italy,Gas,2001,0.2,Bcm
+country,Italy,Gas,2002,0.2,Bcm
+country,Italy,Gas,2003,0.1,Bcm
+country,Italy,Gas,2004,0.1,Bcm
+country,Italy,Gas,2005,0.1,Bcm
+country,Italy,Gas,2006,0.1,Bcm
+country,Italy,Gas,2007,0.1,Bcm
+country,Italy,Gas,2008,0.1,Bcm
+country,Italy,Gas,2009,0.1,Bcm
+country,Italy,Gas,2010,0.1,Bcm
+country,Italy,Gas,2011,0.1,Bcm
+country,Italy,Gas,2012,0.1,Bcm
+country,Italy,Gas,2013,0.1,Bcm
+country,Italy,Gas,2014,0.1,Bcm
+country,Kazakhstan,Gas,1997,1.3,Bcm
+country,Kazakhstan,Gas,1998,1.3,Bcm
+country,Kazakhstan,Gas,1999,1.3,Bcm
+country,Kazakhstan,Gas,2000,1.3,Bcm
+country,Kazakhstan,Gas,2001,1.3,Bcm
+country,Kazakhstan,Gas,2002,1.3,Bcm
+country,Kazakhstan,Gas,2003,1.4,Bcm
+country,Kazakhstan,Gas,2004,1.4,Bcm
+country,Kazakhstan,Gas,2005,1.4,Bcm
+country,Kazakhstan,Gas,2006,1.4,Bcm
+country,Kazakhstan,Gas,2007,1.4,Bcm
+country,Kazakhstan,Gas,2008,1.3,Bcm
+country,Kazakhstan,Gas,2009,1.3,Bcm
+country,Kazakhstan,Gas,2010,1.3,Bcm
+country,Kazakhstan,Gas,2011,1.3,Bcm
+country,Kazakhstan,Gas,2012,0.9,Bcm
+country,Kazakhstan,Gas,2013,1.1,Bcm
+country,Kazakhstan,Gas,2014,1.1,Bcm
+country,Kazakhstan,Gas,2015,1.1,Bcm
+country,Kazakhstan,Gas,2016,1,Bcm
+country,Kazakhstan,Gas,2017,1,Bcm
+country,Kazakhstan,Gas,2018,1,Bcm
+country,Kuwait,Gas,1980,1,Bcm
+country,Kuwait,Gas,1981,1,Bcm
+country,Kuwait,Gas,1982,1,Bcm
+country,Kuwait,Gas,1983,1,Bcm
+country,Kuwait,Gas,1984,1,Bcm
+country,Kuwait,Gas,1985,1,Bcm
+country,Kuwait,Gas,1986,1.1,Bcm
+country,Kuwait,Gas,1987,1.1,Bcm
+country,Kuwait,Gas,1988,1.3,Bcm
+country,Kuwait,Gas,1989,1.3,Bcm
+country,Kuwait,Gas,1990,1.4,Bcm
+country,Kuwait,Gas,1991,1.4,Bcm
+country,Kuwait,Gas,1992,1.4,Bcm
+country,Kuwait,Gas,1993,1.4,Bcm
+country,Kuwait,Gas,1994,1.4,Bcm
+country,Kuwait,Gas,1995,1.4,Bcm
+country,Kuwait,Gas,1996,1.4,Bcm
+country,Kuwait,Gas,1997,1.4,Bcm
+country,Kuwait,Gas,1998,1.4,Bcm
+country,Kuwait,Gas,1999,1.4,Bcm
+country,Kuwait,Gas,2000,1.5,Bcm
+country,Kuwait,Gas,2001,1.5,Bcm
+country,Kuwait,Gas,2002,1.5,Bcm
+country,Kuwait,Gas,2003,1.5,Bcm
+country,Kuwait,Gas,2004,1.5,Bcm
+country,Kuwait,Gas,2005,1.5,Bcm
+country,Kuwait,Gas,2006,1.7,Bcm
+country,Kuwait,Gas,2007,1.7,Bcm
+country,Kuwait,Gas,2008,1.7,Bcm
+country,Kuwait,Gas,2009,1.7,Bcm
+country,Kuwait,Gas,2010,1.7,Bcm
+country,Kuwait,Gas,2011,1.7,Bcm
+country,Kuwait,Gas,2012,1.7,Bcm
+country,Kuwait,Gas,2013,1.7,Bcm
+country,Kuwait,Gas,2014,1.7,Bcm
+country,Kuwait,Gas,2015,1.7,Bcm
+country,Kuwait,Gas,2016,1.7,Bcm
+country,Kuwait,Gas,2017,1.7,Bcm
+country,Kuwait,Gas,2018,1.7,Bcm
+country,Libya,Gas,1980,0.7,Bcm
+country,Libya,Gas,1981,0.6,Bcm
+country,Libya,Gas,1982,0.6,Bcm
+country,Libya,Gas,1983,0.6,Bcm
+country,Libya,Gas,1984,0.6,Bcm
+country,Libya,Gas,1985,0.6,Bcm
+country,Libya,Gas,1986,0.7,Bcm
+country,Libya,Gas,1987,0.7,Bcm
+country,Libya,Gas,1988,0.8,Bcm
+country,Libya,Gas,1989,1.2,Bcm
+country,Libya,Gas,1990,1.1,Bcm
+country,Libya,Gas,1991,1.2,Bcm
+country,Libya,Gas,1992,1.2,Bcm
+country,Libya,Gas,1993,1.2,Bcm
+country,Libya,Gas,1994,1.2,Bcm
+country,Libya,Gas,1995,1.2,Bcm
+country,Libya,Gas,1996,1.2,Bcm
+country,Libya,Gas,1997,1.2,Bcm
+country,Libya,Gas,1998,1.2,Bcm
+country,Libya,Gas,1999,1.2,Bcm
+country,Libya,Gas,2000,1.2,Bcm
+country,Libya,Gas,2001,1.2,Bcm
+country,Libya,Gas,2002,1.4,Bcm
+country,Libya,Gas,2003,1.4,Bcm
+country,Libya,Gas,2004,1.4,Bcm
+country,Libya,Gas,2005,1.3,Bcm
+country,Libya,Gas,2006,1.3,Bcm
+country,Libya,Gas,2007,1.5,Bcm
+country,Libya,Gas,2008,1.5,Bcm
+country,Libya,Gas,2009,1.5,Bcm
+country,Libya,Gas,2010,1.4,Bcm
+country,Libya,Gas,2011,1.5,Bcm
+country,Libya,Gas,2012,1.5,Bcm
+country,Libya,Gas,2013,1.4,Bcm
+country,Libya,Gas,2014,1.4,Bcm
+country,Libya,Gas,2015,1.4,Bcm
+country,Libya,Gas,2016,1.4,Bcm
+country,Libya,Gas,2017,1.4,Bcm
+country,Libya,Gas,2018,1.4,Bcm
+country,Malaysia,Gas,1980,1.1,Bcm
+country,Malaysia,Gas,1981,1.2,Bcm
+country,Malaysia,Gas,1982,1.3,Bcm
+country,Malaysia,Gas,1983,1.4,Bcm
+country,Malaysia,Gas,1984,1.3,Bcm
+country,Malaysia,Gas,1985,1.4,Bcm
+country,Malaysia,Gas,1986,1.4,Bcm
+country,Malaysia,Gas,1987,1.4,Bcm
+country,Malaysia,Gas,1988,1.4,Bcm
+country,Malaysia,Gas,1989,1.4,Bcm
+country,Malaysia,Gas,1990,1.6,Bcm
+country,Malaysia,Gas,1991,1.6,Bcm
+country,Malaysia,Gas,1992,1.8,Bcm
+country,Malaysia,Gas,1993,2.1,Bcm
+country,Malaysia,Gas,1994,2.2,Bcm
+country,Malaysia,Gas,1995,2.3,Bcm
+country,Malaysia,Gas,1996,2.2,Bcm
+country,Malaysia,Gas,1997,2.2,Bcm
+country,Malaysia,Gas,1998,2.4,Bcm
+country,Malaysia,Gas,1999,2.3,Bcm
+country,Malaysia,Gas,2000,2.2,Bcm
+country,Malaysia,Gas,2001,2.2,Bcm
+country,Malaysia,Gas,2002,2.4,Bcm
+country,Malaysia,Gas,2003,2.4,Bcm
+country,Malaysia,Gas,2004,2.4,Bcm
+country,Malaysia,Gas,2005,2.3,Bcm
+country,Malaysia,Gas,2006,2.4,Bcm
+country,Malaysia,Gas,2007,2.4,Bcm
+country,Malaysia,Gas,2008,2.4,Bcm
+country,Malaysia,Gas,2009,2.4,Bcm
+country,Malaysia,Gas,2010,2.4,Bcm
+country,Malaysia,Gas,2011,2.5,Bcm
+country,Malaysia,Gas,2012,2.5,Bcm
+country,Malaysia,Gas,2013,2.7,Bcm
+country,Malaysia,Gas,2014,2.7,Bcm
+country,Malaysia,Gas,2015,2.7,Bcm
+country,Malaysia,Gas,2016,2.4,Bcm
+country,Malaysia,Gas,2017,2.4,Bcm
+country,Malaysia,Gas,2018,2.4,Bcm
+country,Mexico,Gas,1980,1.8,Bcm
+country,Mexico,Gas,1981,2.1,Bcm
+country,Mexico,Gas,1982,2.1,Bcm
+country,Mexico,Gas,1983,2.2,Bcm
+country,Mexico,Gas,1984,2.2,Bcm
+country,Mexico,Gas,1985,2.1,Bcm
+country,Mexico,Gas,1986,2.1,Bcm
+country,Mexico,Gas,1987,2.1,Bcm
+country,Mexico,Gas,1988,2.1,Bcm
+country,Mexico,Gas,1989,2,Bcm
+country,Mexico,Gas,1990,2,Bcm
+country,Mexico,Gas,1991,2,Bcm
+country,Mexico,Gas,1992,2,Bcm
+country,Mexico,Gas,1993,2,Bcm
+country,Mexico,Gas,1994,1.9,Bcm
+country,Mexico,Gas,1995,1.9,Bcm
+country,Mexico,Gas,1996,1.8,Bcm
+country,Mexico,Gas,1997,1.8,Bcm
+country,Mexico,Gas,1998,0.8,Bcm
+country,Mexico,Gas,1999,0.9,Bcm
+country,Mexico,Gas,2000,0.8,Bcm
+country,Mexico,Gas,2001,0.8,Bcm
+country,Mexico,Gas,2002,0.4,Bcm
+country,Mexico,Gas,2003,0.4,Bcm
+country,Mexico,Gas,2004,0.4,Bcm
+country,Mexico,Gas,2005,0.4,Bcm
+country,Mexico,Gas,2006,0.4,Bcm
+country,Mexico,Gas,2007,0.4,Bcm
+country,Mexico,Gas,2008,0.4,Bcm
+country,Mexico,Gas,2009,0.3,Bcm
+country,Mexico,Gas,2010,0.4,Bcm
+country,Mexico,Gas,2011,0.4,Bcm
+country,Mexico,Gas,2012,0.4,Bcm
+country,Mexico,Gas,2013,0.3,Bcm
+country,Mexico,Gas,2014,0.3,Bcm
+country,Mexico,Gas,2015,0.2,Bcm
+country,Mexico,Gas,2016,0.2,Bcm
+country,Mexico,Gas,2017,0.2,Bcm
+country,Mexico,Gas,2018,0.2,Bcm
+country,Burma,Gas,1980,0.1,Bcm
+country,Burma,Gas,1981,0.1,Bcm
+country,Burma,Gas,1982,0.1,Bcm
+country,Burma,Gas,1983,0.2,Bcm
+country,Burma,Gas,1984,0.3,Bcm
+country,Burma,Gas,1985,0.3,Bcm
+country,Burma,Gas,1986,0.3,Bcm
+country,Burma,Gas,1987,0.3,Bcm
+country,Burma,Gas,1988,0.3,Bcm
+country,Burma,Gas,1989,0.3,Bcm
+country,Burma,Gas,1990,0.3,Bcm
+country,Burma,Gas,1991,0.3,Bcm
+country,Burma,Gas,1992,0.3,Bcm
+country,Burma,Gas,1993,0.3,Bcm
+country,Burma,Gas,1994,0.3,Bcm
+country,Burma,Gas,1995,0.3,Bcm
+country,Burma,Gas,1996,0.3,Bcm
+country,Burma,Gas,1997,0.3,Bcm
+country,Burma,Gas,1998,0.3,Bcm
+country,Burma,Gas,1999,0.3,Bcm
+country,Burma,Gas,2000,0.3,Bcm
+country,Burma,Gas,2001,0.3,Bcm
+country,Burma,Gas,2002,0.4,Bcm
+country,Burma,Gas,2003,0.4,Bcm
+country,Burma,Gas,2004,0.5,Bcm
+country,Burma,Gas,2005,0.5,Bcm
+country,Burma,Gas,2006,0.5,Bcm
+country,Burma,Gas,2007,0.5,Bcm
+country,Burma,Gas,2008,0.3,Bcm
+country,Burma,Gas,2009,0.3,Bcm
+country,Burma,Gas,2010,0.2,Bcm
+country,Burma,Gas,2011,0.2,Bcm
+country,Burma,Gas,2012,0.3,Bcm
+country,Burma,Gas,2013,0.5,Bcm
+country,Burma,Gas,2014,0.5,Bcm
+country,Burma,Gas,2015,0.5,Bcm
+country,Burma,Gas,2016,1.2,Bcm
+country,Burma,Gas,2017,1.2,Bcm
+country,Burma,Gas,2018,1.2,Bcm
+country,Netherlands,Gas,1980,2,Bcm
+country,Netherlands,Gas,1981,1.9,Bcm
+country,Netherlands,Gas,1982,1.9,Bcm
+country,Netherlands,Gas,1983,1.8,Bcm
+country,Netherlands,Gas,1984,1.8,Bcm
+country,Netherlands,Gas,1985,1.8,Bcm
+country,Netherlands,Gas,1986,1.7,Bcm
+country,Netherlands,Gas,1987,1.7,Bcm
+country,Netherlands,Gas,1988,1.7,Bcm
+country,Netherlands,Gas,1989,1.6,Bcm
+country,Netherlands,Gas,1990,1.9,Bcm
+country,Netherlands,Gas,1991,1.8,Bcm
+country,Netherlands,Gas,1992,1.8,Bcm
+country,Netherlands,Gas,1993,1.8,Bcm
+country,Netherlands,Gas,1994,1.8,Bcm
+country,Netherlands,Gas,1995,1.7,Bcm
+country,Netherlands,Gas,1996,1.7,Bcm
+country,Netherlands,Gas,1997,1.7,Bcm
+country,Netherlands,Gas,1998,1.7,Bcm
+country,Netherlands,Gas,1999,1.6,Bcm
+country,Netherlands,Gas,2000,1.6,Bcm
+country,Netherlands,Gas,2001,1.5,Bcm
+country,Netherlands,Gas,2002,1.5,Bcm
+country,Netherlands,Gas,2003,1.4,Bcm
+country,Netherlands,Gas,2004,1.4,Bcm
+country,Netherlands,Gas,2005,1.3,Bcm
+country,Netherlands,Gas,2006,1.3,Bcm
+country,Netherlands,Gas,2007,1.2,Bcm
+country,Netherlands,Gas,2008,1.2,Bcm
+country,Netherlands,Gas,2009,1.2,Bcm
+country,Netherlands,Gas,2010,1.2,Bcm
+country,Netherlands,Gas,2011,1.1,Bcm
+country,Netherlands,Gas,2012,0.8,Bcm
+country,Netherlands,Gas,2013,0.8,Bcm
+country,Netherlands,Gas,2014,0.7,Bcm
+country,Netherlands,Gas,2015,0.7,Bcm
+country,Netherlands,Gas,2016,0.7,Bcm
+country,Netherlands,Gas,2017,0.6,Bcm
+country,Netherlands,Gas,2018,0.6,Bcm
+country,Nigeria,Gas,1980,1.1,Bcm
+country,Nigeria,Gas,1981,1.1,Bcm
+country,Nigeria,Gas,1982,1.3,Bcm
+country,Nigeria,Gas,1983,1.3,Bcm
+country,Nigeria,Gas,1984,1.3,Bcm
+country,Nigeria,Gas,1985,1.3,Bcm
+country,Nigeria,Gas,1986,2.3,Bcm
+country,Nigeria,Gas,1987,2.3,Bcm
+country,Nigeria,Gas,1988,2.4,Bcm
+country,Nigeria,Gas,1989,2.7,Bcm
+country,Nigeria,Gas,1990,2.7,Bcm
+country,Nigeria,Gas,1991,3.2,Bcm
+country,Nigeria,Gas,1992,3.5,Bcm
+country,Nigeria,Gas,1993,3.5,Bcm
+country,Nigeria,Gas,1994,3.3,Bcm
+country,Nigeria,Gas,1995,3.3,Bcm
+country,Nigeria,Gas,1996,3.3,Bcm
+country,Nigeria,Gas,1997,3.3,Bcm
+country,Nigeria,Gas,1998,3.3,Bcm
+country,Nigeria,Gas,1999,3.3,Bcm
+country,Nigeria,Gas,2000,3.9,Bcm
+country,Nigeria,Gas,2001,4.4,Bcm
+country,Nigeria,Gas,2002,4.7,Bcm
+country,Nigeria,Gas,2003,4.8,Bcm
+country,Nigeria,Gas,2004,5,Bcm
+country,Nigeria,Gas,2005,4.9,Bcm
+country,Nigeria,Gas,2006,4.9,Bcm
+country,Nigeria,Gas,2007,5,Bcm
+country,Nigeria,Gas,2008,5,Bcm
+country,Nigeria,Gas,2009,5,Bcm
+country,Nigeria,Gas,2010,4.9,Bcm
+country,Nigeria,Gas,2011,4.9,Bcm
+country,Nigeria,Gas,2012,4.9,Bcm
+country,Nigeria,Gas,2013,4.9,Bcm
+country,Nigeria,Gas,2014,5.1,Bcm
+country,Nigeria,Gas,2015,5,Bcm
+country,Nigeria,Gas,2016,5.2,Bcm
+country,Nigeria,Gas,2017,5.3,Bcm
+country,Nigeria,Gas,2018,5.3,Bcm
+country,Norway,Gas,1980,0.4,Bcm
+country,Norway,Gas,1981,0.4,Bcm
+country,Norway,Gas,1982,0.3,Bcm
+country,Norway,Gas,1983,0.4,Bcm
+country,Norway,Gas,1984,0.4,Bcm
+country,Norway,Gas,1985,0.5,Bcm
+country,Norway,Gas,1986,0.4,Bcm
+country,Norway,Gas,1987,1.2,Bcm
+country,Norway,Gas,1988,1.7,Bcm
+country,Norway,Gas,1989,1.7,Bcm
+country,Norway,Gas,1990,1.7,Bcm
+country,Norway,Gas,1991,1.3,Bcm
+country,Norway,Gas,1992,1.4,Bcm
+country,Norway,Gas,1993,1.3,Bcm
+country,Norway,Gas,1994,1.3,Bcm
+country,Norway,Gas,1995,1.3,Bcm
+country,Norway,Gas,1996,1.5,Bcm
+country,Norway,Gas,1997,1.2,Bcm
+country,Norway,Gas,1998,1.2,Bcm
+country,Norway,Gas,1999,1.2,Bcm
+country,Norway,Gas,2000,1.2,Bcm
+country,Norway,Gas,2001,2.2,Bcm
+country,Norway,Gas,2002,2.1,Bcm
+country,Norway,Gas,2003,2.4,Bcm
+country,Norway,Gas,2004,2.4,Bcm
+country,Norway,Gas,2005,2.3,Bcm
+country,Norway,Gas,2006,2.3,Bcm
+country,Norway,Gas,2007,2.3,Bcm
+country,Norway,Gas,2008,2.2,Bcm
+country,Norway,Gas,2009,2,Bcm
+country,Norway,Gas,2010,2,Bcm
+country,Norway,Gas,2011,2.1,Bcm
+country,Norway,Gas,2012,2.1,Bcm
+country,Norway,Gas,2013,2,Bcm
+country,Norway,Gas,2014,1.9,Bcm
+country,Norway,Gas,2015,1.8,Bcm
+country,Norway,Gas,2016,1.8,Bcm
+country,Norway,Gas,2017,1.7,Bcm
+country,Norway,Gas,2018,1.6,Bcm
+country,Oman,Gas,1980,0.1,Bcm
+country,Oman,Gas,1981,0.1,Bcm
+country,Oman,Gas,1982,0.1,Bcm
+country,Oman,Gas,1983,0.2,Bcm
+country,Oman,Gas,1984,0.2,Bcm
+country,Oman,Gas,1985,0.2,Bcm
+country,Oman,Gas,1986,0.2,Bcm
+country,Oman,Gas,1987,0.3,Bcm
+country,Oman,Gas,1988,0.3,Bcm
+country,Oman,Gas,1989,0.3,Bcm
+country,Oman,Gas,1990,0.3,Bcm
+country,Oman,Gas,1991,0.1,Bcm
+country,Oman,Gas,1992,0.1,Bcm
+country,Oman,Gas,1993,0.2,Bcm
+country,Oman,Gas,1994,0.2,Bcm
+country,Oman,Gas,1995,0.4,Bcm
+country,Oman,Gas,1996,0.6,Bcm
+country,Oman,Gas,1997,0.5,Bcm
+country,Oman,Gas,1998,0.5,Bcm
+country,Oman,Gas,1999,0.8,Bcm
+country,Oman,Gas,2000,0.8,Bcm
+country,Oman,Gas,2001,0.9,Bcm
+country,Oman,Gas,2002,0.9,Bcm
+country,Oman,Gas,2003,0.9,Bcm
+country,Oman,Gas,2004,0.9,Bcm
+country,Oman,Gas,2005,0.9,Bcm
+country,Oman,Gas,2006,0.9,Bcm
+country,Oman,Gas,2007,0.9,Bcm
+country,Oman,Gas,2008,0.9,Bcm
+country,Oman,Gas,2009,0.5,Bcm
+country,Oman,Gas,2010,0.5,Bcm
+country,Oman,Gas,2011,0.5,Bcm
+country,Oman,Gas,2012,0.5,Bcm
+country,Oman,Gas,2013,0.7,Bcm
+country,Oman,Gas,2014,0.6,Bcm
+country,Oman,Gas,2015,0.7,Bcm
+country,Oman,Gas,2016,0.7,Bcm
+country,Oman,Gas,2017,0.7,Bcm
+country,Oman,Gas,2018,0.7,Bcm
+country,Other Africa BP,Gas,1980,0.3,Bcm
+country,Other Africa BP,Gas,1981,0.3,Bcm
+country,Other Africa BP,Gas,1982,0.4,Bcm
+country,Other Africa BP,Gas,1983,0.5,Bcm
+country,Other Africa BP,Gas,1984,0.5,Bcm
+country,Other Africa BP,Gas,1985,0.6,Bcm
+country,Other Africa BP,Gas,1986,0.7,Bcm
+country,Other Africa BP,Gas,1987,0.8,Bcm
+country,Other Africa BP,Gas,1988,0.8,Bcm
+country,Other Africa BP,Gas,1989,0.8,Bcm
+country,Other Africa BP,Gas,1990,0.8,Bcm
+country,Other Africa BP,Gas,1991,0.8,Bcm
+country,Other Africa BP,Gas,1992,0.8,Bcm
+country,Other Africa BP,Gas,1993,0.7,Bcm
+country,Other Africa BP,Gas,1994,0.8,Bcm
+country,Other Africa BP,Gas,1995,0.8,Bcm
+country,Other Africa BP,Gas,1996,0.8,Bcm
+country,Other Africa BP,Gas,1997,0.8,Bcm
+country,Other Africa BP,Gas,1998,0.8,Bcm
+country,Other Africa BP,Gas,1999,0.8,Bcm
+country,Other Africa BP,Gas,2000,1.1,Bcm
+country,Other Africa BP,Gas,2001,1.1,Bcm
+country,Other Africa BP,Gas,2002,1,Bcm
+country,Other Africa BP,Gas,2003,1,Bcm
+country,Other Africa BP,Gas,2004,1,Bcm
+country,Other Africa BP,Gas,2005,1.1,Bcm
+country,Other Africa BP,Gas,2006,1.1,Bcm
+country,Other Africa BP,Gas,2007,1.2,Bcm
+country,Other Africa BP,Gas,2008,1.1,Bcm
+country,Other Africa BP,Gas,2009,1.2,Bcm
+country,Other Africa BP,Gas,2010,1.2,Bcm
+country,Other Africa BP,Gas,2011,1.2,Bcm
+country,Other Africa BP,Gas,2012,1.2,Bcm
+country,Other Africa BP,Gas,2013,1.1,Bcm
+country,Other Africa BP,Gas,2014,1.1,Bcm
+country,Other Africa BP,Gas,2015,1.1,Bcm
+country,Other Africa BP,Gas,2016,1.2,Bcm
+country,Other Africa BP,Gas,2017,1.2,Bcm
+country,Other Africa BP,Gas,2018,1.2,Bcm
+country,Other Asia Pacific BP,Gas,1980,0.2,Bcm
+country,Other Asia Pacific BP,Gas,1981,0.2,Bcm
+country,Other Asia Pacific BP,Gas,1982,0.2,Bcm
+country,Other Asia Pacific BP,Gas,1983,0.2,Bcm
+country,Other Asia Pacific BP,Gas,1984,0.2,Bcm
+country,Other Asia Pacific BP,Gas,1985,0.2,Bcm
+country,Other Asia Pacific BP,Gas,1986,0.2,Bcm
+country,Other Asia Pacific BP,Gas,1987,0.2,Bcm
+country,Other Asia Pacific BP,Gas,1988,0.3,Bcm
+country,Other Asia Pacific BP,Gas,1989,0.3,Bcm
+country,Other Asia Pacific BP,Gas,1990,0.3,Bcm
+country,Other Asia Pacific BP,Gas,1991,0.3,Bcm
+country,Other Asia Pacific BP,Gas,1992,0.3,Bcm
+country,Other Asia Pacific BP,Gas,1993,0.3,Bcm
+country,Other Asia Pacific BP,Gas,1994,0.3,Bcm
+country,Other Asia Pacific BP,Gas,1995,0.4,Bcm
+country,Other Asia Pacific BP,Gas,1996,0.4,Bcm
+country,Other Asia Pacific BP,Gas,1997,0.4,Bcm
+country,Other Asia Pacific BP,Gas,1998,0.4,Bcm
+country,Other Asia Pacific BP,Gas,1999,0.3,Bcm
+country,Other Asia Pacific BP,Gas,2000,0.3,Bcm
+country,Other Asia Pacific BP,Gas,2001,0.4,Bcm
+country,Other Asia Pacific BP,Gas,2002,0.4,Bcm
+country,Other Asia Pacific BP,Gas,2003,0.4,Bcm
+country,Other Asia Pacific BP,Gas,2004,0.4,Bcm
+country,Other Asia Pacific BP,Gas,2005,0.4,Bcm
+country,Other Asia Pacific BP,Gas,2006,0.4,Bcm
+country,Other Asia Pacific BP,Gas,2007,0.3,Bcm
+country,Other Asia Pacific BP,Gas,2008,0.3,Bcm
+country,Other Asia Pacific BP,Gas,2009,0.3,Bcm
+country,Other Asia Pacific BP,Gas,2010,0.3,Bcm
+country,Other Asia Pacific BP,Gas,2011,0.3,Bcm
+country,Other Asia Pacific BP,Gas,2012,0.3,Bcm
+country,Other Asia Pacific BP,Gas,2013,0.3,Bcm
+country,Other Asia Pacific BP,Gas,2014,0.3,Bcm
+country,Other Asia Pacific BP,Gas,2015,0.3,Bcm
+country,Other Asia Pacific BP,Gas,2016,0.3,Bcm
+country,Other Asia Pacific BP,Gas,2017,0.2,Bcm
+country,Other Asia Pacific BP,Gas,2018,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,1980,0.3,Bcm
+country,NOT FOUND Other Europe,Gas,1981,0.3,Bcm
+country,NOT FOUND Other Europe,Gas,1982,0.3,Bcm
+country,NOT FOUND Other Europe,Gas,1983,0.3,Bcm
+country,NOT FOUND Other Europe,Gas,1984,0.4,Bcm
+country,NOT FOUND Other Europe,Gas,1985,0.3,Bcm
+country,NOT FOUND Other Europe,Gas,1986,0.3,Bcm
+country,NOT FOUND Other Europe,Gas,1987,0.3,Bcm
+country,NOT FOUND Other Europe,Gas,1988,0.3,Bcm
+country,NOT FOUND Other Europe,Gas,1989,0.3,Bcm
+country,NOT FOUND Other Europe,Gas,1990,0.3,Bcm
+country,NOT FOUND Other Europe,Gas,1991,0.3,Bcm
+country,NOT FOUND Other Europe,Gas,1992,0.3,Bcm
+country,NOT FOUND Other Europe,Gas,1993,0.3,Bcm
+country,NOT FOUND Other Europe,Gas,1994,0.3,Bcm
+country,NOT FOUND Other Europe,Gas,1995,0.3,Bcm
+country,NOT FOUND Other Europe,Gas,1996,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,1997,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,1998,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,1999,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,2000,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,2001,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,2002,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,2003,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,2004,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,2005,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,2006,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,2007,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,2008,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,2009,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,2010,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,2011,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,2012,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,2013,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,2014,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,2015,0.2,Bcm
+country,NOT FOUND Other Europe,Gas,2016,0.1,Bcm
+country,NOT FOUND Other Europe,Gas,2017,0.1,Bcm
+country,NOT FOUND Other Europe,Gas,2018,0.1,Bcm
+country,Other S & Cent America BP,Gas,1980,0.2,Bcm
+country,Other S & Cent America BP,Gas,1981,0.2,Bcm
+country,Other S & Cent America BP,Gas,1982,0.1,Bcm
+country,Other S & Cent America BP,Gas,1983,0.2,Bcm
+country,Other S & Cent America BP,Gas,1984,0.2,Bcm
+country,Other S & Cent America BP,Gas,1985,0.1,Bcm
+country,Other S & Cent America BP,Gas,1986,0.1,Bcm
+country,Other S & Cent America BP,Gas,1987,0.1,Bcm
+country,Other S & Cent America BP,Gas,1988,0.1,Bcm
+country,Other S & Cent America BP,Gas,1989,0.2,Bcm
+country,Other S & Cent America BP,Gas,1990,0.2,Bcm
+country,Other S & Cent America BP,Gas,1991,0.2,Bcm
+country,Other S & Cent America BP,Gas,1992,0.2,Bcm
+country,Other S & Cent America BP,Gas,1993,0.2,Bcm
+country,Other S & Cent America BP,Gas,1994,0.2,Bcm
+country,Other S & Cent America BP,Gas,1995,0.1,Bcm
+country,Other S & Cent America BP,Gas,1996,0.1,Bcm
+country,Other S & Cent America BP,Gas,1997,0.1,Bcm
+country,Other S & Cent America BP,Gas,1998,0.1,Bcm
+country,Other S & Cent America BP,Gas,1999,0.1,Bcm
+country,Other S & Cent America BP,Gas,2000,0.1,Bcm
+country,Poland,Gas,2001,0.1,Bcm
+country,Other S & Cent America BP,Gas,2001,0.1,Bcm
+country,Other S & Cent America BP,Gas,2002,0.1,Bcm
+country,Other S & Cent America BP,Gas,2003,0.1,Bcm
+country,Other S & Cent America BP,Gas,2004,0.1,Bcm
+country,Other S & Cent America BP,Gas,2005,0.1,Bcm
+country,Other S & Cent America BP,Gas,2006,0.1,Bcm
+country,Other S & Cent America BP,Gas,2007,0.1,Bcm
+country,Other S & Cent America BP,Gas,2008,0.1,Bcm
+country,Other S & Cent America BP,Gas,2009,0.1,Bcm
+country,Other S & Cent America BP,Gas,2010,0.1,Bcm
+country,Other S & Cent America BP,Gas,2011,0.1,Bcm
+country,Other S & Cent America BP,Gas,2012,0.1,Bcm
+country,Other S & Cent America BP,Gas,2013,0.1,Bcm
+country,Other S & Cent America BP,Gas,2014,0.1,Bcm
+country,Other S & Cent America BP,Gas,2015,0.1,Bcm
+country,Other S & Cent America BP,Gas,2016,0.1,Bcm
+country,Other S & Cent America BP,Gas,2017,0.1,Bcm
+country,Other S & Cent America BP,Gas,2018,0.1,Bcm
+country,Pakistan,Gas,1980,0.3,Bcm
+country,Pakistan,Gas,1981,0.3,Bcm
+country,Pakistan,Gas,1982,0.4,Bcm
+country,Pakistan,Gas,1983,0.3,Bcm
+country,Pakistan,Gas,1984,0.3,Bcm
+country,Pakistan,Gas,1985,0.3,Bcm
+country,Pakistan,Gas,1986,0.4,Bcm
+country,Pakistan,Gas,1987,0.4,Bcm
+country,Pakistan,Gas,1988,0.3,Bcm
+country,Pakistan,Gas,1989,0.3,Bcm
+country,Pakistan,Gas,1990,0.4,Bcm
+country,Pakistan,Gas,1991,0.4,Bcm
+country,Pakistan,Gas,1992,0.5,Bcm
+country,Pakistan,Gas,1993,0.4,Bcm
+country,Pakistan,Gas,1994,0.5,Bcm
+country,Pakistan,Gas,1995,0.4,Bcm
+country,Pakistan,Gas,1996,0.4,Bcm
+country,Pakistan,Gas,1997,0.4,Bcm
+country,Pakistan,Gas,1998,0.4,Bcm
+country,Pakistan,Gas,1999,0.4,Bcm
+country,Pakistan,Gas,2000,0.5,Bcm
+country,Pakistan,Gas,2001,0.5,Bcm
+country,Pakistan,Gas,2002,0.5,Bcm
+country,Pakistan,Gas,2003,0.5,Bcm
+country,Pakistan,Gas,2004,0.6,Bcm
+country,Pakistan,Gas,2005,0.7,Bcm
+country,Pakistan,Gas,2006,0.7,Bcm
+country,Pakistan,Gas,2007,0.7,Bcm
+country,Pakistan,Gas,2008,0.6,Bcm
+country,Pakistan,Gas,2009,0.6,Bcm
+country,Pakistan,Gas,2010,0.6,Bcm
+country,Pakistan,Gas,2011,0.5,Bcm
+country,Pakistan,Gas,2012,0.5,Bcm
+country,Pakistan,Gas,2013,0.5,Bcm
+country,Pakistan,Gas,2014,0.5,Bcm
+country,Pakistan,Gas,2015,0.4,Bcm
+country,Pakistan,Gas,2016,0.4,Bcm
+country,Pakistan,Gas,2017,0.4,Bcm
+country,Pakistan,Gas,2018,0.4,Bcm
+country,Papua New Guinea,Gas,2009,0.1,Bcm
+country,Papua New Guinea,Gas,2010,0.1,Bcm
+country,Papua New Guinea,Gas,2011,0.1,Bcm
+country,Papua New Guinea,Gas,2012,0.1,Bcm
+country,Papua New Guinea,Gas,2013,0.1,Bcm
+country,Papua New Guinea,Gas,2014,0.1,Bcm
+country,Papua New Guinea,Gas,2015,0.1,Bcm
+country,Papua New Guinea,Gas,2016,0.2,Bcm
+country,Papua New Guinea,Gas,2017,0.2,Bcm
+country,Papua New Guinea,Gas,2018,0.2,Bcm
+country,Peru,Gas,1986,0.1,Bcm
+country,Peru,Gas,1987,0.3,Bcm
+country,Peru,Gas,1988,0.3,Bcm
+country,Peru,Gas,1989,0.3,Bcm
+country,Peru,Gas,1990,0.3,Bcm
+country,Peru,Gas,1991,0.3,Bcm
+country,Peru,Gas,1992,0.3,Bcm
+country,Peru,Gas,1993,0.3,Bcm
+country,Peru,Gas,1994,0.3,Bcm
+country,Peru,Gas,1995,0.2,Bcm
+country,Peru,Gas,1996,0.2,Bcm
+country,Peru,Gas,1997,0.2,Bcm
+country,Peru,Gas,1998,0.2,Bcm
+country,Peru,Gas,1999,0.2,Bcm
+country,Peru,Gas,2000,0.2,Bcm
+country,Peru,Gas,2001,0.2,Bcm
+country,Peru,Gas,2002,0.2,Bcm
+country,Peru,Gas,2003,0.2,Bcm
+country,Peru,Gas,2004,0.3,Bcm
+country,Peru,Gas,2005,0.3,Bcm
+country,Peru,Gas,2006,0.3,Bcm
+country,Peru,Gas,2007,0.3,Bcm
+country,Peru,Gas,2008,0.3,Bcm
+country,Peru,Gas,2009,0.3,Bcm
+country,Peru,Gas,2010,0.3,Bcm
+country,Peru,Gas,2011,0.3,Bcm
+country,Peru,Gas,2012,0.4,Bcm
+country,Peru,Gas,2013,0.4,Bcm
+country,Peru,Gas,2014,0.4,Bcm
+country,Peru,Gas,2015,0.4,Bcm
+country,Peru,Gas,2016,0.4,Bcm
+country,Peru,Gas,2017,0.4,Bcm
+country,Peru,Gas,2018,0.4,Bcm
+country,Poland,Gas,1980,0.1,Bcm
+country,Poland,Gas,1981,0.1,Bcm
+country,Poland,Gas,1982,0.1,Bcm
+country,Poland,Gas,1983,0.1,Bcm
+country,Poland,Gas,1984,0.1,Bcm
+country,Poland,Gas,1985,0.1,Bcm
+country,Poland,Gas,1986,0.1,Bcm
+country,Poland,Gas,1987,0.1,Bcm
+country,Poland,Gas,1988,0.1,Bcm
+country,Poland,Gas,1989,0.1,Bcm
+country,Poland,Gas,1990,0.1,Bcm
+country,Poland,Gas,1991,0.1,Bcm
+country,Poland,Gas,1992,0.1,Bcm
+country,Poland,Gas,1993,0.1,Bcm
+country,Poland,Gas,1994,0.1,Bcm
+country,Poland,Gas,1995,0.1,Bcm
+country,Poland,Gas,1996,0.1,Bcm
+country,Poland,Gas,1997,0.1,Bcm
+country,Poland,Gas,1998,0.1,Bcm
+country,Poland,Gas,1999,0.1,Bcm
+country,Poland,Gas,2000,0.1,Bcm
+country,Poland,Gas,2002,0.1,Bcm
+country,Poland,Gas,2003,0.1,Bcm
+country,Poland,Gas,2004,0.1,Bcm
+country,Poland,Gas,2005,0.1,Bcm
+country,Poland,Gas,2006,0.1,Bcm
+country,Poland,Gas,2007,0.1,Bcm
+country,Poland,Gas,2008,0.1,Bcm
+country,Poland,Gas,2009,0.1,Bcm
+country,Poland,Gas,2010,0.1,Bcm
+country,Poland,Gas,2011,0.1,Bcm
+country,Poland,Gas,2012,0.1,Bcm
+country,Poland,Gas,2013,0.1,Bcm
+country,Poland,Gas,2014,0.1,Bcm
+country,Poland,Gas,2015,0.1,Bcm
+country,Poland,Gas,2016,0.1,Bcm
+country,Poland,Gas,2017,0.1,Bcm
+country,Poland,Gas,2018,0.1,Bcm
+country,Qatar,Gas,1980,2.9,Bcm
+country,Qatar,Gas,1981,2.9,Bcm
+country,Qatar,Gas,1982,3.3,Bcm
+country,Qatar,Gas,1983,3.5,Bcm
+country,Qatar,Gas,1984,4.4,Bcm
+country,Qatar,Gas,1985,4.6,Bcm
+country,Qatar,Gas,1986,4.6,Bcm
+country,Qatar,Gas,1987,4.6,Bcm
+country,Qatar,Gas,1988,4.8,Bcm
+country,Qatar,Gas,1989,4.8,Bcm
+country,Qatar,Gas,1990,4.8,Bcm
+country,Qatar,Gas,1991,6.7,Bcm
+country,Qatar,Gas,1992,6.9,Bcm
+country,Qatar,Gas,1993,7.3,Bcm
+country,Qatar,Gas,1994,7.3,Bcm
+country,Qatar,Gas,1995,8.8,Bcm
+country,Qatar,Gas,1996,8.8,Bcm
+country,Qatar,Gas,1997,8.8,Bcm
+country,Qatar,Gas,1998,11.3,Bcm
+country,Qatar,Gas,1999,11.5,Bcm
+country,Qatar,Gas,2000,14.9,Bcm
+country,Qatar,Gas,2001,26.7,Bcm
+country,Qatar,Gas,2002,26.7,Bcm
+country,Qatar,Gas,2003,26.2,Bcm
+country,Qatar,Gas,2004,26.2,Bcm
+country,Qatar,Gas,2005,26.5,Bcm
+country,Qatar,Gas,2006,26.4,Bcm
+country,Qatar,Gas,2007,26.4,Bcm
+country,Qatar,Gas,2008,26.3,Bcm
+country,Qatar,Gas,2009,26.2,Bcm
+country,Qatar,Gas,2010,25.9,Bcm
+country,Qatar,Gas,2011,25.9,Bcm
+country,Qatar,Gas,2012,25.8,Bcm
+country,Qatar,Gas,2013,25.5,Bcm
+country,Qatar,Gas,2014,25.4,Bcm
+country,Qatar,Gas,2015,25.1,Bcm
+country,Qatar,Gas,2016,24.9,Bcm
+country,Qatar,Gas,2017,24.7,Bcm
+country,Qatar,Gas,2018,24.7,Bcm
+country,Romania,Gas,1980,0.3,Bcm
+country,Romania,Gas,1981,0.3,Bcm
+country,Romania,Gas,1982,0.2,Bcm
+country,Romania,Gas,1983,0.2,Bcm
+country,Romania,Gas,1984,0.2,Bcm
+country,Romania,Gas,1985,0.3,Bcm
+country,Romania,Gas,1986,0.2,Bcm
+country,Romania,Gas,1987,0.2,Bcm
+country,Romania,Gas,1988,0.2,Bcm
+country,Romania,Gas,1989,0.1,Bcm
+country,Romania,Gas,1990,0.1,Bcm
+country,Romania,Gas,1991,0.4,Bcm
+country,Romania,Gas,1992,0.4,Bcm
+country,Romania,Gas,1993,0.4,Bcm
+country,Romania,Gas,1994,0.4,Bcm
+country,Romania,Gas,1995,0.4,Bcm
+country,Romania,Gas,1996,0.4,Bcm
+country,Romania,Gas,1997,0.3,Bcm
+country,Romania,Gas,1998,0.3,Bcm
+country,Romania,Gas,1999,0.3,Bcm
+country,Romania,Gas,2000,0.3,Bcm
+country,Romania,Gas,2001,0.3,Bcm
+country,Romania,Gas,2002,0.3,Bcm
+country,Romania,Gas,2003,0.3,Bcm
+country,Romania,Gas,2004,0.3,Bcm
+country,Romania,Gas,2005,0.6,Bcm
+country,Romania,Gas,2006,0.6,Bcm
+country,Romania,Gas,2007,0.6,Bcm
+country,Romania,Gas,2008,0.6,Bcm
+country,Romania,Gas,2009,0.6,Bcm
+country,Romania,Gas,2010,0.6,Bcm
+country,Romania,Gas,2011,0.1,Bcm
+country,Romania,Gas,2012,0.1,Bcm
+country,Romania,Gas,2013,0.1,Bcm
+country,Romania,Gas,2014,0.1,Bcm
+country,Romania,Gas,2015,0.1,Bcm
+country,Romania,Gas,2016,0.1,Bcm
+country,Romania,Gas,2017,0.1,Bcm
+country,Romania,Gas,2018,0.1,Bcm
+country,Russian Federation & USSR,Gas,1991,33.9,Bcm
+country,Russian Federation & USSR,Gas,1992,34.7,Bcm
+country,Russian Federation & USSR,Gas,1993,34.7,Bcm
+country,Russian Federation & USSR,Gas,1994,34.5,Bcm
+country,Russian Federation & USSR,Gas,1995,33.7,Bcm
+country,Russian Federation & USSR,Gas,1996,33.4,Bcm
+country,Russian Federation & USSR,Gas,1997,33.6,Bcm
+country,Russian Federation & USSR,Gas,1998,33.4,Bcm
+country,Russian Federation & USSR,Gas,1999,32.9,Bcm
+country,Russian Federation & USSR,Gas,2000,33.2,Bcm
+country,Russian Federation & USSR,Gas,2001,33.4,Bcm
+country,Russian Federation & USSR,Gas,2002,33.9,Bcm
+country,Russian Federation & USSR,Gas,2003,33.8,Bcm
+country,Russian Federation & USSR,Gas,2004,33.6,Bcm
+country,Russian Federation & USSR,Gas,2005,33.8,Bcm
+country,Russian Federation & USSR,Gas,2006,33.8,Bcm
+country,Russian Federation & USSR,Gas,2007,33.9,Bcm
+country,Russian Federation & USSR,Gas,2008,34,Bcm
+country,Russian Federation & USSR,Gas,2009,34,Bcm
+country,Russian Federation & USSR,Gas,2010,34.1,Bcm
+country,Russian Federation & USSR,Gas,2011,34.5,Bcm
+country,Russian Federation & USSR,Gas,2012,34.6,Bcm
+country,Russian Federation & USSR,Gas,2013,34.9,Bcm
+country,Russian Federation & USSR,Gas,2014,35,Bcm
+country,Russian Federation & USSR,Gas,2015,35,Bcm
+country,Russian Federation & USSR,Gas,2016,34.8,Bcm
+country,Russian Federation & USSR,Gas,2017,38.9,Bcm
+country,Russian Federation & USSR,Gas,2018,38.9,Bcm
+country,Saudi Arabia,Gas,1980,3,Bcm
+country,Saudi Arabia,Gas,1981,3.2,Bcm
+country,Saudi Arabia,Gas,1982,3.3,Bcm
+country,Saudi Arabia,Gas,1983,3.4,Bcm
+country,Saudi Arabia,Gas,1984,3.4,Bcm
+country,Saudi Arabia,Gas,1985,3.5,Bcm
+country,Saudi Arabia,Gas,1986,3.8,Bcm
+country,Saudi Arabia,Gas,1987,4,Bcm
+country,Saudi Arabia,Gas,1988,4.8,Bcm
+country,Saudi Arabia,Gas,1989,5,Bcm
+country,Saudi Arabia,Gas,1990,5,Bcm
+country,Saudi Arabia,Gas,1991,5,Bcm
+country,Saudi Arabia,Gas,1992,5,Bcm
+country,Saudi Arabia,Gas,1993,5,Bcm
+country,Saudi Arabia,Gas,1994,5,Bcm
+country,Saudi Arabia,Gas,1995,5.3,Bcm
+country,Saudi Arabia,Gas,1996,5.4,Bcm
+country,Saudi Arabia,Gas,1997,5.6,Bcm
+country,Saudi Arabia,Gas,1998,5.8,Bcm
+country,Saudi Arabia,Gas,1999,5.8,Bcm
+country,Saudi Arabia,Gas,2000,6,Bcm
+country,Saudi Arabia,Gas,2001,6.1,Bcm
+country,Saudi Arabia,Gas,2002,6.3,Bcm
+country,Saudi Arabia,Gas,2003,6.4,Bcm
+country,Saudi Arabia,Gas,2004,6.4,Bcm
+country,Saudi Arabia,Gas,2005,6.5,Bcm
+country,Saudi Arabia,Gas,2006,6.7,Bcm
+country,Saudi Arabia,Gas,2007,6.9,Bcm
+country,Saudi Arabia,Gas,2008,7.1,Bcm
+country,Saudi Arabia,Gas,2009,7.4,Bcm
+country,Saudi Arabia,Gas,2010,7.5,Bcm
+country,Saudi Arabia,Gas,2011,7.6,Bcm
+country,Saudi Arabia,Gas,2012,7.7,Bcm
+country,Saudi Arabia,Gas,2013,7.8,Bcm
+country,Saudi Arabia,Gas,2014,7.9,Bcm
+country,Saudi Arabia,Gas,2015,8,Bcm
+country,Saudi Arabia,Gas,2016,8,Bcm
+country,Saudi Arabia,Gas,2017,5.7,Bcm
+country,Saudi Arabia,Gas,2018,5.9,Bcm
+country,Syria,Gas,1980,0.1,Bcm
+country,Syria,Gas,1981,0.1,Bcm
+country,Syria,Gas,1982,0.1,Bcm
+country,Syria,Gas,1983,0.1,Bcm
+country,Syria,Gas,1984,0.1,Bcm
+country,Syria,Gas,1985,0.1,Bcm
+country,Syria,Gas,1986,0.1,Bcm
+country,Syria,Gas,1987,0.1,Bcm
+country,Syria,Gas,1988,0.1,Bcm
+country,Syria,Gas,1989,0.1,Bcm
+country,Syria,Gas,1990,0.2,Bcm
+country,Syria,Gas,1991,0.2,Bcm
+country,Syria,Gas,1992,0.2,Bcm
+country,Syria,Gas,1993,0.2,Bcm
+country,Syria,Gas,1994,0.2,Bcm
+country,Syria,Gas,1995,0.2,Bcm
+country,Syria,Gas,1996,0.2,Bcm
+country,Syria,Gas,1997,0.2,Bcm
+country,Syria,Gas,1998,0.2,Bcm
+country,Syria,Gas,1999,0.2,Bcm
+country,Syria,Gas,2000,0.2,Bcm
+country,Syria,Gas,2001,0.2,Bcm
+country,Syria,Gas,2002,0.2,Bcm
+country,Syria,Gas,2003,0.3,Bcm
+country,Syria,Gas,2004,0.3,Bcm
+country,Syria,Gas,2005,0.3,Bcm
+country,Syria,Gas,2006,0.3,Bcm
+country,Syria,Gas,2007,0.3,Bcm
+country,Syria,Gas,2008,0.3,Bcm
+country,Syria,Gas,2009,0.3,Bcm
+country,Syria,Gas,2010,0.3,Bcm
+country,Syria,Gas,2011,0.3,Bcm
+country,Syria,Gas,2012,0.3,Bcm
+country,Syria,Gas,2013,0.3,Bcm
+country,Syria,Gas,2014,0.3,Bcm
+country,Syria,Gas,2015,0.3,Bcm
+country,Syria,Gas,2016,0.3,Bcm
+country,Syria,Gas,2017,0.3,Bcm
+country,Syria,Gas,2018,0.3,Bcm
+country,Thailand,Gas,1980,0.3,Bcm
+country,Thailand,Gas,1981,0.4,Bcm
+country,Thailand,Gas,1982,0.4,Bcm
+country,Thailand,Gas,1983,0.2,Bcm
+country,Thailand,Gas,1984,0.2,Bcm
+country,Thailand,Gas,1985,0.2,Bcm
+country,Thailand,Gas,1986,0.2,Bcm
+country,Thailand,Gas,1987,0.2,Bcm
+country,Thailand,Gas,1988,0.2,Bcm
+country,Thailand,Gas,1989,0.2,Bcm
+country,Thailand,Gas,1990,0.2,Bcm
+country,Thailand,Gas,1991,0.3,Bcm
+country,Thailand,Gas,1992,0.2,Bcm
+country,Thailand,Gas,1993,0.2,Bcm
+country,Thailand,Gas,1994,0.2,Bcm
+country,Thailand,Gas,1995,0.2,Bcm
+country,Thailand,Gas,1996,0.2,Bcm
+country,Thailand,Gas,1997,0.2,Bcm
+country,Thailand,Gas,1998,0.4,Bcm
+country,Thailand,Gas,1999,0.4,Bcm
+country,Thailand,Gas,2000,0.4,Bcm
+country,Thailand,Gas,2001,0.4,Bcm
+country,Thailand,Gas,2002,0.5,Bcm
+country,Thailand,Gas,2003,0.4,Bcm
+country,Thailand,Gas,2004,0.4,Bcm
+country,Thailand,Gas,2005,0.3,Bcm
+country,Thailand,Gas,2006,0.3,Bcm
+country,Thailand,Gas,2007,0.3,Bcm
+country,Thailand,Gas,2008,0.4,Bcm
+country,Thailand,Gas,2009,0.3,Bcm
+country,Thailand,Gas,2010,0.3,Bcm
+country,Thailand,Gas,2011,0.3,Bcm
+country,Thailand,Gas,2012,0.3,Bcm
+country,Thailand,Gas,2013,0.2,Bcm
+country,Thailand,Gas,2014,0.2,Bcm
+country,Thailand,Gas,2015,0.2,Bcm
+country,Thailand,Gas,2016,0.2,Bcm
+country,Thailand,Gas,2017,0.2,Bcm
+country,Thailand,Gas,2018,0.2,Bcm
+country,Trinidad and Tobago,Gas,1980,0.3,Bcm
+country,Trinidad and Tobago,Gas,1981,0.3,Bcm
+country,Trinidad and Tobago,Gas,1982,0.3,Bcm
+country,Trinidad and Tobago,Gas,1983,0.3,Bcm
+country,Trinidad and Tobago,Gas,1984,0.3,Bcm
+country,Trinidad and Tobago,Gas,1985,0.3,Bcm
+country,Trinidad and Tobago,Gas,1986,0.3,Bcm
+country,Trinidad and Tobago,Gas,1987,0.3,Bcm
+country,Trinidad and Tobago,Gas,1988,0.3,Bcm
+country,Trinidad and Tobago,Gas,1989,0.3,Bcm
+country,Trinidad and Tobago,Gas,1990,0.2,Bcm
+country,Trinidad and Tobago,Gas,1991,0.2,Bcm
+country,Trinidad and Tobago,Gas,1992,0.2,Bcm
+country,Trinidad and Tobago,Gas,1993,0.2,Bcm
+country,Trinidad and Tobago,Gas,1994,0.3,Bcm
+country,Trinidad and Tobago,Gas,1995,0.3,Bcm
+country,Trinidad and Tobago,Gas,1996,0.4,Bcm
+country,Trinidad and Tobago,Gas,1997,0.5,Bcm
+country,Trinidad and Tobago,Gas,1998,0.5,Bcm
+country,Trinidad and Tobago,Gas,1999,0.6,Bcm
+country,Trinidad and Tobago,Gas,2000,0.5,Bcm
+country,Trinidad and Tobago,Gas,2001,0.6,Bcm
+country,Trinidad and Tobago,Gas,2002,0.6,Bcm
+country,Trinidad and Tobago,Gas,2003,0.5,Bcm
+country,Trinidad and Tobago,Gas,2004,0.5,Bcm
+country,Trinidad and Tobago,Gas,2005,0.5,Bcm
+country,Trinidad and Tobago,Gas,2006,0.5,Bcm
+country,Trinidad and Tobago,Gas,2007,0.5,Bcm
+country,Trinidad and Tobago,Gas,2008,0.4,Bcm
+country,Trinidad and Tobago,Gas,2009,0.4,Bcm
+country,Trinidad and Tobago,Gas,2010,0.4,Bcm
+country,Trinidad and Tobago,Gas,2011,0.4,Bcm
+country,Trinidad and Tobago,Gas,2012,0.4,Bcm
+country,Trinidad and Tobago,Gas,2013,0.3,Bcm
+country,Trinidad and Tobago,Gas,2014,0.3,Bcm
+country,Trinidad and Tobago,Gas,2015,0.3,Bcm
+country,Trinidad and Tobago,Gas,2016,0.3,Bcm
+country,Trinidad and Tobago,Gas,2017,0.3,Bcm
+country,Trinidad and Tobago,Gas,2018,0.3,Bcm
+country,Turkmenistan,Gas,1997,2.6,Bcm
+country,Turkmenistan,Gas,1998,2.5,Bcm
+country,Turkmenistan,Gas,1999,2.6,Bcm
+country,Turkmenistan,Gas,2000,2.6,Bcm
+country,Turkmenistan,Gas,2001,2.6,Bcm
+country,Turkmenistan,Gas,2002,2.6,Bcm
+country,Turkmenistan,Gas,2003,2.6,Bcm
+country,Turkmenistan,Gas,2004,2.6,Bcm
+country,Turkmenistan,Gas,2005,2.6,Bcm
+country,Turkmenistan,Gas,2006,2.6,Bcm
+country,Turkmenistan,Gas,2007,2.6,Bcm
+country,Turkmenistan,Gas,2008,8.2,Bcm
+country,Turkmenistan,Gas,2009,8.2,Bcm
+country,Turkmenistan,Gas,2010,11.3,Bcm
+country,Turkmenistan,Gas,2011,19.5,Bcm
+country,Turkmenistan,Gas,2012,19.5,Bcm
+country,Turkmenistan,Gas,2013,19.5,Bcm
+country,Turkmenistan,Gas,2014,19.5,Bcm
+country,Turkmenistan,Gas,2015,19.5,Bcm
+country,Turkmenistan,Gas,2016,19.5,Bcm
+country,Turkmenistan,Gas,2017,19.5,Bcm
+country,Turkmenistan,Gas,2018,19.5,Bcm
+country,Ukraine,Gas,1997,0.7,Bcm
+country,Ukraine,Gas,1998,0.8,Bcm
+country,Ukraine,Gas,1999,0.8,Bcm
+country,Ukraine,Gas,2000,0.8,Bcm
+country,Ukraine,Gas,2001,0.8,Bcm
+country,Ukraine,Gas,2002,0.8,Bcm
+country,Ukraine,Gas,2003,0.8,Bcm
+country,Ukraine,Gas,2004,0.8,Bcm
+country,Ukraine,Gas,2005,0.8,Bcm
+country,Ukraine,Gas,2006,0.8,Bcm
+country,Ukraine,Gas,2007,0.8,Bcm
+country,Ukraine,Gas,2008,0.8,Bcm
+country,Ukraine,Gas,2009,0.7,Bcm
+country,Ukraine,Gas,2010,0.7,Bcm
+country,Ukraine,Gas,2011,0.7,Bcm
+country,Ukraine,Gas,2012,1.2,Bcm
+country,Ukraine,Gas,2013,1.1,Bcm
+country,Ukraine,Gas,2014,1.1,Bcm
+country,Ukraine,Gas,2015,1.1,Bcm
+country,Ukraine,Gas,2016,1.1,Bcm
+country,Ukraine,Gas,2017,1,Bcm
+country,Ukraine,Gas,2018,1.1,Bcm
+country,United Arab Emirates,Gas,1980,2.3,Bcm
+country,United Arab Emirates,Gas,1981,2.5,Bcm
+country,United Arab Emirates,Gas,1982,2.9,Bcm
+country,United Arab Emirates,Gas,1983,3,Bcm
+country,United Arab Emirates,Gas,1984,3,Bcm
+country,United Arab Emirates,Gas,1985,3.1,Bcm
+country,United Arab Emirates,Gas,1986,5.3,Bcm
+country,United Arab Emirates,Gas,1987,5.5,Bcm
+country,United Arab Emirates,Gas,1988,5.5,Bcm
+country,United Arab Emirates,Gas,1989,5.5,Bcm
+country,United Arab Emirates,Gas,1990,5.5,Bcm
+country,United Arab Emirates,Gas,1991,5.6,Bcm
+country,United Arab Emirates,Gas,1992,5.7,Bcm
+country,United Arab Emirates,Gas,1993,5.7,Bcm
+country,United Arab Emirates,Gas,1994,6.6,Bcm
+country,United Arab Emirates,Gas,1995,5.7,Bcm
+country,United Arab Emirates,Gas,1996,5.6,Bcm
+country,United Arab Emirates,Gas,1997,5.9,Bcm
+country,United Arab Emirates,Gas,1998,5.8,Bcm
+country,United Arab Emirates,Gas,1999,5.8,Bcm
+country,United Arab Emirates,Gas,2000,5.8,Bcm
+country,United Arab Emirates,Gas,2001,5.9,Bcm
+country,United Arab Emirates,Gas,2002,5.9,Bcm
+country,United Arab Emirates,Gas,2003,5.9,Bcm
+country,United Arab Emirates,Gas,2004,5.9,Bcm
+country,United Arab Emirates,Gas,2005,6,Bcm
+country,United Arab Emirates,Gas,2006,6.3,Bcm
+country,United Arab Emirates,Gas,2007,6.3,Bcm
+country,United Arab Emirates,Gas,2008,5.9,Bcm
+country,United Arab Emirates,Gas,2009,5.9,Bcm
+country,United Arab Emirates,Gas,2010,5.9,Bcm
+country,United Arab Emirates,Gas,2011,5.9,Bcm
+country,United Arab Emirates,Gas,2012,5.9,Bcm
+country,United Arab Emirates,Gas,2013,5.9,Bcm
+country,United Arab Emirates,Gas,2014,5.9,Bcm
+country,United Arab Emirates,Gas,2015,5.9,Bcm
+country,United Arab Emirates,Gas,2016,5.9,Bcm
+country,United Arab Emirates,Gas,2017,5.9,Bcm
+country,United Arab Emirates,Gas,2018,5.9,Bcm
+country,United Kingdom,Gas,1980,0.7,Bcm
+country,United Kingdom,Gas,1981,0.7,Bcm
+country,United Kingdom,Gas,1982,0.6,Bcm
+country,United Kingdom,Gas,1983,0.7,Bcm
+country,United Kingdom,Gas,1984,0.7,Bcm
+country,United Kingdom,Gas,1985,0.6,Bcm
+country,United Kingdom,Gas,1986,0.6,Bcm
+country,United Kingdom,Gas,1987,0.6,Bcm
+country,United Kingdom,Gas,1988,0.6,Bcm
+country,United Kingdom,Gas,1989,0.6,Bcm
+country,United Kingdom,Gas,1990,0.5,Bcm
+country,United Kingdom,Gas,1991,0.5,Bcm
+country,United Kingdom,Gas,1992,0.6,Bcm
+country,United Kingdom,Gas,1993,0.6,Bcm
+country,United Kingdom,Gas,1994,0.7,Bcm
+country,United Kingdom,Gas,1995,0.7,Bcm
+country,United Kingdom,Gas,1996,0.8,Bcm
+country,United Kingdom,Gas,1997,0.8,Bcm
+country,United Kingdom,Gas,1998,0.8,Bcm
+country,United Kingdom,Gas,1999,0.8,Bcm
+country,United Kingdom,Gas,2000,0.7,Bcm
+country,United Kingdom,Gas,2001,0.7,Bcm
+country,United Kingdom,Gas,2002,0.6,Bcm
+country,United Kingdom,Gas,2003,0.6,Bcm
+country,United Kingdom,Gas,2004,0.5,Bcm
+country,United Kingdom,Gas,2005,0.5,Bcm
+country,United Kingdom,Gas,2006,0.4,Bcm
+country,United Kingdom,Gas,2007,0.3,Bcm
+country,United Kingdom,Gas,2008,0.3,Bcm
+country,United Kingdom,Gas,2009,0.3,Bcm
+country,United Kingdom,Gas,2010,0.3,Bcm
+country,United Kingdom,Gas,2011,0.2,Bcm
+country,United Kingdom,Gas,2012,0.2,Bcm
+country,United Kingdom,Gas,2013,0.2,Bcm
+country,United Kingdom,Gas,2014,0.2,Bcm
+country,United Kingdom,Gas,2015,0.2,Bcm
+country,United Kingdom,Gas,2016,0.2,Bcm
+country,United Kingdom,Gas,2017,0.2,Bcm
+country,United Kingdom,Gas,2018,0.2,Bcm
+country,United States of America,Gas,1980,5.4,Bcm
+country,United States of America,Gas,1981,5.5,Bcm
+country,United States of America,Gas,1982,5.5,Bcm
+country,United States of America,Gas,1983,5.4,Bcm
+country,United States of America,Gas,1984,5.4,Bcm
+country,United States of America,Gas,1985,5.2,Bcm
+country,United States of America,Gas,1986,5.2,Bcm
+country,United States of America,Gas,1987,5.1,Bcm
+country,United States of America,Gas,1988,4.6,Bcm
+country,United States of America,Gas,1989,4.5,Bcm
+country,United States of America,Gas,1990,4.6,Bcm
+country,United States of America,Gas,1991,4.5,Bcm
+country,United States of America,Gas,1992,4.5,Bcm
+country,United States of America,Gas,1993,4.4,Bcm
+country,United States of America,Gas,1994,4.4,Bcm
+country,United States of America,Gas,1995,4.5,Bcm
+country,United States of America,Gas,1996,4.5,Bcm
+country,United States of America,Gas,1997,4.5,Bcm
+country,United States of America,Gas,1998,4.4,Bcm
+country,United States of America,Gas,1999,4.5,Bcm
+country,United States of America,Gas,2000,4.8,Bcm
+country,United States of America,Gas,2001,5,Bcm
+country,United States of America,Gas,2002,5.1,Bcm
+country,United States of America,Gas,2003,5.1,Bcm
+country,United States of America,Gas,2004,5.2,Bcm
+country,United States of America,Gas,2005,5.5,Bcm
+country,United States of America,Gas,2006,5.7,Bcm
+country,United States of America,Gas,2007,6.4,Bcm
+country,United States of America,Gas,2008,6.6,Bcm
+country,United States of America,Gas,2009,7.4,Bcm
+country,United States of America,Gas,2010,8.3,Bcm
+country,United States of America,Gas,2011,9.1,Bcm
+country,United States of America,Gas,2012,8.4,Bcm
+country,United States of America,Gas,2013,9.2,Bcm
+country,United States of America,Gas,2014,10,Bcm
+country,United States of America,Gas,2015,8.3,Bcm
+country,United States of America,Gas,2016,8.7,Bcm
+country,United States of America,Gas,2017,11.9,Bcm
+country,United States of America,Gas,2018,11.9,Bcm
+country,Russian Federation & USSR,Gas,1980,20.5,Bcm
+country,Russian Federation & USSR,Gas,1981,21.7,Bcm
+country,Russian Federation & USSR,Gas,1982,22.4,Bcm
+country,Russian Federation & USSR,Gas,1983,23,Bcm
+country,Russian Federation & USSR,Gas,1984,24,Bcm
+country,Russian Federation & USSR,Gas,1985,25.6,Bcm
+country,Russian Federation & USSR,Gas,1986,26.2,Bcm
+country,Russian Federation & USSR,Gas,1987,26.7,Bcm
+country,Russian Federation & USSR,Gas,1988,27.2,Bcm
+country,Russian Federation & USSR,Gas,1989,33.3,Bcm
+country,Russian Federation & USSR,Gas,1990,34.9,Bcm
+country,Russian Federation & USSR,Gas,1991,2.4,Bcm
+country,Russian Federation & USSR,Gas,1992,2.4,Bcm
+country,Russian Federation & USSR,Gas,1993,3.4,Bcm
+country,Russian Federation & USSR,Gas,1994,3.9,Bcm
+country,Russian Federation & USSR,Gas,1995,4.1,Bcm
+country,Russian Federation & USSR,Gas,1996,3.9,Bcm
+country,Uzbekistan,Gas,1997,1.2,Bcm
+country,Uzbekistan,Gas,1998,1.2,Bcm
+country,Uzbekistan,Gas,1999,1.2,Bcm
+country,Uzbekistan,Gas,2000,1.3,Bcm
+country,Uzbekistan,Gas,2001,1.3,Bcm
+country,Uzbekistan,Gas,2002,1.3,Bcm
+country,Uzbekistan,Gas,2003,1.3,Bcm
+country,Uzbekistan,Gas,2004,1.3,Bcm
+country,Uzbekistan,Gas,2005,1.3,Bcm
+country,Uzbekistan,Gas,2006,1.3,Bcm
+country,Uzbekistan,Gas,2007,1.3,Bcm
+country,Uzbekistan,Gas,2008,1.3,Bcm
+country,Uzbekistan,Gas,2009,1.3,Bcm
+country,Uzbekistan,Gas,2010,1.3,Bcm
+country,Uzbekistan,Gas,2011,1.3,Bcm
+country,Uzbekistan,Gas,2012,1.3,Bcm
+country,Uzbekistan,Gas,2013,1.2,Bcm
+country,Uzbekistan,Gas,2014,1.2,Bcm
+country,Uzbekistan,Gas,2015,1.2,Bcm
+country,Uzbekistan,Gas,2016,1.2,Bcm
+country,Uzbekistan,Gas,2017,1.2,Bcm
+country,Uzbekistan,Gas,2018,1.2,Bcm
+country,Venezuela,Gas,1980,1.4,Bcm
+country,Venezuela,Gas,1981,1.5,Bcm
+country,Venezuela,Gas,1982,1.6,Bcm
+country,Venezuela,Gas,1983,1.7,Bcm
+country,Venezuela,Gas,1984,1.8,Bcm
+country,Venezuela,Gas,1985,1.9,Bcm
+country,Venezuela,Gas,1986,2.9,Bcm
+country,Venezuela,Gas,1987,3.2,Bcm
+country,Venezuela,Gas,1988,3.2,Bcm
+country,Venezuela,Gas,1989,3.3,Bcm
+country,Venezuela,Gas,1990,3.8,Bcm
+country,Venezuela,Gas,1991,4,Bcm
+country,Venezuela,Gas,1992,4.1,Bcm
+country,Venezuela,Gas,1993,4.1,Bcm
+country,Venezuela,Gas,1994,4.4,Bcm
+country,Venezuela,Gas,1995,4.5,Bcm
+country,Venezuela,Gas,1996,4.5,Bcm
+country,Venezuela,Gas,1997,4.6,Bcm
+country,Venezuela,Gas,1998,4.6,Bcm
+country,Venezuela,Gas,1999,4.6,Bcm
+country,Venezuela,Gas,2000,4.6,Bcm
+country,Venezuela,Gas,2001,4.6,Bcm
+country,Venezuela,Gas,2002,4.6,Bcm
+country,Venezuela,Gas,2003,4.7,Bcm
+country,Venezuela,Gas,2004,4.8,Bcm
+country,Venezuela,Gas,2005,4.8,Bcm
+country,Venezuela,Gas,2006,5.2,Bcm
+country,Venezuela,Gas,2007,5.4,Bcm
+country,Venezuela,Gas,2008,5.5,Bcm
+country,Venezuela,Gas,2009,5.6,Bcm
+country,Venezuela,Gas,2010,6.1,Bcm
+country,Venezuela,Gas,2011,6.1,Bcm
+country,Venezuela,Gas,2012,6.2,Bcm
+country,Venezuela,Gas,2013,6.2,Bcm
+country,Venezuela,Gas,2014,6.2,Bcm
+country,Venezuela,Gas,2015,6.3,Bcm
+country,Venezuela,Gas,2016,6.4,Bcm
+country,Venezuela,Gas,2017,6.3,Bcm
+country,Venezuela,Gas,2018,6.3,Bcm
+country,Viet Nam,Gas,1992,0.1,Bcm
+country,Viet Nam,Gas,1993,0.1,Bcm
+country,Viet Nam,Gas,1994,0.1,Bcm
+country,Viet Nam,Gas,1995,0.1,Bcm
+country,Viet Nam,Gas,1996,0.2,Bcm
+country,Viet Nam,Gas,1997,0.2,Bcm
+country,Viet Nam,Gas,1998,0.2,Bcm
+country,Viet Nam,Gas,1999,0.2,Bcm
+country,Viet Nam,Gas,2000,0.2,Bcm
+country,Viet Nam,Gas,2001,0.2,Bcm
+country,Viet Nam,Gas,2002,0.2,Bcm
+country,Viet Nam,Gas,2003,0.2,Bcm
+country,Viet Nam,Gas,2004,0.2,Bcm
+country,Viet Nam,Gas,2005,0.2,Bcm
+country,Viet Nam,Gas,2006,0.2,Bcm
+country,Viet Nam,Gas,2007,0.5,Bcm
+country,Viet Nam,Gas,2008,0.6,Bcm
+country,Viet Nam,Gas,2009,0.7,Bcm
+country,Viet Nam,Gas,2010,0.6,Bcm
+country,Viet Nam,Gas,2011,0.6,Bcm
+country,Viet Nam,Gas,2012,0.6,Bcm
+country,Viet Nam,Gas,2013,0.6,Bcm
+country,Viet Nam,Gas,2014,0.6,Bcm
+country,Viet Nam,Gas,2015,0.6,Bcm
+country,Viet Nam,Gas,2016,0.6,Bcm
+country,Viet Nam,Gas,2017,0.6,Bcm
+country,Viet Nam,Gas,2018,0.6,Bcm
+country,Yemen,Gas,1987,0.1,Bcm
+country,Yemen,Gas,1988,0.2,Bcm
+country,Yemen,Gas,1989,0.2,Bcm
+country,Yemen,Gas,1990,0.2,Bcm
+country,Yemen,Gas,1991,0.3,Bcm
+country,Yemen,Gas,1992,0.3,Bcm
+country,Yemen,Gas,1993,0.3,Bcm
+country,Yemen,Gas,1994,0.3,Bcm
+country,Yemen,Gas,1995,0.3,Bcm
+country,Yemen,Gas,1996,0.3,Bcm
+country,Yemen,Gas,1997,0.3,Bcm
+country,Yemen,Gas,1998,0.3,Bcm
+country,Yemen,Gas,1999,0.3,Bcm
+country,Yemen,Gas,2000,0.3,Bcm
+country,Yemen,Gas,2001,0.3,Bcm
+country,Yemen,Gas,2002,0.3,Bcm
+country,Yemen,Gas,2003,0.3,Bcm
+country,Yemen,Gas,2004,0.3,Bcm
+country,Yemen,Gas,2005,0.3,Bcm
+country,Yemen,Gas,2006,0.3,Bcm
+country,Yemen,Gas,2007,0.3,Bcm
+country,Yemen,Gas,2008,0.3,Bcm
+country,Yemen,Gas,2009,0.3,Bcm
+country,Yemen,Gas,2010,0.3,Bcm
+country,Yemen,Gas,2011,0.3,Bcm
+country,Yemen,Gas,2012,0.3,Bcm
+country,Yemen,Gas,2013,0.3,Bcm
+country,Yemen,Gas,2014,0.3,Bcm
+country,Yemen,Gas,2015,0.3,Bcm
+country,Yemen,Gas,2016,0.3,Bcm
+country,Yemen,Gas,2017,0.3,Bcm
+country,Yemen,Gas,2018,0.3,Bcm
+country,Algeria,Oil,1980,8.2,Gb
+country,Algeria,Oil,1981,8.1,Gb
+country,Algeria,Oil,1982,9.4,Gb
+country,Algeria,Oil,1983,9.2,Gb
+country,Algeria,Oil,1984,9,Gb
+country,Algeria,Oil,1985,8.8,Gb
+country,Algeria,Oil,1986,8.8,Gb
+country,Algeria,Oil,1987,8.6,Gb
+country,Algeria,Oil,1988,9.2,Gb
+country,Algeria,Oil,1989,9.2,Gb
+country,Algeria,Oil,1990,9.2,Gb
+country,Algeria,Oil,1991,9.2,Gb
+country,Algeria,Oil,1992,9.2,Gb
+country,Algeria,Oil,1993,9.2,Gb
+country,Algeria,Oil,1994,10,Gb
+country,Algeria,Oil,1995,10,Gb
+country,Algeria,Oil,1996,10.8,Gb
+country,Algeria,Oil,1997,11.2,Gb
+country,Algeria,Oil,1998,11.3,Gb
+country,Algeria,Oil,1999,11.3,Gb
+country,Algeria,Oil,2000,11.3,Gb
+country,Algeria,Oil,2001,11.3,Gb
+country,Algeria,Oil,2002,11.3,Gb
+country,Algeria,Oil,2003,11.8,Gb
+country,Algeria,Oil,2004,11.8,Gb
+country,Algeria,Oil,2005,12.3,Gb
+country,Algeria,Oil,2006,12.3,Gb
+country,Algeria,Oil,2007,12.2,Gb
+country,Algeria,Oil,2008,12.2,Gb
+country,Algeria,Oil,2009,12.2,Gb
+country,Algeria,Oil,2010,12.2,Gb
+country,Algeria,Oil,2011,12.2,Gb
+country,Algeria,Oil,2012,12.2,Gb
+country,Algeria,Oil,2013,12.2,Gb
+country,Algeria,Oil,2014,12.2,Gb
+country,Algeria,Oil,2015,12.2,Gb
+country,Algeria,Oil,2016,12.2,Gb
+country,Algeria,Oil,2017,12.2,Gb
+country,Algeria,Oil,2018,12.2,Gb
+country,Angola,Oil,1980,1.4,Gb
+country,Angola,Oil,1981,1.1,Gb
+country,Angola,Oil,1982,1.5,Gb
+country,Angola,Oil,1983,1.7,Gb
+country,Angola,Oil,1984,2.1,Gb
+country,Angola,Oil,1985,2,Gb
+country,Angola,Oil,1986,1.4,Gb
+country,Angola,Oil,1987,2,Gb
+country,Angola,Oil,1988,2,Gb
+country,Angola,Oil,1989,2.1,Gb
+country,Angola,Oil,1990,1.6,Gb
+country,Angola,Oil,1991,1.5,Gb
+country,Angola,Oil,1992,1.3,Gb
+country,Angola,Oil,1993,1.9,Gb
+country,Angola,Oil,1994,3,Gb
+country,Angola,Oil,1995,3.1,Gb
+country,Angola,Oil,1996,3.7,Gb
+country,Angola,Oil,1997,3.9,Gb
+country,Angola,Oil,1998,4,Gb
+country,Angola,Oil,1999,5.1,Gb
+country,Angola,Oil,2000,6,Gb
+country,Angola,Oil,2001,6.5,Gb
+country,Angola,Oil,2002,8.9,Gb
+country,Angola,Oil,2003,8.8,Gb
+country,Angola,Oil,2004,9,Gb
+country,Angola,Oil,2005,9.1,Gb
+country,Angola,Oil,2006,9.3,Gb
+country,Angola,Oil,2007,9.5,Gb
+country,Angola,Oil,2008,9.5,Gb
+country,Angola,Oil,2009,9.5,Gb
+country,Angola,Oil,2010,9.1,Gb
+country,Angola,Oil,2011,9.1,Gb
+country,Angola,Oil,2012,9.1,Gb
+country,Angola,Oil,2013,9,Gb
+country,Angola,Oil,2014,8.4,Gb
+country,Angola,Oil,2015,9.5,Gb
+country,Angola,Oil,2016,9.5,Gb
+country,Angola,Oil,2017,8.4,Gb
+country,Angola,Oil,2018,8.4,Gb
+country,Argentina,Oil,1980,2.5,Gb
+country,Argentina,Oil,1981,2.2,Gb
+country,Argentina,Oil,1982,1.9,Gb
+country,Argentina,Oil,1983,2.4,Gb
+country,Argentina,Oil,1984,2.3,Gb
+country,Argentina,Oil,1985,2.2,Gb
+country,Argentina,Oil,1986,2.2,Gb
+country,Argentina,Oil,1987,2.2,Gb
+country,Argentina,Oil,1988,2.3,Gb
+country,Argentina,Oil,1989,2.2,Gb
+country,Argentina,Oil,1990,1.6,Gb
+country,Argentina,Oil,1991,1.7,Gb
+country,Argentina,Oil,1992,2,Gb
+country,Argentina,Oil,1993,2.2,Gb
+country,Argentina,Oil,1994,2.3,Gb
+country,Argentina,Oil,1995,2.4,Gb
+country,Argentina,Oil,1996,2.6,Gb
+country,Argentina,Oil,1997,2.6,Gb
+country,Argentina,Oil,1998,2.8,Gb
+country,Argentina,Oil,1999,3.1,Gb
+country,Argentina,Oil,2000,3,Gb
+country,Argentina,Oil,2001,2.9,Gb
+country,Argentina,Oil,2002,2.8,Gb
+country,Argentina,Oil,2003,2.7,Gb
+country,Argentina,Oil,2004,2.5,Gb
+country,Argentina,Oil,2005,2.2,Gb
+country,Argentina,Oil,2006,2.6,Gb
+country,Argentina,Oil,2007,2.6,Gb
+country,Argentina,Oil,2008,2.5,Gb
+country,Argentina,Oil,2009,2.5,Gb
+country,Argentina,Oil,2010,2.5,Gb
+country,Argentina,Oil,2011,2.5,Gb
+country,Argentina,Oil,2012,2.4,Gb
+country,Argentina,Oil,2013,2.3,Gb
+country,Argentina,Oil,2014,2.4,Gb
+country,Argentina,Oil,2015,2.4,Gb
+country,Argentina,Oil,2016,2.2,Gb
+country,Argentina,Oil,2017,2,Gb
+country,Argentina,Oil,2018,2,Gb
+country,Australia,Oil,1980,2.1,Gb
+country,Australia,Oil,1981,2.6,Gb
+country,Australia,Oil,1982,2.9,Gb
+country,Australia,Oil,1983,2.5,Gb
+country,Australia,Oil,1984,2.6,Gb
+country,Australia,Oil,1985,2.5,Gb
+country,Australia,Oil,1986,2.9,Gb
+country,Australia,Oil,1987,2.9,Gb
+country,Australia,Oil,1988,3.2,Gb
+country,Australia,Oil,1989,3.1,Gb
+country,Australia,Oil,1990,3.2,Gb
+country,Australia,Oil,1991,3.2,Gb
+country,Australia,Oil,1992,3.2,Gb
+country,Australia,Oil,1993,3.3,Gb
+country,Australia,Oil,1994,3.8,Gb
+country,Australia,Oil,1995,3.8,Gb
+country,Australia,Oil,1996,3.8,Gb
+country,Australia,Oil,1997,4,Gb
+country,Australia,Oil,1998,4.8,Gb
+country,Australia,Oil,1999,4.7,Gb
+country,Australia,Oil,2000,4.9,Gb
+country,Australia,Oil,2001,5,Gb
+country,Australia,Oil,2002,4.6,Gb
+country,Australia,Oil,2003,3.7,Gb
+country,Australia,Oil,2004,3.9,Gb
+country,Australia,Oil,2005,3.7,Gb
+country,Australia,Oil,2006,3.5,Gb
+country,Australia,Oil,2007,3.4,Gb
+country,Australia,Oil,2008,4.2,Gb
+country,Australia,Oil,2009,4.1,Gb
+country,Australia,Oil,2010,3.8,Gb
+country,Australia,Oil,2011,3.9,Gb
+country,Australia,Oil,2012,3.9,Gb
+country,Australia,Oil,2013,4,Gb
+country,Australia,Oil,2014,4,Gb
+country,Australia,Oil,2015,4,Gb
+country,Australia,Oil,2016,4,Gb
+country,Australia,Oil,2017,4,Gb
+country,Australia,Oil,2018,4,Gb
+country,Azerbaijan,Oil,1991,1.3,Gb
+country,Azerbaijan,Oil,1992,1.3,Gb
+country,Azerbaijan,Oil,1993,1.3,Gb
+country,Azerbaijan,Oil,1994,1.2,Gb
+country,Azerbaijan,Oil,1995,1.2,Gb
+country,Azerbaijan,Oil,1996,1.2,Gb
+country,Azerbaijan,Oil,1997,1.2,Gb
+country,Azerbaijan,Oil,1998,1.2,Gb
+country,Azerbaijan,Oil,1999,1.2,Gb
+country,Azerbaijan,Oil,2000,1.2,Gb
+country,Azerbaijan,Oil,2001,1.2,Gb
+country,Azerbaijan,Oil,2002,7,Gb
+country,Azerbaijan,Oil,2003,7,Gb
+country,Azerbaijan,Oil,2004,7,Gb
+country,Azerbaijan,Oil,2005,7,Gb
+country,Azerbaijan,Oil,2006,7,Gb
+country,Azerbaijan,Oil,2007,7,Gb
+country,Azerbaijan,Oil,2008,7,Gb
+country,Azerbaijan,Oil,2009,7,Gb
+country,Azerbaijan,Oil,2010,7,Gb
+country,Azerbaijan,Oil,2011,7,Gb
+country,Azerbaijan,Oil,2012,7,Gb
+country,Azerbaijan,Oil,2013,7,Gb
+country,Azerbaijan,Oil,2014,7,Gb
+country,Azerbaijan,Oil,2015,7,Gb
+country,Azerbaijan,Oil,2016,7,Gb
+country,Azerbaijan,Oil,2017,7,Gb
+country,Azerbaijan,Oil,2018,7,Gb
+country,Brazil,Oil,1980,1.3,Gb
+country,Brazil,Oil,1981,1.5,Gb
+country,Brazil,Oil,1982,1.7,Gb
+country,Brazil,Oil,1983,1.8,Gb
+country,Brazil,Oil,1984,2,Gb
+country,Brazil,Oil,1985,2.2,Gb
+country,Brazil,Oil,1986,2.4,Gb
+country,Brazil,Oil,1987,2.6,Gb
+country,Brazil,Oil,1988,2.8,Gb
+country,Brazil,Oil,1989,2.8,Gb
+country,Brazil,Oil,1990,4.5,Gb
+country,Brazil,Oil,1991,4.8,Gb
+country,Brazil,Oil,1992,5,Gb
+country,Brazil,Oil,1993,5,Gb
+country,Brazil,Oil,1994,5.4,Gb
+country,Brazil,Oil,1995,6.2,Gb
+country,Brazil,Oil,1996,6.7,Gb
+country,Brazil,Oil,1997,7.1,Gb
+country,Brazil,Oil,1998,7.4,Gb
+country,Brazil,Oil,1999,8.2,Gb
+country,Brazil,Oil,2000,8.5,Gb
+country,Brazil,Oil,2001,8.5,Gb
+country,Brazil,Oil,2002,9.8,Gb
+country,Brazil,Oil,2003,10.6,Gb
+country,Brazil,Oil,2004,11.2,Gb
+country,Brazil,Oil,2005,11.8,Gb
+country,Brazil,Oil,2006,12.2,Gb
+country,Brazil,Oil,2007,12.6,Gb
+country,Brazil,Oil,2008,12.8,Gb
+country,Brazil,Oil,2009,12.9,Gb
+country,Brazil,Oil,2010,14.2,Gb
+country,Brazil,Oil,2011,15,Gb
+country,Brazil,Oil,2012,15.3,Gb
+country,Brazil,Oil,2013,15.6,Gb
+country,Brazil,Oil,2014,16.2,Gb
+country,Brazil,Oil,2015,13,Gb
+country,Brazil,Oil,2016,12.6,Gb
+country,Brazil,Oil,2017,12.8,Gb
+country,Brazil,Oil,2018,13.4,Gb
+country,Brunei Darussalam,Oil,1980,1.3,Gb
+country,Brunei Darussalam,Oil,1981,1.5,Gb
+country,Brunei Darussalam,Oil,1982,1.4,Gb
+country,Brunei Darussalam,Oil,1983,1.5,Gb
+country,Brunei Darussalam,Oil,1984,1.5,Gb
+country,Brunei Darussalam,Oil,1985,1.4,Gb
+country,Brunei Darussalam,Oil,1986,1.5,Gb
+country,Brunei Darussalam,Oil,1987,1.6,Gb
+country,Brunei Darussalam,Oil,1988,1.2,Gb
+country,Brunei Darussalam,Oil,1989,1.2,Gb
+country,Brunei Darussalam,Oil,1990,1.1,Gb
+country,Brunei Darussalam,Oil,1991,1.2,Gb
+country,Brunei Darussalam,Oil,1992,1.1,Gb
+country,Brunei Darussalam,Oil,1993,1.3,Gb
+country,Brunei Darussalam,Oil,1994,1.2,Gb
+country,Brunei Darussalam,Oil,1995,1.1,Gb
+country,Brunei Darussalam,Oil,1996,1.1,Gb
+country,Brunei Darussalam,Oil,1997,1.1,Gb
+country,Brunei Darussalam,Oil,1998,1,Gb
+country,Brunei Darussalam,Oil,1999,1.3,Gb
+country,Brunei Darussalam,Oil,2000,1.2,Gb
+country,Brunei Darussalam,Oil,2001,1.2,Gb
+country,Brunei Darussalam,Oil,2002,1.1,Gb
+country,Brunei Darussalam,Oil,2003,1.1,Gb
+country,Brunei Darussalam,Oil,2004,1.1,Gb
+country,Brunei Darussalam,Oil,2005,1.1,Gb
+country,Brunei Darussalam,Oil,2006,1.2,Gb
+country,Brunei Darussalam,Oil,2007,1.1,Gb
+country,Brunei Darussalam,Oil,2008,1.1,Gb
+country,Brunei Darussalam,Oil,2009,1.1,Gb
+country,Brunei Darussalam,Oil,2010,1.1,Gb
+country,Brunei Darussalam,Oil,2011,1.1,Gb
+country,Brunei Darussalam,Oil,2012,1.1,Gb
+country,Brunei Darussalam,Oil,2013,1.1,Gb
+country,Brunei Darussalam,Oil,2014,1.1,Gb
+country,Brunei Darussalam,Oil,2015,1.1,Gb
+country,Brunei Darussalam,Oil,2016,1.1,Gb
+country,Brunei Darussalam,Oil,2017,1.1,Gb
+country,Brunei Darussalam,Oil,2018,1.1,Gb
+country,Canada,Oil,1980,39.5,Gb
+country,Canada,Oil,1981,40.2,Gb
+country,Canada,Oil,1982,40.3,Gb
+country,Canada,Oil,1983,40.5,Gb
+country,Canada,Oil,1984,40.5,Gb
+country,Canada,Oil,1985,40.9,Gb
+country,Canada,Oil,1986,41.1,Gb
+country,Canada,Oil,1987,41.2,Gb
+country,Canada,Oil,1988,41.5,Gb
+country,Canada,Oil,1989,41.3,Gb
+country,Canada,Oil,1990,40.3,Gb
+country,Canada,Oil,1991,40.1,Gb
+country,Canada,Oil,1992,39.6,Gb
+country,Canada,Oil,1993,39.5,Gb
+country,Canada,Oil,1994,48.1,Gb
+country,Canada,Oil,1995,48.4,Gb
+country,Canada,Oil,1996,48.9,Gb
+country,Canada,Oil,1997,48.8,Gb
+country,Canada,Oil,1998,49.8,Gb
+country,Canada,Oil,1999,181.6,Gb
+country,Canada,Oil,2000,181.5,Gb
+country,Canada,Oil,2001,180.9,Gb
+country,Canada,Oil,2002,180.4,Gb
+country,Canada,Oil,2003,179.9,Gb
+country,Canada,Oil,2004,179.6,Gb
+country,Canada,Oil,2005,180,Gb
+country,Canada,Oil,2006,179.4,Gb
+country,Canada,Oil,2007,178.8,Gb
+country,Canada,Oil,2008,176.3,Gb
+country,Canada,Oil,2009,175,Gb
+country,Canada,Oil,2010,174.8,Gb
+country,Canada,Oil,2011,174.2,Gb
+country,Canada,Oil,2012,173.7,Gb
+country,Canada,Oil,2013,173,Gb
+country,Canada,Oil,2014,172.2,Gb
+country,Canada,Oil,2015,171.5,Gb
+country,Canada,Oil,2016,170.5,Gb
+country,Canada,Oil,2017,168.9,Gb
+country,Canada,Oil,2018,167.8,Gb
+country,Chad,Oil,2000,0.9,Gb
+country,Chad,Oil,2001,0.9,Gb
+country,Chad,Oil,2002,0.9,Gb
+country,Chad,Oil,2003,0.9,Gb
+country,Chad,Oil,2004,0.9,Gb
+country,Chad,Oil,2005,1.5,Gb
+country,Chad,Oil,2006,1.5,Gb
+country,Chad,Oil,2007,1.5,Gb
+country,Chad,Oil,2008,1.5,Gb
+country,Chad,Oil,2009,1.5,Gb
+country,Chad,Oil,2010,1.5,Gb
+country,Chad,Oil,2011,1.5,Gb
+country,Chad,Oil,2012,1.5,Gb
+country,Chad,Oil,2013,1.5,Gb
+country,Chad,Oil,2014,1.5,Gb
+country,Chad,Oil,2015,1.5,Gb
+country,Chad,Oil,2016,1.5,Gb
+country,Chad,Oil,2017,1.5,Gb
+country,Chad,Oil,2018,1.5,Gb
+country,China,Oil,1980,13.4,Gb
+country,China,Oil,1981,13.3,Gb
+country,China,Oil,1982,13.3,Gb
+country,China,Oil,1983,14.9,Gb
+country,China,Oil,1984,16.4,Gb
+country,China,Oil,1985,17.1,Gb
+country,China,Oil,1986,17.2,Gb
+country,China,Oil,1987,17.4,Gb
+country,China,Oil,1988,17.3,Gb
+country,China,Oil,1989,16.1,Gb
+country,China,Oil,1990,16,Gb
+country,China,Oil,1991,15.5,Gb
+country,China,Oil,1992,15.2,Gb
+country,China,Oil,1993,16.4,Gb
+country,China,Oil,1994,16.3,Gb
+country,China,Oil,1995,16.4,Gb
+country,China,Oil,1996,16.4,Gb
+country,China,Oil,1997,17,Gb
+country,China,Oil,1998,17.4,Gb
+country,China,Oil,1999,15.1,Gb
+country,China,Oil,2000,15.2,Gb
+country,China,Oil,2001,15.4,Gb
+country,China,Oil,2002,15.5,Gb
+country,China,Oil,2003,15.5,Gb
+country,China,Oil,2004,18.3,Gb
+country,China,Oil,2005,18.2,Gb
+country,China,Oil,2006,20.2,Gb
+country,China,Oil,2007,20.8,Gb
+country,China,Oil,2008,21.2,Gb
+country,China,Oil,2009,21.6,Gb
+country,China,Oil,2010,23.3,Gb
+country,China,Oil,2011,23.7,Gb
+country,China,Oil,2012,24.4,Gb
+country,China,Oil,2013,24.7,Gb
+country,China,Oil,2014,25.2,Gb
+country,China,Oil,2015,25.6,Gb
+country,China,Oil,2016,25.7,Gb
+country,China,Oil,2017,25.9,Gb
+country,China,Oil,2018,25.9,Gb
+country,Colombia,Oil,1980,0.6,Gb
+country,Colombia,Oil,1981,0.5,Gb
+country,Colombia,Oil,1982,0.6,Gb
+country,Colombia,Oil,1983,0.6,Gb
+country,Colombia,Oil,1984,1.1,Gb
+country,Colombia,Oil,1985,1.2,Gb
+country,Colombia,Oil,1986,1.7,Gb
+country,Colombia,Oil,1987,1.9,Gb
+country,Colombia,Oil,1988,2.1,Gb
+country,Colombia,Oil,1989,2,Gb
+country,Colombia,Oil,1990,2,Gb
+country,Colombia,Oil,1991,1.9,Gb
+country,Colombia,Oil,1992,3.2,Gb
+country,Colombia,Oil,1993,3.2,Gb
+country,Colombia,Oil,1994,3.1,Gb
+country,Colombia,Oil,1995,3,Gb
+country,Colombia,Oil,1996,2.8,Gb
+country,Colombia,Oil,1997,2.6,Gb
+country,Colombia,Oil,1998,2.5,Gb
+country,Colombia,Oil,1999,2.3,Gb
+country,Colombia,Oil,2000,2,Gb
+country,Colombia,Oil,2001,1.8,Gb
+country,Colombia,Oil,2002,1.6,Gb
+country,Colombia,Oil,2003,1.5,Gb
+country,Colombia,Oil,2004,1.5,Gb
+country,Colombia,Oil,2005,1.5,Gb
+country,Colombia,Oil,2006,1.5,Gb
+country,Colombia,Oil,2007,1.5,Gb
+country,Colombia,Oil,2008,1.4,Gb
+country,Colombia,Oil,2009,1.4,Gb
+country,Colombia,Oil,2010,1.9,Gb
+country,Colombia,Oil,2011,2,Gb
+country,Colombia,Oil,2012,2.2,Gb
+country,Colombia,Oil,2013,2.4,Gb
+country,Colombia,Oil,2014,2.4,Gb
+country,Colombia,Oil,2015,2.3,Gb
+country,Colombia,Oil,2016,2,Gb
+country,Colombia,Oil,2017,1.7,Gb
+country,Colombia,Oil,2018,1.8,Gb
+country,Denmark,Oil,1980,0.5,Gb
+country,Denmark,Oil,1981,0.4,Gb
+country,Denmark,Oil,1982,0.3,Gb
+country,Denmark,Oil,1983,0.3,Gb
+country,Denmark,Oil,1984,0.5,Gb
+country,Denmark,Oil,1985,0.4,Gb
+country,Denmark,Oil,1986,0.4,Gb
+country,Denmark,Oil,1987,0.4,Gb
+country,Denmark,Oil,1988,0.5,Gb
+country,Denmark,Oil,1989,0.6,Gb
+country,Denmark,Oil,1990,0.6,Gb
+country,Denmark,Oil,1991,0.6,Gb
+country,Denmark,Oil,1992,0.7,Gb
+country,Denmark,Oil,1993,0.7,Gb
+country,Denmark,Oil,1994,0.8,Gb
+country,Denmark,Oil,1995,0.9,Gb
+country,Denmark,Oil,1996,0.9,Gb
+country,Denmark,Oil,1997,0.9,Gb
+country,Denmark,Oil,1998,0.9,Gb
+country,Denmark,Oil,1999,0.9,Gb
+country,Denmark,Oil,2000,1.1,Gb
+country,Denmark,Oil,2001,1.3,Gb
+country,Denmark,Oil,2002,1.3,Gb
+country,Denmark,Oil,2003,1.3,Gb
+country,Denmark,Oil,2004,1.3,Gb
+country,Denmark,Oil,2005,1.3,Gb
+country,Denmark,Oil,2006,1.2,Gb
+country,Denmark,Oil,2007,1.1,Gb
+country,Denmark,Oil,2008,0.8,Gb
+country,Denmark,Oil,2009,0.9,Gb
+country,Denmark,Oil,2010,0.9,Gb
+country,Denmark,Oil,2011,0.8,Gb
+country,Denmark,Oil,2012,0.7,Gb
+country,Denmark,Oil,2013,0.7,Gb
+country,Denmark,Oil,2014,0.6,Gb
+country,Denmark,Oil,2015,0.5,Gb
+country,Denmark,Oil,2016,0.4,Gb
+country,Denmark,Oil,2017,0.4,Gb
+country,Denmark,Oil,2018,0.4,Gb
+country,Ecuador,Oil,1980,1,Gb
+country,Ecuador,Oil,1981,0.9,Gb
+country,Ecuador,Oil,1982,0.9,Gb
+country,Ecuador,Oil,1983,0.9,Gb
+country,Ecuador,Oil,1984,1.1,Gb
+country,Ecuador,Oil,1985,1.1,Gb
+country,Ecuador,Oil,1986,1.2,Gb
+country,Ecuador,Oil,1987,1.6,Gb
+country,Ecuador,Oil,1988,1.5,Gb
+country,Ecuador,Oil,1989,1.4,Gb
+country,Ecuador,Oil,1990,1.4,Gb
+country,Ecuador,Oil,1991,1.5,Gb
+country,Ecuador,Oil,1992,3.2,Gb
+country,Ecuador,Oil,1993,3.7,Gb
+country,Ecuador,Oil,1994,3.5,Gb
+country,Ecuador,Oil,1995,3.4,Gb
+country,Ecuador,Oil,1996,3.5,Gb
+country,Ecuador,Oil,1997,3.7,Gb
+country,Ecuador,Oil,1998,4.1,Gb
+country,Ecuador,Oil,1999,4.4,Gb
+country,Ecuador,Oil,2000,4.6,Gb
+country,Ecuador,Oil,2001,5.9,Gb
+country,Ecuador,Oil,2002,6.4,Gb
+country,Ecuador,Oil,2003,6.4,Gb
+country,Ecuador,Oil,2004,6.3,Gb
+country,Ecuador,Oil,2005,4.5,Gb
+country,Ecuador,Oil,2006,4.2,Gb
+country,Ecuador,Oil,2007,4.3,Gb
+country,Ecuador,Oil,2008,4.3,Gb
+country,Ecuador,Oil,2009,4.6,Gb
+country,Ecuador,Oil,2010,3.5,Gb
+country,Ecuador,Oil,2011,3.4,Gb
+country,Ecuador,Oil,2012,3.3,Gb
+country,Ecuador,Oil,2013,3.5,Gb
+country,Ecuador,Oil,2014,3,Gb
+country,Ecuador,Oil,2015,3.1,Gb
+country,Ecuador,Oil,2016,3.2,Gb
+country,Ecuador,Oil,2017,3,Gb
+country,Ecuador,Oil,2018,2.8,Gb
+country,Egypt,Oil,1980,2.9,Gb
+country,Egypt,Oil,1981,3.5,Gb
+country,Egypt,Oil,1982,3.7,Gb
+country,Egypt,Oil,1983,4,Gb
+country,Egypt,Oil,1984,4,Gb
+country,Egypt,Oil,1985,3.8,Gb
+country,Egypt,Oil,1986,4.5,Gb
+country,Egypt,Oil,1987,4.7,Gb
+country,Egypt,Oil,1988,4.3,Gb
+country,Egypt,Oil,1989,4.3,Gb
+country,Egypt,Oil,1990,3.5,Gb
+country,Egypt,Oil,1991,3.5,Gb
+country,Egypt,Oil,1992,3.4,Gb
+country,Egypt,Oil,1993,3.4,Gb
+country,Egypt,Oil,1994,3.9,Gb
+country,Egypt,Oil,1995,3.8,Gb
+country,Egypt,Oil,1996,3.8,Gb
+country,Egypt,Oil,1997,3.7,Gb
+country,Egypt,Oil,1998,3.8,Gb
+country,Egypt,Oil,1999,3.8,Gb
+country,Egypt,Oil,2000,3.6,Gb
+country,Egypt,Oil,2001,3.7,Gb
+country,Egypt,Oil,2002,3.5,Gb
+country,Egypt,Oil,2003,3.5,Gb
+country,Egypt,Oil,2004,3.6,Gb
+country,Egypt,Oil,2005,3.7,Gb
+country,Egypt,Oil,2006,3.7,Gb
+country,Egypt,Oil,2007,4.1,Gb
+country,Egypt,Oil,2008,4.2,Gb
+country,Egypt,Oil,2009,4.4,Gb
+country,Egypt,Oil,2010,4.5,Gb
+country,Egypt,Oil,2011,4.3,Gb
+country,Egypt,Oil,2012,4.2,Gb
+country,Egypt,Oil,2013,3.9,Gb
+country,Egypt,Oil,2014,3.7,Gb
+country,Egypt,Oil,2015,3.5,Gb
+country,Egypt,Oil,2016,3.4,Gb
+country,Egypt,Oil,2017,3.3,Gb
+country,Egypt,Oil,2018,3.3,Gb
+country,Equatorial Guinea,Oil,1991,0.3,Gb
+country,Equatorial Guinea,Oil,1992,0.3,Gb
+country,Equatorial Guinea,Oil,1993,0.3,Gb
+country,Equatorial Guinea,Oil,1994,0.3,Gb
+country,Equatorial Guinea,Oil,1995,0.6,Gb
+country,Equatorial Guinea,Oil,1996,0.6,Gb
+country,Equatorial Guinea,Oil,1997,0.6,Gb
+country,Equatorial Guinea,Oil,1998,0.6,Gb
+country,Equatorial Guinea,Oil,1999,0.6,Gb
+country,Equatorial Guinea,Oil,2000,0.8,Gb
+country,Equatorial Guinea,Oil,2001,1.1,Gb
+country,Equatorial Guinea,Oil,2002,1.1,Gb
+country,Equatorial Guinea,Oil,2003,1.3,Gb
+country,Equatorial Guinea,Oil,2004,1.8,Gb
+country,Equatorial Guinea,Oil,2005,1.8,Gb
+country,Equatorial Guinea,Oil,2006,1.8,Gb
+country,Equatorial Guinea,Oil,2007,1.7,Gb
+country,Equatorial Guinea,Oil,2008,1.7,Gb
+country,Equatorial Guinea,Oil,2009,1.7,Gb
+country,Equatorial Guinea,Oil,2010,1.7,Gb
+country,Equatorial Guinea,Oil,2011,1.7,Gb
+country,Equatorial Guinea,Oil,2012,1.7,Gb
+country,Equatorial Guinea,Oil,2013,1.7,Gb
+country,Equatorial Guinea,Oil,2014,1.1,Gb
+country,Equatorial Guinea,Oil,2015,1.1,Gb
+country,Equatorial Guinea,Oil,2016,1.1,Gb
+country,Equatorial Guinea,Oil,2017,1.1,Gb
+country,Equatorial Guinea,Oil,2018,1.1,Gb
+country,Gabon,Oil,1980,0.5,Gb
+country,Gabon,Oil,1981,0.5,Gb
+country,Gabon,Oil,1982,0.5,Gb
+country,Gabon,Oil,1983,0.5,Gb
+country,Gabon,Oil,1984,0.6,Gb
+country,Gabon,Oil,1985,0.7,Gb
+country,Gabon,Oil,1986,0.6,Gb
+country,Gabon,Oil,1987,1,Gb
+country,Gabon,Oil,1988,0.9,Gb
+country,Gabon,Oil,1989,1,Gb
+country,Gabon,Oil,1990,0.9,Gb
+country,Gabon,Oil,1991,0.9,Gb
+country,Gabon,Oil,1992,0.8,Gb
+country,Gabon,Oil,1993,0.7,Gb
+country,Gabon,Oil,1994,1.4,Gb
+country,Gabon,Oil,1995,1.5,Gb
+country,Gabon,Oil,1996,2.8,Gb
+country,Gabon,Oil,1997,2.7,Gb
+country,Gabon,Oil,1998,2.6,Gb
+country,Gabon,Oil,1999,2.6,Gb
+country,Gabon,Oil,2000,2.4,Gb
+country,Gabon,Oil,2001,2.4,Gb
+country,Gabon,Oil,2002,2.4,Gb
+country,Gabon,Oil,2003,2.3,Gb
+country,Gabon,Oil,2004,2.2,Gb
+country,Gabon,Oil,2005,2.1,Gb
+country,Gabon,Oil,2006,2.2,Gb
+country,Gabon,Oil,2007,2,Gb
+country,Gabon,Oil,2008,2,Gb
+country,Gabon,Oil,2009,2,Gb
+country,Gabon,Oil,2010,2,Gb
+country,Gabon,Oil,2011,2,Gb
+country,Gabon,Oil,2012,2,Gb
+country,Gabon,Oil,2013,2,Gb
+country,Gabon,Oil,2014,2,Gb
+country,Gabon,Oil,2015,2,Gb
+country,Gabon,Oil,2016,2,Gb
+country,Gabon,Oil,2017,2,Gb
+country,Gabon,Oil,2018,2,Gb
+country,India,Oil,1980,2.8,Gb
+country,India,Oil,1981,3.5,Gb
+country,India,Oil,1982,3.5,Gb
+country,India,Oil,1983,3.6,Gb
+country,India,Oil,1984,3.8,Gb
+country,India,Oil,1985,3.8,Gb
+country,India,Oil,1986,4.6,Gb
+country,India,Oil,1987,4.4,Gb
+country,India,Oil,1988,4.5,Gb
+country,India,Oil,1989,4.3,Gb
+country,India,Oil,1990,5.6,Gb
+country,India,Oil,1991,6.1,Gb
+country,India,Oil,1992,5.9,Gb
+country,India,Oil,1993,5.9,Gb
+country,India,Oil,1994,5.8,Gb
+country,India,Oil,1995,5.5,Gb
+country,India,Oil,1996,5.5,Gb
+country,India,Oil,1997,5.6,Gb
+country,India,Oil,1998,5.4,Gb
+country,India,Oil,1999,5,Gb
+country,India,Oil,2000,5.3,Gb
+country,India,Oil,2001,5.5,Gb
+country,India,Oil,2002,5.6,Gb
+country,India,Oil,2003,5.7,Gb
+country,India,Oil,2004,5.6,Gb
+country,India,Oil,2005,5.9,Gb
+country,India,Oil,2006,5.7,Gb
+country,India,Oil,2007,5.5,Gb
+country,India,Oil,2008,5.8,Gb
+country,India,Oil,2009,5.8,Gb
+country,India,Oil,2010,5.8,Gb
+country,India,Oil,2011,5.7,Gb
+country,India,Oil,2012,5.7,Gb
+country,India,Oil,2013,5.7,Gb
+country,India,Oil,2014,5.7,Gb
+country,India,Oil,2015,4.8,Gb
+country,India,Oil,2016,4.7,Gb
+country,India,Oil,2017,4.5,Gb
+country,India,Oil,2018,4.5,Gb
+country,Indonesia,Oil,1980,11.6,Gb
+country,Indonesia,Oil,1981,11,Gb
+country,Indonesia,Oil,1982,10.5,Gb
+country,Indonesia,Oil,1983,10.1,Gb
+country,Indonesia,Oil,1984,9.6,Gb
+country,Indonesia,Oil,1985,9.2,Gb
+country,Indonesia,Oil,1986,9,Gb
+country,Indonesia,Oil,1987,9,Gb
+country,Indonesia,Oil,1988,9,Gb
+country,Indonesia,Oil,1989,5.1,Gb
+country,Indonesia,Oil,1990,5.4,Gb
+country,Indonesia,Oil,1991,5.9,Gb
+country,Indonesia,Oil,1992,5.6,Gb
+country,Indonesia,Oil,1993,5.2,Gb
+country,Indonesia,Oil,1994,5,Gb
+country,Indonesia,Oil,1995,5,Gb
+country,Indonesia,Oil,1996,4.7,Gb
+country,Indonesia,Oil,1997,4.9,Gb
+country,Indonesia,Oil,1998,5.1,Gb
+country,Indonesia,Oil,1999,5.2,Gb
+country,Indonesia,Oil,2000,5.1,Gb
+country,Indonesia,Oil,2001,5.1,Gb
+country,Indonesia,Oil,2002,4.7,Gb
+country,Indonesia,Oil,2003,4.7,Gb
+country,Indonesia,Oil,2004,4.3,Gb
+country,Indonesia,Oil,2005,4.2,Gb
+country,Indonesia,Oil,2006,4.4,Gb
+country,Indonesia,Oil,2007,4,Gb
+country,Indonesia,Oil,2008,3.7,Gb
+country,Indonesia,Oil,2009,4.3,Gb
+country,Indonesia,Oil,2010,4.2,Gb
+country,Indonesia,Oil,2011,3.7,Gb
+country,Indonesia,Oil,2012,3.7,Gb
+country,Indonesia,Oil,2013,3.7,Gb
+country,Indonesia,Oil,2014,3.6,Gb
+country,Indonesia,Oil,2015,3.6,Gb
+country,Indonesia,Oil,2016,3.3,Gb
+country,Indonesia,Oil,2017,3.2,Gb
+country,Indonesia,Oil,2018,3.2,Gb
+country,Iran,Oil,1980,58.3,Gb
+country,Iran,Oil,1981,57,Gb
+country,Iran,Oil,1982,56.1,Gb
+country,Iran,Oil,1983,55.3,Gb
+country,Iran,Oil,1984,58.9,Gb
+country,Iran,Oil,1985,59,Gb
+country,Iran,Oil,1986,92.9,Gb
+country,Iran,Oil,1987,92.9,Gb
+country,Iran,Oil,1988,92.9,Gb
+country,Iran,Oil,1989,92.9,Gb
+country,Iran,Oil,1990,92.9,Gb
+country,Iran,Oil,1991,92.9,Gb
+country,Iran,Oil,1992,92.9,Gb
+country,Iran,Oil,1993,92.9,Gb
+country,Iran,Oil,1994,94.3,Gb
+country,Iran,Oil,1995,93.7,Gb
+country,Iran,Oil,1996,92.6,Gb
+country,Iran,Oil,1997,92.6,Gb
+country,Iran,Oil,1998,93.7,Gb
+country,Iran,Oil,1999,93.1,Gb
+country,Iran,Oil,2000,99.5,Gb
+country,Iran,Oil,2001,99.1,Gb
+country,Iran,Oil,2002,130.7,Gb
+country,Iran,Oil,2003,133.3,Gb
+country,Iran,Oil,2004,132.7,Gb
+country,Iran,Oil,2005,137.5,Gb
+country,Iran,Oil,2006,138.4,Gb
+country,Iran,Oil,2007,138.2,Gb
+country,Iran,Oil,2008,137.6,Gb
+country,Iran,Oil,2009,137,Gb
+country,Iran,Oil,2010,151.2,Gb
+country,Iran,Oil,2011,154.6,Gb
+country,Iran,Oil,2012,157.3,Gb
+country,Iran,Oil,2013,157.8,Gb
+country,Iran,Oil,2014,157.5,Gb
+country,Iran,Oil,2015,158.4,Gb
+country,Iran,Oil,2016,157.2,Gb
+country,Iran,Oil,2017,155.6,Gb
+country,Iran,Oil,2018,155.6,Gb
+country,Iraq,Oil,1980,30,Gb
+country,Iraq,Oil,1981,32,Gb
+country,Iraq,Oil,1982,59,Gb
+country,Iraq,Oil,1983,65,Gb
+country,Iraq,Oil,1984,65,Gb
+country,Iraq,Oil,1985,65,Gb
+country,Iraq,Oil,1986,72,Gb
+country,Iraq,Oil,1987,100,Gb
+country,Iraq,Oil,1988,100,Gb
+country,Iraq,Oil,1989,100,Gb
+country,Iraq,Oil,1990,100,Gb
+country,Iraq,Oil,1991,100,Gb
+country,Iraq,Oil,1992,100,Gb
+country,Iraq,Oil,1993,100,Gb
+country,Iraq,Oil,1994,100,Gb
+country,Iraq,Oil,1995,100,Gb
+country,Iraq,Oil,1996,112,Gb
+country,Iraq,Oil,1997,112.5,Gb
+country,Iraq,Oil,1998,112.5,Gb
+country,Iraq,Oil,1999,112.5,Gb
+country,Iraq,Oil,2000,112.5,Gb
+country,Iraq,Oil,2001,115,Gb
+country,Iraq,Oil,2002,115,Gb
+country,Iraq,Oil,2003,115,Gb
+country,Iraq,Oil,2004,115,Gb
+country,Iraq,Oil,2005,115,Gb
+country,Iraq,Oil,2006,115,Gb
+country,Iraq,Oil,2007,115,Gb
+country,Iraq,Oil,2008,115,Gb
+country,Iraq,Oil,2009,115,Gb
+country,Iraq,Oil,2010,115,Gb
+country,Iraq,Oil,2011,143.1,Gb
+country,Iraq,Oil,2012,140.3,Gb
+country,Iraq,Oil,2013,144.2,Gb
+country,Iraq,Oil,2014,143.1,Gb
+country,Iraq,Oil,2015,142.5,Gb
+country,Iraq,Oil,2016,148.8,Gb
+country,Iraq,Oil,2017,147.2,Gb
+country,Iraq,Oil,2018,147.2,Gb
+country,Italy,Oil,1980,0.4,Gb
+country,Italy,Oil,1981,0.4,Gb
+country,Italy,Oil,1982,0.4,Gb
+country,Italy,Oil,1983,0.4,Gb
+country,Italy,Oil,1984,0.6,Gb
+country,Italy,Oil,1985,0.6,Gb
+country,Italy,Oil,1986,0.6,Gb
+country,Italy,Oil,1987,0.7,Gb
+country,Italy,Oil,1988,0.8,Gb
+country,Italy,Oil,1989,0.8,Gb
+country,Italy,Oil,1990,0.8,Gb
+country,Italy,Oil,1991,0.8,Gb
+country,Italy,Oil,1992,0.6,Gb
+country,Italy,Oil,1993,0.6,Gb
+country,Italy,Oil,1994,0.8,Gb
+country,Italy,Oil,1995,0.8,Gb
+country,Italy,Oil,1996,0.8,Gb
+country,Italy,Oil,1997,0.6,Gb
+country,Italy,Oil,1998,0.6,Gb
+country,Italy,Oil,1999,0.6,Gb
+country,Italy,Oil,2000,0.6,Gb
+country,Italy,Oil,2001,0.6,Gb
+country,Italy,Oil,2002,0.6,Gb
+country,Italy,Oil,2003,0.5,Gb
+country,Italy,Oil,2004,0.5,Gb
+country,Italy,Oil,2005,0.5,Gb
+country,Italy,Oil,2006,0.5,Gb
+country,Italy,Oil,2007,0.5,Gb
+country,Italy,Oil,2008,0.5,Gb
+country,Italy,Oil,2009,0.5,Gb
+country,Italy,Oil,2010,0.6,Gb
+country,Italy,Oil,2011,0.6,Gb
+country,Italy,Oil,2012,0.6,Gb
+country,Italy,Oil,2013,0.6,Gb
+country,Italy,Oil,2014,0.6,Gb
+country,Italy,Oil,2015,0.6,Gb
+country,Italy,Oil,2016,0.5,Gb
+country,Italy,Oil,2017,0.6,Gb
+country,Italy,Oil,2018,0.6,Gb
+country,Kazakhstan,Oil,1991,5.2,Gb
+country,Kazakhstan,Oil,1992,5.2,Gb
+country,Kazakhstan,Oil,1993,5.2,Gb
+country,Kazakhstan,Oil,1994,5.3,Gb
+country,Kazakhstan,Oil,1995,5.3,Gb
+country,Kazakhstan,Oil,1996,5.3,Gb
+country,Kazakhstan,Oil,1997,5.3,Gb
+country,Kazakhstan,Oil,1998,5.4,Gb
+country,Kazakhstan,Oil,1999,5.4,Gb
+country,Kazakhstan,Oil,2000,5.4,Gb
+country,Kazakhstan,Oil,2001,5.4,Gb
+country,Kazakhstan,Oil,2002,5.4,Gb
+country,Kazakhstan,Oil,2003,9,Gb
+country,Kazakhstan,Oil,2004,9,Gb
+country,Kazakhstan,Oil,2005,9,Gb
+country,Kazakhstan,Oil,2006,9,Gb
+country,Kazakhstan,Oil,2007,30,Gb
+country,Kazakhstan,Oil,2008,30,Gb
+country,Kazakhstan,Oil,2009,30,Gb
+country,Kazakhstan,Oil,2010,30,Gb
+country,Kazakhstan,Oil,2011,30,Gb
+country,Kazakhstan,Oil,2012,30,Gb
+country,Kazakhstan,Oil,2013,30,Gb
+country,Kazakhstan,Oil,2014,30,Gb
+country,Kazakhstan,Oil,2015,30,Gb
+country,Kazakhstan,Oil,2016,30,Gb
+country,Kazakhstan,Oil,2017,30,Gb
+country,Kazakhstan,Oil,2018,30,Gb
+country,Kuwait,Oil,1980,67.9,Gb
+country,Kuwait,Oil,1981,67.7,Gb
+country,Kuwait,Oil,1982,67.2,Gb
+country,Kuwait,Oil,1983,67,Gb
+country,Kuwait,Oil,1984,92.7,Gb
+country,Kuwait,Oil,1985,92.5,Gb
+country,Kuwait,Oil,1986,94.5,Gb
+country,Kuwait,Oil,1987,94.5,Gb
+country,Kuwait,Oil,1988,94.5,Gb
+country,Kuwait,Oil,1989,97.1,Gb
+country,Kuwait,Oil,1990,97,Gb
+country,Kuwait,Oil,1991,96.5,Gb
+country,Kuwait,Oil,1992,96.5,Gb
+country,Kuwait,Oil,1993,96.5,Gb
+country,Kuwait,Oil,1994,96.5,Gb
+country,Kuwait,Oil,1995,96.5,Gb
+country,Kuwait,Oil,1996,96.5,Gb
+country,Kuwait,Oil,1997,96.5,Gb
+country,Kuwait,Oil,1998,96.5,Gb
+country,Kuwait,Oil,1999,96.5,Gb
+country,Kuwait,Oil,2000,96.5,Gb
+country,Kuwait,Oil,2001,96.5,Gb
+country,Kuwait,Oil,2002,96.5,Gb
+country,Kuwait,Oil,2003,99,Gb
+country,Kuwait,Oil,2004,101.5,Gb
+country,Kuwait,Oil,2005,101.5,Gb
+country,Kuwait,Oil,2006,101.5,Gb
+country,Kuwait,Oil,2007,101.5,Gb
+country,Kuwait,Oil,2008,101.5,Gb
+country,Kuwait,Oil,2009,101.5,Gb
+country,Kuwait,Oil,2010,101.5,Gb
+country,Kuwait,Oil,2011,101.5,Gb
+country,Kuwait,Oil,2012,101.5,Gb
+country,Kuwait,Oil,2013,101.5,Gb
+country,Kuwait,Oil,2014,101.5,Gb
+country,Kuwait,Oil,2015,101.5,Gb
+country,Kuwait,Oil,2016,101.5,Gb
+country,Kuwait,Oil,2017,101.5,Gb
+country,Kuwait,Oil,2018,101.5,Gb
+country,Libya,Oil,1980,20.3,Gb
+country,Libya,Oil,1981,22.6,Gb
+country,Libya,Oil,1982,22.2,Gb
+country,Libya,Oil,1983,21.8,Gb
+country,Libya,Oil,1984,21.4,Gb
+country,Libya,Oil,1985,21.3,Gb
+country,Libya,Oil,1986,22.8,Gb
+country,Libya,Oil,1987,22.8,Gb
+country,Libya,Oil,1988,22.8,Gb
+country,Libya,Oil,1989,22.8,Gb
+country,Libya,Oil,1990,22.8,Gb
+country,Libya,Oil,1991,22.8,Gb
+country,Libya,Oil,1992,22.8,Gb
+country,Libya,Oil,1993,22.8,Gb
+country,Libya,Oil,1994,22.8,Gb
+country,Libya,Oil,1995,29.5,Gb
+country,Libya,Oil,1996,29.5,Gb
+country,Libya,Oil,1997,29.5,Gb
+country,Libya,Oil,1998,29.5,Gb
+country,Libya,Oil,1999,29.5,Gb
+country,Libya,Oil,2000,36,Gb
+country,Libya,Oil,2001,36,Gb
+country,Libya,Oil,2002,36,Gb
+country,Libya,Oil,2003,39.1,Gb
+country,Libya,Oil,2004,39.1,Gb
+country,Libya,Oil,2005,41.5,Gb
+country,Libya,Oil,2006,41.5,Gb
+country,Libya,Oil,2007,43.7,Gb
+country,Libya,Oil,2008,44.3,Gb
+country,Libya,Oil,2009,46.4,Gb
+country,Libya,Oil,2010,47.1,Gb
+country,Libya,Oil,2011,48,Gb
+country,Libya,Oil,2012,48.5,Gb
+country,Libya,Oil,2013,48.4,Gb
+country,Libya,Oil,2014,48.4,Gb
+country,Libya,Oil,2015,48.4,Gb
+country,Libya,Oil,2016,48.4,Gb
+country,Libya,Oil,2017,48.4,Gb
+country,Libya,Oil,2018,48.4,Gb
+country,Malaysia,Oil,1980,2.3,Gb
+country,Malaysia,Oil,1981,2.3,Gb
+country,Malaysia,Oil,1982,2.6,Gb
+country,Malaysia,Oil,1983,3,Gb
+country,Malaysia,Oil,1984,3.1,Gb
+country,Malaysia,Oil,1985,3,Gb
+country,Malaysia,Oil,1986,2.9,Gb
+country,Malaysia,Oil,1987,2.9,Gb
+country,Malaysia,Oil,1988,3.1,Gb
+country,Malaysia,Oil,1989,2.9,Gb
+country,Malaysia,Oil,1990,3,Gb
+country,Malaysia,Oil,1991,5.6,Gb
+country,Malaysia,Oil,1992,6.1,Gb
+country,Malaysia,Oil,1993,4.3,Gb
+country,Malaysia,Oil,1994,4.1,Gb
+country,Malaysia,Oil,1995,4,Gb
+country,Malaysia,Oil,1996,3.9,Gb
+country,Malaysia,Oil,1997,3.9,Gb
+country,Malaysia,Oil,1998,3.4,Gb
+country,Malaysia,Oil,1999,3.4,Gb
+country,Malaysia,Oil,2000,3.4,Gb
+country,Malaysia,Oil,2001,4.2,Gb
+country,Malaysia,Oil,2002,4.6,Gb
+country,Malaysia,Oil,2003,4.8,Gb
+country,Malaysia,Oil,2004,5.2,Gb
+country,Malaysia,Oil,2005,5.3,Gb
+country,Malaysia,Oil,2006,5.4,Gb
+country,Malaysia,Oil,2007,5.5,Gb
+country,Malaysia,Oil,2008,5.5,Gb
+country,Malaysia,Oil,2009,5.8,Gb
+country,Malaysia,Oil,2010,5.9,Gb
+country,Malaysia,Oil,2011,4.9,Gb
+country,Malaysia,Oil,2012,5,Gb
+country,Malaysia,Oil,2013,4.5,Gb
+country,Malaysia,Oil,2014,3.8,Gb
+country,Malaysia,Oil,2015,3.6,Gb
+country,Malaysia,Oil,2016,3,Gb
+country,Malaysia,Oil,2017,3,Gb
+country,Malaysia,Oil,2018,3,Gb
+country,Mexico,Oil,1980,47.2,Gb
+country,Mexico,Oil,1981,57,Gb
+country,Mexico,Oil,1982,57,Gb
+country,Mexico,Oil,1983,57.1,Gb
+country,Mexico,Oil,1984,56.4,Gb
+country,Mexico,Oil,1985,55.6,Gb
+country,Mexico,Oil,1986,54.9,Gb
+country,Mexico,Oil,1987,54.1,Gb
+country,Mexico,Oil,1988,53,Gb
+country,Mexico,Oil,1989,52,Gb
+country,Mexico,Oil,1990,51.3,Gb
+country,Mexico,Oil,1991,50.9,Gb
+country,Mexico,Oil,1992,51.2,Gb
+country,Mexico,Oil,1993,50.8,Gb
+country,Mexico,Oil,1994,49.8,Gb
+country,Mexico,Oil,1995,48.8,Gb
+country,Mexico,Oil,1996,48.5,Gb
+country,Mexico,Oil,1997,47.8,Gb
+country,Mexico,Oil,1998,21.6,Gb
+country,Mexico,Oil,1999,21.5,Gb
+country,Mexico,Oil,2000,20.2,Gb
+country,Mexico,Oil,2001,18.8,Gb
+country,Mexico,Oil,2002,17.2,Gb
+country,Mexico,Oil,2003,16,Gb
+country,Mexico,Oil,2004,14.8,Gb
+country,Mexico,Oil,2005,13.7,Gb
+country,Mexico,Oil,2006,12.8,Gb
+country,Mexico,Oil,2007,12.2,Gb
+country,Mexico,Oil,2008,11.9,Gb
+country,Mexico,Oil,2009,11.9,Gb
+country,Mexico,Oil,2010,11.7,Gb
+country,Mexico,Oil,2011,11.4,Gb
+country,Mexico,Oil,2012,11.4,Gb
+country,Mexico,Oil,2013,11.1,Gb
+country,Mexico,Oil,2014,10.8,Gb
+country,Mexico,Oil,2015,8,Gb
+country,Mexico,Oil,2016,7.2,Gb
+country,Mexico,Oil,2017,7.7,Gb
+country,Mexico,Oil,2018,7.7,Gb
+country,Nigeria,Oil,1980,16.7,Gb
+country,Nigeria,Oil,1981,16.5,Gb
+country,Nigeria,Oil,1982,16.8,Gb
+country,Nigeria,Oil,1983,16.6,Gb
+country,Nigeria,Oil,1984,16.7,Gb
+country,Nigeria,Oil,1985,16.6,Gb
+country,Nigeria,Oil,1986,16.1,Gb
+country,Nigeria,Oil,1987,16,Gb
+country,Nigeria,Oil,1988,16,Gb
+country,Nigeria,Oil,1989,16,Gb
+country,Nigeria,Oil,1990,17.1,Gb
+country,Nigeria,Oil,1991,20,Gb
+country,Nigeria,Oil,1992,21,Gb
+country,Nigeria,Oil,1993,21,Gb
+country,Nigeria,Oil,1994,21,Gb
+country,Nigeria,Oil,1995,20.8,Gb
+country,Nigeria,Oil,1996,20.8,Gb
+country,Nigeria,Oil,1997,20.8,Gb
+country,Nigeria,Oil,1998,22.5,Gb
+country,Nigeria,Oil,1999,29,Gb
+country,Nigeria,Oil,2000,29,Gb
+country,Nigeria,Oil,2001,31.5,Gb
+country,Nigeria,Oil,2002,34.3,Gb
+country,Nigeria,Oil,2003,35.3,Gb
+country,Nigeria,Oil,2004,35.9,Gb
+country,Nigeria,Oil,2005,36.2,Gb
+country,Nigeria,Oil,2006,37.2,Gb
+country,Nigeria,Oil,2007,37.2,Gb
+country,Nigeria,Oil,2008,37.2,Gb
+country,Nigeria,Oil,2009,37.2,Gb
+country,Nigeria,Oil,2010,37.2,Gb
+country,Nigeria,Oil,2011,36.2,Gb
+country,Nigeria,Oil,2012,37.1,Gb
+country,Nigeria,Oil,2013,37.1,Gb
+country,Nigeria,Oil,2014,37.4,Gb
+country,Nigeria,Oil,2015,37.1,Gb
+country,Nigeria,Oil,2016,37.5,Gb
+country,Nigeria,Oil,2017,37.5,Gb
+country,Nigeria,Oil,2018,37.5,Gb
+country,Norway,Oil,1980,4,Gb
+country,Norway,Oil,1981,4,Gb
+country,Norway,Oil,1982,3.8,Gb
+country,Norway,Oil,1983,4.9,Gb
+country,Norway,Oil,1984,5,Gb
+country,Norway,Oil,1985,5.9,Gb
+country,Norway,Oil,1986,6.5,Gb
+country,Norway,Oil,1987,6.6,Gb
+country,Norway,Oil,1988,8.2,Gb
+country,Norway,Oil,1989,8.4,Gb
+country,Norway,Oil,1990,8.6,Gb
+country,Norway,Oil,1991,8.8,Gb
+country,Norway,Oil,1992,9.7,Gb
+country,Norway,Oil,1993,9.6,Gb
+country,Norway,Oil,1994,9.7,Gb
+country,Norway,Oil,1995,10.8,Gb
+country,Norway,Oil,1996,11.7,Gb
+country,Norway,Oil,1997,12,Gb
+country,Norway,Oil,1998,11.7,Gb
+country,Norway,Oil,1999,10.9,Gb
+country,Norway,Oil,2000,11.4,Gb
+country,Norway,Oil,2001,11.6,Gb
+country,Norway,Oil,2002,10.4,Gb
+country,Norway,Oil,2003,10.1,Gb
+country,Norway,Oil,2004,9.7,Gb
+country,Norway,Oil,2005,9.7,Gb
+country,Norway,Oil,2006,8.5,Gb
+country,Norway,Oil,2007,8.2,Gb
+country,Norway,Oil,2008,7.5,Gb
+country,Norway,Oil,2009,7.1,Gb
+country,Norway,Oil,2010,6.8,Gb
+country,Norway,Oil,2011,6.9,Gb
+country,Norway,Oil,2012,7.5,Gb
+country,Norway,Oil,2013,7,Gb
+country,Norway,Oil,2014,6.5,Gb
+country,Norway,Oil,2015,8,Gb
+country,Norway,Oil,2016,7.6,Gb
+country,Norway,Oil,2017,7.9,Gb
+country,Norway,Oil,2018,8.6,Gb
+country,Oman,Oil,1980,2.5,Gb
+country,Oman,Oil,1981,2.9,Gb
+country,Oman,Oil,1982,3.4,Gb
+country,Oman,Oil,1983,3.5,Gb
+country,Oman,Oil,1984,3.9,Gb
+country,Oman,Oil,1985,4.1,Gb
+country,Oman,Oil,1986,4,Gb
+country,Oman,Oil,1987,4.1,Gb
+country,Oman,Oil,1988,4.1,Gb
+country,Oman,Oil,1989,4.3,Gb
+country,Oman,Oil,1990,4.4,Gb
+country,Oman,Oil,1991,4.4,Gb
+country,Oman,Oil,1992,4.7,Gb
+country,Oman,Oil,1993,5,Gb
+country,Oman,Oil,1994,5.1,Gb
+country,Oman,Oil,1995,5.2,Gb
+country,Oman,Oil,1996,5.3,Gb
+country,Oman,Oil,1997,5.4,Gb
+country,Oman,Oil,1998,5.4,Gb
+country,Oman,Oil,1999,5.7,Gb
+country,Oman,Oil,2000,5.8,Gb
+country,Oman,Oil,2001,5.9,Gb
+country,Oman,Oil,2002,5.7,Gb
+country,Oman,Oil,2003,5.6,Gb
+country,Oman,Oil,2004,5.6,Gb
+country,Oman,Oil,2005,5.6,Gb
+country,Oman,Oil,2006,5.6,Gb
+country,Oman,Oil,2007,5.6,Gb
+country,Oman,Oil,2008,5.6,Gb
+country,Oman,Oil,2009,5.5,Gb
+country,Oman,Oil,2010,5.5,Gb
+country,Oman,Oil,2011,5.5,Gb
+country,Oman,Oil,2012,5.5,Gb
+country,Oman,Oil,2013,5,Gb
+country,Oman,Oil,2014,5.2,Gb
+country,Oman,Oil,2015,5.3,Gb
+country,Oman,Oil,2016,5.4,Gb
+country,Oman,Oil,2017,5.4,Gb
+country,Oman,Oil,2018,5.4,Gb
+country,Other Africa BP,Oil,1980,0.6,Gb
+country,Other Africa BP,Oil,1981,0.6,Gb
+country,Other Africa BP,Oil,1982,0.7,Gb
+country,Other Africa BP,Oil,1983,0.7,Gb
+country,Other Africa BP,Oil,1984,1,Gb
+country,Other Africa BP,Oil,1985,1,Gb
+country,Other Africa BP,Oil,1986,1,Gb
+country,Other Africa BP,Oil,1987,1,Gb
+country,Other Africa BP,Oil,1988,1,Gb
+country,Other Africa BP,Oil,1989,0.9,Gb
+country,Other Africa BP,Oil,1990,0.9,Gb
+country,Other Africa BP,Oil,1991,0.8,Gb
+country,Other Africa BP,Oil,1992,0.8,Gb
+country,Other Africa BP,Oil,1993,0.6,Gb
+country,Other Africa BP,Oil,1994,0.6,Gb
+country,Other Africa BP,Oil,1995,0.7,Gb
+country,Other Africa BP,Oil,1996,0.7,Gb
+country,Other Africa BP,Oil,1997,0.7,Gb
+country,Other Africa BP,Oil,1998,0.7,Gb
+country,Other Africa BP,Oil,1999,0.7,Gb
+country,Other Africa BP,Oil,2000,0.7,Gb
+country,Other Africa BP,Oil,2001,0.6,Gb
+country,Other Africa BP,Oil,2002,0.6,Gb
+country,Other Africa BP,Oil,2003,0.6,Gb
+country,Other Africa BP,Oil,2004,0.6,Gb
+country,Other Africa BP,Oil,2005,0.5,Gb
+country,Other Africa BP,Oil,2006,0.7,Gb
+country,Other Africa BP,Oil,2007,0.7,Gb
+country,Other Africa BP,Oil,2008,0.7,Gb
+country,Other Africa BP,Oil,2009,0.6,Gb
+country,Other Africa BP,Oil,2010,2.3,Gb
+country,Other Africa BP,Oil,2011,2.2,Gb
+country,Other Africa BP,Oil,2012,3.7,Gb
+country,Other Africa BP,Oil,2013,3.7,Gb
+country,Other Africa BP,Oil,2014,3.8,Gb
+country,Other Africa BP,Oil,2015,4,Gb
+country,Other Africa BP,Oil,2016,4,Gb
+country,Other Africa BP,Oil,2017,3.9,Gb
+country,Other Africa BP,Oil,2018,3.9,Gb
+country,Other Asia Pacific BP,Oil,1980,1,Gb
+country,Other Asia Pacific BP,Oil,1981,1.1,Gb
+country,Other Asia Pacific BP,Oil,1982,1.1,Gb
+country,Other Asia Pacific BP,Oil,1983,1.1,Gb
+country,Other Asia Pacific BP,Oil,1984,1.1,Gb
+country,Other Asia Pacific BP,Oil,1985,1.2,Gb
+country,Other Asia Pacific BP,Oil,1986,0.7,Gb
+country,Other Asia Pacific BP,Oil,1987,0.7,Gb
+country,Other Asia Pacific BP,Oil,1988,1,Gb
+country,Other Asia Pacific BP,Oil,1989,0.9,Gb
+country,Other Asia Pacific BP,Oil,1990,1,Gb
+country,Other Asia Pacific BP,Oil,1991,0.9,Gb
+country,Other Asia Pacific BP,Oil,1992,0.9,Gb
+country,Other Asia Pacific BP,Oil,1993,1.1,Gb
+country,Other Asia Pacific BP,Oil,1994,1.1,Gb
+country,Other Asia Pacific BP,Oil,1995,1.1,Gb
+country,Other Asia Pacific BP,Oil,1996,1.3,Gb
+country,Other Asia Pacific BP,Oil,1997,1.2,Gb
+country,Other Asia Pacific BP,Oil,1998,1.3,Gb
+country,Other Asia Pacific BP,Oil,1999,1.4,Gb
+country,Other Asia Pacific BP,Oil,2000,1.3,Gb
+country,Other Asia Pacific BP,Oil,2001,1.2,Gb
+country,Other Asia Pacific BP,Oil,2002,1.1,Gb
+country,Other Asia Pacific BP,Oil,2003,1.4,Gb
+country,Other Asia Pacific BP,Oil,2004,1.5,Gb
+country,Other Asia Pacific BP,Oil,2005,1.4,Gb
+country,Other Asia Pacific BP,Oil,2006,1.4,Gb
+country,Other Asia Pacific BP,Oil,2007,1.3,Gb
+country,Other Asia Pacific BP,Oil,2008,1.3,Gb
+country,Other Asia Pacific BP,Oil,2009,1.1,Gb
+country,Other Asia Pacific BP,Oil,2010,1.1,Gb
+country,Other Asia Pacific BP,Oil,2011,1.1,Gb
+country,Other Asia Pacific BP,Oil,2012,1.1,Gb
+country,Other Asia Pacific BP,Oil,2013,1.3,Gb
+country,Other Asia Pacific BP,Oil,2014,1.2,Gb
+country,Other Asia Pacific BP,Oil,2015,1.3,Gb
+country,Other Asia Pacific BP,Oil,2016,1.2,Gb
+country,Other Asia Pacific BP,Oil,2017,1.2,Gb
+country,Other Asia Pacific BP,Oil,2018,1.2,Gb
+country,NOT FOUND Other CIS,Oil,1991,0.2,Gb
+country,NOT FOUND Other CIS,Oil,1992,0.2,Gb
+country,NOT FOUND Other CIS,Oil,1993,0.2,Gb
+country,NOT FOUND Other CIS,Oil,1994,0.2,Gb
+country,NOT FOUND Other CIS,Oil,1995,0.2,Gb
+country,NOT FOUND Other CIS,Oil,1996,0.2,Gb
+country,NOT FOUND Other CIS,Oil,1997,0.3,Gb
+country,NOT FOUND Other CIS,Oil,1998,0.3,Gb
+country,NOT FOUND Other CIS,Oil,1999,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2000,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2001,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2002,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2003,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2004,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2005,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2006,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2007,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2008,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2009,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2010,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2011,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2012,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2013,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2014,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2015,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2016,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2017,0.3,Gb
+country,NOT FOUND Other CIS,Oil,2018,0.3,Gb
+country,NOT FOUND Other Europe,Oil,1980,2.3,Gb
+country,NOT FOUND Other Europe,Oil,1981,2.2,Gb
+country,NOT FOUND Other Europe,Oil,1982,2.3,Gb
+country,NOT FOUND Other Europe,Oil,1983,2.3,Gb
+country,NOT FOUND Other Europe,Oil,1984,2.2,Gb
+country,NOT FOUND Other Europe,Oil,1985,2.2,Gb
+country,NOT FOUND Other Europe,Oil,1986,2.3,Gb
+country,NOT FOUND Other Europe,Oil,1987,2.2,Gb
+country,NOT FOUND Other Europe,Oil,1988,2.2,Gb
+country,NOT FOUND Other Europe,Oil,1989,2,Gb
+country,NOT FOUND Other Europe,Oil,1990,2,Gb
+country,NOT FOUND Other Europe,Oil,1991,2.4,Gb
+country,NOT FOUND Other Europe,Oil,1992,2.2,Gb
+country,NOT FOUND Other Europe,Oil,1993,2.1,Gb
+country,NOT FOUND Other Europe,Oil,1994,2,Gb
+country,NOT FOUND Other Europe,Oil,1995,2,Gb
+country,NOT FOUND Other Europe,Oil,1996,2.1,Gb
+country,NOT FOUND Other Europe,Oil,1997,1.9,Gb
+country,NOT FOUND Other Europe,Oil,1998,1.9,Gb
+country,NOT FOUND Other Europe,Oil,1999,2,Gb
+country,NOT FOUND Other Europe,Oil,2000,2.1,Gb
+country,NOT FOUND Other Europe,Oil,2001,2,Gb
+country,NOT FOUND Other Europe,Oil,2002,2,Gb
+country,NOT FOUND Other Europe,Oil,2003,2.1,Gb
+country,NOT FOUND Other Europe,Oil,2004,2,Gb
+country,NOT FOUND Other Europe,Oil,2005,1.9,Gb
+country,NOT FOUND Other Europe,Oil,2006,1.9,Gb
+country,NOT FOUND Other Europe,Oil,2007,1.9,Gb
+country,NOT FOUND Other Europe,Oil,2008,1.9,Gb
+country,NOT FOUND Other Europe,Oil,2009,2,Gb
+country,NOT FOUND Other Europe,Oil,2010,1.9,Gb
+country,NOT FOUND Other Europe,Oil,2011,1.9,Gb
+country,NOT FOUND Other Europe,Oil,2012,1.8,Gb
+country,NOT FOUND Other Europe,Oil,2013,1.8,Gb
+country,NOT FOUND Other Europe,Oil,2014,1.7,Gb
+country,NOT FOUND Other Europe,Oil,2015,1.7,Gb
+country,NOT FOUND Other Europe,Oil,2016,1.7,Gb
+country,NOT FOUND Other Europe,Oil,2017,1.6,Gb
+country,NOT FOUND Other Europe,Oil,2018,1.6,Gb
+country,Other Middle East BP,Oil,1980,0.2,Gb
+country,Other Middle East BP,Oil,1981,0.2,Gb
+country,Other Middle East BP,Oil,1982,0.2,Gb
+country,Other Middle East BP,Oil,1983,0.2,Gb
+country,Qatar,Oil,1983,3.3,Gb
+country,Other Middle East BP,Oil,1984,0.2,Gb
+country,Other Middle East BP,Oil,1985,0.2,Gb
+country,Other Middle East BP,Oil,1986,0.1,Gb
+country,Other Middle East BP,Oil,1987,0.1,Gb
+country,Other Middle East BP,Oil,1988,0.1,Gb
+country,Other Middle East BP,Oil,1989,0.1,Gb
+country,Other Middle East BP,Oil,1990,0.1,Gb
+country,Other Middle East BP,Oil,1991,0.1,Gb
+country,Other Middle East BP,Oil,1992,0.1,Gb
+country,Other Middle East BP,Oil,1993,0.1,Gb
+country,Other Middle East BP,Oil,1994,0.1,Gb
+country,Other Middle East BP,Oil,1995,0.1,Gb
+country,Other Middle East BP,Oil,1996,0.2,Gb
+country,Other Middle East BP,Oil,1997,0.2,Gb
+country,Other Middle East BP,Oil,1998,0.2,Gb
+country,Other Middle East BP,Oil,1999,0.2,Gb
+country,Other Middle East BP,Oil,2000,0.2,Gb
+country,Other Middle East BP,Oil,2001,0.1,Gb
+country,Other Middle East BP,Oil,2002,0.1,Gb
+country,Other Middle East BP,Oil,2003,0.1,Gb
+country,Other Middle East BP,Oil,2004,0.1,Gb
+country,Other Middle East BP,Oil,2005,0.1,Gb
+country,Other Middle East BP,Oil,2006,0.1,Gb
+country,Other Middle East BP,Oil,2007,0.1,Gb
+country,Other Middle East BP,Oil,2008,0.1,Gb
+country,Other Middle East BP,Oil,2009,0.3,Gb
+country,Other Middle East BP,Oil,2010,0.3,Gb
+country,Other Middle East BP,Oil,2011,0.7,Gb
+country,Other Middle East BP,Oil,2012,0.3,Gb
+country,Other Middle East BP,Oil,2013,0.3,Gb
+country,Other Middle East BP,Oil,2014,0.2,Gb
+country,Other Middle East BP,Oil,2015,0.2,Gb
+country,Other Middle East BP,Oil,2016,0.1,Gb
+country,Other Middle East BP,Oil,2017,0.1,Gb
+country,Other Middle East BP,Oil,2018,0.2,Gb
+country,Other S & Cent America BP,Oil,1980,0.7,Gb
+country,Other S & Cent America BP,Oil,1981,0.8,Gb
+country,Other S & Cent America BP,Oil,1982,0.8,Gb
+country,Other S & Cent America BP,Oil,1983,0.5,Gb
+country,Other S & Cent America BP,Oil,1984,0.4,Gb
+country,Other S & Cent America BP,Oil,1985,0.4,Gb
+country,Other S & Cent America BP,Oil,1986,0.4,Gb
+country,Other S & Cent America BP,Oil,1987,0.6,Gb
+country,Other S & Cent America BP,Oil,1988,0.6,Gb
+country,Other S & Cent America BP,Oil,1989,0.6,Gb
+country,Other S & Cent America BP,Oil,1990,0.6,Gb
+country,Other S & Cent America BP,Oil,1991,0.6,Gb
+country,Other S & Cent America BP,Oil,1992,0.6,Gb
+country,Other S & Cent America BP,Oil,1993,0.9,Gb
+country,Other S & Cent America BP,Oil,1994,1,Gb
+country,Other S & Cent America BP,Oil,1995,1,Gb
+country,Other S & Cent America BP,Oil,1996,1,Gb
+country,Congo,Oil,2008,1.6,Gb
+country,Other S & Cent America BP,Oil,1997,1.1,Gb
+country,Other S & Cent America BP,Oil,1998,1.1,Gb
+country,Other S & Cent America BP,Oil,1999,1.3,Gb
+country,Other S & Cent America BP,Oil,2000,1.3,Gb
+country,Other S & Cent America BP,Oil,2001,1.4,Gb
+country,Other S & Cent America BP,Oil,2002,1.6,Gb
+country,Other S & Cent America BP,Oil,2003,1.5,Gb
+country,Other S & Cent America BP,Oil,2004,1.5,Gb
+country,Other S & Cent America BP,Oil,2005,1.5,Gb
+country,Other S & Cent America BP,Oil,2006,0.8,Gb
+country,Other S & Cent America BP,Oil,2007,0.8,Gb
+country,Other S & Cent America BP,Oil,2008,0.8,Gb
+country,Other S & Cent America BP,Oil,2009,0.8,Gb
+country,Other S & Cent America BP,Oil,2010,0.8,Gb
+country,Other S & Cent America BP,Oil,2011,0.5,Gb
+country,Other S & Cent America BP,Oil,2012,0.5,Gb
+country,Other S & Cent America BP,Oil,2013,0.5,Gb
+country,Other S & Cent America BP,Oil,2014,0.5,Gb
+country,Other S & Cent America BP,Oil,2015,0.5,Gb
+country,Other S & Cent America BP,Oil,2016,0.5,Gb
+country,Other S & Cent America BP,Oil,2017,0.5,Gb
+country,Other S & Cent America BP,Oil,2018,0.5,Gb
+country,Peru,Oil,1980,0.6,Gb
+country,Peru,Oil,1981,0.9,Gb
+country,Peru,Oil,1982,0.8,Gb
+country,Peru,Oil,1983,0.7,Gb
+country,Peru,Oil,1984,0.7,Gb
+country,Peru,Oil,1985,0.6,Gb
+country,Peru,Oil,1986,0.5,Gb
+country,Peru,Oil,1987,0.5,Gb
+country,Peru,Oil,1988,0.9,Gb
+country,Peru,Oil,1989,0.8,Gb
+country,Peru,Oil,1990,0.8,Gb
+country,Peru,Oil,1991,0.8,Gb
+country,Peru,Oil,1992,0.8,Gb
+country,Peru,Oil,1993,0.8,Gb
+country,Peru,Oil,1994,0.8,Gb
+country,Peru,Oil,1995,0.8,Gb
+country,Peru,Oil,1996,0.8,Gb
+country,Peru,Oil,1997,0.8,Gb
+country,Peru,Oil,1998,0.9,Gb
+country,Peru,Oil,1999,0.9,Gb
+country,Peru,Oil,2000,0.9,Gb
+country,Peru,Oil,2001,1,Gb
+country,Peru,Oil,2002,1,Gb
+country,Peru,Oil,2003,0.9,Gb
+country,Peru,Oil,2004,1.1,Gb
+country,Peru,Oil,2005,1.1,Gb
+country,Peru,Oil,2006,1.1,Gb
+country,Peru,Oil,2007,1.1,Gb
+country,Peru,Oil,2008,1.1,Gb
+country,Peru,Oil,2009,1.1,Gb
+country,Peru,Oil,2010,1.2,Gb
+country,Peru,Oil,2011,1.2,Gb
+country,Peru,Oil,2012,1.4,Gb
+country,Peru,Oil,2013,1.6,Gb
+country,Peru,Oil,2014,1.4,Gb
+country,Peru,Oil,2015,1.2,Gb
+country,Peru,Oil,2016,1.2,Gb
+country,Peru,Oil,2017,1,Gb
+country,Peru,Oil,2018,1,Gb
+country,Qatar,Oil,1980,3.6,Gb
+country,Qatar,Oil,1981,3.5,Gb
+country,Qatar,Oil,1982,3.4,Gb
+country,Qatar,Oil,1984,4.5,Gb
+country,Qatar,Oil,1985,4.5,Gb
+country,Qatar,Oil,1986,4.5,Gb
+country,Qatar,Oil,1987,4.5,Gb
+country,Qatar,Oil,1988,4.5,Gb
+country,Qatar,Oil,1989,4.5,Gb
+country,Qatar,Oil,1990,3,Gb
+country,Qatar,Oil,1991,3,Gb
+country,Qatar,Oil,1992,3.1,Gb
+country,Qatar,Oil,1993,3.1,Gb
+country,Qatar,Oil,1994,3.5,Gb
+country,Qatar,Oil,1995,3.7,Gb
+country,Qatar,Oil,1996,3.7,Gb
+country,Qatar,Oil,1997,12.5,Gb
+country,Qatar,Oil,1998,13.5,Gb
+country,Qatar,Oil,1999,13.1,Gb
+country,Qatar,Oil,2000,16.9,Gb
+country,Qatar,Oil,2001,16.8,Gb
+country,Qatar,Oil,2002,27.6,Gb
+country,Qatar,Oil,2003,27,Gb
+country,Qatar,Oil,2004,26.9,Gb
+country,Qatar,Oil,2005,27.9,Gb
+country,Qatar,Oil,2006,27.4,Gb
+country,Qatar,Oil,2007,27.3,Gb
+country,Qatar,Oil,2008,26.8,Gb
+country,Qatar,Oil,2009,25.9,Gb
+country,Qatar,Oil,2010,24.7,Gb
+country,Qatar,Oil,2011,23.9,Gb
+country,Qatar,Oil,2012,25.2,Gb
+country,Qatar,Oil,2013,25.1,Gb
+country,Qatar,Oil,2014,25.7,Gb
+country,Qatar,Oil,2015,25.2,Gb
+country,Qatar,Oil,2016,25.2,Gb
+country,Qatar,Oil,2017,25.2,Gb
+country,Qatar,Oil,2018,25.2,Gb
+country,Congo,Oil,1980,0.7,Gb
+country,Congo,Oil,1981,0.7,Gb
+country,Congo,Oil,1982,0.8,Gb
+country,Congo,Oil,1983,0.7,Gb
+country,Congo,Oil,1984,0.8,Gb
+country,Congo,Oil,1985,0.8,Gb
+country,Congo,Oil,1986,0.7,Gb
+country,Congo,Oil,1987,0.7,Gb
+country,Congo,Oil,1988,0.8,Gb
+country,Congo,Oil,1989,0.7,Gb
+country,Congo,Oil,1990,0.8,Gb
+country,Congo,Oil,1991,0.7,Gb
+country,Congo,Oil,1992,0.7,Gb
+country,Congo,Oil,1993,0.7,Gb
+country,Congo,Oil,1994,1.4,Gb
+country,Congo,Oil,1995,1.3,Gb
+country,Congo,Oil,1996,1.6,Gb
+country,Congo,Oil,1997,1.6,Gb
+country,Congo,Oil,1998,1.7,Gb
+country,Congo,Oil,1999,1.7,Gb
+country,Congo,Oil,2000,1.7,Gb
+country,Congo,Oil,2001,1.6,Gb
+country,Congo,Oil,2002,1.5,Gb
+country,Congo,Oil,2003,1.5,Gb
+country,Congo,Oil,2004,1.5,Gb
+country,Congo,Oil,2005,1.5,Gb
+country,Congo,Oil,2006,1.6,Gb
+country,Congo,Oil,2007,1.6,Gb
+country,Congo,Oil,2009,1.6,Gb
+country,Congo,Oil,2010,1.6,Gb
+country,Congo,Oil,2011,1.6,Gb
+country,Congo,Oil,2012,1.6,Gb
+country,Congo,Oil,2013,1.6,Gb
+country,Congo,Oil,2014,1.6,Gb
+country,Congo,Oil,2015,1.6,Gb
+country,Congo,Oil,2016,1.6,Gb
+country,Congo,Oil,2017,1.6,Gb
+country,Congo,Oil,2018,1.6,Gb
+country,Romania,Oil,1980,1.1,Gb
+country,Romania,Oil,1981,1,Gb
+country,Romania,Oil,1982,1,Gb
+country,Romania,Oil,1983,1.6,Gb
+country,Romania,Oil,1984,1.5,Gb
+country,Romania,Oil,1985,1.4,Gb
+country,Romania,Oil,1986,1.4,Gb
+country,Romania,Oil,1987,1.3,Gb
+country,Romania,Oil,1988,1.2,Gb
+country,Romania,Oil,1989,1.2,Gb
+country,Romania,Oil,1990,1.5,Gb
+country,Romania,Oil,1991,1.5,Gb
+country,Romania,Oil,1992,1.2,Gb
+country,Romania,Oil,1993,1,Gb
+country,Romania,Oil,1994,1,Gb
+country,Romania,Oil,1995,1,Gb
+country,Romania,Oil,1996,1,Gb
+country,Romania,Oil,1997,0.9,Gb
+country,Romania,Oil,1998,1.2,Gb
+country,Romania,Oil,1999,1.2,Gb
+country,Romania,Oil,2000,1.2,Gb
+country,Romania,Oil,2001,1.2,Gb
+country,Romania,Oil,2002,0.5,Gb
+country,Romania,Oil,2003,0.5,Gb
+country,Romania,Oil,2004,0.5,Gb
+country,Romania,Oil,2005,0.5,Gb
+country,Romania,Oil,2006,0.5,Gb
+country,Romania,Oil,2007,0.5,Gb
+country,Romania,Oil,2008,0.5,Gb
+country,Romania,Oil,2009,0.6,Gb
+country,Romania,Oil,2010,0.6,Gb
+country,Romania,Oil,2011,0.6,Gb
+country,Romania,Oil,2012,0.6,Gb
+country,Romania,Oil,2013,0.6,Gb
+country,Romania,Oil,2014,0.6,Gb
+country,Romania,Oil,2015,0.6,Gb
+country,Romania,Oil,2016,0.6,Gb
+country,Romania,Oil,2017,0.6,Gb
+country,Romania,Oil,2018,0.6,Gb
+country,Russian Federation & USSR,Oil,1991,116.1,Gb
+country,Russian Federation & USSR,Oil,1992,116.1,Gb
+country,Russian Federation & USSR,Oil,1993,115.1,Gb
+country,Russian Federation & USSR,Oil,1994,115.1,Gb
+country,Russian Federation & USSR,Oil,1995,113.6,Gb
+country,Russian Federation & USSR,Oil,1996,113.6,Gb
+country,Russian Federation & USSR,Oil,1997,113.1,Gb
+country,Russian Federation & USSR,Oil,1998,113.1,Gb
+country,Russian Federation & USSR,Oil,1999,112.1,Gb
+country,Russian Federation & USSR,Oil,2000,112.1,Gb
+country,Russian Federation & USSR,Oil,2001,111.3,Gb
+country,Russian Federation & USSR,Oil,2002,109.7,Gb
+country,Russian Federation & USSR,Oil,2003,107.8,Gb
+country,Russian Federation & USSR,Oil,2004,105.5,Gb
+country,Russian Federation & USSR,Oil,2005,104.4,Gb
+country,Russian Federation & USSR,Oil,2006,104,Gb
+country,Russian Federation & USSR,Oil,2007,106.4,Gb
+country,Russian Federation & USSR,Oil,2008,106.4,Gb
+country,Russian Federation & USSR,Oil,2009,105.6,Gb
+country,Russian Federation & USSR,Oil,2010,105.8,Gb
+country,Russian Federation & USSR,Oil,2011,105.7,Gb
+country,Russian Federation & USSR,Oil,2012,105.5,Gb
+country,Russian Federation & USSR,Oil,2013,105,Gb
+country,Russian Federation & USSR,Oil,2014,103.2,Gb
+country,Russian Federation & USSR,Oil,2015,102.4,Gb
+country,Russian Federation & USSR,Oil,2016,106.2,Gb
+country,Russian Federation & USSR,Oil,2017,106.3,Gb
+country,Russian Federation & USSR,Oil,2018,106.2,Gb
+country,Saudi Arabia,Oil,1980,168,Gb
+country,Saudi Arabia,Oil,1981,167.9,Gb
+country,Saudi Arabia,Oil,1982,165.5,Gb
+country,Saudi Arabia,Oil,1983,168.8,Gb
+country,Saudi Arabia,Oil,1984,171.7,Gb
+country,Saudi Arabia,Oil,1985,171.5,Gb
+country,Saudi Arabia,Oil,1986,169.7,Gb
+country,Saudi Arabia,Oil,1987,169.6,Gb
+country,Saudi Arabia,Oil,1988,255,Gb
+country,Saudi Arabia,Oil,1989,260.1,Gb
+country,Saudi Arabia,Oil,1990,260.3,Gb
+country,Saudi Arabia,Oil,1991,260.9,Gb
+country,Saudi Arabia,Oil,1992,261.2,Gb
+country,Saudi Arabia,Oil,1993,261.4,Gb
+country,Saudi Arabia,Oil,1994,261.4,Gb
+country,Saudi Arabia,Oil,1995,261.5,Gb
+country,Saudi Arabia,Oil,1996,261.4,Gb
+country,Saudi Arabia,Oil,1997,261.5,Gb
+country,Saudi Arabia,Oil,1998,261.5,Gb
+country,Saudi Arabia,Oil,1999,262.8,Gb
+country,Saudi Arabia,Oil,2000,262.8,Gb
+country,Saudi Arabia,Oil,2001,262.7,Gb
+country,Saudi Arabia,Oil,2002,262.8,Gb
+country,Saudi Arabia,Oil,2003,262.7,Gb
+country,Saudi Arabia,Oil,2004,264.3,Gb
+country,Saudi Arabia,Oil,2005,264.2,Gb
+country,Saudi Arabia,Oil,2006,264.3,Gb
+country,Saudi Arabia,Oil,2007,264.2,Gb
+country,Saudi Arabia,Oil,2008,264.1,Gb
+country,Saudi Arabia,Oil,2009,264.6,Gb
+country,Saudi Arabia,Oil,2010,264.5,Gb
+country,Saudi Arabia,Oil,2011,265.4,Gb
+country,Saudi Arabia,Oil,2012,265.9,Gb
+country,Saudi Arabia,Oil,2013,265.8,Gb
+country,Saudi Arabia,Oil,2014,266.6,Gb
+country,Saudi Arabia,Oil,2015,266.5,Gb
+country,Saudi Arabia,Oil,2016,266.2,Gb
+country,Saudi Arabia,Oil,2017,296,Gb
+country,Saudi Arabia,Oil,2018,297.7,Gb
+country,South Sudan,Oil,2012,3.5,Gb
+country,South Sudan,Oil,2013,3.5,Gb
+country,South Sudan,Oil,2014,3.5,Gb
+country,South Sudan,Oil,2015,3.5,Gb
+country,South Sudan,Oil,2016,3.5,Gb
+country,South Sudan,Oil,2017,3.5,Gb
+country,South Sudan,Oil,2018,3.5,Gb
+country,Sudan,Oil,1981,0.2,Gb
+country,Sudan,Oil,1982,0.4,Gb
+country,Sudan,Oil,1983,0.3,Gb
+country,Sudan,Oil,1984,0.3,Gb
+country,Sudan,Oil,1985,0.3,Gb
+country,Sudan,Oil,1986,0.3,Gb
+country,Sudan,Oil,1987,0.3,Gb
+country,Sudan,Oil,1988,0.3,Gb
+country,Sudan,Oil,1989,0.3,Gb
+country,Sudan,Oil,1990,0.3,Gb
+country,Sudan,Oil,1991,0.3,Gb
+country,Sudan,Oil,1992,0.3,Gb
+country,Sudan,Oil,1993,0.3,Gb
+country,Sudan,Oil,1994,0.3,Gb
+country,Sudan,Oil,1995,0.3,Gb
+country,Sudan,Oil,1996,0.3,Gb
+country,Sudan,Oil,1997,0.3,Gb
+country,Sudan,Oil,1998,0.3,Gb
+country,Sudan,Oil,1999,0.3,Gb
+country,Sudan,Oil,2000,0.3,Gb
+country,Sudan,Oil,2001,0.6,Gb
+country,Sudan,Oil,2002,0.6,Gb
+country,Sudan,Oil,2003,0.6,Gb
+country,Sudan,Oil,2004,0.6,Gb
+country,Sudan,Oil,2005,0.6,Gb
+country,Sudan,Oil,2006,5,Gb
+country,Sudan,Oil,2007,5,Gb
+country,Sudan,Oil,2008,5,Gb
+country,Sudan,Oil,2009,5,Gb
+country,Sudan,Oil,2010,5,Gb
+country,Sudan,Oil,2011,5,Gb
+country,Sudan,Oil,2012,1.5,Gb
+country,Sudan,Oil,2013,1.5,Gb
+country,Sudan,Oil,2014,1.5,Gb
+country,Sudan,Oil,2015,1.5,Gb
+country,Sudan,Oil,2016,1.5,Gb
+country,Sudan,Oil,2017,1.5,Gb
+country,Sudan,Oil,2018,1.5,Gb
+country,Syria,Oil,1980,1.5,Gb
+country,Syria,Oil,1981,1.9,Gb
+country,Syria,Oil,1982,1.8,Gb
+country,Syria,Oil,1983,1.5,Gb
+country,Syria,Oil,1984,1.4,Gb
+country,Syria,Oil,1985,1.5,Gb
+country,Syria,Oil,1986,1.6,Gb
+country,Syria,Oil,1987,1.7,Gb
+country,Syria,Oil,1988,1.8,Gb
+country,Syria,Oil,1989,2,Gb
+country,Syria,Oil,1990,1.9,Gb
+country,Syria,Oil,1991,3,Gb
+country,Syria,Oil,1992,3,Gb
+country,Syria,Oil,1993,3,Gb
+country,Syria,Oil,1994,2.7,Gb
+country,Syria,Oil,1995,2.6,Gb
+country,Syria,Oil,1996,2.5,Gb
+country,Syria,Oil,1997,2.3,Gb
+country,Syria,Oil,1998,2.3,Gb
+country,Syria,Oil,1999,2.3,Gb
+country,Syria,Oil,2000,2.3,Gb
+country,Syria,Oil,2001,2.3,Gb
+country,Syria,Oil,2002,2.3,Gb
+country,Syria,Oil,2003,2.4,Gb
+country,Syria,Oil,2004,3.2,Gb
+country,Syria,Oil,2005,3,Gb
+country,Syria,Oil,2006,3,Gb
+country,Syria,Oil,2007,2.5,Gb
+country,Syria,Oil,2008,2.5,Gb
+country,Syria,Oil,2009,2.5,Gb
+country,Syria,Oil,2010,2.5,Gb
+country,Syria,Oil,2011,2.5,Gb
+country,Syria,Oil,2012,2.5,Gb
+country,Syria,Oil,2013,2.5,Gb
+country,Syria,Oil,2014,2.5,Gb
+country,Syria,Oil,2015,2.5,Gb
+country,Syria,Oil,2016,2.5,Gb
+country,Syria,Oil,2017,2.5,Gb
+country,Syria,Oil,2018,2.5,Gb
+country,Thailand,Oil,1984,0.1,Gb
+country,Thailand,Oil,1985,0.1,Gb
+country,Thailand,Oil,1986,0.1,Gb
+country,Thailand,Oil,1987,0.1,Gb
+country,Thailand,Oil,1988,0.1,Gb
+country,Thailand,Oil,1989,0.2,Gb
+country,Thailand,Oil,1990,0.3,Gb
+country,Thailand,Oil,1991,0.2,Gb
+country,Thailand,Oil,1992,0.2,Gb
+country,Thailand,Oil,1993,0.2,Gb
+country,Thailand,Oil,1994,0.2,Gb
+country,Thailand,Oil,1995,0.3,Gb
+country,Thailand,Oil,1996,0.2,Gb
+country,Thailand,Oil,1997,0.3,Gb
+country,Thailand,Oil,1998,0.4,Gb
+country,Thailand,Oil,1999,0.4,Gb
+country,Thailand,Oil,2000,0.5,Gb
+country,Thailand,Oil,2001,0.6,Gb
+country,Thailand,Oil,2002,0.7,Gb
+country,Thailand,Oil,2003,0.5,Gb
+country,Thailand,Oil,2004,0.5,Gb
+country,Thailand,Oil,2005,0.5,Gb
+country,Thailand,Oil,2006,0.5,Gb
+country,Thailand,Oil,2007,0.5,Gb
+country,Thailand,Oil,2008,0.5,Gb
+country,Thailand,Oil,2009,0.4,Gb
+country,Thailand,Oil,2010,0.4,Gb
+country,Thailand,Oil,2011,0.5,Gb
+country,Thailand,Oil,2012,0.4,Gb
+country,Thailand,Oil,2013,0.5,Gb
+country,Thailand,Oil,2014,0.4,Gb
+country,Thailand,Oil,2015,0.4,Gb
+country,Thailand,Oil,2016,0.3,Gb
+country,Thailand,Oil,2017,0.3,Gb
+country,Thailand,Oil,2018,0.3,Gb
+country,Trinidad and Tobago,Oil,1980,0.6,Gb
+country,Trinidad and Tobago,Oil,1981,0.6,Gb
+country,Trinidad and Tobago,Oil,1982,0.6,Gb
+country,Trinidad and Tobago,Oil,1983,0.5,Gb
+country,Trinidad and Tobago,Oil,1984,0.6,Gb
+country,Trinidad and Tobago,Oil,1985,0.6,Gb
+country,Trinidad and Tobago,Oil,1986,0.6,Gb
+country,Trinidad and Tobago,Oil,1987,0.6,Gb
+country,Trinidad and Tobago,Oil,1988,0.6,Gb
+country,Trinidad and Tobago,Oil,1989,0.6,Gb
+country,Trinidad and Tobago,Oil,1990,0.6,Gb
+country,Trinidad and Tobago,Oil,1991,0.6,Gb
+country,Trinidad and Tobago,Oil,1992,0.5,Gb
+country,Trinidad and Tobago,Oil,1993,0.6,Gb
+country,Trinidad and Tobago,Oil,1994,0.6,Gb
+country,Trinidad and Tobago,Oil,1995,0.7,Gb
+country,Trinidad and Tobago,Oil,1996,0.7,Gb
+country,Trinidad and Tobago,Oil,1997,0.7,Gb
+country,Trinidad and Tobago,Oil,1998,0.7,Gb
+country,Trinidad and Tobago,Oil,1999,0.8,Gb
+country,Trinidad and Tobago,Oil,2000,0.9,Gb
+country,Trinidad and Tobago,Oil,2001,1,Gb
+country,Trinidad and Tobago,Oil,2002,1.1,Gb
+country,Trinidad and Tobago,Oil,2003,0.9,Gb
+country,Trinidad and Tobago,Oil,2004,0.8,Gb
+country,Trinidad and Tobago,Oil,2005,0.8,Gb
+country,Trinidad and Tobago,Oil,2006,0.8,Gb
+country,Trinidad and Tobago,Oil,2007,0.9,Gb
+country,Trinidad and Tobago,Oil,2008,0.8,Gb
+country,Trinidad and Tobago,Oil,2009,0.8,Gb
+country,Trinidad and Tobago,Oil,2010,0.8,Gb
+country,Trinidad and Tobago,Oil,2011,0.8,Gb
+country,Trinidad and Tobago,Oil,2012,0.8,Gb
+country,Trinidad and Tobago,Oil,2013,0.8,Gb
+country,Trinidad and Tobago,Oil,2014,0.8,Gb
+country,Trinidad and Tobago,Oil,2015,0.7,Gb
+country,Trinidad and Tobago,Oil,2016,0.2,Gb
+country,Trinidad and Tobago,Oil,2017,0.2,Gb
+country,Trinidad and Tobago,Oil,2018,0.2,Gb
+country,Tunisia,Oil,1980,2.2,Gb
+country,Tunisia,Oil,1981,2.5,Gb
+country,Tunisia,Oil,1982,2.5,Gb
+country,Tunisia,Oil,1983,2.5,Gb
+country,Tunisia,Oil,1984,1.8,Gb
+country,Tunisia,Oil,1985,1.8,Gb
+country,Tunisia,Oil,1986,1.8,Gb
+country,Tunisia,Oil,1987,1.7,Gb
+country,Tunisia,Oil,1988,1.8,Gb
+country,Tunisia,Oil,1989,1.8,Gb
+country,Tunisia,Oil,1990,1.7,Gb
+country,Tunisia,Oil,1991,0.4,Gb
+country,Tunisia,Oil,1992,0.5,Gb
+country,Tunisia,Oil,1993,0.4,Gb
+country,Tunisia,Oil,1994,0.3,Gb
+country,Tunisia,Oil,1995,0.4,Gb
+country,Tunisia,Oil,1996,0.3,Gb
+country,Tunisia,Oil,1997,0.3,Gb
+country,Tunisia,Oil,1998,0.3,Gb
+country,Tunisia,Oil,1999,0.3,Gb
+country,Tunisia,Oil,2000,0.4,Gb
+country,Tunisia,Oil,2001,0.5,Gb
+country,Tunisia,Oil,2002,0.5,Gb
+country,Tunisia,Oil,2003,0.6,Gb
+country,Tunisia,Oil,2004,0.7,Gb
+country,Tunisia,Oil,2005,0.6,Gb
+country,Tunisia,Oil,2006,0.6,Gb
+country,Tunisia,Oil,2007,0.6,Gb
+country,Tunisia,Oil,2008,0.6,Gb
+country,Tunisia,Oil,2009,0.4,Gb
+country,Tunisia,Oil,2010,0.4,Gb
+country,Tunisia,Oil,2011,0.4,Gb
+country,Tunisia,Oil,2012,0.4,Gb
+country,Tunisia,Oil,2013,0.4,Gb
+country,Tunisia,Oil,2014,0.4,Gb
+country,Tunisia,Oil,2015,0.4,Gb
+country,Tunisia,Oil,2016,0.4,Gb
+country,Tunisia,Oil,2017,0.4,Gb
+country,Tunisia,Oil,2018,0.4,Gb
+country,Turkmenistan,Oil,1991,0.5,Gb
+country,Turkmenistan,Oil,1992,0.5,Gb
+country,Turkmenistan,Oil,1993,0.5,Gb
+country,Turkmenistan,Oil,1994,0.5,Gb
+country,Turkmenistan,Oil,1995,0.5,Gb
+country,Turkmenistan,Oil,1996,0.5,Gb
+country,Turkmenistan,Oil,1997,0.5,Gb
+country,Turkmenistan,Oil,1998,0.5,Gb
+country,Turkmenistan,Oil,1999,0.5,Gb
+country,Turkmenistan,Oil,2000,0.5,Gb
+country,Turkmenistan,Oil,2001,0.5,Gb
+country,Turkmenistan,Oil,2002,0.5,Gb
+country,Turkmenistan,Oil,2003,0.5,Gb
+country,Turkmenistan,Oil,2004,0.5,Gb
+country,Turkmenistan,Oil,2005,0.5,Gb
+country,Turkmenistan,Oil,2006,0.6,Gb
+country,Turkmenistan,Oil,2007,0.6,Gb
+country,Turkmenistan,Oil,2008,0.6,Gb
+country,Turkmenistan,Oil,2009,0.6,Gb
+country,Turkmenistan,Oil,2010,0.6,Gb
+country,Turkmenistan,Oil,2011,0.6,Gb
+country,Turkmenistan,Oil,2012,0.6,Gb
+country,Turkmenistan,Oil,2013,0.6,Gb
+country,Turkmenistan,Oil,2014,0.6,Gb
+country,Turkmenistan,Oil,2015,0.6,Gb
+country,Turkmenistan,Oil,2016,0.6,Gb
+country,Turkmenistan,Oil,2017,0.6,Gb
+country,Turkmenistan,Oil,2018,0.6,Gb
+country,United Arab Emirates,Oil,1980,30.4,Gb
+country,United Arab Emirates,Oil,1981,32.2,Gb
+country,United Arab Emirates,Oil,1982,32.4,Gb
+country,United Arab Emirates,Oil,1983,32.3,Gb
+country,United Arab Emirates,Oil,1984,32.5,Gb
+country,United Arab Emirates,Oil,1985,33,Gb
+country,United Arab Emirates,Oil,1986,97.2,Gb
+country,United Arab Emirates,Oil,1987,98.1,Gb
+country,United Arab Emirates,Oil,1988,98.1,Gb
+country,United Arab Emirates,Oil,1989,98.1,Gb
+country,United Arab Emirates,Oil,1990,98.1,Gb
+country,United Arab Emirates,Oil,1991,98.1,Gb
+country,United Arab Emirates,Oil,1992,98.1,Gb
+country,United Arab Emirates,Oil,1993,98.1,Gb
+country,United Arab Emirates,Oil,1994,98.1,Gb
+country,United Arab Emirates,Oil,1995,98.1,Gb
+country,United Arab Emirates,Oil,1996,97.8,Gb
+country,United Arab Emirates,Oil,1997,97.8,Gb
+country,United Arab Emirates,Oil,1998,97.8,Gb
+country,United Arab Emirates,Oil,1999,97.8,Gb
+country,United Arab Emirates,Oil,2000,97.8,Gb
+country,United Arab Emirates,Oil,2001,97.8,Gb
+country,United Arab Emirates,Oil,2002,97.8,Gb
+country,United Arab Emirates,Oil,2003,97.8,Gb
+country,United Arab Emirates,Oil,2004,97.8,Gb
+country,United Arab Emirates,Oil,2005,97.8,Gb
+country,United Arab Emirates,Oil,2006,97.8,Gb
+country,United Arab Emirates,Oil,2007,97.8,Gb
+country,United Arab Emirates,Oil,2008,97.8,Gb
+country,United Arab Emirates,Oil,2009,97.8,Gb
+country,United Arab Emirates,Oil,2010,97.8,Gb
+country,United Arab Emirates,Oil,2011,97.8,Gb
+country,United Arab Emirates,Oil,2012,97.8,Gb
+country,United Arab Emirates,Oil,2013,97.8,Gb
+country,United Arab Emirates,Oil,2014,97.8,Gb
+country,United Arab Emirates,Oil,2015,97.8,Gb
+country,United Arab Emirates,Oil,2016,97.8,Gb
+country,United Arab Emirates,Oil,2017,97.8,Gb
+country,United Arab Emirates,Oil,2018,97.8,Gb
+country,United Kingdom,Oil,1980,8.4,Gb
+country,United Kingdom,Oil,1981,7.9,Gb
+country,United Kingdom,Oil,1982,7.5,Gb
+country,United Kingdom,Oil,1983,6.9,Gb
+country,United Kingdom,Oil,1984,6,Gb
+country,United Kingdom,Oil,1985,5.6,Gb
+country,United Kingdom,Oil,1986,5.3,Gb
+country,United Kingdom,Oil,1987,5.2,Gb
+country,United Kingdom,Oil,1988,4.3,Gb
+country,United Kingdom,Oil,1989,3.8,Gb
+country,United Kingdom,Oil,1990,4,Gb
+country,United Kingdom,Oil,1991,4.2,Gb
+country,United Kingdom,Oil,1992,4.6,Gb
+country,United Kingdom,Oil,1993,4.5,Gb
+country,United Kingdom,Oil,1994,4.3,Gb
+country,United Kingdom,Oil,1995,4.5,Gb
+country,United Kingdom,Oil,1996,5,Gb
+country,United Kingdom,Oil,1997,5.2,Gb
+country,United Kingdom,Oil,1998,5.1,Gb
+country,United Kingdom,Oil,1999,5,Gb
+country,United Kingdom,Oil,2000,4.7,Gb
+country,United Kingdom,Oil,2001,4.5,Gb
+country,United Kingdom,Oil,2002,4.5,Gb
+country,United Kingdom,Oil,2003,4.3,Gb
+country,United Kingdom,Oil,2004,4,Gb
+country,United Kingdom,Oil,2005,3.9,Gb
+country,United Kingdom,Oil,2006,3.6,Gb
+country,United Kingdom,Oil,2007,3.4,Gb
+country,United Kingdom,Oil,2008,3.1,Gb
+country,United Kingdom,Oil,2009,2.8,Gb
+country,United Kingdom,Oil,2010,2.8,Gb
+country,United Kingdom,Oil,2011,3.1,Gb
+country,United Kingdom,Oil,2012,3,Gb
+country,United Kingdom,Oil,2013,3,Gb
+country,United Kingdom,Oil,2014,2.8,Gb
+country,United Kingdom,Oil,2015,2.5,Gb
+country,United Kingdom,Oil,2016,2.3,Gb
+country,United Kingdom,Oil,2017,2.5,Gb
+country,United Kingdom,Oil,2018,2.5,Gb
+country,United States of America,Oil,1980,36.5,Gb
+country,United States of America,Oil,1981,36.5,Gb
+country,United States of America,Oil,1982,35.1,Gb
+country,United States of America,Oil,1983,35.6,Gb
+country,United States of America,Oil,1984,36.1,Gb
+country,United States of America,Oil,1985,36.4,Gb
+country,United States of America,Oil,1986,35.1,Gb
+country,United States of America,Oil,1987,35.4,Gb
+country,United States of America,Oil,1988,35.1,Gb
+country,United States of America,Oil,1989,34.3,Gb
+country,United States of America,Oil,1990,33.8,Gb
+country,United States of America,Oil,1991,32.1,Gb
+country,United States of America,Oil,1992,31.2,Gb
+country,United States of America,Oil,1993,30.2,Gb
+country,United States of America,Oil,1994,29.6,Gb
+country,United States of America,Oil,1995,29.8,Gb
+country,United States of America,Oil,1996,29.8,Gb
+country,United States of America,Oil,1997,30.5,Gb
+country,United States of America,Oil,1998,28.6,Gb
+country,United States of America,Oil,1999,29.7,Gb
+country,United States of America,Oil,2000,30.4,Gb
+country,United States of America,Oil,2001,30.4,Gb
+country,United States of America,Oil,2002,30.7,Gb
+country,United States of America,Oil,2003,29.4,Gb
+country,United States of America,Oil,2004,29.3,Gb
+country,United States of America,Oil,2005,29.9,Gb
+country,United States of America,Oil,2006,29.4,Gb
+country,United States of America,Oil,2007,30.5,Gb
+country,United States of America,Oil,2008,28.4,Gb
+country,United States of America,Oil,2009,30.9,Gb
+country,United States of America,Oil,2010,35,Gb
+country,United States of America,Oil,2011,39.8,Gb
+country,United States of America,Oil,2012,44.2,Gb
+country,United States of America,Oil,2013,48.5,Gb
+country,United States of America,Oil,2014,55,Gb
+country,United States of America,Oil,2015,48,Gb
+country,United States of America,Oil,2016,50,Gb
+country,United States of America,Oil,2017,61.2,Gb
+country,United States of America,Oil,2018,61.2,Gb
+country,Russian Federation & USSR,Oil,1980,67,Gb
+country,Russian Federation & USSR,Oil,1981,63,Gb
+country,Russian Federation & USSR,Oil,1982,63,Gb
+country,Russian Federation & USSR,Oil,1983,63,Gb
+country,Russian Federation & USSR,Oil,1984,63,Gb
+country,Russian Federation & USSR,Oil,1985,63,Gb
+country,Russian Federation & USSR,Oil,1986,61,Gb
+country,Russian Federation & USSR,Oil,1987,59,Gb
+country,Russian Federation & USSR,Oil,1988,59,Gb
+country,Russian Federation & USSR,Oil,1989,58.5,Gb
+country,Russian Federation & USSR,Oil,1990,58.4,Gb
+country,Uzbekistan,Oil,1991,0.3,Gb
+country,Uzbekistan,Oil,1992,0.3,Gb
+country,Uzbekistan,Oil,1993,0.3,Gb
+country,Uzbekistan,Oil,1994,0.3,Gb
+country,Uzbekistan,Oil,1995,0.3,Gb
+country,Uzbekistan,Oil,1996,0.6,Gb
+country,Uzbekistan,Oil,1997,0.6,Gb
+country,Uzbekistan,Oil,1998,0.6,Gb
+country,Uzbekistan,Oil,1999,0.6,Gb
+country,Uzbekistan,Oil,2000,0.6,Gb
+country,Uzbekistan,Oil,2001,0.6,Gb
+country,Uzbekistan,Oil,2002,0.6,Gb
+country,Uzbekistan,Oil,2003,0.6,Gb
+country,Uzbekistan,Oil,2004,0.6,Gb
+country,Uzbekistan,Oil,2005,0.6,Gb
+country,Uzbekistan,Oil,2006,0.6,Gb
+country,Uzbekistan,Oil,2007,0.6,Gb
+country,Uzbekistan,Oil,2008,0.6,Gb
+country,Uzbekistan,Oil,2009,0.6,Gb
+country,Uzbekistan,Oil,2010,0.6,Gb
+country,Uzbekistan,Oil,2011,0.6,Gb
+country,Uzbekistan,Oil,2012,0.6,Gb
+country,Uzbekistan,Oil,2013,0.6,Gb
+country,Uzbekistan,Oil,2014,0.6,Gb
+country,Uzbekistan,Oil,2015,0.6,Gb
+country,Uzbekistan,Oil,2016,0.6,Gb
+country,Uzbekistan,Oil,2017,0.6,Gb
+country,Uzbekistan,Oil,2018,0.6,Gb
+country,Venezuela,Oil,1980,19.5,Gb
+country,Venezuela,Oil,1981,19.9,Gb
+country,Venezuela,Oil,1982,24.9,Gb
+country,Venezuela,Oil,1983,25.9,Gb
+country,Venezuela,Oil,1984,28,Gb
+country,Venezuela,Oil,1985,54.5,Gb
+country,Venezuela,Oil,1986,55.5,Gb
+country,Venezuela,Oil,1987,58.1,Gb
+country,Venezuela,Oil,1988,58.5,Gb
+country,Venezuela,Oil,1989,59,Gb
+country,Venezuela,Oil,1990,60.1,Gb
+country,Venezuela,Oil,1991,62.6,Gb
+country,Venezuela,Oil,1992,63.3,Gb
+country,Venezuela,Oil,1993,64.4,Gb
+country,Venezuela,Oil,1994,64.9,Gb
+country,Venezuela,Oil,1995,66.3,Gb
+country,Venezuela,Oil,1996,72.7,Gb
+country,Venezuela,Oil,1997,74.9,Gb
+country,Venezuela,Oil,1998,76.1,Gb
+country,Venezuela,Oil,1999,76.8,Gb
+country,Venezuela,Oil,2000,76.8,Gb
+country,Venezuela,Oil,2001,77.7,Gb
+country,Venezuela,Oil,2002,77.3,Gb
+country,Venezuela,Oil,2003,77.2,Gb
+country,Venezuela,Oil,2004,79.7,Gb
+country,Venezuela,Oil,2005,80,Gb
+country,Venezuela,Oil,2006,87.3,Gb
+country,Venezuela,Oil,2007,99.4,Gb
+country,Venezuela,Oil,2008,172.3,Gb
+country,Venezuela,Oil,2009,211.2,Gb
+country,Venezuela,Oil,2010,296.5,Gb
+country,Venezuela,Oil,2011,297.6,Gb
+country,Venezuela,Oil,2012,297.7,Gb
+country,Venezuela,Oil,2013,298.4,Gb
+country,Venezuela,Oil,2014,300,Gb
+country,Venezuela,Oil,2015,300.9,Gb
+country,Venezuela,Oil,2016,302.3,Gb
+country,Venezuela,Oil,2017,302.8,Gb
+country,Venezuela,Oil,2018,303.3,Gb
+country,Viet Nam,Oil,1988,0.1,Gb
+country,Viet Nam,Oil,1989,0.1,Gb
+country,Viet Nam,Oil,1990,0.2,Gb
+country,Viet Nam,Oil,1991,0.2,Gb
+country,Viet Nam,Oil,1992,0.4,Gb
+country,Viet Nam,Oil,1993,0.6,Gb
+country,Viet Nam,Oil,1994,0.6,Gb
+country,Viet Nam,Oil,1995,0.8,Gb
+country,Viet Nam,Oil,1996,0.9,Gb
+country,Viet Nam,Oil,1997,1.2,Gb
+country,Viet Nam,Oil,1998,1.9,Gb
+country,Viet Nam,Oil,1999,1.8,Gb
+country,Viet Nam,Oil,2000,2,Gb
+country,Viet Nam,Oil,2001,2.2,Gb
+country,Viet Nam,Oil,2002,2.8,Gb
+country,Viet Nam,Oil,2003,3,Gb
+country,Viet Nam,Oil,2004,3.1,Gb
+country,Viet Nam,Oil,2005,3.1,Gb
+country,Viet Nam,Oil,2006,3.3,Gb
+country,Viet Nam,Oil,2007,3.4,Gb
+country,Viet Nam,Oil,2008,4.7,Gb
+country,Viet Nam,Oil,2009,4.5,Gb
+country,Viet Nam,Oil,2010,4.4,Gb
+country,Viet Nam,Oil,2011,4.4,Gb
+country,Viet Nam,Oil,2012,4.4,Gb
+country,Viet Nam,Oil,2013,4.4,Gb
+country,Viet Nam,Oil,2014,4.4,Gb
+country,Viet Nam,Oil,2015,4.4,Gb
+country,Viet Nam,Oil,2016,4.4,Gb
+country,Viet Nam,Oil,2017,4.4,Gb
+country,Viet Nam,Oil,2018,4.4,Gb
+country,Yemen,Oil,1985,0.5,Gb
+country,Yemen,Oil,1986,0.5,Gb
+country,Yemen,Oil,1987,1.1,Gb
+country,Yemen,Oil,1988,2,Gb
+country,Yemen,Oil,1989,2,Gb
+country,Yemen,Oil,1990,2,Gb
+country,Yemen,Oil,1991,2,Gb
+country,Yemen,Oil,1992,2,Gb
+country,Yemen,Oil,1993,2,Gb
+country,Yemen,Oil,1994,2,Gb
+country,Yemen,Oil,1995,2,Gb
+country,Yemen,Oil,1996,2,Gb
+country,Yemen,Oil,1997,1.8,Gb
+country,Yemen,Oil,1998,1.9,Gb
+country,Yemen,Oil,1999,1.9,Gb
+country,Yemen,Oil,2000,2.4,Gb
+country,Yemen,Oil,2001,2.4,Gb
+country,Yemen,Oil,2002,2.9,Gb
+country,Yemen,Oil,2003,2.9,Gb
+country,Yemen,Oil,2004,3,Gb
+country,Yemen,Oil,2005,2.9,Gb
+country,Yemen,Oil,2006,2.8,Gb
+country,Yemen,Oil,2007,2.7,Gb
+country,Yemen,Oil,2008,2.7,Gb
+country,Yemen,Oil,2009,3,Gb
+country,Yemen,Oil,2010,3,Gb
+country,Yemen,Oil,2011,3,Gb
+country,Yemen,Oil,2012,3,Gb
+country,Yemen,Oil,2013,3,Gb
+country,Yemen,Oil,2014,3,Gb
+country,Yemen,Oil,2015,3,Gb
+country,Yemen,Oil,2016,3,Gb
+country,Yemen,Oil,2017,3,Gb
+country,Yemen,Oil,2018,3,Gb

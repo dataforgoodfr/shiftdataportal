@@ -58,7 +58,7 @@ const coal: CoalResolvers = {
         TOTAL.energy_family,
         TOTAL.group_type,
         TOTAL.group_name,
-        db.knex.raw("SUM(??)::numeric * ? as ??", [
+        db.knex.raw("SUM(??) * ? as ??", [
           TOTAL.energy,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
           TOTAL.energy,
@@ -157,7 +157,7 @@ const coal: CoalResolvers = {
       .select(
         PER_CAPITA.year,
         PER_CAPITA.group_name,
-        db.knex.raw("SUM(??)::numeric * ? as ??", [
+        db.knex.raw("SUM(??) * ? as ??", [
           PER_CAPITA.energy_per_capita,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
           PER_CAPITA.energy_per_capita,

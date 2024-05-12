@@ -1,18 +1,9 @@
 export const knexConfig = {
-  client: "pg",
-  pool: {
-    min: 0,
-    max: 50,
-  },
-  migrations: {
-    tableName: "migrations",
-  },
+  client: "sqlite3",
   debug: false,
+  useNullAsDefault: true,
   connection: {
-    host: process.env.DB_HOST,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_NAME,
+    filename: './data.sqlite3'
   },
 };
 export default require("knex")(knexConfig);

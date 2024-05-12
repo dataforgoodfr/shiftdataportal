@@ -2,21 +2,21 @@
 
 This is the monorepo containing multiple stacks.
 Each stack is explained in details in it's directory.
-Those stacks are mostly made with Node JS, Typescript, Apollo GraphQL, AWS Lambda, React JS, Next JS
+Those stacks are mostly made with Node JS, Typescript, Apollo GraphQL, React JS, Next JS
 
 ## Prerequisites
 
-Install Node JS, Serverless, Typescript and Yarn
+Install Node JS 20 and Yarn
 
 ## Stacks
 
 ### /server
 
-The Node JS Serverless GraphQL API of the data portal. It is connected to a RDS PosgreSQL DB.
+The Node JS GraphQL API of the data portal. It is connected to a SQLite DB.
 
 ### /client
 
-The React JS web application, it is server side rendered (SSR) thanks to Next JS also in Serverless mode.
+The React JS web application, it is server side rendered (SSR) thanks to Next JS.
 
 ### /csv-generator
 

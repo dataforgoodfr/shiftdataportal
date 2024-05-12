@@ -1,0 +1,249 @@
+category,body
+co2-imports-exports,"# Warning
+
+This source only includes the carbon footprint of CO<sub>2</sub>. Other greenhouse gases : CH<sub>4</sub>, N<sub>2</sub>O, F-Gases are not taken into account here. CO<sub>2</sub> represents 74% of global greenhouse gases emissions, hence on average the carbon footprint of all greenhouse gases should be about 35% higher than the CO<sub>2</sub> carbon footprint.
+
+# About
+
+The CO<sub>2</sub> footprint of a country is the total amount of CO<sub>2</sub> produced directly and indirectly by this country. It's the sum of the territorial CO<sub>2</sub> emissions, plus the CO<sub>2</sub> embedded in imports minus the CO<sub>2</sub> embedded in exports. 
+
+# Data Sources
+
+- [Eora](https://worldmrio.com/)
+- GDP data : [World Bank](https://data.worldbank.org/)
+- Population data : Free data from Gapminder.org: gapm.io/d_pop_v5
+- Kanemoto, K., D. Moran, Hertwitch, E. (2016) Mapping the Carbon Footprint of Nations. Environmental Science and Technology 10.1021/acs.est.6b03227"
+kaya,"# About
+
+The Kaya identity is an identity stating that the total emission level of carbon dioxide can be expressed as the product of four factors: population, GDP per capita, energy per GDP (energy intensity of GDP), and CO2 per energy (carbon intensity of energy).
+
+In this dataset CO2 emissions are production-based.
+
+# Data Sources
+
+- CO<sub>2</sub> data : US EIA Historical Statistics for 1980-2016. [U.S. Energy Information Administration](https://www.eia.gov/beta/international/)
+- Energy data : US EIA Historical Statistics for 1980-2016. [U.S. Energy Information Administration](https://www.eia.gov/beta/international/)
+- GDP data : [World Bank](https://data.worldbank.org/)
+- Population data : Free data from Gapminder.org: gapm.io/d_pop_v5"
+carbon-footprint,"# Warning
+
+This source only includes the carbon footprint of CO<sub>2</sub>. Other greenhouse gases : CH<sub>4</sub>, N<sub>2</sub>O, F-Gases are not taken into account here. CO<sub>2</sub> represents 74% of global greenhouse gases emissions, hence on average the carbon footprint of all greenhouse gases should be about 35% higher than the CO<sub>2</sub> carbon footprint.
+
+# About
+
+The carbon footprint of a country is the total amount of CO<sub>2</sub> produced directly and indirectly by this country. It's the sum of the territorial CO<sub>2</sub> emissions, plus the CO<sub>2</sub> embedded in imports minus the CO<sub>2</sub> embedded in exports. 
+
+
+# Data Sources
+
+- [Eora](https://worldmrio.com/)
+- GDP data : [World Bank](https://data.worldbank.org/)
+- Population data : Free data from Gapminder.org: gapm.io/d_pop_v5
+- Kanemoto, K., D. Moran, Hertwitch, E. (2016) Mapping the Carbon Footprint of Nations. Environmental Science and Technology 10.1021/acs.est.6b03227"""
+co2-from-energy,"# About
+
+CO<sub>2</sub> Emissions from Fossil Fuels is the CO<sub>2</sub> emitted from burning fossil fuels for energy. It doesn't include the CO<sub>2</sub> emitted for non-energy purposes or the radiative forcing resulting from other greenhouse gases (for this information go to Greenhouse Gas Emissions).
+
+# Data sources
+- US EIA Historical Statistics for 1980-2016. [U.S. Energy Information Administration](https://www.eia.gov/beta/international/)
+- GDP data : [World Bank](https://data.worldbank.org/)
+- Population data : Free data from Gapminder.org: gapm.io/d_pop_v5"
+ghg,"# Warning
+
+The emissions from land use, land-use change, and forestry (LULUCF) are not included here.
+
+# About 
+
+Production-based emissions (as opposed to consumption-based emissions) are the emissions taking place within national territory, irrespective of whether the goods and services resulting from these emissions are consumed domestically or are exported. 
+
+Consumption-based emissions take into account the effects of trade (See : [Carbon Footprint](https://theshiftdataportal.org/climate/carbon-footprint)).
+
+# Data sources
+## PIK
+Gütschow, J.; Jeffery, L.; Gieseke, R. (2019): The PRIMAP-hist national historical emissions time series (1850-2016). v2.0. GFZ Data Services. https://doi.org/10.5880/pik.2019.001
+
+## CAIT
+Climate Data Explorer. 2017. Country Greenhouse Gas Emissions. Washington, DC: World Resources Institute. Available online at: https://cait.wri.org
+
+## EDGAR
+EDGARv4.3.2 website (http://edgar.jrc.ec.europa.eu/overview.php?v=432&SECURE=123) DOI (https://data.europa.eu/doi/10.2904/JRC_DATASET_EDGAR) and the following scientific publication: Janssens-Maenhout, G., Crippa, M., Guizzardi, D., Muntean, M., Schaaf, E., Dentener, F., Bergamaschi, P., Pagliari, V., Olivier, J. G. J., Peters, J. A. H. W., van Aardenne, J. A., Monni, S., Doering, U., and Petrescu, A. M. R.: Global Atlas of the three major Greenhouse Gas Emissions for the period 1970-2012, Earth System Science Data, essd-2017-79, submitted, 2017
+
+## FAO
+The ‘Emissions by sector’ domain of the FAOSTAT Agri-Environmental Indicators section contains data on emissions of greenhouse gases (GHG) by gas, economic sector, country and year. The sources for these data are: • FAOSTAT emissions domains (Emissions - Agriculture and Emissions - Land Use) (FAO, 2016) for the sectors: ‘Agriculture total’, ‘Land Use sources’ and ‘Forest’. • EDGAR (Emissions Database for Global Atmospheric Research) (JRC/PBL, 2016) for the sectors: ‘Energy (energy industries, manufacturing and fugitive emissions)’, ‘Transport’, ‘Residential, commercial, institutional and AFF (Agriculture/Forestry/Fishing)’, ‘Industrial processes and product use’, ‘Waste’, ‘Other sources’ and ‘International Bunkers’. In the EDGAR database, developed by the Joint Research Centre of the European Commission and the Netherlands Environmental Assessment Agency (JRC/PBL, 2016), the annual data on GHG emissions are available by country, source/sink category, gas and year. The source/sink categories follow the guidelines from IPCC (1997) Revised 1996 IPCC Guidelines for National GHG Inventories (Olivier et al., 2011, p.8). In this FAOSTAT ‘Emissions by sector’ domain, the source/sink categories from EDGAR have been aggregated into seven sectors, as shown in table 1 below. EDGAR data under IPCC categories 4 and 5 (‘Total Agriculture’ and ‘Total Land-Use Change and Forestry’) have not been included, as these data have been taken from FAOSTAT. EDGAR data for ‘International aviation’ and ‘International navigation/shipping’ are available only at the world level."
+nuclear,"# Data sources
+
+## Production (1900-2016)
+
+- Etemad & Luciani for the period 1900-1980 Bouda Etemad and Jean Luciani, World Energy Production 1900 – 1985, ISBN 2-600-56007-6, Data digitalized and published with agreement of B. Etemad
+- US EIA Historical Statistics for 1980-2016. U.S. Energy Information Administration,  accessed on 2019-06-05
+
+## Consumption (1980-2016)
+
+- US EIA Historical Statistics for 1980-2016. U.S. Energy Information Administration,  accessed on 2019-06-05
+
+## Others
+
+- GDP data : [World Bank](https://data.worldbank.org/),  accessed on 2019-05-02
+- Population data : Free data from Gapminder.org: gapm.io/d_pop_v5,  accessed on 2019-09-10
+
+# Accounting Conventions
+
+Primary energy figures vary between sources given that different primary energy accounting conventions are used. We use the primary energy accounting conventions of the US EIA. For an overview of the different primary energy accounting conventions see [Global Energy Outlooks Comparison Methods](https://www.ief.org/_resources/files/links/energy-outlooks-ief/2017-global-energy-outlooks-comparison-methods--challenges.pdf)."
+renewable-energy,"# Data sources
+
+## Production (1900-2016)
+
+- Etemad & Luciani for the period 1900-1980 Bouda Etemad and Jean Luciani, World Energy Production 1900 – 1985, ISBN 2-600-56007-6, Data digitalized and published with agreement of B. Etemad
+- US EIA Historical Statistics for 1980-2016. U.S. Energy Information Administration,  accessed on 2019-06-05
+
+## Consumption (1980-2016)
+
+- US EIA Historical Statistics for 1980-2016. U.S. Energy Information Administration,  accessed on 2019-06-05
+
+## Others
+
+- GDP data : [World Bank](https://data.worldbank.org/),  accessed on 2019-05-02
+- Population data : Free data from Gapminder.org: gapm.io/d_pop_v5,  accessed on 2019-09-10
+
+# Accounting Conventions
+
+Primary energy figures vary between sources given that different primary energy accounting conventions are used. We use the primary energy accounting conventions of the US EIA. For an overview of the different primary energy accounting conventions see [Global Energy Outlooks Comparison Methods](https://www.ief.org/_resources/files/links/energy-outlooks-ief/2017-global-energy-outlooks-comparison-methods--challenges.pdf)."
+coal,"# Data sources
+
+## Production (1900-2016)
+
+- Etemad & Luciani for the period 1900-1980 Bouda Etemad and Jean Luciani, World Energy Production 1900 – 1985, ISBN 2-600-56007-6, Data digitalized and published with agreement of B. Etemad
+- US EIA Historical Statistics for 1980-2016. U.S. Energy Information Administration,  accessed on 2019-06-05
+
+## Consumption (1980-2016)
+
+- US EIA Historical Statistics for 1980-2016. U.S. Energy Information Administration,  accessed on 2019-06-05
+
+## Others
+
+- GDP data : [World Bank](https://data.worldbank.org/),  accessed on 2019-05-02
+- Population data : Free data from Gapminder.org: gapm.io/d_pop_v5,  accessed on 2019-09-10
+
+# Accounting Conventions
+
+Primary energy figures vary between sources given that different primary energy accounting conventions are used. We use the primary energy accounting conventions of the US EIA. For an overview of the different primary energy accounting conventions see [Global Energy Outlooks Comparison Methods](https://www.ief.org/_resources/files/links/energy-outlooks-ief/2017-global-energy-outlooks-comparison-methods--challenges.pdf)."
+oil,"# Data sources
+
+## Production (1900-2016)
+
+- Etemad & Luciani for the period 1900-1980 Bouda Etemad and Jean Luciani, World Energy Production 1900 – 1985, ISBN 2-600-56007-6, Data digitalized and published with agreement of B. Etemad
+- US EIA Historical Statistics for 1980-2016. U.S. Energy Information Administration,  accessed on 2019-06-05
+
+## Consumption (1980-2016)
+
+- US EIA Historical Statistics for 1980-2016. U.S. Energy Information Administration,  accessed on 2019-06-05
+
+## Others
+
+- GDP data : [World Bank](https://data.worldbank.org/),  accessed on 2019-05-02
+- Population data : Free data from Gapminder.org: gapm.io/d_pop_v5,  accessed on 2019-09-10
+
+# Accounting Conventions
+
+Primary energy figures vary between sources given that different primary energy accounting conventions are used. We use the primary energy accounting conventions of the US EIA. For an overview of the different primary energy accounting conventions see [Global Energy Outlooks Comparison Methods](https://www.ief.org/_resources/files/links/energy-outlooks-ief/2017-global-energy-outlooks-comparison-methods--challenges.pdf)."
+gas,"# Data sources
+
+## Production (1900-2016)
+
+- Etemad & Luciani for the period 1900-1980 Bouda Etemad and Jean Luciani, World Energy Production 1900 – 1985, ISBN 2-600-56007-6, Data digitalized and published with agreement of B. Etemad
+- US EIA Historical Statistics for 1980-2016. U.S. Energy Information Administration,  accessed on 2019-06-05
+
+## Consumption (1980-2016)
+
+- US EIA Historical Statistics for 1980-2016. U.S. Energy Information Administration,  accessed on 2019-06-05
+
+## Others
+
+- GDP data : [World Bank](https://data.worldbank.org/),  accessed on 2019-05-02
+- Population data : Free data from Gapminder.org: gapm.io/d_pop_v5,  accessed on 2019-09-10
+
+# Accounting Conventions
+
+Primary energy figures vary between sources given that different primary energy accounting conventions are used. We use the primary energy accounting conventions of the US EIA. For an overview of the different primary energy accounting conventions see [Global Energy Outlooks Comparison Methods](https://www.ief.org/_resources/files/links/energy-outlooks-ief/2017-global-energy-outlooks-comparison-methods--challenges.pdf)."
+energy-intensity-gdp,"# Data sources
+
+## Production (1900-2016)
+
+- Etemad & Luciani for the period 1900-1980 Bouda Etemad and Jean Luciani, World Energy Production 1900 – 1985, ISBN 2-600-56007-6, Data digitalized and published with agreement of B. Etemad
+- US EIA Historical Statistics for 1980-2016. U.S. Energy Information Administration,  accessed on 2019-06-05
+
+## Consumption (1980-2016)
+
+- US EIA Historical Statistics for 1980-2016. U.S. Energy Information Administration,  accessed on 2019-06-05
+
+## Others
+
+- GDP data : [World Bank](https://data.worldbank.org/),  accessed on 2019-05-02
+- Population data : Free data from Gapminder.org: gapm.io/d_pop_v5,  accessed on 2019-09-10
+
+# Accounting Conventions
+
+Primary energy figures vary between sources given that different primary energy accounting conventions are used. We use the primary energy accounting conventions of the US EIA. For an overview of the different primary energy accounting conventions see [Global Energy Outlooks Comparison Methods](https://www.ief.org/_resources/files/links/energy-outlooks-ief/2017-global-energy-outlooks-comparison-methods--challenges.pdf)."
+electricity,"# About
+
+## Electricity generation capacity 
+
+Electricity generation capacity is the maximum electric output an electricity generator can produce under specific conditions. Capacity is generally measured in GW or MW.
+
+## Electricity generation
+
+Electricity generation is the amount of electricity a generator produces during a specific period of time (1 year here). Electricity generation is generally measured in GWh or TWh.
+
+
+# Data Sources
+
+- Electric capacity : US EIA
+- Electricity generation : IEA 
+- GDP data : [World Bank](https://data.worldbank.org/)
+- Population data : Free data from Gapminder.org: gapm.io/d_pop_v5"
+primary-energy,"# About
+
+## Primary Energy Production 
+
+[Primary production of energy](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Primary_energy_production) is any extraction of energy products in a useable form from natural sources. This occurs either when natural sources are exploited (for example, in coal mines, crude oil fields, hydro power plants) or in the fabrication of biofuels.
+
+Transforming energy from one form into another, such as electricity or heat generation in thermal power plants (where primary energy sources are burned), or coke production in coke ovens, is not primary production
+
+## Primary Energy Consumption
+
+[Primary energy consumption](https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Primary_energy_consumption) measures the total energy demand of a country. It covers consumption of the energy sector itself, losses during transformation (for example, from oil or gas into electricity) and distribution of energy, and the final consumption by end users. It excludes energy carriers used for non-energy purposes (such as petroleum not used not for combustion but for producing plastics).
+
+# Data sources
+
+## Production (1900-2016)
+
+- Etemad & Luciani for the period 1900-1980 Bouda Etemad and Jean Luciani, World Energy Production 1900 – 1985, ISBN 2-600-56007-6, Data digitalized and published with agreement of B. Etemad
+- US EIA Historical Statistics for 1980-2016. U.S. Energy Information Administration,  accessed on 2019-06-05
+
+## Consumption (1980-2016)
+
+- US EIA Historical Statistics for 1980-2016. U.S. Energy Information Administration,  accessed on 2019-06-05
+
+## Others
+
+- GDP data : [World Bank](https://data.worldbank.org/),  accessed on 2019-05-02
+- Population data : Free data from Gapminder.org: gapm.io/d_pop_v5,  accessed on 2019-09-10
+
+# Accounting Conventions
+
+Primary energy figures vary between sources given that different primary energy accounting conventions are used. We use the primary energy accounting conventions of the US EIA. For an overview of the different primary energy accounting conventions see [Global Energy Outlooks Comparison Methods](https://www.ief.org/_resources/files/links/energy-outlooks-ief/2017-global-energy-outlooks-comparison-methods--challenges.pdf)."
+final-energy,"# About
+
+Final energy consumption is the total energy consumed by end users, such as households, industry and agriculture. It is the energy which reaches the final consumer's door and excludes that which is used by the energy sector itself.
+
+# Data sources
+
+- IEA 
+- EGEDA
+- GDP data : [World Bank](https://data.worldbank.org/)
+- Population data : Free data from Gapminder.org: gapm.io/d_pop_v5
+
+# Accounting conventions
+
+We use the IEA's energy accounting conventions
+For EGEDA see the [EGEDA Database Information](https://www.egeda.ewg.apec.org/egeda/database_info/database_information.html)"
