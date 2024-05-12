@@ -1,0 +1,1132 @@
+country,country_code_a3,year,region_name,sub-region_name,group,type,unit,source,value
+Argentina,ARG,2000,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,1.22
+Argentina,ARG,2001,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,1.76
+Argentina,ARG,2002,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,5.84
+Argentina,ARG,2003,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,5.03
+Argentina,ARG,2004,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,3.47
+Argentina,ARG,2005,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,3.88
+Argentina,ARG,2006,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,2.36
+Argentina,ARG,2007,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,7.6
+Argentina,ARG,2008,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,5.48
+Argentina,ARG,2009,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,6.16
+Argentina,ARG,2010,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,8.6
+Argentina,ARG,2011,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,9.67
+Argentina,ARG,2012,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,7.61
+Argentina,ARG,2013,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,7.8
+Argentina,ARG,2014,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,9.86
+Argentina,ARG,2015,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,8.96
+Argentina,ARG,2016,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,9.52
+Argentina,ARG,2017,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,10.46
+Argentina,ARG,2018,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,9.56
+Argentina,ARG,2019,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,10.69
+Argentina,ARG,2020,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,4.71
+Argentina,ARG,2021,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,2.5
+Argentina,ARG,2022,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,11.81
+Austria,AUT,2000,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,-1.37
+Austria,AUT,2001,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,0.22
+Austria,AUT,2002,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,0.7
+Austria,AUT,2003,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,5.61
+Austria,AUT,2004,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,3.08
+Austria,AUT,2005,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,2.62
+Austria,AUT,2006,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,6.34
+Austria,AUT,2007,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,6.02
+Austria,AUT,2008,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,4.86
+Austria,AUT,2009,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,0.78
+Austria,AUT,2010,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,2.44
+Austria,AUT,2011,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,8.2
+Austria,AUT,2012,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,2.8
+Austria,AUT,2013,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,7.27
+Austria,AUT,2014,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,9.27
+Austria,AUT,2015,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,10.06
+Austria,AUT,2016,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,7.16
+Austria,AUT,2017,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,6.55
+Austria,AUT,2018,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,8.95
+Austria,AUT,2019,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,3.13
+Austria,AUT,2020,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,2.2
+Austria,AUT,2021,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,7.54
+Austria,AUT,2022,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,8.91
+Bahrain,BHR,2007,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.01
+Bahrain,BHR,2008,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.19
+Bahrain,BHR,2009,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.17
+Bahrain,BHR,2010,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.17
+Bahrain,BHR,2011,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.12
+Bahrain,BHR,2012,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.16
+Bahrain,BHR,2013,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.02
+Bahrain,BHR,2015,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.01
+Bahrain,BHR,2016,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.02
+Bahrain,BHR,2017,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.04
+Bahrain,BHR,2018,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.2
+Bahrain,BHR,2019,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.2
+Bahrain,BHR,2020,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.2
+Bahrain,BHR,2021,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.2
+Belgium,BEL,2000,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,4.33
+Belgium,BEL,2001,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,9.11
+Belgium,BEL,2002,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,7.59
+Belgium,BEL,2003,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,6.41
+Belgium,BEL,2004,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,7.78
+Belgium,BEL,2005,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,6.3
+Belgium,BEL,2006,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,10.16
+Belgium,BEL,2007,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,6.78
+Belgium,BEL,2008,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,10.6
+Belgium,BEL,2009,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,-1.84
+Belgium,BEL,2010,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,0.55
+Belgium,BEL,2011,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,2.54
+Belgium,BEL,2012,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,9.94
+Belgium,BEL,2013,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,9.64
+Belgium,BEL,2014,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,17.6
+Belgium,BEL,2015,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,21.0
+Belgium,BEL,2016,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,6.18
+Belgium,BEL,2017,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,6.02
+Belgium,BEL,2018,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,17.33
+Belgium,BEL,2019,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,-1.85
+Belgium,BEL,2020,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,-0.33
+Belgium,BEL,2021,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,-7.88
+Belgium,BEL,2022,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,-6.59
+Brazil,BRA,2000,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,43.0
+Brazil,BRA,2001,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,37.85
+Brazil,BRA,2002,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,36.56
+Brazil,BRA,2003,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,38.19
+Brazil,BRA,2004,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,37.38
+Brazil,BRA,2005,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,39.04
+Brazil,BRA,2006,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,41.16
+Brazil,BRA,2007,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,38.83
+Brazil,BRA,2008,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,42.21
+Brazil,BRA,2009,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,39.98
+Brazil,BRA,2010,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,34.65
+Brazil,BRA,2011,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,35.89
+Brazil,BRA,2012,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,40.26
+Brazil,BRA,2013,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,40.33
+Brazil,BRA,2014,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,33.78
+Brazil,BRA,2015,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,34.42
+Brazil,BRA,2016,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,40.79
+Brazil,BRA,2017,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,36.35
+Brazil,BRA,2018,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,34.98
+Brazil,BRA,2019,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,24.96
+Brazil,BRA,2020,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,24.72
+Brazil,BRA,2021,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,23.1
+Brazil,BRA,2022,Americas,Latin America and the Caribbean,g20,Electricity imports,TWh,ember,23.1
+Bulgaria,BGR,2000,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-4.62
+Bulgaria,BGR,2001,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-6.93
+Bulgaria,BGR,2002,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-6.3
+Bulgaria,BGR,2003,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-5.49
+Bulgaria,BGR,2004,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-5.88
+Bulgaria,BGR,2005,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-7.58
+Bulgaria,BGR,2006,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-7.74
+Bulgaria,BGR,2007,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-4.47
+Bulgaria,BGR,2008,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-5.34
+Bulgaria,BGR,2009,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-5.07
+Bulgaria,BGR,2010,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-8.45
+Bulgaria,BGR,2011,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-10.66
+Bulgaria,BGR,2012,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-8.31
+Bulgaria,BGR,2013,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-6.18
+Bulgaria,BGR,2014,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-9.46
+Bulgaria,BGR,2015,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-10.58
+Bulgaria,BGR,2016,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-6.37
+Bulgaria,BGR,2017,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-5.48
+Bulgaria,BGR,2018,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-7.81
+Bulgaria,BGR,2019,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-5.81
+Bulgaria,BGR,2020,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-3.41
+Bulgaria,BGR,2021,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-8.78
+Bulgaria,BGR,2022,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-12.33
+Canada,CAN,2000,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-35.83
+Canada,CAN,2001,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-22.3
+Canada,CAN,2002,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-21.31
+Canada,CAN,2003,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-5.74
+Canada,CAN,2004,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-10.53
+Canada,CAN,2005,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-23.85
+Canada,CAN,2006,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-19.11
+Canada,CAN,2007,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-30.95
+Canada,CAN,2008,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-32.16
+Canada,CAN,2009,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-33.62
+Canada,CAN,2010,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-25.7
+Canada,CAN,2011,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-36.56
+Canada,CAN,2012,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-46.98
+Canada,CAN,2013,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-50.88
+Canada,CAN,2014,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-47.33
+Canada,CAN,2015,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-62.18
+Canada,CAN,2016,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-63.8
+Canada,CAN,2017,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-62.15
+Canada,CAN,2018,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-48.21
+Canada,CAN,2019,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-47.01
+Canada,CAN,2020,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-57.58
+Canada,CAN,2021,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-38.07
+Canada,CAN,2022,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,-42.03
+Chile,CHL,2000,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,1.19
+Chile,CHL,2001,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,1.35
+Chile,CHL,2002,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,1.8
+Chile,CHL,2003,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,1.7
+Chile,CHL,2004,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,1.9
+Chile,CHL,2005,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,2.15
+Chile,CHL,2006,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,2.29
+Chile,CHL,2007,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,1.63
+Chile,CHL,2008,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,1.15
+Chile,CHL,2009,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,1.35
+Chile,CHL,2010,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,0.96
+Chile,CHL,2011,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,0.73
+Chile,CHL,2017,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.04
+China,CHN,2000,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-8.75
+China,CHN,2001,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-8.6
+China,CHN,2002,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-8.4
+China,CHN,2003,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-7.36
+China,CHN,2004,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-6.08
+China,CHN,2005,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-6.18
+China,CHN,2006,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-6.88
+China,CHN,2007,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-10.31
+China,CHN,2008,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-12.8
+China,CHN,2009,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-11.38
+China,CHN,2010,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-13.51
+China,CHN,2011,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-12.74
+China,CHN,2012,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-10.78
+China,CHN,2013,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-11.23
+China,CHN,2014,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-11.41
+China,CHN,2015,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-12.44
+China,CHN,2016,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-12.72
+China,CHN,2017,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-13.05
+China,CHN,2018,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-15.22
+China,CHN,2019,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-16.8
+China,CHN,2020,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-17.04
+China,CHN,2021,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-17.7
+China,CHN,2022,Asia,Eastern Asia,g20,Electricity imports,TWh,ember,-17.7
+Colombia,COL,2000,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,0.06
+Colombia,COL,2001,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.17
+Colombia,COL,2002,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.61
+Colombia,COL,2003,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-1.11
+Colombia,COL,2004,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-1.63
+Colombia,COL,2005,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-1.74
+Colombia,COL,2006,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-1.79
+Colombia,COL,2007,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.84
+Colombia,COL,2008,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-1.4
+Colombia,COL,2009,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-1.06
+Colombia,COL,2010,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.79
+Colombia,COL,2011,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-1.53
+Colombia,COL,2012,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.71
+Colombia,COL,2013,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-1.35
+Colombia,COL,2014,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.8
+Colombia,COL,2015,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.41
+Colombia,COL,2016,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,0.33
+Colombia,COL,2017,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,0.07
+Colombia,COL,2018,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,0.11
+Colombia,COL,2019,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,1.76
+Colombia,COL,2020,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,1.05
+Colombia,COL,2021,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,0.46
+Colombia,COL,2022,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,0.46
+Costa Rica,CRI,2000,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.47
+Costa Rica,CRI,2001,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.25
+Costa Rica,CRI,2002,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.44
+Costa Rica,CRI,2003,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.17
+Costa Rica,CRI,2004,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.24
+Costa Rica,CRI,2005,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,0.01
+Costa Rica,CRI,2006,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,0.09
+Costa Rica,CRI,2007,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,0.16
+Costa Rica,CRI,2008,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.07
+Costa Rica,CRI,2009,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,0.02
+Costa Rica,CRI,2010,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,0.03
+Costa Rica,CRI,2011,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.04
+Costa Rica,CRI,2012,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,0.02
+Costa Rica,CRI,2013,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,0.05
+Costa Rica,CRI,2014,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,0.2
+Costa Rica,CRI,2015,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.11
+Costa Rica,CRI,2016,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.34
+Costa Rica,CRI,2017,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.71
+Costa Rica,CRI,2018,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.75
+Costa Rica,CRI,2019,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.37
+Costa Rica,CRI,2020,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-1.12
+Costa Rica,CRI,2021,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-1.0
+Costa Rica,CRI,2022,Americas,Latin America and the Caribbean,oecd,Electricity imports,TWh,ember,-0.68
+Croatia,HRV,2000,Europe,Southern Europe,eu,Electricity imports,TWh,ember,3.42
+Croatia,HRV,2001,Europe,Southern Europe,eu,Electricity imports,TWh,ember,2.52
+Croatia,HRV,2002,Europe,Southern Europe,eu,Electricity imports,TWh,ember,3.04
+Croatia,HRV,2003,Europe,Southern Europe,eu,Electricity imports,TWh,ember,3.31
+Croatia,HRV,2004,Europe,Southern Europe,eu,Electricity imports,TWh,ember,3.0
+Croatia,HRV,2005,Europe,Southern Europe,eu,Electricity imports,TWh,ember,4.41
+Croatia,HRV,2006,Europe,Southern Europe,eu,Electricity imports,TWh,ember,5.0
+Croatia,HRV,2007,Europe,Southern Europe,eu,Electricity imports,TWh,ember,5.9
+Croatia,HRV,2008,Europe,Southern Europe,eu,Electricity imports,TWh,ember,6.01
+Croatia,HRV,2009,Europe,Southern Europe,eu,Electricity imports,TWh,ember,5.0
+Croatia,HRV,2010,Europe,Southern Europe,eu,Electricity imports,TWh,ember,3.97
+Croatia,HRV,2011,Europe,Southern Europe,eu,Electricity imports,TWh,ember,7.15
+Croatia,HRV,2012,Europe,Southern Europe,eu,Electricity imports,TWh,ember,7.43
+Croatia,HRV,2013,Europe,Southern Europe,eu,Electricity imports,TWh,ember,3.87
+Croatia,HRV,2014,Europe,Southern Europe,eu,Electricity imports,TWh,ember,3.95
+Croatia,HRV,2015,Europe,Southern Europe,eu,Electricity imports,TWh,ember,6.79
+Croatia,HRV,2016,Europe,Southern Europe,eu,Electricity imports,TWh,ember,5.53
+Croatia,HRV,2017,Europe,Southern Europe,eu,Electricity imports,TWh,ember,6.95
+Croatia,HRV,2018,Europe,Southern Europe,eu,Electricity imports,TWh,ember,5.39
+Croatia,HRV,2019,Europe,Southern Europe,eu,Electricity imports,TWh,ember,6.13
+Croatia,HRV,2020,Europe,Southern Europe,eu,Electricity imports,TWh,ember,4.64
+Croatia,HRV,2021,Europe,Southern Europe,eu,Electricity imports,TWh,ember,3.96
+Croatia,HRV,2022,Europe,Southern Europe,eu,Electricity imports,TWh,ember,4.85
+Czechia,CZE,2000,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-10.02
+Czechia,CZE,2001,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-9.54
+Czechia,CZE,2002,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-11.39
+Czechia,CZE,2003,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-16.21
+Czechia,CZE,2004,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-15.72
+Czechia,CZE,2005,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-12.63
+Czechia,CZE,2006,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-12.63
+Czechia,CZE,2007,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-16.15
+Czechia,CZE,2008,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-11.47
+Czechia,CZE,2009,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-13.64
+Czechia,CZE,2010,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-14.95
+Czechia,CZE,2011,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-17.04
+Czechia,CZE,2012,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-17.12
+Czechia,CZE,2013,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-16.89
+Czechia,CZE,2014,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-16.3
+Czechia,CZE,2015,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-12.51
+Czechia,CZE,2016,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-10.97
+Czechia,CZE,2017,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-13.04
+Czechia,CZE,2018,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-13.91
+Czechia,CZE,2019,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-13.1
+Czechia,CZE,2020,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-10.15
+Czechia,CZE,2021,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-11.08
+Czechia,CZE,2022,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-14.19
+Denmark,DNK,2000,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,0.66
+Denmark,DNK,2001,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.57
+Denmark,DNK,2002,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.07
+Denmark,DNK,2003,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-8.55
+Denmark,DNK,2004,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.87
+Denmark,DNK,2005,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.37
+Denmark,DNK,2006,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-6.93
+Denmark,DNK,2007,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.95
+Denmark,DNK,2008,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.45
+Denmark,DNK,2009,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,0.33
+Denmark,DNK,2010,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.14
+Denmark,DNK,2011,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.32
+Denmark,DNK,2012,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,5.21
+Denmark,DNK,2013,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.08
+Denmark,DNK,2014,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,2.85
+Denmark,DNK,2015,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,5.91
+Denmark,DNK,2016,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,5.06
+Denmark,DNK,2017,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,4.56
+Denmark,DNK,2018,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,5.22
+Denmark,DNK,2019,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,5.81
+Denmark,DNK,2020,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,6.88
+Denmark,DNK,2021,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,4.87
+Denmark,DNK,2022,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.76
+Estonia,EST,2000,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.93
+Estonia,EST,2001,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.62
+Estonia,EST,2002,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.69
+Estonia,EST,2003,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.9
+Estonia,EST,2004,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.79
+Estonia,EST,2005,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.61
+Estonia,EST,2006,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.75
+Estonia,EST,2007,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.42
+Estonia,EST,2008,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.94
+Estonia,EST,2009,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,0.08
+Estonia,EST,2010,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-3.25
+Estonia,EST,2011,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-3.56
+Estonia,EST,2012,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.24
+Estonia,EST,2013,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-3.59
+Estonia,EST,2014,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.75
+Estonia,EST,2015,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.92
+Estonia,EST,2016,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.04
+Estonia,EST,2017,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.73
+Estonia,EST,2018,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.9
+Estonia,EST,2019,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,2.16
+Estonia,EST,2020,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,3.64
+Estonia,EST,2021,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,2.63
+Estonia,EST,2022,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,0.95
+Finland,FIN,2000,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,11.88
+Finland,FIN,2001,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,9.96
+Finland,FIN,2002,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,11.92
+Finland,FIN,2003,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,4.85
+Finland,FIN,2004,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,4.87
+Finland,FIN,2005,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,17.01
+Finland,FIN,2006,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,11.4
+Finland,FIN,2007,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,12.56
+Finland,FIN,2008,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,12.77
+Finland,FIN,2009,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,12.09
+Finland,FIN,2010,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,10.5
+Finland,FIN,2011,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,13.85
+Finland,FIN,2012,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,17.44
+Finland,FIN,2013,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,15.71
+Finland,FIN,2014,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,17.97
+Finland,FIN,2015,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,16.34
+Finland,FIN,2016,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,18.95
+Finland,FIN,2017,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,20.43
+Finland,FIN,2018,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,19.94
+Finland,FIN,2019,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,20.04
+Finland,FIN,2020,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,15.1
+Finland,FIN,2021,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,17.77
+Finland,FIN,2022,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,12.58
+France,FRA,2000,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-69.48
+France,FRA,2001,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-68.39
+France,FRA,2002,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-77.03
+France,FRA,2003,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-66.41
+France,FRA,2004,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-61.91
+France,FRA,2005,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-60.33
+France,FRA,2006,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-63.34
+France,FRA,2007,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-56.81
+France,FRA,2008,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-47.99
+France,FRA,2009,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-25.93
+France,FRA,2010,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-30.71
+France,FRA,2011,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-56.41
+France,FRA,2012,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-44.52
+France,FRA,2013,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-48.46
+France,FRA,2014,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-67.19
+France,FRA,2015,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-64.06
+France,FRA,2016,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-41.5
+France,FRA,2017,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-40.13
+France,FRA,2018,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-62.97
+France,FRA,2019,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-57.67
+France,FRA,2020,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-45.04
+France,FRA,2021,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-44.89
+France,FRA,2022,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,14.37
+Germany,DEU,2000,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,3.06
+Germany,DEU,2001,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,3.66
+Germany,DEU,2002,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,10.0
+Germany,DEU,2003,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-3.27
+Germany,DEU,2004,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-2.62
+Germany,DEU,2005,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-4.57
+Germany,DEU,2006,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-16.98
+Germany,DEU,2007,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-16.56
+Germany,DEU,2008,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-20.1
+Germany,DEU,2009,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-12.27
+Germany,DEU,2010,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-14.95
+Germany,DEU,2011,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-3.77
+Germany,DEU,2012,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-20.54
+Germany,DEU,2013,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-32.19
+Germany,DEU,2014,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-33.88
+Germany,DEU,2015,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-48.28
+Germany,DEU,2016,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-50.52
+Germany,DEU,2017,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-52.46
+Germany,DEU,2018,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-48.74
+Germany,DEU,2019,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-32.67
+Germany,DEU,2020,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-19.03
+Germany,DEU,2021,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-18.58
+Germany,DEU,2022,Europe,Western Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,-26.82
+Greece,GRC,2000,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.01
+Greece,GRC,2001,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,2.5
+Greece,GRC,2002,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,2.9
+Greece,GRC,2003,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,2.09
+Greece,GRC,2004,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,2.82
+Greece,GRC,2005,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,3.78
+Greece,GRC,2006,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,4.2
+Greece,GRC,2007,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,4.36
+Greece,GRC,2008,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,5.61
+Greece,GRC,2009,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,4.37
+Greece,GRC,2010,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,5.71
+Greece,GRC,2011,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,3.23
+Greece,GRC,2012,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,1.78
+Greece,GRC,2013,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,1.89
+Greece,GRC,2014,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,8.82
+Greece,GRC,2015,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,9.61
+Greece,GRC,2016,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,8.8
+Greece,GRC,2017,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,6.24
+Greece,GRC,2018,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,6.28
+Greece,GRC,2019,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,9.94
+Greece,GRC,2020,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,8.86
+Greece,GRC,2021,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,3.68
+Greece,GRC,2022,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,3.47
+Hungary,HUN,2000,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,3.44
+Hungary,HUN,2001,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,3.17
+Hungary,HUN,2002,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,4.26
+Hungary,HUN,2003,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,6.94
+Hungary,HUN,2004,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,7.47
+Hungary,HUN,2005,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,6.23
+Hungary,HUN,2006,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,7.21
+Hungary,HUN,2007,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,3.99
+Hungary,HUN,2008,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,3.9
+Hungary,HUN,2009,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,5.51
+Hungary,HUN,2010,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,5.2
+Hungary,HUN,2011,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,6.64
+Hungary,HUN,2012,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,7.97
+Hungary,HUN,2013,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,11.88
+Hungary,HUN,2014,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,13.39
+Hungary,HUN,2015,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,13.69
+Hungary,HUN,2016,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,12.71
+Hungary,HUN,2017,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,12.88
+Hungary,HUN,2018,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,14.35
+Hungary,HUN,2019,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,12.58
+Hungary,HUN,2020,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,11.68
+Hungary,HUN,2021,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,12.75
+Hungary,HUN,2022,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,12.13
+India,IND,2000,Asia,Southern Asia,g20,Electricity imports,TWh,ember,1.35
+India,IND,2001,Asia,Southern Asia,g20,Electricity imports,TWh,ember,1.27
+India,IND,2002,Asia,Southern Asia,g20,Electricity imports,TWh,ember,1.35
+India,IND,2003,Asia,Southern Asia,g20,Electricity imports,TWh,ember,1.69
+India,IND,2004,Asia,Southern Asia,g20,Electricity imports,TWh,ember,1.7
+India,IND,2005,Asia,Southern Asia,g20,Electricity imports,TWh,ember,1.55
+India,IND,2006,Asia,Southern Asia,g20,Electricity imports,TWh,ember,2.74
+India,IND,2007,Asia,Southern Asia,g20,Electricity imports,TWh,ember,4.94
+India,IND,2008,Asia,Southern Asia,g20,Electricity imports,TWh,ember,5.51
+India,IND,2009,Asia,Southern Asia,g20,Electricity imports,TWh,ember,5.3
+India,IND,2010,Asia,Southern Asia,g20,Electricity imports,TWh,ember,5.55
+India,IND,2011,Asia,Southern Asia,g20,Electricity imports,TWh,ember,5.12
+India,IND,2012,Asia,Southern Asia,g20,Electricity imports,TWh,ember,4.64
+India,IND,2013,Asia,Southern Asia,g20,Electricity imports,TWh,ember,3.95
+India,IND,2014,Asia,Southern Asia,g20,Electricity imports,TWh,ember,0.57
+India,IND,2015,Asia,Southern Asia,g20,Electricity imports,TWh,ember,0.09
+India,IND,2016,Asia,Southern Asia,g20,Electricity imports,TWh,ember,-1.09
+India,IND,2017,Asia,Southern Asia,g20,Electricity imports,TWh,ember,-2.13
+India,IND,2018,Asia,Southern Asia,g20,Electricity imports,TWh,ember,-4.1
+India,IND,2019,Asia,Southern Asia,g20,Electricity imports,TWh,ember,-3.14
+India,IND,2020,Asia,Southern Asia,g20,Electricity imports,TWh,ember,-0.11
+India,IND,2021,Asia,Southern Asia,g20,Electricity imports,TWh,ember,-1.88
+India,IND,2022,Asia,Southern Asia,g20,Electricity imports,TWh,ember,-2.32
+Indonesia,IDN,2014,Asia,South-eastern Asia,g20,Electricity imports,TWh,ember,0.01
+Indonesia,IDN,2015,Asia,South-eastern Asia,g20,Electricity imports,TWh,ember,0.01
+Indonesia,IDN,2016,Asia,South-eastern Asia,g20,Electricity imports,TWh,ember,0.69
+Indonesia,IDN,2017,Asia,South-eastern Asia,g20,Electricity imports,TWh,ember,1.12
+Indonesia,IDN,2018,Asia,South-eastern Asia,g20,Electricity imports,TWh,ember,1.5
+Indonesia,IDN,2019,Asia,South-eastern Asia,g20,Electricity imports,TWh,ember,1.68
+Indonesia,IDN,2020,Asia,South-eastern Asia,g20,Electricity imports,TWh,ember,1.55
+Indonesia,IDN,2021,Asia,South-eastern Asia,g20,Electricity imports,TWh,ember,0.97
+Iran (Islamic Republic of,IRN,2000,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-0.72
+Iran (Islamic Republic of,IRN,2001,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-0.3
+Iran (Islamic Republic of,IRN,2002,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,0.19
+Iran (Islamic Republic of,IRN,2003,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,0.57
+Iran (Islamic Republic of,IRN,2004,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,0.33
+Iran (Islamic Republic of,IRN,2005,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-0.68
+Iran (Islamic Republic of,IRN,2006,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-0.23
+Iran (Islamic Republic of,IRN,2007,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-0.68
+Iran (Islamic Republic of,IRN,2008,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-2.19
+Iran (Islamic Republic of,IRN,2009,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-4.08
+Iran (Islamic Republic of,IRN,2010,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-3.69
+Iran (Islamic Republic of,IRN,2011,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-5.01
+Iran (Islamic Republic of,IRN,2012,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-7.13
+Iran (Islamic Republic of,IRN,2013,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-7.88
+Iran (Islamic Republic of,IRN,2014,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-5.89
+Iran (Islamic Republic of,IRN,2015,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-2.67
+Iran (Islamic Republic of,IRN,2016,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-2.47
+Iran (Islamic Republic of,IRN,2017,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-4.32
+Iran (Islamic Republic of,IRN,2018,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-3.71
+Iran (Islamic Republic of,IRN,2019,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-3.63
+Iran (Islamic Republic of,IRN,2020,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-3.63
+Iran (Islamic Republic of,IRN,2021,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-3.63
+Iran (Islamic Republic of,IRN,2022,Asia,Southern Asia,middle_east,Electricity imports,TWh,ember,-0.87
+Iraq,IRQ,2004,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,1.32
+Iraq,IRQ,2005,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,1.24
+Iraq,IRQ,2006,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,2.69
+Iraq,IRQ,2007,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,2.2
+Iraq,IRQ,2008,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,2.97
+Iraq,IRQ,2009,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,5.59
+Iraq,IRQ,2010,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,5.44
+Iraq,IRQ,2011,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,7.23
+Iraq,IRQ,2012,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,10.17
+Iraq,IRQ,2013,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,12.2
+Iraq,IRQ,2014,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,12.25
+Iraq,IRQ,2015,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,13.1
+Iraq,IRQ,2016,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,11.97
+Iraq,IRQ,2017,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,11.79
+Iraq,IRQ,2018,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,21.79
+Iraq,IRQ,2019,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,34.4
+Iraq,IRQ,2020,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,18.61
+Iraq,IRQ,2021,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,18.61
+Ireland,IRL,2000,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,0.1
+Ireland,IRL,2001,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.25
+Ireland,IRL,2002,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,0.5
+Ireland,IRL,2003,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.17
+Ireland,IRL,2004,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.57
+Ireland,IRL,2005,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,2.04
+Ireland,IRL,2006,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.78
+Ireland,IRL,2007,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.33
+Ireland,IRL,2008,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,0.45
+Ireland,IRL,2009,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,0.76
+Ireland,IRL,2010,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,0.47
+Ireland,IRL,2011,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,0.49
+Ireland,IRL,2012,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,0.41
+Ireland,IRL,2013,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,2.24
+Ireland,IRL,2014,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,2.15
+Ireland,IRL,2015,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,0.67
+Ireland,IRL,2016,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.71
+Ireland,IRL,2017,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.68
+Ireland,IRL,2018,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.03
+Ireland,IRL,2019,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,0.64
+Ireland,IRL,2020,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.15
+Ireland,IRL,2021,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.59
+Ireland,IRL,2022,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,0.27
+Israel,ISR,2000,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-1.46
+Israel,ISR,2001,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-1.4
+Israel,ISR,2002,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-1.39
+Israel,ISR,2003,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-1.47
+Israel,ISR,2004,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-1.46
+Israel,ISR,2005,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-1.67
+Israel,ISR,2006,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-1.84
+Israel,ISR,2007,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-2.08
+Israel,ISR,2008,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-3.67
+Israel,ISR,2009,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-3.78
+Israel,ISR,2010,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-3.97
+Israel,ISR,2011,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-4.22
+Israel,ISR,2012,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-4.43
+Israel,ISR,2013,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-4.68
+Israel,ISR,2014,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-4.84
+Israel,ISR,2015,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-5.2
+Israel,ISR,2016,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-5.55
+Israel,ISR,2017,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-5.65
+Israel,ISR,2018,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-5.86
+Israel,ISR,2019,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-6.31
+Israel,ISR,2020,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-6.24
+Israel,ISR,2021,Asia,Western Asia,"oecd,middle_east",Electricity imports,TWh,ember,-6.52
+Italy,ITA,2000,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,44.35
+Italy,ITA,2001,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,48.38
+Italy,ITA,2002,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,50.6
+Italy,ITA,2003,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,50.97
+Italy,ITA,2004,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,45.63
+Italy,ITA,2005,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,49.15
+Italy,ITA,2006,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,44.99
+Italy,ITA,2007,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,46.28
+Italy,ITA,2008,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,40.03
+Italy,ITA,2009,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,44.96
+Italy,ITA,2010,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,44.16
+Italy,ITA,2011,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,45.73
+Italy,ITA,2012,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,43.1
+Italy,ITA,2013,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,42.14
+Italy,ITA,2014,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,43.72
+Italy,ITA,2015,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,46.38
+Italy,ITA,2016,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,37.03
+Italy,ITA,2017,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,37.76
+Italy,ITA,2018,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,43.9
+Italy,ITA,2019,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,38.14
+Italy,ITA,2020,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,32.2
+Italy,ITA,2021,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,42.79
+Italy,ITA,2022,Europe,Southern Europe,"eu,oecd,g20,g7",Electricity imports,TWh,ember,42.9
+Jordan,JOR,2000,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.42
+Jordan,JOR,2001,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.3
+Jordan,JOR,2002,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.32
+Jordan,JOR,2003,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.97
+Jordan,JOR,2004,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.79
+Jordan,JOR,2005,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.74
+Jordan,JOR,2006,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.46
+Jordan,JOR,2007,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.03
+Jordan,JOR,2008,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.22
+Jordan,JOR,2009,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.24
+Jordan,JOR,2010,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.61
+Jordan,JOR,2011,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,1.65
+Jordan,JOR,2012,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.68
+Jordan,JOR,2013,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.32
+Jordan,JOR,2014,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.37
+Jordan,JOR,2015,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.55
+Jordan,JOR,2016,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.29
+Jordan,JOR,2017,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.01
+Jordan,JOR,2018,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.09
+Jordan,JOR,2019,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.14
+Jordan,JOR,2020,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.19
+Jordan,JOR,2021,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.13
+Latvia,LVA,2000,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.79
+Latvia,LVA,2001,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.88
+Latvia,LVA,2002,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,2.35
+Latvia,LVA,2003,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,2.63
+Latvia,LVA,2004,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,2.1
+Latvia,LVA,2005,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,2.15
+Latvia,LVA,2006,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,2.51
+Latvia,LVA,2007,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,3.0
+Latvia,LVA,2008,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,2.52
+Latvia,LVA,2009,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.65
+Latvia,LVA,2010,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,0.87
+Latvia,LVA,2011,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.24
+Latvia,LVA,2012,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.69
+Latvia,LVA,2013,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.36
+Latvia,LVA,2014,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,2.32
+Latvia,LVA,2015,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.82
+Latvia,LVA,2016,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.03
+Latvia,LVA,2017,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.06
+Latvia,LVA,2018,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,0.91
+Latvia,LVA,2019,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.12
+Latvia,LVA,2020,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.63
+Latvia,LVA,2021,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.77
+Latvia,LVA,2022,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,2.32
+Lebanon,LBN,2000,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,1.4
+Lebanon,LBN,2001,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,1.1
+Lebanon,LBN,2002,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.9
+Lebanon,LBN,2003,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.53
+Lebanon,LBN,2004,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.22
+Lebanon,LBN,2005,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.46
+Lebanon,LBN,2006,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.93
+Lebanon,LBN,2007,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.97
+Lebanon,LBN,2008,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.56
+Lebanon,LBN,2009,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,1.15
+Lebanon,LBN,2010,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,1.25
+Lebanon,LBN,2011,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.84
+Lebanon,LBN,2012,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.32
+Lebanon,LBN,2013,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.52
+Lebanon,LBN,2014,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.14
+Lebanon,LBN,2015,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.27
+Lebanon,LBN,2016,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.07
+Lebanon,LBN,2017,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.53
+Lebanon,LBN,2018,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.01
+Lebanon,LBN,2019,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.09
+Lebanon,LBN,2021,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.09
+Lithuania,LTU,2000,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.34
+Lithuania,LTU,2001,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-3.96
+Lithuania,LTU,2002,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-6.49
+Lithuania,LTU,2003,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-7.53
+Lithuania,LTU,2004,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-7.19
+Lithuania,LTU,2005,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.97
+Lithuania,LTU,2006,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.43
+Lithuania,LTU,2007,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.37
+Lithuania,LTU,2008,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.96
+Lithuania,LTU,2009,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.93
+Lithuania,LTU,2010,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,5.99
+Lithuania,LTU,2011,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,6.74
+Lithuania,LTU,2012,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,6.62
+Lithuania,LTU,2013,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,6.95
+Lithuania,LTU,2014,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,7.62
+Lithuania,LTU,2015,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,7.21
+Lithuania,LTU,2016,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,8.27
+Lithuania,LTU,2017,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,8.68
+Lithuania,LTU,2018,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,9.63
+Lithuania,LTU,2019,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,9.34
+Lithuania,LTU,2020,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,7.91
+Lithuania,LTU,2021,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,9.04
+Lithuania,LTU,2022,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,8.67
+Luxembourg,LUX,2000,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,5.71
+Luxembourg,LUX,2001,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,5.32
+Luxembourg,LUX,2002,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,3.47
+Luxembourg,LUX,2003,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,3.76
+Luxembourg,LUX,2004,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,3.37
+Luxembourg,LUX,2005,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,3.26
+Luxembourg,LUX,2006,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,3.56
+Luxembourg,LUX,2007,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,3.96
+Luxembourg,LUX,2008,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,4.35
+Luxembourg,LUX,2009,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,3.42
+Luxembourg,LUX,2010,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,4.06
+Luxembourg,LUX,2011,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,4.48
+Luxembourg,LUX,2012,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,4.11
+Luxembourg,LUX,2013,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,4.94
+Luxembourg,LUX,2014,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,4.89
+Luxembourg,LUX,2015,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,5.6
+Luxembourg,LUX,2016,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,6.3
+Luxembourg,LUX,2017,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,6.18
+Luxembourg,LUX,2018,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,6.16
+Luxembourg,LUX,2019,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,5.88
+Luxembourg,LUX,2020,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,5.46
+Luxembourg,LUX,2021,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,5.72
+Luxembourg,LUX,2022,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,5.63
+Malta,MLT,2015,Europe,Southern Europe,eu,Electricity imports,TWh,ember,1.05
+Malta,MLT,2016,Europe,Southern Europe,eu,Electricity imports,TWh,ember,1.53
+Malta,MLT,2017,Europe,Southern Europe,eu,Electricity imports,TWh,ember,0.86
+Malta,MLT,2018,Europe,Southern Europe,eu,Electricity imports,TWh,ember,0.62
+Malta,MLT,2019,Europe,Southern Europe,eu,Electricity imports,TWh,ember,0.64
+Malta,MLT,2020,Europe,Southern Europe,eu,Electricity imports,TWh,ember,0.42
+Malta,MLT,2021,Europe,Southern Europe,eu,Electricity imports,TWh,ember,0.51
+Malta,MLT,2022,Europe,Southern Europe,eu,Electricity imports,TWh,ember,0.64
+Mexico,MEX,2000,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,0.87
+Mexico,MEX,2001,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,0.06
+Mexico,MEX,2002,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,0.2
+Mexico,MEX,2003,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,-0.87
+Mexico,MEX,2004,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,-1.27
+Mexico,MEX,2005,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,-1.67
+Mexico,MEX,2006,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,-0.78
+Mexico,MEX,2007,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,-1.17
+Mexico,MEX,2008,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,-1.1
+Mexico,MEX,2009,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,-0.9
+Mexico,MEX,2010,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,-0.95
+Mexico,MEX,2011,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,-0.7
+Mexico,MEX,2012,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,1.06
+Mexico,MEX,2013,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,-0.03
+Mexico,MEX,2014,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,-0.53
+Mexico,MEX,2015,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,-0.67
+Mexico,MEX,2016,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,0.26
+Mexico,MEX,2017,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,0.35
+Mexico,MEX,2018,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,1.25
+Mexico,MEX,2019,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,0.82
+Mexico,MEX,2020,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,4.01
+Mexico,MEX,2021,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,2.42
+Mexico,MEX,2022,Americas,Latin America and the Caribbean,"oecd,g20",Electricity imports,TWh,ember,2.42
+Netherlands,NLD,2000,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,18.91
+Netherlands,NLD,2001,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,17.28
+Netherlands,NLD,2002,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,16.38
+Netherlands,NLD,2003,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,16.99
+Netherlands,NLD,2004,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,16.22
+Netherlands,NLD,2005,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,18.29
+Netherlands,NLD,2006,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,21.46
+Netherlands,NLD,2007,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,17.61
+Netherlands,NLD,2008,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,15.85
+Netherlands,NLD,2009,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,4.89
+Netherlands,NLD,2010,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,2.78
+Netherlands,NLD,2011,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,9.09
+Netherlands,NLD,2012,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,17.11
+Netherlands,NLD,2013,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,18.24
+Netherlands,NLD,2014,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,14.73
+Netherlands,NLD,2015,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,8.75
+Netherlands,NLD,2016,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,4.91
+Netherlands,NLD,2017,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,3.51
+Netherlands,NLD,2018,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,7.97
+Netherlands,NLD,2019,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,0.86
+Netherlands,NLD,2020,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,-2.66
+Netherlands,NLD,2021,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,0.25
+Netherlands,NLD,2022,Europe,Western Europe,"eu,oecd",Electricity imports,TWh,ember,-4.27
+Norway,NOR,2000,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,-19.05
+Norway,NOR,2001,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,3.57
+Norway,NOR,2002,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,-9.71
+Norway,NOR,2003,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,7.87
+Norway,NOR,2004,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,11.45
+Norway,NOR,2005,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,-12.04
+Norway,NOR,2006,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,0.85
+Norway,NOR,2007,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,-10.03
+Norway,NOR,2008,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,-13.86
+Norway,NOR,2009,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,-8.98
+Norway,NOR,2010,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,7.55
+Norway,NOR,2011,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,-3.08
+Norway,NOR,2012,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,-17.82
+Norway,NOR,2013,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,-5.01
+Norway,NOR,2014,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,-15.58
+Norway,NOR,2015,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,-14.65
+Norway,NOR,2016,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,-16.41
+Norway,NOR,2017,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,-15.16
+Norway,NOR,2018,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,-10.15
+Norway,NOR,2019,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,0.04
+Norway,NOR,2020,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,-20.47
+Norway,NOR,2021,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,-17.58
+Norway,NOR,2022,Europe,Northern Europe,oecd,Electricity imports,TWh,ember,-12.54
+"Palestine, State of",PSE,2000,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,2.26
+"Palestine, State of",PSE,2001,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,2.08
+"Palestine, State of",PSE,2002,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,2.31
+"Palestine, State of",PSE,2003,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,2.32
+"Palestine, State of",PSE,2004,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,2.6
+"Palestine, State of",PSE,2005,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,2.86
+"Palestine, State of",PSE,2006,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,3.1
+"Palestine, State of",PSE,2007,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,3.19
+"Palestine, State of",PSE,2008,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,3.86
+"Palestine, State of",PSE,2009,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,3.98
+"Palestine, State of",PSE,2010,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,4.16
+"Palestine, State of",PSE,2011,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,4.62
+"Palestine, State of",PSE,2012,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,4.91
+"Palestine, State of",PSE,2013,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,4.73
+"Palestine, State of",PSE,2014,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,4.93
+"Palestine, State of",PSE,2015,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,5.41
+"Palestine, State of",PSE,2016,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,5.47
+"Palestine, State of",PSE,2017,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,5.58
+"Palestine, State of",PSE,2018,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,5.92
+"Palestine, State of",PSE,2019,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,6.25
+"Palestine, State of",PSE,2020,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,6.0
+"Palestine, State of",PSE,2021,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,6.21
+Poland,POL,2000,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-6.37
+Poland,POL,2001,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-6.73
+Poland,POL,2002,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-7.07
+Poland,POL,2003,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-10.16
+Poland,POL,2004,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-9.29
+Poland,POL,2005,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-11.19
+Poland,POL,2006,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-10.99
+Poland,POL,2007,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-5.35
+Poland,POL,2008,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.67
+Poland,POL,2009,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.19
+Poland,POL,2010,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.35
+Poland,POL,2011,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-5.24
+Poland,POL,2012,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.84
+Poland,POL,2013,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-4.52
+Poland,POL,2014,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,2.17
+Poland,POL,2015,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.33
+Poland,POL,2016,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,2.0
+Poland,POL,2017,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,2.29
+Poland,POL,2018,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,5.69
+Poland,POL,2019,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,10.62
+Poland,POL,2020,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,13.27
+Poland,POL,2021,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,0.89
+Poland,POL,2022,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.03
+Portugal,PRT,2000,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,0.93
+Portugal,PRT,2001,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,0.24
+Portugal,PRT,2002,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,1.9
+Portugal,PRT,2003,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,2.79
+Portugal,PRT,2004,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,6.48
+Portugal,PRT,2005,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,6.82
+Portugal,PRT,2006,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,5.44
+Portugal,PRT,2007,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,7.49
+Portugal,PRT,2008,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,9.43
+Portugal,PRT,2009,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,4.78
+Portugal,PRT,2010,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,2.62
+Portugal,PRT,2011,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,2.81
+Portugal,PRT,2012,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,7.89
+Portugal,PRT,2013,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,2.78
+Portugal,PRT,2014,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,0.9
+Portugal,PRT,2015,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,2.27
+Portugal,PRT,2016,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-5.09
+Portugal,PRT,2017,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.68
+Portugal,PRT,2018,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.66
+Portugal,PRT,2019,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,3.4
+Portugal,PRT,2020,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,1.46
+Portugal,PRT,2021,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,4.75
+Portugal,PRT,2022,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,9.25
+Romania,ROU,2000,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-0.7
+Romania,ROU,2001,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-1.31
+Romania,ROU,2002,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-2.85
+Romania,ROU,2003,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-2.08
+Romania,ROU,2004,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-1.18
+Romania,ROU,2005,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-2.9
+Romania,ROU,2006,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-4.27
+Romania,ROU,2007,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-2.09
+Romania,ROU,2008,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-4.25
+Romania,ROU,2009,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-2.3
+Romania,ROU,2010,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-2.27
+Romania,ROU,2011,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-1.91
+Romania,ROU,2012,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,0.25
+Romania,ROU,2013,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-2.02
+Romania,ROU,2014,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-7.13
+Romania,ROU,2015,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-6.73
+Romania,ROU,2016,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-5.02
+Romania,ROU,2017,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-2.89
+Romania,ROU,2018,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,-2.54
+Romania,ROU,2019,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,1.52
+Romania,ROU,2020,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,2.79
+Romania,ROU,2021,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,2.2
+Romania,ROU,2022,Europe,Eastern Europe,eu,Electricity imports,TWh,ember,1.25
+Russian Federation (the,RUS,2000,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-14.05
+Russian Federation (the,RUS,2001,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-15.94
+Russian Federation (the,RUS,2002,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-8.1
+Russian Federation (the,RUS,2003,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-13.38
+Russian Federation (the,RUS,2004,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-7.62
+Russian Federation (the,RUS,2005,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-12.38
+Russian Federation (the,RUS,2006,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-15.81
+Russian Federation (the,RUS,2007,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-12.8
+Russian Federation (the,RUS,2008,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-17.63
+Russian Federation (the,RUS,2009,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-14.86
+Russian Federation (the,RUS,2010,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-17.45
+Russian Federation (the,RUS,2011,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-22.55
+Russian Federation (the,RUS,2012,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-16.48
+Russian Federation (the,RUS,2013,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-13.68
+Russian Federation (the,RUS,2014,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-8.05
+Russian Federation (the,RUS,2015,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-11.66
+Russian Federation (the,RUS,2016,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-14.5
+Russian Federation (the,RUS,2017,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-10.6
+Russian Federation (the,RUS,2018,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-12.6
+Russian Federation (the,RUS,2019,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-18.43
+Russian Federation (the,RUS,2020,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-8.67
+Russian Federation (the,RUS,2021,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-17.67
+Russian Federation (the,RUS,2022,Europe,Eastern Europe,g20,Electricity imports,TWh,ember,-13.13
+Saudi Arabia,SAU,2011,Asia,Western Asia,"g20,middle_east",Electricity imports,TWh,ember,-0.07
+Saudi Arabia,SAU,2012,Asia,Western Asia,"g20,middle_east",Electricity imports,TWh,ember,-0.05
+Saudi Arabia,SAU,2013,Asia,Western Asia,"g20,middle_east",Electricity imports,TWh,ember,-0.05
+Saudi Arabia,SAU,2014,Asia,Western Asia,"g20,middle_east",Electricity imports,TWh,ember,-0.05
+Saudi Arabia,SAU,2015,Asia,Western Asia,"g20,middle_east",Electricity imports,TWh,ember,-0.05
+Saudi Arabia,SAU,2016,Asia,Western Asia,"g20,middle_east",Electricity imports,TWh,ember,-0.72
+Saudi Arabia,SAU,2017,Asia,Western Asia,"g20,middle_east",Electricity imports,TWh,ember,-0.03
+Saudi Arabia,SAU,2018,Asia,Western Asia,"g20,middle_east",Electricity imports,TWh,ember,-0.03
+Saudi Arabia,SAU,2019,Asia,Western Asia,"g20,middle_east",Electricity imports,TWh,ember,0.3
+Saudi Arabia,SAU,2020,Asia,Western Asia,"g20,middle_east",Electricity imports,TWh,ember,-0.37
+Saudi Arabia,SAU,2021,Asia,Western Asia,"g20,middle_east",Electricity imports,TWh,ember,-0.3
+Slovakia,SVK,2000,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.7
+Slovakia,SVK,2001,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-3.68
+Slovakia,SVK,2002,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-4.16
+Slovakia,SVK,2003,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.26
+Slovakia,SVK,2004,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.86
+Slovakia,SVK,2005,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-3.27
+Slovakia,SVK,2006,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.33
+Slovakia,SVK,2007,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,1.73
+Slovakia,SVK,2008,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,0.52
+Slovakia,SVK,2009,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,1.31
+Slovakia,SVK,2010,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,1.04
+Slovakia,SVK,2011,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,0.73
+Slovakia,SVK,2012,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,0.39
+Slovakia,SVK,2013,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,0.09
+Slovakia,SVK,2014,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,1.1
+Slovakia,SVK,2015,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,2.39
+Slovakia,SVK,2016,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,2.65
+Slovakia,SVK,2017,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,3.03
+Slovakia,SVK,2018,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,3.68
+Slovakia,SVK,2019,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,1.7
+Slovakia,SVK,2020,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,0.32
+Slovakia,SVK,2021,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,0.77
+Slovakia,SVK,2022,Europe,Eastern Europe,"eu,oecd",Electricity imports,TWh,ember,1.22
+Slovenia,SVN,2000,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.32
+Slovenia,SVN,2001,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.77
+Slovenia,SVN,2002,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.13
+Slovenia,SVN,2003,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,0.16
+Slovenia,SVN,2004,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.76
+Slovenia,SVN,2005,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.32
+Slovenia,SVN,2006,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,0.04
+Slovenia,SVN,2007,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,0.23
+Slovenia,SVN,2008,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.6
+Slovenia,SVN,2009,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-3.06
+Slovenia,SVN,2010,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.12
+Slovenia,SVN,2011,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.37
+Slovenia,SVN,2012,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.04
+Slovenia,SVN,2013,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.29
+Slovenia,SVN,2014,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.74
+Slovenia,SVN,2015,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.05
+Slovenia,SVN,2016,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.18
+Slovenia,SVN,2017,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.52
+Slovenia,SVN,2018,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.5
+Slovenia,SVN,2019,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.32
+Slovenia,SVN,2020,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.0
+Slovenia,SVN,2021,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.27
+Slovenia,SVN,2022,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,1.29
+South Africa,ZAF,2000,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,1.91
+South Africa,ZAF,2001,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,0.25
+South Africa,ZAF,2002,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,0.63
+South Africa,ZAF,2003,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-3.52
+South Africa,ZAF,2004,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-5.23
+South Africa,ZAF,2005,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-4.22
+South Africa,ZAF,2006,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-3.81
+South Africa,ZAF,2007,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-3.15
+South Africa,ZAF,2008,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-3.6
+South Africa,ZAF,2009,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-1.76
+South Africa,ZAF,2010,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-2.47
+South Africa,ZAF,2011,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-3.07
+South Africa,ZAF,2012,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-5.03
+South Africa,ZAF,2013,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-4.5
+South Africa,ZAF,2014,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-2.66
+South Africa,ZAF,2015,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-1.55
+South Africa,ZAF,2016,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-5.99
+South Africa,ZAF,2017,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-6.63
+South Africa,ZAF,2018,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-4.7
+South Africa,ZAF,2019,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-5.17
+South Africa,ZAF,2020,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-3.82
+South Africa,ZAF,2021,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-4.14
+South Africa,ZAF,2022,Africa,Sub-Saharan Africa,g20,Electricity imports,TWh,ember,-2.09
+Spain,ESP,2000,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,4.44
+Spain,ESP,2001,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,3.45
+Spain,ESP,2002,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,5.33
+Spain,ESP,2003,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,1.26
+Spain,ESP,2004,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-3.03
+Spain,ESP,2005,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.34
+Spain,ESP,2006,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-3.28
+Spain,ESP,2007,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-5.75
+Spain,ESP,2008,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-11.04
+Spain,ESP,2009,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-8.1
+Spain,ESP,2010,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-8.33
+Spain,ESP,2011,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-6.09
+Spain,ESP,2012,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-11.2
+Spain,ESP,2013,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-6.75
+Spain,ESP,2014,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-3.41
+Spain,ESP,2015,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-0.13
+Spain,ESP,2016,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,7.67
+Spain,ESP,2017,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,9.17
+Spain,ESP,2018,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,11.1
+Spain,ESP,2019,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,6.86
+Spain,ESP,2020,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,3.28
+Spain,ESP,2021,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,0.85
+Spain,ESP,2022,Europe,Southern Europe,"eu,oecd",Electricity imports,TWh,ember,-19.8
+Sweden,SWE,2000,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,4.68
+Sweden,SWE,2001,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-7.29
+Sweden,SWE,2002,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,5.36
+Sweden,SWE,2003,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,12.83
+Sweden,SWE,2004,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-2.1
+Sweden,SWE,2005,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-7.39
+Sweden,SWE,2006,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,6.04
+Sweden,SWE,2007,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,1.32
+Sweden,SWE,2008,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-1.96
+Sweden,SWE,2009,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,4.69
+Sweden,SWE,2010,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,2.08
+Sweden,SWE,2011,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-7.23
+Sweden,SWE,2012,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-19.57
+Sweden,SWE,2013,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-10.0
+Sweden,SWE,2014,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-15.62
+Sweden,SWE,2015,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-22.6
+Sweden,SWE,2016,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-11.73
+Sweden,SWE,2017,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-18.99
+Sweden,SWE,2018,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-17.22
+Sweden,SWE,2019,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-26.16
+Sweden,SWE,2020,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-25.0
+Sweden,SWE,2021,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-25.57
+Sweden,SWE,2022,Europe,Northern Europe,"eu,oecd",Electricity imports,TWh,ember,-33.34
+Switzerland,CHE,2000,Europe,Western Europe,oecd,Electricity imports,TWh,ember,-7.07
+Switzerland,CHE,2001,Europe,Western Europe,oecd,Electricity imports,TWh,ember,-10.44
+Switzerland,CHE,2002,Europe,Western Europe,oecd,Electricity imports,TWh,ember,-4.51
+Switzerland,CHE,2003,Europe,Western Europe,oecd,Electricity imports,TWh,ember,-3.11
+Switzerland,CHE,2004,Europe,Western Europe,oecd,Electricity imports,TWh,ember,-0.7
+Switzerland,CHE,2005,Europe,Western Europe,oecd,Electricity imports,TWh,ember,6.35
+Switzerland,CHE,2006,Europe,Western Europe,oecd,Electricity imports,TWh,ember,2.7
+Switzerland,CHE,2007,Europe,Western Europe,oecd,Electricity imports,TWh,ember,-2.06
+Switzerland,CHE,2008,Europe,Western Europe,oecd,Electricity imports,TWh,ember,-1.13
+Switzerland,CHE,2009,Europe,Western Europe,oecd,Electricity imports,TWh,ember,-2.16
+Switzerland,CHE,2010,Europe,Western Europe,oecd,Electricity imports,TWh,ember,0.52
+Switzerland,CHE,2011,Europe,Western Europe,oecd,Electricity imports,TWh,ember,2.59
+Switzerland,CHE,2012,Europe,Western Europe,oecd,Electricity imports,TWh,ember,-2.2
+Switzerland,CHE,2013,Europe,Western Europe,oecd,Electricity imports,TWh,ember,-2.4
+Switzerland,CHE,2014,Europe,Western Europe,oecd,Electricity imports,TWh,ember,-5.49
+Switzerland,CHE,2015,Europe,Western Europe,oecd,Electricity imports,TWh,ember,-1.03
+Switzerland,CHE,2016,Europe,Western Europe,oecd,Electricity imports,TWh,ember,3.92
+Switzerland,CHE,2017,Europe,Western Europe,oecd,Electricity imports,TWh,ember,5.55
+Switzerland,CHE,2018,Europe,Western Europe,oecd,Electricity imports,TWh,ember,-1.59
+Switzerland,CHE,2019,Europe,Western Europe,oecd,Electricity imports,TWh,ember,-6.26
+Switzerland,CHE,2020,Europe,Western Europe,oecd,Electricity imports,TWh,ember,-5.56
+Switzerland,CHE,2021,Europe,Western Europe,oecd,Electricity imports,TWh,ember,2.66
+Switzerland,CHE,2022,Europe,Western Europe,oecd,Electricity imports,TWh,ember,2.94
+Syrian Arab Republic (the,SYR,2003,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.25
+Syrian Arab Republic (the,SYR,2004,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.55
+Syrian Arab Republic (the,SYR,2005,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.67
+Syrian Arab Republic (the,SYR,2006,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.78
+Syrian Arab Republic (the,SYR,2007,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.41
+Syrian Arab Republic (the,SYR,2008,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.04
+Syrian Arab Republic (the,SYR,2009,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.07
+Syrian Arab Republic (the,SYR,2010,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.35
+Syrian Arab Republic (the,SYR,2011,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.29
+Syrian Arab Republic (the,SYR,2013,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.53
+Syrian Arab Republic (the,SYR,2014,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.14
+Syrian Arab Republic (the,SYR,2015,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.26
+Syrian Arab Republic (the,SYR,2016,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.07
+Syrian Arab Republic (the,SYR,2017,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.54
+Syrian Arab Republic (the,SYR,2018,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.54
+Syrian Arab Republic (the,SYR,2019,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.35
+Syrian Arab Republic (the,SYR,2020,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.32
+Syrian Arab Republic (the,SYR,2021,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.32
+Turkey,TUR,2000,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,3.35
+Turkey,TUR,2001,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,4.15
+Turkey,TUR,2002,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,3.15
+Turkey,TUR,2003,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,0.57
+Turkey,TUR,2004,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,-0.68
+Turkey,TUR,2005,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,-1.16
+Turkey,TUR,2006,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,-1.66
+Turkey,TUR,2007,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,-1.56
+Turkey,TUR,2008,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,-0.33
+Turkey,TUR,2009,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,-0.73
+Turkey,TUR,2010,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,-0.77
+Turkey,TUR,2011,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,0.91
+Turkey,TUR,2012,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,2.87
+Turkey,TUR,2013,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,6.2
+Turkey,TUR,2014,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,5.26
+Turkey,TUR,2015,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,3.94
+Turkey,TUR,2016,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,4.88
+Turkey,TUR,2017,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,-0.58
+Turkey,TUR,2018,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,-0.63
+Turkey,TUR,2019,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,-0.58
+Turkey,TUR,2020,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,-0.59
+Turkey,TUR,2021,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,-1.85
+Turkey,TUR,2022,Asia,Western Asia,"oecd,g20",Electricity imports,TWh,ember,2.5
+United Arab Emirates,ARE,2011,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.02
+United Arab Emirates,ARE,2012,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.03
+United Arab Emirates,ARE,2013,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.02
+United Arab Emirates,ARE,2014,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.03
+United Arab Emirates,ARE,2015,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.01
+United Arab Emirates,ARE,2016,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,0.63
+United Arab Emirates,ARE,2017,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.1
+United Arab Emirates,ARE,2018,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.03
+United Arab Emirates,ARE,2019,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.01
+United Arab Emirates,ARE,2020,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.03
+United Arab Emirates,ARE,2021,Asia,Western Asia,middle_east,Electricity imports,TWh,ember,-0.03
+United Kingdom,GBR,2000,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,14.17
+United Kingdom,GBR,2001,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,10.4
+United Kingdom,GBR,2002,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,8.41
+United Kingdom,GBR,2003,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,2.16
+United Kingdom,GBR,2004,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,7.49
+United Kingdom,GBR,2005,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,8.32
+United Kingdom,GBR,2006,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,7.52
+United Kingdom,GBR,2007,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,5.21
+United Kingdom,GBR,2008,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,11.02
+United Kingdom,GBR,2009,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,2.86
+United Kingdom,GBR,2010,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,2.66
+United Kingdom,GBR,2011,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,6.22
+United Kingdom,GBR,2012,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,11.86
+United Kingdom,GBR,2013,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,14.43
+United Kingdom,GBR,2014,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,20.52
+United Kingdom,GBR,2015,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,21.11
+United Kingdom,GBR,2016,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,17.75
+United Kingdom,GBR,2017,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,14.76
+United Kingdom,GBR,2018,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,19.11
+United Kingdom,GBR,2019,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,21.17
+United Kingdom,GBR,2020,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,17.65
+United Kingdom,GBR,2021,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,24.15
+United Kingdom,GBR,2022,Europe,Northern Europe,"oecd,g20,g7",Electricity imports,TWh,ember,-5.3
+United States of America,USA,2000,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,33.76
+United States of America,USA,2001,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,22.03
+United States of America,USA,2002,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,20.98
+United States of America,USA,2003,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,6.42
+United States of America,USA,2004,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,11.31
+United States of America,USA,2005,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,24.78
+United States of America,USA,2006,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,18.42
+United States of America,USA,2007,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,31.25
+United States of America,USA,2008,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,32.82
+United States of America,USA,2009,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,34.05
+United States of America,USA,2010,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,25.98
+United States of America,USA,2011,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,37.25
+United States of America,USA,2012,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,47.26
+United States of America,USA,2013,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,57.88
+United States of America,USA,2014,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,53.21
+United States of America,USA,2015,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,66.67
+United States of America,USA,2016,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,66.5
+United States of America,USA,2017,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,56.31
+United States of America,USA,2018,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,44.46
+United States of America,USA,2019,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,39.04
+United States of America,USA,2020,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,47.31
+United States of America,USA,2021,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,39.31
+United States of America,USA,2022,Americas,Northern America,"oecd,g20,g7",Electricity imports,TWh,ember,41.21
