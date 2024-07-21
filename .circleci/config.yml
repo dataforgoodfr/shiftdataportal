@@ -10,6 +10,7 @@ workflows:
             branches:
               only:
                 - main
+                - chore/db/back-to-postgres
           requires:
             - test-api
 
@@ -22,6 +23,7 @@ workflows:
             branches:
               only:
                 - main
+                - chore/db/back-to-postgres
           requires:
             - test-front
 
