@@ -62,7 +62,13 @@ jobs:
           command: mkdir -p ~/.ssh && ssh-keyscan -H ssh.osc-fr1.scalingo.com >> ~/.ssh/known_hosts
       - run:
           name: Deploy on Scalingo
-          command: git push git@ssh.osc-fr1.scalingo.com:data-portal-back.git main
+          command: |
+            # this folider is huge. It must be removed to avoid the deployment to crash
+            git rm -r data-preparation/
+            git config --global user.email "nobody@shiftdataportal.org"
+            git config --global user.name "nobody"
+            git commit -m "remove data-preparation folder"
+            git push -f git@ssh.osc-fr1.scalingo.com:data-portal-back.git ${CIRCLE_BRANCH}:main
 
   test-front:
     working_directory: ~/shiftdataportal/client
