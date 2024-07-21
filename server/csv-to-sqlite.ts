@@ -3,7 +3,7 @@ import path from 'path'
 import Database from 'better-sqlite3'
 import Papa from 'papaparse'
 import knex from 'knex'
-import {chunk} from 'lodash'
+import {chunk, mapValues} from 'lodash'
 import parserTypescript from "prettier/parser-typescript";
 import prettier from "prettier/standalone";
 
@@ -36,8 +36,17 @@ const getData = async (filePath: string) => {
 
       Papa.parse(file.toString(), {
         header: true,
+        dynamicTyping: true,
         complete:function(results) {
-          resolve(results.data)
+          resolve(results.data.map(row => {
+            return mapValues(row as object, value => {
+              // SQLite does not support boolean values
+              if (typeof value === 'boolean') {
+                return value ? 1 : 0
+              }
+              return value
+            })
+          }))
         }, error: (error) => reject(error)})
     } catch (error) {
       reject(error)

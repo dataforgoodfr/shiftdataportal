@@ -159,25 +159,25 @@ export const GHG_EMISSIONS_PER_CAPITA_ghg_per_capita_prod = {
 };
 
 export const GHG_EMISSIONS_ghg_full_by_gas_prod = {
-  source: "source",
   group_type: "group_type",
   group_name: "group_name",
   year: "year",
   gas: "gas",
-  ghg: "ghg",
   ghg_unit: "ghg_unit",
   including_lucf: "including_lucf",
+  source: "source",
+  ghg: "ghg",
   __tableName: "GHG_EMISSIONS_ghg_full_by_gas_prod"
 };
 
 export const GHG_EMISSIONS_ghg_full_by_sector_prod = {
-  source: "source",
   group_type: "group_type",
   group_name: "group_name",
   year: "year",
-  sector: "sector",
-  ghg: "ghg",
   ghg_unit: "ghg_unit",
+  sector: "sector",
+  source: "source",
+  ghg: "ghg",
   __tableName: "GHG_EMISSIONS_ghg_full_by_sector_prod"
 };
 
