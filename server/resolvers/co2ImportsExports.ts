@@ -90,7 +90,7 @@ const Co2ImportsExports: Co2ImportsExportsResolvers = {
       .select(
         BY_COUNTRY.country,
         BY_COUNTRY.type,
-        db.knex.raw("SUM(??) * ? as ??", [
+        db.knex.raw("SUM(??)::numeric * ? as ??", [
           BY_COUNTRY.co2,
           emissionsUnit ? cO2EqMultiplier(Co2eqUnit.MtCo2eq, emissionsUnit) : 1,
           BY_COUNTRY.co2,

@@ -98,7 +98,7 @@ const primaryEnergies: PrimaryEnergiesResolvers = {
           BY_ENERGY_FAMILY.energy_family,
           BY_ENERGY_FAMILY.group_type,
           BY_ENERGY_FAMILY.group_name,
-          db.knex.raw("SUM(??) * ? as ??", [
+          db.knex.raw("SUM(??)::numeric * ? as ??", [
             BY_ENERGY_FAMILY.energy,
             energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
             BY_ENERGY_FAMILY.energy,
@@ -163,7 +163,7 @@ const primaryEnergies: PrimaryEnergiesResolvers = {
       .select(
         PER_CAPITA.year,
         PER_CAPITA.group_name,
-        db.knex.raw("SUM(??) * ? as ??", [
+        db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_CAPITA.energy_per_capita,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
           PER_CAPITA.energy_per_capita,
@@ -273,7 +273,7 @@ const primaryEnergies: PrimaryEnergiesResolvers = {
           BY_ENERGY_FAMILY.year,
           BY_ENERGY_FAMILY.type,
           BY_ENERGY_FAMILY.group_name,
-          db.knex.raw("SUM(??) * ? as ??", [
+          db.knex.raw("SUM(??)::numeric * ? as ??", [
             BY_ENERGY_FAMILY.energy,
             energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
             BY_ENERGY_FAMILY.energy,

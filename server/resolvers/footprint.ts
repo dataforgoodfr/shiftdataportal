@@ -80,7 +80,7 @@ const footprint: FootprintResolvers = {
         PER_CAPITA.year,
         PER_CAPITA.group_name,
         PER_CAPITA.scope,
-        db.knex.raw("SUM(??) * ? as ??", [
+        db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_CAPITA.co2_per_capita,
           emissionsUnit ? cO2Multiplier(Co2Unit.MtCo2, emissionsUnit) : 1,
           PER_CAPITA.co2_per_capita,
@@ -188,7 +188,7 @@ const footprint: FootprintResolvers = {
         PER_GDP.year,
         PER_GDP.group_name,
         PER_GDP.scope,
-        db.knex.raw("SUM(??) * ? as ??", [
+        db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_GDP.co2_per_gdp,
           emissionsUnit ? cO2Multiplier(Co2Unit.MtCo2, emissionsUnit) : 1,
           PER_GDP.co2_per_gdp,
@@ -298,7 +298,7 @@ const footprint: FootprintResolvers = {
         TOTAL.year,
         TOTAL.group_name,
         TOTAL.scope,
-        db.knex.raw("SUM(??) * ? as ??", [
+        db.knex.raw("SUM(??)::numeric * ? as ??", [
           TOTAL.co2,
           emissionsUnit ? cO2Multiplier(Co2Unit.MtCo2, emissionsUnit) : 1,
           TOTAL.co2,

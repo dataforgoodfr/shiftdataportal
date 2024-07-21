@@ -73,7 +73,7 @@ const oil: OilResolvers = {
       .select(
         PER_CAPITA.year,
         PER_CAPITA.group_name,
-        db.knex.raw("SUM(??) * ? as ??", [
+        db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_CAPITA.energy_per_capita,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
           PER_CAPITA.energy_per_capita,
@@ -173,7 +173,7 @@ const oil: OilResolvers = {
         BY_SECTOR.sector,
         BY_SECTOR.group_type,
         BY_SECTOR.group_name,
-        db.knex.raw("SUM(??) * ? as ??", [
+        db.knex.raw("SUM(??)::numeric * ? as ??", [
           BY_SECTOR.final_energy,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
           BY_SECTOR.final_energy,
@@ -224,7 +224,7 @@ const oil: OilResolvers = {
       .select(
         PROVEN_RESERVE.year,
         PROVEN_RESERVE.group_name,
-        db.knex.raw("SUM(??) * ? as ??", [PROVEN_RESERVE.proven_reserves, 1, PROVEN_RESERVE.proven_reserves])
+        db.knex.raw("SUM(??)::numeric * ? as ??", [PROVEN_RESERVE.proven_reserves, 1, PROVEN_RESERVE.proven_reserves])
       )
       .whereIn(PROVEN_RESERVE.group_name, groupNames)
       .andWhereBetween(PROVEN_RESERVE.year, [yearStart, yearEnd])
@@ -317,7 +317,7 @@ const oil: OilResolvers = {
         TOTAL.energy_family,
         TOTAL.group_type,
         TOTAL.group_name,
-        db.knex.raw("SUM(??) * ? as ??", [
+        db.knex.raw("SUM(??)::numeric * ? as ??", [
           TOTAL.energy,
           energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
           TOTAL.energy,

@@ -95,7 +95,7 @@ const renewableEnergies: RenewableEnergiesResolvers = {
           BY_ENERGY_FAMILY.energy_family,
           BY_ENERGY_FAMILY.group_type,
           BY_ENERGY_FAMILY.group_name,
-          db.knex.raw("SUM(??) * ? as ??", [
+          db.knex.raw("SUM(??)::numeric * ? as ??", [
             BY_ENERGY_FAMILY.energy,
             energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
             BY_ENERGY_FAMILY.energy,
@@ -161,7 +161,7 @@ const renewableEnergies: RenewableEnergiesResolvers = {
           SHARE.year,
           SHARE.type,
           SHARE.group_name,
-          db.knex.raw("SUM(??) * ? as ??", [
+          db.knex.raw("SUM(??)::numeric * ? as ??", [
             SHARE.renewable_share_of_primary_energy,
             100,
             SHARE.renewable_share_of_primary_energy,
@@ -255,7 +255,7 @@ const renewableEnergies: RenewableEnergiesResolvers = {
           TOTAL.year,
           TOTAL.type,
           TOTAL.group_name,
-          db.knex.raw("SUM(??) * ? as ??", [
+          db.knex.raw("SUM(??)::numeric * ? as ??", [
             TOTAL.energy,
             energyUnit ? energyMultiplier(EnergyUnit.Mtoe, energyUnit) : 1,
             TOTAL.energy,

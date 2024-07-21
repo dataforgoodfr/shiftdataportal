@@ -117,7 +117,7 @@ const ghgByGas: GhgByGasResolvers = {
       .select(
         PER_GDP.year,
         PER_GDP.group_name,
-        db.knex.raw("SUM(??) * ? as ??", [
+        db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_GDP.co2_per_gdp,
           emissionsUnit ? cO2Multiplier(Co2Unit.MtCo2, emissionsUnit) : 1,
           PER_GDP.co2_per_gdp,
@@ -220,7 +220,7 @@ const ghgByGas: GhgByGasResolvers = {
         BY_GAS.gas,
         BY_GAS.group_type,
         BY_GAS.group_name,
-        db.knex.raw("SUM(??) * ? as ??", [
+        db.knex.raw("SUM(??)::numeric * ? as ??", [
           BY_GAS.ghg,
           emissionsUnit ? cO2EqMultiplier(Co2eqUnit.MtCo2eq, emissionsUnit) : 1,
           BY_GAS.ghg,
@@ -282,7 +282,7 @@ const ghgByGas: GhgByGasResolvers = {
       .select(
         PER_CAPITA.year,
         PER_CAPITA.group_name,
-        db.knex.raw("SUM(??) * ? as ??", [
+        db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_CAPITA.ghg_per_capita,
           emissionsUnit ? cO2EqMultiplier(Co2eqUnit.MtCo2eq, emissionsUnit) : 1,
           PER_CAPITA.ghg_per_capita,
@@ -382,7 +382,7 @@ const ghgByGas: GhgByGasResolvers = {
         BY_SECTOR.sector,
         BY_SECTOR.group_type,
         BY_SECTOR.group_name,
-        db.knex.raw("SUM(??) * ? as ??", [
+        db.knex.raw("SUM(??)::numeric * ? as ??", [
           BY_SECTOR.ghg,
           emissionsUnit ? cO2EqMultiplier(Co2eqUnit.MtCo2eq, emissionsUnit) : 1,
           BY_SECTOR.ghg,
@@ -440,7 +440,7 @@ const ghgByGas: GhgByGasResolvers = {
       .select(
         BY_SECTOR.year,
         BY_SECTOR.group_name,
-        db.knex.raw("SUM(??) * ? as ??", [
+        db.knex.raw("SUM(??)::numeric * ? as ??", [
           BY_SECTOR.ghg,
           emissionsUnit ? cO2EqMultiplier(Co2eqUnit.MtCo2eq, emissionsUnit) : 1,
           BY_SECTOR.ghg,

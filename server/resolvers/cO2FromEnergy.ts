@@ -86,7 +86,7 @@ const cO2FromEnergy: Co2FromEnergyResolvers = {
         BY_ENERGY_FAMILY.energy_family,
         BY_ENERGY_FAMILY.group_type,
         BY_ENERGY_FAMILY.group_name,
-        db.knex.raw("SUM(??) * ? as ??", [
+        db.knex.raw("SUM(??)::numeric * ? as ??", [
           BY_ENERGY_FAMILY.co2,
           emissionsUnit ? cO2Multiplier(Co2Unit.MtCo2, emissionsUnit) : 1,
           BY_ENERGY_FAMILY.co2,
@@ -147,7 +147,7 @@ const cO2FromEnergy: Co2FromEnergyResolvers = {
       .select(
         PER_CAPITA.year,
         PER_CAPITA.group_name,
-        db.knex.raw("SUM(??) * ? as ??", [
+        db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_CAPITA.co2_per_capita,
           emissionsUnit ? cO2Multiplier(Co2Unit.MtCo2, emissionsUnit) : 1,
           PER_CAPITA.co2_per_capita,
@@ -246,7 +246,7 @@ const cO2FromEnergy: Co2FromEnergyResolvers = {
       .select(
         PER_GDP.year,
         PER_GDP.group_name,
-        db.knex.raw("SUM(??) * ? as ??", [
+        db.knex.raw("SUM(??)::numeric * ? as ??", [
           PER_GDP.co2_per_gdp,
           emissionsUnit ? cO2Multiplier(Co2Unit.MtCo2, emissionsUnit) : 1,
           PER_GDP.co2_per_gdp,
@@ -347,7 +347,7 @@ const cO2FromEnergy: Co2FromEnergyResolvers = {
       .select(
         TOTAL.year,
         TOTAL.group_name,
-        db.knex.raw("SUM(??) * ? as ??", [
+        db.knex.raw("SUM(??)::numeric * ? as ??", [
           TOTAL.co2,
           emissionsUnit ? cO2Multiplier(Co2Unit.MtCo2, emissionsUnit) : 1,
           TOTAL.co2,
