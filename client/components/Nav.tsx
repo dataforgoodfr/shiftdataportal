@@ -1,26 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react"
 import Link from "next/link"
-import { flexbox, layout, padding, space, typography } from "styled-system"
+import { flexbox, layout, space, typography } from "styled-system"
 import { useTheme } from "@emotion/react"
-import { Fragment } from "react"
 import styled from "@emotion/styled"
 
 const Nav = ({ mt = 4 }) => {
   const theme = useTheme()
   return (
-    <Fragment>
-      <Banner>
-        This is an alpha version for testing purposes, it's not final and may contain errors.{" "}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://airtable.com/shryDaSBKJZrun8Re"
-          style={{ textDecoration: "underline" }}
-        >
-          Your feedback is welcome.
-        </a>
-      </Banner>
       <div>
         <Container
           flexDirection={["column", "row"]}
@@ -51,7 +38,6 @@ const Nav = ({ mt = 4 }) => {
           </Ul>
         </Container>
       </div>
-    </Fragment>
   )
 }
 const Ul = styled.ul`
