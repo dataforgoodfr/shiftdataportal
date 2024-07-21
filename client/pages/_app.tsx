@@ -17,7 +17,12 @@ export default function App({ pageProps, Component }: IProps) {
       {globalStyles}
       <ApolloProvider client={apolloClient}>
         <Head>
+        <meta charSet="utf-8" />
+          <link rel="shortcut icon" href="/favicon.ico" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+          <meta name="theme-color" content="#000000" />
           <meta name="description" content="The Shift Project's Data Portal" />
+          <link rel="manifest" href="/manifest.json" />
           <title>The Shift Data Portal</title>
         </Head>
         <Component {...pageProps} />
