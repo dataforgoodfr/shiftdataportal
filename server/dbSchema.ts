@@ -72,11 +72,11 @@ export const CO2_CONSUMPTION_BASED_ACCOUNTING_footprint_vs_territorial_prod = {
   __tableName: "CO2_CONSUMPTION_BASED_ACCOUNTING_footprint_vs_territorial_prod"
 };
 
-export const COUNTRY_multiselect_groups_prod = {
+export const country_multiselect_groups = {
   group: "group",
   country: "country",
   country_only: "country_only",
-  __tableName: "COUNTRY_multiselect_groups_prod"
+  __tableName: "country_multiselect_groups"
 };
 
 export const DATAPORTAL_UTILS_dataportal_sources_prod = {

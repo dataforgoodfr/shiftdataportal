@@ -1,6 +1,5 @@
 import pandas as pd
-
-from src.transformations.new_country_group_member import add_new_members_to_group
+from src.countries.new_country_group_member import add_new_members_to_group
 
 
 def process_multi_selection_country_groups(raw_multi_selection_country_groups: pd.DataFrame) -> pd.DataFrame:

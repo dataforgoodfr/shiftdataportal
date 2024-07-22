@@ -6,7 +6,7 @@ import { PrimaryEnergiesResolvers, PrimaryEnergies, PrimaryEnergiesDimensions, E
 import {
   WORLD_ENERGY_HISTORY_primary_energy_prod as BY_ENERGY_FAMILY,
   ENERGY_PER_CAPITA_energy_per_capita_prod as PER_CAPITA,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
+  country_multiselect_groups as MULTI_SELECT,
 } from "../dbSchema";
 import groupBy from "../utils/groupBy";
 import typeColor from "../utils/typeColor";

@@ -6,7 +6,7 @@ import {
   FINAL_ENERGY_CONSUMPTION_final_cons_by_energy_family_full_prod as BY_ENERGY_FAMILY,
   IEA_API_final_cons_by_sector_prod as BY_SECTOR,
   ENERGY_PER_CAPITA_energy_per_capita_prod as PER_CAPITA,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
+  country_multiselect_groups as MULTI_SELECT,
 } from "../dbSchema";
 import typeColor from "../utils/typeColor";
 import stringToColor from "../utils/stringToColor";

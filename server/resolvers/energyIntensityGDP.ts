@@ -3,7 +3,7 @@ import energyMultiplier from "../utils/energyMultiplier";
 import { EnergyIntensityGdpResolvers, EnergyUnit, EnergyIntensityGdp } from "../types";
 import {
   ENERGY_INTENSITY_OF_GDP_energies_intensities_of_gdp_prod as TOTAL,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
+  country_multiselect_groups as MULTI_SELECT,
 } from "../dbSchema";
 import energyUnits from "../utils/energyUnits";
 import stringToColor from "../utils/stringToColor";

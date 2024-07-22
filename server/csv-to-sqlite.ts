@@ -37,6 +37,12 @@ const getData = async (filePath: string) => {
       Papa.parse(file.toString(), {
         header: true,
         dynamicTyping: true,
+        skipEmptyLines: true,
+        transform: (value: string, field: string) => {
+          if (value.toLowerCase() === 'true') return true;
+          if (value.toLowerCase() === 'false') return false;
+          return value.length > 0 ? value : null;
+        },
         complete:function(results) {
           resolve(results.data.map(row => {
             return mapValues(row as object, value => {
