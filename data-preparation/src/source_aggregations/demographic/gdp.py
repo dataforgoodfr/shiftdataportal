@@ -1,5 +1,5 @@
 import pandas as pd
-from src.transformation.demographic.countries import \
+from src.source_aggregations.demographic.countries import \
     StatisticsPerCountriesAndZonesJoiner
 from src.utils.iso3166 import countries_by_alpha3
 from src.utils.translation import CountryTranslatorFrenchToEnglish

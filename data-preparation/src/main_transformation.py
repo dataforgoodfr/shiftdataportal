@@ -6,33 +6,34 @@ import os
 import pandas as pd
 import requests
 from pandas import json_normalize
-from src.transformation.co2_consumption_based_accounting import \
+from src.source_aggregations.co2_consumption_based_accounting import \
     EoraCo2TradePerZoneAndCountryProcessor
-from src.transformation.demographic.gdp import (
+from src.source_aggregations.demographic.gdp import (
     GdpMaddissonPerZoneAndCountryProcessor,
     GdpWorldBankPerZoneAndCountryProcessor)
-from src.transformation.demographic.population import (
+from src.source_aggregations.footprint_vs_territorial import \
+    FootprintVsTerrotorialProcessor
+from src.source_aggregations.ghg.cait import CaitProcessor
+from src.source_aggregations.ghg.edgar import EdgarCleaner
+from src.source_aggregations.ghg.fao import FaoDataProcessor
+from src.source_aggregations.ghg.ghg import (EdgarUnfcccAnnexesCombinator,
+                                             GhgMultiSourcesCombinator,
+                                             GhgPikEdgarCombinator,
+                                             PikUnfcccAnnexesCombinator)
+from src.source_aggregations.ghg.pik import PikCleaner
+from src.source_aggregations.ghg.unfcc import (UnfcccAnnexesCleaner,
+                                               UnfccProcessor)
+from src.sources.eia.eia import (EiaConsumptionGasBySectorProcessor,
+                                 EiaConsumptionOilPerProductProcessor,
+                                 EiaConsumptionOilsPerSectorProcessor,
+                                 EiaElectricityGenerationByEnergyProcessor,
+                                 EiaFinalEnergyConsumptionPerSectorProcessor,
+                                 EiaFinalEnergyConsumptionProcessor,
+                                 EiaFinalEnergyPerSectorPerEnergyProcessor)
+from src.sources.gapminder.population import (
     GapMinderPerZoneAndCountryProcessor, PopulationPerZoneAndCountryProcessor,
     StatisticsPerCapitaJoiner)
-from src.transformation.demographic.worldbank_scrap import WorldBankScrapper
-from src.transformation.eia import (
-    EiaConsumptionGasBySectorProcessor, EiaConsumptionOilPerProductProcessor,
-    EiaConsumptionOilsPerSectorProcessor,
-    EiaElectricityGenerationByEnergyProcessor,
-    EiaFinalEnergyConsumptionPerSectorProcessor,
-    EiaFinalEnergyConsumptionProcessor,
-    EiaFinalEnergyPerSectorPerEnergyProcessor)
-from src.transformation.footprint_vs_territorial import \
-    FootprintVsTerrotorialProcessor
-from src.transformation.ghg.cait import CaitProcessor
-from src.transformation.ghg.edgar import EdgarCleaner
-from src.transformation.ghg.fao import FaoDataProcessor
-from src.transformation.ghg.ghg import (EdgarUnfcccAnnexesCombinator,
-                                        GhgMultiSourcesCombinator,
-                                        GhgPikEdgarCombinator,
-                                        PikUnfcccAnnexesCombinator)
-from src.transformation.ghg.pik import PikCleaner
-from src.transformation.ghg.unfcc import UnfcccAnnexesCleaner, UnfccProcessor
+from src.sources.worldbank.worldbank_scrap import WorldBankScrapper
 from src.utils.format import StatisticsDataframeFormatter
 
 RAW_DATA_DIR = os.path.join(os.path.dirname(__file__), "../../results/raw_new_data")

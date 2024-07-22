@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from src.transformation.demographic.countries import \
+from src.source_aggregations.demographic.countries import \
     StatisticsPerCountriesAndZonesJoiner
 from src.utils.format import StatisticsDataframeFormatter
 
