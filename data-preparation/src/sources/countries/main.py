@@ -1,9 +1,9 @@
 import pandas as pd
-from src.countries.multi_selection_country_groups import \
+from src.sources.countries.multi_selection_country_groups import \
     process_multi_selection_country_groups
 
 df = pd.read_csv(
-    "src/countries/data/multiselect_groups.csv",
+    "src/sources/countries/data/multiselect_groups.csv",
     sep=",",
 )
 multi_selection_country_groups = process_multi_selection_country_groups(df)
