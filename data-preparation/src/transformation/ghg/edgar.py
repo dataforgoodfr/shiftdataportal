@@ -1,7 +1,8 @@
-import pandas as pd
 import numpy as np
-from src.sdp_data.utils.translation import CountryTranslatorFrenchToEnglish, SectorTranslator
-from src.sdp_data.utils.format import StatisticsDataframeFormatter
+import pandas as pd
+from src.utils.format import StatisticsDataframeFormatter
+from src.utils.translation import (CountryTranslatorFrenchToEnglish,
+                                   SectorTranslator)
 
 
 class EdgarCleaner:

@@ -1,6 +1,6 @@
 import pandas as pd
-from src.sdp_data.utils.translation import CountryTranslatorFrenchToEnglish
-from src.sdp_data.utils.format import StatisticsDataframeFormatter
+from src.utils.format import StatisticsDataframeFormatter
+from src.utils.translation import CountryTranslatorFrenchToEnglish
 
 
 class PikCleaner:

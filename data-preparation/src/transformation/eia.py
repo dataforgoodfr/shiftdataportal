@@ -1,11 +1,13 @@
-from src.sdp_data.utils.iso3166 import countries
-from src.sdp_data.utils.translation import CountryTranslatorFrenchToEnglish
-from src.sdp_data.transformation.demographic.countries import StatisticsPerCountriesAndZonesJoiner
-from src.sdp_data.utils.format import StatisticsDataframeFormatter
-import requests
 import json
-import pandas as pd
 import os
+
+import pandas as pd
+import requests
+from src.transformation.demographic.countries import \
+    StatisticsPerCountriesAndZonesJoiner
+from src.utils.format import StatisticsDataframeFormatter
+from src.utils.iso3166 import countries
+from src.utils.translation import CountryTranslatorFrenchToEnglish
 
 
 class EiaScrapper:  # TODO - à refactorer
@@ -311,7 +313,7 @@ class EiaElectricityGenerationByEnergyProcessor(EiaDataProcessor):
         df_nuclear_electricity_share = StatisticsDataframeFormatter().select_and_sort_values(
             df_nuclear_electricity_share, "nuclear_share_of_electricity_generation", round_statistics=4)
         return df_nuclear_electricity_share
-    
+
     def compute_electricity_by_energy_family(self):
         print("-- compute electricity per energy family for each country")
         assert self.df_electricity_by_energy_family is not None

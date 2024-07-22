@@ -2,8 +2,9 @@
 Footprint versus territorial emissions
 """
 import pandas as pd
-from src.sdp_data.utils.translation import CountryTranslatorFrenchToEnglish
-from src.sdp_data.transformation.demographic.countries import StatisticsPerCountriesAndZonesJoiner
+from src.transformation.demographic.countries import \
+    StatisticsPerCountriesAndZonesJoiner
+from src.utils.translation import CountryTranslatorFrenchToEnglish
 
 
 class EoraCbaPerZoneAndCountryProcessor:
@@ -74,7 +75,7 @@ class EoraCbaPerZoneAndCountryProcessor:
         # filter on sectors of interest
         list_scope_to_filter = ["Territorial Emissions", "CO2 Footprint"]
         df_eora_cba = df_eora_cba[df_eora_cba["scope"].isin(list_scope_to_filter)]
-        
+
         # join with countries
         list_cols_group_by = ['group_type', 'group_name', 'year', 'scope', 'co2_unit', 'source']
         dict_agg = {'co2': "sum"}

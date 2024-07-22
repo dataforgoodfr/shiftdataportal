@@ -1,9 +1,8 @@
-import pandas as pd
-from src.sdp_data.transformation.demographic.countries import (
-    StatisticsPerCountriesAndZonesJoiner,
-)
 import numpy as np
-from src.sdp_data.utils.format import StatisticsDataframeFormatter
+import pandas as pd
+from src.transformation.demographic.countries import \
+    StatisticsPerCountriesAndZonesJoiner
+from src.utils.format import StatisticsDataframeFormatter
 
 
 class GhgPikEdgarCombinator:
@@ -72,7 +71,7 @@ class GhgPikEdgarCombinator:
                                                                               "ghg_pik", "ghg_edgar"])
 
         # concatenate with EDGAR and PIK transport and energy
-        df_edgar_transport_energy = df_edgar_clean[df_edgar_clean["sector"].isin(["Transport", "Electricity & Heat", "Other Energy"])] 
+        df_edgar_transport_energy = df_edgar_clean[df_edgar_clean["sector"].isin(["Transport", "Electricity & Heat", "Other Energy"])]
         df_pik_edgar_diff_industry_transport = pd.concat([df_pik_edgar_diff_industry, df_edgar_transport_energy], axis=0)
 
         # merge on PIK energy
@@ -92,7 +91,7 @@ class GhgPikEdgarCombinator:
         df_pik_edgar_ratio["ratio"] = df_pik_edgar_ratio["ghg_edgar"] / df_pik_edgar_ratio["ghg_pik"]
 
         return df_pik_edgar_ratio
-    
+
     def compute_pik_edgar_extrapolated_glued(self, df_pik_clean, df_edgar_clean):  # TODO - revoir complètement cette méthode. Dette technique monstrueuse...
         # compute the energy ratio between PIK and Edgar
         print("\n----- Combine PIK and EDGAR extrapolated")
@@ -199,8 +198,8 @@ class GhgMultiSourcesCombinator:
         df_multi_sources_sum_per_country["group_type"] = "country"
         df_multi_sources_sum_per_country = df_multi_sources_sum_per_country.rename(columns={"group_name": "country"})
         df_ghg_multi_with_zones = pd.concat([df_multi_sources, df_multi_sources_sum_per_country, df_fao_clean], axis=0)
-        
-        # group by GAS and merge with CAIT        
+
+        # group by GAS and merge with CAIT
         list_group_by_gas = ["source", "group_type", "group_name", "year", "gas"]
         df_ghg_multi_by_gas = df_ghg_multi_with_zones.groupby(list_group_by_gas).agg(ghg=("ghg", "sum"), ghg_unit=("ghg_unit", "first")).reset_index()
         df_cait_gas_stacked["source"] = "CAIT"

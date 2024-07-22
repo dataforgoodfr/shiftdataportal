@@ -1,11 +1,13 @@
 import pandas as pd
-from src.sdp_data.utils.translation import CountryTranslatorFrenchToEnglish
-from src.sdp_data.transformation.demographic.countries import StatisticsPerCountriesAndZonesJoiner
+from src.transformation.demographic.countries import \
+    StatisticsPerCountriesAndZonesJoiner
+from src.utils.translation import CountryTranslatorFrenchToEnglish
+
 # TODO - à revoir
 """
 -> Revue des valeurs manquantes "zone supprimées" pour PopulationCleaner.
 -> ajouter des tests unitaires.
--> mutuliser le code entre GapMinderCleaner et 
+-> mutuliser le code entre GapMinderCleaner et
 """
 
 
