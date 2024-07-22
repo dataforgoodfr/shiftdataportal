@@ -6,7 +6,7 @@ import { ElectricityResolvers, Electricity } from "../types";
 import {
   IEA_API_electricity_by_energy_family_prepared_prod as BY_ENERGY_FAMILY,
   ENERGY_PER_CAPITA_energy_per_capita_prod as PER_CAPITA,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
+  country_multiselect_groups as MULTI_SELECT,
   WORLD_ENERGY_HISTORY_electricity_capacity_prod as CAPACITY,
 } from "../dbSchema";
 

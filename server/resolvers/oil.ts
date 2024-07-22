@@ -6,7 +6,7 @@ import energyUnits from "../utils/energyUnits";
 import {
   IEA_API_final_cons_oil_products_by_sector_prod as BY_SECTOR,
   ENERGY_PER_CAPITA_energy_per_capita_prod as PER_CAPITA,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
+  country_multiselect_groups as MULTI_SELECT,
   FOSSIL_RESERVES_bp_fossil_with_zones_prod as PROVEN_RESERVE,
   OIL_EXTRAPOLATION_oil_prod_extrapolation_prod as OLD_EXTRAPOLATION,
   OIL_EXTRAPOLATION_oil_prod_weo_extrapolated_prod as EXTRAPOLATION,

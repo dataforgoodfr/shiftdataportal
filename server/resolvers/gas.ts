@@ -5,7 +5,7 @@ import energyMultiplier from "../utils/energyMultiplier";
 import {
   IEA_API_final_cons_gas_by_sector_prod as BY_SECTOR,
   FOSSIL_RESERVES_bp_fossil_with_zones_prod as PROVEN_RESERVE,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
+  country_multiselect_groups as MULTI_SELECT,
   WORLD_ENERGY_HISTORY_primary_energy_prod as TOTAL,
   ENERGY_PER_CAPITA_energy_per_capita_prod as PER_CAPITA,
 } from "../dbSchema";

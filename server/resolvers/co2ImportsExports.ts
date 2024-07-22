@@ -3,7 +3,7 @@ import cO2Units from "../utils/cO2Units";
 import {
   CO2_CONSUMPTION_BASED_ACCOUNTING_eora_co2_trade_by_country_prod as BY_COUNTRY,
   CO2_CONSUMPTION_BASED_ACCOUNTING_eora_co2_trade_by_sector as BY_SECTOR,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
+  country_multiselect_groups as MULTI_SELECT,
 } from "../dbSchema";
 import stringToColor from "../utils/stringToColor";
 import getMdInfos from "./helpers/getMdInfos";

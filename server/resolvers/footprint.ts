@@ -6,7 +6,7 @@ import {
   CO2_CBA_PER_CAPITA_eora_cba_zones_per_capita_prod as PER_CAPITA,
   CO2_CBA_PER_GDP_eora_cba_per_gdp_prod as PER_GDP,
   CO2_CONSUMPTION_BASED_ACCOUNTING_footprint_vs_territorial_prod as TOTAL,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
+  country_multiselect_groups as MULTI_SELECT,
 } from "../dbSchema";
 import stringToColor from "../utils/stringToColor";
 import groupBy from "../utils/groupBy";

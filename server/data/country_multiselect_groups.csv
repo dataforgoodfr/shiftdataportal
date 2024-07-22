@@ -1,11 +1,11 @@
 group,country,country_only
-Quickselect Top GHG Emitters in 2018,China,false
-Quickselect Top GHG Emitters in 2018,United States of America,false
-Quickselect Top GHG Emitters in 2018,EU28,false
-Quickselect Top GHG Emitters in 2018,India,false
-Quickselect Top GHG Emitters in 2018,Russian Federation & USSR,false
-Quickselect Top GHG Emitters in 2018,Japan,false
-Quickselect Top GHG Emitters in 2018,Brazil,false
+Quickselect Top GHG Emitters in 2022,China,false
+Quickselect Top GHG Emitters in 2022,United States of America,false
+Quickselect Top GHG Emitters in 2022,EU27,false
+Quickselect Top GHG Emitters in 2022,India,false
+Quickselect Top GHG Emitters in 2022,Russian Federation & USSR,false
+Quickselect Top GHG Emitters in 2022,Japan,false
+Quickselect Top GHG Emitters in 2022,Brazil,false
 Quickselect G7,Canada,true
 Quickselect G7,France,true
 Quickselect G7,Germany,true
@@ -47,31 +47,31 @@ Quickselect UK-DE-FR-IT,France,true
 Quickselect UK-DE-FR-IT,Italy,true
 Quickselect UK-DE-FR-IT,Germany,true
 Quickselect UK-DE-FR-IT,United Kingdom,true
-Quickselect EU28,Austria,true
-Quickselect EU28,Belgium,true
-Quickselect EU28,Bulgaria,true
-Quickselect EU28,Cyprus,true
-Quickselect EU28,Czechia,true
-Quickselect EU28,Denmark,true
-Quickselect EU28,Estonia,true
-Quickselect EU28,Finland,true
-Quickselect EU28,France,true
-Quickselect EU28,Germany,true
-Quickselect EU28,Greece,true
-Quickselect EU28,Hungary,true
-Quickselect EU28,Ireland,true
-Quickselect EU28,Italy,true
-Quickselect EU28,Latvia,true
-Quickselect EU28,Lithuania,true
-Quickselect EU28,Luxembourg,true
-Quickselect EU28,Malta,true
-Quickselect EU28,Netherlands,true
-Quickselect EU28,Poland,true
-Quickselect EU28,Portugal,true
-Quickselect EU28,Romania,true
-Quickselect EU28,Slovakia,true
-Quickselect EU28,Slovenia,true
-Quickselect EU28,Spain,true
-Quickselect EU28,Sweden,true
-Quickselect EU28,United Kingdom,true
-Quickselect EU28,Croatia,true
+Quickselect EU27,Austria,true
+Quickselect EU27,Belgium,true
+Quickselect EU27,Bulgaria,true
+Quickselect EU27,Cyprus,true
+Quickselect EU27,Czechia,true
+Quickselect EU27,Denmark,true
+Quickselect EU27,Estonia,true
+Quickselect EU27,Finland,true
+Quickselect EU27,France,true
+Quickselect EU27,Germany,true
+Quickselect EU27,Greece,true
+Quickselect EU27,Hungary,true
+Quickselect EU27,Ireland,true
+Quickselect EU27,Italy,true
+Quickselect EU27,Latvia,true
+Quickselect EU27,Lithuania,true
+Quickselect EU27,Luxembourg,true
+Quickselect EU27,Malta,true
+Quickselect EU27,Netherlands,true
+Quickselect EU27,Poland,true
+Quickselect EU27,Portugal,true
+Quickselect EU27,Romania,true
+Quickselect EU27,Slovakia,true
+Quickselect EU27,Slovenia,true
+Quickselect EU27,Spain,true
+Quickselect EU27,Sweden,true
+Quickselect EU27,Croatia,true
+Quickselect Top GHG Emitters in 2022,Indonesia,false

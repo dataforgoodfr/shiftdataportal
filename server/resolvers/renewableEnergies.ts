@@ -6,7 +6,7 @@ import {
   WORLD_ENERGY_HISTORY_renewable_primary_energy_prod as BY_ENERGY_FAMILY,
   WORLD_ENERGY_HISTORY_renewable_share_of_primary_energy_prod as SHARE,
   WORLD_ENERGY_HISTORY_renewable_primary_energy_prod as TOTAL,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
+  country_multiselect_groups as MULTI_SELECT,
 } from "../dbSchema";
 import groupBy from "../utils/groupBy";
 import typeColor from "../utils/typeColor";

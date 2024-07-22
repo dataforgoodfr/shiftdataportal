@@ -7,7 +7,7 @@ import {
   HISTORICAL_CO2_EMISSIONS_PER_CAPITA_co2_per_capita_prod as PER_CAPITA,
   CARBON_INTENSITY_OF_GDP_carbon_intensity_of_gdp_prod as PER_GDP,
   HISTORICAL_CO2_EMISSIONS_FROM_ENERGY_eia_with_zones_prod as TOTAL,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
+  country_multiselect_groups as MULTI_SELECT,
 } from "../dbSchema";
 import typeColor from "../utils/typeColor";
 import stringToColor from "../utils/stringToColor";

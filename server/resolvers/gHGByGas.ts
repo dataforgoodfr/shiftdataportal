@@ -7,7 +7,7 @@ import { GhgByGasResolvers, GhgByGas, GhgByGasDimensions } from "../types";
 import {
   GHG_EMISSIONS_ghg_full_by_gas_prod as BY_GAS,
   GHG_EMISSIONS_PER_CAPITA_ghg_per_capita_prod as PER_CAPITA,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
+  country_multiselect_groups as MULTI_SELECT,
   CARBON_INTENSITY_OF_GDP_carbon_intensity_of_gdp_prod as PER_GDP,
   GHG_EMISSIONS_ghg_full_by_sector_prod as BY_SECTOR,
 } from "../dbSchema";

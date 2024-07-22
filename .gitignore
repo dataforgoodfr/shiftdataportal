@@ -308,7 +308,6 @@ results/current_data/population.csv
 results/current_data/unfcc_prepared.csv
 results/current_data/unfccc_cleaned.csv
 results/current_prod_data/CO2_CONSUMPTION_BASED_ACCOUNTING_footprint_vs_territorial_prod.csv
-results/current_prod_data/COUNTRY_country_groups_prod.csv
 results/current_prod_data/DEMOGRAPHIC_POPULATION_prod.csv
 results/new_data/cait_sector_gas.csv
 results/new_data/cait_sector_stacked.csv
@@ -325,7 +324,6 @@ results/new_data/unfcc_prepared.csv
 results/new_data/unfccc_cleaned.csv
 results/new_prod_data/CO2_CBA_PER_CAPITA_eora_cba_zones_per_capita_prod.csv
 results/new_prod_data/CO2_CONSUMPTION_BASED_ACCOUNTING_footprint_vs_territorial_prod.csv
-results/new_prod_data/COUNTRY_country_groups_prod.csv
 results/new_prod_data/DEMOGRAPHIC_POPULATION_prod.csv
 results/raw_new_data/co2_cba/~$National_Fossil_Carbon_Emissions_2023v1.0.xlsx
 results/raw_new_data/co2_cba/National_Fossil_Carbon_Emissions_2023v1.0.xlsx

@@ -3,7 +3,7 @@ import { CoalResolvers, Coal, EnergyUnit, CoalDimensions } from "../types";
 import energyUnits from "../utils/energyUnits";
 import energyMultiplier from "../utils/energyMultiplier";
 import {
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
+  country_multiselect_groups as MULTI_SELECT,
   WORLD_ENERGY_HISTORY_primary_energy_prod as TOTAL,
   ENERGY_PER_CAPITA_energy_per_capita_prod as PER_CAPITA,
 } from "../dbSchema";

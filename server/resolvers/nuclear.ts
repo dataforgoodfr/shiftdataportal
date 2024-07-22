@@ -5,7 +5,7 @@ import { NuclearResolvers, Nuclear, NuclearDimensions, EnergyUnit } from "../typ
 import {
   IEA_API_nuclear_share_of_electricity_generation_prod as SHARE,
   IEA_API_nuclear_share_of_electricity_generation_prod as TOTAL,
-  COUNTRY_multiselect_groups_prod as MULTI_SELECT,
+  country_multiselect_groups as MULTI_SELECT,
 } from "../dbSchema";
 import groupBy from "../utils/groupBy";
 import stringToColor from "../utils/stringToColor";
