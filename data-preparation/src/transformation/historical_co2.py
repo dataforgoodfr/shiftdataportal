@@ -1,6 +1,7 @@
 import pandas as pd
-from sdp_data.utils.translation import CountryTranslatorFrenchToEnglish
-from sdp_data.transformation.demographic.countries import StatisticsPerCountriesAndZonesJoiner
+from src.transformation.demographic.countries import \
+    StatisticsPerCountriesAndZonesJoiner
+from src.utils.translation import CountryTranslatorFrenchToEnglish
 
 
 class HistoricalCo2PerZoneAndCountryProcessor:
@@ -18,7 +19,7 @@ class HistoricalCo2PerZoneAndCountryProcessor:
         condition_urss = (df_pik_cleaned['country'].isin(self.list_urss_countries) & (df_pik_cleaned['year'] >= 1922) & (df_pik_cleaned['year'] < 1992))
         df_pik_cleaned.loc[condition_urss, 'country'] = 'Russian Federation & USSR'
         return df_pik_cleaned
-    
+
     @staticmethod
     def melt_years(df: pd.DataFrame):
         return pd.melt(df, id_vars=["type", "country", "unit"],

@@ -1,11 +1,13 @@
-from sdp_data.utils.iso3166 import countries
-from sdp_data.utils.translation import CountryTranslatorFrenchToEnglish
-from sdp_data.transformation.demographic.countries import StatisticsPerCountriesAndZonesJoiner
-from sdp_data.utils.format import StatisticsDataframeFormatter
-import requests
 import json
-import pandas as pd
 import os
+
+import pandas as pd
+import requests
+from src.transformation.demographic.countries import \
+    StatisticsPerCountriesAndZonesJoiner
+from src.utils.format import StatisticsDataframeFormatter
+from src.utils.iso3166 import countries
+from src.utils.translation import CountryTranslatorFrenchToEnglish
 
 
 class EiaScrapper:  # TODO - à refactorer
