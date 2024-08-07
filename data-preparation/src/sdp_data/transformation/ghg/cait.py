@@ -144,6 +144,7 @@ class CaitProcessor:
         print("\n----- Clean CAIT dataset")
         df_cait = df_cait.rename({"Country": "country", "Year": "year"}, axis=1)
         df_cait["country"] = CountryTranslatorFrenchToEnglish().run(df_cait["country"], raise_errors=False)
+        df_cait["country"] = df_cait["country"].fillna("World")  # TODO - gérer proprement ce cas dans trasnlation.py car dette technique (10/06)
         df_cait_total_per_gas = self.compute_total_gas_per_country(df_cait)
         df_cait_total_per_sector = self.compute_total_co2eq_per_sector(df_cait)
         df_cait_prepared = pd.concat([df_cait_total_per_gas, df_cait_total_per_sector], axis=0)
