@@ -96,6 +96,9 @@ export default function Footer({ mt = 5 }) {
             <Li mt={[2, 1]}>
               <Link href="/legal-notice">LEGAL NOTICE</Link>
             </Li>
+            <Li mt={[2, 1]}>
+              <Link href="https://airtable.com/shryDaSBKJZrun8Re">YOUR FEEDBACK IS WELCOME</Link>
+            </Li>
           </Ul>
         </Layout>
       </Container>
