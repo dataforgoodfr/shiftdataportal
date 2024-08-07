@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
-from src.sdp_data.utils.translation import CountryTranslatorFrenchToEnglish, SectorTranslator
-from src.sdp_data.utils.format import StatisticsDataframeFormatter
+from sdp_data.utils.translation import CountryTranslatorFrenchToEnglish, SectorTranslator
+from sdp_data.utils.format import StatisticsDataframeFormatter
 
 
 class EdgarCleaner:
@@ -15,7 +15,7 @@ class EdgarCleaner:
 
     @staticmethod
     def convert_ghg_with_gas(ghg, gas):
-        if gas == "N2O":
+        if gas == "N2O":  # TODO - mettre à jour conversion pour les gaz EDGAR
             return ghg * 298
         elif gas == "CH4":
             return ghg * 25
