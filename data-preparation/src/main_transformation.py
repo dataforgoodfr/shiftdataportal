@@ -1,26 +1,22 @@
 import sys
-
-sys.path.append("../../")
-from src.sdp_data.transformation.demographic.population import GapMinderPerZoneAndCountryProcessor, \
-    PopulationPerZoneAndCountryProcessor
-from src.sdp_data.transformation.demographic.population import StatisticsPerCapitaJoiner
-from src.sdp_data.transformation.co2_consumption_based_accounting import EoraCo2TradePerZoneAndCountryProcessor
-from src.sdp_data.transformation.footprint_vs_territorial import FootprintVsTerrotorialProcessor
-from src.sdp_data.transformation.demographic.worldbank_scrap import WorldBankScrapper
-from src.sdp_data.transformation.demographic.gdp import GdpMaddissonPerZoneAndCountryProcessor, \
+from transformation.demographic.population import GapMinderPerZoneAndCountryProcessor, PopulationPerZoneAndCountryProcessor
+from transformation.demographic.population import StatisticsPerCapitaJoiner
+from transformation.co2_consumption_based_accounting import EoraCo2TradePerZoneAndCountryProcessor
+from transformation.footprint_vs_territorial import FootprintVsTerrotorialProcessor
+from transformation.demographic.worldbank_scrap import WorldBankScrapper
+from transformation.demographic.gdp import GdpMaddissonPerZoneAndCountryProcessor, \
     GdpWorldBankPerZoneAndCountryProcessor
-from src.sdp_data.transformation.eia import EiaConsumptionGasBySectorProcessor, EiaConsumptionOilPerProductProcessor, \
+from transformation.eia import EiaConsumptionGasBySectorProcessor, EiaConsumptionOilPerProductProcessor, \
     EiaFinalEnergyConsumptionProcessor, EiaFinalEnergyPerSectorPerEnergyProcessor, \
     EiaElectricityGenerationByEnergyProcessor, EiaConsumptionOilsPerSectorProcessor, \
     EiaFinalEnergyConsumptionPerSectorProcessor
-from src.sdp_data.utils.format import StatisticsDataframeFormatter
-from src.sdp_data.transformation.ghg.pik import PikCleaner
-from src.sdp_data.transformation.ghg.edgar import EdgarCleaner
-from src.sdp_data.transformation.ghg.ghg import GhgPikEdgarCombinator, PikUnfcccAnnexesCombinator, \
-    EdgarUnfcccAnnexesCombinator, GhgMultiSourcesCombinator
-from src.sdp_data.transformation.ghg.unfcc import UnfcccAnnexesCleaner, UnfccProcessor
-from src.sdp_data.transformation.ghg.fao import FaoDataProcessor
-from src.sdp_data.transformation.ghg.cait import CaitProcessor
+from utils.format import StatisticsDataframeFormatter
+from transformation.ghg.pik import PikCleaner
+from transformation.ghg.edgar import EdgarCleaner
+from transformation.ghg.ghg import GhgPikEdgarCombinator, PikUnfcccAnnexesCombinator, EdgarUnfcccAnnexesCombinator, GhgMultiSourcesCombinator
+from transformation.ghg.unfcc import UnfcccAnnexesCleaner, UnfccProcessor
+from transformation.ghg.fao import FaoDataProcessor
+from transformation.ghg.cait import CaitProcessor
 import pandas as pd
 import os
 import requests

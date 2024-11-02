@@ -1,9 +1,7 @@
 import pandas as pd
-from src.sdp_data.transformation.demographic.countries import (
-    StatisticsPerCountriesAndZonesJoiner,
-)
+from transformation.demographic.countries import StatisticsPerCountriesAndZonesJoiner
 import numpy as np
-from src.sdp_data.utils.format import StatisticsDataframeFormatter
+from utils.format import StatisticsDataframeFormatter
 
 
 class GhgPikEdgarCombinator:

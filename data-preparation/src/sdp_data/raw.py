@@ -7,7 +7,7 @@ import re
 from urllib.parse import urlencode
 import pandas as pd
 import traceback
-import utils.download as download
+import utils as download
 from datetime import datetime
 import json
 import time
@@ -485,7 +485,7 @@ class File(Raw):
         pass
     
     def _raw_to_csv(self):
-        download.download_file_with_retry(self._get_url(),self._csv_full_name())
+        download.download_file_with_retry(self._get_url(), self._csv_full_name())
         
         
 """ TRACKING TODO

@@ -1,7 +1,7 @@
 import pandas as pd
-from src.sdp_data.utils.translation import CountryTranslatorFrenchToEnglish
-from src.sdp_data.transformation.demographic.countries import StatisticsPerCountriesAndZonesJoiner
-from src.sdp_data.utils.iso3166 import countries_by_alpha3
+from utils.translation import CountryTranslatorFrenchToEnglish
+from transformation.demographic.countries import StatisticsPerCountriesAndZonesJoiner
+from utils.iso3166 import countries_by_alpha3
 
 
 class GdpMaddissonPerZoneAndCountryProcessor:

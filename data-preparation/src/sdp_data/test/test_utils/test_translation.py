@@ -1,6 +1,6 @@
 import pandas as pd
 import unittest
-from sdp_data.utils.translation import CountryTranslatorFrenchToEnglish
+from utils.translation import CountryTranslatorFrenchToEnglish
 import numpy as np
 
 

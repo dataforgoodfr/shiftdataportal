@@ -1,5 +1,5 @@
 import pandas as pd
-from sdp_data.utils.translation import CountryTranslatorFrenchToEnglish
+from utils.translation import CountryTranslatorFrenchToEnglish
 from sdp_data.transformation.demographic.countries import StatisticsPerCountriesAndZonesJoiner
 
 
