@@ -1,6 +1,6 @@
 import pandas as pd
-from src.sdp_data.utils.translation import CountryTranslatorFrenchToEnglish, SectorTranslator
-from src.sdp_data.utils.iso3166 import countries_by_alpha3
+from utils.translation import CountryTranslatorFrenchToEnglish, SectorTranslator
+from utils.iso3166 import countries_by_alpha3
 
 
 class UnfccProcessor:

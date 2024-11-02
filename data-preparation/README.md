@@ -26,6 +26,24 @@ Define default behaviour of the two main base classes Api(Raw) and File(Raw)
 Folder listing the "Raw Data" sources modules.<br>
 Each raw_{source}.py define configuration/implementation of the Api and/or File class(es) for a specific "Raw Data" {source} (ie: raw_wb.py for World Bank "Raw Data" source)
 
+## Transformation
+
+Once that the raw data has been downloaded, it can be transformed into clean data using `data-preparation/src/main_transformation.py`.
+When you run the main_transforamion.py file, data will be stored in 3 different directories : 
+
+*data-preparation/data/raw_data* : this is where you have to store the raw data you have collected or downloaded from the internet.
+This directory will contain recent up-to-data data. 
+
+-> For example, to refresh the PIK source dataset, you have to download file Guetschow_et_al_2023b-PRIMAP-hist_v2.5_final_15-Oct-2023.csv
+and place it into the raw_data/ghg directory. See notion for more information on raw data sources.
+
+*data-preparation/data/new_prod_data* : it is containing the resulting dataset that you have obtained when running
+`data-preparation/src/main_transformation.py`. All the resulting datasets will be placed here.  See notion for more information.
+
+*data-preparation/data/current_prod_data* : it is containing processed old data that have been processed with Dataiku (legacy code).
+This directory can contain old processed data that can be used to track changes compared to old datasets or to use some
+sources that are no longer available today. See notion for more information.
+
 ## Contributing
 
 We use Python 3.9, ensure you have this version on your computer. If you already have another version, you can manage several versions of Python with [pyenv](https://github.com/pyenv/pyenv) for Linux/MacOS or [pyenv-win](https://github.com/pyenv-win/pyenv-win) for Windows.

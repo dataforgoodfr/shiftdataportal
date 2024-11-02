@@ -1,6 +1,6 @@
 import pandas as pd
-from src.sdp_data.utils.translation import CountryTranslatorFrenchToEnglish
-from src.sdp_data.transformation.demographic.countries import StatisticsPerCountriesAndZonesJoiner
+from utils.translation import CountryTranslatorFrenchToEnglish
+from transformation.demographic.countries import StatisticsPerCountriesAndZonesJoiner
 # TODO - à revoir
 """
 -> Revue des valeurs manquantes "zone supprimées" pour PopulationCleaner.
