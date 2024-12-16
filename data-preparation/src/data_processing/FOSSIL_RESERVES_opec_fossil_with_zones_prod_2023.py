@@ -1,3 +1,6 @@
+#Fichier Python permettant de générer :
+#__FOSSIL_RESERVES_bp_fossil_with_zones_prod.csv__#
+
 import pandas as pd
 import numpy as np
 from utils.translation import CountryTranslatorFrenchToEnglish
@@ -9,7 +12,7 @@ from utils.format import StatisticsDataframeFormatter
 # Charger données OPEC -> pas API disponible
 # site source Maj annuelle : https://publications.opec.org/asb
 
-class BpFossilProvenReservesCleaner:
+class OpecFossilProvenReservesCleaner:
     def __init__(self) :
         pass
     
@@ -17,6 +20,9 @@ class BpFossilProvenReservesCleaner:
         return df.rename(columns={'Unnamed: 0': 'country'})
     
     def drop_unnecessary_lines(self, df) :
+        """
+        Drop footnotes not necessary for data processing
+        """
         df.set_index('country', inplace=True)
         df = df.loc[:"Total World", :]
         df.drop(['Africa ', 'Latin America', 'Other Asia', 'Other Eurasia', 'Middle East ', 'OECD Europe', 'OECD Asia Pacific', 'OECD Americas', 'Others', 'Other Europe', 'Total World'], axis = 0, inplace = True)
@@ -28,11 +34,6 @@ class BpFossilProvenReservesCleaner:
     
     def translate_country(self, df) :
         df = df.reset_index()
-        df["country"].replace({"Canada1" : "Canada",
-                                "Russia2" : "Russian Federation & USSR",
-                                "Uzbekistan`" : "Uzbekistan",
-                                "Sudans" : "Sudan",
-                                "IR Iran" :"Iran"}, inplace = True)
         df["country"] = CountryTranslatorFrenchToEnglish().run(df["country"], raise_errors=False)
         return df
 
@@ -69,6 +70,6 @@ class BpFossilProvenReservesCleaner:
         return df
     
 # Application class
-cleaner = BpFossilProvenReservesCleaner()
+cleaner = OpecFossilProvenReservesCleaner()
 df_new = cleaner.clean_data(df, country)
 df_new
