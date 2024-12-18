@@ -255,6 +255,7 @@ class TransformationPipeline:
         # demographic data
         df_country = self.process_country_data()
         # df_population, df_gapminder = self.process_population_data(df_country)
+        return self.process_population_data(df_country)
         # consumption-based accounting
         # self.process_footprint_vs_territorial_data(df_country)
 

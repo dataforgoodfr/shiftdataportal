@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from utils.translation import CountryTranslatorFrenchToEnglish
 from transformation.demographic.countries import StatisticsPerCountriesAndZonesJoiner
 # TODO - à revoir
@@ -13,7 +14,7 @@ class GapMinderPerZoneAndCountryProcessor:
 
     def __init__(self):
         self.equivalence_dict = {'k': 1e3, 'M': 1e6, 'B': 1e9}
-        self.max_year = 2021
+        self.max_year = 2023
 
     def dirty_string_to_int(self, dirty_string: str):
         """
@@ -21,6 +22,8 @@ class GapMinderPerZoneAndCountryProcessor:
         :param dirty_string: (str) the string to convert in integer
         :return:
         """
+        if isinstance(dirty_string, float):
+            return np.nan
         dirty_string = str(dirty_string)
         for key in self.equivalence_dict.keys():
             if key in dirty_string:
@@ -36,6 +39,15 @@ class GapMinderPerZoneAndCountryProcessor:
         df.columns = ["year", "country", "population"]
         return df
 
+    def merge_tables(self, df: pd.DataFrame):
+        """
+        Context: Dataframe contains distinct tables separated by one line containing column names.
+        Drops rows containing column names.
+        :return:
+        """
+        return df[(df.columns.values != df.to_numpy()).all(axis=1)]
+
+
     def run(self, df_gapminder: pd.DataFrame, df_country: pd.DataFrame) -> pd.DataFrame:
         """
         Computes the total gapminder for each year, each country and each geographic zone.
@@ -43,8 +55,13 @@ class GapMinderPerZoneAndCountryProcessor:
         """
         # clean the numbers
         print("\n----- compute GapMinder for each country and each zone")
+        
         df_gapminder = df_gapminder.set_index("country")
         df_gapminder = df_gapminder.applymap(lambda element: self.dirty_string_to_int(element))
+
+        # df_gapminder = self.merge_tables(df_gapminder)
+        # df_gapminder = df_gapminder.set_index("name")
+        #df_gapminder = df_gapminder.applymap(lambda element: self.dirty_string_to_int(element))
 
         # unstack to a unique pandas serie and filter time
         df_gapminder = self.unstack_dataframe_to_serie(df_gapminder)
