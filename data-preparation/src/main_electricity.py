@@ -41,6 +41,7 @@ data['country'] = CountryTranslatorFrenchToEnglish().run(serie_country_to_transl
 
 # Adding groups to dataset
 data = GroupMaker(data, countries)
+data = data[data['country']!="Delete"].drop_duplicates()
 
 # Adding the context columns
 data['source'] = 'US EIA'
