@@ -2,8 +2,7 @@ import pandas as pd
 from utils.iso3166 import countries_by_alpha3
 # TODO - country_translations à refactoer plus proprement à l'aide d'un fichier JSON
 
-
-translations_dictionnary = {"ALM": "ALM SRES",
+country_translations = {"ALM": "ALM SRES",
                         "ALM SRES": "ALM SRES",
                         "ASIA": "ASIA SRES",
                         "ASIA SRES": "ASIA SRES",
@@ -95,7 +94,6 @@ translations_dictionnary = {"ALM": "ALM SRES",
                         "Republic of Congo (Brazzaville)": "Congo",
                         "Congo Republic of the": "Congo",
                         "Congo 'Brazzaville'": "Congo",
-                        "Congo-Brazzaville" : "Congo",
                         "Congo": "Congo",
                         "Congo, Rep.": "Congo",
                         "Congo (Brazzaville)": "Congo",
@@ -120,7 +118,6 @@ translations_dictionnary = {"ALM": "ALM SRES",
                         "Democratic Republic of the Congo": "Democratic Republic of the Congo",
                         "Congo, Dem. Rep.": "Democratic Republic of the Congo",
                         "Congo (Kinshasa)": "Democratic Republic of the Congo",
-                        "Congo-Kinshasa":"Democratic Republic of the Congo",
                         "D.R. of the Congo": "Democratic Republic of the Congo",  # TODO - fusionner les pays Congo avec Democratic Republic of the Congo ?
                         "Congo, Dem. Republic": "Democratic Republic of the Congo",
                         "Denmark": "Denmark",
@@ -130,14 +127,13 @@ translations_dictionnary = {"ALM": "ALM SRES",
                         "Egypte": "Egypt", "Egypt": "Egypt", "Egypt, Arab Rep.": "Egypt", "Salvador": "El Salvador",
                         "El Salvador": "El Salvador", "Eritrea": "Eritrea", "Erythrée": "Eritrea", "Estonie": "Estonia",
                         "Estonia": "Estonia",
-                        "European Union (28)": "EU28",  # TODO - fixer la traduction de European Union (28) dans des fichiers comme cait.py ?
+                        "European Union (28)": "European Union (28)",  # TODO - fixer la traduction de European Union (28) dans des fichiers comme cait.py ?
                         "Eswatini": "Eswatini",
                         "Swaziland": "Eswatini",  # TODO - vérifier quel nom utiliser entre Swaziland et Eswatini
                         "Ethiopia PDR": "Ethiopia",
                         "Ethiopia": "Ethiopia", "Ethiopie": "Ethiopia", "Faeroe Islands": "Faeroe Islands",
                         "Faroe Islands": "Faeroe Islands", "Iles Feroe": "Faeroe Islands",
                         "Falkland Islands (Malvinas)": "Falkland Islands (Malvinas)",
-                        "Falkland Islands" : "Falkland Islands (Malvinas)",
                         "Malouines": "Falkland Islands (Malvinas)",
                         "Falkland Islands (Islas Malvinas)": "Falkland Islands (Malvinas)", "Fiji": "Fiji",
                         "Finland": "Finland", "Finlande": "Finland", "France": "France",
@@ -336,7 +332,6 @@ translations_dictionnary = {"ALM": "ALM SRES",
                         "Thaïlande": "Thailand",
                         "Thailand": "Thailand",
                         "Thailande": "Thailand", "Timor-Leste (East Timor)": "Timor-Leste",
-                        "The Bahamas":"Bahamas",
                         "Timor-Leste": "Timor-Leste", "Togo": "Togo", "Tonga": "Tonga",
                         "Trinidad & Tobago": "Trinidad and Tobago", "Trinidad": "Trinidad and Tobago",
                         "Trinité et Tobago": "Trinidad and Tobago", "Trinidad and Tobago": "Trinidad and Tobago",
@@ -352,8 +347,6 @@ translations_dictionnary = {"ALM": "ALM SRES",
                         "Royaume-Uni": "United Kingdom", "United Kingdom (Offshore)": "United Kingdom",
                         "United Kingdom": "United Kingdom", "Royaume Uni": "United Kingdom", "UK": "United Kingdom",
                         "United States Virgin Islands": "United States Virgin Islands",
-                        "U.S. Pacific Islands":"US Pacific Islands",
-                        "U.S. Virgin Islands":"United States Virgin Islands",
                         "Virgin Islands, U.S.": "United States Virgin Islands",
                         "Virgin Islands,  U.S.": "United States Virgin Islands",
                         "Virgin Islands_USA": "United States Virgin Islands",
@@ -363,6 +356,7 @@ translations_dictionnary = {"ALM": "ALM SRES",
                         "United States of America": "United States of America",
                         "United States": "United States of America", "Etats-Unis": "United States of America",
                         "US": "United States of America", "USA": "United States of America",
+                        "U.S. Pacific Islands": "US Pacific Islands",
                         "Uzbekistan": "Uzbekistan",
                         "Ouzbékistan": "Uzbekistan", "Vanuatu": "Vanuatu",
                         "Venezuela, Bolivarian Republic of": "Venezuela",
@@ -386,8 +380,7 @@ translations_dictionnary = {"ALM": "ALM SRES",
                         "Zambia": "Zambia",
                         "Zimbabwe": "Zimbabwe",
                         "Holy See": "Vatican",
-                        r'Holy SeeÂ\xa0(Vatican City State)': "Vatican",
-                        "Palestinian Territories":"Palestinian Territories"
+                        'Holy SeeÂ\xa0(Vatican City State)': "Vatican",
                     }
 
 sector_translations_unfccc = {
@@ -499,7 +492,7 @@ sector_translations_edgar = {
 class CountryTranslatorFrenchToEnglish:
 
     def __init__(self):
-        self.dict_country_translations = translations_dictionnary
+        self.dict_country_translations = country_translations
 
     def run(self, serie_country_to_translate: pd.Series, raise_errors: bool) -> pd.Series:
         """
