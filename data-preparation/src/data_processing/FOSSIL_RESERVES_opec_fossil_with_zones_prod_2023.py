@@ -25,7 +25,7 @@ class OpecFossilProvenReservesCleaner:
         """
         df.set_index('country', inplace=True)
         df = df.loc[:"Total World", :]
-        df.drop(['Africa ', 'Latin America', 'Other Asia', 'Other Eurasia', 'Middle East ', 'OECD Europe', 'OECD Asia Pacific', 'OECD Americas', 'Others', 'Other Europe', 'Total World'], axis = 0, inplace = True)
+        df.drop(['Africa', 'Latin America', 'Other Asia', 'Other Eurasia', 'Middle East', 'OECD Europe', 'OECD Asia Pacific', 'OECD Americas', 'Others', 'Other Europe', 'Total World'], axis = 0, inplace = True)
         return df
     
     def mb_to_gb_scale(self, df) :
