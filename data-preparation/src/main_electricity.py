@@ -3,14 +3,16 @@
 ############################
 
 import pandas as pd
-from utils.utils import get_energy_type, pivot_dates, CountryTranslatorFrenchToEnglish, GroupMaker
+import numpy as np
+import re
+from utils.utils import CountryTranslatorFrenchToEnglish
 from utils.format import StatisticsDataframeFormatter
 import os
 
 PATH_MAIN = r'../../data-preparation/src'
-PATH_ELECTRICITY_DATA = r'../../data/data_2023_qua.csv'
-PATH_COUNTRIES = r'../../country_groups.csv'
-EXPORT_PATH = r'../../data/new_prod_data/WORLD_ENERGY_HISTORY_electricity_capacity_prod.csv'
+PATH_ELECTRICITY_DATA = r'../data/data_2023_qua.csv'                                   # A modifier selon l'emplacement de la table brut (table téléchargée)
+PATH_COUNTRIES = r'country_groups.csv'                                                                  # A adapter selon la localisation du fichier country_groups.csv
+EXPORT_PATH = r'../data/new_prod_data/WORLD_ENERGY_HISTORY_electricity_capacity_prod.csv'
 
 os.chdir(PATH_MAIN)
 
@@ -30,7 +32,7 @@ def get_energy_type(table: pd.core.frame.DataFrame) -> pd.DataFrame:
 
 
     # Création de la colonne 'energy_family'
-    table['energy_family'] = np.where(table['Unnamed: 1'].str.contains('electricity'), table['Unnamed: 1'], np.NaN)
+    table['energy_family'] = np.where(table['group_name'].str.contains('electricity'), table['group_name'], np.NaN)
 
     # Affectation du type d'énergie pour chaque ligne
     table['energy_family'] = table['energy_family'].ffill()
@@ -39,7 +41,7 @@ def get_energy_type(table: pd.core.frame.DataFrame) -> pd.DataFrame:
     table['energy_family'] = table['energy_family'].apply(lambda text: re.findall("(.*)electricity", text).pop())
 
     # Retrait des lignes de tri
-    table = table[~table['Unnamed: 1'].str.contains('electricity')]
+    table = table[~table['group_name'].str.contains('electricity')]
 
     # Ajustements des types d'énergie
     table['energy_family'] = np.select([table['energy_family'].str.contains("biomass and waste"),
@@ -67,44 +69,6 @@ def get_energy_type(table: pd.core.frame.DataFrame) -> pd.DataFrame:
 
     return table
 
-
-def pivot_dates(table: pd.core.frame.DataFrame, dates=[str(i) for i in range(1980, 2024)]) -> pd.DataFrame:
-
-    """Cette fonction affecte la date correspondante pour chaque pays, type d'éléctricité.
-    
-    Paramètres:
-        table: Table où le type d'éléctricité est repertorié.
-
-    Sortie:
-        Renvoie la table d'entrée dotée de la colonne 'energy_family'."""
-
-
-    table['Unnamed: 1'] = table['Unnamed: 1'].str.strip()
-
-    # Pivot par date
-    temp = (pd.melt(table,
-                   value_vars=dates,
-                   id_vars=['Unnamed: 1', "energy_family"])
-              .sort_values(['Unnamed: 1', "variable"]))
-    
-    # Réattribution des noms des colonnes
-    temp.columns = ["country", "energy_family", "year", "power"]
-
-    # Nettoyage des doublons
-    temp = (temp.sort_values(["country", "energy_family", "year", "power"])).reset_index(drop=True)
-    
-    # Adaptation du type de données
-    temp['power'] = np.where(temp['power'].str.contains('--|ie', regex=True), np.NaN, temp['power'])       # Changement des valeurs "--" et "ie" en NaN
-
-    temp = temp.dropna()                                                                                   # Retrait des valeurs manquantes
-
-    for col, type in zip(temp.columns, [object, object, int, float]):
-
-        temp[col] = temp[col].astype(type)                                                                 # Conversion du type pour chaque colonne
-
-    return temp
-
-
 def group_maker(table: pd.DataFrame, countries_group: pd.DataFrame) -> pd.DataFrame:
 
     """Cette fonction calcule les statistiques énergétiques pour chaque groupe/zone, par type d'électricité et par année et les ajoute à la table de base.
@@ -120,6 +84,7 @@ def group_maker(table: pd.DataFrame, countries_group: pd.DataFrame) -> pd.DataFr
     # Initialisation des groupes et colonnes
     zones = ['Africa', 'Asia and Oceania', 'Central and South America', 'Eurasia', 'Europe', 'Middle East', 'World', 'North America']
     table['group_type'] = "country"
+    table = table.rename(columns={'group_name':'country'})
 
     countries_before_merge = sorted(table['country'].unique().tolist())
     groups_before_merge = sorted(countries_group['group_name'].unique().tolist())
@@ -147,8 +112,6 @@ def group_maker(table: pd.DataFrame, countries_group: pd.DataFrame) -> pd.DataFr
 
     return table
 
-
-
 ######################################################
 ###### Chargement et Transformation des données ######
 ######################################################
@@ -156,10 +119,10 @@ def group_maker(table: pd.DataFrame, countries_group: pd.DataFrame) -> pd.DataFr
 
 ### Data loading 
 df_elec_capacity = pd.read_csv(PATH_ELECTRICITY_DATA, skiprows=1)
-df_elec_capacity = df_elec_capacity.rename(columns={"country" : "group_name"})
+df_elec_capacity = df_elec_capacity.rename(columns={"Unnamed: 1" : "group_name"})
 
 # Importing the country groups table
-countries = pd.read_csv(PATH_COUNTRIES)
+df_countries = pd.read_csv(PATH_COUNTRIES)
 
 
 ############ Data Transformation ############
@@ -167,15 +130,29 @@ countries = pd.read_csv(PATH_COUNTRIES)
 ### Energy Type
 df_elec_capacity = get_energy_type(df_elec_capacity)
 
-### Pivoting table
-df_elec_capacity = pivot_dates(df_elec_capacity)
+# Transforming the table
+df_elec_capacity = pd.melt(df_elec_capacity, 
+                            id_vars=["group_name", "energy_family"],
+                            value_vars=[str(i) for i in range(1998, 2023)], 
+                            var_name='year', 
+                            value_name='power')
 
 ### Country Translation
-df_elec_capacity['country'] = CountryTranslatorFrenchToEnglish().run(serie_country_to_translate=df_elec_capacity['country'], 
-                                                         raise_errors=True)
+df_elec_capacity['group_name'] = df_elec_capacity['group_name'].str.strip()
+df_elec_capacity['group_name'] = CountryTranslatorFrenchToEnglish().run(serie_country_to_translate=df_elec_capacity['group_name'], 
+                                                                        raise_errors=True)
+
+# Data-type Adaptation 
+df_elec_capacity['power'] = np.where(df_elec_capacity['power'].str.contains('--|ie', regex=True), np.NaN, df_elec_capacity['power'])  
+
+for col, type in zip(df_elec_capacity.columns, [object, object, int, float]):
+    df_elec_capacity[col] = df_elec_capacity[col].astype(type)
+
+df_elec_capacity = df_elec_capacity.dropna()  
+
 
 # Adding groups to dataset
-df_elec_capacity = group_maker(df_elec_capacity, countries)
+df_elec_capacity = group_maker(df_elec_capacity, df_countries)
 
 # Adding the context columns
 df_elec_capacity['source'] = 'US EIA'
@@ -188,6 +165,10 @@ df_elec_capacity = df_elec_capacity.rename(columns={"country" : "group_name"})
 # Formating the dataset
 df_elec_capacity = StatisticsDataframeFormatter.select_and_sort_values(df=df_elec_capacity, 
                                                            col_statistics='power')
+
+# Removing unneeded data
+df_elec_capacity = df_elec_capacity[df_elec_capacity['group_name'] != "Delete"]
+
 
 #####################################
 ###### Testing and data export ######
