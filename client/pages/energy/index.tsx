@@ -452,7 +452,7 @@ const datasets: IDataset[] = [
       {
         title: "proven reserves",
         link:
-          "/energy/oil?chart-type=line&chart-types=line&chart-types=ranking&disable-en=false&show-unit=false&energy-unit=toe&gdp-unit=GDP%20(constant%202010%20US%24)&group-names=World&is-range=true&sectors=Transport&dimension=provenReserve&end=2018&start=1980&multi=true&old-urr=4100&old-curves=Hubbert&old-scenari=EIA%20-%20High%20Oil%20Price&old-scenari=OPEC%20-%20Reference%20Case&old-scenari=IEA%20-%20Current%20Policies%20Scenario&old-scenari=History%20-%20Extension%20of%20Historical%20Data&old-scenari=EIA%20-%20Traditional%20Low%20Oil%20Price&old-scenari=IEA%20-%20New%20Policies%20Scenario&old-scenari=Univ.%20Of%20Uppsala%20-%20World%20Oil%20Outlook%202008&old-scenari=EIA%20-%20Low%20Oil%20Price&old-scenari=IEA%20-%20450%20Scenario&old-scenari=Historical%20-%20Data&old-scenari=EIA%20-%20Traditional%20High%20Oil%20Price&old-scenari=EIA%20-%20Reference&reserve=775%20(Laherrère%202020)&curves=Hubbert&scenari=Current%20Policies&scenari=Stated%20Policies&scenari=Sustainable%20Development&type=Consumption&import-types=Imports&import-types=Exports&import-types=Net%20Imports&unit=Gb",
+          "/energy/oil?chart-type=line&chart-types=line&chart-types=ranking&disable-en=false&show-unit=false&energy-unit=toe&gdp-unit=GDP%20(constant%202010%20US%24)&group-names=World&is-range=true&sectors=Transport&dimension=provenReserve&end=2024&start=1980&multi=true&old-urr=4100&old-curves=Hubbert&old-scenari=EIA%20-%20High%20Oil%20Price&old-scenari=OPEC%20-%20Reference%20Case&old-scenari=IEA%20-%20Current%20Policies%20Scenario&old-scenari=History%20-%20Extension%20of%20Historical%20Data&old-scenari=EIA%20-%20Traditional%20Low%20Oil%20Price&old-scenari=IEA%20-%20New%20Policies%20Scenario&old-scenari=Univ.%20Of%20Uppsala%20-%20World%20Oil%20Outlook%202008&old-scenari=EIA%20-%20Low%20Oil%20Price&old-scenari=IEA%20-%20450%20Scenario&old-scenari=Historical%20-%20Data&old-scenari=EIA%20-%20Traditional%20High%20Oil%20Price&old-scenari=EIA%20-%20Reference&reserve=775%20(Laherrère%202020)&curves=Hubbert&scenari=Current%20Policies&scenari=Stated%20Policies&scenari=Sustainable%20Development&type=Consumption&import-types=Imports&import-types=Exports&import-types=Net%20Imports&unit=Gb",
         icon: "ProvenReserves",
         active: true,
       },
@@ -534,7 +534,7 @@ const datasets: IDataset[] = [
       {
         title: "proven reserves",
         link:
-          "/energy/gas?chart-type=line&chart-types=stacked&chart-types=stacked-percent&chart-types=pie&chart-types=line&chart-types=ranking&disable-en=false&energy-unit=Bcm&group-names=World&is-range=true&sectors=Transport&dimension=provenReserve&end=2018&start=1980&multi=true",
+          "/energy/gas?chart-type=line&chart-types=stacked&chart-types=stacked-percent&chart-types=pie&chart-types=line&chart-types=ranking&disable-en=false&energy-unit=Bcm&group-names=World&is-range=true&sectors=Transport&dimension=provenReserve&end=2024&start=1980&multi=true",
         icon: "ProvenReserves",
         active: true,
       },
