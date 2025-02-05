@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sdp-data-preparation"
+version = "0.1.0"
+description = "Package for the data preparation (extraction, transformation and loading) of the Shift Data Portal"
+authors = ["Sébastien Bourgeois <sebastienbourgeois60@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.1"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
