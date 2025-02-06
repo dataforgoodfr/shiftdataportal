@@ -1,6 +1,6 @@
 import pandas as pd
 from utils.translation import CountryTranslatorFrenchToEnglish
-from transformation.demographic.countries import StatisticsPerCountriesAndZonesJoiner
+from sdp_data.transformation.demographic.countries import StatisticsPerCountriesAndZonesJoiner
 
 
 class HistoricalCo2PerZoneAndCountryProcessor:

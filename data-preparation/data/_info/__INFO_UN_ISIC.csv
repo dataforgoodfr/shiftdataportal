@@ -1,0 +1,767 @@
+Code,Description_x,Description_y,Description
+A,"Agriculture, forestry and fishing","Agriculture, sylviculture et pêche","Agricultura, ganadería, silvicultura y pesca"
+01,"Crop and animal production, hunting and related service activities","Culture et production animale, chasse et activités de services connexes","Agricultura, ganadería, caza y actividades de servicios conexas"
+011,Growing of non-perennial crops,Cultures temporaires,Cultivo de plantas no perennes
+0111,"Growing of cereals (except rice), leguminous crops and oil seeds","Culture de céréales (à l’exception du riz), de légumineuses et de graines oléagineuses","Cultivo de cereales (excepto arroz), legumbres y semillas oleaginosas"
+0112,Growing of rice,Culture du riz,Cultivo de arroz
+0113,"Growing of vegetables and melons, roots and tubers","Culture de légumes et de melons, de racines et tubercules","Cultivo de hortalizas y melones, raíces y tubérculos"
+0114,Growing of sugar cane,Culture de canne à sucre,Cultivo de caña de azúcar
+0115,Growing of tobacco,Culture de tabac,Cultivo de tabaco
+0116,Growing of fibre crops,Culture de plantes à fibres textiles,Cultivo de plantas de fibra
+0119,Growing of other non-perennial crops,Autres cultures temporaires,Cultivo de otras plantas no perennes
+012,Growing of perennial crops,Cultures permanentes,Cultivo de plantas perennes
+0121,Growing of grapes,Culture de raisin,Cultivo de uva
+0122,Growing of tropical and subtropical fruits,Culture de fruits tropicaux et subtropicaux,Cultivo de frutas tropicales y subtropicales
+0123,Growing of citrus fruits,Culture d’agrumes,Cultivo de cítricos
+0124,Growing of pome fruits and stone fruits,Culture de fruits à pépins et de fruits à noyaux,Cultivo de frutas de pepita y de hueso
+0125,Growing of other tree and bush fruits and nuts,"Culture d’autres fruits sur arbres et arbustes, et de fruits à coque",Cultivo de otros frutos y nueces de árboles y arbustos
+0126,Growing of oleaginous fruits,Culture de fruits oléagineux,Cultivo de frutos oleaginosos
+0127,Growing of beverage crops,Culture de plantes pour boisson,Cultivo de plantas con las que se preparan bebidas
+0128,"Growing of spices, aromatic, drug and pharmaceutical crops","Culture de plantes pour épices, de plantes aromatiques et de planres pour médicaments et produits pharmaceutiques","Cultivo de especias y de plantas aromáticas, medicinales y farmacéuticas"
+0129,Growing of other perennial crops,Autres cultures permanentes,Cultivo de otras plantas perennes
+013,Plant propagation,Prolifération végétale,Propagación de plantas
+0130,Plant propagation,Prolifération végétale,Propagación de plantas
+014,Animal production,Production animale,Ganadería
+0141,Raising of cattle and buffaloes,Élevage de bovins et de buffles,Cría de ganado bovino y búfalos
+0142,Raising of horses and other equines,Élevage de chevaux et autres équidés,Cría de caballos y otros equinos
+0143,Raising of camels and camelids,Élevage de chameaux et autres camélidés,Cría de camellos y otros camélidos
+0144,Raising of sheep and goats,Élevage de moutons et de chèvres,Cría de ovejas y cabras
+0145,Raising of swine/pigs,Élevage de porcins,Cría de cerdos
+0146,Raising of poultry,Élevage de volailles,Cría de aves de corral
+0149,Raising of other animals,Élevage d’autres animaux,Cría de otros animales
+015,Mixed farming,Exploitation mixte,Cultivo de productos agrícolas en combinación con la cría de animales (explotación mixta)
+0150,Mixed farming,Exploitation mixte,Cultivo de productos agrícolas en combinación con la cría de animales (explotación mixta)
+016,Support activities to agriculture and post-harvest crop activities,Activités d’appui à l’agriculture et activités consécutives à la récolte,Actividades de apoyo a la agricultura y la ganadería y actividades poscosecha
+0161,Support activities for crop production,Activités d’appui à la culture,Actividades de apoyo a la agricultura
+0162,Support activities for animal production,Activités d’appui à la production animale,Actividades de apoyo a la ganadería
+0163,Post-harvest crop activities,Activités consécutives à la récolte,Actividades poscosecha
+0164,Seed processing for propagation,Préparation des semences aux fins de propagation,Tratamiento de semillas para propagación
+017,"Hunting, trapping and related service activities","Chasse, piégeage et activités de services connexes",Caza ordinaria y mediante trampas y actividades de servicios conexas
+0170,"Hunting, trapping and related service activities","Chasse, piégeage et activités de services connexes",Caza ordinaria y mediante trampas y actividades de servicios conexas
+02,Forestry and logging,Sylviculture et exploitation forestière,Silvicultura y extracción de madera
+021,Silviculture and other forestry activities,Sylviculture et autres activités d’exploitation forestière,Silvicultura y otras actividades forestales
+0210,Silviculture and other forestry activities,Sylviculture et autres activités d’exploitation forestière,Silvicultura y otras actividades forestales
+022,Logging,Exploitation forestière,Extracción de madera
+0220,Logging,Exploitation forestière,Extracción de madera
+023,Gathering of non-wood forest products,Récolte de produits forestiers autres que le bois,Recolección de productos forestales distintos de la madera
+0230,Gathering of non-wood forest products,Récolte de produits forestiers autres que le bois,Recolección de productos forestales distintos de la madera
+024,Support services to forestry,Services d’appui à la sylviculture,Servicios de apoyo a la silvicultura
+0240,Support services to forestry,Services d’appui à la sylviculture,Servicios de apoyo a la silvicultura
+03,Fishing and aquaculture,Pêche et aquaculture,Pesca y acuicultura
+031,Fishing,Pêche,Pesca
+0311,Marine fishing,Pêche en mer,Pesca marítima
+0312,Freshwater fishing,Pêche en eau douce,Pesca de agua dulce
+032,Aquaculture,Aquaculture,Acuicultura
+0321,Marine aquaculture,Aquaculture en mer,Acuicultura marina
+0322,Freshwater aquaculture,Aquaculture en eau douce,Acuicultura de agua dulce
+B,Mining and quarrying,Activités extractives,Explotación de minas y canteras
+05,Mining of coal and lignite,Extraction de charbon et de lignite,Extracción de carbón de piedra y lignito
+051,Mining of hard coal,Extraction de houille,Extracción de carbón de piedra
+0510,Mining of hard coal,Extraction de houille,Extracción de carbón de piedra
+052,Mining of lignite,Extraction de lignite,Extracción de lignito
+0520,Mining of lignite,Extraction de lignite,Extracción de lignito
+06,Extraction of crude petroleum and natural gas,Extraction de pétrole brut et de gaz naturel,Extracción de petróleo crudo y gas natural
+061,Extraction of crude petroleum,Extraction de pétrole brut,Extracción de petróleo crudo
+0610,Extraction of crude petroleum,Extraction de pétrole brut,Extracción de petróleo crudo
+062,Extraction of natural gas,Extraction de gaz naturel,Extracción de gas natural
+0620,Extraction of natural gas,Extraction de gaz naturel,Extracción de gas natural
+07,Mining of metal ores,Extraction de minerais métalliques,Extracción de minerales metalíferos
+071,Mining of iron ores,Extraction de minerais métalliques,Extracción de minerales de hierro
+0710,Mining of iron ores,Extraction de minerais métalliques,Extracción de minerales de hierro
+072,Mining of non-ferrous metal ores,Extraction de métaux non ferreux,Extracción de minerales metalíferos no ferrosos
+0721,Mining of uranium and thorium ores,Extraction de minerais d’uranium et de thorium,Extracción de minerales de uranio y torio
+0729,Mining of other non-ferrous metal ores,Extraction de minerais et d’autres métaux non ferreux,Extracción de otros minerales metalíferos no ferrosos
+08,Other mining and quarrying,Autres activités extractives,Explotación de otras minas y canteras
+081,"Quarrying of stone, sand and clay","Extraction de pierres, de sables et d’argiles","Extracción de piedra, arena y arcilla"
+0810,"Quarrying of stone, sand and clay","Extraction de pierres, de sables et d’argiles","Extracción de piedra, arena y arcilla"
+089,Mining and quarrying n.e.c.,"Activités extractives, n.c.a.",Explotación de minas y canteras n.c.p.
+0891,Mining of chemical and fertilizer minerals,Extraction de minerais pour l’industrie chimique et d’engrais naturels,Extracción de minerales para la fabricación de abonos y productos químicos
+0892,Extraction of peat,Extraction de tourbe,Extracción de turba
+0893,Extraction of salt,Extraction de sel,Extracción de sal
+0899,Other mining and quarrying n.e.c.,"Autres activités extractives, n.c.a.",Explotación de otras minas y canteras n.c.p.
+09,Mining support service activities,Activités annexes de l’extraction,Actividades de servicios de apoyo para la explotación de minas y canteras
+091,Support activities for petroleum and natural gas extraction,Activités annexes à l’extraction depétrole et de gaz naturel,Actividades de apoyo para la extracción de petróleo y gas natural
+0910,Support activities for petroleum and natural gas extraction,Activités annexes à l’extraction depétrole et de gaz naturel,Actividades de apoyo para la extracción de petróleo y gas natural
+099,Support activities for other mining and quarrying,Activités annexes d’autres activités extractives,Actividades de apoyo para otras actividades de explotación de minas y canteras
+0990,Support activities for other mining and quarrying,Activités annexes d’autres activités extractives,Actividades de apoyo para otras actividades de explotación de minas y canteras
+C,Manufacturing,Activités de fabrication,Industrias manufactureras
+10,Manufacture of food products,Fabrication de produits alimentaires et de boissons,Elaboración de productos alimenticios
+101,Processing and preserving of meat,Traitement et conservation de viande,Elaboración y conservación de carne
+1010,Processing and preserving of meat,Traitement et conservation de viande,Elaboración y conservación de carne
+102,"Processing and preserving of fish, crustaceans and molluscs","Traitement et conservation de poissons, crustacés et mollusques","Elaboración y conservación de pescado, crustáceos y moluscos"
+1020,"Processing and preserving of fish, crustaceans and molluscs","Traitement et conservation de poissons, crustacés et mollusques","Elaboración y conservación de pescado, crustáceos y moluscos"
+103,Processing and preserving of fruit and vegetables,Traitement et conservation de fruits et légumes,"Elaboración y conservación de frutas, legumbres y hortalizas"
+1030,Processing and preserving of fruit and vegetables,Traitement et conservation de fruits et légumes,"Elaboración y conservación de frutas, legumbres y hortalizas"
+104,Manufacture of vegetable and animal oils and fats,Fabrication d’huiles et graisses végétales et animales,Elaboración de aceites y grasas de origen vegetal y animal
+1040,Manufacture of vegetable and animal oils and fats,Fabrication d’huiles et graisses végétales et animales,Elaboración de aceites y grasas de origen vegetal y animal
+105,Manufacture of dairy products,Fabrication de produits laitiers,Elaboración de productos lácteos
+1050,Manufacture of dairy products,Fabrication de produits laitiers,Elaboración de productos lácteos
+106,"Manufacture of grain mill products, starches and starch products",Travail des grains et fabrication de produits amylacés,"Elaboración de productos de molinería, almidones y productos derivados del almidón"
+1061,Manufacture of grain mill products,Travail des grains,Elaboración de productos de molinería
+1062,Manufacture of starches and starch products,Fabrication de produits amylacés,Elaboración de almidones y productos derivados del almidón
+107,Manufacture of other food products,Fabrication d’autres produits alimentaires,Elaboración de otros productos alimenticios
+1071,Manufacture of bakery products,"Boulangerie, pâtisserie, biscuiterie",Elaboración de productos de panadería
+1072,Manufacture of sugar,Fabrication de sucre,Elaboración de azúcar
+1073,"Manufacture of cocoa, chocolate and sugar confectionery","Fabrication de cacao, chocolat et confiserie",Elaboración de cacao y chocolate y de productos de confitería
+1074,"Manufacture of macaroni, noodles, couscous and similar farinaceous products","Fabrication de pâtes alimentaires, de couscous et de produits farineux similaires","Elaboración de macarrones, fideos, alcuzcuz y productos farináceos similares"
+1075,Manufacture of prepared meals and dishes,Fabrication de plats préparés,Elaboración de comidas y platos preparados
+1079,Manufacture of other food products n.e.c.,"Fabrication d’autres produits alimentaires, n.c.a.",Elaboración de otros productos alimenticios n.c.p.
+108,Manufacture of prepared animal feeds,Fabrication d’aliments pour animaux,Elaboración de piensos preparados para animales
+1080,Manufacture of prepared animal feeds,Fabrication d’aliments pour animaux,Elaboración de piensos preparados para animales
+11,Manufacture of beverages,Fabrication de boissons,Elaboración de bebidas
+110,Manufacture of beverages,Fabrication de boissons,Elaboración de bebidas
+1101,"Distilling, rectifying and blending of spirits","Distillation, rectification et mélange de spiritueux","Destilación, rectificación y mezcla de bebidas alcohólicas"
+1102,Manufacture of wines,Fabrication de vins,Elaboración de vinos
+1103,Manufacture of malt liquors and malt,Fabrication de boissons alcoolisées à base de malt; production de malt,Elaboración de bebidas malteadas y de malta
+1104,Manufacture of soft drinks; production of mineral waters and other bottled waters,Fabrication de boissons non alcoolisées; production d’eaux minérales et autres eaux en bouteille,Elaboración de bebidas no alcohólicas; producción de aguas minerales y otras aguas embotelladas
+12,Manufacture of tobacco products,Fabrication de produits à base de tabac,Elaboración de productos de tabaco
+120,Manufacture of tobacco products,Fabrication de produits à base de tabac,Elaboración de productos de tabaco
+1200,Manufacture of tobacco products,Fabrication de produits à base de tabac,Elaboración de productos de tabaco
+13,Manufacture of textiles,Fabrication de textiles,Fabricación de productos textiles
+131,"Spinning, weaving and finishing of textiles","Filature, tissage et achèvement des textiles","Hilatura, tejedura y acabado de productos textiles"
+1311,Preparation and spinning of textile fibres,Préparation et filature des fibres textiles,Preparación e hilatura de fibras textiles
+1312,Weaving of textiles,Tissage des textiles,Tejedura de productos textiles
+1313,Finishing of textiles,Achèvement des textiles,Acabado de productos textiles
+139,Manufacture of other textiles,Fabrication d’autres articles textiles,Fabricación de otros productos textiles
+1391,Manufacture of knitted and crocheted fabrics,Fabrication d’étoffes et d’articles de bonneterie,Fabricación de tejidos de punto y ganchillo
+1392,"Manufacture of made-up textile articles, except apparel","Fabrication d’articles confectionnés en textiles, sauf l’habillement","Fabricación de artículos confeccionados de materiales textiles, excepto prendas de vestir"
+1393,Manufacture of carpets and rugs,Fabrication de tapis et carpettes,Fabricación de tapices y alfombras
+1394,"Manufacture of cordage, rope, twine and netting","Fabrication de cordes, câbles, ficelles et filets","Fabricación de cuerdas, cordeles, bramantes y redes"
+1399,Manufacture of other textiles n.e.c.,"Fabrication d’articles textiles, n.c.a.",Fabricación de otros productos textiles n.c.p.
+14,Manufacture of wearing apparel,Fabrication d’articles d’habillement,Fabricación de prendas de vestir
+141,"Manufacture of wearing apparel, except fur apparel",Fabrication d’articles d’habillement autre qu’en fourrure,"Fabricación de prendas de vestir, excepto prendas de piel"
+1410,"Manufacture of wearing apparel, except fur apparel",Fabrication d’articles d’habillement autre qu’en fourrure,"Fabricación de prendas de vestir, excepto prendas de piel"
+142,Manufacture of articles of fur,Fabrication d’articles en fourrure,Fabricación de artículos de piel
+1420,Manufacture of articles of fur,Fabrication d’articles en fourrure,Fabricación de artículos de piel
+143,Manufacture of knitted and crocheted apparel,Fabrication d’articles de bonneterie,Fabricación de artículos de punto y ganchillo
+1430,Manufacture of knitted and crocheted apparel,Fabrication d’articles de bonneterie,Fabricación de artículos de punto y ganchillo
+15,Manufacture of leather and related products,Fabrication de cuir et d’articles de cuir,Fabricación de productos de cuero y productos conexos
+151,"Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur","Apprêt et tannage des cuirs; fabrication d’articles de voyage et de maroquinerie, d’articles de sellerie et de bourrellerie; préparation et teinture des fourrures","Curtido y adobo de cueros; fabricación de maletas, bolsos de mano y artículos de talabartería y guarnicionería; adobo y teñido de pieles"
+1511,Tanning and dressing of leather; dressing and dyeing of fur,Apprêt et tannage des cuirs; préparation et teinture des fourrures,Curtido y adobo de cueros; adobo y teñido de pieles
+1512,"Manufacture of luggage, handbags and the like, saddlery and harness","Fabrication d’articles de voyage et de maroquinerie, d’articles de sellerie et de bourrellerie","Fabricación de maletas, bolsos de mano y artículos similares, y de artículos de talabartería y guarnicionería"
+152,Manufacture of footwear,Fabrication de chaussures,Fabricación de calzado
+1520,Manufacture of footwear,Fabrication de chaussures,Fabricación de calzado
+16,"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",Production de bois et d’articles en bois et en liège (sauf fabrication de meubles); fabrication d’articles de vannerie et de sparterie,"Producción de madera y fabricación de productos de madera y corcho, excepto muebles; fabricación de artículos de paja y de materiales trenzables"
+161,Sawmilling and planing of wood,Sciage et rabotage du bois,Aserrado y acepilladura de madera
+1610,Sawmilling and planing of wood,Sciage et rabotage du bois,Aserrado y acepilladura de madera
+162,"Manufacture of products of wood, cork, straw and plaiting materials","Fabrication d’articles en bois, liège, vannerie et sparterie","Fabricación de productos de madera, corcho, paja y materiales trenzables"
+1621,Manufacture of veneer sheets and wood-based panels,Fabrication de feuilles de placage et de panneaux à base de bois,Fabricación de hojas de madera para enchapado y tableros a base de madera
+1622,Manufacture of builders' carpentry and joinery,Fabrication d’ouvrages de charpenterie et de menuiserie du bâtiment,Fabricación de partes y piezas de carpintería para edificios y construcciones
+1623,Manufacture of wooden containers,Fabrication d’emballages en bois,Fabricación de recipientes de madera
+1629,"Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials","Fabrication d’autres ouvrages en bois; fabrication d’ouvrages en liège, vannerie et sparterie","Fabricación de otros productos de madera; fabricación de artículos de corcho, paja y materiales trenzables"
+17,Manufacture of paper and paper products,Fabrication de papier et d’articles en papier,Fabricación de papel y de productos de papel
+170,Manufacture of paper and paper products,Fabrication de papier et d’articles en papier,Fabricación de papel y de productos de papel
+1701,"Manufacture of pulp, paper and paperboard","Fabrication de pâte, de papier et de carton","Fabricación de pasta de madera, papel y cartón"
+1702,Manufacture of corrugated paper and paperboard and of containers of paper and paperboard,Fabrication de papier et carton ondulés et d’emballages en papier et carton,Fabricación de papel y cartón ondulado y de envases de papel y cartón
+1709,Manufacture of other articles of paper and paperboard,Fabrication d’autres articles en papier et carton,Fabricación de otros artículos de papel y cartón
+18,Printing and reproduction of recorded media,Imprimerie et reproduction de supports enregistrés,Impresión y reproducción de grabaciones
+181,Printing and service activities related to printing,Imprimerie et activités annexes,Impresión y actividades de servicios relacionadas con la impresión
+1811,Printing,Imprimerie,Impresión
+1812,Service activities related to printing,Activités annexes à l’imprimerie,Actividades de servicios relacionadas con la impresión
+182,Reproduction of recorded media,Reproduction de supports enregistrés,Reproducción de grabaciones
+1820,Reproduction of recorded media,Reproduction de supports enregistrés,Reproducción de grabaciones
+19,Manufacture of coke and refined petroleum products,Cokéfaction et fabrication de produits pétroliers raffinés,Fabricación de coque y productos de la refinación del petróleo
+191,Manufacture of coke oven products,Cokéfaction,Fabricación de productos de hornos de coque
+1910,Manufacture of coke oven products,Cokéfaction,Fabricación de productos de hornos de coque
+192,Manufacture of refined petroleum products,Production de produits pétroliers raffinés,Fabricación de productos de la refinación del petróleo
+1920,Manufacture of refined petroleum products,Production de produits pétroliers raffinés,Fabricación de productos de la refinación del petróleo
+20,Manufacture of chemicals and chemical products,Fabrication de produits chimiques,Fabricación de sustancias y productos químicos
+201,"Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics and synthetic rubber in primary forms","Fabrication de produits chimiques de base, d’engrais et de produits azotés, de matières plastiques et de caoutchouc synthétique sous formes primaires","Fabricación de sustancias químicas básicas, de abonos y compuestos de nitrógeno y de plásticos y caucho sintético en formas primarias"
+2011,Manufacture of basic chemicals,Fabrication de produits chimiques de base,Fabricación de sustancias químicas básicas
+2012,Manufacture of fertilizers and nitrogen compounds,Fabrication d’engrais et de produits azotés,Fabricación de abonos y compuestos de nitrógeno
+2013,Manufacture of plastics and synthetic rubber in primary forms,Fabrication de matières plastiques et de caoutchouc synthétique sous formes primaires,Fabricación de plásticos y caucho sintético en formas primarias
+202,Manufacture of other chemical products,Fabrication d’autres produits chimiques,Fabricación de otros productos químicos
+2021,Manufacture of pesticides and other agrochemical products,Fabrication de pesticides et d’autres produits agrochimiques,Fabricación de plaguicidas y otros productos químicos de uso agropecuario
+2022,"Manufacture of paints, varnishes and similar coatings, printing ink and mastics","Fabrication de peintures, vernis et produits similaires, d’encres d’imprimerie et de mastics","Fabricación de pinturas, barnices y productos de revestimiento similares, tintas de imprenta y masillas"
+2023,"Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations","Fabrication de savons et détergents, de produits d’entretien, de parfums et de produits pour la toilette","Fabricación de jabones y detergentes, preparados para limpiar y pulir, perfumes y preparados de tocador"
+2029,Manufacture of other chemical products n.e.c.,"Fabrication d’autres produits chimiques, n.c.a.",Fabricación de otros productos químicos n.c.p.
+203,Manufacture of man-made fibres,Fabrication de fibres synthétiques ou artificielles,Fabricación de fibras artificiales
+2030,Manufacture of man-made fibres,Fabrication de fibres synthétiques ou artificielles,Fabricación de fibras artificiales
+21,Manufacture of basic pharmaceutical products and pharmaceutical preparations,"Fabrication de préparations pharmaceutiques, de produits chimiques à usage médicinal et de produits d’herboristerie","Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso farmacéutico"
+210,"Manufacture of pharmaceuticals, medicinal chemical and botanical products","Fabrication de préparations pharmaceutiques, de produits chimiques à usage médicinal et de produits d’herboristerie","Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso farmacéutico"
+2100,"Manufacture of pharmaceuticals, medicinal chemical and botanical products","Fabrication de préparations pharmaceutiques, de produits chimiques à usage médicinal et de produits d’herboristerie","Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso farmacéutico"
+22,Manufacture of rubber and plastics products,Fabrication d’articles en caoutchouc et en matières plastiques,Fabricación de productos de caucho y de plástico
+221,Manufacture of rubber products,Fabrication de produits en caoutchouc,Fabricación de productos de caucho
+2211,Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres,Fabrication de pneumatiques et de chambres à air; rechapage et resculptage de pneumatiques,Fabricación de cubiertas y cámaras de caucho; recauchutado y renovación de cubiertas de caucho
+2219,Manufacture of other rubber products,Fabrication d’autres articles en caoutchouc,Fabricación de otros productos de caucho
+222,Manufacture of plastics products,Fabrication d’articles en matières plastiques,Fabricación de productos de plástico
+2220,Manufacture of plastics products,Fabrication d’articles en matières plastiques,Fabricación de productos de plástico
+23,Manufacture of other non-metallic mineral products,Fabrication d’autres produits minéraux non métalliques,Fabricación de otros productos minerales no metálicos
+231,Manufacture of glass and glass products,Fabrication de verre et d’articles en verre,Fabricación de vidrio y productos de vidrio
+2310,Manufacture of glass and glass products,Fabrication de verre et d’articles en verre,Fabricación de vidrio y productos de vidrio
+239,Manufacture of non-metallic mineral products n.e.c.,"Fabrication de produits minéraux non métalliques, n.c.a.",Fabricación de productos minerales no metálicos n.c.p.
+2391,Manufacture of refractory products,Fabrication de produits réfractaires,Fabricación de productos refractarios
+2392,Manufacture of clay building materials,Fabrication de matériaux de construction en argile,Fabricación de materiales de construcción de arcilla
+2393,Manufacture of other porcelain and ceramic products,Fabrication d’autres articles en porcelaine et en céramique,Fabricación de otros productos de porcelana y de cerámica
+2394,"Manufacture of cement, lime and plaster","Fabrication de ciment, chaux et plâtre","Fabricación de cemento, cal y yeso"
+2395,"Manufacture of articles of concrete, cement and plaster","Fabrication d’ouvrages en béton, en ciment et en plâtre","Fabricación de artículos de hormigón, cemento y yeso"
+2396,"Cutting, shaping and finishing of stone","Taille, façonnage et finissage de la pierre","Corte, talla y acabado de la piedra"
+2399,Manufacture of other non-metallic mineral products n.e.c.,"Fabrication d’autres produits minéraux non métalliques, n.c.a.",Fabricación de otros productos minerales no metálicos n.c.p.
+24,Manufacture of basic metals,Fabrication de produits métallurgiques de base,Fabricación de metales comunes
+241,Manufacture of basic iron and steel,Sidérurgie et première transformation de l’acier,Industrias básicas de hierro y acero
+2410,Manufacture of basic iron and steel,Sidérurgie et première transformation de l’acier,Industrias básicas de hierro y acero
+242,Manufacture of basic precious and other non-ferrous metals,Métallurgie et première transformation des métaux précieux et des métaux non ferreux,Fabricación de productos primarios de metales preciosos y otros metales no ferrosos
+2420,Manufacture of basic precious and other non-ferrous metals,Métallurgie et première transformation des métaux précieux et des métaux non ferreux,Fabricación de productos primarios de metales preciosos y otros metales no ferrosos
+243,Casting of metals,Fonderie,Fundición de metales
+2431,Casting of iron and steel,Fonderie de métaux ferreux,Fundición de hierro y acero
+2432,Casting of non-ferrous metals,Fonderie de métaux non ferreux,Fundición de metales no ferrosos
+25,"Manufacture of fabricated metal products, except machinery and equipment",Fabrication d’ouvrages en métaux (sauf machines et matériel),"Fabricación de productos elaborados de metal, excepto maquinaria y equipo"
+251,"Manufacture of structural metal products, tanks, reservoirs and steam generators","Construction et menuiserie métalliques; fabrication de citernes, réservoirs et générateurs de vapeur","Fabricación de productos metálicos para uso estructural, tanques, depósitos y recipientes de metal"
+2511,Manufacture of structural metal products,Construction et menuiserie métalliques,Fabricación de productos metálicos para uso estructural
+2512,"Manufacture of tanks, reservoirs and containers of metal","Fabrication de réservoirs, citernes et conteneurs métalliques","Fabricación de tanques, depósitos y recipientes de metal"
+2513,"Manufacture of steam generators, except central heating hot water boilers",Fabrication de générateurs de vapeur (sauf chaudières de chauffage central à eau chaude),"Fabricación de generadores de vapor, excepto calderas de agua caliente para calefacción central"
+252,Manufacture of weapons and ammunition,Fabrication d’armes et de munitions,Fabricación de armas y municiones
+2520,Manufacture of weapons and ammunition,Fabrication d’armes et de munitions,Fabricación de armas y municiones
+259,Manufacture of other fabricated metal products; metalworking service activities,Fabrication d’autres ouvrages en métaux; activités de services du travail des métaux,Fabricación de otros productos elaborados de metal; actividades de servicios de trabajo de metales
+2591,"Forging, pressing, stamping and roll-forming of metal; powder metallurgy","Forgeage, emboutissage, estampage et profilage du métal; métallurgie des poudres","Forja, prensado, estampado y laminado de metales; pulvimetalurgia"
+2592,Treatment and coating of metals; machining,Traitement et revêtement des métaux; façonnage,Tratamiento y revestimiento de metales; maquinado
+2593,"Manufacture of cutlery, hand tools and general hardware","Fabrication de coutellerie, d’outils à main et de quincaillerie générale","Fabricación de artículos de cuchillería, herramientas de mano y artículos de ferretería"
+2599,Manufacture of other fabricated metal products n.e.c.,"Fabrication d’ouvrages en métaux, n.c.a.",Fabricación de otros productos elaborados de metal n.c.p.
+26,"Manufacture of computer, electronic and optical products","Fabrication d’ordinateurs, d’articles électroniques et optiques","Fabricación de productos de informática, de electrónica y de óptica"
+261,Manufacture of electronic components and boards,Fabrication de composants électroniques et de dispositifs d’affichage,Fabricación de componentes y tableros electrónicos
+2610,Manufacture of electronic components and boards,Fabrication de composants électroniques et de dispositifs d’affichage,Fabricación de componentes y tableros electrónicos
+262,Manufacture of computers and peripheral equipment,Fabrication d’ordinateurs et de matériel périphérique,Fabricación de ordenadores y equipo periférico
+2620,Manufacture of computers and peripheral equipment,Fabrication d’ordinateurs et de matériel périphérique,Fabricación de ordenadores y equipo periférico
+263,Manufacture of communication equipment,Fabrication de matériel de communication,Fabricación de equipo de comunicaciones
+2630,Manufacture of communication equipment,Fabrication de matériel de communication,Fabricación de equipo de comunicaciones
+264,Manufacture of consumer electronics,Fabrication de matériel électronique grand public,Fabricación de aparatos electrónicos de consumo
+2640,Manufacture of consumer electronics,Fabrication de matériel électronique grand public,Fabricación de aparatos electrónicos de consumo
+265,"Manufacture of measuring, testing, navigating and control equipment; watches and clocks","Fabrication de matériel pour la mesure, la vérification, la navigation et le contrôle; horlogerie","Fabricación de equipo de medición, prueba, navegación y control y de relojes"
+2651,"Manufacture of measuring, testing, navigating and control equipment","Fabrication de matériel pour la mesure, la vérification, la navigation et le contrôle","Fabricación de equipo de medición, prueba, navegación y control"
+2652,Manufacture of watches and clocks,Fabrication d’horlogerie,Fabricación de relojes
+266,"Manufacture of irradiation, electromedical and electrotherapeutic equipment","Fabrication de matériel d’irradiation, électromédical et électrothérapeutique.",Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico
+2660,"Manufacture of irradiation, electromedical and electrotherapeutic equipment","Fabrication de matériel d’irradiation, électromédical et électrothérapeutique.",Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico
+267,Manufacture of optical instruments and photographic equipment,Fabrication d’instruments d’optique et de matériel photographique,Fabricación de instrumentos ópticos y equipo fotográfico
+2670,Manufacture of optical instruments and photographic equipment,Fabrication d’instruments d’optique et de matériel photographique,Fabricación de instrumentos ópticos y equipo fotográfico
+268,Manufacture of magnetic and optical media,Fabrication de supports magnétiques et optiques,Fabricación de soportes magnéticos y ópticos
+2680,Manufacture of magnetic and optical media,Fabrication de supports magnétiques et optiques,Fabricación de soportes magnéticos y ópticos
+27,Manufacture of electrical equipment,Fabrication de matériels électriques,Fabricación de equipo eléctrico
+271,"Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus","Fabrication de moteurs, génératrices et transformateurs électriques, de matériel électrique de distribution et de commandes","Fabricación de motores, generadores y transformadores eléctricos y aparatos de distribución y control de la energía eléctrica"
+2710,"Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus","Fabrication de moteurs, génératrices et transformateurs électriques, de matériel électrique de distribution et de commandes","Fabricación de motores, generadores y transformadores eléctricos y aparatos de distribución y control de la energía eléctrica"
+272,Manufacture of batteries and accumulators,Fabrication de batteries et d’accumulateurs,"Fabricación de pilas, baterías y acumuladores"
+2720,Manufacture of batteries and accumulators,Fabrication de batteries et d’accumulateurs,"Fabricación de pilas, baterías y acumuladores"
+273,Manufacture of wiring and wiring devices,Fabrication de câbles et dispositifs de câblage,Fabricación de cables y dispositivos de cableado
+2731,Manufacture of fibre optic cables,Fabrication de câbles de fibres optiques,Fabricación de cables de fibra óptica
+2732,Manufacture of other electronic and electric wires and cables,Fabrication d’autres fils et câbles électroniques et électriques,Fabricación de otros hilos y cables eléctricos
+2733,Manufacture of wiring devices,Fabrication de dispositifs de câblage,Fabricación de dispositivos de cableado
+274,Manufacture of electric lighting equipment,Fabrication d’appareils électriques d’éclairage,Fabricación de equipo eléctrico de iluminación
+2740,Manufacture of electric lighting equipment,Fabrication d’appareils électriques d’éclairage,Fabricación de equipo eléctrico de iluminación
+275,Manufacture of domestic appliances,Fabrication d’appareils ménagers,Fabricación de aparatos de uso doméstico
+2750,Manufacture of domestic appliances,Fabrication d’appareils ménagers,Fabricación de aparatos de uso doméstico
+279,Manufacture of other electrical equipment,Fabrication d’autres matériels électriques,Fabricación de otros tipos de equipo eléctrico
+2790,Manufacture of other electrical equipment,Fabrication d’autres matériels électriques,Fabricación de otros tipos de equipo eléctrico
+28,Manufacture of machinery and equipment n.e.c.,"Fabrication de machines et de matériel, n.c.a.",Fabricación de maquinaria y equipo n.c.p.
+281,Manufacture of general-purpose machinery,Fabrication de machines d’usage général,Fabricación de maquinaria de uso general
+2811,"Manufacture of engines and turbines, except aircraft, vehicle and cycle engines","Fabrication de moteurs et de turbines, sauf moteurs pour avions, automobiles et motocycles","Fabricación de motores y turbinas, excepto motores para aeronaves, vehículos automotores y motocicletas"
+2812,Manufacture of fluid power equipment,Fabrication de matériel hydraulique,Fabricación de equipo de propulsión de fluidos
+2813,"Manufacture of other pumps, compressors, taps and valves","Fabrication d’autres pompes, compresseurs, et articles de robinetterie","Fabricación de otras bombas, compresores, grifos y válvulas"
+2814,"Manufacture of bearings, gears, gearing and driving elements","Fabrication de paliers, d’engrenages et d’organes mécaniques de transmission","Fabricación de cojinetes, engranajes, trenes de engranajes y piezas de transmisión"
+2815,"Manufacture of ovens, furnaces and furnace burners",Fabrication de fours et de brûleurs,"Fabricación de hornos, hogares y quemadores"
+2816,Manufacture of lifting and handling equipment,Fabrication de matériel de levage et de manutention,Fabricación de equipo de elevación y manipulación
+2817,Manufacture of office machinery and equipment (except computers and peripheral equipment),Fabrication de machines et de matériel de bureau (à l’exception des ordinateurs et du matériel périphérique),Fabricación de maquinaria y equipo de oficina (excepto ordenadores y equipo periférico)
+2818,Manufacture of power-driven hand tools,Fabrication d’outils à main à entraînement mécanique,Fabricación de herramientas de mano motorizadas
+2819,Manufacture of other general-purpose machinery,Fabrication d’autres machines d’usage général,Fabricación de otros tipos de maquinaria de uso general
+282,Manufacture of special-purpose machinery,Fabrication de machines d’usage spécifique,Fabricación de maquinaria de uso especial
+2821,Manufacture of agricultural and forestry machinery,Fabrication de machines agricoles et forestières,Fabricación de maquinaria agropecuaria y forestal
+2822,Manufacture of metal-forming machinery and machine tools,Fabrication de machines pour le travail des métaux et de machines-outils,Fabricación de maquinaria para la conformación de metales y de máquinas herramienta
+2823,Manufacture of machinery for metallurgy,Fabrication de machines pour la métallurgie,Fabricación de maquinaria metalúrgica
+2824,"Manufacture of machinery for mining, quarrying and construction","Fabrication de machines pour les mines, les carrières et la construction",Fabricación de maquinaria para la explotación de minas y canteras y para obras de construcción
+2825,"Manufacture of machinery for food, beverage and tobacco processing","Fabrication de machines pour le traitement des produits alimentaires, des boissons et du tabac","Fabricación de maquinaria para la elaboración de alimentos, bebidas y tabaco"
+2826,"Manufacture of machinery for textile, apparel and leather production","Fabrication de machines pour les industries du textile, de l’habillement et des cuirs","Fabricación de maquinaria para la elaboración de productos textiles, prendas de vestir y cueros"
+2829,Manufacture of other special-purpose machinery,Fabrication d’autres machines d’usage spécifique,Fabricación de otros tipos de maquinaria de uso especial
+29,"Manufacture of motor vehicles, trailers and semi-trailers","Construction de véhicules automobiles, de remorques et semi-remorques","Fabricación de vehículos automotores, remolques y semirremolques"
+291,Manufacture of motor vehicles,Construction de véhicules automobiles,Fabricación de vehículos automotores
+2910,Manufacture of motor vehicles,Construction de véhicules automobiles,Fabricación de vehículos automotores
+292,Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers,Fabrication de carrosseries pour véhicules automobiles; fabrication de remorques et de semi-remorques,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques
+2920,Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers,Fabrication de carrosseries pour véhicules automobiles; fabrication de remorques et de semi-remorques,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques
+293,Manufacture of parts and accessories for motor vehicles,Fabrication de pièces et accessoires pour véhicules automobiles et leurs moteurs,"Fabricación de partes, piezas y accesorios para vehículos automotores"
+2930,Manufacture of parts and accessories for motor vehicles,Fabrication de pièces et accessoires pour véhicules automobiles et leurs moteurs,"Fabricación de partes, piezas y accesorios para vehículos automotores"
+30,Manufacture of other transport equipment,Fabrication d’autres matériels de transport,Fabricación de otro equipo de transporte
+301,Building of ships and boats,Construction de navires et de bateaux,Construcción de buques y otras embarcaciones
+3011,Building of ships and floating structures,Construction de navires et d’engins flottants,Construcción de buques y estructuras flotantes
+3012,Building of pleasure and sporting boats,Construction de bateaux de plaisance et de sport,Construcción de embarcaciones de recreo y de deporte
+302,Manufacture of railway locomotives and rolling stock,Fabrication de matériel ferroviaire roulant,Fabricación de locomotoras y material rodante
+3020,Manufacture of railway locomotives and rolling stock,Fabrication de matériel ferroviaire roulant,Fabricación de locomotoras y material rodante
+303,Manufacture of air and spacecraft and related machinery,Construction aéronautique et spatiale et de matériel connexe,"Fabricación de aeronaves, naves espaciales y maquinaria conexa"
+3030,Manufacture of air and spacecraft and related machinery,Construction aéronautique et spatiale et de matériel connexe,"Fabricación de aeronaves, naves espaciales y maquinaria conexa"
+304,Manufacture of military fighting vehicles,Fabrication de véhicules militaires de combat,Fabricación de vehículos militares de combate
+3040,Manufacture of military fighting vehicles,Fabrication de véhicules militaires de combat,Fabricación de vehículos militares de combate
+309,Manufacture of transport equipment n.e.c.,"Fabrication de matériels de transport, n.c.a.",Fabricación de equipo de transporte n.c.p.
+3091,Manufacture of motorcycles,Fabrication de motocycles,Fabricación de motocicletas
+3092,Manufacture of bicycles and invalid carriages,Fabrication de bicycles et de véhicules pour invalides,Fabricación de bicicletas y de sillones de ruedas para inválidos
+3099,Manufacture of other transport equipment n.e.c.,"Fabrication d’autres matériels de transport, n.c.a.",Fabricación de otros tipos de equipo de transporte n.c.p.
+31,Manufacture of furniture,Fabrication de meubles,Fabricación de muebles
+310,Manufacture of furniture,Fabrication de meubles,Fabricación de muebles
+3100,Manufacture of furniture,Fabrication de meubles,Fabricación de muebles
+32,Other manufacturing,Autres activités de fabrication,Otras industrias manufactureras
+321,"Manufacture of jewellery, bijouterie and related articles",Fabrication de bijouterie et d’articles similaires,"Fabricación de joyas, bisutería y artículos conexos"
+3211,Manufacture of jewellery and related articles,Fabrication de bijouterie et d’articles similaires,Fabricación de joyas y artículos conexos
+3212,Manufacture of imitation jewellery and related articles,Fabrication de bijouterie de fantaisie et d’articles similaires,Fabricación de bisutería y artículos conexos
+322,Manufacture of musical instruments,Fabrication d’instruments de musique,Fabricación de instrumentos de música
+3220,Manufacture of musical instruments,Fabrication d’instruments de musique,Fabricación de instrumentos de música
+323,Manufacture of sports goods,Fabrication d’articles de sport,Fabricación de artículos de deporte
+3230,Manufacture of sports goods,Fabrication d’articles de sport,Fabricación de artículos de deporte
+324,Manufacture of games and toys,Fabrication de jeux et jouets,Fabricación de juegos y juguetes
+3240,Manufacture of games and toys,Fabrication de jeux et jouets,Fabricación de juegos y juguetes
+325,Manufacture of medical and dental instruments and supplies,Fabrication d’instruments et appareils médicaux et dentaires,Fabricación de instrumentos y materiales médicos y odontológicos
+3250,Manufacture of medical and dental instruments and supplies,Fabrication d’instruments et appareils médicaux et dentaires,Fabricación de instrumentos y materiales médicos y odontológicos
+329,Other manufacturing n.e.c.,"Autres activités de fabrication, n.c.a.",Otras industrias manufactureras n.c.p.
+3290,Other manufacturing n.e.c.,"Autres activités de fabrication, n.c.a.",Otras industrias manufactureras n.c.p.
+33,Repair and installation of machinery and equipment,Réparation et installation de machines et de matériel,Reparación e instalación de maquinaria y equipo
+331,"Repair of fabricated metal products, machinery and equipment","Réparation d’ouvrages en métaux, de machines et matériel","Reparación de productos elaborados de metal, maquinaria y equipo"
+3311,Repair of fabricated metal products,Réparation d’ouvrages en métaux,Reparación de productos elaborados de metal
+3312,Repair of machinery,Réparation de machines,Reparación de maquinaria
+3313,Repair of electronic and optical equipment,Réparation de matériel électronique et optique,Reparación de equipo electrónico y óptico
+3314,Repair of electrical equipment,Réparation de matériel électrique,Reparación de equipo eléctrico
+3315,"Repair of transport equipment, except motor vehicles","Réparation de matériel de transport, à l’exception des véhicules à moteur","Reparación de equipo de transporte, excepto vehículos automotores"
+3319,Repair of other equipment,Réparation d’autres matériels,Reparación de otros tipos de equipo
+332,Installation of industrial machinery and equipment,Installation de machines et de matériel pour l’industrie,Instalación de maquinaria y equipo industriales
+3320,Installation of industrial machinery and equipment,Installation de machines et de matériel pour l’industrie,Instalación de maquinaria y equipo industriales
+D,"Electricity, gas, steam and air conditioning supply","Production et distribution d’électricité, de gaz, de vapeur et climatisation","Suministro de electricidad, gas, vapor y aire acondicionado"
+35,"Electricity, gas, steam and air conditioning supply","Production et distribution d’électricité, de gaz, de vapeur et climatisation","Suministro de electricidad, gas, vapor y aire acondicionado"
+351,"Electric power generation, transmission and distribution","Production, transport et distribution d’électricité","Generación, transmisión y distribución de energía eléctrica"
+3510,"Electric power generation, transmission and distribution","Production, transport et distribution d’électricité","Generación, transmisión y distribución de energía eléctrica"
+352,Manufacture of gas; distribution of gaseous fuels through mains,"Fabrication de gaz, distribution par conduites de combustibles gazeux",Fabricación de gas; distribución de combustibles gaseosos por tuberías
+3520,Manufacture of gas; distribution of gaseous fuels through mains,"Fabrication de gaz, distribution par conduites de combustibles gazeux",Fabricación de gas; distribución de combustibles gaseosos por tuberías
+353,Steam and air conditioning supply,Production et distribution de vapeur et climatisation,Suministro de vapor y de aire acondicionado
+3530,Steam and air conditioning supply,Production et distribution de vapeur et climatisation,Suministro de vapor y de aire acondicionado
+E,"Water supply; sewerage, waste management and remediation activities",Distribution d’eau; réseau d’assainissement; gestion des déchets et activités de remise en état,"Suministro de agua; evacuación de aguas residuales, gestión de desechos y descontaminación"
+36,"Water collection, treatment and supply","Collecte et traitement des eaux, distribution d’eau","Captación, tratamiento y distribución de agua"
+360,"Water collection, treatment and supply","Collecte et traitement des eaux, distribution d’eau","Captación, tratamiento y distribución de agua"
+3600,"Water collection, treatment and supply","Collecte et traitement des eaux, distribution d’eau","Captación, tratamiento y distribución de agua"
+37,Sewerage,Réseau d’assainissement,Evacuación de aguas residuales
+370,Sewerage,Réseau d’assainissement,Evacuación de aguas residuales
+3700,Sewerage,Réseau d’assainissement,Evacuación de aguas residuales
+38,"Waste collection, treatment and disposal activities; materials recovery","Collecte des déchets, activités de traitement et d’évacuation; récupération des matières","Recogida, tratamiento y eliminación de desechos; recuperación de materiales"
+381,Waste collection,Collecte des déchets,Recogida de desechos
+3811,Collection of non-hazardous waste,Collecte de déchets non dangereux,Recogida de desechos no peligrosos
+3812,Collection of hazardous waste,Collecte de déchets dangereux,Recogida de desechos peligrosos
+382,Waste treatment and disposal,Traitement et évacuation des déchets,Tratamiento y eliminación de desechos
+3821,Treatment and disposal of non-hazardous waste,Traitement et évacuation des déchets non dangereux,Tratamiento y eliminación de desechos no peligrosos
+3822,Treatment and disposal of hazardous waste,Traitement et évacuation des déchets dangereux,Tratamiento y eliminación de desechos peligrosos
+383,Materials recovery,Récupération des matières,Recuperación de materiales
+3830,Materials recovery,Récupération des matières,Recuperación de materiales
+39,Remediation activities and other waste management services,Activités de remise en état et autres services de traitement des déchets,Actividades de descontaminación y otros servicios de gestión de desechos
+390,Remediation activities and other waste management services,Activités de remise en état et autres services de traitement des déchets,Actividades de descontaminación y otros servicios de gestión de desechos
+3900,Remediation activities and other waste management services,Activités de remise en état et autres services de traitement des déchets,Actividades de descontaminación y otros servicios de gestión de desechos
+F,Construction,Construction,Construcción
+41,Construction of buildings,Construction de bâtiments,Construcción de edificios
+410,Construction of buildings,Construction de bâtiments,Construcción de edificios
+4100,Construction of buildings,Construction de bâtiments,Construcción de edificios
+42,Civil engineering,Génie civil,Obras de ingeniería civil
+421,Construction of roads and railways,Construction de routes et de voies ferrées,Construcción de carreteras y vías de ferrocarril
+4210,Construction of roads and railways,Construction de routes et de voies ferrées,Construcción de carreteras y vías de ferrocarril
+422,Construction of utility projects,Projets d’installation d’équipements collectifs,Construcción de proyectos de servicio público
+4220,Construction of utility projects,Projets d’installation d’équipements collectifs,Construcción de proyectos de servicio público
+429,Construction of other civil engineering projects,Autres projets de génie civil,Construcción de otras obras de ingeniería civil
+4290,Construction of other civil engineering projects,Autres projets de génie civil,Construcción de otras obras de ingeniería civil
+43,Specialized construction activities,Activités de construction spécialisées,Actividades especializadas de construcción
+431,Demolition and site preparation,Démolition et préparation des sites,Demolición y preparación del terreno
+4311,Demolition,Démolition,Demolición
+4312,Site preparation,Préparation des sites,Preparación del terreno
+432,"Electrical, plumbing and other construction installation activities",Travaux d’installations d’électricité et de plomberie et autres travaux d’installation,Instalaciones eléctricas y de fontanería y otras instalaciones para obras de construcción
+4321,Electrical installation,Installation d’électricité,Instalaciones eléctricas
+4322,"Plumbing, heat and air-conditioning installation","Installation de matériel de plomberie, chauffage et climatisation","Instalaciones de fontanería, calefacción y aire acondicionado"
+4329,Other construction installation,Autres travaux d’installation,Otras instalaciones para obras de construcción
+433,Building completion and finishing,Travaux de finition,Terminación y acabado de edificios
+4330,Building completion and finishing,Travaux de finition,Terminación y acabado de edificios
+439,Other specialized construction activities,Autres activités de construction spécialisées,Otras actividades especializadas de construcción
+4390,Other specialized construction activities,Autres activités de construction spécialisées,Otras actividades especializadas de construcción
+G,Wholesale and retail trade; repair of motor vehicles and motorcycles,"Commerce de gros et de détail, réparations de véhicules automobiles et de motocycles",Comercio al por mayor y al por menor; reparación de vehículos automotores y motocicletas
+45,Wholesale and retail trade and repair of motor vehicles and motorcycles,"Commerce de gros et de détail, réparation de véhicules automobiles et de motocycles",Comercio al por mayor y al por menor y reparación de vehículos automotores y motocicletas
+451,Sale of motor vehicles,Vente de véhicules automobiles,Venta de vehículos automotores
+4510,Sale of motor vehicles,Vente de véhicules automobiles,Venta de vehículos automotores
+452,Maintenance and repair of motor vehicles,Entretien et réparation de véhicules automobiles,Mantenimiento y reparación de vehículos automotores
+4520,Maintenance and repair of motor vehicles,Entretien et réparation de véhicules automobiles,Mantenimiento y reparación de vehículos automotores
+453,Sale of motor vehicle parts and accessories,Commerce de pièces et accessoires de véhicules automobiles,"Venta de partes, piezas y accesorios para vehículos automotores"
+4530,Sale of motor vehicle parts and accessories,Commerce de pièces et accessoires de véhicules automobiles,"Venta de partes, piezas y accesorios para vehículos automotores"
+454,"Sale, maintenance and repair of motorcycles and related parts and accessories","Commerce, entretien et réparation de motocycles et de leurs pièces et accessoires","Venta, mantenimiento y reparación de motocicletas y sus partes, piezas y accesorios"
+4540,"Sale, maintenance and repair of motorcycles and related parts and accessories","Commerce, entretien et réparation de motocycles et de leurs pièces et accessoires","Venta, mantenimiento y reparación de motocicletas y sus partes, piezas y accesorios"
+46,"Wholesale trade, except of motor vehicles and motorcycles",Commerce de gros à l’exception des véhicules automobiles et des motocycles,"Comercio al por mayor, excepto el de vehículos automotores y motocicletas"
+461,Wholesale on a fee or contract basis,Activités d’intermédiaires de commerce de gros,Venta al por mayor a cambio de una retribución o por contrata
+4610,Wholesale on a fee or contract basis,Activités d’intermédiaires de commerce de gros,Venta al por mayor a cambio de una retribución o por contrata
+462,Wholesale of agricultural raw materials and live animals,Commerce de gros de produits agricoles bruts et d’animaux vivants,Venta al por mayor de materias primas agropecuarias y animales vivos
+4620,Wholesale of agricultural raw materials and live animals,Commerce de gros de produits agricoles bruts et d’animaux vivants,Venta al por mayor de materias primas agropecuarias y animales vivos
+463,"Wholesale of food, beverages and tobacco","Commerce de gros de produits alimentaires, boissons et tabac","Venta al por mayor de alimentos, bebidas y tabaco"
+4630,"Wholesale of food, beverages and tobacco","Commerce de gros de produits alimentaires, boissons et tabac","Venta al por mayor de alimentos, bebidas y tabaco"
+464,Wholesale of household goods,Commerce de gros d’articles de ménage,Venta al por mayor de enseres domésticos
+4641,"Wholesale of textiles, clothing and footwear","Commerce de gros de textiles, habillement et chaussures","Venta al por mayor de productos textiles, prendas de vestir y calzado"
+4649,Wholesale of other household goods,Commerce de gros d’autres articles de ménage,Venta al por mayor de otros enseres domésticos
+465,"Wholesale of machinery, equipment and supplies","Commerce de gros de machines, équipements et fournitures","Venta al por mayor de maquinaria, equipo y materiales"
+4651,"Wholesale of computers, computer peripheral equipment and software","Commerce de gros d’ordinateurs, de matériel périphérique et de logiciels d’ordinateurs","Venta al por mayor de ordenadores, equipo periférico y programas de informática"
+4652,Wholesale of electronic and telecommunications equipment and parts,Commerce de gros de parties et d’équipements électroniques et de télécommunication,"Venta al por mayor de equipo, partes y piezas electrónicos y de telecomunicaciones"
+4653,"Wholesale of agricultural machinery, equipment and supplies","Commerce de gros de machines, équipement et fournitures agricoles","Venta al por mayor de maquinaria, equipo y materiales agropecuarios"
+4659,Wholesale of other machinery and equipment,Commerces de gros d’autres machines et équipements,Venta al por mayor de otros tipos de maquinaria y equipo
+466,Other specialized wholesale,Autres commerces de gros spécialisés,Otras actividades de venta al por mayor especializada
+4661,"Wholesale of solid, liquid and gaseous fuels and related products","Commerce de gros de combustibles solides, liquides et gazeux et de produits dérivés","Venta al por mayor de combustibles sólidos, líquidos y gaseosos y productos conexos"
+4662,Wholesale of metals and metal ores,Commerce de gros de métaux et de minerais métalliques,Venta al por mayor de metales y minerales metalíferos
+4663,"Wholesale of construction materials, hardware, plumbing and heating equipment and supplies","Commerce de gros de matériaux de construction et d’équipement, et fournitures de quincaillerie, plomberie et chauffage","Venta al por mayor de materiales de construcción, artículos de ferretería y equipo y materiales de fontanería y calefacción"
+4669,Wholesale of waste and scrap and other products n.e.c.,"Commerce de gros de déchets et débris et autres produits, n.c.a.","Venta al por mayor de desperdicios, desechos y chatarra y otros productos n.c.p."
+469,Non-specialized wholesale trade,Commerce de gros non spécialisé,Venta al por mayor no especializada
+4690,Non-specialized wholesale trade,Commerce de gros non spécialisé,Venta al por mayor no especializada
+47,"Retail trade, except of motor vehicles and motorcycles",Commerce de détail à l’exception des véhicules automobiles et des motocycles,"Comercio al por menor, excepto el de vehículos automotores y motocicletas"
+471,Retail sale in non-specialized stores,Commerce de détail en magasins non spécialisés,Venta al por menor en comercios no especializados
+4711,"Retail sale in non-specialized stores with food, beverages or tobacco predominating","Commerce de détail en magasins non spécialisés, avec vente prédominante de produits alimentaires, boissons et tabacs","Venta al por menor en comercios no especializados con predominio de la venta de alimentos, bebidas o tabaco"
+4719,Other retail sale in non-specialized stores,Autres commerces de détail en magasins non spécialisés,Otras actividades de venta al por menor en comercios no especializados
+472,"Retail sale of food, beverages and tobacco in specialized stores","Commerce de détail de produits alimentaires, boissons et tabacs en magasins spécialisés","Venta al por menor de alimentos, bebidas y tabaco en comercios especializados"
+4721,Retail sale of food in specialized stores,Commerce de détail de produits alimentaires en magasins spécialisés,Venta al por menor de alimentos en comercios especializados
+4722,Retail sale of beverages in specialized stores,Commerce de détail de boissons en magasins spécialisés,Venta al por menor de bebidas en comercios especializados
+4723,Retail sale of tobacco products in specialized stores,Commerce de détail de tabacs en magasins spécialisés,Venta al por menor de productos de tabaco en comercios especializados
+473,Retail sale of automotive fuel in specialized stores,Commerce de détail de carburants automobiles en magasins spécialisés,Venta al por menor de combustibles para vehículos automotores en comercios especializados
+4730,Retail sale of automotive fuel in specialized stores,Commerce de détail de carburants automobiles en magasins spécialisés,Venta al por menor de combustibles para vehículos automotores en comercios especializados
+474,Retail sale of information and communications equipment in specialized stores,Commerce de détail d’équipement d’information et de communication en magasins spécialisés,Venta al por menor de equipo de información y de comunicaciones en comercios especializados
+4741,"Retail sale of computers, peripheral units, software and telecommunications equipment in specialized stores","Commerce de détail d’ordinateurs, d’unités périphériques, de logiciels et de matériel de télécommunications en magasins spécialisés","Venta al por menor de ordenadores, equipo periférico, programas de informática y equipo de telecomunicaciones en comercios especializados"
+4742,Retail sale of audio and video equipment in specialized stores,Commerce de détail de matériel audio et vidéo en magasins spécialisés,Venta al por menor de equipo de sonido y de video en comercios especializados
+475,Retail sale of other household equipment in specialized stores,Commerce de détail d’autres équipements ménagers en magasins spécialisés,Venta al por menor de otros enseres domésticos en comercios especializados
+4751,Retail sale of textiles in specialized stores,Commerce de détail de textiles en magasins spécialisés,Venta al por menor de productos textiles en comercios especializados
+4752,"Retail sale of hardware, paints and glass in specialized stores","Commerce de détail de quincaillerie, peinture et verrerie en magasins spécialisés","Venta al por menor de artículos de ferretería, pinturas y productos de vidrio en comercios especializados"
+4753,"Retail sale of carpets, rugs, wall and floor coverings in specialized stores","Commerce de détail de moquette, tapis, revêtements de murs et sols en magasins spécialisés","Venta al por menor de tapices, alfombras y cubrimientos para paredes y pisos en comercios especializados"
+4759,"Retail sale of electrical household appliances, furniture, lighting equipment and other household articles in specialized stores","Commerce de détail d’appareils électroménagers, de meubles de maison, d’articles d’éclairage et d’autres articles ménagers en magasins spécialisés.","Venta al por menor de aparatos eléctricos de uso doméstico, muebles, equipo de iluminación y otros enseres domésticos en comercios especializados"
+476,Retail sale of cultural and recreation goods in specialized stores,"Commerce de détail d’articles pour la culture et les loisirs, en magasins spécialisés",Venta al por menor de productos culturales y recreativos en comercios especializados
+4761,"Retail sale of books, newspapers and stationary in specialized stores","Commerce de détail de livres, journaux et articles de papeterie en magasins spécialisés","Venta al por menor de libros, periódicos y artículos de papelería en comercios especializados"
+4762,Retail sale of music and video recordings in specialized stores,Commerce de détail d’enregistrements musicaux et vidéo en magasins spécialisés,Venta al por menor de grabaciones de música y de vídeo en comercios especializados
+4763,Retail sale of sporting equipment in specialized stores,Commerce de détail de matériel pour le sport en magasins spécialisés,Venta al por menor de equipo de deporte en comercios especializados
+4764,Retail sale of games and toys in specialized stores,Commerce de détail de jeux et jouets en magasins spécialisés,Venta al por menor de juegos y juguetes en comercios especializados
+477,Retail sale of other goods in specialized stores,Commerce de détail d’autres articles en magasins spécialisés,Venta al por menor de otros productos en comercios especializados
+4771,"Retail sale of clothing, footwear and leather articles in specialized stores","Commerce de détail de vêtements, de chaussures et d’articles de cuir en magasins spécialisés","Venta al por menor de prendas de vestir, calzado y artículos de cuero en comercios especializados"
+4772,"Retail sale of pharmaceutical and medical goods, cosmetic and toilet articles in specialized stores","Commerce de détail de produits pharmaceutiques et médicaux, de produits de beauté et d’articles de toilette","Venta al por menor de productos farmacéuticos y médicos, cosméticos y artículos de tocador en comercios especializados"
+4773,Other retail sale of new goods in specialized stores,Autres commerces de détail d’articles neufs en magasins spécialisés,Venta al por menor de otros productos nuevos en comercios especializados
+4774,Retail sale of second-hand goods,Vente de détail d’articles d’occasion,Venta al por menor de artículos de segunda mano
+478,Retail sale via stalls and markets,Vente de détail sur éventaires et marchés,Venta al por menor en puestos de venta y mercados
+4781,"Retail sale via stalls and markets of food, beverages and tobacco products","Vente de détail sur éventaires et marchés de produits alimentaires, boissons et tabac","Venta al por menor de alimentos, bebidas y tabaco en puestos de venta y mercados"
+4782,"Retail sale via stalls and markets of textiles, clothing and footwear","Vente de détail sur éventaires et marchés de textiles, habillement et chaussures","Venta al por menor de productos textiles, prendas de vestir y calzado en puestos de venta y mercados"
+4789,Retail sale via stalls and markets of other goods,Vente de détail sur éventaires et marchés d’autres articles,Venta al por menor de otros productos en puestos de venta y mercados
+479,"Retail trade not in stores, stalls or markets","Vente de détail autre qu’en magasins, éventaires ou marchés","Venta al por menor no realizada en comercios, puestos de venta o mercados"
+4791,Retail sale via mail order houses or via Internet,"Vente de détail par les entreprises de vente par correspondance, ou sur Internet",Venta al por menor por correo y por Internet
+4799,"Other retail sale not in stores, stalls or markets","Autres commerces de détail autres qu’en magasin, sur éventaires ou marchés","Otras actividades de venta al por menor no realizadas en comercios, puestos de venta o mercados"
+H,Transportation and storage,Transport et entreposage,Transporte y almacenamiento
+49,Land transport and transport via pipelines,"Transports terrestres, transport par conduites",Transporte por vía terrestre y transporte por tuberías
+491,Transport via railways,Transports par chemin de fer,Transporte por ferrocarril
+4911,"Passenger rail transport, interurban",Transport de voyageurs par chemin de fer interurbain,Transporte interurbano de pasajeros por ferrocarril
+4912,Freight rail transport,Transport de marchandises par chemin de fer,Transporte de carga por ferrocarril
+492,Other land transport,Autres transports terrestres,Otras actividades de transporte por vía terrestre
+4921,Urban and suburban passenger land transport,Transports terrestres de voyageurs par des réseaux urbains et suburbains,Transporte urbano y suburbano de pasajeros por vía terrestre
+4922,Other passenger land transport,Autres transports terrestres de voyageurs,Otras actividades de transporte por vía terrestre
+4923,Freight transport by road,Transports routiers de marchandises,Transporte de carga por carretera
+493,Transport via pipeline,Transports par conduites,Transporte por tuberías
+4930,Transport via pipeline,Transports par conduites,Transporte por tuberías
+50,Water transport,Transports par eau,Transporte por vía acuática
+501,Sea and coastal water transport,Transports maritimes et côtiers,Transporte marítimo y de cabotaje
+5011,Sea and coastal passenger water transport,Transports maritimes et côtiers de voyageurs,Transporte de pasajeros marítimo y de cabotaje
+5012,Sea and coastal freight water transport,Transports maritimes et côtiers de marchandises,Transporte de carga marítimo y de cabotaje
+502,Inland water transport,Transports par voies navigables intérieures,Transporte por vías de navegación interiores
+5021,Inland passenger water transport,Transport de voyageurs par voies navigables intérieures,Transporte de pasajeros por vías de navegación interiores
+5022,Inland freight water transport,Transport de marchandises par voies navigables intérieures,Transporte de carga por vías de navegación interiores
+51,Air transport,Transports aériens,Transporte por vía aérea
+511,Passenger air transport,Transport aérien de voyageurs,Transporte de pasajeros por vía aérea
+5110,Passenger air transport,Transport aérien de voyageurs,Transporte de pasajeros por vía aérea
+512,Freight air transport,Transport aérien de marchandises,Transporte de carga por vía aérea
+5120,Freight air transport,Transport aérien de marchandises,Transporte de carga por vía aérea
+52,Warehousing and support activities for transportation,Magasinage et activités annexes des transports,Almacenamiento y actividades de apoyo al transporte
+521,Warehousing and storage,Magasinage et entreposage,Almacenamiento y depósito
+5210,Warehousing and storage,Magasinage et entreposage,Almacenamiento y depósito
+522,Support activities for transportation,Activités annexes des transports,Actividades de apoyo al transporte
+5221,Service activities incidental to land transportation,Activités de services annexes des transports terrestres,Actividades de servicios vinculadas al transporte terrestre
+5222,Service activities incidental to water transportation,Activités de services annexes des transports par eau,Actividades de servicios vinculadas al transporte acuático
+5223,Service activities incidental to air transportation,Activités de services annexes des transports aériens,Actividades de servicios vinculadas al transporte aéreo
+5224,Cargo handling,Manutention,Manipulación de la carga
+5229,Other transportation support activities,Autres activités annexes des transports,Otras actividades de apoyo al transporte
+53,Postal and courier activities,Activités de poste et de courrier,Actividades postales y de mensajería
+531,Postal activities,Activités de poste,Actividades postales
+5310,Postal activities,Activités de poste,Actividades postales
+532,Courier activities,Activités de courrier,Actividades de mensajería
+5320,Courier activities,Activités de courrier,Actividades de mensajería
+I,Accommodation and food service activities,Activités d’hébergement et de restauration,Actividades de alojamiento y de servicio de comidas
+55,Accommodation,Hébergement,Actividades de alojamiento
+551,Short term accommodation activities,Activités d’hébergement temporaire,Actividades de alojamiento para estancias cortas
+5510,Short term accommodation activities,Activités d’hébergement temporaire,Actividades de alojamiento para estancias cortas
+552,"Camping grounds, recreational vehicle parks and trailer parks","Terrains de camping, parcs pour véhicules de loisirs et caravanes","Actividades de campamentos, parques de vehículos recreativos y parques de caravanas"
+5520,"Camping grounds, recreational vehicle parks and trailer parks","Terrains de camping, parcs pour véhicules de loisirs et caravanes","Actividades de campamentos, parques de vehículos recreativos y parques de caravanas"
+559,Other accommodation,Autres activités d’hébergement,Otras actividades de alojamiento
+5590,Other accommodation,Autres activités d’hébergement,Otras actividades de alojamiento
+56,Food and beverage service activities,Activités de services de restauration et de consommation de boissons,Actividades de servicio de comidas y bebidas
+561,Restaurants and mobile food service activities,Activités de restaurants et de services de restauration mobiles,Actividades de restaurantes y de servicio móvil de comidas
+5610,Restaurants and mobile food service activities,Activités de restaurants et de services de restauration mobiles,Actividades de restaurantes y de servicio móvil de comidas
+562,Event catering and other food service activities,Activités de restauration en kiosque et autres activités de services de restauration,Suministro de comidas por encargo y otras actividades de servicio de comidas
+5621,Event catering,Activités de restauration en kiosque,Suministro de comidas por encargo
+5629,Other food service activities,Autres activités de services de restauration,Otras actividades de servicio de comidas
+563,Beverage serving activities,Activités de consommation de boissons,Actividades de servicio de bebidas
+5630,Beverage serving activities,Activités de consommation de boissons,Actividades de servicio de bebidas
+J,Information and communication,Information et communication,Información y comunicaciones
+58,Publishing activities,Activités d’édition,Actividades de edición
+581,"Publishing of books, periodicals and other publishing activities","Édition de livres, revues et autres activités d’édition",Edición de libros y publicaciones periódicas y otras actividades de edición
+5811,Book publishing,Édition de livres,Edición de libros
+5812,Publishing of directories and mailing lists,Édition d’annuaires et de fichiers d’adresses,Edición de directorios y listas de correo
+5813,"Publishing of newspapers, journals and periodicals","Édition de journaux, revues professionnelles, et périodiques","Edición de periódicos, revistas y otras publicaciones periódicas"
+5819,Other publishing activities,Autres activités d’édition,Otras actividades de edición
+582,Software publishing,Édition de logiciels,Edición de programas informáticos
+5820,Software publishing,Édition de logiciels,Edición de programas informáticos
+59,"Motion picture, video and television programme production, sound recording and music publishing activities","Activités de production de films cinématographiques et vidéo, de programmes de télévision, d’enregistrements sonores et d’édition musicale","Actividades de producción de películas cinematográficas, vídeos y programas de televisión, grabación de sonido y edición de música"
+591,"Motion picture, video and television programme activities","Activités de production de films cinématographiques et vidéo, et de programmes de télévision","Actividades de producción de películas cinematográficas, vídeos y programas de televisión"
+5911,"Motion picture, video and television programme production activities","Activités de production de films cinématographiques et vidéo, et de programmes de télévision","Actividades de producción de películas cinematográficas, vídeos y programas de televisión"
+5912,"Motion picture, video and television programme post-production activities","Activités consécutives à la production de films cinématographiques et vidéo, et de programmes de télévision","Actividades de postproducción de películas cinematográficas, vídeos y programas de televisión"
+5913,"Motion picture, video and television programme distribution activities","Activités de distribution de films cinématographiques et vidéo, et de programmes de télévision","Actividades de distribución de películas cinematográficas, vídeos y programas de televisión"
+5914,Motion picture projection activities,Activités de projection de films cinématographiques,Actividades de exhibición de películas cinematográficas y cintas de vídeo
+592,Sound recording and music publishing activities,Activités d’enregistrement du son et d’édition musicale.,Actividades de grabación de sonido y edición de música
+5920,Sound recording and music publishing activities,Activités d’enregistrement du son et d’édition musicale.,Actividades de grabación de sonido y edición de música
+60,Programming and broadcasting activities,Activités de programmation et de diffusion,Actividades de programación y transmisión
+601,Radio broadcasting,Radiodiffusion,Transmisiones de radio
+6010,Radio broadcasting,Radiodiffusion,Transmisiones de radio
+602,Television programming and broadcasting activities,Activités de production et de diffusion de programmes de télévision,Programación y transmisiones de televisión
+6020,Television programming and broadcasting activities,Activités de production et de diffusion de programmes de télévision,Programación y transmisiones de televisión
+61,Telecommunications,Télécommunications,Telecomunicaciones
+611,Wired telecommunications activities,Activités de télécommunications par câble,Actividades de telecomunicaciones alámbricas
+6110,Wired telecommunications activities,Activités de télécommunications par câble,Actividades de telecomunicaciones alámbricas
+612,Wireless telecommunications activities,Activités de télécommunications sans fil,Actividades de telecomunicaciones inalámbricas
+6120,Wireless telecommunications activities,Activités de télécommunications sans fil,Actividades de telecomunicaciones inalámbricas
+613,Satellite telecommunications activities,Activités de télécommunications par satellite,Actividades de telecomunicaciones por satélite
+6130,Satellite telecommunications activities,Activités de télécommunications par satellite,Actividades de telecomunicaciones por satélite
+619,Other telecommunications activities,Autres activités de télécommunications,Otras actividades de telecomunicaciones
+6190,Other telecommunications activities,Autres activités de télécommunications,Otras actividades de telecomunicaciones
+62,"Computer programming, consultancy and related activities",Programmation informatique; conseils et activités connexes,"Programación informática, consultoría de informática y actividades conexas"
+620,"Computer programming, consultancy and related activities",Programmation informatique; conseils et activités connexes,"Programación informática, consultoría de informática y actividades conexas"
+6201,Computer programming activities,Activités de programmation informatique,Programación informática
+6202,Computer consultancy and computer facilities management activities,"Activités de conseils en matière informatique, et de gestion des moyens informatiques",Consultoría de informática y gestión de instalaciones informáticas
+6209,Other information technology and computer service activities,Autres activités de services concernant la technologie de l’information et l’informatique,Otras actividades de tecnología de la información y de servicios informáticos
+63,Information service activities,Activités de services d’information,Actividades de servicios de información
+631,"Data processing, hosting and related activities; web portals","Activités de traitement des données, d’hébergement et activités connexes; portails d’entrée sur le Web","Procesamiento de datos, hospedaje y actividades conexas; portales web"
+6311,"Data processing, hosting and related activities","Traitement de données, hébergement et activités connexes","Procesamiento de datos, hospedaje y actividades conexas"
+6312,Web portals,Portails d’entrée sur le Web,Portales web
+639,Other information service activities,Autres activités de services d’information,Otras actividades de servicios de información
+6391,News agency activities,Activités d’agence de presse,Actividades de agencias de noticias
+6399,Other information service activities n.e.c.,"Autres activités de services d’information, n.c.a.",Otras actividades de servicios de información n.c.p.
+K,Financial and insurance activities,Activités financières et d’assurances,Actividades financieras y de seguros
+64,"Financial service activities, except insurance and pension funding","Activités de services financiers, à l’exception des assurances et des caisses de retraite","Actividades de servicios financieros, excepto las de seguros y fondos de pensiones"
+641,Monetary intermediation,Intermédiation monétaire,Intermediación monetaria
+6411,Central banking,Activités de banques centrales,Banca central
+6419,Other monetary intermediation,Autres intermédiations monétaires,Otros tipos de intermediación monetaria
+642,Activities of holding companies,Activités des sociétés de portefeuille,Actividades de sociedades de cartera
+6420,Activities of holding companies,Activités des sociétés de portefeuille,Actividades de sociedades de cartera
+643,"Trusts, funds and similar financial entities","Fonds fiduciaires, fonds et entités financières analogues",Fondos y sociedades de inversión y entidades financieras similares
+6430,"Trusts, funds and similar financial entities","Fonds fiduciaires, fonds et entités financières analogues",Fondos y sociedades de inversión y entidades financieras similares
+649,"Other financial service activities, except insurance and pension funding activities","Autres activités de services financiers, à l’exception des activités d’assurances et de caisses de retraite","Otras actividades de servicios financieros, excepto las de seguros y fondos de pensiones"
+6491,Financial leasing,Crédit-bail,Arrendamiento financiero
+6492,Other credit granting,Autres activités de crédit,Otras actividades de concesión de crédito
+6499,"Other financial service activities, except insurance and pension funding activities, n.e.c.","Autres activités de services financiers, à l’exception des activités d’assurance et de caisses de retraite, n.c.a.","Otras actividades de servicios financieros, excepto las de seguros y fondos de pensiones, n.c.p."
+65,"Insurance, reinsurance and pension funding, except compulsory social security","Activités d’assurances, réassurance et de caisses de retraite, à l’exception de la sécurité sociale obligatoire","Seguros, reaseguros y fondos de pensiones, excepto planes de seguridad social de afiliación obligatoria"
+651,Insurance,Activités d’assurances,Seguros
+6511,Life insurance,Activités d’assurances sur la vie,Seguros de vida
+6512,Non-life insurance,Activités d’assurances autres que sur la vie,Seguros generales
+652,Reinsurance,Activités de réassurance,Reaseguros
+6520,Reinsurance,Activités de réassurance,Reaseguros
+653,Pension funding,Activités de caisses de retraite,Fondos de pensiones
+6530,Pension funding,Activités de caisses de retraite,Fondos de pensiones
+66,Activities auxiliary to financial service and insurance activities,Activités auxiliaires des services financiers et des assurances,Actividades auxiliares de las actividades de servicios financieros
+661,"Activities auxiliary to financial service activities, except insurance and pension funding",Activités auxiliaires des services financiers à l’exception des assurances et des caisses de retraite,"Actividades auxiliares de las actividades de servicios financieros, excepto las de seguros y fondos de pensiones"
+6611,Administration of financial markets,Administration de marchés financiers,Administración de mercados financieros
+6612,Security and commodity contracts brokerage,Activités de courtage en contrats de valeurs et de produits,Corretaje de valores y de contratos de productos básicos
+6619,Other activities auxiliary to financial service activities,Autres activités auxiliaires des activités de services financiers,Otras actividades auxiliares de las actividades de servicios financieros
+662,Activities auxiliary to insurance and pension funding,Activités auxiliaires de financement des assurances et caisses de retraite,Actividades auxiliares de las actividades de seguros y fondos de pensiones
+6621,Risk and damage evaluation,Évaluation de risque d’assurance et de dommages,Evaluación de riesgos y daños
+6622,Activities of insurance agents and brokers,Activités des agents d’assurance et des courtiers,Actividades de agentes y corredores de seguros
+6629,Other activities auxiliary to insurance and pension funding,Autres activités auxiliaires de financement des assurances et caisses de retraite,Otras actividades auxiliares de las actividades de seguros y fondos de pensiones
+663,Fund management activities,Activités de gestion de fonds,Actividades de gestión de fondos
+6630,Fund management activities,Activités de gestion de fonds,Actividades de gestión de fondos
+L,Real estate activities,Activités immobilières,Actividades inmobiliarias
+68,Real estate activities,Activités immobilières,Actividades inmobiliarias
+681,Real estate activities with own or leased property,Activités immobilières sur biens propres ou loués,Actividades inmobiliarias realizadas con bienes propios o arrendados
+6810,Real estate activities with own or leased property,Activités immobilières sur biens propres ou loués,Actividades inmobiliarias realizadas con bienes propios o arrendados
+682,Real estate activities on a fee or contract basis,Activités immobilières à forfait ou sous contrat,Actividades inmobiliarias realizadas a cambio de una retribución o por contrata
+6820,Real estate activities on a fee or contract basis,Activités immobilières à forfait ou sous contrat,Actividades inmobiliarias realizadas a cambio de una retribución o por contrata
+M,"Professional, scientific and technical activities","Activités professionnelles, scientifiques et techniques","Actividades profesionales, científicas y técnicas"
+69,Legal and accounting activities,Activités juridiques et comptables,Actividades jurídicas y de contabilidad
+691,Legal activities,Activités juridiques,Actividades jurídicas
+6910,Legal activities,Activités juridiques,Actividades jurídicas
+692,"Accounting, bookkeeping and auditing activities; tax consultancy",Activités comptables et d’audit; conseil fiscal,"Actividades de contabilidad, teneduría de libros y auditoría; consultoría fiscal"
+6920,"Accounting, bookkeeping and auditing activities; tax consultancy",Activités comptables et d’audit; conseil fiscal,"Actividades de contabilidad, teneduría de libros y auditoría; consultoría fiscal"
+70,Activities of head offices; management consultancy activities,Activités de bureaux principaux; activités de conseils en matière de gestion,Actividades de oficinas principales; actividades de consultoría de gestión
+701,Activities of head offices,Activités de bureaux principaux,Actividades de oficinas principales
+7010,Activities of head offices,Activités de bureaux principaux,Actividades de oficinas principales
+702,Management consultancy activities,Activités de conseils en matière de gestion,Actividades de consultoría de gestión
+7020,Management consultancy activities,Activités de conseils en matière de gestion,Actividades de consultoría de gestión
+71,Architectural and engineering activities; technical testing and analysis,Activités d’architecture et d’ingénierie; activités d’essais et d’analyses techniques,Actividades de arquitectura e ingeniería; ensayos y análisis técnicos
+711,Architectural and engineering activities and related technical consultancy,Activités d’architecture et d’ingénierie et de conseils techniques connexes,Actividades de arquitectura e ingeniería y actividades conexas de consultoría técnica
+7110,Architectural and engineering activities and related technical consultancy,Activités d’architecture et d’ingénierie et de conseils techniques connexes,Actividades de arquitectura e ingeniería y actividades conexas de consultoría técnica
+712,Technical testing and analysis,Activités d’essais et d’analyses techniques,Ensayos y análisis técnicos
+7120,Technical testing and analysis,Activités d’essais et d’analyses techniques,Ensayos y análisis técnicos
+72,Scientific research and development,Recherche scientifique et développement,Investigación científica y desarrollo
+721,Research and experimental development on natural sciences and engineering,Recherche-développement expérimental en sciences physiques et naturelles et en ingénierie,Investigaciones y desarrollo experimental en el campo de las ciencias naturales y la ingeniería
+7210,Research and experimental development on natural sciences and engineering,Recherche-développement expérimental en sciences physiques et naturelles et en ingénierie,Investigaciones y desarrollo experimental en el campo de las ciencias naturales y la ingeniería
+722,Research and experimental development on social sciences and humanities,Recherche-développement expérimental en sciences sociales et humaines,Investigaciones y desarrollo experimental en el campo de las ciencias sociales y las humanidades
+7220,Research and experimental development on social sciences and humanities,Recherche-développement expérimental en sciences sociales et humaines,Investigaciones y desarrollo experimental en el campo de las ciencias sociales y las humanidades
+73,Advertising and market research,Publicité et études de marché,Publicidad y estudios de mercado
+731,Advertising,Publicité,Publicidad
+7310,Advertising,Publicité,Publicidad
+732,Market research and public opinion polling,Activités d’études de marché et de sondage,Estudios de mercado y encuestas de opinión pública
+7320,Market research and public opinion polling,Activités d’études de marché et de sondage,Estudios de mercado y encuestas de opinión pública
+74,"Other professional, scientific and technical activities","Autres activités professionnelles, scientifiques et techniques","Otras actividades profesionales, científicas y técnicas"
+741,Specialized design activities,Activités de conception de modèles,Actividades especializadas de diseño
+7410,Specialized design activities,Activités de conception de modèles,Actividades especializadas de diseño
+742,Photographic activities,Activités photographiques,Actividades de fotografía
+7420,Photographic activities,Activités photographiques,Actividades de fotografía
+749,"Other professional, scientific and technical activities n.e.c.","Autres activités professionnelles, scientifiques et techniques, n.c.a.","Otras actividades profesionales, científicas y técnicas n.c.p."
+7490,"Other professional, scientific and technical activities n.e.c.","Autres activités professionnelles, scientifiques et techniques, n.c.a.","Otras actividades profesionales, científicas y técnicas n.c.p."
+75,Veterinary activities,Activités de services vétérinaires,Actividades veterinarias
+750,Veterinary activities,Activités de services vétérinaires,Actividades veterinarias
+7500,Veterinary activities,Activités de services vétérinaires,Actividades veterinarias
+N,Administrative and support service activities,Activités de services administratifs et d’appui,Actividades de servicios administrativos y de apoyo
+77,Rental and leasing activities,Activités de location,Actividades de alquiler y arrendamiento
+771,Renting and leasing of motor vehicles,Location de véhicules automobiles,Alquiler y arrendamiento de vehículos automotores
+7710,Renting and leasing of motor vehicles,Location de véhicules automobiles,Alquiler y arrendamiento de vehículos automotores
+772,Renting and leasing of personal and household goods,Location d’articles personnels ou ménagers,Alquiler y arrendamiento de efectos personales y enseres domésticos
+7721,Renting and leasing of recreational and sports goods,Location d’articles pour le sport et les loisirs,Alquiler y arrendamiento de equipo recreativo y deportivo
+7722,Renting of video tapes and disks,Location de vidéocassettes et de vidéodisques,Alquiler de cintas de vídeo y discos
+7729,Renting and leasing of other personal and household goods,Location d’autres articles personnels ou ménagers,Alquiler y arrendamiento de otros efectos personales y enseres domésticos
+773,"Renting and leasing of other machinery, equipment and tangible goods","Location d’autres machines, équipement et biens corporels","Alquiler y arrendamiento de otros tipos de maquinaria, equipo y bienes tangibles"
+7730,"Renting and leasing of other machinery, equipment and tangible goods","Location d’autres machines, équipement et biens corporels","Alquiler y arrendamiento de otros tipos de maquinaria, equipo y bienes tangibles"
+774,"Leasing of intellectual property and similar products, except copyrighted works","Location de produits de la propriété intellectuelle et d’autres produits similaires, à l’exception des droits d’auteur","Arrendamiento de propiedad intelectual y productos similares, excepto obras protegidas por derechos de autor"
+7740,"Leasing of intellectual property and similar products, except copyrighted works","Location de produits de la propriété intellectuelle et d’autres produits similaires, à l’exception des droits d’auteur","Arrendamiento de propiedad intelectual y productos similares, excepto obras protegidas por derechos de autor"
+78,Employment activities,Activités relatives à l’emploi,Actividades de empleo
+781,Activities of employment placement agencies,Activités des agences de placement,Actividades de agencias de empleo
+7810,Activities of employment placement agencies,Activités des agences de placement,Actividades de agencias de empleo
+782,Temporary employment agency activities,Activités des agences d’emploi temporaire,Actividades de agencias de empleo temporal
+7820,Temporary employment agency activities,Activités des agences d’emploi temporaire,Actividades de agencias de empleo temporal
+783,Other human resources provision,Autres activités de fourniture de personnel,Otras actividades de dotación de recursos humanos
+7830,Other human resources provision,Autres activités de fourniture de personnel,Otras actividades de dotación de recursos humanos
+79,"Travel agency, tour operator, reservation service and related activities","Activités des agences de voyages, voyagistes, services de réservation et activités connexes",Actividades de agencias de viajes y operadores turísticos y servicios de reservas y actividades conexas
+791,Travel agency and tour operator activities,Activités des agences de voyages et des voyagistes,Actividades de agencias de viajes y operadores turísticos
+7911,Travel agency activities,Activités des agences de voyages,Actividades de agencias de viajes
+7912,Tour operator activities,Activités des voyagistes,Actividades de operadores turísticos
+799,Other reservation service and related activities,Autres activités des services de réservation et activités connexes,Otros servicios de reservas y actividades conexas
+7990,Other reservation service and related activities,Autres activités des services de réservation et activités connexes,Otros servicios de reservas y actividades conexas
+80,Security and investigation activities,Activités d’enquêtes et de sécurité,Actividades de seguridad e investigación
+801,Private security activities,Activités de services de sécurité privés,Actividades de seguridad privada
+8010,Private security activities,Activités de services de sécurité privés,Actividades de seguridad privada
+802,Security systems service activities,Activités des services de systèmes de sécurité,Actividades de servicios de sistemas de seguridad
+8020,Security systems service activities,Activités des services de systèmes de sécurité,Actividades de servicios de sistemas de seguridad
+803,Investigation activities,Activités d’enquête,Actividades de investigación
+8030,Investigation activities,Activités d’enquête,Actividades de investigación
+81,Services to buildings and landscape activities,"Activités des services concernant les bâtiments, architecture paysagère",Actividades de servicios a edificios y de paisajismo
+811,Combined facilities support activities,Activités d’appui aux installations intégrées,Actividades combinadas de apoyo a instalaciones
+8110,Combined facilities support activities,Activités d’appui aux installations intégrées,Actividades combinadas de apoyo a instalaciones
+812,Cleaning activities,Activités de nettoyage,Actividades de limpieza
+8121,General cleaning of buildings,Nettoyage général des bâtiments,Limpieza general de edificios
+8129,Other building and industrial cleaning activities,Autres activités de nettoyage de bâtiments et de nettoyage industriel,Otras actividades de limpieza de edificios y de instalaciones industriales
+813,Landscape care and maintenance service activities,Activités des services d’entretien des espaces verts,Actividades de paisajismo y servicios de mantenimiento conexos
+8130,Landscape care and maintenance service activities,Activités des services d’entretien des espaces verts,Actividades de paisajismo y servicios de mantenimiento conexos
+82,"Office administrative, office support and other business support activities","Activités d’appui administratif, de secrétariat, et autres activités d’appui aux entreprises",Actividades administrativas y de apoyo de oficina y otras actividades de apoyo a las empresas
+821,Office administrative and support activities,Activités d’appui administratif,Actividades administrativas y de apoyo de oficina
+8211,Combined office administrative service activities,Activités des services intégrés d’appui administratif,Actividades combinadas de servicios administrativos de oficina
+8219,"Photocopying, document preparation and other specialized office support activities","Photocopie, préparation de documents et autres activités spécialisées d’appui aux bureaux","Fotocopiado, preparación de documentos y otras actividades especializadas de apoyo de oficina"
+822,Activities of call centres,Activités des centres d’appel,Actividades de centros de llamadas
+8220,Activities of call centres,Activités des centres d’appel,Actividades de centros de llamadas
+823,Organization of conventions and trade shows,Organisation de congrès et de foires commerciales,Organización de convenciones y exposiciones comerciales
+8230,Organization of conventions and trade shows,Organisation de congrès et de foires commerciales,Organización de convenciones y exposiciones comerciales
+829,Business support service activities n.e.c.,"Activités de services d’appui aux entreprises, n.c.a.",Actividades de servicios de apoyo a las empresas n.c.p.
+8291,Activities of collection agencies and credit bureaus,Activités des agences de recouvrement et de crédit,Actividades de agencias de cobro y agencias de calificación crediticia
+8292,Packaging activities,Activités de conditionnement,Actividades de envasado y empaquetado
+8299,Other business support service activities n.e.c.,"Autres activités de services aux entreprises, n.c.a.",Otras actividades de servicios de apoyo a las empresas n.c.p.
+O,Public administration and defence; compulsory social security,Administration publique et défense; sécurité sociale obligatoire,Administración pública y defensa; planes de seguridad social de afiliación obligatoria
+84,Public administration and defence; compulsory social security,Administration publique et défense; sécurité sociale obligatoire,Administración pública y defensa; planes de seguridad social de afiliación obligatoria
+841,Administration of the State and the economic and social policy of the community,Administration générale; administration de la politique économique et sociale,Administración del Estado y aplicación de la política económica y social de la comunidad
+8411,General public administration activities,Activités d’administration publique générale,Actividades de la administración pública en general
+8412,"Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security","Tutelle des activités des organismes qui s’occupent de santé, d’éducation, de culture et d’autres activités sociales, à l’exception de la sécurité sociale","Regulación de las actividades de organismos que prestan servicios sanitarios, educativos, culturales y otros servicios sociales, excepto servicios de seguridad social"
+8413,Regulation of and contribution to more efficient operation of businesses,Réglementation de l’exploitation des entreprises et contribution à l’amélioration de son efficacité,Regulación y facilitación de la actividad económica
+842,Provision of services to the community as a whole,Services fournis à l’ensemble de la collectivité,Prestación de servicios a la comunidad en general
+8421,Foreign affairs,Affaires étrangères,Relaciones exteriores
+8422,Defence activities,Activités de défense,Actividades de defensa
+8423,Public order and safety activities,Activités de maintien de l’ordre et de la sécurité publics,Actividades de mantenimiento del orden público y de seguridad
+843,Compulsory social security activities,Activités de sécurité sociale obligatoire,Actividades de planes de seguridad social de afiliación obligatoria
+8430,Compulsory social security activities,Activités de sécurité sociale obligatoire,Actividades de planes de seguridad social de afiliación obligatoria
+P,Education,Éducation,Enseñanza
+85,Education,Éducation,Enseñanza
+851,Pre-primary and primary education,Activités d’enseignement préprimaire et primaire,Enseñanza preescolar y primaria
+8510,Pre-primary and primary education,Activités d’enseignement préprimaire et primaire,Enseñanza preescolar y primaria
+852,Secondary education,Activités d’enseignement secondaire,Enseñanza secundaria
+8521,General secondary education,Activités d’enseignement secondaire général,Enseñanza secundaria de formación general
+8522,Technical and vocational secondary education,Activités d’enseignement secondaire technique et professionnel,Enseñanza secundaria de formación técnica y profesional
+853,Higher education,Activités d’enseignement supérieur,Enseñanza superior
+8530,Higher education,Activités d’enseignement supérieur,Enseñanza superior
+854,Other education,Autres activités d’enseignement,Otros tipos de enseñanza
+8541,Sports and recreation education,Activités d’enseignement lié aux sports et aux loisirs,Enseñanza deportiva y recreativa
+8542,Cultural education,Activités d’enseignement à caractère culturel,Enseñanza cultural
+8549,Other education n.e.c.,"Autres activités d’enseignement, n.c.a.",Otros tipos de enseñanza n.c.p.
+855,Educational support activities,Activités d’appui pédagogique,Actividades de apoyo a la enseñanza
+8550,Educational support activities,Activités d’appui pédagogique,Actividades de apoyo a la enseñanza
+Q,Human health and social work activities,Santé et et activités d’action sociale,Actividades de atención de la salud humana y de asistencia social
+86,Human health activities,Activités relatives à la santé,Actividades de atención de la salud humana
+861,Hospital activities,Activités hospitalières,Actividades de hospitales
+8610,Hospital activities,Activités hospitalières,Actividades de hospitales
+862,Medical and dental practice activities,Activités de pratique médicale et dentaire,Actividades de médicos y odontólogos
+8620,Medical and dental practice activities,Activités de pratique médicale et dentaire,Actividades de médicos y odontólogos
+869,Other human health activities,Autres activités relatives à la santé,Otras actividades de atención de la salud humana
+8690,Other human health activities,Autres activités relatives à la santé,Otras actividades de atención de la salud humana
+87,Residential care activities,Activités de soins de santé dispensés en établissement,Actividades de atención en instituciones
+871,Residential nursing care facilities,Installations de soins de santé en établissement hospitalier,Actividades de atención de enfermería en instituciones
+8710,Residential nursing care facilities,Installations de soins de santé en établissement hospitalier,Actividades de atención de enfermería en instituciones
+872,"Residential care activities for mental retardation, mental health and substance abuse","Activités de soins de santé pour retardés mentaux, malades mentaux et toxicomanes","Actividades de atención en instituciones para personas con retraso mental, enfermos mentales y toxicómanos"
+8720,"Residential care activities for mental retardation, mental health and substance abuse","Activités de soins de santé pour retardés mentaux, malades mentaux et toxicomanes","Actividades de atención en instituciones para personas con retraso mental, enfermos mentales y toxicómanos"
+873,Residential care activities for the elderly and disabled,Activités de soins de santé en établissement hospitalier pour les personnes âgées et les handicapés,Actividades de atención en instituciones para personas de edad y personas con discapacidad
+8730,Residential care activities for the elderly and disabled,Activités de soins de santé en établissement hospitalier pour les personnes âgées et les handicapés,Actividades de atención en instituciones para personas de edad y personas con discapacidad
+879,Other residential care activities,Autres activités de soins de santé en établissement hospitalier,Otras actividades de atención en instituciones
+8790,Other residential care activities,Autres activités de soins de santé en établissement hospitalier,Otras actividades de atención en instituciones
+88,Social work activities without accommodation,Activités d’action sociale sans hébergement,Actividades de asistencia social sin alojamiento
+881,Social work activities without accommodation for the elderly and disabled,Activités d’action sociale sans hébergement pour les personnes âgées et les handicapés,Actividades de asistencia social sin alojamiento para personas de edad y personas con discapacidad
+8810,Social work activities without accommodation for the elderly and disabled,Activités d’action sociale sans hébergement pour les personnes âgées et les handicapés,Actividades de asistencia social sin alojamiento para personas de edad y personas con discapacidad
+889,Other social work activities without accommodation,Autres activités d’action sociale sans hébergement,Otras actividades de asistencia social sin alojamiento
+8890,Other social work activities without accommodation,Autres activités d’action sociale sans hébergement,Otras actividades de asistencia social sin alojamiento
+R,"Arts, entertainment and recreation","Arts, spectacles et loisirs","Actividades artísticas, de entretenimiento y recreativas"
+90,"Creative, arts and entertainment activities","Activités créatives, arts et spectacles","Actividades creativas, artísticas y de entretenimiento"
+900,"Creative, arts and entertainment activities","Activités créatives, arts et spectacles","Actividades creativas, artísticas y de entretenimiento"
+9000,"Creative, arts and entertainment activities","Activités créatives, arts et spectacles","Actividades creativas, artísticas y de entretenimiento"
+91,"Libraries, archives, museums and other cultural activities","Activités des bibliothèques, archives, musées et autres activités culturelles","Actividades de bibliotecas, archivos y museos y otras actividades culturales"
+910,"Libraries, archives, museums and other cultural activities","Activités des bibliothèques, archives, musées et autres activités culturelles","Actividades de bibliotecas, archivos y museos y otras actividades culturales"
+9101,Library and archives activities,Activités des bibliothèques et archives,Actividades de librerías y archivos
+9102,Museums activities and operation of historical sites and buildings,Activités des musées et exploitation de sites et monuments historiques,Actividades de museos y conservación de lugares y edificios históricos
+9103,Botanical and zoological gardens and nature reserves activities,Activités des jardins botaniques et zoologiques et des réserves naturelles,Actividades de jardines botánicos y zoológicos y de reservas naturales
+92,Gambling and betting activities,Activités de jeux de hasard et de pari,Actividades de juegos de azar y apuestas
+920,Gambling and betting activities,Activités de jeux de hasard et de pari,Actividades de juegos de azar y apuestas
+9200,Gambling and betting activities,Activités de jeux de hasard et de pari,Actividades de juegos de azar y apuestas
+93,Sports activities and amusement and recreation activities,Activités sportives et de loisirs et activités récréatives,"Actividades deportivas, de esparcimiento y recreativas"
+931,Sports activities,Activités sportives,Actividades deportivas
+9311,Operation of sports facilities,Exploitation d’installations sportives,Gestión de instalaciones deportivas
+9312,Activities of sports clubs,Activités des clubs sportifs,Actividades de clubes deportivos
+9319,Other sports activities,Autres activités sportives,Otras actividades deportivas
+932,Other amusement and recreation activities,Autres activités récréatives et de loisirs,Otras actividades de esparcimiento y recreativas
+9321,Activities of amusement parks and theme parks,Activités des parcs d’attraction et à thèmes,Actividades de parques de atracciones y parques temáticos
+9329,Other amusement and recreation activities n.e.c.,"Autres activités récréatives et de loisirs, n.c.a.",Otras actividades de esparcimiento y recreativas n.c.p.
+S,Other service activities,Autres activités de services,Otras actividades de servicios
+94,Activities of membership organizations,Activités des organisations associatives,Actividades de asociaciones
+941,"Activities of business, employers and professional membership organizations","Activités d’organisations associatives économiques, patronales et professionnelles","Actividades de asociaciones empresariales, profesionales y de empleadores"
+9411,Activities of business and employers membership organizations,Activités d’organisations associatives économiques et patronales,Actividades de asociaciones empresariales y de empleadores
+9412,Activities of professional membership organizations,Activités d’organisations associatives professionnelles,Actividades de asociaciones profesionales
+942,Activities of trade unions,Activités de syndicats de salariés,Actividades de sindicatos
+9420,Activities of trade unions,Activités de syndicats de salariés,Actividades de sindicatos
+949,Activities of other membership organizations,Activités d’autres organisations associatives,Actividades de otras asociaciones
+9491,Activities of religious organizations,Activités d’organisations religieuses,Actividades de organizaciones religiosas
+9492,Activities of political organizations,Activités d’organisations politiques,Actividades de organizaciones políticas
+9499,Activities of other membership organizations n.e.c.,"Activités d’autres organisations associatives, n.c.a.",Actividades de otras asociaciones n.c.p.
+95,Repair of computers and personal and household goods,Activités de réparation d’ordinateurs et d’articles personnels et ménagers,Reparación de ordenadores y de efectos personales y enseres domésticos
+951,Repair of computers and communication equipment,Réparation d’ordinateurs et de matériel de communication,Reparación de ordenadores y equipo de comunicaciones
+9511,Repair of computers and peripheral equipment,Réparation d’ordinateurs et de matériel périphérique,Reparación de ordenadores y equipo periférico
+9512,Repair of communication equipment,Réparation de matériel de communication,Reparación de equipo de comunicaciones
+952,Repair of personal and household goods,Réparation d’articles personnels et ménagers,Reparación de efectos personales y enseres domésticos
+9521,Repair of consumer electronics,Réparation de biens de consommation : matériel électronique,Reparación de aparatos electrónicos de consumo
+9522,Repair of household appliances and home and garden equipment,Réparation d’appareils ménagers et de matériel pour la maison et le jardin,Reparación de aparatos de uso doméstico y equipo doméstico y de jardinería
+9523,Repair of footwear and leather goods,Réparation de chaussures et d’articles de cuir,Reparación de calzado y de artículos de cuero
+9524,Repair of furniture and home furnishings,Réparation de mobilier et de meubles de maison,Reparación de muebles y accesorios domésticos
+9529,Repair of other personal and household goods,Réparation d’autres articles personnels et ménagers,Reparación de otros efectos personales y enseres domésticos
+96,Other personal service activities,Autres activités de services personnels,Otras actividades de servicios personales
+960,Other personal service activities,Autres activités de services personnels,Otras actividades de servicios personales
+9601,Washing and (dry-) cleaning of textile and fur products,Lavage et nettoyage à sec de textiles et de fourrures,"Lavado y limpieza, incluida la limpieza en seco, de productos textiles y de piel"
+9602,Hairdressing and other beauty treatment,Coiffure et autres soins esthétiques,Peluquería y otros tratamientos de belleza
+9603,Funeral and related activities,Activités de pompes funèbres et activités connexes,Pompas fúnebres y actividades conexas
+9609,Other personal service activities n.e.c.,"Autres activités de services personnels, n.c.a.",Otras actividades de servicios personales n.c.p.
+T,Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use,Activités des ménages privés employant du personnel domestique; activités non différenciées de production de biens et de services des ménages privés pour usage propre,Actividades de los hogares como empleadores; actividades no diferenciadas de los hogares como productores de bienes y servicios para uso propio
+97,Activities of households as employers of domestic personnel,Activités des ménages privés employant du personnel domestique,Actividades de los hogares como empleadores de personal doméstico
+970,Activities of households as employers of domestic personnel,Activités des ménages privés employant du personnel domestique,Actividades de los hogares como empleadores de personal doméstico
+9700,Activities of households as employers of domestic personnel,Activités des ménages privés employant du personnel domestique,Actividades de los hogares como empleadores de personal doméstico
+98,Undifferentiated goods- and services-producing activities of private households for own use,Activités non différenciées de production de biens et de services des ménages privés pour usage propre,Actividades no diferenciadas de los hogares como productores de bienes y servicios para uso propio
+981,Undifferentiated goods-producing activities of private households for own use,Activités non différenciées de production de biens des ménages privés pour usage propre,Actividades no diferenciadas de los hogares como productores de bienes para uso propio
+9810,Undifferentiated goods-producing activities of private households for own use,Activités non différenciées de production de biens des ménages privés pour usage propre,Actividades no diferenciadas de los hogares como productores de bienes para uso propio
+982,Undifferentiated service-producing activities of private households for own use,Activités non différenciées de production de services des ménages privés pour usage propre,Actividades no diferenciadas de los hogares como productores de servicios para uso propio
+9820,Undifferentiated service-producing activities of private households for own use,Activités non différenciées de production de services des ménages privés pour usage propre,Actividades no diferenciadas de los hogares como productores de servicios para uso propio
+U,Activities of extraterritorial organizations and bodies,Activités des organisations et organismes extra-territoriaux,Actividades de organizaciones y órganos extraterritoriales
+99,Activities of extraterritorial organizations and bodies,Activités des organisations et organismes extra-territoriaux,Actividades de organizaciones y órganos extraterritoriales
+990,Activities of extraterritorial organizations and bodies,Activités des organisations et organismes extra-territoriaux,Actividades de organizaciones y órganos extraterritoriales
+9900,Activities of extraterritorial organizations and bodies,Activités des organisations et organismes extra-territoriaux,Actividades de organizaciones y órganos extraterritoriales
