@@ -1,4 +1,4 @@
-from src.sdp_data.utils.translation import CountryTranslatorFrenchToEnglish
+from utils.translation import CountryTranslatorFrenchToEnglish
 
 
 def subtract(series1, series2):

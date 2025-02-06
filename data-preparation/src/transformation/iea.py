@@ -1,6 +1,6 @@
 from utils.iso3166 import countries
 from utils.translation import CountryTranslatorFrenchToEnglish
-from sdp_data.transformation.demographic.countries import StatisticsPerCountriesAndZonesJoiner
+from transformation.demographic.countries import StatisticsPerCountriesAndZonesJoiner
 from utils.format import StatisticsDataframeFormatter
 import requests
 import json
