@@ -1,3 +1,5 @@
+import os
+import pandas as pd
 from utils.translation import CountryTranslatorFrenchToEnglish
 
 
@@ -115,3 +117,17 @@ def check_columns_diff(res_old, res_new, country_col):
     country_old = [x for x in res_old[country_col].unique() if x not in res_new[country_col].unique()]
     country_new = [y for y in res_new[country_col].unique() if y not in res_old[country_col].unique()]
     return country_old, country_new
+
+
+def get_project_root_path() -> str:
+    """Returns the path of the project root"""
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    dir_name = os.path.basename(dir_path)
+
+    # We go up in the directory level until
+    # we are at the root of the project
+    while dir_name != "shiftdataportal":
+        dir_path = os.path.dirname(dir_path)
+        dir_name = os.path.basename(dir_path)
+
+    return dir_path
