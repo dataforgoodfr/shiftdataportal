@@ -1,5 +1,7 @@
-from src.sdp_data.utils.translation import CountryTranslatorFrenchToEnglish
-
+from utils.translation import CountryTranslatorFrenchToEnglish
+import pandas as pd
+import numpy as np
+import re
 
 def subtract(series1, series2):
     return series1 - series2
@@ -115,3 +117,52 @@ def check_columns_diff(res_old, res_new, country_col):
     country_old = [x for x in res_old[country_col].unique() if x not in res_new[country_col].unique()]
     country_new = [y for y in res_new[country_col].unique() if y not in res_old[country_col].unique()]
     return country_old, country_new
+
+
+def get_energy_type(table: pd.core.frame.DataFrame) -> pd.DataFrame:
+    """Cette fonction affecte le type d'énergie correspondant à la ligne.
+    
+    Paramètres:
+        table: Table exportée du site de l'EIA (triée par source d'énergie/activité).
+
+    Sortie:
+        Renvoie la table d'entrée dotée de la colonne 'energy_family'."""
+
+
+    # Création de la colonne 'energy_family'
+    table['energy_family'] = np.where(table['Unnamed: 1'].str.contains('electricity'), table['Unnamed: 1'], np.NaN)
+
+    # Affectation du type d'énergie pour chaque ligne
+    table['energy_family'] = table['energy_family'].ffill()
+
+    # Récupération du type d'énergie
+    table['energy_family'] = table['energy_family'].apply(lambda text: re.findall("(.*)electricity", text).pop())
+
+    # Retrait des lignes de tri
+    table = table[~table['Unnamed: 1'].str.contains('electricity')]
+
+    # Ajustements des types d'énergie
+    table['energy_family'] = np.select([table['energy_family'].str.contains("biomass and waste"),
+                                           table['energy_family'].str.contains("fossil fuels"),
+                                           table['energy_family'].str.contains("geothermal"),
+                                           table['energy_family'].str.contains("hydroelectric pumped storage"),
+                                           table['energy_family'].str.contains("hydro"),
+                                           table['energy_family'].str.contains("nuclear"),
+                                           table['energy_family'].str.contains("solar|tide|wave|fuel cell", regex=True),
+                                           table['energy_family'].str.contains("wind")],
+                                           
+                                        ["Biomass and Waste",
+                                         "Fossil Fuels",
+                                         "Geothermal",
+                                         "Hydroelectric Pumped Storage",
+                                         "Hydroelectricity",
+                                         "Nuclear",
+                                         "Solar, Tide, Wave, Fuel Cell",
+                                         "Wind"],
+                                         
+                                         "Trash")
+    
+    # Retrait des énergies indésirables (temporaire)
+    table = table[table['energy_family'] != "Trash"]
+
+    return table
