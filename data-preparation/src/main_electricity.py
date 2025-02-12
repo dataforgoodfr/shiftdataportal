@@ -12,12 +12,6 @@ import os
 
 
 
-PATH_COUNTRIES = r'country_groupss.csv'                                                                  # A adapter selon la localisation du fichier country_groups.csv
-EXPORT_PATH = r'../data/new_prod_data/WORLD_ENERGY_HISTORY_electricity_capacity_prod.csv'
-
-
-
-
 ###############################################
 ################## Fonctions ##################
 ###############################################
@@ -84,7 +78,7 @@ if __name__ == "__main__":
     df_elec_capacity = pd.read_csv(path_electricity_capacity)
     df_elec_capacity = df_elec_capacity.rename(columns={"Unnamed: 1" : "country"})
 
-    path_countries = os.path.join(current_dir, "../../data/raw/demographics/country_groups.csv")
+    path_countries = os.path.join(current_dir, "../../data/raw/demographics/country_groupss.csv")
     df_country = pd.read_csv(path_countries)
 
 
@@ -98,13 +92,13 @@ if __name__ == "__main__":
                                 id_vars=["country", "energy_family"],
                                 value_vars=[str(i) for i in range(1980, 2023)], 
                                 var_name='year', 
-                                value_name='power') 
+                                value_name='power')
 
     ### Country Translation
     df_elec_capacity['country'] = df_elec_capacity['country'].str.strip()
     df_elec_capacity['country'] = CountryTranslatorFrenchToEnglish().run(serie_country_to_translate=df_elec_capacity['country'], 
                                                                             raise_errors=True)
-
+    
     # Data-type Adaptation 
     df_elec_capacity['power'] = np.where(df_elec_capacity['power'].str.contains('--|ie', regex=True), np.NaN, df_elec_capacity['power'])  
 
@@ -139,6 +133,6 @@ if __name__ == "__main__":
     assert df_elec_capacity.isna().sum().sum() == 0, "Missing values are present in the final dataset." 
 
     # Exporting to csv
-    #df_elec_capacity.to_csv(os.path.join(current_dir, "../../data/processed/electricity/WORLD_ENERGY_HISTORY_electricity_capacity_prod_test.csv"), index=False)
+    df_elec_capacity.to_csv(os.path.join(current_dir, "../../data/processed/electricity/WORLD_ENERGY_HISTORY_electricity_capacity_prod_test.csv"), index=False)
 
 
