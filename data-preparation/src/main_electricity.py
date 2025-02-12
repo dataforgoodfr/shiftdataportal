@@ -96,27 +96,14 @@ if __name__ == "__main__":
     # Transforming the table
     df_elec_capacity = pd.melt(df_elec_capacity, 
                                 id_vars=["country", "energy_family"],
-                                value_vars=[str(i) for i in range(1998, 2023)], 
+                                value_vars=[str(i) for i in range(1980, 2023)], 
                                 var_name='year', 
-                                value_name='power')
-
-    # Removing unneeded data
-    df_elec_capacity = df_elec_capacity[df_elec_capacity['country'] != "Delete"]
+                                value_name='power') 
 
     ### Country Translation
-    from utils.translation import translations_dictionnary
     df_elec_capacity['country'] = df_elec_capacity['country'].str.strip()
-    countries_before = df_elec_capacity.copy()
-    countries_before['country'] = countries_before['country'].apply(lambda x: translations_dictionnary[x])
     df_elec_capacity['country'] = CountryTranslatorFrenchToEnglish().run(serie_country_to_translate=df_elec_capacity['country'], 
                                                                             raise_errors=True)
-    countries_after = df_elec_capacity.copy()
-
-    countries_before = countries_before['country'].value_counts().reset_index()
-    countries_after = countries_after['country'].value_counts().reset_index()
-
-    merged = pd.merge(countries_before, countries_after, on="country", how='outer', suffixes=(['_before', '_after']))
-    print(merged[merged['count_before']!=merged['count_after']])
 
     # Data-type Adaptation 
     df_elec_capacity['power'] = np.where(df_elec_capacity['power'].str.contains('--|ie', regex=True), np.NaN, df_elec_capacity['power'])  
@@ -124,10 +111,9 @@ if __name__ == "__main__":
     for col, type in zip(df_elec_capacity.columns, [object, object, int, float]):
         df_elec_capacity[col] = df_elec_capacity[col].astype(type)
 
-    df_elec_capacity = df_elec_capacity.dropna()  
+    df_elec_capacity = df_elec_capacity.dropna() 
 
-    
-
+    # Making groups of countries
     list_col_group_by = ['group_type', 'group_name', 'energy_family', 'year']
     dict_agg = {"power": "sum"}
     df_elec_capacity = StatisticsPerCountriesAndZonesJoiner().run(df_elec_capacity, df_country, list_col_group_by, dict_agg)
@@ -153,6 +139,6 @@ if __name__ == "__main__":
     assert df_elec_capacity.isna().sum().sum() == 0, "Missing values are present in the final dataset." 
 
     # Exporting to csv
-    df_elec_capacity.to_csv(os.path.join(current_dir, "../../data/processed/electricity/WORLD_ENERGY_HISTORY_electricity_capacity_prod_test.csv"), index=False)
+    #df_elec_capacity.to_csv(os.path.join(current_dir, "../../data/processed/electricity/WORLD_ENERGY_HISTORY_electricity_capacity_prod_test.csv"), index=False)
 
 
