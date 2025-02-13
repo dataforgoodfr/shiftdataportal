@@ -133,6 +133,6 @@ if __name__ == "__main__":
     assert df_elec_capacity.isna().sum().sum() == 0, "Missing values are present in the final dataset." 
 
     # Exporting to csv
-    df_elec_capacity.to_csv(os.path.join(current_dir, "../../data/processed/electricity/WORLD_ENERGY_HISTORY_electricity_capacity_prod_test.csv"), index=False)
+    df_elec_capacity.to_csv(os.path.join(current_dir, "../../data/processed/electricity/WORLD_ENERGY_HISTORY_electricity_capacity_prod.csv"), index=False)
 
 
