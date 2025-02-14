@@ -1,4 +1,5 @@
-from src.sdp_data.utils.translation import CountryTranslatorFrenchToEnglish
+from utils.translation import CountryTranslatorFrenchToEnglish
+import pandas as pd
 
 
 def subtract(series1, series2):
@@ -115,3 +116,5 @@ def check_columns_diff(res_old, res_new, country_col):
     country_old = [x for x in res_old[country_col].unique() if x not in res_new[country_col].unique()]
     country_new = [y for y in res_new[country_col].unique() if y not in res_old[country_col].unique()]
     return country_old, country_new
+
+
