@@ -55,7 +55,7 @@ def get_energy_type(table: pd.core.frame.DataFrame) -> pd.DataFrame:
                                          "Hydroelectric Pumped Storage",
                                          "Hydroelectricity",
                                          "Nuclear",
-                                         "Solar, Tide, Wave, Fuel Cell",
+                                         "Solar - Tide - Wave - Fuel Cell",
                                          "Wind"],
                                          
                                          "Trash")
