@@ -1,9 +1,7 @@
 import sys
-from transformation.demographic.population import GapMinderPerZoneAndCountryProcessor, PopulationPerZoneAndCountryProcessor
 from transformation.demographic.population import StatisticsPerCapitaJoiner
 from transformation.co2_consumption_based_accounting import EoraCo2TradePerZoneAndCountryProcessor
 from transformation.footprint_vs_territorial import FootprintVsTerrotorialProcessor
-from transformation.demographic.worldbank_scrap import WorldBankScrapper
 from transformation.demographic.gdp import GdpMaddissonPerZoneAndCountryProcessor, \
     GdpWorldBankPerZoneAndCountryProcessor
 from transformation.eia import EiaConsumptionGasBySectorProcessor, EiaConsumptionOilPerProductProcessor, \
@@ -36,19 +34,6 @@ class TransformationPipeline:
         df_country = df_country.sort_values(by=["group_type", "group_name", "country"])
         df_country.to_csv(f"{RESULTS_DIR}/COUNTRY_country_groups_prod.csv", index=False)
         return df_country
-
-    def process_population_data(self, df_country):
-        # update population data (World Bank)
-        df_population_raw = WorldBankScrapper().run("population")
-        df_population = PopulationPerZoneAndCountryProcessor().run(df_population_raw, df_country)
-        df_population.to_csv(f"{RESULTS_DIR}/DEMOGRAPHIC_POPULATION_WORLDBANK_prod.csv", index=False)
-
-        # update GapMinder data (source GapMinder)
-        df_population_gapmidner_raw = pd.read_excel(f"{RAW_DATA_DIR}/population/GM-Population - Dataset - v7.xlsx",
-                                                    sheet_name="data-pop-gmv6-in-columns")
-        df_gapminder = GapMinderPerZoneAndCountryProcessor().run(df_population_gapmidner_raw, df_country)
-        df_gapminder.to_csv(f"{RESULTS_DIR}/DEMOGRAPHIC_POPULATION_GAPMINDER_prod.csv", index=False)
-        return df_population, df_gapminder
 
     def process_footprint_vs_territorial_data(self, df_country, df_population):
         # update footprint vs territorial
