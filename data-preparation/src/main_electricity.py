@@ -78,7 +78,7 @@ if __name__ == "__main__":
     df_elec_capacity = pd.read_csv(path_electricity_capacity)
     df_elec_capacity = df_elec_capacity.rename(columns={"Unnamed: 1" : "country"})
 
-    path_countries = os.path.join(current_dir, "../../data/raw/demographics/country_groupss.csv")
+    path_countries = os.path.join(current_dir, "../../data/raw/demographics/country_groups.csv")
     df_country = pd.read_csv(path_countries)
 
 
