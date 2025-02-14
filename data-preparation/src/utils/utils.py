@@ -1,7 +1,6 @@
 from utils.translation import CountryTranslatorFrenchToEnglish
 import pandas as pd
-import numpy as np
-import re
+
 
 def subtract(series1, series2):
     return series1 - series2
