@@ -6,7 +6,7 @@
   "scripts": {
     "heroku-postbuild": "yarn build",
     "start": "node ./server/dist/server.js",
-    "dev": "./node_modules/.bin/concurrently  \"cd server && yarn dev\" \"cd client && PORT=3001 npm run start\"",
+    "dev": "./node_modules/.bin/concurrently  \"cd server && yarn dev\" \"cd client && PORT=3001 yarn dev\"",
     "build": "yarn build-client && yarn build-server",
     "build-client": "cd client && yarn && yarn build",
     "build-server": "cd server && yarn && yarn build",
