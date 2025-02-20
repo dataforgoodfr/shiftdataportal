@@ -1,10 +1,9 @@
 import pandas as pd
-import numpy as np
 import sys
 
 sys.path.insert(0, r'C:\Users\HP\Desktop\shiftdataportal_data')
-from src.sdp_data.utils.translation import CountryTranslatorFrenchToEnglish
-from src.sdp_data.utils.utils import diff_evaluation
+from utils.translation import CountryTranslatorFrenchToEnglish
+from utils.utils import diff_evaluation
 
 
 # Class to update recent data
