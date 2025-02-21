@@ -88,7 +88,7 @@ const electricity: ElectricityResolvers = {
       const resRawQuery = db
         .knex(CAPACITY.__tableName)
         .select(CAPACITY.year, CAPACITY.energy_family, CAPACITY.group_type, CAPACITY.group_name)
-        .sum(CAPACITY.power)
+        .sum({ sum: CAPACITY.power})
         .whereIn(CAPACITY.energy_family, capacityEnergyFamilies)
         .andWhereBetween(CAPACITY.year, [yearStart, yearEnd])
         .andWhere(CAPACITY.group_name, groupName)
@@ -293,7 +293,7 @@ const electricity: ElectricityResolvers = {
       const resRawQuery = db
         .knex(CAPACITY.__tableName)
         .select(CAPACITY.year, CAPACITY.group_name)
-        .sum(CAPACITY.power)
+        .sum({ sum: CAPACITY.power})
         .whereIn(CAPACITY.group_name, groupNames)
         .andWhereBetween(CAPACITY.year, [yearStart, yearEnd])
         .groupBy(CAPACITY.year, CAPACITY.group_name)
