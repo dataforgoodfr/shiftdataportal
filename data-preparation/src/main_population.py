@@ -1,4 +1,4 @@
-from transformation.demographic.population import GapMinderPerZoneAndCountryProcessor, PopulationPerZoneAndCountryProcessor
+from transformation.demographic.population import GapMinderPerZoneAndCountryProcessor, WorldbankPopulationProcessor
 from transformation.demographic.worldbank_scrap import WorldBankScrapper
 from utils.format import StatisticsDataframeFormatter
 import os
@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     # Update Worldbank Population
     df_population_raw = WorldBankScrapper().run("population")
-    df_population_worldbank = PopulationPerZoneAndCountryProcessor().run(df_population_raw, df_country)
+    df_population_worldbank = WorldbankPopulationProcessor().run(df_population_raw, df_country)
     df_population_worldbank = StatisticsDataframeFormatter().select_and_sort_values(df_population_worldbank, "population")
     df_population_worldbank.to_csv(f"../../data/processed/demographics/DEMOGRAPHIC_POPULATION_WORLDBANK_prod.csv", index=False)
 
