@@ -72,13 +72,6 @@ export const CO2_CONSUMPTION_BASED_ACCOUNTING_footprint_vs_territorial_prod = {
   __tableName: "CO2_CONSUMPTION_BASED_ACCOUNTING_footprint_vs_territorial_prod"
 };
 
-export const country_multiselect_groups = {
-  group: "group",
-  country: "country",
-  country_only: "country_only",
-  __tableName: "country_multiselect_groups"
-};
-
 export const DATAPORTAL_UTILS_dataportal_sources_prod = {
   category: "category",
   body: "body",
@@ -323,13 +316,13 @@ export const OIL_EXTRAPOLATION_oil_prod_weo_extrapolated_prod = {
 };
 
 export const WORLD_ENERGY_HISTORY_electricity_capacity_prod = {
-  source: "source",
   group_type: "group_type",
   group_name: "group_name",
-  energy_family: "energy_family",
   year: "year",
-  power: "power",
+  energy_family: "energy_family",
   power_unit: "power_unit",
+  source: "source",
+  power: "power",
   __tableName: "WORLD_ENERGY_HISTORY_electricity_capacity_prod"
 };
 
@@ -367,4 +360,11 @@ export const WORLD_ENERGY_HISTORY_renewable_share_of_primary_energy_prod = {
   energy_unit: "energy_unit",
   source: "source",
   __tableName: "WORLD_ENERGY_HISTORY_renewable_share_of_primary_energy_prod"
+};
+
+export const country_multiselect_groups = {
+  group: "group",
+  country: "country",
+  country_only: "country_only",
+  __tableName: "country_multiselect_groups"
 };
