@@ -21,7 +21,7 @@
   "dependencies": {
     "apollo-server-express": "^2.10.1",
     "apollo-server-plugin-response-cache": "^0.3.11",
-    "better-sqlite3": "^9.6.0",
+    "better-sqlite3": "11.5",
     "body-parser": "^1.19.0",
     "csvtojson": "^2.0.10",
     "datasource-sql": "^1.1.1",
