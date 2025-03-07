@@ -46,8 +46,8 @@ jobs:
           name: Run Test
           command: yarn test
       - run:
-          name: Run typescript which is the same as running a build
-          command: yarn tsc
+          name: Build step
+          command: yarn build
 
   deploy-api:
     working_directory: ~/shiftdataportal
@@ -87,7 +87,7 @@ jobs:
           paths:
             - ./node_modules
       - run:
-          name: Run typescript which is the same as running a build
+          name: Build step
           command: yarn build
 
   deploy-front:
