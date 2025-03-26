@@ -1,6 +1,12 @@
 
 # data-preparation
 
+## Overview of data sources
+
+To obtain an overview of data displayed on the Shift data portal front, please run file "data-preparation/src/main_overview.py'.
+It will read all the data sources and list the start date, end date and number of countries available. It creates a new file
+"data-preparation/src/df_overview.xslx' containing the overview of the data sources.
+
 ## Sources
 
 - **WB**: World Bank Group
