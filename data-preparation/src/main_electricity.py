@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
         #Building paths
         current_dir = os.path.dirname(os.path.realpath(__file__))
-        path_countries = os.path.join(current_dir, "../../data/raw/demographics/country_groupss.csv")
+        path_countries = os.path.join(current_dir, "../../data/raw/demographics/country_groups.csv")
         df_country = pd.read_csv(path_countries)
 
         # Adding groups to the table
