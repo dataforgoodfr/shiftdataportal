@@ -23,8 +23,6 @@ class OpecFossilProvenReservesCleaner:
 
     @staticmethod
     def set_columns(df_gas_reserves):
-        df_gas_reserves.columns = df_gas_reserves.iloc[0]  # Use first row as a column
-        df_gas_reserves = df_gas_reserves[1:].reset_index(drop=True)  # Del this first row
         df_gas_reserves.rename(columns={df_gas_reserves.columns[0]: "country"}, inplace=True)  # Rename first column
         return df_gas_reserves
 
@@ -78,11 +76,10 @@ class OpecFossilProvenReservesCleaner:
         :return:
         """
         # load data
-        path_gas_reserves = os.path.join(os.getcwd(), "../../data/raw/gas/OPEC_GAS.xlsx")
-        df_gas_reserves = pd.read_excel(path_gas_reserves, skiprows=1)
+        path_gas_reserves = os.path.join(os.getcwd(), "../../data/raw/reserves/opec_proved_reserves_gas_2023.xlsx")
+        df_gas_reserves = pd.read_excel(path_gas_reserves)
 
         # prepare data
-        df_gas_reserves = self.drop_first_row(df_gas_reserves)
         df_gas_reserves = self.set_columns(df_gas_reserves)
         df_gas_reserves = self.drop_unnecessary_lines(df_gas_reserves)
         df_gas_reserves = self.translate_country(df_gas_reserves)
