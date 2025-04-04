@@ -4,31 +4,14 @@ from transformation.demographic.countries import StatisticsPerCountriesAndZonesJ
 # TODO - à revoir
 """
 -> Revue des valeurs manquantes "zone supprimées" pour PopulationCleaner.
--> ajouter des tests unitaires.
--> mutuliser le code entre GapMinderCleaner et 
 """
 
 
 class GapMinderPerZoneAndCountryProcessor:
 
     def __init__(self):
-        self.equivalence_dict = {'k': 1e3, 'M': 1e6, 'B': 1e9}
-        self.max_year = 2021
-
-    def dirty_string_to_int(self, dirty_string: str):
-        """
-        Cleans values such as 3.35M into 3350000.
-        :param dirty_string: (str) the string to convert in integer
-        :return:
-        """
-        dirty_string = str(dirty_string)
-        for key in self.equivalence_dict.keys():
-            if key in dirty_string:
-                dirty_string = dirty_string.replace(key, '')
-                units = float(dirty_string) * self.equivalence_dict[key]
-                return int(units)
-
-        return int(dirty_string)
+        self.list_countries_to_drop = ["africa", "asia", "europe", "americas", "Regions", "world"]
+        self.max_year = 2024
 
     @staticmethod
     def unstack_dataframe_to_serie(df: pd.DataFrame):
@@ -41,16 +24,15 @@ class GapMinderPerZoneAndCountryProcessor:
         Computes the total gapminder for each year, each country and each geographic zone.
         :return:
         """
-        # clean the numbers
+        # clean columns and rows
         print("\n----- compute GapMinder for each country and each zone")
-        df_gapminder = df_gapminder.set_index("country")
-        df_gapminder = df_gapminder.applymap(lambda element: self.dirty_string_to_int(element))
+        df_gapminder = df_gapminder.set_index("name").drop("geo", axis=1)
+        df_gapminder = df_gapminder.loc[~df_gapminder.index.isin(self.list_countries_to_drop)]
 
         # unstack to a unique pandas serie and filter time
         df_gapminder = self.unstack_dataframe_to_serie(df_gapminder)
         df_gapminder["year"] = pd.to_numeric(df_gapminder["year"])
         df_gapminder = df_gapminder[(df_gapminder["year"].astype(int) <= int(self.max_year)) & (df_gapminder['year'].notnull())]
-
 
         # convert countries from french to english
         df_gapminder["country"] = CountryTranslatorFrenchToEnglish().run(df_gapminder["country"], raise_errors=False)
@@ -64,7 +46,7 @@ class GapMinderPerZoneAndCountryProcessor:
         return df_gapminder_per_zone_and_countries
 
 
-class PopulationPerZoneAndCountryProcessor:
+class WorldbankPopulationProcessor:
 
     def run(self, df_population: pd.DataFrame, df_country: pd.DataFrame) -> pd.DataFrame:
         """
