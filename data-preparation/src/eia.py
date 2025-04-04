@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import json
 import numpy as np
-import re
+import time
 
 
 API_KEY = "ylfmO1udIGtPIpZbz2UNcC5jwSNGuK4a3Vsl6ItL"
@@ -18,12 +18,20 @@ def api_call(country_code, url):
     result = requests.get(url_temp).content
 
     # Storing and formatting data into a dataframe
-    df_eia = pd.DataFrame(json.loads(result)['response']['data'])
-    df_eia = df_eia[['period', 'productName', 'countryRegionName', 'value']]
-    df_eia.columns = ['year', 'energy_family', 'country', 'power']
-    df_eia['power'] = np.where(df_eia['power'].isin(["NA", '--', 'ie']), np.NaN, df_eia['power'])
+    try:
+        df_eia = pd.DataFrame(json.loads(result)['response']['data'])
+        df_eia = df_eia[['period', 'productName', 'countryRegionName', 'value']]
+        df_eia.columns = ['year', 'energy_family', 'country', 'power']
+        df_eia['power'] = np.where(df_eia['power'].isin(["NA", '--', 'ie']), np.NaN, df_eia['power'])
 
-    return df_eia
+        time.sleep(5)
+
+        return df_eia
+    
+    except:
+        print(f'Le code pays "{country_code}" renvoie un résultat "Null".')
+
+    
 
 
 def get_data(url):
@@ -31,7 +39,7 @@ def get_data(url):
     # Listing country codes
     country_codes = ['ABW', 'AFG', 'AGO', 'ALB', 'ARE', 'ARG', 'ARM', 'ASM', 'ATG', 'AUS', 'AUT', 'AZE', 'BDI', 'BEL', 'BEN', 'BFA', 'BGD', 'BGR', 'BHR', 'BHS',
         'BIH', 'BLR', 'BLZ', 'BMU', 'BOL', 'BRA', 'BRB', 'BRN', 'BTN', 'BWA', 'CAF', 'CAN', 'CHE', 'CHL', 'CHN', 'CIV', 'CMR', 'COD', 'COG', 'COK', 'COL', 'COM',
-        'CPV', 'CRI', 'CSK', 'CUB', 'CYM', 'CYP', 'CZE', 'DEU', 'DJI', 'DMA', 'DNK', 'DOM', 'DZA', 'ECU', 'EGY', 'ERI', 'ESP', 'EST', 'ETH', 'FIN', 'FJI', 'FLK',
+        'CPV', 'CRI', 'CSK', 'CUB', 'CYM', 'CYP', 'CZE', 'DEU', "DEUW", "DDR", 'DJI', 'DMA', 'DNK', 'DOM', 'DZA', 'ECU', 'EGY', 'ERI', 'ESP', 'EST', 'ETH', 'FIN', 'FJI', 'FLK',
         'FRA', 'FRO', 'FSM', 'GAB', 'GBR', 'GEO', 'GHA', 'GIB', 'GIN', 'GLP', 'GMB', 'GNB', 'GNQ', 'GRC', 'GRD', 'GRL', 'GTM', 'GUF', 'GUM', 'GUY', 'HITZ', 'HKG',
         'HND', 'HRV', 'HTI', 'HUN', 'IDN', 'IND', 'IRL', 'IRN', 'IRQ', 'ISL', 'ISR', 'ITA', 'JAM', 'JOR', 'JPN', 'KAZ', 'KEN', 'KGZ', 'KHM', 'KIR', 'KNA', 'KOR',
         'KWT', 'LAO', 'LBN', 'LBR', 'LBY', 'LCA', 'LKA', 'LSO', 'LTU', 'LUX', 'LVA', 'MAC', 'MAR', 'MDA', 'MDG', 'MDV', 'MEX', 'MKD', 'MLI', 'MLT', 'MMR', 'MNE',

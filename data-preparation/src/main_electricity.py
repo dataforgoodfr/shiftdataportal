@@ -12,11 +12,13 @@ if __name__ == "__main__":
 
     electricity_capacity_infos = {"url":"https://api.eia.gov/v2/international/data/?frequency=annual&api_key=APIKEY&data[0]=value&facets[activityId][]=7&facets[productId][]=27&facets[productId][]=28&facets[productId][]=33&facets[productId][]=35&facets[productId][]=36&facets[productId][]=37&facets[productId][]=38&facets[productId][]=82&facets[countryRegionId][]=countrycode&facets[unit][]=MK&start=1949&end=2024&sort[0][column]=period&sort[0][direction]=desc&offset=0&length=5000",
                                   "unit":"GW",
-                                  "export_file":"WORLD_ENERGY_HISTORY_electricity_capacity_prod.csv"}
+                                  "export_file":"WORLD_ENERGY_HISTORY_electricity_capacity_prod.csv",
+                                  "category":"capacity"}
     
     electricity_generation_infos = {"url":"https://api.eia.gov/v2/international/data/?frequency=annual&api_key=APIKEY&data[0]=value&facets[activityId][]=12&facets[productId][]=27&facets[productId][]=28&facets[productId][]=33&facets[productId][]=35&facets[productId][]=36&facets[productId][]=37&facets[productId][]=38&facets[productId][]=82&facets[countryRegionId][]=countrycode&facets[unit][]=BKWH&start=1949&end=2024&sort[0][column]=period&sort[0][direction]=desc&offset=0&length=10000",
                                   "unit":"TW",
-                                  "export_file":"WORLD_ENERGY_HISTORY_electricity_generation_prod.csv"}
+                                  "export_file":"WORLD_ENERGY_HISTORY_electricity_generation_prod.csv",
+                                  "category":"generation"}
 
     
 
@@ -36,6 +38,7 @@ if __name__ == "__main__":
         # Translating countries
         df_elec['country'] = df_elec['country'].str.strip()
         df_elec['country'] = CountryTranslatorFrenchToEnglish().run(df_elec['country'], raise_errors=True)
+        df_elec = df_elec.groupby(['country', 'year', 'energy_family']).sum().reset_index()
 
         #Building paths
         current_dir = os.path.dirname(os.path.realpath(__file__))
@@ -60,7 +63,8 @@ if __name__ == "__main__":
         # Formating the dataset
         df_elec = StatisticsDataframeFormatter.select_and_sort_values(df=df_elec, 
                                                                       col_statistics='power')
-
+        
+        print(f'Electricity {elem["category"]} Check : OK')
 
         #### Exporting to csv ####
         df_elec.to_csv(os.path.join(current_dir, f"../../data/processed/electricity/{elem['export_file']}"), index=False)
