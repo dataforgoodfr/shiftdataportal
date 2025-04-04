@@ -25,18 +25,26 @@ RATE_MBD_TO_MTOE = 51.1
 
 
 
-## get all csv file names 
 def find_csv_filenames( path_to_dir : str ) -> list:
+    """
+    Récupère la liste des csvs d'un dossier.
+    """
+
     suffix = ".csv"
     filenames = os.listdir(path_to_dir)
     return [ os.path.join(path_to_dir, filename) for filename in filenames if filename.endswith( suffix ) ]
 
 def transform_new_data(data : pd.DataFrame , energy_family : str):
+    """
+    Transfome les nouvelles données; ajoute les colomnes energy_family et energy_unit, enlève les colomnes inutiles.
+
+    """
     
     #### get the unit for the energy_family
     energy = data["Unnamed: 1"].iloc[0]
     unit = re.search(r"\((.*?)\)", energy).group(1) if re.search(r"\((.*?)\)", energy) else ""
-
+    if energy_family == "Gas":
+        print(unit)
     #### setting the energy_family and unit columns
     data["energy_family"] = energy_family
     data["energy_unit"] = "Mtoe" if unit == "MMTOE" else unit 
@@ -50,6 +58,10 @@ def transform_new_data(data : pd.DataFrame , energy_family : str):
 
 
 def rearrange_data(data : pd.DataFrame):
+    """
+    Effectue le pivot des données (de colomnes années à colomne energy)
+
+    """
     data = data.melt(id_vars=["energy_family","country","energy_unit"],var_name='year',value_name="energy")
     data["year"] = data["year"].apply(int)
     return data
@@ -85,12 +97,13 @@ if __name__ == "__main__":
 
     production_eia.energy = pd.to_numeric(production_eia.energy, errors ="coerce")
     available_production_eia =production_eia.dropna()
-    available_production_eia.country = translator.run(available_production_eia.country, raise_errors=True)
+    available_production_eia.country = translator.run(available_production_eia.country, raise_errors=False)
 
     ### Conversions
     available_production_eia.loc[available_production_eia.energy_unit == "Mb/d",["energy"]] =available_production_eia.loc[available_production_eia.energy_unit == "Mb/d",["energy"]] * RATE_MBD_TO_MTOE
     available_production_eia.loc[available_production_eia.energy_unit == "quad Btu",["energy"]] = available_production_eia.loc[available_production_eia.energy_unit == "quad Btu",["energy"]] * RATE_QUAD_TO_MTOE
-    available_production_eia.energy_unit = "Mtoe"
+    
+    available_production_eia.energy_unit = available_production_eia.energy_unit.fillna("Mtoe")
 
     list_col_group_by = ['group_type', 'group_name', 'energy_family', 'year']
     dict_agg = {"energy": "sum"}
@@ -98,8 +111,9 @@ if __name__ == "__main__":
 
     available_production_eia["type"] = "Production"
     available_production_eia["source"] = "eia"
+    available_production_eia.loc[:, ["energy_unit"]] = "Mtoe"
 
-    ### Getting the data from 1980 until 2016 from the portal 
+    ### Getting the data from 1980 until 2016 from the actual portal 
     primary_energy_until_2016 = pd.read_csv(base_data_path)
     production_until_2016 = primary_energy_until_2016[primary_energy_until_2016.type == "Production"].copy()
     compared =  primary_energy_until_2016.merge(available_production_eia, on = ["energy_family","year","group_type","group_name","energy_unit","type"], suffixes=("_base","_new"), how ="outer")
