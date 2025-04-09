@@ -124,5 +124,5 @@ if __name__ == "__main__":
 
     # export to CSV
     path_export_gas = os.path.join(current_dir,
-                                   "../../data/processed/gas/FOSSIL_RESERVES_bp_fossil_with_zones_prod_new.csv")
+                                   "../../data/processed/gas/FOSSIL_RESERVES_bp_fossil_with_zones_prod.csv")
     df_gas_reserves.to_csv(path_export_gas, index=False)
