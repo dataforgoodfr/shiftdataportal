@@ -122,3 +122,4 @@ if __name__ == "__main__":
     compared = compared.drop(columns=["source_new", "source_base", "energy_new", "energy_base"])
     compared.to_csv(goal_path)
 
+# not in previous data : Palau , andorra , Monaco, San Marino, Liechstenstein, Palestine 
