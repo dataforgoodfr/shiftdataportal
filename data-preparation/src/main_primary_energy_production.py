@@ -12,7 +12,7 @@ import os
 
 PROD_RELATIVE_PATH = "../../data/raw/primary_energy/production"
 BASE_PROD_RELATIVE_PATH = (
-    "../../data/raw/primary_energy/OLD_primary_energy_prod_cons.csv"
+    "../../data/raw/primary_energy/primary_energy_etemad_and_luciani.csv"
 )
 GOAL_RELATIVE_PATH = "../../server/data/WORLD_ENERGY_HISTORY_primary_energy_prod.csv"
 ENERGY_SOURCES = [
@@ -20,7 +20,7 @@ ENERGY_SOURCES = [
     "Gas",
     "Coal",
     "Nuclear",
-    "Solar, Tide, Wave Fuel Cell",
+    "Solar, Tide, Wave, Fuel Cell",
     "Biomass and Waste",
     "Geothermal",
     "Wind",
@@ -181,6 +181,7 @@ if __name__ == "__main__":
     compared = compared.drop(
         columns=["source_new", "source_base", "energy_new", "energy_base"]
     )
-    compared.to_csv(goal_path)
+    
+    compared.to_csv(goal_path,index=False)
 
 # not in previous data : Palau , andorra , Monaco, San Marino, Liechstenstein, Palestine
