@@ -27,6 +27,7 @@ if __name__ == "__main__":
 
         ### Requesting the API
         df_elec = get_data(elem['url'])
+        df_elec = df_elec.drop_duplicates()
         df_elec = df_elec.dropna()
         
 
