@@ -15,9 +15,9 @@ if __name__ == "__main__":
                                   "export_file":"WORLD_ENERGY_HISTORY_electricity_capacity_prod.csv",
                                   "category":"capacity"}
     
-    electricity_generation_infos = {"url":"https://api.eia.gov/v2/international/data/?frequency=annual&api_key=APIKEY&data[0]=value&facets[activityId][]=12&facets[productId][]=27&facets[productId][]=28&facets[productId][]=33&facets[productId][]=35&facets[productId][]=36&facets[productId][]=37&facets[productId][]=38&facets[productId][]=82&facets[countryRegionId][]=countrycode&facets[unit][]=BKWH&start=1949&end=2024&sort[0][column]=period&sort[0][direction]=desc&offset=0&length=10000",
-                                  "unit":"TW",
-                                  "export_file":"WORLD_ENERGY_HISTORY_electricity_generation_prod.csv",
+    electricity_generation_infos = {"url":"https://api.eia.gov/v2/international/data/?frequency=annual&api_key=APIKEY&data[0]=value&facets[activityId][]=12&facets[productId][]=116&facets[productId][]=117&facets[productId][]=27&facets[productId][]=30&facets[productId][]=31&facets[productId][]=32&facets[productId][]=33&facets[productId][]=35&facets[productId][]=37&facets[productId][]=38&facets[countryRegionId][]=countrycode&facets[unit][]=BKWH&sort[0][column]=period&sort[0][direction]=desc&offset=0&length=5000",
+                                  "unit":"TWh",
+                                  "export_file":"IEA_API_electricity_by_energy_family_prepared_prod.csv",
                                   "category":"generation"}
 
     
@@ -64,6 +64,9 @@ if __name__ == "__main__":
         # Formating the dataset
         df_elec = StatisticsDataframeFormatter.select_and_sort_values(df=df_elec, 
                                                                       col_statistics='power')
+        
+        if elem['category'] == "generation":
+            df_elec.columns = ['group_type', 'group_name', 'year', 'energy_family', 'final_energy_unit', 'source', 'final_energy']
         
         print(f'Electricity {elem["category"]} Check : OK')
 
