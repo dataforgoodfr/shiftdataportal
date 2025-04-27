@@ -16,6 +16,7 @@ if __name__ == "__main__":
     df_population_raw = WorldBankScrapper().run("population")
     df_population_worldbank = WorldbankPopulationProcessor().run(df_population_raw, df_country)
     df_population_worldbank = StatisticsDataframeFormatter().select_and_sort_values(df_population_worldbank, "population")
+    df_population_worldbank["source"] = "Worldbank"
     df_population_worldbank.to_csv(f"../../data/processed/demographics/DEMOGRAPHIC_POPULATION_WORLDBANK_prod.csv", index=False)
 
     # update Gapminder Population
@@ -24,4 +25,5 @@ if __name__ == "__main__":
 
     df_gapminder = GapMinderPerZoneAndCountryProcessor().run(df_population_gapmidner_raw, df_country)
     df_gapminder = StatisticsDataframeFormatter().select_and_sort_values(df_gapminder, "population")
+    df_gapminder["source"] = "Gapminder"
     df_gapminder.to_csv(f"../../data/processed/demographics/DEMOGRAPHIC_POPULATION_GAPMINDER_prod.csv", index=False)
