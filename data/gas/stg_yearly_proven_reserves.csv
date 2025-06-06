@@ -1,0 +1,4232 @@
+group_type,group_name,year,energy_source,proven_reserves_unit,proven_reserves
+country,Algeria,1960,Gas,Bcm,1300.0
+country,Algeria,1961,Gas,Bcm,1415.85
+country,Algeria,1962,Gas,Bcm,1500.0
+country,Algeria,1963,Gas,Bcm,1600.0
+country,Algeria,1964,Gas,Bcm,1699.02
+country,Algeria,1965,Gas,Bcm,1840.61
+country,Algeria,1966,Gas,Bcm,3964.88
+country,Algeria,1967,Gas,Bcm,3964.88
+country,Algeria,1968,Gas,Bcm,3959.0
+country,Algeria,1969,Gas,Bcm,3952.0
+country,Algeria,1970,Gas,Bcm,3944.0
+country,Algeria,1971,Gas,Bcm,3935.0
+country,Algeria,1972,Gas,Bcm,3922.0
+country,Algeria,1973,Gas,Bcm,3907.0
+country,Algeria,1974,Gas,Bcm,3886.0
+country,Algeria,1975,Gas,Bcm,3867.0
+country,Algeria,1976,Gas,Bcm,3846.0
+country,Algeria,1977,Gas,Bcm,3822.0
+country,Algeria,1978,Gas,Bcm,3796.0
+country,Algeria,1979,Gas,Bcm,3764.0
+country,Algeria,1980,Gas,Bcm,3721.0
+country,Algeria,1981,Gas,Bcm,3678.0
+country,Algeria,1982,Gas,Bcm,3613.0
+country,Algeria,1983,Gas,Bcm,3531.0
+country,Algeria,1984,Gas,Bcm,3442.0
+country,Algeria,1985,Gas,Bcm,3349.0
+country,Algeria,1986,Gas,Bcm,3259.0
+country,Algeria,1987,Gas,Bcm,3163.0
+country,Algeria,1988,Gas,Bcm,3234.0
+country,Algeria,1989,Gas,Bcm,3250.0
+country,Algeria,1990,Gas,Bcm,3300.0
+country,Algeria,1991,Gas,Bcm,3626.0
+country,Algeria,1992,Gas,Bcm,3650.0
+country,Algeria,1993,Gas,Bcm,3700.0
+country,Algeria,1994,Gas,Bcm,2963.0
+country,Algeria,1995,Gas,Bcm,3690.0
+country,Algeria,1996,Gas,Bcm,3700.0
+country,Algeria,1997,Gas,Bcm,4077.0
+country,Algeria,1998,Gas,Bcm,4077.0
+country,Algeria,1999,Gas,Bcm,4520.0
+country,Algeria,2000,Gas,Bcm,4523.0
+country,Algeria,2001,Gas,Bcm,4523.0
+country,Algeria,2002,Gas,Bcm,4523.0
+country,Algeria,2003,Gas,Bcm,4545.0
+country,Algeria,2004,Gas,Bcm,4545.0
+country,Algeria,2005,Gas,Bcm,4504.2
+country,Algeria,2006,Gas,Bcm,4504.2
+country,Algeria,2007,Gas,Bcm,4504.2
+country,Algeria,2008,Gas,Bcm,4504.2
+country,Algeria,2009,Gas,Bcm,4504.0
+country,Algeria,2010,Gas,Bcm,4504.0
+country,Algeria,2011,Gas,Bcm,4504.0
+country,Algeria,2012,Gas,Bcm,4504.0
+country,Algeria,2013,Gas,Bcm,4504.0
+country,Algeria,2014,Gas,Bcm,4504.0
+country,Algeria,2015,Gas,Bcm,4504.0
+country,Algeria,2016,Gas,Bcm,4504.0
+country,Algeria,2017,Gas,Bcm,4504.0
+country,Algeria,2018,Gas,Bcm,4504.0
+country,Algeria,2019,Gas,Bcm,4504.0
+country,Algeria,2020,Gas,Bcm,4504.0
+country,Algeria,2021,Gas,Bcm,4504.0
+country,Algeria,2022,Gas,Bcm,4504.0
+country,Algeria,2023,Gas,Bcm,4504.0
+country,Angola,1960,Gas,Bcm,0.0
+country,Angola,1961,Gas,Bcm,0.0
+country,Angola,1962,Gas,Bcm,0.0
+country,Angola,1963,Gas,Bcm,0.0
+country,Angola,1964,Gas,Bcm,0.0
+country,Angola,1965,Gas,Bcm,0.0
+country,Angola,1966,Gas,Bcm,2.83
+country,Angola,1967,Gas,Bcm,4.25
+country,Angola,1968,Gas,Bcm,15.0
+country,Angola,1969,Gas,Bcm,15.0
+country,Angola,1970,Gas,Bcm,42.0
+country,Angola,1971,Gas,Bcm,42.0
+country,Angola,1972,Gas,Bcm,42.0
+country,Angola,1973,Gas,Bcm,42.0
+country,Angola,1974,Gas,Bcm,42.0
+country,Angola,1975,Gas,Bcm,42.0
+country,Angola,1976,Gas,Bcm,42.0
+country,Angola,1977,Gas,Bcm,47.0
+country,Angola,1978,Gas,Bcm,47.0
+country,Angola,1979,Gas,Bcm,45.0
+country,Angola,1980,Gas,Bcm,43.0
+country,Angola,1981,Gas,Bcm,43.0
+country,Angola,1982,Gas,Bcm,51.0
+country,Angola,1983,Gas,Bcm,53.0
+country,Angola,1984,Gas,Bcm,55.0
+country,Angola,1985,Gas,Bcm,52.0
+country,Angola,1986,Gas,Bcm,50.0
+country,Angola,1987,Gas,Bcm,54.0
+country,Angola,1988,Gas,Bcm,49.0
+country,Angola,1989,Gas,Bcm,51.0
+country,Angola,1990,Gas,Bcm,50.0
+country,Angola,1991,Gas,Bcm,49.0
+country,Angola,1992,Gas,Bcm,51.0
+country,Angola,1993,Gas,Bcm,48.0
+country,Angola,1994,Gas,Bcm,51.015306122449
+country,Angola,1995,Gas,Bcm,49.0
+country,Angola,1996,Gas,Bcm,49.0
+country,Angola,1997,Gas,Bcm,46.0
+country,Angola,1998,Gas,Bcm,48.0
+country,Angola,1999,Gas,Bcm,60.0
+country,Angola,2000,Gas,Bcm,269.0
+country,Angola,2001,Gas,Bcm,269.0
+country,Angola,2002,Gas,Bcm,269.0
+country,Angola,2003,Gas,Bcm,269.0
+country,Angola,2004,Gas,Bcm,270.0
+country,Angola,2005,Gas,Bcm,270.0
+country,Angola,2006,Gas,Bcm,270.0
+country,Angola,2007,Gas,Bcm,270.0
+country,Angola,2008,Gas,Bcm,272.0
+country,Angola,2009,Gas,Bcm,275.0
+country,Angola,2010,Gas,Bcm,275.0
+country,Angola,2011,Gas,Bcm,275.0
+country,Angola,2012,Gas,Bcm,275.0
+country,Angola,2013,Gas,Bcm,275.0
+country,Angola,2014,Gas,Bcm,308.1
+country,Angola,2015,Gas,Bcm,316.025267
+country,Angola,2016,Gas,Bcm,439.5061599
+country,Angola,2017,Gas,Bcm,422.288924634767
+country,Angola,2018,Gas,Bcm,382.6386166514556
+country,Angola,2019,Gas,Bcm,343.3582166514556
+country,Angola,2020,Gas,Bcm,300.865726
+country,Angola,2021,Gas,Bcm,300.9555191704809
+country,Angola,2022,Gas,Bcm,128.95
+country,Angola,2023,Gas,Bcm,55.2677516462841
+country,Argentina,1960,Gas,Bcm,100.0
+country,Argentina,1961,Gas,Bcm,141.58333333333331
+country,Argentina,1962,Gas,Bcm,141.66666666666663
+country,Argentina,1963,Gas,Bcm,145.8333333333333
+country,Argentina,1964,Gas,Bcm,153.3833333333333
+country,Argentina,1965,Gas,Bcm,188.78333333333327
+country,Argentina,1966,Gas,Bcm,188.79999999999995
+country,Argentina,1967,Gas,Bcm,187.8583333333333
+country,Argentina,1968,Gas,Bcm,200.60833333333323
+country,Argentina,1969,Gas,Bcm,188.7999999999999
+country,Argentina,1970,Gas,Bcm,207.6666666666665
+country,Argentina,1971,Gas,Bcm,179.36666666666656
+country,Argentina,1972,Gas,Bcm,207.6666666666665
+country,Argentina,1973,Gas,Bcm,188.79999999999987
+country,Argentina,1974,Gas,Bcm,176.9999999999999
+country,Argentina,1975,Gas,Bcm,201.0
+country,Argentina,1976,Gas,Bcm,202.0
+country,Argentina,1977,Gas,Bcm,250.0
+country,Argentina,1978,Gas,Bcm,339.0
+country,Argentina,1979,Gas,Bcm,574.0
+country,Argentina,1980,Gas,Bcm,641.0
+country,Argentina,1981,Gas,Bcm,648.0
+country,Argentina,1982,Gas,Bcm,692.0
+country,Argentina,1983,Gas,Bcm,679.0
+country,Argentina,1984,Gas,Bcm,668.0
+country,Argentina,1985,Gas,Bcm,681.0
+country,Argentina,1986,Gas,Bcm,671.0
+country,Argentina,1987,Gas,Bcm,693.0
+country,Argentina,1988,Gas,Bcm,773.0
+country,Argentina,1989,Gas,Bcm,671.0
+country,Argentina,1990,Gas,Bcm,660.0
+country,Argentina,1991,Gas,Bcm,643.0
+country,Argentina,1992,Gas,Bcm,541.0
+country,Argentina,1993,Gas,Bcm,517.0
+country,Argentina,1994,Gas,Bcm,535.0
+country,Argentina,1995,Gas,Bcm,619.0
+country,Argentina,1996,Gas,Bcm,642.0
+country,Argentina,1997,Gas,Bcm,684.0
+country,Argentina,1998,Gas,Bcm,687.0
+country,Argentina,1999,Gas,Bcm,729.0
+country,Argentina,2000,Gas,Bcm,778.0
+country,Argentina,2001,Gas,Bcm,764.0
+country,Argentina,2002,Gas,Bcm,664.0
+country,Argentina,2003,Gas,Bcm,612.0
+country,Argentina,2004,Gas,Bcm,542.0
+country,Argentina,2005,Gas,Bcm,439.0
+country,Argentina,2006,Gas,Bcm,446.0
+country,Argentina,2007,Gas,Bcm,442.0
+country,Argentina,2008,Gas,Bcm,399.0
+country,Argentina,2009,Gas,Bcm,379.0
+country,Argentina,2010,Gas,Bcm,359.0
+country,Argentina,2011,Gas,Bcm,333.0
+country,Argentina,2012,Gas,Bcm,316.0
+country,Argentina,2013,Gas,Bcm,328.0
+country,Argentina,2014,Gas,Bcm,332.0
+country,Argentina,2015,Gas,Bcm,350.0
+country,Argentina,2016,Gas,Bcm,337.0
+country,Argentina,2017,Gas,Bcm,355.0
+country,Argentina,2018,Gas,Bcm,372.0
+country,Argentina,2019,Gas,Bcm,400.0
+country,Argentina,2020,Gas,Bcm,376.0
+country,Argentina,2021,Gas,Bcm,392.0
+country,Argentina,2022,Gas,Bcm,437.0
+country,Argentina,2023,Gas,Bcm,470.1712
+country,Australia,1960,Gas,Bcm,0.0
+country,Australia,1961,Gas,Bcm,0.0
+country,Australia,1962,Gas,Bcm,0.2
+country,Australia,1963,Gas,Bcm,0.6
+country,Australia,1964,Gas,Bcm,11.9
+country,Australia,1965,Gas,Bcm,26.0
+country,Australia,1966,Gas,Bcm,27.1
+country,Australia,1967,Gas,Bcm,45.2
+country,Australia,1968,Gas,Bcm,57.3
+country,Australia,1969,Gas,Bcm,196.0
+country,Australia,1970,Gas,Bcm,286.0
+country,Australia,1971,Gas,Bcm,384.0
+country,Australia,1972,Gas,Bcm,474.0
+country,Australia,1973,Gas,Bcm,564.0
+country,Australia,1974,Gas,Bcm,651.0
+country,Australia,1975,Gas,Bcm,624.0
+country,Australia,1976,Gas,Bcm,611.0
+country,Australia,1977,Gas,Bcm,614.0
+country,Australia,1978,Gas,Bcm,618.0
+country,Australia,1979,Gas,Bcm,619.0
+country,Australia,1980,Gas,Bcm,620.0
+country,Australia,1981,Gas,Bcm,641.0
+country,Australia,1982,Gas,Bcm,641.0
+country,Australia,1983,Gas,Bcm,629.0
+country,Australia,1984,Gas,Bcm,689.0
+country,Australia,1985,Gas,Bcm,709.0
+country,Australia,1986,Gas,Bcm,902.0
+country,Australia,1987,Gas,Bcm,1069.0
+country,Australia,1988,Gas,Bcm,1033.0
+country,Australia,1989,Gas,Bcm,955.0
+country,Australia,1990,Gas,Bcm,927.0
+country,Australia,1991,Gas,Bcm,950.0
+country,Australia,1992,Gas,Bcm,1006.0
+country,Australia,1993,Gas,Bcm,992.0
+country,Australia,1994,Gas,Bcm,1292.0
+country,Australia,1995,Gas,Bcm,1264.0
+country,Australia,1996,Gas,Bcm,1360.0
+country,Australia,1997,Gas,Bcm,1494.0
+country,Australia,1998,Gas,Bcm,1989.0
+country,Australia,1999,Gas,Bcm,1989.0
+country,Australia,2000,Gas,Bcm,2203.0
+country,Australia,2001,Gas,Bcm,2667.0
+country,Australia,2002,Gas,Bcm,2528.0
+country,Australia,2003,Gas,Bcm,2462.0
+country,Australia,2004,Gas,Bcm,2587.0
+country,Australia,2005,Gas,Bcm,2428.0
+country,Australia,2006,Gas,Bcm,2421.0
+country,Australia,2007,Gas,Bcm,2362.0
+country,Australia,2008,Gas,Bcm,3569.0
+country,Australia,2009,Gas,Bcm,3594.0
+country,Australia,2010,Gas,Bcm,3759.0
+country,Australia,2011,Gas,Bcm,3730.0
+country,Australia,2012,Gas,Bcm,3727.0
+country,Australia,2013,Gas,Bcm,3769.0
+country,Australia,2014,Gas,Bcm,3215.0
+country,Australia,2015,Gas,Bcm,3205.0
+country,Australia,2016,Gas,Bcm,3193.0
+country,Australia,2017,Gas,Bcm,3193.0
+country,Australia,2018,Gas,Bcm,3193.0
+country,Australia,2019,Gas,Bcm,2846.0
+country,Australia,2020,Gas,Bcm,2844.0
+country,Australia,2021,Gas,Bcm,2844.0
+country,Australia,2022,Gas,Bcm,2844.0
+country,Australia,2023,Gas,Bcm,2844.0
+country,Azerbaijan,1997,Gas,Bcm,331.0
+country,Azerbaijan,1998,Gas,Bcm,499.0
+country,Azerbaijan,1999,Gas,Bcm,499.0
+country,Azerbaijan,2000,Gas,Bcm,499.0
+country,Azerbaijan,2001,Gas,Bcm,499.0
+country,Azerbaijan,2002,Gas,Bcm,499.0
+country,Azerbaijan,2003,Gas,Bcm,499.0
+country,Azerbaijan,2004,Gas,Bcm,499.0
+country,Azerbaijan,2005,Gas,Bcm,499.0
+country,Azerbaijan,2006,Gas,Bcm,503.0
+country,Azerbaijan,2007,Gas,Bcm,532.0
+country,Azerbaijan,2008,Gas,Bcm,513.0
+country,Azerbaijan,2009,Gas,Bcm,515.0
+country,Azerbaijan,2010,Gas,Bcm,515.0
+country,Azerbaijan,2011,Gas,Bcm,515.0
+country,Azerbaijan,2012,Gas,Bcm,508.0
+country,Azerbaijan,2013,Gas,Bcm,675.0
+country,Azerbaijan,2014,Gas,Bcm,665.0
+country,Azerbaijan,2015,Gas,Bcm,665.0
+country,Azerbaijan,2016,Gas,Bcm,665.0
+country,Azerbaijan,2017,Gas,Bcm,1074.0
+country,Azerbaijan,2018,Gas,Bcm,1435.0
+country,Azerbaijan,2019,Gas,Bcm,1917.0
+country,Azerbaijan,2020,Gas,Bcm,1917.0
+country,Azerbaijan,2021,Gas,Bcm,1917.0
+country,Azerbaijan,2022,Gas,Bcm,1917.0
+country,Azerbaijan,2023,Gas,Bcm,1917.0
+country,Bangladesh,1960,Gas,Bcm,0.0
+country,Bangladesh,1961,Gas,Bcm,0.0
+country,Bangladesh,1962,Gas,Bcm,0.0
+country,Bangladesh,1963,Gas,Bcm,0.0
+country,Bangladesh,1964,Gas,Bcm,0.0
+country,Bangladesh,1965,Gas,Bcm,0.0
+country,Bangladesh,1966,Gas,Bcm,0.0
+country,Bangladesh,1967,Gas,Bcm,0.0
+country,Bangladesh,1968,Gas,Bcm,0.0
+country,Bangladesh,1969,Gas,Bcm,0.0
+country,Bangladesh,1970,Gas,Bcm,0.0
+country,Bangladesh,1971,Gas,Bcm,0.0
+country,Bangladesh,1972,Gas,Bcm,226.56
+country,Bangladesh,1973,Gas,Bcm,226.56
+country,Bangladesh,1974,Gas,Bcm,250.0
+country,Bangladesh,1975,Gas,Bcm,250.0
+country,Bangladesh,1976,Gas,Bcm,250.0
+country,Bangladesh,1977,Gas,Bcm,250.0
+country,Bangladesh,1978,Gas,Bcm,265.0
+country,Bangladesh,1979,Gas,Bcm,255.0
+country,Bangladesh,1980,Gas,Bcm,286.0
+country,Bangladesh,1981,Gas,Bcm,317.0
+country,Bangladesh,1982,Gas,Bcm,339.0
+country,Bangladesh,1983,Gas,Bcm,311.0
+country,Bangladesh,1984,Gas,Bcm,353.0
+country,Bangladesh,1985,Gas,Bcm,353.0
+country,Bangladesh,1986,Gas,Bcm,354.0
+country,Bangladesh,1987,Gas,Bcm,354.0
+country,Bangladesh,1988,Gas,Bcm,350.0
+country,Bangladesh,1989,Gas,Bcm,725.0
+country,Bangladesh,1990,Gas,Bcm,725.0
+country,Bangladesh,1991,Gas,Bcm,720.0
+country,Bangladesh,1992,Gas,Bcm,303.0
+country,Bangladesh,1993,Gas,Bcm,297.0
+country,Bangladesh,1994,Gas,Bcm,301.0
+country,Bangladesh,1995,Gas,Bcm,272.0
+country,Bangladesh,1996,Gas,Bcm,300.0
+country,Bangladesh,1997,Gas,Bcm,297.0
+country,Bangladesh,1998,Gas,Bcm,297.0
+country,Bangladesh,1999,Gas,Bcm,323.0
+country,Bangladesh,2000,Gas,Bcm,306.0
+country,Bangladesh,2001,Gas,Bcm,340.0
+country,Bangladesh,2002,Gas,Bcm,340.0
+country,Bangladesh,2003,Gas,Bcm,433.0
+country,Bangladesh,2004,Gas,Bcm,422.0
+country,Bangladesh,2005,Gas,Bcm,407.0
+country,Bangladesh,2006,Gas,Bcm,383.0
+country,Bangladesh,2007,Gas,Bcm,374.0
+country,Bangladesh,2008,Gas,Bcm,344.0
+country,Bangladesh,2009,Gas,Bcm,364.0
+country,Bangladesh,2010,Gas,Bcm,354.0
+country,Bangladesh,2011,Gas,Bcm,474.0
+country,Bangladesh,2012,Gas,Bcm,456.0
+country,Bangladesh,2013,Gas,Bcm,436.0
+country,Bangladesh,2014,Gas,Bcm,412.0
+country,Bangladesh,2015,Gas,Bcm,385.0
+country,Bangladesh,2016,Gas,Bcm,365.0
+country,Bangladesh,2017,Gas,Bcm,337.0
+country,Bangladesh,2018,Gas,Bcm,325.0
+country,Bangladesh,2019,Gas,Bcm,300.0
+country,Bangladesh,2020,Gas,Bcm,284.0
+country,Bangladesh,2021,Gas,Bcm,263.0
+country,Bangladesh,2022,Gas,Bcm,243.0
+country,Bangladesh,2023,Gas,Bcm,225.392
+country,Bolivia,1960,Gas,Bcm,7.0
+country,Bolivia,1961,Gas,Bcm,7.08
+country,Bolivia,1962,Gas,Bcm,23.36
+country,Bolivia,1963,Gas,Bcm,24.78
+country,Bolivia,1964,Gas,Bcm,56.63
+country,Bolivia,1965,Gas,Bcm,56.63
+country,Bolivia,1966,Gas,Bcm,56.63
+country,Bolivia,1967,Gas,Bcm,64.7
+country,Bolivia,1968,Gas,Bcm,74.4
+country,Bolivia,1969,Gas,Bcm,82.8
+country,Bolivia,1970,Gas,Bcm,85.0
+country,Bolivia,1971,Gas,Bcm,103.06155218554862
+country,Bolivia,1972,Gas,Bcm,105.74576271186442
+country,Bolivia,1973,Gas,Bcm,103.15254237288136
+country,Bolivia,1974,Gas,Bcm,100.39250669045497
+country,Bolivia,1975,Gas,Bcm,133.0
+country,Bolivia,1976,Gas,Bcm,134.0
+country,Bolivia,1977,Gas,Bcm,152.0
+country,Bolivia,1978,Gas,Bcm,148.0
+country,Bolivia,1979,Gas,Bcm,130.0
+country,Bolivia,1980,Gas,Bcm,122.0
+country,Bolivia,1981,Gas,Bcm,154.0
+country,Bolivia,1982,Gas,Bcm,146.0
+country,Bolivia,1983,Gas,Bcm,134.0
+country,Bolivia,1984,Gas,Bcm,125.0
+country,Bolivia,1985,Gas,Bcm,129.0
+country,Bolivia,1986,Gas,Bcm,137.0
+country,Bolivia,1987,Gas,Bcm,142.0
+country,Bolivia,1988,Gas,Bcm,147.0
+country,Bolivia,1989,Gas,Bcm,116.0
+country,Bolivia,1990,Gas,Bcm,113.0
+country,Bolivia,1991,Gas,Bcm,116.0
+country,Bolivia,1992,Gas,Bcm,120.0
+country,Bolivia,1993,Gas,Bcm,118.0
+country,Bolivia,1994,Gas,Bcm,108.0
+country,Bolivia,1995,Gas,Bcm,127.0
+country,Bolivia,1996,Gas,Bcm,131.0
+country,Bolivia,1997,Gas,Bcm,118.0
+country,Bolivia,1998,Gas,Bcm,150.0
+country,Bolivia,1999,Gas,Bcm,518.0
+country,Bolivia,2000,Gas,Bcm,675.0
+country,Bolivia,2001,Gas,Bcm,775.0
+country,Bolivia,2002,Gas,Bcm,813.0
+country,Bolivia,2003,Gas,Bcm,782.0
+country,Bolivia,2004,Gas,Bcm,757.0
+country,Bolivia,2005,Gas,Bcm,710.0
+country,Bolivia,2006,Gas,Bcm,710.0
+country,Bolivia,2007,Gas,Bcm,710.0
+country,Bolivia,2008,Gas,Bcm,710.0
+country,Bolivia,2009,Gas,Bcm,695.0
+country,Bolivia,2010,Gas,Bcm,281.0
+country,Bolivia,2011,Gas,Bcm,281.0
+country,Bolivia,2012,Gas,Bcm,317.0
+country,Bolivia,2013,Gas,Bcm,296.0
+country,Bolivia,2014,Gas,Bcm,300.0
+country,Bolivia,2015,Gas,Bcm,305.0
+country,Bolivia,2016,Gas,Bcm,310.0
+country,Bolivia,2017,Gas,Bcm,303.0
+country,Bolivia,2018,Gas,Bcm,201.0
+country,Bolivia,2019,Gas,Bcm,200.0
+country,Bolivia,2020,Gas,Bcm,192.0
+country,Bolivia,2021,Gas,Bcm,183.0
+country,Bolivia,2022,Gas,Bcm,175.0
+country,Bolivia,2023,Gas,Bcm,175.0
+country,Brazil,1960,Gas,Bcm,3.1
+country,Brazil,1961,Gas,Bcm,9.91
+country,Brazil,1962,Gas,Bcm,14.72
+country,Brazil,1963,Gas,Bcm,14.9
+country,Brazil,1964,Gas,Bcm,14.3
+country,Brazil,1965,Gas,Bcm,19.0
+country,Brazil,1966,Gas,Bcm,26.9
+country,Brazil,1967,Gas,Bcm,25.9
+country,Brazil,1968,Gas,Bcm,28.32
+country,Brazil,1969,Gas,Bcm,26.8
+country,Brazil,1970,Gas,Bcm,25.8
+country,Brazil,1971,Gas,Bcm,25.97
+country,Brazil,1972,Gas,Bcm,26.11
+country,Brazil,1973,Gas,Bcm,25.85
+country,Brazil,1974,Gas,Bcm,26.26
+country,Brazil,1975,Gas,Bcm,26.0
+country,Brazil,1976,Gas,Bcm,34.0
+country,Brazil,1977,Gas,Bcm,39.0
+country,Brazil,1978,Gas,Bcm,44.0
+country,Brazil,1979,Gas,Bcm,45.0
+country,Brazil,1980,Gas,Bcm,53.0
+country,Brazil,1981,Gas,Bcm,60.0
+country,Brazil,1982,Gas,Bcm,72.0
+country,Brazil,1983,Gas,Bcm,82.0
+country,Brazil,1984,Gas,Bcm,84.0
+country,Brazil,1985,Gas,Bcm,93.0
+country,Brazil,1986,Gas,Bcm,96.0
+country,Brazil,1987,Gas,Bcm,105.0
+country,Brazil,1988,Gas,Bcm,109.0
+country,Brazil,1989,Gas,Bcm,116.0
+country,Brazil,1990,Gas,Bcm,115.0
+country,Brazil,1991,Gas,Bcm,124.0
+country,Brazil,1992,Gas,Bcm,133.0
+country,Brazil,1993,Gas,Bcm,137.0
+country,Brazil,1994,Gas,Bcm,146.0
+country,Brazil,1995,Gas,Bcm,154.0
+country,Brazil,1996,Gas,Bcm,158.0
+country,Brazil,1997,Gas,Bcm,228.0
+country,Brazil,1998,Gas,Bcm,226.0
+country,Brazil,1999,Gas,Bcm,231.0
+country,Brazil,2000,Gas,Bcm,221.0
+country,Brazil,2001,Gas,Bcm,223.0
+country,Brazil,2002,Gas,Bcm,245.0
+country,Brazil,2003,Gas,Bcm,245.0
+country,Brazil,2004,Gas,Bcm,326.0
+country,Brazil,2005,Gas,Bcm,306.0
+country,Brazil,2006,Gas,Bcm,348.0
+country,Brazil,2007,Gas,Bcm,365.0
+country,Brazil,2008,Gas,Bcm,365.0
+country,Brazil,2009,Gas,Bcm,367.0
+country,Brazil,2010,Gas,Bcm,417.0
+country,Brazil,2011,Gas,Bcm,460.0
+country,Brazil,2012,Gas,Bcm,459.0
+country,Brazil,2013,Gas,Bcm,458.0
+country,Brazil,2014,Gas,Bcm,471.0
+country,Brazil,2015,Gas,Bcm,429.0
+country,Brazil,2016,Gas,Bcm,378.0
+country,Brazil,2017,Gas,Bcm,370.0
+country,Brazil,2018,Gas,Bcm,368.0
+country,Brazil,2019,Gas,Bcm,365.0
+country,Brazil,2020,Gas,Bcm,338.0
+country,Brazil,2021,Gas,Bcm,379.0
+country,Brazil,2022,Gas,Bcm,406.0
+country,Brazil,2023,Gas,Bcm,433.7468
+country,Brunei Darussalam,1960,Gas,Bcm,10.0
+country,Brunei Darussalam,1961,Gas,Bcm,10.0
+country,Brunei Darussalam,1962,Gas,Bcm,10.0
+country,Brunei Darussalam,1963,Gas,Bcm,10.0
+country,Brunei Darussalam,1964,Gas,Bcm,17.0
+country,Brunei Darussalam,1965,Gas,Bcm,19.82
+country,Brunei Darussalam,1966,Gas,Bcm,19.82
+country,Brunei Darussalam,1967,Gas,Bcm,19.82
+country,Brunei Darussalam,1968,Gas,Bcm,18.41
+country,Brunei Darussalam,1969,Gas,Bcm,60.0
+country,Brunei Darussalam,1970,Gas,Bcm,115.0
+country,Brunei Darussalam,1971,Gas,Bcm,100.2
+country,Brunei Darussalam,1972,Gas,Bcm,103.01
+country,Brunei Darussalam,1973,Gas,Bcm,103.6
+country,Brunei Darussalam,1974,Gas,Bcm,141.84
+country,Brunei Darussalam,1975,Gas,Bcm,190.0
+country,Brunei Darussalam,1976,Gas,Bcm,180.0
+country,Brunei Darussalam,1977,Gas,Bcm,175.0
+country,Brunei Darussalam,1978,Gas,Bcm,195.0
+country,Brunei Darussalam,1979,Gas,Bcm,210.0
+country,Brunei Darussalam,1980,Gas,Bcm,207.0
+country,Brunei Darussalam,1981,Gas,Bcm,212.0
+country,Brunei Darussalam,1982,Gas,Bcm,221.0
+country,Brunei Darussalam,1983,Gas,Bcm,218.0
+country,Brunei Darussalam,1984,Gas,Bcm,238.0
+country,Brunei Darussalam,1985,Gas,Bcm,238.0
+country,Brunei Darussalam,1986,Gas,Bcm,340.0
+country,Brunei Darussalam,1987,Gas,Bcm,331.0
+country,Brunei Darussalam,1988,Gas,Bcm,322.0
+country,Brunei Darussalam,1989,Gas,Bcm,317.0
+country,Brunei Darussalam,1990,Gas,Bcm,331.0
+country,Brunei Darussalam,1991,Gas,Bcm,396.0
+country,Brunei Darussalam,1992,Gas,Bcm,400.0
+country,Brunei Darussalam,1993,Gas,Bcm,400.0
+country,Brunei Darussalam,1994,Gas,Bcm,400.0
+country,Brunei Darussalam,1995,Gas,Bcm,400.0
+country,Brunei Darussalam,1996,Gas,Bcm,400.0
+country,Brunei Darussalam,1997,Gas,Bcm,391.0
+country,Brunei Darussalam,1998,Gas,Bcm,382.0
+country,Brunei Darussalam,1999,Gas,Bcm,374.0
+country,Brunei Darussalam,2000,Gas,Bcm,366.0
+country,Brunei Darussalam,2001,Gas,Bcm,356.0
+country,Brunei Darussalam,2002,Gas,Bcm,350.0
+country,Brunei Darussalam,2003,Gas,Bcm,345.0
+country,Brunei Darussalam,2004,Gas,Bcm,345.0
+country,Brunei Darussalam,2005,Gas,Bcm,333.0
+country,Brunei Darussalam,2006,Gas,Bcm,321.0
+country,Brunei Darussalam,2007,Gas,Bcm,321.0
+country,Brunei Darussalam,2008,Gas,Bcm,321.0
+country,Brunei Darussalam,2009,Gas,Bcm,309.0
+country,Brunei Darussalam,2010,Gas,Bcm,301.0
+country,Brunei Darussalam,2011,Gas,Bcm,288.0
+country,Brunei Darussalam,2012,Gas,Bcm,276.0
+country,Brunei Darussalam,2013,Gas,Bcm,270.0
+country,Brunei Darussalam,2014,Gas,Bcm,263.0
+country,Brunei Darussalam,2015,Gas,Bcm,258.0
+country,Brunei Darussalam,2016,Gas,Bcm,252.0
+country,Brunei Darussalam,2017,Gas,Bcm,240.0
+country,Brunei Darussalam,2018,Gas,Bcm,246.0
+country,Brunei Darussalam,2019,Gas,Bcm,240.0
+country,Brunei Darussalam,2020,Gas,Bcm,233.0
+country,Brunei Darussalam,2021,Gas,Bcm,228.0
+country,Brunei Darussalam,2022,Gas,Bcm,222.0
+country,Brunei Darussalam,2023,Gas,Bcm,222.0
+country,Bulgaria,1960,Gas,Bcm,0.0
+country,Bulgaria,1961,Gas,Bcm,0.0
+country,Bulgaria,1962,Gas,Bcm,0.0
+country,Bulgaria,1963,Gas,Bcm,0.0
+country,Bulgaria,1964,Gas,Bcm,0.0
+country,Bulgaria,1965,Gas,Bcm,0.0
+country,Bulgaria,1966,Gas,Bcm,0.0
+country,Bulgaria,1967,Gas,Bcm,0.0
+country,Bulgaria,1968,Gas,Bcm,0.0
+country,Bulgaria,1969,Gas,Bcm,0.0
+country,Bulgaria,1970,Gas,Bcm,0.0
+country,Bulgaria,1971,Gas,Bcm,0.0
+country,Bulgaria,1972,Gas,Bcm,0.0
+country,Bulgaria,1973,Gas,Bcm,0.0
+country,Bulgaria,1974,Gas,Bcm,0.0
+country,Bulgaria,1975,Gas,Bcm,13.0
+country,Bulgaria,1976,Gas,Bcm,11.0
+country,Bulgaria,1977,Gas,Bcm,9.0
+country,Bulgaria,1978,Gas,Bcm,7.0
+country,Bulgaria,1979,Gas,Bcm,5.0
+country,Bulgaria,1980,Gas,Bcm,5.0
+country,Bulgaria,1981,Gas,Bcm,5.0
+country,Bulgaria,1982,Gas,Bcm,5.0
+country,Bulgaria,1983,Gas,Bcm,5.0
+country,Bulgaria,1984,Gas,Bcm,5.0
+country,Bulgaria,1985,Gas,Bcm,5.0
+country,Bulgaria,1986,Gas,Bcm,5.0
+country,Bulgaria,1987,Gas,Bcm,5.0
+country,Bulgaria,1988,Gas,Bcm,5.0
+country,Bulgaria,1989,Gas,Bcm,7.0
+country,Bulgaria,1990,Gas,Bcm,7.0
+country,Bulgaria,1991,Gas,Bcm,7.0
+country,Bulgaria,1992,Gas,Bcm,7.0
+country,Bulgaria,1993,Gas,Bcm,7.0
+country,Bulgaria,1994,Gas,Bcm,3.0
+country,Bulgaria,1995,Gas,Bcm,4.0
+country,Bulgaria,1996,Gas,Bcm,5.0
+country,Bulgaria,1997,Gas,Bcm,6.0
+country,Bulgaria,1998,Gas,Bcm,6.0
+country,Bulgaria,1999,Gas,Bcm,6.0
+country,Bulgaria,2000,Gas,Bcm,6.0
+country,Bulgaria,2001,Gas,Bcm,4.0
+country,Bulgaria,2002,Gas,Bcm,4.0
+country,Bulgaria,2003,Gas,Bcm,4.0
+country,Bulgaria,2004,Gas,Bcm,4.0
+country,Bulgaria,2005,Gas,Bcm,3.0
+country,Bulgaria,2006,Gas,Bcm,3.0
+country,Bulgaria,2007,Gas,Bcm,3.0
+country,Bulgaria,2008,Gas,Bcm,4.0
+country,Bulgaria,2009,Gas,Bcm,5.0
+country,Bulgaria,2010,Gas,Bcm,5.0
+country,Bulgaria,2011,Gas,Bcm,5.0
+country,Bulgaria,2012,Gas,Bcm,5.0
+country,Bulgaria,2013,Gas,Bcm,5.0
+country,Bulgaria,2014,Gas,Bcm,5.0
+country,Bulgaria,2015,Gas,Bcm,4.0
+country,Bulgaria,2016,Gas,Bcm,4.0
+country,Bulgaria,2017,Gas,Bcm,4.0
+country,Bulgaria,2018,Gas,Bcm,4.0
+country,Bulgaria,2019,Gas,Bcm,4.0
+country,Bulgaria,2020,Gas,Bcm,4.0
+country,Bulgaria,2021,Gas,Bcm,4.0
+country,Bulgaria,2022,Gas,Bcm,4.0
+country,Bulgaria,2023,Gas,Bcm,4.0
+country,Burma,1960,Gas,Bcm,2.0
+country,Burma,1961,Gas,Bcm,4.25
+country,Burma,1962,Gas,Bcm,4.25
+country,Burma,1963,Gas,Bcm,4.25
+country,Burma,1964,Gas,Bcm,5.0
+country,Burma,1965,Gas,Bcm,5.0
+country,Burma,1966,Gas,Bcm,5.0
+country,Burma,1967,Gas,Bcm,5.0
+country,Burma,1968,Gas,Bcm,5.0
+country,Burma,1969,Gas,Bcm,5.0
+country,Burma,1970,Gas,Bcm,4.0
+country,Burma,1971,Gas,Bcm,4.0
+country,Burma,1972,Gas,Bcm,4.0
+country,Burma,1973,Gas,Bcm,6.0
+country,Burma,1974,Gas,Bcm,6.0
+country,Burma,1975,Gas,Bcm,7.0
+country,Burma,1976,Gas,Bcm,7.0
+country,Burma,1977,Gas,Bcm,6.0
+country,Burma,1978,Gas,Bcm,6.0
+country,Burma,1979,Gas,Bcm,6.0
+country,Burma,1980,Gas,Bcm,93.0
+country,Burma,1981,Gas,Bcm,146.0
+country,Burma,1982,Gas,Bcm,146.0
+country,Burma,1983,Gas,Bcm,245.0
+country,Burma,1984,Gas,Bcm,260.0
+country,Burma,1985,Gas,Bcm,268.0
+country,Burma,1986,Gas,Bcm,268.0
+country,Burma,1987,Gas,Bcm,268.0
+country,Burma,1988,Gas,Bcm,267.0
+country,Burma,1989,Gas,Bcm,266.0
+country,Burma,1990,Gas,Bcm,265.0
+country,Burma,1991,Gas,Bcm,278.0
+country,Burma,1992,Gas,Bcm,278.0
+country,Burma,1993,Gas,Bcm,268.0
+country,Burma,1994,Gas,Bcm,268.0
+country,Burma,1995,Gas,Bcm,268.0
+country,Burma,1996,Gas,Bcm,282.0
+country,Burma,1997,Gas,Bcm,283.0
+country,Burma,1998,Gas,Bcm,285.0
+country,Burma,1999,Gas,Bcm,287.0
+country,Burma,2000,Gas,Bcm,287.0
+country,Burma,2001,Gas,Bcm,345.0
+country,Burma,2002,Gas,Bcm,445.0
+country,Burma,2003,Gas,Bcm,405.0
+country,Burma,2004,Gas,Bcm,485.0
+country,Burma,2005,Gas,Bcm,485.0
+country,Burma,2006,Gas,Bcm,515.0
+country,Burma,2007,Gas,Bcm,536.0
+country,Burma,2008,Gas,Bcm,523.0
+country,Burma,2009,Gas,Bcm,510.0
+country,Burma,2010,Gas,Bcm,522.0
+country,Burma,2011,Gas,Bcm,509.0
+country,Burma,2012,Gas,Bcm,496.0
+country,Burma,2013,Gas,Bcm,297.0
+country,Burma,2014,Gas,Bcm,290.0
+country,Burma,2015,Gas,Bcm,282.0
+country,Burma,2016,Gas,Bcm,273.0
+country,Burma,2017,Gas,Bcm,265.0
+country,Burma,2018,Gas,Bcm,256.0
+country,Burma,2019,Gas,Bcm,248.0
+country,Burma,2020,Gas,Bcm,240.0
+country,Burma,2021,Gas,Bcm,232.0
+country,Burma,2022,Gas,Bcm,224.0
+country,Burma,2023,Gas,Bcm,224.0
+country,Cameroon,1960,Gas,Bcm,0.0
+country,Cameroon,1961,Gas,Bcm,0.0
+country,Cameroon,1962,Gas,Bcm,0.0
+country,Cameroon,1963,Gas,Bcm,0.0
+country,Cameroon,1964,Gas,Bcm,0.0
+country,Cameroon,1965,Gas,Bcm,0.0
+country,Cameroon,1966,Gas,Bcm,0.0
+country,Cameroon,1967,Gas,Bcm,0.0
+country,Cameroon,1968,Gas,Bcm,0.0
+country,Cameroon,1969,Gas,Bcm,0.0
+country,Cameroon,1970,Gas,Bcm,0.0
+country,Cameroon,1971,Gas,Bcm,0.0
+country,Cameroon,1972,Gas,Bcm,0.0
+country,Cameroon,1973,Gas,Bcm,0.0
+country,Cameroon,1974,Gas,Bcm,0.0
+country,Cameroon,1975,Gas,Bcm,0.0
+country,Cameroon,1976,Gas,Bcm,0.0
+country,Cameroon,1977,Gas,Bcm,0.0
+country,Cameroon,1978,Gas,Bcm,0.0
+country,Cameroon,1979,Gas,Bcm,0.0
+country,Cameroon,1980,Gas,Bcm,140.0
+country,Cameroon,1981,Gas,Bcm,110.0
+country,Cameroon,1982,Gas,Bcm,110.0
+country,Cameroon,1983,Gas,Bcm,110.0
+country,Cameroon,1984,Gas,Bcm,110.0
+country,Cameroon,1985,Gas,Bcm,110.0
+country,Cameroon,1986,Gas,Bcm,110.0
+country,Cameroon,1987,Gas,Bcm,110.0
+country,Cameroon,1988,Gas,Bcm,110.0
+country,Cameroon,1989,Gas,Bcm,110.0
+country,Cameroon,1990,Gas,Bcm,110.0
+country,Cameroon,1991,Gas,Bcm,110.0
+country,Cameroon,1992,Gas,Bcm,110.0
+country,Cameroon,1993,Gas,Bcm,110.0
+country,Cameroon,1994,Gas,Bcm,110.0
+country,Cameroon,1995,Gas,Bcm,110.0
+country,Cameroon,1996,Gas,Bcm,110.0
+country,Cameroon,1997,Gas,Bcm,110.0
+country,Cameroon,1998,Gas,Bcm,110.0
+country,Cameroon,1999,Gas,Bcm,102.0
+country,Cameroon,2000,Gas,Bcm,102.0
+country,Cameroon,2001,Gas,Bcm,102.0
+country,Cameroon,2002,Gas,Bcm,102.0
+country,Cameroon,2003,Gas,Bcm,100.0
+country,Cameroon,2004,Gas,Bcm,100.0
+country,Cameroon,2005,Gas,Bcm,165.0
+country,Cameroon,2006,Gas,Bcm,163.0
+country,Cameroon,2007,Gas,Bcm,161.0
+country,Cameroon,2008,Gas,Bcm,159.0
+country,Cameroon,2009,Gas,Bcm,157.0
+country,Cameroon,2010,Gas,Bcm,155.0
+country,Cameroon,2011,Gas,Bcm,153.0
+country,Cameroon,2012,Gas,Bcm,151.0
+country,Cameroon,2013,Gas,Bcm,150.0
+country,Cameroon,2014,Gas,Bcm,154.0
+country,Cameroon,2015,Gas,Bcm,154.0
+country,Cameroon,2016,Gas,Bcm,173.0
+country,Cameroon,2017,Gas,Bcm,172.0
+country,Cameroon,2018,Gas,Bcm,171.0
+country,Cameroon,2019,Gas,Bcm,170.0
+country,Cameroon,2020,Gas,Bcm,179.0
+country,Cameroon,2021,Gas,Bcm,176.0
+country,Cameroon,2022,Gas,Bcm,173.0
+country,Cameroon,2023,Gas,Bcm,173.0
+country,Canada,1960,Gas,Bcm,660.0
+country,Canada,1961,Gas,Bcm,721.6157034308083
+country,Canada,1962,Gas,Bcm,762.4800828920102
+country,Canada,1963,Gas,Bcm,762.4800828920102
+country,Canada,1964,Gas,Bcm,846.0172691687774
+country,Canada,1965,Gas,Bcm,868.2882799907898
+country,Canada,1966,Gas,Bcm,934.8961547317524
+country,Canada,1967,Gas,Bcm,982.9182592677872
+country,Canada,1968,Gas,Bcm,1125.61386138614
+country,Canada,1969,Gas,Bcm,1317.80566428736
+country,Canada,1970,Gas,Bcm,1638.0
+country,Canada,1971,Gas,Bcm,1702.0612544660578
+country,Canada,1972,Gas,Bcm,1728.602620087336
+country,Canada,1973,Gas,Bcm,1803.67606192934
+country,Canada,1974,Gas,Bcm,1940.30726478761
+country,Canada,1975,Gas,Bcm,2028.0
+country,Canada,1976,Gas,Bcm,2165.0
+country,Canada,1977,Gas,Bcm,2231.0
+country,Canada,1978,Gas,Bcm,2322.0
+country,Canada,1979,Gas,Bcm,2496.0
+country,Canada,1980,Gas,Bcm,2492.0
+country,Canada,1981,Gas,Bcm,2563.0
+country,Canada,1982,Gas,Bcm,2591.0
+country,Canada,1983,Gas,Bcm,2613.0
+country,Canada,1984,Gas,Bcm,2809.0
+country,Canada,1985,Gas,Bcm,2784.0
+country,Canada,1986,Gas,Bcm,2746.0
+country,Canada,1987,Gas,Bcm,2693.0
+country,Canada,1988,Gas,Bcm,2671.0
+country,Canada,1989,Gas,Bcm,2732.0
+country,Canada,1990,Gas,Bcm,2725.0
+country,Canada,1991,Gas,Bcm,2711.0
+country,Canada,1992,Gas,Bcm,2672.0
+country,Canada,1993,Gas,Bcm,2232.0
+country,Canada,1994,Gas,Bcm,1898.0
+country,Canada,1995,Gas,Bcm,1929.0
+country,Canada,1996,Gas,Bcm,1942.0
+country,Canada,1997,Gas,Bcm,1809.0
+country,Canada,1998,Gas,Bcm,1748.0
+country,Canada,1999,Gas,Bcm,1719.0
+country,Canada,2000,Gas,Bcm,1683.0
+country,Canada,2001,Gas,Bcm,1694.0
+country,Canada,2002,Gas,Bcm,1664.0
+country,Canada,2003,Gas,Bcm,1594.0
+country,Canada,2004,Gas,Bcm,1593.0
+country,Canada,2005,Gas,Bcm,1632.0
+country,Canada,2006,Gas,Bcm,1640.0
+country,Canada,2007,Gas,Bcm,1634.0
+country,Canada,2008,Gas,Bcm,1754.0
+country,Canada,2009,Gas,Bcm,1727.0
+country,Canada,2010,Gas,Bcm,1977.0
+country,Canada,2011,Gas,Bcm,1907.0
+country,Canada,2012,Gas,Bcm,1999.0
+country,Canada,2013,Gas,Bcm,2028.0
+country,Canada,2014,Gas,Bcm,1987.0
+country,Canada,2015,Gas,Bcm,2118.0
+country,Canada,2016,Gas,Bcm,2095.0
+country,Canada,2017,Gas,Bcm,1980.0
+country,Canada,2018,Gas,Bcm,2094.0
+country,Canada,2019,Gas,Bcm,2471.0
+country,Canada,2020,Gas,Bcm,2471.7
+country,Canada,2021,Gas,Bcm,2615.0
+country,Canada,2022,Gas,Bcm,2802.1
+country,Canada,2023,Gas,Bcm,2802.1
+country,Chile,1960,Gas,Bcm,7396.0
+country,Chile,1961,Gas,Bcm,7507.28399768453
+country,Chile,1962,Gas,Bcm,7676.594580186583
+country,Chile,1963,Gas,Bcm,7785.767796131013
+country,Chile,1964,Gas,Bcm,7929.569780434285
+country,Chile,1965,Gas,Bcm,8076.667372077057
+country,Chile,1966,Gas,Bcm,8157.414730153603
+country,Chile,1967,Gas,Bcm,8258.204558243475
+country,Chile,1968,Gas,Bcm,8101.508883593824
+country,Chile,1969,Gas,Bcm,7756.386112569498
+country,Chile,1970,Gas,Bcm,7790.0
+country,Chile,1971,Gas,Bcm,7894.94
+country,Chile,1972,Gas,Bcm,7534.73
+country,Chile,1973,Gas,Bcm,7077.84
+country,Chile,1974,Gas,Bcm,6714.88
+country,Chile,1975,Gas,Bcm,42.0
+country,Chile,1976,Gas,Bcm,40.0
+country,Chile,1977,Gas,Bcm,38.0
+country,Chile,1978,Gas,Bcm,37.0
+country,Chile,1979,Gas,Bcm,35.0
+country,Chile,1980,Gas,Bcm,34.0
+country,Chile,1981,Gas,Bcm,33.0
+country,Chile,1982,Gas,Bcm,32.0
+country,Chile,1983,Gas,Bcm,32.0
+country,Chile,1984,Gas,Bcm,31.0
+country,Chile,1985,Gas,Bcm,30.0
+country,Chile,1986,Gas,Bcm,30.0
+country,Chile,1987,Gas,Bcm,29.0
+country,Chile,1988,Gas,Bcm,29.0
+country,Chile,1989,Gas,Bcm,28.0
+country,Chile,1990,Gas,Bcm,27.0
+country,Chile,1991,Gas,Bcm,26.0
+country,Chile,1992,Gas,Bcm,25.0
+country,Chile,1993,Gas,Bcm,24.0
+country,Chile,1994,Gas,Bcm,23.0
+country,Chile,1995,Gas,Bcm,22.0
+country,Chile,1996,Gas,Bcm,21.0
+country,Chile,1997,Gas,Bcm,20.0
+country,Chile,1998,Gas,Bcm,19.0
+country,Chile,1999,Gas,Bcm,18.0
+country,Chile,2000,Gas,Bcm,17.0
+country,Chile,2001,Gas,Bcm,17.0
+country,Chile,2002,Gas,Bcm,16.0
+country,Chile,2003,Gas,Bcm,15.0
+country,Chile,2004,Gas,Bcm,14.0
+country,Chile,2005,Gas,Bcm,13.0
+country,Chile,2006,Gas,Bcm,12.0
+country,Chile,2007,Gas,Bcm,11.0
+country,Chile,2008,Gas,Bcm,10.0
+country,Chile,2009,Gas,Bcm,9.0
+country,Chile,2010,Gas,Bcm,8.0
+country,Chile,2011,Gas,Bcm,9.0
+country,Chile,2012,Gas,Bcm,6.0
+country,Chile,2013,Gas,Bcm,7.0
+country,Chile,2014,Gas,Bcm,6.0
+country,Chile,2015,Gas,Bcm,6.0
+country,Chile,2016,Gas,Bcm,5.0
+country,Chile,2017,Gas,Bcm,5.0
+country,Chile,2018,Gas,Bcm,4.0
+country,Chile,2019,Gas,Bcm,8.0
+country,Chile,2020,Gas,Bcm,8.0
+country,Chile,2021,Gas,Bcm,10.0
+country,Chile,2022,Gas,Bcm,10.0
+country,Chile,2023,Gas,Bcm,10.0
+country,China,1960,Gas,Bcm,40.0
+country,China,1961,Gas,Bcm,40.0
+country,China,1962,Gas,Bcm,40.0
+country,China,1963,Gas,Bcm,60.0
+country,China,1964,Gas,Bcm,60.0
+country,China,1965,Gas,Bcm,60.0
+country,China,1966,Gas,Bcm,80.0
+country,China,1967,Gas,Bcm,80.0
+country,China,1968,Gas,Bcm,80.0
+country,China,1969,Gas,Bcm,100.0
+country,China,1970,Gas,Bcm,100.0
+country,China,1971,Gas,Bcm,250.0
+country,China,1972,Gas,Bcm,250.0
+country,China,1973,Gas,Bcm,300.0
+country,China,1974,Gas,Bcm,500.0
+country,China,1975,Gas,Bcm,550.0
+country,China,1976,Gas,Bcm,700.0
+country,China,1977,Gas,Bcm,740.0
+country,China,1978,Gas,Bcm,740.0
+country,China,1979,Gas,Bcm,740.0
+country,China,1980,Gas,Bcm,735.0
+country,China,1981,Gas,Bcm,736.0
+country,China,1982,Gas,Bcm,750.0
+country,China,1983,Gas,Bcm,750.0
+country,China,1984,Gas,Bcm,760.0
+country,China,1985,Gas,Bcm,775.0
+country,China,1986,Gas,Bcm,795.0
+country,China,1987,Gas,Bcm,800.0
+country,China,1988,Gas,Bcm,850.0
+country,China,1989,Gas,Bcm,850.0
+country,China,1990,Gas,Bcm,850.0
+country,China,1991,Gas,Bcm,900.0
+country,China,1992,Gas,Bcm,920.0
+country,China,1993,Gas,Bcm,1025.0
+country,China,1994,Gas,Bcm,1025.0
+country,China,1995,Gas,Bcm,1070.0
+country,China,1996,Gas,Bcm,1100.0
+country,China,1997,Gas,Bcm,1199.0
+country,China,1998,Gas,Bcm,1250.0
+country,China,1999,Gas,Bcm,1375.0
+country,China,2000,Gas,Bcm,1269.0
+country,China,2001,Gas,Bcm,1332.0
+country,China,2002,Gas,Bcm,1399.0
+country,China,2003,Gas,Bcm,1469.0
+country,China,2004,Gas,Bcm,1592.0
+country,China,2005,Gas,Bcm,1690.0
+country,China,2006,Gas,Bcm,1863.0
+country,China,2007,Gas,Bcm,1978.0
+country,China,2008,Gas,Bcm,2099.0
+country,China,2009,Gas,Bcm,2164.0
+country,China,2010,Gas,Bcm,2244.0
+country,China,2011,Gas,Bcm,2273.0
+country,China,2012,Gas,Bcm,2313.0
+country,China,2013,Gas,Bcm,2355.0
+country,China,2014,Gas,Bcm,2557.0
+country,China,2015,Gas,Bcm,2791.0
+country,China,2016,Gas,Bcm,2838.0
+country,China,2017,Gas,Bcm,2786.0
+country,China,2018,Gas,Bcm,2779.0
+country,China,2019,Gas,Bcm,2834.0
+country,China,2020,Gas,Bcm,2922.0
+country,China,2021,Gas,Bcm,2892.0
+country,China,2022,Gas,Bcm,2887.0
+country,China,2023,Gas,Bcm,2985.3757280529394
+country,Colombia,1960,Gas,Bcm,10.0
+country,Colombia,1961,Gas,Bcm,20.14
+country,Colombia,1962,Gas,Bcm,36.10000000000001
+country,Colombia,1963,Gas,Bcm,65.1
+country,Colombia,1964,Gas,Bcm,62.29999999999998
+country,Colombia,1965,Gas,Bcm,59.2
+country,Colombia,1966,Gas,Bcm,55.90000000000002
+country,Colombia,1967,Gas,Bcm,52.70000000000002
+country,Colombia,1968,Gas,Bcm,79.62000000000002
+country,Colombia,1969,Gas,Bcm,76.20000000000002
+country,Colombia,1970,Gas,Bcm,79.0
+country,Colombia,1971,Gas,Bcm,75.39999999999999
+country,Colombia,1972,Gas,Bcm,71.60000000000001
+country,Colombia,1973,Gas,Bcm,67.79999999999998
+country,Colombia,1974,Gas,Bcm,114.67
+country,Colombia,1975,Gas,Bcm,99.0
+country,Colombia,1976,Gas,Bcm,140.0
+country,Colombia,1977,Gas,Bcm,138.0
+country,Colombia,1978,Gas,Bcm,136.0
+country,Colombia,1979,Gas,Bcm,134.0
+country,Colombia,1980,Gas,Bcm,122.0
+country,Colombia,1981,Gas,Bcm,122.0
+country,Colombia,1982,Gas,Bcm,120.0
+country,Colombia,1983,Gas,Bcm,113.0
+country,Colombia,1984,Gas,Bcm,109.0
+country,Colombia,1985,Gas,Bcm,107.0
+country,Colombia,1986,Gas,Bcm,113.0
+country,Colombia,1987,Gas,Bcm,97.0
+country,Colombia,1988,Gas,Bcm,127.0
+country,Colombia,1989,Gas,Bcm,109.0
+country,Colombia,1990,Gas,Bcm,101.0
+country,Colombia,1991,Gas,Bcm,99.0
+country,Colombia,1992,Gas,Bcm,185.0
+country,Colombia,1993,Gas,Bcm,211.0
+country,Colombia,1994,Gas,Bcm,214.0
+country,Colombia,1995,Gas,Bcm,217.0
+country,Colombia,1996,Gas,Bcm,217.0
+country,Colombia,1997,Gas,Bcm,196.0
+country,Colombia,1998,Gas,Bcm,196.0
+country,Colombia,1999,Gas,Bcm,188.0
+country,Colombia,2000,Gas,Bcm,129.0
+country,Colombia,2001,Gas,Bcm,128.0
+country,Colombia,2002,Gas,Bcm,120.0
+country,Colombia,2003,Gas,Bcm,114.0
+country,Colombia,2004,Gas,Bcm,119.0
+country,Colombia,2005,Gas,Bcm,113.0
+country,Colombia,2006,Gas,Bcm,105.0
+country,Colombia,2007,Gas,Bcm,106.0
+country,Colombia,2008,Gas,Bcm,124.0
+country,Colombia,2009,Gas,Bcm,134.0
+country,Colombia,2010,Gas,Bcm,153.0
+country,Colombia,2011,Gas,Bcm,155.0
+country,Colombia,2012,Gas,Bcm,162.0
+country,Colombia,2013,Gas,Bcm,156.0
+country,Colombia,2014,Gas,Bcm,135.0
+country,Colombia,2015,Gas,Bcm,123.0
+country,Colombia,2016,Gas,Bcm,114.0
+country,Colombia,2017,Gas,Bcm,110.0
+country,Colombia,2018,Gas,Bcm,107.0
+country,Colombia,2019,Gas,Bcm,90.0
+country,Colombia,2020,Gas,Bcm,83.0
+country,Colombia,2021,Gas,Bcm,90.0
+country,Colombia,2022,Gas,Bcm,80.0
+country,Colombia,2023,Gas,Bcm,71.30214917825538
+country,Congo,1960,Gas,Bcm,0.1
+country,Congo,1961,Gas,Bcm,0.14
+country,Congo,1962,Gas,Bcm,0.1
+country,Congo,1963,Gas,Bcm,0.1
+country,Congo,1964,Gas,Bcm,0.06
+country,Congo,1965,Gas,Bcm,0.06
+country,Congo,1966,Gas,Bcm,0.06
+country,Congo,1967,Gas,Bcm,0.06
+country,Congo,1968,Gas,Bcm,0.06
+country,Congo,1969,Gas,Bcm,0.14
+country,Congo,1970,Gas,Bcm,0.1
+country,Congo,1971,Gas,Bcm,0.17
+country,Congo,1972,Gas,Bcm,28.32
+country,Congo,1973,Gas,Bcm,28.32
+country,Congo,1974,Gas,Bcm,28.32
+country,Congo,1975,Gas,Bcm,28.0
+country,Congo,1976,Gas,Bcm,28.0
+country,Congo,1977,Gas,Bcm,28.0
+country,Congo,1978,Gas,Bcm,28.0
+country,Congo,1979,Gas,Bcm,55.0
+country,Congo,1980,Gas,Bcm,57.0
+country,Congo,1981,Gas,Bcm,68.0
+country,Congo,1982,Gas,Bcm,70.0
+country,Congo,1983,Gas,Bcm,70.0
+country,Congo,1984,Gas,Bcm,69.0
+country,Congo,1985,Gas,Bcm,71.0
+country,Congo,1986,Gas,Bcm,70.0
+country,Congo,1987,Gas,Bcm,74.0
+country,Congo,1988,Gas,Bcm,73.0
+country,Congo,1989,Gas,Bcm,73.0
+country,Congo,1990,Gas,Bcm,77.0
+country,Congo,1991,Gas,Bcm,77.0
+country,Congo,1992,Gas,Bcm,77.0
+country,Congo,1993,Gas,Bcm,77.0
+country,Congo,1994,Gas,Bcm,90.0
+country,Congo,1995,Gas,Bcm,90.0
+country,Congo,1996,Gas,Bcm,90.0
+country,Congo,1997,Gas,Bcm,90.0
+country,Congo,1998,Gas,Bcm,122.0
+country,Congo,1999,Gas,Bcm,122.0
+country,Congo,2000,Gas,Bcm,122.0
+country,Congo,2001,Gas,Bcm,122.0
+country,Congo,2002,Gas,Bcm,120.0
+country,Congo,2003,Gas,Bcm,117.0
+country,Congo,2004,Gas,Bcm,115.0
+country,Congo,2005,Gas,Bcm,130.0
+country,Congo,2006,Gas,Bcm,130.0
+country,Congo,2007,Gas,Bcm,130.0
+country,Congo,2008,Gas,Bcm,150.0
+country,Congo,2009,Gas,Bcm,180.0
+country,Congo,2010,Gas,Bcm,182.0
+country,Congo,2011,Gas,Bcm,214.0
+country,Congo,2012,Gas,Bcm,224.0
+country,Congo,2013,Gas,Bcm,254.0
+country,Congo,2014,Gas,Bcm,285.0
+country,Congo,2015,Gas,Bcm,285.0
+country,Congo,2016,Gas,Bcm,285.0
+country,Congo,2017,Gas,Bcm,284.9310000000002
+country,Congo,2018,Gas,Bcm,284.9310000000002
+country,Congo,2019,Gas,Bcm,284.3
+country,Congo,2020,Gas,Bcm,283.73100000000017
+country,Congo,2021,Gas,Bcm,283.73100000000017
+country,Congo,2022,Gas,Bcm,283.73100000000017
+country,Congo,2023,Gas,Bcm,283.73100000000017
+country,Denmark,1960,Gas,Bcm,0.0
+country,Denmark,1961,Gas,Bcm,0.0
+country,Denmark,1962,Gas,Bcm,0.0
+country,Denmark,1963,Gas,Bcm,0.0
+country,Denmark,1964,Gas,Bcm,0.0
+country,Denmark,1965,Gas,Bcm,0.0
+country,Denmark,1966,Gas,Bcm,0.0
+country,Denmark,1967,Gas,Bcm,0.0
+country,Denmark,1968,Gas,Bcm,0.0
+country,Denmark,1969,Gas,Bcm,0.0
+country,Denmark,1970,Gas,Bcm,0.0
+country,Denmark,1971,Gas,Bcm,0.0
+country,Denmark,1972,Gas,Bcm,0.0
+country,Denmark,1973,Gas,Bcm,0.0
+country,Denmark,1974,Gas,Bcm,0.0
+country,Denmark,1975,Gas,Bcm,55.0
+country,Denmark,1976,Gas,Bcm,70.0
+country,Denmark,1977,Gas,Bcm,75.0
+country,Denmark,1978,Gas,Bcm,110.0
+country,Denmark,1979,Gas,Bcm,110.0
+country,Denmark,1980,Gas,Bcm,139.0
+country,Denmark,1981,Gas,Bcm,141.0
+country,Denmark,1982,Gas,Bcm,153.0
+country,Denmark,1983,Gas,Bcm,99.0
+country,Denmark,1984,Gas,Bcm,105.0
+country,Denmark,1985,Gas,Bcm,94.0
+country,Denmark,1986,Gas,Bcm,126.0
+country,Denmark,1987,Gas,Bcm,123.0
+country,Denmark,1988,Gas,Bcm,133.0
+country,Denmark,1989,Gas,Bcm,134.0
+country,Denmark,1990,Gas,Bcm,171.0
+country,Denmark,1991,Gas,Bcm,201.0
+country,Denmark,1992,Gas,Bcm,214.0
+country,Denmark,1993,Gas,Bcm,215.0
+country,Denmark,1994,Gas,Bcm,190.0
+country,Denmark,1995,Gas,Bcm,179.0
+country,Denmark,1996,Gas,Bcm,167.0
+country,Denmark,1997,Gas,Bcm,137.0
+country,Denmark,1998,Gas,Bcm,123.0
+country,Denmark,1999,Gas,Bcm,142.0
+country,Denmark,2000,Gas,Bcm,144.0
+country,Denmark,2001,Gas,Bcm,141.0
+country,Denmark,2002,Gas,Bcm,129.0
+country,Denmark,2003,Gas,Bcm,136.0
+country,Denmark,2004,Gas,Bcm,132.0
+country,Denmark,2005,Gas,Bcm,122.0
+country,Denmark,2006,Gas,Bcm,120.0
+country,Denmark,2007,Gas,Bcm,105.0
+country,Denmark,2008,Gas,Bcm,107.0
+country,Denmark,2009,Gas,Bcm,105.0
+country,Denmark,2010,Gas,Bcm,101.0
+country,Denmark,2011,Gas,Bcm,95.0
+country,Denmark,2012,Gas,Bcm,91.0
+country,Denmark,2013,Gas,Bcm,90.0
+country,Denmark,2014,Gas,Bcm,88.0
+country,Denmark,2015,Gas,Bcm,80.0
+country,Denmark,2016,Gas,Bcm,77.0
+country,Denmark,2017,Gas,Bcm,72.0
+country,Denmark,2018,Gas,Bcm,69.0
+country,Denmark,2019,Gas,Bcm,77.0
+country,Denmark,2020,Gas,Bcm,74.0
+country,Denmark,2021,Gas,Bcm,73.0
+country,Denmark,2022,Gas,Bcm,77.0
+country,Denmark,2023,Gas,Bcm,71.47219413549038
+country,Ecuador,1960,Gas,Bcm,2.1
+country,Ecuador,1961,Gas,Bcm,2.12
+country,Ecuador,1962,Gas,Bcm,2.12
+country,Ecuador,1963,Gas,Bcm,2.12
+country,Ecuador,1964,Gas,Bcm,2.12
+country,Ecuador,1965,Gas,Bcm,2.12
+country,Ecuador,1966,Gas,Bcm,2.12
+country,Ecuador,1967,Gas,Bcm,2.83
+country,Ecuador,1968,Gas,Bcm,4.25
+country,Ecuador,1969,Gas,Bcm,4.25
+country,Ecuador,1970,Gas,Bcm,98.6
+country,Ecuador,1971,Gas,Bcm,98.8
+country,Ecuador,1972,Gas,Bcm,99.0
+country,Ecuador,1973,Gas,Bcm,99.3
+country,Ecuador,1974,Gas,Bcm,99.6
+country,Ecuador,1975,Gas,Bcm,120.0
+country,Ecuador,1976,Gas,Bcm,120.0
+country,Ecuador,1977,Gas,Bcm,120.0
+country,Ecuador,1978,Gas,Bcm,120.0
+country,Ecuador,1979,Gas,Bcm,120.0
+country,Ecuador,1980,Gas,Bcm,120.0
+country,Ecuador,1981,Gas,Bcm,120.0
+country,Ecuador,1982,Gas,Bcm,116.0
+country,Ecuador,1983,Gas,Bcm,116.0
+country,Ecuador,1984,Gas,Bcm,115.0
+country,Ecuador,1985,Gas,Bcm,115.0
+country,Ecuador,1986,Gas,Bcm,114.0
+country,Ecuador,1987,Gas,Bcm,114.0
+country,Ecuador,1988,Gas,Bcm,113.0
+country,Ecuador,1989,Gas,Bcm,112.0
+country,Ecuador,1990,Gas,Bcm,111.0
+country,Ecuador,1991,Gas,Bcm,110.0
+country,Ecuador,1992,Gas,Bcm,109.0
+country,Ecuador,1993,Gas,Bcm,108.0
+country,Ecuador,1994,Gas,Bcm,107.0
+country,Ecuador,1995,Gas,Bcm,106.0
+country,Ecuador,1996,Gas,Bcm,105.0
+country,Ecuador,1997,Gas,Bcm,103.0
+country,Ecuador,1998,Gas,Bcm,102.0
+country,Ecuador,1999,Gas,Bcm,29.0
+country,Ecuador,2000,Gas,Bcm,10.0
+country,Ecuador,2001,Gas,Bcm,10.0
+country,Ecuador,2002,Gas,Bcm,10.0
+country,Ecuador,2003,Gas,Bcm,9.0
+country,Ecuador,2004,Gas,Bcm,9.0
+country,Ecuador,2005,Gas,Bcm,9.0
+country,Ecuador,2006,Gas,Bcm,9.0
+country,Ecuador,2007,Gas,Bcm,8.0
+country,Ecuador,2008,Gas,Bcm,8.0
+country,Ecuador,2009,Gas,Bcm,8.0
+country,Ecuador,2010,Gas,Bcm,7.0
+country,Ecuador,2011,Gas,Bcm,7.0
+country,Ecuador,2012,Gas,Bcm,6.0
+country,Ecuador,2013,Gas,Bcm,6.0
+country,Ecuador,2014,Gas,Bcm,11.0
+country,Ecuador,2015,Gas,Bcm,11.0
+country,Ecuador,2016,Gas,Bcm,11.0
+country,Ecuador,2017,Gas,Bcm,11.0
+country,Ecuador,2018,Gas,Bcm,11.0
+country,Ecuador,2019,Gas,Bcm,11.0
+country,Ecuador,2020,Gas,Bcm,10.0
+country,Ecuador,2021,Gas,Bcm,9.0
+country,Ecuador,2022,Gas,Bcm,9.0
+country,Ecuador,2023,Gas,Bcm,9.0
+country,Egypt,1960,Gas,Bcm,5.0
+country,Egypt,1961,Gas,Bcm,5.039999999999999
+country,Egypt,1962,Gas,Bcm,5.039999999999999
+country,Egypt,1963,Gas,Bcm,5.039999999999999
+country,Egypt,1964,Gas,Bcm,7.16
+country,Egypt,1965,Gas,Bcm,7.16
+country,Egypt,1966,Gas,Bcm,14.239999999999998
+country,Egypt,1967,Gas,Bcm,29.82
+country,Egypt,1968,Gas,Bcm,30.0
+country,Egypt,1969,Gas,Bcm,30.0
+country,Egypt,1970,Gas,Bcm,40.0
+country,Egypt,1971,Gas,Bcm,65.70000000000002
+country,Egypt,1972,Gas,Bcm,65.70000000000002
+country,Egypt,1973,Gas,Bcm,64.80000000000001
+country,Egypt,1974,Gas,Bcm,63.400000000000006
+country,Egypt,1975,Gas,Bcm,62.0
+country,Egypt,1976,Gas,Bcm,62.0
+country,Egypt,1977,Gas,Bcm,61.0
+country,Egypt,1978,Gas,Bcm,85.0
+country,Egypt,1979,Gas,Bcm,85.0
+country,Egypt,1980,Gas,Bcm,84.0
+country,Egypt,1981,Gas,Bcm,83.0
+country,Egypt,1982,Gas,Bcm,203.0
+country,Egypt,1983,Gas,Bcm,200.0
+country,Egypt,1984,Gas,Bcm,235.0
+country,Egypt,1985,Gas,Bcm,255.0
+country,Egypt,1986,Gas,Bcm,290.0
+country,Egypt,1987,Gas,Bcm,307.0
+country,Egypt,1988,Gas,Bcm,329.0
+country,Egypt,1989,Gas,Bcm,351.0
+country,Egypt,1990,Gas,Bcm,379.0
+country,Egypt,1991,Gas,Bcm,396.0
+country,Egypt,1992,Gas,Bcm,436.0
+country,Egypt,1993,Gas,Bcm,595.0
+country,Egypt,1994,Gas,Bcm,631.0
+country,Egypt,1995,Gas,Bcm,645.0
+country,Egypt,1996,Gas,Bcm,849.0
+country,Egypt,1997,Gas,Bcm,927.0
+country,Egypt,1998,Gas,Bcm,1020.0
+country,Egypt,1999,Gas,Bcm,1223.0
+country,Egypt,2000,Gas,Bcm,1433.0
+country,Egypt,2001,Gas,Bcm,1557.0
+country,Egypt,2002,Gas,Bcm,1657.0
+country,Egypt,2003,Gas,Bcm,1756.0
+country,Egypt,2004,Gas,Bcm,1869.0
+country,Egypt,2005,Gas,Bcm,1920.0
+country,Egypt,2006,Gas,Bcm,1985.0
+country,Egypt,2007,Gas,Bcm,2060.0
+country,Egypt,2008,Gas,Bcm,2170.0
+country,Egypt,2009,Gas,Bcm,2185.0
+country,Egypt,2010,Gas,Bcm,2210.0
+country,Egypt,2011,Gas,Bcm,2190.0
+country,Egypt,2012,Gas,Bcm,2185.0
+country,Egypt,2013,Gas,Bcm,2185.0
+country,Egypt,2014,Gas,Bcm,2186.0
+country,Egypt,2015,Gas,Bcm,2086.0
+country,Egypt,2016,Gas,Bcm,2221.0
+country,Egypt,2017,Gas,Bcm,2221.0
+country,Egypt,2018,Gas,Bcm,2221.0
+country,Egypt,2019,Gas,Bcm,2209.0
+country,Egypt,2020,Gas,Bcm,2209.0
+country,Egypt,2021,Gas,Bcm,2209.0
+country,Egypt,2022,Gas,Bcm,2209.0
+country,Egypt,2023,Gas,Bcm,2209.0
+country,Equatorial Guinea,1960,Gas,Bcm,0.0
+country,Equatorial Guinea,1961,Gas,Bcm,0.0
+country,Equatorial Guinea,1962,Gas,Bcm,0.0
+country,Equatorial Guinea,1963,Gas,Bcm,0.0
+country,Equatorial Guinea,1964,Gas,Bcm,0.0
+country,Equatorial Guinea,1965,Gas,Bcm,0.0
+country,Equatorial Guinea,1966,Gas,Bcm,0.0
+country,Equatorial Guinea,1967,Gas,Bcm,0.0
+country,Equatorial Guinea,1968,Gas,Bcm,0.0
+country,Equatorial Guinea,1969,Gas,Bcm,0.0
+country,Equatorial Guinea,1970,Gas,Bcm,0.0
+country,Equatorial Guinea,1971,Gas,Bcm,0.0
+country,Equatorial Guinea,1972,Gas,Bcm,0.0
+country,Equatorial Guinea,1973,Gas,Bcm,0.0
+country,Equatorial Guinea,1974,Gas,Bcm,0.0
+country,Equatorial Guinea,1975,Gas,Bcm,0.0
+country,Equatorial Guinea,1976,Gas,Bcm,0.0
+country,Equatorial Guinea,1977,Gas,Bcm,0.0
+country,Equatorial Guinea,1978,Gas,Bcm,0.0
+country,Equatorial Guinea,1979,Gas,Bcm,0.0
+country,Equatorial Guinea,1980,Gas,Bcm,0.0
+country,Equatorial Guinea,1981,Gas,Bcm,0.0
+country,Equatorial Guinea,1982,Gas,Bcm,0.0
+country,Equatorial Guinea,1983,Gas,Bcm,0.0
+country,Equatorial Guinea,1984,Gas,Bcm,0.0
+country,Equatorial Guinea,1985,Gas,Bcm,0.0
+country,Equatorial Guinea,1986,Gas,Bcm,24.0
+country,Equatorial Guinea,1987,Gas,Bcm,11.0
+country,Equatorial Guinea,1988,Gas,Bcm,11.0
+country,Equatorial Guinea,1989,Gas,Bcm,11.0
+country,Equatorial Guinea,1990,Gas,Bcm,11.0
+country,Equatorial Guinea,1991,Gas,Bcm,11.0
+country,Equatorial Guinea,1992,Gas,Bcm,17.0
+country,Equatorial Guinea,1993,Gas,Bcm,17.0
+country,Equatorial Guinea,1994,Gas,Bcm,17.0
+country,Equatorial Guinea,1995,Gas,Bcm,17.0
+country,Equatorial Guinea,1996,Gas,Bcm,17.9
+country,Equatorial Guinea,1997,Gas,Bcm,17.9
+country,Equatorial Guinea,1998,Gas,Bcm,17.9
+country,Equatorial Guinea,1999,Gas,Bcm,17.5
+country,Equatorial Guinea,2000,Gas,Bcm,17.0
+country,Equatorial Guinea,2001,Gas,Bcm,22.1
+country,Equatorial Guinea,2002,Gas,Bcm,32.2
+country,Equatorial Guinea,2003,Gas,Bcm,32.8
+country,Equatorial Guinea,2004,Gas,Bcm,77.1
+country,Equatorial Guinea,2005,Gas,Bcm,91.3
+country,Equatorial Guinea,2006,Gas,Bcm,98.4
+country,Equatorial Guinea,2007,Gas,Bcm,97.3
+country,Equatorial Guinea,2008,Gas,Bcm,93.1
+country,Equatorial Guinea,2009,Gas,Bcm,84.2
+country,Equatorial Guinea,2010,Gas,Bcm,82.3
+country,Equatorial Guinea,2011,Gas,Bcm,78.3
+country,Equatorial Guinea,2012,Gas,Bcm,71.0
+country,Equatorial Guinea,2013,Gas,Bcm,65.8
+country,Equatorial Guinea,2014,Gas,Bcm,60.1
+country,Equatorial Guinea,2015,Gas,Bcm,54.4
+country,Equatorial Guinea,2016,Gas,Bcm,47.0
+country,Equatorial Guinea,2017,Gas,Bcm,42.0
+country,Equatorial Guinea,2018,Gas,Bcm,42.0
+country,Equatorial Guinea,2019,Gas,Bcm,39.0002
+country,Equatorial Guinea,2020,Gas,Bcm,39.0002
+country,Equatorial Guinea,2021,Gas,Bcm,39.0002
+country,Equatorial Guinea,2022,Gas,Bcm,39.0002
+country,Equatorial Guinea,2023,Gas,Bcm,39.0002
+country,Gabon,1960,Gas,Bcm,0.5
+country,Gabon,1961,Gas,Bcm,0.85
+country,Gabon,1962,Gas,Bcm,2.5
+country,Gabon,1963,Gas,Bcm,3.0
+country,Gabon,1964,Gas,Bcm,3.0
+country,Gabon,1965,Gas,Bcm,3.0
+country,Gabon,1966,Gas,Bcm,5.66
+country,Gabon,1967,Gas,Bcm,9.0
+country,Gabon,1968,Gas,Bcm,14.16
+country,Gabon,1969,Gas,Bcm,14.16
+country,Gabon,1970,Gas,Bcm,14.2
+country,Gabon,1971,Gas,Bcm,15.0
+country,Gabon,1972,Gas,Bcm,15.0
+country,Gabon,1973,Gas,Bcm,15.0
+country,Gabon,1974,Gas,Bcm,15.0
+country,Gabon,1975,Gas,Bcm,15.0
+country,Gabon,1976,Gas,Bcm,15.0
+country,Gabon,1977,Gas,Bcm,15.0
+country,Gabon,1978,Gas,Bcm,15.0
+country,Gabon,1979,Gas,Bcm,14.0
+country,Gabon,1980,Gas,Bcm,14.0
+country,Gabon,1981,Gas,Bcm,14.0
+country,Gabon,1982,Gas,Bcm,14.0
+country,Gabon,1983,Gas,Bcm,12.0
+country,Gabon,1984,Gas,Bcm,16.0
+country,Gabon,1985,Gas,Bcm,19.0
+country,Gabon,1986,Gas,Bcm,17.0
+country,Gabon,1987,Gas,Bcm,18.0
+country,Gabon,1988,Gas,Bcm,16.0
+country,Gabon,1989,Gas,Bcm,14.0
+country,Gabon,1990,Gas,Bcm,12.0
+country,Gabon,1991,Gas,Bcm,11.0
+country,Gabon,1992,Gas,Bcm,16.0
+country,Gabon,1993,Gas,Bcm,14.0
+country,Gabon,1994,Gas,Bcm,12.0
+country,Gabon,1995,Gas,Bcm,34.0
+country,Gabon,1996,Gas,Bcm,34.0
+country,Gabon,1997,Gas,Bcm,34.0
+country,Gabon,1998,Gas,Bcm,33.0
+country,Gabon,1999,Gas,Bcm,33.0
+country,Gabon,2000,Gas,Bcm,33.0
+country,Gabon,2001,Gas,Bcm,33.0
+country,Gabon,2002,Gas,Bcm,33.0
+country,Gabon,2003,Gas,Bcm,32.0
+country,Gabon,2004,Gas,Bcm,30.0
+country,Gabon,2005,Gas,Bcm,30.0
+country,Gabon,2006,Gas,Bcm,30.0
+country,Gabon,2007,Gas,Bcm,30.0
+country,Gabon,2008,Gas,Bcm,29.0
+country,Gabon,2009,Gas,Bcm,29.0
+country,Gabon,2010,Gas,Bcm,28.0
+country,Gabon,2011,Gas,Bcm,27.0
+country,Gabon,2012,Gas,Bcm,26.0
+country,Gabon,2013,Gas,Bcm,26.0
+country,Gabon,2014,Gas,Bcm,25.5
+country,Gabon,2015,Gas,Bcm,24.9
+country,Gabon,2016,Gas,Bcm,25.5
+country,Gabon,2017,Gas,Bcm,25.5
+country,Gabon,2018,Gas,Bcm,25.9811
+country,Gabon,2019,Gas,Bcm,25.9811
+country,Gabon,2020,Gas,Bcm,25.9811
+country,Gabon,2021,Gas,Bcm,25.9811
+country,Gabon,2022,Gas,Bcm,25.9811
+country,Gabon,2023,Gas,Bcm,25.9811
+country,Germany,1960,Gas,Bcm,20.0
+country,Germany,1961,Gas,Bcm,25.0
+country,Germany,1962,Gas,Bcm,26.0
+country,Germany,1963,Gas,Bcm,59.0
+country,Germany,1964,Gas,Bcm,92.0
+country,Germany,1965,Gas,Bcm,106.0
+country,Germany,1966,Gas,Bcm,127.0
+country,Germany,1967,Gas,Bcm,126.0
+country,Germany,1968,Gas,Bcm,155.0
+country,Germany,1969,Gas,Bcm,170.0
+country,Germany,1970,Gas,Bcm,280.0
+country,Germany,1971,Gas,Bcm,262.9
+country,Germany,1972,Gas,Bcm,241.4
+country,Germany,1973,Gas,Bcm,289.7
+country,Germany,1974,Gas,Bcm,263.4
+country,Germany,1975,Gas,Bcm,310.0
+country,Germany,1976,Gas,Bcm,297.0
+country,Germany,1977,Gas,Bcm,288.0
+country,Germany,1978,Gas,Bcm,275.0
+country,Germany,1979,Gas,Bcm,263.0
+country,Germany,1980,Gas,Bcm,265.0
+country,Germany,1981,Gas,Bcm,248.0
+country,Germany,1982,Gas,Bcm,241.0
+country,Germany,1983,Gas,Bcm,320.0
+country,Germany,1984,Gas,Bcm,306.0
+country,Germany,1985,Gas,Bcm,296.0
+country,Germany,1986,Gas,Bcm,382.0
+country,Germany,1987,Gas,Bcm,376.0
+country,Germany,1988,Gas,Bcm,363.0
+country,Germany,1989,Gas,Bcm,351.0
+country,Germany,1990,Gas,Bcm,217.0
+country,Germany,1991,Gas,Bcm,195.0
+country,Germany,1992,Gas,Bcm,198.0
+country,Germany,1993,Gas,Bcm,198.0
+country,Germany,1994,Gas,Bcm,222.0
+country,Germany,1995,Gas,Bcm,220.0
+country,Germany,1996,Gas,Bcm,223.0
+country,Germany,1997,Gas,Bcm,263.0
+country,Germany,1998,Gas,Bcm,260.0
+country,Germany,1999,Gas,Bcm,270.0
+country,Germany,2000,Gas,Bcm,264.0
+country,Germany,2001,Gas,Bcm,237.0
+country,Germany,2002,Gas,Bcm,224.0
+country,Germany,2003,Gas,Bcm,207.0
+country,Germany,2004,Gas,Bcm,191.0
+country,Germany,2005,Gas,Bcm,178.0
+country,Germany,2006,Gas,Bcm,155.0
+country,Germany,2007,Gas,Bcm,137.0
+country,Germany,2008,Gas,Bcm,126.0
+country,Germany,2009,Gas,Bcm,98.0
+country,Germany,2010,Gas,Bcm,87.0
+country,Germany,2011,Gas,Bcm,80.0
+country,Germany,2012,Gas,Bcm,71.0
+country,Germany,2013,Gas,Bcm,62.0
+country,Germany,2014,Gas,Bcm,51.0
+country,Germany,2015,Gas,Bcm,46.0
+country,Germany,2016,Gas,Bcm,42.0
+country,Germany,2017,Gas,Bcm,37.0
+country,Germany,2018,Gas,Bcm,30.0
+country,Germany,2019,Gas,Bcm,25.0
+country,Germany,2020,Gas,Bcm,22.0
+country,Germany,2021,Gas,Bcm,20.0
+country,Germany,2022,Gas,Bcm,20.0
+country,Germany,2023,Gas,Bcm,25.2256
+country,India,1960,Gas,Bcm,15.0
+country,India,1961,Gas,Bcm,21.1
+country,India,1962,Gas,Bcm,21.1
+country,India,1963,Gas,Bcm,42.48
+country,India,1964,Gas,Bcm,42.48
+country,India,1965,Gas,Bcm,42.48
+country,India,1966,Gas,Bcm,42.48
+country,India,1967,Gas,Bcm,42.48
+country,India,1968,Gas,Bcm,42.48
+country,India,1969,Gas,Bcm,40.0
+country,India,1970,Gas,Bcm,40.0
+country,India,1971,Gas,Bcm,50.98
+country,India,1972,Gas,Bcm,65.14
+country,India,1973,Gas,Bcm,65.0
+country,India,1974,Gas,Bcm,70.8
+country,India,1975,Gas,Bcm,88.0
+country,India,1976,Gas,Bcm,185.0
+country,India,1977,Gas,Bcm,231.0
+country,India,1978,Gas,Bcm,239.0
+country,India,1979,Gas,Bcm,344.0
+country,India,1980,Gas,Bcm,343.0
+country,India,1981,Gas,Bcm,411.0
+country,India,1982,Gas,Bcm,420.0
+country,India,1983,Gas,Bcm,462.0
+country,India,1984,Gas,Bcm,478.0
+country,India,1985,Gas,Bcm,480.0
+country,India,1986,Gas,Bcm,541.0
+country,India,1987,Gas,Bcm,552.0
+country,India,1988,Gas,Bcm,600.0
+country,India,1989,Gas,Bcm,686.0
+country,India,1990,Gas,Bcm,700.0
+country,India,1991,Gas,Bcm,730.0
+country,India,1992,Gas,Bcm,735.0
+country,India,1993,Gas,Bcm,718.0
+country,India,1994,Gas,Bcm,702.0
+country,India,1995,Gas,Bcm,686.0
+country,India,1996,Gas,Bcm,675.0
+country,India,1997,Gas,Bcm,665.0
+country,India,1998,Gas,Bcm,650.0
+country,India,1999,Gas,Bcm,650.0
+country,India,2000,Gas,Bcm,760.0
+country,India,2001,Gas,Bcm,763.0
+country,India,2002,Gas,Bcm,751.0
+country,India,2003,Gas,Bcm,854.0
+country,India,2004,Gas,Bcm,923.0
+country,India,2005,Gas,Bcm,1101.0
+country,India,2006,Gas,Bcm,1075.0
+country,India,2007,Gas,Bcm,1055.0
+country,India,2008,Gas,Bcm,1074.0
+country,India,2009,Gas,Bcm,1024.0
+country,India,2010,Gas,Bcm,1098.0
+country,India,2011,Gas,Bcm,1142.0
+country,India,2012,Gas,Bcm,1667.0
+country,India,2013,Gas,Bcm,1172.0
+country,India,2014,Gas,Bcm,1199.0
+country,India,2015,Gas,Bcm,1252.0
+country,India,2016,Gas,Bcm,1227.0
+country,India,2017,Gas,Bcm,1284.0
+country,India,2018,Gas,Bcm,1340.0
+country,India,2019,Gas,Bcm,1381.0
+country,India,2020,Gas,Bcm,1372.0
+country,India,2021,Gas,Bcm,1372.0
+country,India,2022,Gas,Bcm,1139.0
+country,India,2023,Gas,Bcm,944.8391888267696
+country,Indonesia,1960,Gas,Bcm,56.8
+country,Indonesia,1961,Gas,Bcm,56.7
+country,Indonesia,1962,Gas,Bcm,56.7
+country,Indonesia,1963,Gas,Bcm,56.7
+country,Indonesia,1964,Gas,Bcm,56.63
+country,Indonesia,1965,Gas,Bcm,56.63
+country,Indonesia,1966,Gas,Bcm,70.8
+country,Indonesia,1967,Gas,Bcm,70.8
+country,Indonesia,1968,Gas,Bcm,70.8
+country,Indonesia,1969,Gas,Bcm,141.59
+country,Indonesia,1970,Gas,Bcm,141.6
+country,Indonesia,1971,Gas,Bcm,147.25
+country,Indonesia,1972,Gas,Bcm,155.76
+country,Indonesia,1973,Gas,Bcm,283.17
+country,Indonesia,1974,Gas,Bcm,424.81
+country,Indonesia,1975,Gas,Bcm,510.0
+country,Indonesia,1976,Gas,Bcm,645.0
+country,Indonesia,1977,Gas,Bcm,695.0
+country,Indonesia,1978,Gas,Bcm,685.0
+country,Indonesia,1979,Gas,Bcm,800.0
+country,Indonesia,1980,Gas,Bcm,819.0
+country,Indonesia,1981,Gas,Bcm,971.0
+country,Indonesia,1982,Gas,Bcm,960.0
+country,Indonesia,1983,Gas,Bcm,1000.0
+country,Indonesia,1984,Gas,Bcm,1100.0
+country,Indonesia,1985,Gas,Bcm,1881.0
+country,Indonesia,1986,Gas,Bcm,2265.0
+country,Indonesia,1987,Gas,Bcm,2367.0
+country,Indonesia,1988,Gas,Bcm,2464.0
+country,Indonesia,1989,Gas,Bcm,1911.0
+country,Indonesia,1990,Gas,Bcm,1849.0
+country,Indonesia,1991,Gas,Bcm,1824.0
+country,Indonesia,1992,Gas,Bcm,1911.0
+country,Indonesia,1993,Gas,Bcm,2234.0
+country,Indonesia,1994,Gas,Bcm,2046.0
+country,Indonesia,1995,Gas,Bcm,2186.0
+country,Indonesia,1996,Gas,Bcm,2157.0
+country,Indonesia,1997,Gas,Bcm,2182.0
+country,Indonesia,1998,Gas,Bcm,2432.0
+country,Indonesia,1999,Gas,Bcm,2683.0
+country,Indonesia,2000,Gas,Bcm,2608.0
+country,Indonesia,2001,Gas,Bcm,2557.0
+country,Indonesia,2002,Gas,Bcm,2582.0
+country,Indonesia,2003,Gas,Bcm,2683.0
+country,Indonesia,2004,Gas,Bcm,2768.0
+country,Indonesia,2005,Gas,Bcm,2659.0
+country,Indonesia,2006,Gas,Bcm,3000.0
+country,Indonesia,2007,Gas,Bcm,3184.0
+country,Indonesia,2008,Gas,Bcm,3038.0
+country,Indonesia,2009,Gas,Bcm,2960.0
+country,Indonesia,2010,Gas,Bcm,3068.0
+country,Indonesia,2011,Gas,Bcm,2925.0
+country,Indonesia,2012,Gas,Bcm,2908.0
+country,Indonesia,2013,Gas,Bcm,2874.0
+country,Indonesia,2014,Gas,Bcm,2773.0
+country,Indonesia,2015,Gas,Bcm,2865.0
+country,Indonesia,2016,Gas,Bcm,2841.0
+country,Indonesia,2017,Gas,Bcm,2745.0
+country,Indonesia,2018,Gas,Bcm,1408.0
+country,Indonesia,2019,Gas,Bcm,1233.0
+country,Indonesia,2020,Gas,Bcm,1118.0
+country,Indonesia,2021,Gas,Bcm,1028.0
+country,Indonesia,2022,Gas,Bcm,902.0
+country,Indonesia,2023,Gas,Bcm,787.5703988467083
+country,Iran,1960,Gas,Bcm,1840.0
+country,Iran,1961,Gas,Bcm,1840.61
+country,Iran,1962,Gas,Bcm,1840.61
+country,Iran,1963,Gas,Bcm,2265.36
+country,Iran,1964,Gas,Bcm,2265.36
+country,Iran,1965,Gas,Bcm,2406.95
+country,Iran,1966,Gas,Bcm,2831.7
+country,Iran,1967,Gas,Bcm,2831.7
+country,Iran,1968,Gas,Bcm,2832.06
+country,Iran,1969,Gas,Bcm,2832.06
+country,Iran,1970,Gas,Bcm,6060.6
+country,Iran,1971,Gas,Bcm,6030.0
+country,Iran,1972,Gas,Bcm,5993.0
+country,Iran,1973,Gas,Bcm,7646.56
+country,Iran,1974,Gas,Bcm,9345.79
+country,Iran,1975,Gas,Bcm,9331.6
+country,Iran,1976,Gas,Bcm,9345.79
+country,Iran,1977,Gas,Bcm,14160.29
+country,Iran,1978,Gas,Bcm,14160.29
+country,Iran,1979,Gas,Bcm,14121.0
+country,Iran,1980,Gas,Bcm,14101.0
+country,Iran,1981,Gas,Bcm,14085.0
+country,Iran,1982,Gas,Bcm,14069.0
+country,Iran,1983,Gas,Bcm,14045.0
+country,Iran,1984,Gas,Bcm,14016.0
+country,Iran,1985,Gas,Bcm,13986.0
+country,Iran,1986,Gas,Bcm,13955.0
+country,Iran,1987,Gas,Bcm,13922.0
+country,Iran,1988,Gas,Bcm,14200.0
+country,Iran,1989,Gas,Bcm,17000.0
+country,Iran,1990,Gas,Bcm,17003.0
+country,Iran,1991,Gas,Bcm,19800.0
+country,Iran,1992,Gas,Bcm,20700.0
+country,Iran,1993,Gas,Bcm,20700.0
+country,Iran,1994,Gas,Bcm,20764.0
+country,Iran,1995,Gas,Bcm,19350.0
+country,Iran,1996,Gas,Bcm,23000.0
+country,Iran,1997,Gas,Bcm,23000.0
+country,Iran,1998,Gas,Bcm,24100.0
+country,Iran,1999,Gas,Bcm,22370.0
+country,Iran,2000,Gas,Bcm,26600.0
+country,Iran,2001,Gas,Bcm,26600.0
+country,Iran,2002,Gas,Bcm,26690.0
+country,Iran,2003,Gas,Bcm,27570.0
+country,Iran,2004,Gas,Bcm,27500.0
+country,Iran,2005,Gas,Bcm,27580.0
+country,Iran,2006,Gas,Bcm,26850.0
+country,Iran,2007,Gas,Bcm,28080.0
+country,Iran,2008,Gas,Bcm,29610.0
+country,Iran,2009,Gas,Bcm,29610.0
+country,Iran,2010,Gas,Bcm,33090.0
+country,Iran,2011,Gas,Bcm,33620.0
+country,Iran,2012,Gas,Bcm,33780.0
+country,Iran,2013,Gas,Bcm,34020.0
+country,Iran,2014,Gas,Bcm,34020.0
+country,Iran,2015,Gas,Bcm,33500.0
+country,Iran,2016,Gas,Bcm,33721.249
+country,Iran,2017,Gas,Bcm,33810.0
+country,Iran,2018,Gas,Bcm,33330.0
+country,Iran,2019,Gas,Bcm,33899.0
+country,Iran,2020,Gas,Bcm,33988.0
+country,Iran,2021,Gas,Bcm,33988.0
+country,Iran,2022,Gas,Bcm,33988.0
+country,Iran,2023,Gas,Bcm,33988.0
+country,Iraq,1960,Gas,Bcm,600.0
+country,Iraq,1961,Gas,Bcm,637.13
+country,Iraq,1962,Gas,Bcm,637.13
+country,Iraq,1963,Gas,Bcm,637.0
+country,Iraq,1964,Gas,Bcm,637.0
+country,Iraq,1965,Gas,Bcm,637.0
+country,Iraq,1966,Gas,Bcm,632.0
+country,Iraq,1967,Gas,Bcm,627.0
+country,Iraq,1968,Gas,Bcm,622.0
+country,Iraq,1969,Gas,Bcm,617.0
+country,Iraq,1970,Gas,Bcm,611.0
+country,Iraq,1971,Gas,Bcm,623.05
+country,Iraq,1972,Gas,Bcm,708.01
+country,Iraq,1973,Gas,Bcm,701.0
+country,Iraq,1974,Gas,Bcm,778.82
+country,Iraq,1975,Gas,Bcm,770.0
+country,Iraq,1976,Gas,Bcm,764.66
+country,Iraq,1977,Gas,Bcm,792.98
+country,Iraq,1978,Gas,Bcm,787.31
+country,Iraq,1979,Gas,Bcm,778.82
+country,Iraq,1980,Gas,Bcm,777.4
+country,Iraq,1981,Gas,Bcm,773.15
+country,Iraq,1982,Gas,Bcm,815.63
+country,Iraq,1983,Gas,Bcm,821.2
+country,Iraq,1984,Gas,Bcm,818.0
+country,Iraq,1985,Gas,Bcm,821.2
+country,Iraq,1986,Gas,Bcm,821.19
+country,Iraq,1987,Gas,Bcm,1000.0
+country,Iraq,1988,Gas,Bcm,2690.0
+country,Iraq,1989,Gas,Bcm,3115.0
+country,Iraq,1990,Gas,Bcm,3107.0
+country,Iraq,1991,Gas,Bcm,3100.0
+country,Iraq,1992,Gas,Bcm,3100.0
+country,Iraq,1993,Gas,Bcm,3100.0
+country,Iraq,1994,Gas,Bcm,3115.0
+country,Iraq,1995,Gas,Bcm,3360.0
+country,Iraq,1996,Gas,Bcm,3360.0
+country,Iraq,1997,Gas,Bcm,3188.0
+country,Iraq,1998,Gas,Bcm,3188.0
+country,Iraq,1999,Gas,Bcm,3285.0
+country,Iraq,2000,Gas,Bcm,3109.0
+country,Iraq,2001,Gas,Bcm,3109.0
+country,Iraq,2002,Gas,Bcm,3190.0
+country,Iraq,2003,Gas,Bcm,3170.0
+country,Iraq,2004,Gas,Bcm,3170.0
+country,Iraq,2005,Gas,Bcm,3170.0
+country,Iraq,2006,Gas,Bcm,3170.0
+country,Iraq,2007,Gas,Bcm,3170.0
+country,Iraq,2008,Gas,Bcm,3170.0
+country,Iraq,2009,Gas,Bcm,3170.0
+country,Iraq,2010,Gas,Bcm,3158.0
+country,Iraq,2011,Gas,Bcm,3158.0
+country,Iraq,2012,Gas,Bcm,3158.0
+country,Iraq,2013,Gas,Bcm,3158.0
+country,Iraq,2014,Gas,Bcm,3158.0
+country,Iraq,2015,Gas,Bcm,3158.0
+country,Iraq,2016,Gas,Bcm,3819.9
+country,Iraq,2017,Gas,Bcm,3744.12
+country,Iraq,2018,Gas,Bcm,3729.35
+country,Iraq,2019,Gas,Bcm,3714.2378
+country,Iraq,2020,Gas,Bcm,3714.2378
+country,Iraq,2021,Gas,Bcm,3714.2378
+country,Iraq,2022,Gas,Bcm,3714.2378
+country,Iraq,2023,Gas,Bcm,3714.2378
+country,Italy,1960,Gas,Bcm,90.0
+country,Italy,1961,Gas,Bcm,115.0
+country,Italy,1962,Gas,Bcm,123.0
+country,Italy,1963,Gas,Bcm,133.0
+country,Italy,1964,Gas,Bcm,145.83
+country,Italy,1965,Gas,Bcm,143.0
+country,Italy,1966,Gas,Bcm,151.5
+country,Italy,1967,Gas,Bcm,155.76
+country,Italy,1968,Gas,Bcm,184.08
+country,Italy,1969,Gas,Bcm,178.42
+country,Italy,1970,Gas,Bcm,164.0
+country,Italy,1971,Gas,Bcm,145.29999999999995
+country,Italy,1972,Gas,Bcm,123.79999999999995
+country,Italy,1973,Gas,Bcm,172.09999999999997
+country,Italy,1974,Gas,Bcm,145.79999999999995
+country,Italy,1975,Gas,Bcm,208.0
+country,Italy,1976,Gas,Bcm,198.0
+country,Italy,1977,Gas,Bcm,195.0
+country,Italy,1978,Gas,Bcm,190.0
+country,Italy,1979,Gas,Bcm,185.0
+country,Italy,1980,Gas,Bcm,181.0
+country,Italy,1981,Gas,Bcm,179.0
+country,Italy,1982,Gas,Bcm,250.0
+country,Italy,1983,Gas,Bcm,251.0
+country,Italy,1984,Gas,Bcm,287.0
+country,Italy,1985,Gas,Bcm,292.0
+country,Italy,1986,Gas,Bcm,290.0
+country,Italy,1987,Gas,Bcm,289.0
+country,Italy,1988,Gas,Bcm,290.0
+country,Italy,1989,Gas,Bcm,317.0
+country,Italy,1990,Gas,Bcm,322.0
+country,Italy,1991,Gas,Bcm,350.0
+country,Italy,1992,Gas,Bcm,375.0
+country,Italy,1993,Gas,Bcm,330.0
+country,Italy,1994,Gas,Bcm,314.0
+country,Italy,1995,Gas,Bcm,305.0
+country,Italy,1996,Gas,Bcm,290.0
+country,Italy,1997,Gas,Bcm,229.0
+country,Italy,1998,Gas,Bcm,222.0
+country,Italy,1999,Gas,Bcm,208.0
+country,Italy,2000,Gas,Bcm,199.0
+country,Italy,2001,Gas,Bcm,183.0
+country,Italy,2002,Gas,Bcm,172.0
+country,Italy,2003,Gas,Bcm,135.0
+country,Italy,2004,Gas,Bcm,125.0
+country,Italy,2005,Gas,Bcm,117.0
+country,Italy,2006,Gas,Bcm,94.0
+country,Italy,2007,Gas,Bcm,84.0
+country,Italy,2008,Gas,Bcm,69.0
+country,Italy,2009,Gas,Bcm,64.0
+country,Italy,2010,Gas,Bcm,66.0
+country,Italy,2011,Gas,Bcm,62.0
+country,Italy,2012,Gas,Bcm,59.0
+country,Italy,2013,Gas,Bcm,56.0
+country,Italy,2014,Gas,Bcm,54.0
+country,Italy,2015,Gas,Bcm,49.0
+country,Italy,2016,Gas,Bcm,38.0
+country,Italy,2017,Gas,Bcm,45.0
+country,Italy,2018,Gas,Bcm,48.0
+country,Italy,2019,Gas,Bcm,46.0
+country,Italy,2020,Gas,Bcm,44.0
+country,Italy,2021,Gas,Bcm,40.0
+country,Italy,2022,Gas,Bcm,37.0
+country,Italy,2023,Gas,Bcm,34.58066808813077
+country,Japan,1960,Gas,Bcm,10.0
+country,Japan,1961,Gas,Bcm,10.0
+country,Japan,1962,Gas,Bcm,10.0
+country,Japan,1963,Gas,Bcm,12.0
+country,Japan,1964,Gas,Bcm,12.0
+country,Japan,1965,Gas,Bcm,12.0
+country,Japan,1966,Gas,Bcm,14.0
+country,Japan,1967,Gas,Bcm,15.0
+country,Japan,1968,Gas,Bcm,17.0
+country,Japan,1969,Gas,Bcm,17.0
+country,Japan,1970,Gas,Bcm,17.0
+country,Japan,1971,Gas,Bcm,18.0
+country,Japan,1972,Gas,Bcm,18.0
+country,Japan,1973,Gas,Bcm,22.0
+country,Japan,1974,Gas,Bcm,25.0
+country,Japan,1975,Gas,Bcm,26.0
+country,Japan,1976,Gas,Bcm,24.0
+country,Japan,1977,Gas,Bcm,23.0
+country,Japan,1978,Gas,Bcm,19.0
+country,Japan,1979,Gas,Bcm,19.0
+country,Japan,1980,Gas,Bcm,25.0
+country,Japan,1981,Gas,Bcm,27.0
+country,Japan,1982,Gas,Bcm,20.0
+country,Japan,1983,Gas,Bcm,25.0
+country,Japan,1984,Gas,Bcm,28.0
+country,Japan,1985,Gas,Bcm,31.0
+country,Japan,1986,Gas,Bcm,30.0
+country,Japan,1987,Gas,Bcm,40.0
+country,Japan,1988,Gas,Bcm,38.0
+country,Japan,1989,Gas,Bcm,36.0
+country,Japan,1990,Gas,Bcm,35.0
+country,Japan,1991,Gas,Bcm,33.0
+country,Japan,1992,Gas,Bcm,31.0
+country,Japan,1993,Gas,Bcm,30.0
+country,Japan,1994,Gas,Bcm,30.0
+country,Japan,1995,Gas,Bcm,30.0
+country,Japan,1996,Gas,Bcm,31.0
+country,Japan,1997,Gas,Bcm,41.0
+country,Japan,1998,Gas,Bcm,40.0
+country,Japan,1999,Gas,Bcm,40.0
+country,Japan,2000,Gas,Bcm,40.0
+country,Japan,2001,Gas,Bcm,40.0
+country,Japan,2002,Gas,Bcm,40.0
+country,Japan,2003,Gas,Bcm,40.0
+country,Japan,2004,Gas,Bcm,39.0
+country,Japan,2005,Gas,Bcm,39.0
+country,Japan,2006,Gas,Bcm,39.0
+country,Japan,2007,Gas,Bcm,38.0
+country,Japan,2008,Gas,Bcm,38.0
+country,Japan,2009,Gas,Bcm,38.0
+country,Japan,2010,Gas,Bcm,37.0
+country,Japan,2011,Gas,Bcm,36.0
+country,Japan,2012,Gas,Bcm,34.0
+country,Japan,2013,Gas,Bcm,33.0
+country,Japan,2014,Gas,Bcm,32.0
+country,Japan,2015,Gas,Bcm,30.0
+country,Japan,2016,Gas,Bcm,29.0
+country,Japan,2017,Gas,Bcm,28.0
+country,Japan,2018,Gas,Bcm,27.0
+country,Japan,2019,Gas,Bcm,26.0
+country,Japan,2020,Gas,Bcm,24.0
+country,Japan,2021,Gas,Bcm,23.0
+country,Japan,2022,Gas,Bcm,23.0
+country,Japan,2023,Gas,Bcm,23.0
+country,Kazakhstan,1997,Gas,Bcm,1389.0
+country,Kazakhstan,1998,Gas,Bcm,1389.0
+country,Kazakhstan,1999,Gas,Bcm,1389.0
+country,Kazakhstan,2000,Gas,Bcm,1389.0
+country,Kazakhstan,2001,Gas,Bcm,1389.0
+country,Kazakhstan,2002,Gas,Bcm,1389.0
+country,Kazakhstan,2003,Gas,Bcm,1389.0
+country,Kazakhstan,2004,Gas,Bcm,1389.0
+country,Kazakhstan,2005,Gas,Bcm,1389.0
+country,Kazakhstan,2006,Gas,Bcm,1389.0
+country,Kazakhstan,2007,Gas,Bcm,1389.0
+country,Kazakhstan,2008,Gas,Bcm,1389.0
+country,Kazakhstan,2009,Gas,Bcm,1389.0
+country,Kazakhstan,2010,Gas,Bcm,1389.0
+country,Kazakhstan,2011,Gas,Bcm,1389.0
+country,Kazakhstan,2012,Gas,Bcm,1389.0
+country,Kazakhstan,2013,Gas,Bcm,1389.0
+country,Kazakhstan,2014,Gas,Bcm,1389.0
+country,Kazakhstan,2015,Gas,Bcm,1830.0
+country,Kazakhstan,2016,Gas,Bcm,1830.0
+country,Kazakhstan,2017,Gas,Bcm,1830.0
+country,Kazakhstan,2018,Gas,Bcm,1830.0
+country,Kazakhstan,2019,Gas,Bcm,1830.0
+country,Kazakhstan,2020,Gas,Bcm,1830.0
+country,Kazakhstan,2021,Gas,Bcm,1830.0
+country,Kazakhstan,2022,Gas,Bcm,1830.0
+country,Kazakhstan,2023,Gas,Bcm,1830.0
+country,Kuwait,1960,Gas,Bcm,950.0
+country,Kuwait,1961,Gas,Bcm,950.0
+country,Kuwait,1962,Gas,Bcm,950.0
+country,Kuwait,1963,Gas,Bcm,1020.0
+country,Kuwait,1964,Gas,Bcm,1047.73
+country,Kuwait,1965,Gas,Bcm,1047.73
+country,Kuwait,1966,Gas,Bcm,1054.81
+country,Kuwait,1967,Gas,Bcm,1076.05
+country,Kuwait,1968,Gas,Bcm,1163.98
+country,Kuwait,1969,Gas,Bcm,1154.06
+country,Kuwait,1970,Gas,Bcm,1189.5
+country,Kuwait,1971,Gas,Bcm,1174.0
+country,Kuwait,1972,Gas,Bcm,1156.0
+country,Kuwait,1973,Gas,Bcm,1138.0
+country,Kuwait,1974,Gas,Bcm,1122.0
+country,Kuwait,1975,Gas,Bcm,1109.0
+country,Kuwait,1976,Gas,Bcm,1099.0
+country,Kuwait,1977,Gas,Bcm,1088.0
+country,Kuwait,1978,Gas,Bcm,1078.0
+country,Kuwait,1979,Gas,Bcm,1067.0
+country,Kuwait,1980,Gas,Bcm,1054.0
+country,Kuwait,1981,Gas,Bcm,1046.0
+country,Kuwait,1982,Gas,Bcm,1040.0
+country,Kuwait,1983,Gas,Bcm,1036.0
+country,Kuwait,1984,Gas,Bcm,1037.8
+country,Kuwait,1985,Gas,Bcm,1036.5
+country,Kuwait,1986,Gas,Bcm,1167.0
+country,Kuwait,1987,Gas,Bcm,1205.0
+country,Kuwait,1988,Gas,Bcm,1378.0
+country,Kuwait,1989,Gas,Bcm,1400.0
+country,Kuwait,1990,Gas,Bcm,1518.0
+country,Kuwait,1991,Gas,Bcm,1500.0
+country,Kuwait,1992,Gas,Bcm,1485.0
+country,Kuwait,1993,Gas,Bcm,1498.0
+country,Kuwait,1994,Gas,Bcm,1499.0
+country,Kuwait,1995,Gas,Bcm,1494.0
+country,Kuwait,1996,Gas,Bcm,1489.0
+country,Kuwait,1997,Gas,Bcm,1490.0
+country,Kuwait,1998,Gas,Bcm,1482.0
+country,Kuwait,1999,Gas,Bcm,1482.0
+country,Kuwait,2000,Gas,Bcm,1557.0
+country,Kuwait,2001,Gas,Bcm,1557.0
+country,Kuwait,2002,Gas,Bcm,1557.0
+country,Kuwait,2003,Gas,Bcm,1572.0
+country,Kuwait,2004,Gas,Bcm,1572.0
+country,Kuwait,2005,Gas,Bcm,1572.0
+country,Kuwait,2006,Gas,Bcm,1780.0
+country,Kuwait,2007,Gas,Bcm,1784.0
+country,Kuwait,2008,Gas,Bcm,1784.0
+country,Kuwait,2009,Gas,Bcm,1784.0
+country,Kuwait,2010,Gas,Bcm,1784.0
+country,Kuwait,2011,Gas,Bcm,1784.0
+country,Kuwait,2012,Gas,Bcm,1784.0
+country,Kuwait,2013,Gas,Bcm,1784.0
+country,Kuwait,2014,Gas,Bcm,1784.0
+country,Kuwait,2015,Gas,Bcm,1784.0
+country,Kuwait,2016,Gas,Bcm,1784.0
+country,Kuwait,2017,Gas,Bcm,1784.0
+country,Kuwait,2018,Gas,Bcm,1784.0
+country,Kuwait,2019,Gas,Bcm,1784.0
+country,Kuwait,2020,Gas,Bcm,1784.0
+country,Kuwait,2021,Gas,Bcm,1784.0
+country,Kuwait,2022,Gas,Bcm,1784.0
+country,Kuwait,2023,Gas,Bcm,1784.0
+country,Libya,1960,Gas,Bcm,104.7
+country,Libya,1961,Gas,Bcm,104.72
+country,Libya,1962,Gas,Bcm,120.0
+country,Libya,1963,Gas,Bcm,127.0
+country,Libya,1964,Gas,Bcm,141.59
+country,Libya,1965,Gas,Bcm,212.38
+country,Libya,1966,Gas,Bcm,226.54
+country,Libya,1967,Gas,Bcm,311.0
+country,Libya,1968,Gas,Bcm,566.41
+country,Libya,1969,Gas,Bcm,849.62
+country,Libya,1970,Gas,Bcm,849.6
+country,Libya,1971,Gas,Bcm,835.46
+country,Libya,1972,Gas,Bcm,820.0
+country,Libya,1973,Gas,Bcm,806.0
+country,Libya,1974,Gas,Bcm,791.0
+country,Libya,1975,Gas,Bcm,779.0
+country,Libya,1976,Gas,Bcm,766.0
+country,Libya,1977,Gas,Bcm,749.0
+country,Libya,1978,Gas,Bcm,729.0
+country,Libya,1979,Gas,Bcm,708.0
+country,Libya,1980,Gas,Bcm,685.0
+country,Libya,1981,Gas,Bcm,665.0
+country,Libya,1982,Gas,Bcm,653.0
+country,Libya,1983,Gas,Bcm,640.0
+country,Libya,1984,Gas,Bcm,628.0
+country,Libya,1985,Gas,Bcm,626.0
+country,Libya,1986,Gas,Bcm,728.0
+country,Libya,1987,Gas,Bcm,727.0
+country,Libya,1988,Gas,Bcm,827.0
+country,Libya,1989,Gas,Bcm,1218.0
+country,Libya,1990,Gas,Bcm,1208.0
+country,Libya,1991,Gas,Bcm,1309.0
+country,Libya,1992,Gas,Bcm,1299.0
+country,Libya,1993,Gas,Bcm,1289.0
+country,Libya,1994,Gas,Bcm,1310.0
+country,Libya,1995,Gas,Bcm,1313.0
+country,Libya,1996,Gas,Bcm,1313.0
+country,Libya,1997,Gas,Bcm,1315.0
+country,Libya,1998,Gas,Bcm,1315.0
+country,Libya,1999,Gas,Bcm,1314.0
+country,Libya,2000,Gas,Bcm,1314.0
+country,Libya,2001,Gas,Bcm,1314.0
+country,Libya,2002,Gas,Bcm,1503.0
+country,Libya,2003,Gas,Bcm,1491.0
+country,Libya,2004,Gas,Bcm,1491.0
+country,Libya,2005,Gas,Bcm,1491.0
+country,Libya,2006,Gas,Bcm,1420.0
+country,Libya,2007,Gas,Bcm,1539.5
+country,Libya,2008,Gas,Bcm,1539.5
+country,Libya,2009,Gas,Bcm,1549.0
+country,Libya,2010,Gas,Bcm,1495.0
+country,Libya,2011,Gas,Bcm,1547.0
+country,Libya,2012,Gas,Bcm,1549.0
+country,Libya,2013,Gas,Bcm,1506.0
+country,Libya,2014,Gas,Bcm,1504.8994619088076
+country,Libya,2015,Gas,Bcm,1504.8994619088076
+country,Libya,2016,Gas,Bcm,1504.8994619088076
+country,Libya,2017,Gas,Bcm,1504.8994619088076
+country,Libya,2018,Gas,Bcm,1504.8994619088076
+country,Libya,2019,Gas,Bcm,1504.8994619088076
+country,Libya,2020,Gas,Bcm,1504.8994619088076
+country,Libya,2021,Gas,Bcm,1504.8994619088076
+country,Libya,2022,Gas,Bcm,1504.8994619088076
+country,Libya,2023,Gas,Bcm,1505.0130619088077
+country,Malaysia,1960,Gas,Bcm,0.0
+country,Malaysia,1961,Gas,Bcm,0.0
+country,Malaysia,1962,Gas,Bcm,0.0
+country,Malaysia,1963,Gas,Bcm,0.0
+country,Malaysia,1964,Gas,Bcm,0.0
+country,Malaysia,1965,Gas,Bcm,0.0
+country,Malaysia,1966,Gas,Bcm,0.0
+country,Malaysia,1967,Gas,Bcm,0.0
+country,Malaysia,1968,Gas,Bcm,0.0
+country,Malaysia,1969,Gas,Bcm,0.0
+country,Malaysia,1970,Gas,Bcm,0.0
+country,Malaysia,1971,Gas,Bcm,225.0
+country,Malaysia,1972,Gas,Bcm,280.0
+country,Malaysia,1973,Gas,Bcm,320.0
+country,Malaysia,1974,Gas,Bcm,340.0
+country,Malaysia,1975,Gas,Bcm,340.0
+country,Malaysia,1976,Gas,Bcm,420.0
+country,Malaysia,1977,Gas,Bcm,480.0
+country,Malaysia,1978,Gas,Bcm,480.0
+country,Malaysia,1979,Gas,Bcm,660.0
+country,Malaysia,1980,Gas,Bcm,1179.0
+country,Malaysia,1981,Gas,Bcm,1225.0
+country,Malaysia,1982,Gas,Bcm,1362.0
+country,Malaysia,1983,Gas,Bcm,1415.0
+country,Malaysia,1984,Gas,Bcm,1375.0
+country,Malaysia,1985,Gas,Bcm,1480.0
+country,Malaysia,1986,Gas,Bcm,1499.0
+country,Malaysia,1987,Gas,Bcm,1475.0
+country,Malaysia,1988,Gas,Bcm,1460.0
+country,Malaysia,1989,Gas,Bcm,1448.0
+country,Malaysia,1990,Gas,Bcm,1611.0
+country,Malaysia,1991,Gas,Bcm,1671.0
+country,Malaysia,1992,Gas,Bcm,1919.0
+country,Malaysia,1993,Gas,Bcm,2173.0
+country,Malaysia,1994,Gas,Bcm,2284.0
+country,Malaysia,1995,Gas,Bcm,2397.0
+country,Malaysia,1996,Gas,Bcm,2270.0
+country,Malaysia,1997,Gas,Bcm,2258.0
+country,Malaysia,1998,Gas,Bcm,2462.0
+country,Malaysia,1999,Gas,Bcm,2428.0
+country,Malaysia,2000,Gas,Bcm,2335.0
+country,Malaysia,2001,Gas,Bcm,2335.0
+country,Malaysia,2002,Gas,Bcm,2471.0
+country,Malaysia,2003,Gas,Bcm,2519.0
+country,Malaysia,2004,Gas,Bcm,2463.0
+country,Malaysia,2005,Gas,Bcm,2411.0
+country,Malaysia,2006,Gas,Bcm,2489.0
+country,Malaysia,2007,Gas,Bcm,2517.0
+country,Malaysia,2008,Gas,Bcm,2491.0
+country,Malaysia,2009,Gas,Bcm,2489.0
+country,Malaysia,2010,Gas,Bcm,2507.0
+country,Malaysia,2011,Gas,Bcm,2547.0
+country,Malaysia,2012,Gas,Bcm,2607.0
+country,Malaysia,2013,Gas,Bcm,2782.0
+country,Malaysia,2014,Gas,Bcm,2849.0
+country,Malaysia,2015,Gas,Bcm,2842.0
+country,Malaysia,2016,Gas,Bcm,2484.0
+country,Malaysia,2017,Gas,Bcm,2346.0
+country,Malaysia,2018,Gas,Bcm,2251.0
+country,Malaysia,2019,Gas,Bcm,2240.0
+country,Malaysia,2020,Gas,Bcm,2130.0
+country,Malaysia,2021,Gas,Bcm,2095.0
+country,Malaysia,2022,Gas,Bcm,2056.0
+country,Malaysia,2023,Gas,Bcm,2056.0
+country,Mexico,1960,Gas,Bcm,20.0
+country,Mexico,1961,Gas,Bcm,38.37
+country,Mexico,1962,Gas,Bcm,51.81999999999999
+country,Mexico,1963,Gas,Bcm,49.69999999999999
+country,Mexico,1964,Gas,Bcm,43.19999999999999
+country,Mexico,1965,Gas,Bcm,66.69
+country,Mexico,1966,Gas,Bcm,72.34999999999998
+country,Mexico,1967,Gas,Bcm,72.34999999999998
+country,Mexico,1968,Gas,Bcm,65.19999999999997
+country,Mexico,1969,Gas,Bcm,65.27
+country,Mexico,1970,Gas,Bcm,78.0
+country,Mexico,1971,Gas,Bcm,72.98
+country,Mexico,1972,Gas,Bcm,82.16
+country,Mexico,1973,Gas,Bcm,87.17
+country,Mexico,1974,Gas,Bcm,80.43
+country,Mexico,1975,Gas,Bcm,379.0
+country,Mexico,1976,Gas,Bcm,550.0
+country,Mexico,1977,Gas,Bcm,789.0
+country,Mexico,1978,Gas,Bcm,1669.0
+country,Mexico,1979,Gas,Bcm,1735.0
+country,Mexico,1980,Gas,Bcm,1827.0
+country,Mexico,1981,Gas,Bcm,2134.0
+country,Mexico,1982,Gas,Bcm,2134.0
+country,Mexico,1983,Gas,Bcm,2181.0
+country,Mexico,1984,Gas,Bcm,2172.0
+country,Mexico,1985,Gas,Bcm,2167.0
+country,Mexico,1986,Gas,Bcm,2146.0
+country,Mexico,1987,Gas,Bcm,2119.0
+country,Mexico,1988,Gas,Bcm,2078.0
+country,Mexico,1989,Gas,Bcm,2060.0
+country,Mexico,1990,Gas,Bcm,2025.0
+country,Mexico,1991,Gas,Bcm,2009.0
+country,Mexico,1992,Gas,Bcm,1983.0
+country,Mexico,1993,Gas,Bcm,1973.0
+country,Mexico,1994,Gas,Bcm,1937.0
+country,Mexico,1995,Gas,Bcm,1916.0
+country,Mexico,1996,Gas,Bcm,1810.0
+country,Mexico,1997,Gas,Bcm,1797.0
+country,Mexico,1998,Gas,Bcm,851.0
+country,Mexico,1999,Gas,Bcm,861.0
+country,Mexico,2000,Gas,Bcm,835.0
+country,Mexico,2001,Gas,Bcm,797.0
+country,Mexico,2002,Gas,Bcm,561.3344700658395
+country,Mexico,2003,Gas,Bcm,558.3344700658395
+country,Mexico,2004,Gas,Bcm,556.3344700658395
+country,Mexico,2005,Gas,Bcm,549.3344700658395
+country,Mexico,2006,Gas,Bcm,529.3344700658395
+country,Mexico,2007,Gas,Bcm,510.3344700658395
+country,Mexico,2008,Gas,Bcm,496.3344700658395
+country,Mexico,2009,Gas,Bcm,476.3344700658395
+country,Mexico,2010,Gas,Bcm,490.3344700658395
+country,Mexico,2011,Gas,Bcm,487.72932042123006
+country,Mexico,2012,Gas,Bcm,483.5101106707213
+country,Mexico,2013,Gas,Bcm,468.6154507461064
+country,Mexico,2014,Gas,Bcm,432.9645441965053
+country,Mexico,2015,Gas,Bcm,358.2363929777625
+country,Mexico,2016,Gas,Bcm,294.5518109046467
+country,Mexico,2017,Gas,Bcm,283.79141019865114
+country,Mexico,2018,Gas,Bcm,273.3708116202134
+country,Mexico,2019,Gas,Bcm,262.9502130417756
+country,Mexico,2020,Gas,Bcm,282.63041959616214
+country,Mexico,2021,Gas,Bcm,305.2838947666791
+country,Mexico,2022,Gas,Bcm,312.0714947666791
+country,Mexico,2023,Gas,Bcm,310.8218947666791
+country,Mozambique,1960,Gas,Bcm,0.0
+country,Mozambique,1961,Gas,Bcm,0.0
+country,Mozambique,1962,Gas,Bcm,0.0
+country,Mozambique,1963,Gas,Bcm,0.0
+country,Mozambique,1964,Gas,Bcm,0.0
+country,Mozambique,1965,Gas,Bcm,0.0
+country,Mozambique,1966,Gas,Bcm,0.0
+country,Mozambique,1967,Gas,Bcm,0.0
+country,Mozambique,1968,Gas,Bcm,0.0
+country,Mozambique,1969,Gas,Bcm,0.0
+country,Mozambique,1970,Gas,Bcm,0.0
+country,Mozambique,1971,Gas,Bcm,0.0
+country,Mozambique,1972,Gas,Bcm,0.0
+country,Mozambique,1973,Gas,Bcm,0.0
+country,Mozambique,1974,Gas,Bcm,0.0
+country,Mozambique,1975,Gas,Bcm,0.0
+country,Mozambique,1976,Gas,Bcm,0.0
+country,Mozambique,1977,Gas,Bcm,0.0
+country,Mozambique,1978,Gas,Bcm,0.0
+country,Mozambique,1979,Gas,Bcm,0.0
+country,Mozambique,1980,Gas,Bcm,0.0
+country,Mozambique,1981,Gas,Bcm,0.0
+country,Mozambique,1982,Gas,Bcm,0.0
+country,Mozambique,1983,Gas,Bcm,65.0
+country,Mozambique,1984,Gas,Bcm,65.178
+country,Mozambique,1985,Gas,Bcm,65.178
+country,Mozambique,1986,Gas,Bcm,65.178
+country,Mozambique,1987,Gas,Bcm,65.178
+country,Mozambique,1988,Gas,Bcm,62.48000000000001
+country,Mozambique,1989,Gas,Bcm,65.03600000000002
+country,Mozambique,1990,Gas,Bcm,65.03600000000002
+country,Mozambique,1991,Gas,Bcm,65.03600000000002
+country,Mozambique,1992,Gas,Bcm,65.03600000000002
+country,Mozambique,1993,Gas,Bcm,65.32000000000001
+country,Mozambique,1994,Gas,Bcm,65.32000000000001
+country,Mozambique,1995,Gas,Bcm,76.7368
+country,Mozambique,1996,Gas,Bcm,49.416
+country,Mozambique,1997,Gas,Bcm,56.8
+country,Mozambique,1998,Gas,Bcm,71.00000000000001
+country,Mozambique,1999,Gas,Bcm,56.8
+country,Mozambique,2000,Gas,Bcm,56.8
+country,Mozambique,2001,Gas,Bcm,56.8
+country,Mozambique,2002,Gas,Bcm,127.8
+country,Mozambique,2003,Gas,Bcm,127.8
+country,Mozambique,2004,Gas,Bcm,127.8
+country,Mozambique,2005,Gas,Bcm,127.8
+country,Mozambique,2006,Gas,Bcm,127.8
+country,Mozambique,2007,Gas,Bcm,127.8
+country,Mozambique,2008,Gas,Bcm,127.8
+country,Mozambique,2009,Gas,Bcm,127.8
+country,Mozambique,2010,Gas,Bcm,127.8
+country,Mozambique,2011,Gas,Bcm,127.8
+country,Mozambique,2012,Gas,Bcm,127.8
+country,Mozambique,2013,Gas,Bcm,127.8
+country,Mozambique,2014,Gas,Bcm,2840.0000000000005
+country,Mozambique,2015,Gas,Bcm,2840.0000000000005
+country,Mozambique,2016,Gas,Bcm,2840.0000000000005
+country,Mozambique,2017,Gas,Bcm,2840.0000000000005
+country,Mozambique,2018,Gas,Bcm,2840.0000000000005
+country,Mozambique,2019,Gas,Bcm,2840.0000000000005
+country,Mozambique,2020,Gas,Bcm,2840.0000000000005
+country,Mozambique,2021,Gas,Bcm,2840.0000000000005
+country,Mozambique,2022,Gas,Bcm,2840.0000000000005
+country,Mozambique,2023,Gas,Bcm,2840.0000000000005
+country,Netherlands,1960,Gas,Bcm,10.0
+country,Netherlands,1961,Gas,Bcm,164.0
+country,Netherlands,1962,Gas,Bcm,500.0
+country,Netherlands,1963,Gas,Bcm,1100.0
+country,Netherlands,1964,Gas,Bcm,1217.63
+country,Netherlands,1965,Gas,Bcm,1274.27
+country,Netherlands,1966,Gas,Bcm,1783.97
+country,Netherlands,1967,Gas,Bcm,1907.690000000001
+country,Netherlands,1968,Gas,Bcm,1912.6700000000003
+country,Netherlands,1969,Gas,Bcm,1916.1800000000007
+country,Netherlands,1970,Gas,Bcm,1936.0
+country,Netherlands,1971,Gas,Bcm,1936.01
+country,Netherlands,1972,Gas,Bcm,2077.61
+country,Netherlands,1973,Gas,Bcm,2190.89
+country,Netherlands,1974,Gas,Bcm,2270.19
+country,Netherlands,1975,Gas,Bcm,2347.0
+country,Netherlands,1976,Gas,Bcm,2271.0
+country,Netherlands,1977,Gas,Bcm,2235.0
+country,Netherlands,1978,Gas,Bcm,2152.0
+country,Netherlands,1979,Gas,Bcm,2205.0
+country,Netherlands,1980,Gas,Bcm,2133.0
+country,Netherlands,1981,Gas,Bcm,2060.0
+country,Netherlands,1982,Gas,Bcm,2006.0
+country,Netherlands,1983,Gas,Bcm,1971.0
+country,Netherlands,1984,Gas,Bcm,1928.0
+country,Netherlands,1985,Gas,Bcm,1889.0
+country,Netherlands,1986,Gas,Bcm,1852.0
+country,Netherlands,1987,Gas,Bcm,1810.0
+country,Netherlands,1988,Gas,Bcm,1778.0
+country,Netherlands,1989,Gas,Bcm,1767.0
+country,Netherlands,1990,Gas,Bcm,2002.0
+country,Netherlands,1991,Gas,Bcm,1976.0
+country,Netherlands,1992,Gas,Bcm,1953.0
+country,Netherlands,1993,Gas,Bcm,1904.0
+country,Netherlands,1994,Gas,Bcm,1892.0
+country,Netherlands,1995,Gas,Bcm,1850.0
+country,Netherlands,1996,Gas,Bcm,1829.0
+country,Netherlands,1997,Gas,Bcm,1845.0
+country,Netherlands,1998,Gas,Bcm,1794.0
+country,Netherlands,1999,Gas,Bcm,1740.0
+country,Netherlands,2000,Gas,Bcm,1684.0
+country,Netherlands,2001,Gas,Bcm,1648.0
+country,Netherlands,2002,Gas,Bcm,1600.0
+country,Netherlands,2003,Gas,Bcm,1530.0
+country,Netherlands,2004,Gas,Bcm,1489.0
+country,Netherlands,2005,Gas,Bcm,1431.0
+country,Netherlands,2006,Gas,Bcm,1363.0
+country,Netherlands,2007,Gas,Bcm,1317.0
+country,Netherlands,2008,Gas,Bcm,1274.0
+country,Netherlands,2009,Gas,Bcm,1317.0
+country,Netherlands,2010,Gas,Bcm,1236.0
+country,Netherlands,2011,Gas,Bcm,1165.0
+country,Netherlands,2012,Gas,Bcm,955.0
+country,Netherlands,2013,Gas,Bcm,897.0
+country,Netherlands,2014,Gas,Bcm,799.0
+country,Netherlands,2015,Gas,Bcm,825.0
+country,Netherlands,2016,Gas,Bcm,740.0
+country,Netherlands,2017,Gas,Bcm,695.0
+country,Netherlands,2018,Gas,Bcm,196.0
+country,Netherlands,2019,Gas,Bcm,133.0
+country,Netherlands,2020,Gas,Bcm,92.0
+country,Netherlands,2021,Gas,Bcm,93.0
+country,Netherlands,2022,Gas,Bcm,72.0
+country,Netherlands,2023,Gas,Bcm,56.05871559633027
+country,New Zealand,1960,Gas,Bcm,5.0
+country,New Zealand,1961,Gas,Bcm,5.0
+country,New Zealand,1962,Gas,Bcm,5.0
+country,New Zealand,1963,Gas,Bcm,5.0
+country,New Zealand,1964,Gas,Bcm,5.0
+country,New Zealand,1965,Gas,Bcm,9.0
+country,New Zealand,1966,Gas,Bcm,13.0
+country,New Zealand,1967,Gas,Bcm,14.0
+country,New Zealand,1968,Gas,Bcm,14.0
+country,New Zealand,1969,Gas,Bcm,14.0
+country,New Zealand,1970,Gas,Bcm,14.0
+country,New Zealand,1971,Gas,Bcm,14.0
+country,New Zealand,1972,Gas,Bcm,14.0
+country,New Zealand,1973,Gas,Bcm,14.0
+country,New Zealand,1974,Gas,Bcm,14.0
+country,New Zealand,1975,Gas,Bcm,170.0
+country,New Zealand,1976,Gas,Bcm,170.0
+country,New Zealand,1977,Gas,Bcm,170.0
+country,New Zealand,1978,Gas,Bcm,160.0
+country,New Zealand,1979,Gas,Bcm,160.0
+country,New Zealand,1980,Gas,Bcm,158.0
+country,New Zealand,1981,Gas,Bcm,157.0
+country,New Zealand,1982,Gas,Bcm,154.0
+country,New Zealand,1983,Gas,Bcm,152.0
+country,New Zealand,1984,Gas,Bcm,151.0
+country,New Zealand,1985,Gas,Bcm,161.0
+country,New Zealand,1986,Gas,Bcm,145.0
+country,New Zealand,1987,Gas,Bcm,142.0
+country,New Zealand,1988,Gas,Bcm,145.0
+country,New Zealand,1989,Gas,Bcm,139.0
+country,New Zealand,1990,Gas,Bcm,137.0
+country,New Zealand,1991,Gas,Bcm,100.0
+country,New Zealand,1992,Gas,Bcm,95.0
+country,New Zealand,1993,Gas,Bcm,90.0
+country,New Zealand,1994,Gas,Bcm,77.0
+country,New Zealand,1995,Gas,Bcm,68.0
+country,New Zealand,1996,Gas,Bcm,63.0
+country,New Zealand,1997,Gas,Bcm,75.0
+country,New Zealand,1998,Gas,Bcm,72.0
+country,New Zealand,1999,Gas,Bcm,59.0
+country,New Zealand,2000,Gas,Bcm,57.0
+country,New Zealand,2001,Gas,Bcm,65.0
+country,New Zealand,2002,Gas,Bcm,65.0
+country,New Zealand,2003,Gas,Bcm,63.0
+country,New Zealand,2004,Gas,Bcm,63.0
+country,New Zealand,2005,Gas,Bcm,62.0
+country,New Zealand,2006,Gas,Bcm,58.0
+country,New Zealand,2007,Gas,Bcm,68.0
+country,New Zealand,2008,Gas,Bcm,68.0
+country,New Zealand,2009,Gas,Bcm,64.0
+country,New Zealand,2010,Gas,Bcm,52.0
+country,New Zealand,2011,Gas,Bcm,51.0
+country,New Zealand,2012,Gas,Bcm,50.0
+country,New Zealand,2013,Gas,Bcm,53.0
+country,New Zealand,2014,Gas,Bcm,64.0
+country,New Zealand,2015,Gas,Bcm,56.0
+country,New Zealand,2016,Gas,Bcm,50.0
+country,New Zealand,2017,Gas,Bcm,51.0
+country,New Zealand,2018,Gas,Bcm,53.0
+country,New Zealand,2019,Gas,Bcm,53.0
+country,New Zealand,2020,Gas,Bcm,54.0
+country,New Zealand,2021,Gas,Bcm,50.0
+country,New Zealand,2022,Gas,Bcm,42.0
+country,New Zealand,2023,Gas,Bcm,39.4156
+country,Nigeria,1960,Gas,Bcm,7.1
+country,Nigeria,1961,Gas,Bcm,7.08
+country,Nigeria,1962,Gas,Bcm,13.0
+country,Nigeria,1963,Gas,Bcm,24.0
+country,Nigeria,1964,Gas,Bcm,48.14
+country,Nigeria,1965,Gas,Bcm,84.95
+country,Nigeria,1966,Gas,Bcm,113.28
+country,Nigeria,1967,Gas,Bcm,113.28
+country,Nigeria,1968,Gas,Bcm,110.7
+country,Nigeria,1969,Gas,Bcm,141.6
+country,Nigeria,1970,Gas,Bcm,169.9
+country,Nigeria,1971,Gas,Bcm,1132.82
+country,Nigeria,1972,Gas,Bcm,1132.82
+country,Nigeria,1973,Gas,Bcm,1132.82
+country,Nigeria,1974,Gas,Bcm,1274.43
+country,Nigeria,1975,Gas,Bcm,1254.6
+country,Nigeria,1976,Gas,Bcm,1246.11
+country,Nigeria,1977,Gas,Bcm,1224.0
+country,Nigeria,1978,Gas,Bcm,1203.0
+country,Nigeria,1979,Gas,Bcm,1183.0
+country,Nigeria,1980,Gas,Bcm,1161.14
+country,Nigeria,1981,Gas,Bcm,1146.98
+country,Nigeria,1982,Gas,Bcm,1385.01
+country,Nigeria,1983,Gas,Bcm,1370.0
+country,Nigeria,1984,Gas,Bcm,1355.0
+country,Nigeria,1985,Gas,Bcm,1340.0
+country,Nigeria,1986,Gas,Bcm,2400.0
+country,Nigeria,1987,Gas,Bcm,2407.0
+country,Nigeria,1988,Gas,Bcm,2476.0
+country,Nigeria,1989,Gas,Bcm,2832.0
+country,Nigeria,1990,Gas,Bcm,2840.0
+country,Nigeria,1991,Gas,Bcm,3400.0
+country,Nigeria,1992,Gas,Bcm,3716.2
+country,Nigeria,1993,Gas,Bcm,3683.0
+country,Nigeria,1994,Gas,Bcm,3450.0
+country,Nigeria,1995,Gas,Bcm,3474.0
+country,Nigeria,1996,Gas,Bcm,3475.0
+country,Nigeria,1997,Gas,Bcm,3483.0
+country,Nigeria,1998,Gas,Bcm,3512.0
+country,Nigeria,1999,Gas,Bcm,3512.0
+country,Nigeria,2000,Gas,Bcm,4106.0
+country,Nigeria,2001,Gas,Bcm,4632.7
+country,Nigeria,2002,Gas,Bcm,4997.3
+country,Nigeria,2003,Gas,Bcm,5055.0
+country,Nigeria,2004,Gas,Bcm,5228.9
+country,Nigeria,2005,Gas,Bcm,5151.8
+country,Nigeria,2006,Gas,Bcm,5207.0
+country,Nigeria,2007,Gas,Bcm,5292.0
+country,Nigeria,2008,Gas,Bcm,5292.0
+country,Nigeria,2009,Gas,Bcm,5292.0
+country,Nigeria,2010,Gas,Bcm,5177.570093457944
+country,Nigeria,2011,Gas,Bcm,5175.587652223167
+country,Nigeria,2012,Gas,Bcm,5118.380062305297
+country,Nigeria,2013,Gas,Bcm,5107.051826677994
+country,Nigeria,2014,Gas,Bcm,5323.98753894081
+country,Nigeria,2015,Gas,Bcm,5284.277858963464
+country,Nigeria,2016,Gas,Bcm,5475.204296659579
+country,Nigeria,2017,Gas,Bcm,5626.87
+country,Nigeria,2018,Gas,Bcm,5674.9973599328905
+country,Nigeria,2019,Gas,Bcm,5761.031
+country,Nigeria,2020,Gas,Bcm,5749.89875418321
+country,Nigeria,2021,Gas,Bcm,5848.4
+country,Nigeria,2022,Gas,Bcm,5913.40704
+country,Nigeria,2023,Gas,Bcm,5943.0
+country,Norway,1960,Gas,Bcm,0.0
+country,Norway,1961,Gas,Bcm,0.0
+country,Norway,1962,Gas,Bcm,0.0
+country,Norway,1963,Gas,Bcm,0.0
+country,Norway,1964,Gas,Bcm,0.0
+country,Norway,1965,Gas,Bcm,0.0
+country,Norway,1966,Gas,Bcm,0.0
+country,Norway,1967,Gas,Bcm,0.0
+country,Norway,1968,Gas,Bcm,0.0
+country,Norway,1969,Gas,Bcm,0.0
+country,Norway,1970,Gas,Bcm,0.0
+country,Norway,1971,Gas,Bcm,145.20999999999975
+country,Norway,1972,Gas,Bcm,286.80999999999983
+country,Norway,1973,Gas,Bcm,513.3699999999999
+country,Norway,1974,Gas,Bcm,561.52
+country,Norway,1975,Gas,Bcm,570.0
+country,Norway,1976,Gas,Bcm,674.0
+country,Norway,1977,Gas,Bcm,689.0
+country,Norway,1978,Gas,Bcm,788.0
+country,Norway,1979,Gas,Bcm,839.0
+country,Norway,1980,Gas,Bcm,1314.0
+country,Norway,1981,Gas,Bcm,1409.0
+country,Norway,1982,Gas,Bcm,1440.0
+country,Norway,1983,Gas,Bcm,2039.0
+country,Norway,1984,Gas,Bcm,2236.0
+country,Norway,1985,Gas,Bcm,2228.0
+country,Norway,1986,Gas,Bcm,2296.0
+country,Norway,1987,Gas,Bcm,2285.0
+country,Norway,1988,Gas,Bcm,2298.0
+country,Norway,1989,Gas,Bcm,2295.0
+country,Norway,1990,Gas,Bcm,2251.0
+country,Norway,1991,Gas,Bcm,2353.0
+country,Norway,1992,Gas,Bcm,2756.0
+country,Norway,1993,Gas,Bcm,2805.0
+country,Norway,1994,Gas,Bcm,2868.0
+country,Norway,1995,Gas,Bcm,3000.0
+country,Norway,1996,Gas,Bcm,3000.0
+country,Norway,1997,Gas,Bcm,3654.0
+country,Norway,1998,Gas,Bcm,3785.0
+country,Norway,1999,Gas,Bcm,3808.0
+country,Norway,2000,Gas,Bcm,3841.0
+country,Norway,2001,Gas,Bcm,3833.0
+country,Norway,2002,Gas,Bcm,3667.0
+country,Norway,2003,Gas,Bcm,3188.0
+country,Norway,2004,Gas,Bcm,3159.0
+country,Norway,2005,Gas,Bcm,3108.0
+country,Norway,2006,Gas,Bcm,3022.0
+country,Norway,2007,Gas,Bcm,2961.0
+country,Norway,2008,Gas,Bcm,2986.0
+country,Norway,2009,Gas,Bcm,2819.0
+country,Norway,2010,Gas,Bcm,2762.0
+country,Norway,2011,Gas,Bcm,2685.0
+country,Norway,2012,Gas,Bcm,2687.0
+country,Norway,2013,Gas,Bcm,2654.0
+country,Norway,2014,Gas,Bcm,2547.0
+country,Norway,2015,Gas,Bcm,2461.0
+country,Norway,2016,Gas,Bcm,2388.0
+country,Norway,2017,Gas,Bcm,2334.0
+country,Norway,2018,Gas,Bcm,2226.0
+country,Norway,2019,Gas,Bcm,2165.0
+country,Norway,2020,Gas,Bcm,2095.0
+country,Norway,2021,Gas,Bcm,2072.0
+country,Norway,2022,Gas,Bcm,1959.0
+country,Norway,2023,Gas,Bcm,1979.0504
+country,Oman,1960,Gas,Bcm,0.0
+country,Oman,1961,Gas,Bcm,0.0
+country,Oman,1962,Gas,Bcm,0.0
+country,Oman,1963,Gas,Bcm,0.0
+country,Oman,1964,Gas,Bcm,14.16
+country,Oman,1965,Gas,Bcm,42.48
+country,Oman,1966,Gas,Bcm,42.48
+country,Oman,1967,Gas,Bcm,42.48
+country,Oman,1968,Gas,Bcm,42.48
+country,Oman,1969,Gas,Bcm,42.48
+country,Oman,1970,Gas,Bcm,56.6
+country,Oman,1971,Gas,Bcm,56.64
+country,Oman,1972,Gas,Bcm,56.64
+country,Oman,1973,Gas,Bcm,56.64
+country,Oman,1974,Gas,Bcm,56.64
+country,Oman,1975,Gas,Bcm,70.0
+country,Oman,1976,Gas,Bcm,70.0
+country,Oman,1977,Gas,Bcm,70.0
+country,Oman,1978,Gas,Bcm,74.0
+country,Oman,1979,Gas,Bcm,74.0
+country,Oman,1980,Gas,Bcm,81.0
+country,Oman,1981,Gas,Bcm,78.0
+country,Oman,1982,Gas,Bcm,83.0
+country,Oman,1983,Gas,Bcm,165.0
+country,Oman,1984,Gas,Bcm,215.0
+country,Oman,1985,Gas,Bcm,218.0
+country,Oman,1986,Gas,Bcm,229.0
+country,Oman,1987,Gas,Bcm,272.0
+country,Oman,1988,Gas,Bcm,283.0
+country,Oman,1989,Gas,Bcm,279.0
+country,Oman,1990,Gas,Bcm,280.0
+country,Oman,1991,Gas,Bcm,93.0
+country,Oman,1992,Gas,Bcm,150.0
+country,Oman,1993,Gas,Bcm,200.0
+country,Oman,1994,Gas,Bcm,256.0
+country,Oman,1995,Gas,Bcm,453.0
+country,Oman,1996,Gas,Bcm,617.0
+country,Oman,1997,Gas,Bcm,542.0
+country,Oman,1998,Gas,Bcm,568.0
+country,Oman,1999,Gas,Bcm,830.0
+country,Oman,2000,Gas,Bcm,859.0
+country,Oman,2001,Gas,Bcm,830.0
+country,Oman,2002,Gas,Bcm,830.0
+country,Oman,2003,Gas,Bcm,830.0
+country,Oman,2004,Gas,Bcm,690.0
+country,Oman,2005,Gas,Bcm,670.0
+country,Oman,2006,Gas,Bcm,650.0
+country,Oman,2007,Gas,Bcm,630.0
+country,Oman,2008,Gas,Bcm,610.0
+country,Oman,2009,Gas,Bcm,529.0
+country,Oman,2010,Gas,Bcm,520.0
+country,Oman,2011,Gas,Bcm,515.0
+country,Oman,2012,Gas,Bcm,505.0
+country,Oman,2013,Gas,Bcm,706.0
+country,Oman,2014,Gas,Bcm,705.0
+country,Oman,2015,Gas,Bcm,705.0
+country,Oman,2016,Gas,Bcm,705.0
+country,Oman,2017,Gas,Bcm,705.0
+country,Oman,2018,Gas,Bcm,677.0
+country,Oman,2019,Gas,Bcm,674.0
+country,Oman,2020,Gas,Bcm,673.0
+country,Oman,2021,Gas,Bcm,673.0
+country,Oman,2022,Gas,Bcm,673.0
+country,Oman,2023,Gas,Bcm,660.788
+country,Pakistan,1960,Gas,Bcm,350.0
+country,Pakistan,1961,Gas,Bcm,349.96
+country,Pakistan,1962,Gas,Bcm,349.96
+country,Pakistan,1963,Gas,Bcm,349.96
+country,Pakistan,1964,Gas,Bcm,456.14
+country,Pakistan,1965,Gas,Bcm,491.54
+country,Pakistan,1966,Gas,Bcm,500.11
+country,Pakistan,1967,Gas,Bcm,500.11
+country,Pakistan,1968,Gas,Bcm,498.2
+country,Pakistan,1969,Gas,Bcm,496.2
+country,Pakistan,1970,Gas,Bcm,590.0
+country,Pakistan,1971,Gas,Bcm,587.0
+country,Pakistan,1972,Gas,Bcm,584.0
+country,Pakistan,1973,Gas,Bcm,581.0
+country,Pakistan,1974,Gas,Bcm,578.0
+country,Pakistan,1975,Gas,Bcm,420.0
+country,Pakistan,1976,Gas,Bcm,420.0
+country,Pakistan,1977,Gas,Bcm,420.0
+country,Pakistan,1978,Gas,Bcm,450.0
+country,Pakistan,1979,Gas,Bcm,450.0
+country,Pakistan,1980,Gas,Bcm,450.0
+country,Pakistan,1981,Gas,Bcm,465.0
+country,Pakistan,1982,Gas,Bcm,481.0
+country,Pakistan,1983,Gas,Bcm,510.0
+country,Pakistan,1984,Gas,Bcm,520.0
+country,Pakistan,1985,Gas,Bcm,623.0
+country,Pakistan,1986,Gas,Bcm,635.0
+country,Pakistan,1987,Gas,Bcm,626.0
+country,Pakistan,1988,Gas,Bcm,651.0
+country,Pakistan,1989,Gas,Bcm,650.0
+country,Pakistan,1990,Gas,Bcm,642.0
+country,Pakistan,1991,Gas,Bcm,756.0
+country,Pakistan,1992,Gas,Bcm,637.0
+country,Pakistan,1993,Gas,Bcm,651.0
+country,Pakistan,1994,Gas,Bcm,665.0
+country,Pakistan,1995,Gas,Bcm,604.0
+country,Pakistan,1996,Gas,Bcm,589.0
+country,Pakistan,1997,Gas,Bcm,595.0
+country,Pakistan,1998,Gas,Bcm,612.0
+country,Pakistan,1999,Gas,Bcm,702.0
+country,Pakistan,2000,Gas,Bcm,677.0
+country,Pakistan,2001,Gas,Bcm,745.0
+country,Pakistan,2002,Gas,Bcm,760.0
+country,Pakistan,2003,Gas,Bcm,750.0
+country,Pakistan,2004,Gas,Bcm,726.0
+country,Pakistan,2005,Gas,Bcm,697.0
+country,Pakistan,2006,Gas,Bcm,667.0
+country,Pakistan,2007,Gas,Bcm,637.0
+country,Pakistan,2008,Gas,Bcm,607.0
+country,Pakistan,2009,Gas,Bcm,576.0
+country,Pakistan,2010,Gas,Bcm,544.0
+country,Pakistan,2011,Gas,Bcm,512.0
+country,Pakistan,2012,Gas,Bcm,502.0
+country,Pakistan,2013,Gas,Bcm,457.0
+country,Pakistan,2014,Gas,Bcm,427.0
+country,Pakistan,2015,Gas,Bcm,395.0
+country,Pakistan,2016,Gas,Bcm,379.0
+country,Pakistan,2017,Gas,Bcm,501.0
+country,Pakistan,2018,Gas,Bcm,472.0
+country,Pakistan,2019,Gas,Bcm,454.0
+country,Pakistan,2020,Gas,Bcm,461.0
+country,Pakistan,2021,Gas,Bcm,487.0
+country,Pakistan,2022,Gas,Bcm,458.0
+country,Pakistan,2023,Gas,Bcm,430.4444216676062
+country,Peru,1960,Gas,Bcm,20.0
+country,Peru,1961,Gas,Bcm,20.53
+country,Peru,1962,Gas,Bcm,20.5
+country,Peru,1963,Gas,Bcm,20.5
+country,Peru,1964,Gas,Bcm,20.0
+country,Peru,1965,Gas,Bcm,19.6
+country,Peru,1966,Gas,Bcm,19.2
+country,Peru,1967,Gas,Bcm,18.8
+country,Peru,1968,Gas,Bcm,18.4
+country,Peru,1969,Gas,Bcm,17.9
+country,Peru,1970,Gas,Bcm,50.0
+country,Peru,1971,Gas,Bcm,38.0
+country,Peru,1972,Gas,Bcm,36.1
+country,Peru,1973,Gas,Bcm,34.2
+country,Peru,1974,Gas,Bcm,37.38
+country,Peru,1975,Gas,Bcm,36.0
+country,Peru,1976,Gas,Bcm,36.0
+country,Peru,1977,Gas,Bcm,37.0
+country,Peru,1978,Gas,Bcm,38.0
+country,Peru,1979,Gas,Bcm,37.0
+country,Peru,1980,Gas,Bcm,32.0
+country,Peru,1981,Gas,Bcm,32.0
+country,Peru,1982,Gas,Bcm,27.0
+country,Peru,1983,Gas,Bcm,26.0
+country,Peru,1984,Gas,Bcm,25.0
+country,Peru,1985,Gas,Bcm,27.0
+country,Peru,1986,Gas,Bcm,55.0
+country,Peru,1987,Gas,Bcm,340.0
+country,Peru,1988,Gas,Bcm,340.0
+country,Peru,1989,Gas,Bcm,340.0
+country,Peru,1990,Gas,Bcm,339.0
+country,Peru,1991,Gas,Bcm,343.0
+country,Peru,1992,Gas,Bcm,326.0
+country,Peru,1993,Gas,Bcm,332.0
+country,Peru,1994,Gas,Bcm,340.0
+country,Peru,1995,Gas,Bcm,201.0
+country,Peru,1996,Gas,Bcm,201.0
+country,Peru,1997,Gas,Bcm,198.0
+country,Peru,1998,Gas,Bcm,255.0
+country,Peru,1999,Gas,Bcm,246.0
+country,Peru,2000,Gas,Bcm,245.0
+country,Peru,2001,Gas,Bcm,247.0
+country,Peru,2002,Gas,Bcm,247.0
+country,Peru,2003,Gas,Bcm,247.0
+country,Peru,2004,Gas,Bcm,325.0
+country,Peru,2005,Gas,Bcm,338.0
+country,Peru,2006,Gas,Bcm,335.0
+country,Peru,2007,Gas,Bcm,335.0
+country,Peru,2008,Gas,Bcm,345.0
+country,Peru,2009,Gas,Bcm,345.0
+country,Peru,2010,Gas,Bcm,353.0
+country,Peru,2011,Gas,Bcm,359.0
+country,Peru,2012,Gas,Bcm,435.0
+country,Peru,2013,Gas,Bcm,426.0
+country,Peru,2014,Gas,Bcm,414.0
+country,Peru,2015,Gas,Bcm,399.0
+country,Peru,2016,Gas,Bcm,456.0
+country,Peru,2017,Gas,Bcm,365.0
+country,Peru,2018,Gas,Bcm,300.0
+country,Peru,2019,Gas,Bcm,287.0
+country,Peru,2020,Gas,Bcm,274.0
+country,Peru,2021,Gas,Bcm,262.0
+country,Peru,2022,Gas,Bcm,237.0
+country,Peru,2023,Gas,Bcm,207.93396226415092
+country,Poland,1960,Gas,Bcm,10.0
+country,Poland,1961,Gas,Bcm,14.16
+country,Poland,1962,Gas,Bcm,13.4
+country,Poland,1963,Gas,Bcm,12.5
+country,Poland,1964,Gas,Bcm,14.16
+country,Poland,1965,Gas,Bcm,14.16
+country,Poland,1966,Gas,Bcm,14.16
+country,Poland,1967,Gas,Bcm,45.99
+country,Poland,1968,Gas,Bcm,46.0
+country,Poland,1969,Gas,Bcm,60.0
+country,Poland,1970,Gas,Bcm,70.0
+country,Poland,1971,Gas,Bcm,84.95
+country,Poland,1972,Gas,Bcm,136.8
+country,Poland,1973,Gas,Bcm,136.29
+country,Poland,1974,Gas,Bcm,135.64
+country,Poland,1975,Gas,Bcm,135.0
+country,Poland,1976,Gas,Bcm,140.0
+country,Poland,1977,Gas,Bcm,135.0
+country,Poland,1978,Gas,Bcm,125.0
+country,Poland,1979,Gas,Bcm,110.0
+country,Poland,1980,Gas,Bcm,104.0
+country,Poland,1981,Gas,Bcm,100.0
+country,Poland,1982,Gas,Bcm,97.0
+country,Poland,1983,Gas,Bcm,94.0
+country,Poland,1984,Gas,Bcm,91.0
+country,Poland,1985,Gas,Bcm,96.0
+country,Poland,1986,Gas,Bcm,165.0
+country,Poland,1987,Gas,Bcm,163.0
+country,Poland,1988,Gas,Bcm,171.0
+country,Poland,1989,Gas,Bcm,164.0
+country,Poland,1990,Gas,Bcm,159.0
+country,Poland,1991,Gas,Bcm,153.0
+country,Poland,1992,Gas,Bcm,158.0
+country,Poland,1993,Gas,Bcm,155.0
+country,Poland,1994,Gas,Bcm,155.0
+country,Poland,1995,Gas,Bcm,153.0
+country,Poland,1996,Gas,Bcm,149.0
+country,Poland,1997,Gas,Bcm,155.0
+country,Poland,1998,Gas,Bcm,141.0
+country,Poland,1999,Gas,Bcm,146.0
+country,Poland,2000,Gas,Bcm,119.0
+country,Poland,2001,Gas,Bcm,115.0
+country,Poland,2002,Gas,Bcm,116.0
+country,Poland,2003,Gas,Bcm,110.0
+country,Poland,2004,Gas,Bcm,109.0
+country,Poland,2005,Gas,Bcm,106.0
+country,Poland,2006,Gas,Bcm,103.0
+country,Poland,2007,Gas,Bcm,79.0
+country,Poland,2008,Gas,Bcm,79.0
+country,Poland,2009,Gas,Bcm,70.0
+country,Poland,2010,Gas,Bcm,71.0
+country,Poland,2011,Gas,Bcm,69.0
+country,Poland,2012,Gas,Bcm,73.0
+country,Poland,2013,Gas,Bcm,69.0
+country,Poland,2014,Gas,Bcm,63.0
+country,Poland,2015,Gas,Bcm,61.0
+country,Poland,2016,Gas,Bcm,58.0
+country,Poland,2017,Gas,Bcm,56.0
+country,Poland,2018,Gas,Bcm,73.0
+country,Poland,2019,Gas,Bcm,85.0
+country,Poland,2020,Gas,Bcm,85.0
+country,Poland,2021,Gas,Bcm,84.0
+country,Poland,2022,Gas,Bcm,89.0
+country,Poland,2023,Gas,Bcm,89.0
+country,Qatar,1960,Gas,Bcm,180.0
+country,Qatar,1961,Gas,Bcm,210.0
+country,Qatar,1962,Gas,Bcm,210.0
+country,Qatar,1963,Gas,Bcm,210.0
+country,Qatar,1964,Gas,Bcm,210.0
+country,Qatar,1965,Gas,Bcm,210.0
+country,Qatar,1966,Gas,Bcm,210.0
+country,Qatar,1967,Gas,Bcm,207.0
+country,Qatar,1968,Gas,Bcm,205.0
+country,Qatar,1969,Gas,Bcm,205.0
+country,Qatar,1970,Gas,Bcm,205.0
+country,Qatar,1971,Gas,Bcm,230.0
+country,Qatar,1972,Gas,Bcm,230.0
+country,Qatar,1973,Gas,Bcm,225.0
+country,Qatar,1974,Gas,Bcm,220.0
+country,Qatar,1975,Gas,Bcm,1350.0
+country,Qatar,1976,Gas,Bcm,1380.0
+country,Qatar,1977,Gas,Bcm,1660.0
+country,Qatar,1978,Gas,Bcm,1700.0
+country,Qatar,1979,Gas,Bcm,1700.0
+country,Qatar,1980,Gas,Bcm,2800.0
+country,Qatar,1981,Gas,Bcm,2830.0
+country,Qatar,1982,Gas,Bcm,3145.0
+country,Qatar,1983,Gas,Bcm,3400.0
+country,Qatar,1984,Gas,Bcm,4280.0
+country,Qatar,1985,Gas,Bcm,4440.0
+country,Qatar,1986,Gas,Bcm,4440.0
+country,Qatar,1987,Gas,Bcm,4440.0
+country,Qatar,1988,Gas,Bcm,4621.0
+country,Qatar,1989,Gas,Bcm,4620.0
+country,Qatar,1990,Gas,Bcm,4615.0
+country,Qatar,1991,Gas,Bcm,6428.0
+country,Qatar,1992,Gas,Bcm,7079.0
+country,Qatar,1993,Gas,Bcm,7100.0
+country,Qatar,1994,Gas,Bcm,8500.0
+country,Qatar,1995,Gas,Bcm,8500.0
+country,Qatar,1996,Gas,Bcm,8500.0
+country,Qatar,1997,Gas,Bcm,8500.0
+country,Qatar,1998,Gas,Bcm,10900.0
+country,Qatar,1999,Gas,Bcm,11157.0
+country,Qatar,2000,Gas,Bcm,14443.0
+country,Qatar,2001,Gas,Bcm,25783.0
+country,Qatar,2002,Gas,Bcm,25783.0
+country,Qatar,2003,Gas,Bcm,25783.0
+country,Qatar,2004,Gas,Bcm,25783.0
+country,Qatar,2005,Gas,Bcm,25636.0
+country,Qatar,2006,Gas,Bcm,25636.0
+country,Qatar,2007,Gas,Bcm,25636.0
+country,Qatar,2008,Gas,Bcm,25466.0
+country,Qatar,2009,Gas,Bcm,25366.0
+country,Qatar,2010,Gas,Bcm,25201.0
+country,Qatar,2011,Gas,Bcm,25110.0
+country,Qatar,2012,Gas,Bcm,25069.0
+country,Qatar,2013,Gas,Bcm,24681.0
+country,Qatar,2014,Gas,Bcm,24531.0
+country,Qatar,2015,Gas,Bcm,24299.0
+country,Qatar,2016,Gas,Bcm,24072.0
+country,Qatar,2017,Gas,Bcm,23861.0
+country,Qatar,2018,Gas,Bcm,23846.0
+country,Qatar,2019,Gas,Bcm,23831.0
+country,Qatar,2020,Gas,Bcm,23831.0
+country,Qatar,2021,Gas,Bcm,23831.0
+country,Qatar,2022,Gas,Bcm,23831.0
+country,Qatar,2023,Gas,Bcm,23831.0
+country,Romania,1960,Gas,Bcm,493.0
+country,Romania,1961,Gas,Bcm,498.92
+country,Romania,1962,Gas,Bcm,563.0
+country,Romania,1963,Gas,Bcm,598.0
+country,Romania,1964,Gas,Bcm,583.02
+country,Romania,1965,Gas,Bcm,570.17
+country,Romania,1966,Gas,Bcm,575.38
+country,Romania,1967,Gas,Bcm,563.0
+country,Romania,1968,Gas,Bcm,613.0
+country,Romania,1969,Gas,Bcm,613.0
+country,Romania,1970,Gas,Bcm,663.0
+country,Romania,1971,Gas,Bcm,662.95
+country,Romania,1972,Gas,Bcm,663.0
+country,Romania,1973,Gas,Bcm,636.22
+country,Romania,1974,Gas,Bcm,605.56
+country,Romania,1975,Gas,Bcm,603.0
+country,Romania,1976,Gas,Bcm,598.0
+country,Romania,1977,Gas,Bcm,593.0
+country,Romania,1978,Gas,Bcm,668.0
+country,Romania,1979,Gas,Bcm,693.0
+country,Romania,1980,Gas,Bcm,713.0
+country,Romania,1981,Gas,Bcm,693.0
+country,Romania,1982,Gas,Bcm,668.0
+country,Romania,1983,Gas,Bcm,630.0
+country,Romania,1984,Gas,Bcm,597.0
+country,Romania,1985,Gas,Bcm,558.0
+country,Romania,1986,Gas,Bcm,520.0
+country,Romania,1987,Gas,Bcm,484.0
+country,Romania,1988,Gas,Bcm,450.0
+country,Romania,1989,Gas,Bcm,417.0
+country,Romania,1990,Gas,Bcm,389.0
+country,Romania,1991,Gas,Bcm,364.0
+country,Romania,1992,Gas,Bcm,341.0
+country,Romania,1993,Gas,Bcm,320.0
+country,Romania,1994,Gas,Bcm,300.0
+country,Romania,1995,Gas,Bcm,280.0
+country,Romania,1996,Gas,Bcm,262.0
+country,Romania,1997,Gas,Bcm,246.0
+country,Romania,1998,Gas,Bcm,231.0
+country,Romania,1999,Gas,Bcm,216.0
+country,Romania,2000,Gas,Bcm,202.0
+country,Romania,2001,Gas,Bcm,189.0
+country,Romania,2002,Gas,Bcm,178.0
+country,Romania,2003,Gas,Bcm,165.0
+country,Romania,2004,Gas,Bcm,152.0
+country,Romania,2005,Gas,Bcm,143.0
+country,Romania,2006,Gas,Bcm,130.0
+country,Romania,2007,Gas,Bcm,120.0
+country,Romania,2008,Gas,Bcm,113.0
+country,Romania,2009,Gas,Bcm,112.0
+country,Romania,2010,Gas,Bcm,110.0
+country,Romania,2011,Gas,Bcm,112.0
+country,Romania,2012,Gas,Bcm,119.0
+country,Romania,2013,Gas,Bcm,113.0
+country,Romania,2014,Gas,Bcm,109.0
+country,Romania,2015,Gas,Bcm,103.0
+country,Romania,2016,Gas,Bcm,99.0
+country,Romania,2017,Gas,Bcm,92.0
+country,Romania,2018,Gas,Bcm,87.0
+country,Romania,2019,Gas,Bcm,81.0
+country,Romania,2020,Gas,Bcm,77.0
+country,Romania,2021,Gas,Bcm,74.0
+country,Romania,2022,Gas,Bcm,70.0
+country,Romania,2023,Gas,Bcm,70.0
+country,Russian Federation & USSR,1960,Gas,Bcm,1752.70347533632
+country,Russian Federation & USSR,1961,Gas,Bcm,1933.304078475337
+country,Russian Federation & USSR,1962,Gas,Bcm,2061.6545964125567
+country,Russian Federation & USSR,1963,Gas,Bcm,2303.553139013453
+country,Russian Federation & USSR,1964,Gas,Bcm,2495.0858587443945
+country,Russian Federation & USSR,1965,Gas,Bcm,2507.2571748878927
+country,Russian Federation & USSR,1966,Gas,Bcm,3271.147309417041
+country,Russian Federation & USSR,1967,Gas,Bcm,3736.271524663677
+country,Russian Federation & USSR,1968,Gas,Bcm,7869.765919282511
+country,Russian Federation & USSR,1969,Gas,Bcm,8024.241479820628
+country,Russian Federation & USSR,1970,Gas,Bcm,9622.469394618834
+country,Russian Federation & USSR,1971,Gas,Bcm,12580.45569955157
+country,Russian Federation & USSR,1972,Gas,Bcm,15270.16378923767
+country,Russian Federation & USSR,1973,Gas,Bcm,15073.343252242154
+country,Russian Federation & USSR,1974,Gas,Bcm,16275.052773542604
+country,Russian Federation & USSR,1975,Gas,Bcm,20541.85448430493
+country,Russian Federation & USSR,1976,Gas,Bcm,22397.25874439462
+country,Russian Federation & USSR,1977,Gas,Bcm,22691.780829596413
+country,Russian Federation & USSR,1978,Gas,Bcm,23885.995739910315
+country,Russian Federation & USSR,1979,Gas,Bcm,24682.13901345292
+country,Russian Federation & USSR,1980,Gas,Bcm,25478.28228699552
+country,Russian Federation & USSR,1981,Gas,Bcm,27070.56883408072
+country,Russian Federation & USSR,1982,Gas,Bcm,27867.560874439463
+country,Russian Federation & USSR,1983,Gas,Bcm,28663.704147982065
+country,Russian Federation & USSR,1984,Gas,Bcm,29857.919058295967
+country,Russian Federation & USSR,1985,Gas,Bcm,31848.277242152468
+country,Russian Federation & USSR,1986,Gas,Bcm,32644.42051569507
+country,Russian Federation & USSR,1987,Gas,Bcm,33202.06031390135
+country,Russian Federation & USSR,1988,Gas,Bcm,33838.63542600897
+country,Russian Federation & USSR,1989,Gas,Bcm,41402.84529147983
+country,Russian Federation & USSR,1990,Gas,Bcm,43416.968946188346
+country,Russian Federation & USSR,1991,Gas,Bcm,43791.27511210763
+country,Russian Federation & USSR,1992,Gas,Bcm,44746.9865470852
+country,Russian Federation & USSR,1993,Gas,Bcm,46020.9855381166
+country,Russian Federation & USSR,1994,Gas,Bcm,46299.38105381166
+country,Russian Federation & USSR,1995,Gas,Bcm,45678.93251121076
+country,Russian Federation & USSR,1996,Gas,Bcm,45147.60448430494
+country,Russian Federation & USSR,1997,Gas,Bcm,45426.0
+country,Russian Federation & USSR,1998,Gas,Bcm,45107.0
+country,Russian Federation & USSR,1999,Gas,Bcm,44000.0
+country,Russian Federation & USSR,2000,Gas,Bcm,43809.0
+country,Russian Federation & USSR,2001,Gas,Bcm,43902.0
+country,Russian Federation & USSR,2002,Gas,Bcm,44090.0
+country,Russian Federation & USSR,2003,Gas,Bcm,45028.0
+country,Russian Federation & USSR,2004,Gas,Bcm,44840.0
+country,Russian Federation & USSR,2005,Gas,Bcm,44860.0
+country,Russian Federation & USSR,2006,Gas,Bcm,44855.0
+country,Russian Federation & USSR,2007,Gas,Bcm,44900.0
+country,Russian Federation & USSR,2008,Gas,Bcm,44900.0
+country,Russian Federation & USSR,2009,Gas,Bcm,46000.0
+country,Russian Federation & USSR,2010,Gas,Bcm,46000.0
+country,Russian Federation & USSR,2011,Gas,Bcm,48676.0
+country,Russian Federation & USSR,2012,Gas,Bcm,48810.0
+country,Russian Federation & USSR,2013,Gas,Bcm,49335.0
+country,Russian Federation & USSR,2014,Gas,Bcm,49896.0
+country,Russian Federation & USSR,2015,Gas,Bcm,50205.0
+country,Russian Federation & USSR,2016,Gas,Bcm,50617.0
+country,Russian Federation & USSR,2017,Gas,Bcm,50508.0
+country,Russian Federation & USSR,2018,Gas,Bcm,49571.0
+country,Russian Federation & USSR,2019,Gas,Bcm,49084.0
+country,Russian Federation & USSR,2020,Gas,Bcm,47759.0
+country,Russian Federation & USSR,2021,Gas,Bcm,47759.0
+country,Russian Federation & USSR,2022,Gas,Bcm,44150.0
+country,Russian Federation & USSR,2023,Gas,Bcm,44150.0
+country,Saudi Arabia,1960,Gas,Bcm,1302.6
+country,Saudi Arabia,1961,Gas,Bcm,1302.58
+country,Saudi Arabia,1962,Gas,Bcm,1310.0
+country,Saudi Arabia,1963,Gas,Bcm,1450.0
+country,Saudi Arabia,1964,Gas,Bcm,1529.12
+country,Saudi Arabia,1965,Gas,Bcm,1654.79
+country,Saudi Arabia,1966,Gas,Bcm,1654.0
+country,Saudi Arabia,1967,Gas,Bcm,1641.0
+country,Saudi Arabia,1968,Gas,Bcm,1627.0
+country,Saudi Arabia,1969,Gas,Bcm,1612.0
+country,Saudi Arabia,1970,Gas,Bcm,1596.0
+country,Saudi Arabia,1971,Gas,Bcm,1585.95
+country,Saudi Arabia,1972,Gas,Bcm,1561.0
+country,Saudi Arabia,1973,Gas,Bcm,1554.8
+country,Saudi Arabia,1974,Gas,Bcm,1663.83
+country,Saudi Arabia,1975,Gas,Bcm,2023.2
+country,Saudi Arabia,1976,Gas,Bcm,1986.0
+country,Saudi Arabia,1977,Gas,Bcm,2478.05
+country,Saudi Arabia,1978,Gas,Bcm,2730.1
+country,Saudi Arabia,1979,Gas,Bcm,2711.13
+country,Saudi Arabia,1980,Gas,Bcm,3183.23
+country,Saudi Arabia,1981,Gas,Bcm,3346.08
+country,Saudi Arabia,1982,Gas,Bcm,3432.17
+country,Saudi Arabia,1983,Gas,Bcm,3543.97
+country,Saudi Arabia,1984,Gas,Bcm,3608.01
+country,Saudi Arabia,1985,Gas,Bcm,3687.0
+country,Saudi Arabia,1986,Gas,Bcm,4021.0
+country,Saudi Arabia,1987,Gas,Bcm,4189.5
+country,Saudi Arabia,1988,Gas,Bcm,5020.0
+country,Saudi Arabia,1989,Gas,Bcm,5218.4
+country,Saudi Arabia,1990,Gas,Bcm,5222.7
+country,Saudi Arabia,1991,Gas,Bcm,5220.6
+country,Saudi Arabia,1992,Gas,Bcm,5248.8
+country,Saudi Arabia,1993,Gas,Bcm,5248.8
+country,Saudi Arabia,1994,Gas,Bcm,5260.0
+country,Saudi Arabia,1995,Gas,Bcm,5544.5
+country,Saudi Arabia,1996,Gas,Bcm,5693.3
+country,Saudi Arabia,1997,Gas,Bcm,5882.0
+country,Saudi Arabia,1998,Gas,Bcm,6068.0
+country,Saudi Arabia,1999,Gas,Bcm,6146.0
+country,Saudi Arabia,2000,Gas,Bcm,6301.0
+country,Saudi Arabia,2001,Gas,Bcm,6455.56
+country,Saudi Arabia,2002,Gas,Bcm,6646.0
+country,Saudi Arabia,2003,Gas,Bcm,6754.2
+country,Saudi Arabia,2004,Gas,Bcm,6834.4
+country,Saudi Arabia,2005,Gas,Bcm,6900.3
+country,Saudi Arabia,2006,Gas,Bcm,7154.0
+country,Saudi Arabia,2007,Gas,Bcm,7305.4
+country,Saudi Arabia,2008,Gas,Bcm,7570.4
+country,Saudi Arabia,2009,Gas,Bcm,7920.0
+country,Saudi Arabia,2010,Gas,Bcm,8016.0
+country,Saudi Arabia,2011,Gas,Bcm,8151.0
+country,Saudi Arabia,2012,Gas,Bcm,8235.0
+country,Saudi Arabia,2013,Gas,Bcm,8317.0
+country,Saudi Arabia,2014,Gas,Bcm,8488.870008496177
+country,Saudi Arabia,2015,Gas,Bcm,8588.246955536675
+country,Saudi Arabia,2016,Gas,Bcm,8619.342962333616
+country,Saudi Arabia,2017,Gas,Bcm,8714.5888
+country,Saudi Arabia,2018,Gas,Bcm,8260.199999999999
+country,Saudi Arabia,2019,Gas,Bcm,8366.099999999999
+country,Saudi Arabia,2020,Gas,Bcm,8436.699999999999
+country,Saudi Arabia,2021,Gas,Bcm,8507.3
+country,Saudi Arabia,2022,Gas,Bcm,9514.0
+country,Saudi Arabia,2023,Gas,Bcm,9651.0
+country,Thailand,1960,Gas,Bcm,0.0
+country,Thailand,1961,Gas,Bcm,0.0
+country,Thailand,1962,Gas,Bcm,0.0
+country,Thailand,1963,Gas,Bcm,0.0
+country,Thailand,1964,Gas,Bcm,0.0
+country,Thailand,1965,Gas,Bcm,0.0
+country,Thailand,1966,Gas,Bcm,0.0
+country,Thailand,1967,Gas,Bcm,0.0
+country,Thailand,1968,Gas,Bcm,0.0
+country,Thailand,1969,Gas,Bcm,0.0
+country,Thailand,1970,Gas,Bcm,0.0
+country,Thailand,1971,Gas,Bcm,0.0
+country,Thailand,1972,Gas,Bcm,0.0
+country,Thailand,1973,Gas,Bcm,0.0
+country,Thailand,1974,Gas,Bcm,0.0
+country,Thailand,1975,Gas,Bcm,0.0
+country,Thailand,1976,Gas,Bcm,135.0
+country,Thailand,1977,Gas,Bcm,135.0
+country,Thailand,1978,Gas,Bcm,185.0
+country,Thailand,1979,Gas,Bcm,215.0
+country,Thailand,1980,Gas,Bcm,292.0
+country,Thailand,1981,Gas,Bcm,402.0
+country,Thailand,1982,Gas,Bcm,350.0
+country,Thailand,1983,Gas,Bcm,168.0
+country,Thailand,1984,Gas,Bcm,210.0
+country,Thailand,1985,Gas,Bcm,218.0
+country,Thailand,1986,Gas,Bcm,204.0
+country,Thailand,1987,Gas,Bcm,184.0
+country,Thailand,1988,Gas,Bcm,195.0
+country,Thailand,1989,Gas,Bcm,229.0
+country,Thailand,1990,Gas,Bcm,224.0
+country,Thailand,1991,Gas,Bcm,246.0
+country,Thailand,1992,Gas,Bcm,231.0
+country,Thailand,1993,Gas,Bcm,181.0
+country,Thailand,1994,Gas,Bcm,175.0
+country,Thailand,1995,Gas,Bcm,176.0
+country,Thailand,1996,Gas,Bcm,196.0
+country,Thailand,1997,Gas,Bcm,205.0
+country,Thailand,1998,Gas,Bcm,420.0
+country,Thailand,1999,Gas,Bcm,345.0
+country,Thailand,2000,Gas,Bcm,360.0
+country,Thailand,2001,Gas,Bcm,378.0
+country,Thailand,2002,Gas,Bcm,441.0
+country,Thailand,2003,Gas,Bcm,418.0
+country,Thailand,2004,Gas,Bcm,354.0
+country,Thailand,2005,Gas,Bcm,304.0
+country,Thailand,2006,Gas,Bcm,331.0
+country,Thailand,2007,Gas,Bcm,317.0
+country,Thailand,2008,Gas,Bcm,340.0
+country,Thailand,2009,Gas,Bcm,312.0
+country,Thailand,2010,Gas,Bcm,300.0
+country,Thailand,2011,Gas,Bcm,285.0
+country,Thailand,2012,Gas,Bcm,256.0
+country,Thailand,2013,Gas,Bcm,238.0
+country,Thailand,2014,Gas,Bcm,220.0
+country,Thailand,2015,Gas,Bcm,207.0
+country,Thailand,2016,Gas,Bcm,193.0
+country,Thailand,2017,Gas,Bcm,181.0
+country,Thailand,2018,Gas,Bcm,171.0
+country,Thailand,2019,Gas,Bcm,138.0
+country,Thailand,2020,Gas,Bcm,112.0
+country,Thailand,2021,Gas,Bcm,97.0
+country,Thailand,2022,Gas,Bcm,97.0
+country,Thailand,2023,Gas,Bcm,97.0281649245064
+country,Trinidad and Tobago,1960,Gas,Bcm,20.0
+country,Trinidad and Tobago,1961,Gas,Bcm,19.200000000000003
+country,Trinidad and Tobago,1962,Gas,Bcm,18.300000000000004
+country,Trinidad and Tobago,1963,Gas,Bcm,17.5
+country,Trinidad and Tobago,1964,Gas,Bcm,16.400000000000006
+country,Trinidad and Tobago,1965,Gas,Bcm,15.200000000000005
+country,Trinidad and Tobago,1966,Gas,Bcm,13.800000000000004
+country,Trinidad and Tobago,1967,Gas,Bcm,12.300000000000004
+country,Trinidad and Tobago,1968,Gas,Bcm,10.700000000000005
+country,Trinidad and Tobago,1969,Gas,Bcm,73.8
+country,Trinidad and Tobago,1970,Gas,Bcm,85.0
+country,Trinidad and Tobago,1971,Gas,Bcm,85.0
+country,Trinidad and Tobago,1972,Gas,Bcm,98.3
+country,Trinidad and Tobago,1973,Gas,Bcm,127.5
+country,Trinidad and Tobago,1974,Gas,Bcm,155.82
+country,Trinidad and Tobago,1975,Gas,Bcm,140.0
+country,Trinidad and Tobago,1976,Gas,Bcm,170.0
+country,Trinidad and Tobago,1977,Gas,Bcm,170.0
+country,Trinidad and Tobago,1978,Gas,Bcm,170.0
+country,Trinidad and Tobago,1979,Gas,Bcm,200.0
+country,Trinidad and Tobago,1980,Gas,Bcm,297.0
+country,Trinidad and Tobago,1981,Gas,Bcm,340.0
+country,Trinidad and Tobago,1982,Gas,Bcm,334.0
+country,Trinidad and Tobago,1983,Gas,Bcm,317.0
+country,Trinidad and Tobago,1984,Gas,Bcm,311.0
+country,Trinidad and Tobago,1985,Gas,Bcm,317.0
+country,Trinidad and Tobago,1986,Gas,Bcm,309.0
+country,Trinidad and Tobago,1987,Gas,Bcm,303.0
+country,Trinidad and Tobago,1988,Gas,Bcm,294.0
+country,Trinidad and Tobago,1989,Gas,Bcm,286.0
+country,Trinidad and Tobago,1990,Gas,Bcm,252.0
+country,Trinidad and Tobago,1991,Gas,Bcm,238.0
+country,Trinidad and Tobago,1992,Gas,Bcm,233.0
+country,Trinidad and Tobago,1993,Gas,Bcm,230.0
+country,Trinidad and Tobago,1994,Gas,Bcm,286.0
+country,Trinidad and Tobago,1995,Gas,Bcm,349.0
+country,Trinidad and Tobago,1996,Gas,Bcm,456.0
+country,Trinidad and Tobago,1997,Gas,Bcm,517.0
+country,Trinidad and Tobago,1998,Gas,Bcm,560.0
+country,Trinidad and Tobago,1999,Gas,Bcm,605.0
+country,Trinidad and Tobago,2000,Gas,Bcm,557.0
+country,Trinidad and Tobago,2001,Gas,Bcm,576.0
+country,Trinidad and Tobago,2002,Gas,Bcm,589.0
+country,Trinidad and Tobago,2003,Gas,Bcm,532.0
+country,Trinidad and Tobago,2004,Gas,Bcm,532.0
+country,Trinidad and Tobago,2005,Gas,Bcm,531.0
+country,Trinidad and Tobago,2006,Gas,Bcm,483.0
+country,Trinidad and Tobago,2007,Gas,Bcm,481.0
+country,Trinidad and Tobago,2008,Gas,Bcm,435.0
+country,Trinidad and Tobago,2009,Gas,Bcm,408.0
+country,Trinidad and Tobago,2010,Gas,Bcm,381.0
+country,Trinidad and Tobago,2011,Gas,Bcm,375.0
+country,Trinidad and Tobago,2012,Gas,Bcm,371.0
+country,Trinidad and Tobago,2013,Gas,Bcm,346.0
+country,Trinidad and Tobago,2014,Gas,Bcm,325.0
+country,Trinidad and Tobago,2015,Gas,Bcm,300.0
+country,Trinidad and Tobago,2016,Gas,Bcm,281.0
+country,Trinidad and Tobago,2017,Gas,Bcm,298.0
+country,Trinidad and Tobago,2018,Gas,Bcm,298.0
+country,Trinidad and Tobago,2019,Gas,Bcm,302.0
+country,Trinidad and Tobago,2020,Gas,Bcm,289.0
+country,Trinidad and Tobago,2021,Gas,Bcm,284.0
+country,Trinidad and Tobago,2022,Gas,Bcm,279.0
+country,Trinidad and Tobago,2023,Gas,Bcm,279.0
+country,Turkmenistan,1997,Gas,Bcm,1803.0
+country,Turkmenistan,1998,Gas,Bcm,1862.0
+country,Turkmenistan,1999,Gas,Bcm,1862.0
+country,Turkmenistan,2000,Gas,Bcm,1862.0
+country,Turkmenistan,2001,Gas,Bcm,1862.0
+country,Turkmenistan,2002,Gas,Bcm,1862.0
+country,Turkmenistan,2003,Gas,Bcm,1862.0
+country,Turkmenistan,2004,Gas,Bcm,1862.0
+country,Turkmenistan,2005,Gas,Bcm,1862.0
+country,Turkmenistan,2006,Gas,Bcm,1862.0
+country,Turkmenistan,2007,Gas,Bcm,5859.0
+country,Turkmenistan,2008,Gas,Bcm,5859.0
+country,Turkmenistan,2009,Gas,Bcm,8113.0
+country,Turkmenistan,2010,Gas,Bcm,13950.0
+country,Turkmenistan,2011,Gas,Bcm,13950.0
+country,Turkmenistan,2012,Gas,Bcm,13950.0
+country,Turkmenistan,2013,Gas,Bcm,13950.0
+country,Turkmenistan,2014,Gas,Bcm,13950.0
+country,Turkmenistan,2015,Gas,Bcm,13950.0
+country,Turkmenistan,2016,Gas,Bcm,13950.0
+country,Turkmenistan,2017,Gas,Bcm,13950.0
+country,Turkmenistan,2018,Gas,Bcm,13950.0
+country,Turkmenistan,2019,Gas,Bcm,13950.0
+country,Turkmenistan,2020,Gas,Bcm,13950.0
+country,Turkmenistan,2021,Gas,Bcm,13950.0
+country,Turkmenistan,2022,Gas,Bcm,13950.0
+country,Turkmenistan,2023,Gas,Bcm,13950.0
+country,Ukraine,1997,Gas,Bcm,985.0
+country,Ukraine,1998,Gas,Bcm,1055.0
+country,Ukraine,1999,Gas,Bcm,1045.0
+country,Ukraine,2000,Gas,Bcm,1040.0
+country,Ukraine,2001,Gas,Bcm,1040.0
+country,Ukraine,2002,Gas,Bcm,1040.0
+country,Ukraine,2003,Gas,Bcm,1035.0
+country,Ukraine,2004,Gas,Bcm,1040.0
+country,Ukraine,2005,Gas,Bcm,1030.0
+country,Ukraine,2006,Gas,Bcm,1030.0
+country,Ukraine,2007,Gas,Bcm,1030.0
+country,Ukraine,2008,Gas,Bcm,1010.0
+country,Ukraine,2009,Gas,Bcm,990.0
+country,Ukraine,2010,Gas,Bcm,969.0
+country,Ukraine,2011,Gas,Bcm,969.0
+country,Ukraine,2012,Gas,Bcm,960.0
+country,Ukraine,2013,Gas,Bcm,952.0
+country,Ukraine,2014,Gas,Bcm,405.0
+country,Ukraine,2015,Gas,Bcm,392.0
+country,Ukraine,2016,Gas,Bcm,380.0
+country,Ukraine,2017,Gas,Bcm,384.0
+country,Ukraine,2018,Gas,Bcm,358.0
+country,Ukraine,2019,Gas,Bcm,349.0
+country,Ukraine,2020,Gas,Bcm,338.0
+country,Ukraine,2021,Gas,Bcm,266.0
+country,Ukraine,2022,Gas,Bcm,248.0
+country,Ukraine,2023,Gas,Bcm,248.0
+country,United Arab Emirates,1960,Gas,Bcm,80.0
+country,United Arab Emirates,1961,Gas,Bcm,84.95
+country,United Arab Emirates,1962,Gas,Bcm,84.95
+country,United Arab Emirates,1963,Gas,Bcm,141.59
+country,United Arab Emirates,1964,Gas,Bcm,141.59
+country,United Arab Emirates,1965,Gas,Bcm,169.9
+country,United Arab Emirates,1966,Gas,Bcm,212.4
+country,United Arab Emirates,1967,Gas,Bcm,226.56
+country,United Arab Emirates,1968,Gas,Bcm,226.56
+country,United Arab Emirates,1969,Gas,Bcm,297.37
+country,United Arab Emirates,1970,Gas,Bcm,291.0
+country,United Arab Emirates,1971,Gas,Bcm,311.53
+country,United Arab Emirates,1972,Gas,Bcm,368.17
+country,United Arab Emirates,1973,Gas,Bcm,424.81
+country,United Arab Emirates,1974,Gas,Bcm,651.37
+country,United Arab Emirates,1975,Gas,Bcm,650.0
+country,United Arab Emirates,1976,Gas,Bcm,638.0
+country,United Arab Emirates,1977,Gas,Bcm,637.21
+country,United Arab Emirates,1978,Gas,Bcm,640.04
+country,United Arab Emirates,1979,Gas,Bcm,626.0
+country,United Arab Emirates,1980,Gas,Bcm,2370.0
+country,United Arab Emirates,1981,Gas,Bcm,2529.0
+country,United Arab Emirates,1982,Gas,Bcm,2973.0
+country,United Arab Emirates,1983,Gas,Bcm,3049.0
+country,United Arab Emirates,1984,Gas,Bcm,3108.0
+country,United Arab Emirates,1985,Gas,Bcm,3148.0
+country,United Arab Emirates,1986,Gas,Bcm,5414.2
+country,United Arab Emirates,1987,Gas,Bcm,5684.0
+country,United Arab Emirates,1988,Gas,Bcm,5663.0
+country,United Arab Emirates,1989,Gas,Bcm,5650.0
+country,United Arab Emirates,1990,Gas,Bcm,5623.0
+country,United Arab Emirates,1991,Gas,Bcm,5793.0
+country,United Arab Emirates,1992,Gas,Bcm,5795.0
+country,United Arab Emirates,1993,Gas,Bcm,5795.0
+country,United Arab Emirates,1994,Gas,Bcm,6777.0
+country,United Arab Emirates,1995,Gas,Bcm,5859.0
+country,United Arab Emirates,1996,Gas,Bcm,5784.0
+country,United Arab Emirates,1997,Gas,Bcm,6063.0
+country,United Arab Emirates,1998,Gas,Bcm,5996.0
+country,United Arab Emirates,1999,Gas,Bcm,5936.0
+country,United Arab Emirates,2000,Gas,Bcm,6060.0
+country,United Arab Emirates,2001,Gas,Bcm,6060.0
+country,United Arab Emirates,2002,Gas,Bcm,6060.0
+country,United Arab Emirates,2003,Gas,Bcm,6060.0
+country,United Arab Emirates,2004,Gas,Bcm,6060.0
+country,United Arab Emirates,2005,Gas,Bcm,6060.0
+country,United Arab Emirates,2006,Gas,Bcm,6040.0
+country,United Arab Emirates,2007,Gas,Bcm,6072.0
+country,United Arab Emirates,2008,Gas,Bcm,6091.0
+country,United Arab Emirates,2009,Gas,Bcm,6091.0
+country,United Arab Emirates,2010,Gas,Bcm,6091.0
+country,United Arab Emirates,2011,Gas,Bcm,6091.0
+country,United Arab Emirates,2012,Gas,Bcm,6091.0
+country,United Arab Emirates,2013,Gas,Bcm,6091.0
+country,United Arab Emirates,2014,Gas,Bcm,6091.0
+country,United Arab Emirates,2015,Gas,Bcm,6091.0
+country,United Arab Emirates,2016,Gas,Bcm,6091.0
+country,United Arab Emirates,2017,Gas,Bcm,6091.0
+country,United Arab Emirates,2018,Gas,Bcm,6091.0
+country,United Arab Emirates,2019,Gas,Bcm,7725.9
+country,United Arab Emirates,2020,Gas,Bcm,7730.0
+country,United Arab Emirates,2021,Gas,Bcm,8200.0
+country,United Arab Emirates,2022,Gas,Bcm,8210.0
+country,United Arab Emirates,2023,Gas,Bcm,8210.0
+country,United Kingdom,1960,Gas,Bcm,0.0
+country,United Kingdom,1961,Gas,Bcm,0.14
+country,United Kingdom,1962,Gas,Bcm,0.14
+country,United Kingdom,1963,Gas,Bcm,0.14
+country,United Kingdom,1964,Gas,Bcm,0.2
+country,United Kingdom,1965,Gas,Bcm,0.28
+country,United Kingdom,1966,Gas,Bcm,283.17
+country,United Kingdom,1967,Gas,Bcm,708.01
+country,United Kingdom,1968,Gas,Bcm,705.8
+country,United Kingdom,1969,Gas,Bcm,764.56
+country,United Kingdom,1970,Gas,Bcm,850.0
+country,United Kingdom,1971,Gas,Bcm,850.0100000000002
+country,United Kingdom,1972,Gas,Bcm,991.61
+country,United Kingdom,1973,Gas,Bcm,1104.89
+country,United Kingdom,1974,Gas,Bcm,1184.19
+country,United Kingdom,1975,Gas,Bcm,1140.0
+country,United Kingdom,1976,Gas,Bcm,1081.0
+country,United Kingdom,1977,Gas,Bcm,1098.0
+country,United Kingdom,1978,Gas,Bcm,1032.0
+country,United Kingdom,1979,Gas,Bcm,1077.0
+country,United Kingdom,1980,Gas,Bcm,1101.0
+country,United Kingdom,1981,Gas,Bcm,1007.0
+country,United Kingdom,1982,Gas,Bcm,941.0
+country,United Kingdom,1983,Gas,Bcm,1149.0
+country,United Kingdom,1984,Gas,Bcm,1325.0
+country,United Kingdom,1985,Gas,Bcm,1242.0
+country,United Kingdom,1986,Gas,Bcm,1325.0
+country,United Kingdom,1987,Gas,Bcm,1298.0
+country,United Kingdom,1988,Gas,Bcm,1195.0
+country,United Kingdom,1989,Gas,Bcm,1185.0
+country,United Kingdom,1990,Gas,Bcm,1200.0
+country,United Kingdom,1991,Gas,Bcm,1235.0
+country,United Kingdom,1992,Gas,Bcm,1350.0
+country,United Kingdom,1993,Gas,Bcm,1435.0
+country,United Kingdom,1994,Gas,Bcm,1515.0
+country,United Kingdom,1995,Gas,Bcm,1480.0
+country,United Kingdom,1996,Gas,Bcm,1420.0
+country,United Kingdom,1997,Gas,Bcm,1385.0
+country,United Kingdom,1998,Gas,Bcm,1340.0
+country,United Kingdom,1999,Gas,Bcm,1265.0
+country,United Kingdom,2000,Gas,Bcm,1195.0
+country,United Kingdom,2001,Gas,Bcm,1100.0
+country,United Kingdom,2002,Gas,Bcm,1000.0
+country,United Kingdom,2003,Gas,Bcm,905.0
+country,United Kingdom,2004,Gas,Bcm,826.0
+country,United Kingdom,2005,Gas,Bcm,728.0
+country,United Kingdom,2006,Gas,Bcm,684.0
+country,United Kingdom,2007,Gas,Bcm,647.0
+country,United Kingdom,2008,Gas,Bcm,601.0
+country,United Kingdom,2009,Gas,Bcm,564.0
+country,United Kingdom,2010,Gas,Bcm,520.0
+country,United Kingdom,2011,Gas,Bcm,493.0
+country,United Kingdom,2012,Gas,Bcm,461.0
+country,United Kingdom,2013,Gas,Bcm,452.0
+country,United Kingdom,2014,Gas,Bcm,407.0
+country,United Kingdom,2015,Gas,Bcm,333.0
+country,United Kingdom,2016,Gas,Bcm,288.0
+country,United Kingdom,2017,Gas,Bcm,263.0
+country,United Kingdom,2018,Gas,Bcm,276.0
+country,United Kingdom,2019,Gas,Bcm,260.0
+country,United Kingdom,2020,Gas,Bcm,221.0
+country,United Kingdom,2021,Gas,Bcm,212.0
+country,United Kingdom,2022,Gas,Bcm,188.0
+country,United Kingdom,2023,Gas,Bcm,171.528
+country,United States of America,1960,Gas,Bcm,228.0
+country,United States of America,1961,Gas,Bcm,283.17
+country,United States of America,1962,Gas,Bcm,281.0
+country,United States of America,1963,Gas,Bcm,320.0
+country,United States of America,1964,Gas,Bcm,325.93
+country,United States of America,1965,Gas,Bcm,318.57
+country,United States of America,1966,Gas,Bcm,331.96
+country,United States of America,1967,Gas,Bcm,328.41
+country,United States of America,1968,Gas,Bcm,325.69
+country,United States of America,1969,Gas,Bcm,339.85
+country,United States of America,1970,Gas,Bcm,340.0
+country,United States of America,1971,Gas,Bcm,325.69
+country,United States of America,1972,Gas,Bcm,325.7
+country,United States of America,1973,Gas,Bcm,311.53
+country,United States of America,1974,Gas,Bcm,424.81
+country,United States of America,1975,Gas,Bcm,6462.0
+country,United States of America,1976,Gas,Bcm,6117.0
+country,United States of America,1977,Gas,Bcm,5915.0
+country,United States of America,1978,Gas,Bcm,5672.0
+country,United States of America,1979,Gas,Bcm,5519.0
+country,United States of America,1980,Gas,Bcm,5636.0
+country,United States of America,1981,Gas,Bcm,5712.0
+country,United States of America,1982,Gas,Bcm,5706.0
+country,United States of America,1983,Gas,Bcm,5670.0
+country,United States of America,1984,Gas,Bcm,5591.0
+country,United States of America,1985,Gas,Bcm,5474.0
+country,United States of America,1986,Gas,Bcm,5425.0
+country,United States of America,1987,Gas,Bcm,5301.0
+country,United States of America,1988,Gas,Bcm,4758.0
+country,United States of America,1989,Gas,Bcm,4732.0
+country,United States of America,1990,Gas,Bcm,4795.0
+country,United States of America,1991,Gas,Bcm,4731.0
+country,United States of America,1992,Gas,Bcm,4673.0
+country,United States of America,1993,Gas,Bcm,4599.0
+country,United States of America,1994,Gas,Bcm,4638.0
+country,United States of America,1995,Gas,Bcm,4676.0
+country,United States of America,1996,Gas,Bcm,4704.0
+country,United States of America,1997,Gas,Bcm,4735.0
+country,United States of America,1998,Gas,Bcm,4645.0
+country,United States of America,1999,Gas,Bcm,4740.0
+country,United States of America,2000,Gas,Bcm,5024.0
+country,United States of America,2001,Gas,Bcm,5195.0
+country,United States of America,2002,Gas,Bcm,5294.0
+country,United States of America,2003,Gas,Bcm,5353.0
+country,United States of America,2004,Gas,Bcm,5451.0
+country,United States of America,2005,Gas,Bcm,5787.0
+country,United States of America,2006,Gas,Bcm,5977.0
+country,United States of America,2007,Gas,Bcm,6730.0
+country,United States of America,2008,Gas,Bcm,6925.0
+country,United States of America,2009,Gas,Bcm,7712.0
+country,United States of America,2010,Gas,Bcm,8620.0
+country,United States of America,2011,Gas,Bcm,9454.0
+country,United States of America,2012,Gas,Bcm,8746.0
+country,United States of America,2013,Gas,Bcm,9573.0
+country,United States of America,2014,Gas,Bcm,10434.0
+country,United States of America,2015,Gas,Bcm,8709.0
+country,United States of America,2016,Gas,Bcm,9119.0
+country,United States of America,2017,Gas,Bcm,12408.0
+country,United States of America,2018,Gas,Bcm,13437.0
+country,United States of America,2019,Gas,Bcm,13171.0
+country,United States of America,2020,Gas,Bcm,13171.0
+country,United States of America,2021,Gas,Bcm,16674.0
+country,United States of America,2022,Gas,Bcm,16674.0
+country,United States of America,2023,Gas,Bcm,17410.27
+country,Uzbekistan,1997,Gas,Bcm,886.0
+country,Uzbekistan,1998,Gas,Bcm,886.0
+country,Uzbekistan,1999,Gas,Bcm,937.0
+country,Uzbekistan,2000,Gas,Bcm,937.0
+country,Uzbekistan,2001,Gas,Bcm,937.0
+country,Uzbekistan,2002,Gas,Bcm,942.0
+country,Uzbekistan,2003,Gas,Bcm,942.0
+country,Uzbekistan,2004,Gas,Bcm,937.0
+country,Uzbekistan,2005,Gas,Bcm,948.0
+country,Uzbekistan,2006,Gas,Bcm,948.0
+country,Uzbekistan,2007,Gas,Bcm,942.0
+country,Uzbekistan,2008,Gas,Bcm,908.0
+country,Uzbekistan,2009,Gas,Bcm,896.0
+country,Uzbekistan,2010,Gas,Bcm,896.0
+country,Uzbekistan,2011,Gas,Bcm,896.0
+country,Uzbekistan,2012,Gas,Bcm,867.0
+country,Uzbekistan,2013,Gas,Bcm,867.0
+country,Uzbekistan,2014,Gas,Bcm,867.0
+country,Uzbekistan,2015,Gas,Bcm,867.0
+country,Uzbekistan,2016,Gas,Bcm,867.0
+country,Uzbekistan,2017,Gas,Bcm,867.0
+country,Uzbekistan,2018,Gas,Bcm,867.0
+country,Uzbekistan,2019,Gas,Bcm,867.0
+country,Uzbekistan,2020,Gas,Bcm,867.0
+country,Uzbekistan,2021,Gas,Bcm,867.0
+country,Uzbekistan,2022,Gas,Bcm,867.0
+country,Uzbekistan,2023,Gas,Bcm,867.0
+country,Venezuela,1960,Gas,Bcm,953.0
+country,Venezuela,1961,Gas,Bcm,934.46
+country,Venezuela,1962,Gas,Bcm,896.0
+country,Venezuela,1963,Gas,Bcm,859.0
+country,Venezuela,1964,Gas,Bcm,870.61
+country,Venezuela,1965,Gas,Bcm,850.05
+country,Venezuela,1966,Gas,Bcm,826.21
+country,Venezuela,1967,Gas,Bcm,788.15
+country,Venezuela,1968,Gas,Bcm,778.82
+country,Venezuela,1969,Gas,Bcm,732.0
+country,Venezuela,1970,Gas,Bcm,764.7
+country,Venezuela,1971,Gas,Bcm,719.34
+country,Venezuela,1972,Gas,Bcm,1099.5
+country,Venezuela,1973,Gas,Bcm,1072.6
+country,Venezuela,1974,Gas,Bcm,1170.51
+country,Venezuela,1975,Gas,Bcm,1173.6
+country,Venezuela,1976,Gas,Bcm,1179.82
+country,Venezuela,1977,Gas,Bcm,1185.14
+country,Venezuela,1978,Gas,Bcm,1193.22
+country,Venezuela,1979,Gas,Bcm,1247.18
+country,Venezuela,1980,Gas,Bcm,1262.41
+country,Venezuela,1981,Gas,Bcm,1365.1
+country,Venezuela,1982,Gas,Bcm,1471.22
+country,Venezuela,1983,Gas,Bcm,1562.33
+country,Venezuela,1984,Gas,Bcm,1666.3
+country,Venezuela,1985,Gas,Bcm,1734.8
+country,Venezuela,1986,Gas,Bcm,2622.0
+country,Venezuela,1987,Gas,Bcm,2838.0
+country,Venezuela,1988,Gas,Bcm,2856.0
+country,Venezuela,1989,Gas,Bcm,2992.7
+country,Venezuela,1990,Gas,Bcm,3429.0
+country,Venezuela,1991,Gas,Bcm,3581.8
+country,Venezuela,1992,Gas,Bcm,3693.0
+country,Venezuela,1993,Gas,Bcm,3693.0
+country,Venezuela,1994,Gas,Bcm,3965.05
+country,Venezuela,1995,Gas,Bcm,4064.7
+country,Venezuela,1996,Gas,Bcm,4051.5
+country,Venezuela,1997,Gas,Bcm,4120.8
+country,Venezuela,1998,Gas,Bcm,4147.464
+country,Venezuela,1999,Gas,Bcm,4152.418
+country,Venezuela,2000,Gas,Bcm,4152.418
+country,Venezuela,2001,Gas,Bcm,4180.0
+country,Venezuela,2002,Gas,Bcm,4180.8
+country,Venezuela,2003,Gas,Bcm,4218.835
+country,Venezuela,2004,Gas,Bcm,4287.277
+country,Venezuela,2005,Gas,Bcm,4315.056
+country,Venezuela,2006,Gas,Bcm,4707.6
+country,Venezuela,2007,Gas,Bcm,4838.4
+country,Venezuela,2008,Gas,Bcm,4983.219
+country,Venezuela,2009,Gas,Bcm,5065.0
+country,Venezuela,2010,Gas,Bcm,5525.0
+country,Venezuela,2011,Gas,Bcm,5528.0
+country,Venezuela,2012,Gas,Bcm,5563.0
+country,Venezuela,2013,Gas,Bcm,5581.0
+country,Venezuela,2014,Gas,Bcm,5617.0
+country,Venezuela,2015,Gas,Bcm,5701.5
+country,Venezuela,2016,Gas,Bcm,5739.703
+country,Venezuela,2017,Gas,Bcm,5706.6
+country,Venezuela,2018,Gas,Bcm,5673.817
+country,Venezuela,2019,Gas,Bcm,5673.817
+country,Venezuela,2020,Gas,Bcm,5589.563
+country,Venezuela,2021,Gas,Bcm,5541.0
+country,Venezuela,2022,Gas,Bcm,5511.0
+country,Venezuela,2023,Gas,Bcm,5476.0
+country,Viet Nam,1960,Gas,Bcm,0.0
+country,Viet Nam,1961,Gas,Bcm,0.0
+country,Viet Nam,1962,Gas,Bcm,0.0
+country,Viet Nam,1963,Gas,Bcm,0.0
+country,Viet Nam,1964,Gas,Bcm,0.0
+country,Viet Nam,1965,Gas,Bcm,0.0
+country,Viet Nam,1966,Gas,Bcm,0.0
+country,Viet Nam,1967,Gas,Bcm,0.0
+country,Viet Nam,1968,Gas,Bcm,0.0
+country,Viet Nam,1969,Gas,Bcm,0.0
+country,Viet Nam,1970,Gas,Bcm,0.0
+country,Viet Nam,1971,Gas,Bcm,0.0
+country,Viet Nam,1972,Gas,Bcm,0.0
+country,Viet Nam,1973,Gas,Bcm,0.0
+country,Viet Nam,1974,Gas,Bcm,0.0
+country,Viet Nam,1975,Gas,Bcm,0.0
+country,Viet Nam,1976,Gas,Bcm,0.0
+country,Viet Nam,1977,Gas,Bcm,0.0
+country,Viet Nam,1978,Gas,Bcm,0.0
+country,Viet Nam,1979,Gas,Bcm,0.0
+country,Viet Nam,1980,Gas,Bcm,0.0
+country,Viet Nam,1981,Gas,Bcm,0.0
+country,Viet Nam,1982,Gas,Bcm,0.0
+country,Viet Nam,1983,Gas,Bcm,0.0
+country,Viet Nam,1984,Gas,Bcm,0.0
+country,Viet Nam,1985,Gas,Bcm,0.0
+country,Viet Nam,1986,Gas,Bcm,0.0
+country,Viet Nam,1987,Gas,Bcm,0.0
+country,Viet Nam,1988,Gas,Bcm,0.0
+country,Viet Nam,1989,Gas,Bcm,0.0
+country,Viet Nam,1990,Gas,Bcm,15.0
+country,Viet Nam,1991,Gas,Bcm,15.0
+country,Viet Nam,1992,Gas,Bcm,106.0
+country,Viet Nam,1993,Gas,Bcm,106.0
+country,Viet Nam,1994,Gas,Bcm,134.0
+country,Viet Nam,1995,Gas,Bcm,147.0
+country,Viet Nam,1996,Gas,Bcm,171.0
+country,Viet Nam,1997,Gas,Bcm,170.0
+country,Viet Nam,1998,Gas,Bcm,170.0
+country,Viet Nam,1999,Gas,Bcm,170.0
+country,Viet Nam,2000,Gas,Bcm,170.0
+country,Viet Nam,2001,Gas,Bcm,193.0
+country,Viet Nam,2002,Gas,Bcm,230.0
+country,Viet Nam,2003,Gas,Bcm,220.0
+country,Viet Nam,2004,Gas,Bcm,220.0
+country,Viet Nam,2005,Gas,Bcm,220.0
+country,Viet Nam,2006,Gas,Bcm,220.0
+country,Viet Nam,2007,Gas,Bcm,220.0
+country,Viet Nam,2008,Gas,Bcm,217.0
+country,Viet Nam,2009,Gas,Bcm,225.0
+country,Viet Nam,2010,Gas,Bcm,228.0
+country,Viet Nam,2011,Gas,Bcm,224.0
+country,Viet Nam,2012,Gas,Bcm,220.0
+country,Viet Nam,2013,Gas,Bcm,216.0
+country,Viet Nam,2014,Gas,Bcm,211.0
+country,Viet Nam,2015,Gas,Bcm,207.0
+country,Viet Nam,2016,Gas,Bcm,203.0
+country,Viet Nam,2017,Gas,Bcm,199.0
+country,Viet Nam,2018,Gas,Bcm,195.0
+country,Viet Nam,2019,Gas,Bcm,190.0
+country,Viet Nam,2020,Gas,Bcm,186.0
+country,Viet Nam,2021,Gas,Bcm,182.0
+country,Viet Nam,2022,Gas,Bcm,178.0
+country,Viet Nam,2023,Gas,Bcm,178.0
+group,EU27,1960,Gas,Bcm,623.0
+group,EU27,1961,Gas,Bcm,817.08
+group,EU27,1962,Gas,Bcm,1225.4
+group,EU27,1963,Gas,Bcm,1902.5
+group,EU27,1964,Gas,Bcm,2052.64
+group,EU27,1965,Gas,Bcm,2107.6
+group,EU27,1966,Gas,Bcm,2652.01
+group,EU27,1967,Gas,Bcm,2798.440000000001
+group,EU27,1968,Gas,Bcm,2910.75
+group,EU27,1969,Gas,Bcm,2937.600000000001
+group,EU27,1970,Gas,Bcm,3113.0
+group,EU27,1971,Gas,Bcm,3092.1099999999997
+group,EU27,1972,Gas,Bcm,3242.6099999999997
+group,EU27,1973,Gas,Bcm,3425.2
+group,EU27,1974,Gas,Bcm,3420.5899999999997
+group,EU27,1975,Gas,Bcm,3671.0
+group,EU27,1976,Gas,Bcm,3585.0
+group,EU27,1977,Gas,Bcm,3530.0
+group,EU27,1978,Gas,Bcm,3527.0
+group,EU27,1979,Gas,Bcm,3571.0
+group,EU27,1980,Gas,Bcm,3540.0
+group,EU27,1981,Gas,Bcm,3426.0
+group,EU27,1982,Gas,Bcm,3420.0
+group,EU27,1983,Gas,Bcm,3370.0
+group,EU27,1984,Gas,Bcm,3319.0
+group,EU27,1985,Gas,Bcm,3230.0
+group,EU27,1986,Gas,Bcm,3340.0
+group,EU27,1987,Gas,Bcm,3250.0
+group,EU27,1988,Gas,Bcm,3190.0
+group,EU27,1989,Gas,Bcm,3157.0
+group,EU27,1990,Gas,Bcm,3267.0
+group,EU27,1991,Gas,Bcm,3246.0
+group,EU27,1992,Gas,Bcm,3246.0
+group,EU27,1993,Gas,Bcm,3129.0
+group,EU27,1994,Gas,Bcm,3076.0
+group,EU27,1995,Gas,Bcm,2991.0
+group,EU27,1996,Gas,Bcm,2925.0
+group,EU27,1997,Gas,Bcm,2881.0
+group,EU27,1998,Gas,Bcm,2777.0
+group,EU27,1999,Gas,Bcm,2728.0
+group,EU27,2000,Gas,Bcm,2618.0
+group,EU27,2001,Gas,Bcm,2517.0
+group,EU27,2002,Gas,Bcm,2423.0
+group,EU27,2003,Gas,Bcm,2287.0
+group,EU27,2004,Gas,Bcm,2202.0
+group,EU27,2005,Gas,Bcm,2100.0
+group,EU27,2006,Gas,Bcm,1968.0
+group,EU27,2007,Gas,Bcm,1845.0
+group,EU27,2008,Gas,Bcm,1772.0
+group,EU27,2009,Gas,Bcm,1771.0
+group,EU27,2010,Gas,Bcm,1676.0
+group,EU27,2011,Gas,Bcm,1588.0
+group,EU27,2012,Gas,Bcm,1373.0
+group,EU27,2013,Gas,Bcm,1292.0
+group,EU27,2014,Gas,Bcm,1169.0
+group,EU27,2015,Gas,Bcm,1168.0
+group,EU27,2016,Gas,Bcm,1058.0
+group,EU27,2017,Gas,Bcm,1001.0
+group,EU27,2018,Gas,Bcm,507.0
+group,EU27,2019,Gas,Bcm,451.0
+group,EU27,2020,Gas,Bcm,398.0
+group,EU27,2021,Gas,Bcm,388.0
+group,EU27,2022,Gas,Bcm,369.0
+group,EU27,2023,Gas,Bcm,350.3371778199514
+group,OECD,1960,Gas,Bcm,8459.0
+group,OECD,1961,Gas,Bcm,8903.879701115338
+group,OECD,1962,Gas,Bcm,9485.734663078594
+group,OECD,1963,Gas,Bcm,10305.287879023022
+group,OECD,1964,Gas,Bcm,10705.737049603063
+group,OECD,1965,Gas,Bcm,10974.125652067845
+group,OECD,1966,Gas,Bcm,11966.420884885356
+group,OECD,1967,Gas,Bcm,12712.232817511263
+group,OECD,1968,Gas,Bcm,12789.482744979963
+group,OECD,1969,Gas,Bcm,12871.67177685686
+group,OECD,1970,Gas,Bcm,13542.0
+group,OECD,1971,Gas,Bcm,13911.451254466057
+group,OECD,1972,Gas,Bcm,14106.822620087336
+group,OECD,1973,Gas,Bcm,14355.25606192934
+group,OECD,1974,Gas,Bcm,14525.83726478761
+group,OECD,1975,Gas,Bcm,14595.0
+group,OECD,1976,Gas,Bcm,14548.0
+group,OECD,1977,Gas,Bcm,14633.0
+group,OECD,1978,Gas,Bcm,15305.0
+group,OECD,1979,Gas,Bcm,15506.0
+group,OECD,1980,Gas,Bcm,16151.0
+group,OECD,1981,Gas,Bcm,16533.0
+group,OECD,1982,Gas,Bcm,16526.0
+group,OECD,1983,Gas,Bcm,17338.0
+group,OECD,1984,Gas,Bcm,17858.0
+group,OECD,1985,Gas,Bcm,17600.0
+group,OECD,1986,Gas,Bcm,17973.0
+group,OECD,1987,Gas,Bcm,17834.0
+group,OECD,1988,Gas,Bcm,17107.0
+group,OECD,1989,Gas,Bcm,17004.0
+group,OECD,1990,Gas,Bcm,17094.0
+group,OECD,1991,Gas,Bcm,17122.0
+group,OECD,1992,Gas,Bcm,17674.0
+group,OECD,1993,Gas,Bcm,17193.0
+group,OECD,1994,Gas,Bcm,17265.0
+group,OECD,1995,Gas,Bcm,17309.0
+group,OECD,1996,Gas,Bcm,17226.0
+group,OECD,1997,Gas,Bcm,17835.0
+group,OECD,1998,Gas,Bcm,17225.0
+group,OECD,1999,Gas,Bcm,17193.0
+group,OECD,2000,Gas,Bcm,17434.0
+group,OECD,2001,Gas,Bcm,17860.0
+group,OECD,2002,Gas,Bcm,17196.33447006584
+group,OECD,2003,Gas,Bcm,16410.33447006584
+group,OECD,2004,Gas,Bcm,16453.33447006584
+group,OECD,2005,Gas,Bcm,16413.33447006584
+group,OECD,2006,Gas,Bcm,16322.33447006584
+group,OECD,2007,Gas,Bcm,16789.33447006584
+group,OECD,2008,Gas,Bcm,18226.33447006584
+group,OECD,2009,Gas,Bcm,18791.33447006584
+group,OECD,2010,Gas,Bcm,19939.33447006584
+group,OECD,2011,Gas,Bcm,20478.72932042123
+group,OECD,2012,Gas,Bcm,19604.510110670722
+group,OECD,2013,Gas,Bcm,20367.615450746107
+group,OECD,2014,Gas,Bcm,20314.964544196504
+group,OECD,2015,Gas,Bcm,18460.236392977764
+group,OECD,2016,Gas,Bcm,18530.551810904646
+group,OECD,2017,Gas,Bcm,21560.791410198653
+group,OECD,2018,Gas,Bcm,22106.370811620214
+group,OECD,2019,Gas,Bcm,21718.950213041775
+group,OECD,2020,Gas,Bcm,21571.33041959616
+group,OECD,2021,Gas,Bcm,25205.28389476668
+group,OECD,2022,Gas,Bcm,25229.171494766677
+group,OECD,2023,Gas,Bcm,25937.825221764884
+group,OPEC,1960,Gas,Bcm,7138.0
+group,OPEC,1961,Gas,Bcm,7278.37
+group,OPEC,1962,Gas,Bcm,7354.29
+group,OPEC,1963,Gas,Bcm,8127.05
+group,OPEC,1964,Gas,Bcm,8383.22
+group,OPEC,1965,Gas,Bcm,8907.42
+group,OPEC,1966,Gas,Bcm,11524.37
+group,OPEC,1967,Gas,Bcm,11592.93
+group,OPEC,1968,Gas,Bcm,11915.75
+group,OPEC,1969,Gas,Bcm,12217.01
+group,OPEC,1970,Gas,Bcm,15532.6
+group,OPEC,1971,Gas,Bcm,16404.32
+group,OPEC,1972,Gas,Bcm,16845.82
+group,OPEC,1973,Gas,Bcm,18468.91
+group,OPEC,1974,Gas,Bcm,20769.07
+group,OPEC,1975,Gas,Bcm,21043.0
+group,OPEC,1976,Gas,Bcm,20956.38
+group,OPEC,1977,Gas,Bcm,26226.670000000002
+group,OPEC,1978,Gas,Bcm,26406.96
+group,OPEC,1979,Gas,Bcm,26320.13
+group,OPEC,1980,Gas,Bcm,28429.18
+group,OPEC,1981,Gas,Bcm,28759.31
+group,OPEC,1982,Gas,Bcm,29587.03
+group,OPEC,1983,Gas,Bcm,29733.5
+group,OPEC,1984,Gas,Bcm,29819.11
+group,OPEC,1985,Gas,Bcm,29870.5
+group,OPEC,1986,Gas,Bcm,34548.39
+group,OPEC,1987,Gas,Bcm,35292.5
+group,OPEC,1988,Gas,Bcm,38493.0
+group,OPEC,1989,Gas,Bcm,42825.1
+group,OPEC,1990,Gas,Bcm,43400.7
+group,OPEC,1991,Gas,Bcm,47478.4
+group,OPEC,1992,Gas,Bcm,48848.0
+group,OPEC,1993,Gas,Bcm,48862.8
+group,OPEC,1994,Gas,Bcm,49273.06530612245
+group,OPEC,1995,Gas,Bcm,48339.2
+group,OPEC,1996,Gas,Bcm,52056.700000000004
+group,OPEC,1997,Gas,Bcm,52806.700000000004
+group,OPEC,1998,Gas,Bcm,54106.364
+group,OPEC,1999,Gas,Bcm,52949.918
+group,OPEC,2000,Gas,Bcm,58163.418
+group,OPEC,2001,Gas,Bcm,58877.36
+group,OPEC,2002,Gas,Bcm,59801.3
+group,OPEC,2003,Gas,Bcm,60886.835
+group,OPEC,2004,Gas,Bcm,61180.676999999996
+group,OPEC,2005,Gas,Bcm,61265.656
+group,OPEC,2006,Gas,Bcm,61361.2
+group,OPEC,2007,Gas,Bcm,63112.8
+group,OPEC,2008,Gas,Bcm,65088.419
+group,OPEC,2009,Gas,Bcm,65553.2
+group,OPEC,2010,Gas,Bcm,69407.87009345795
+group,OPEC,2011,Gas,Bcm,70152.88765222317
+group,OPEC,2012,Gas,Bcm,70378.3800623053
+group,OPEC,2013,Gas,Bcm,70688.851826678
+group,OPEC,2014,Gas,Bcm,71170.45700934579
+group,OPEC,2015,Gas,Bcm,70796.24954340895
+group,OPEC,2016,Gas,Bcm,72056.30488080201
+group,OPEC,2017,Gas,Bcm,72260.79818654357
+group,OPEC,2018,Gas,Bcm,71287.81453849316
+group,OPEC,2019,Gas,Bcm,73625.62477856026
+group,OPEC,2020,Gas,Bcm,73650.87704209202
+group,OPEC,2021,Gas,Bcm,74241.50508107929
+group,OPEC,2022,Gas,Bcm,75121.20660190881
+group,OPEC,2023,Gas,Bcm,75179.23091355509
+group,Persian Gulf,1960,Gas,Bcm,4952.6
+group,Persian Gulf,1961,Gas,Bcm,5025.2699999999995
+group,Persian Gulf,1962,Gas,Bcm,5032.69
+group,Persian Gulf,1963,Gas,Bcm,5723.95
+group,Persian Gulf,1964,Gas,Bcm,5830.8
+group,Persian Gulf,1965,Gas,Bcm,6126.37
+group,Persian Gulf,1966,Gas,Bcm,6594.91
+group,Persian Gulf,1967,Gas,Bcm,6609.3099999999995
+group,Persian Gulf,1968,Gas,Bcm,6676.6
+group,Persian Gulf,1969,Gas,Bcm,6717.49
+group,Persian Gulf,1970,Gas,Bcm,9953.1
+group,Persian Gulf,1971,Gas,Bcm,9954.53
+group,Persian Gulf,1972,Gas,Bcm,10016.18
+group,Persian Gulf,1973,Gas,Bcm,11690.17
+group,Persian Gulf,1974,Gas,Bcm,13781.810000000001
+group,Persian Gulf,1975,Gas,Bcm,15233.800000000001
+group,Persian Gulf,1976,Gas,Bcm,15213.45
+group,Persian Gulf,1977,Gas,Bcm,20816.530000000002
+group,Persian Gulf,1978,Gas,Bcm,21095.74
+group,Persian Gulf,1979,Gas,Bcm,21003.95
+group,Persian Gulf,1980,Gas,Bcm,24285.63
+group,Persian Gulf,1981,Gas,Bcm,24609.23
+group,Persian Gulf,1982,Gas,Bcm,25474.8
+group,Persian Gulf,1983,Gas,Bcm,25895.17
+group,Persian Gulf,1984,Gas,Bcm,26867.81
+group,Persian Gulf,1985,Gas,Bcm,27118.7
+group,Persian Gulf,1986,Gas,Bcm,29818.39
+group,Persian Gulf,1987,Gas,Bcm,30440.5
+group,Persian Gulf,1988,Gas,Bcm,33572.0
+group,Persian Gulf,1989,Gas,Bcm,37003.4
+group,Persian Gulf,1990,Gas,Bcm,37088.7
+group,Persian Gulf,1991,Gas,Bcm,41841.6
+group,Persian Gulf,1992,Gas,Bcm,43407.8
+group,Persian Gulf,1993,Gas,Bcm,43441.8
+group,Persian Gulf,1994,Gas,Bcm,45915.0
+group,Persian Gulf,1995,Gas,Bcm,44107.5
+group,Persian Gulf,1996,Gas,Bcm,47826.3
+group,Persian Gulf,1997,Gas,Bcm,48123.0
+group,Persian Gulf,1998,Gas,Bcm,51734.0
+group,Persian Gulf,1999,Gas,Bcm,50376.0
+group,Persian Gulf,2000,Gas,Bcm,58070.0
+group,Persian Gulf,2001,Gas,Bcm,69564.56
+group,Persian Gulf,2002,Gas,Bcm,69926.0
+group,Persian Gulf,2003,Gas,Bcm,70909.2
+group,Persian Gulf,2004,Gas,Bcm,70919.4
+group,Persian Gulf,2005,Gas,Bcm,70918.3
+group,Persian Gulf,2006,Gas,Bcm,70630.0
+group,Persian Gulf,2007,Gas,Bcm,72047.4
+group,Persian Gulf,2008,Gas,Bcm,73691.4
+group,Persian Gulf,2009,Gas,Bcm,73941.0
+group,Persian Gulf,2010,Gas,Bcm,77340.0
+group,Persian Gulf,2011,Gas,Bcm,77914.0
+group,Persian Gulf,2012,Gas,Bcm,78117.0
+group,Persian Gulf,2013,Gas,Bcm,78051.0
+group,Persian Gulf,2014,Gas,Bcm,78072.87000849617
+group,Persian Gulf,2015,Gas,Bcm,77420.24695553667
+group,Persian Gulf,2016,Gas,Bcm,78107.49196233362
+group,Persian Gulf,2017,Gas,Bcm,78004.7088
+group,Persian Gulf,2018,Gas,Bcm,77040.55
+group,Persian Gulf,2019,Gas,Bcm,79320.2378
+group,Persian Gulf,2020,Gas,Bcm,79483.9378
+group,Persian Gulf,2021,Gas,Bcm,80024.53779999999
+group,Persian Gulf,2022,Gas,Bcm,81041.2378
+group,Persian Gulf,2023,Gas,Bcm,81178.2378
+zone,Africa,1960,Gas,Bcm,1417.4
+zone,Africa,1961,Gas,Bcm,1533.6799999999998
+zone,Africa,1962,Gas,Bcm,1640.64
+zone,Africa,1963,Gas,Bcm,1759.14
+zone,Africa,1964,Gas,Bcm,1898.97
+zone,Africa,1965,Gas,Bcm,2148.16
+zone,Africa,1966,Gas,Bcm,4327.49
+zone,Africa,1967,Gas,Bcm,4432.29
+zone,Africa,1968,Gas,Bcm,4695.33
+zone,Africa,1969,Gas,Bcm,5002.5199999999995
+zone,Africa,1970,Gas,Bcm,5059.8
+zone,Africa,1971,Gas,Bcm,6026.15
+zone,Africa,1972,Gas,Bcm,6025.84
+zone,Africa,1973,Gas,Bcm,5995.9400000000005
+zone,Africa,1974,Gas,Bcm,6100.15
+zone,Africa,1975,Gas,Bcm,6047.6
+zone,Africa,1976,Gas,Bcm,6005.11
+zone,Africa,1977,Gas,Bcm,5946.0
+zone,Africa,1978,Gas,Bcm,5903.0
+zone,Africa,1979,Gas,Bcm,5854.0
+zone,Africa,1980,Gas,Bcm,5905.14
+zone,Africa,1981,Gas,Bcm,5807.98
+zone,Africa,1982,Gas,Bcm,6099.01
+zone,Africa,1983,Gas,Bcm,6051.0
+zone,Africa,1984,Gas,Bcm,5975.178
+zone,Africa,1985,Gas,Bcm,5887.178
+zone,Africa,1986,Gas,Bcm,7013.178
+zone,Africa,1987,Gas,Bcm,6936.178
+zone,Africa,1988,Gas,Bcm,7187.48
+zone,Africa,1989,Gas,Bcm,7975.036
+zone,Africa,1990,Gas,Bcm,8052.036
+zone,Africa,1991,Gas,Bcm,9054.036
+zone,Africa,1992,Gas,Bcm,9437.236
+zone,Africa,1993,Gas,Bcm,9598.32
+zone,Africa,1994,Gas,Bcm,8699.33530612245
+zone,Africa,1995,Gas,Bcm,9498.7368
+zone,Africa,1996,Gas,Bcm,9687.316
+zone,Africa,1997,Gas,Bcm,10156.7
+zone,Africa,1998,Gas,Bcm,10325.9
+zone,Africa,1999,Gas,Bcm,10960.3
+zone,Africa,2000,Gas,Bcm,11975.8
+zone,Africa,2001,Gas,Bcm,12631.599999999999
+zone,Africa,2002,Gas,Bcm,13364.3
+zone,Africa,2003,Gas,Bcm,13525.6
+zone,Africa,2004,Gas,Bcm,13853.8
+zone,Africa,2005,Gas,Bcm,13881.1
+zone,Africa,2006,Gas,Bcm,13935.4
+zone,Africa,2007,Gas,Bcm,14211.8
+zone,Africa,2008,Gas,Bcm,14336.599999999999
+zone,Africa,2009,Gas,Bcm,14383.0
+zone,Africa,2010,Gas,Bcm,14236.670093457944
+zone,Africa,2011,Gas,Bcm,14291.687652223169
+zone,Africa,2012,Gas,Bcm,14231.180062305297
+zone,Africa,2013,Gas,Bcm,14200.651826677993
+zone,Africa,2014,Gas,Bcm,17191.587000849617
+zone,Africa,2015,Gas,Bcm,17053.502587872274
+zone,Africa,2016,Gas,Bcm,17515.109918468388
+zone,Africa,2017,Gas,Bcm,17643.489386543573
+zone,Africa,2018,Gas,Bcm,17651.447538493154
+zone,Africa,2019,Gas,Bcm,17681.569978560263
+zone,Africa,2020,Gas,Bcm,17636.376242092017
+zone,Africa,2021,Gas,Bcm,17731.96728107929
+zone,Africa,2022,Gas,Bcm,17621.968801908806
+zone,Africa,2023,Gas,Bcm,17577.993113555094
+zone,Asia and Oceania,1960,Gas,Bcm,488.8
+zone,Asia and Oceania,1961,Gas,Bcm,497.01
+zone,Asia and Oceania,1962,Gas,Bcm,497.21
+zone,Asia and Oceania,1963,Gas,Bcm,540.99
+zone,Asia and Oceania,1964,Gas,Bcm,666.15
+zone,Asia and Oceania,1965,Gas,Bcm,722.47
+zone,Asia and Oceania,1966,Gas,Bcm,772.31
+zone,Asia and Oceania,1967,Gas,Bcm,792.4100000000001
+zone,Asia and Oceania,1968,Gas,Bcm,803.1899999999999
+zone,Asia and Oceania,1969,Gas,Bcm,1069.79
+zone,Asia and Oceania,1970,Gas,Bcm,1307.6
+zone,Asia and Oceania,1971,Gas,Bcm,1780.4299999999998
+zone,Asia and Oceania,1972,Gas,Bcm,2174.4700000000003
+zone,Asia and Oceania,1973,Gas,Bcm,2485.33
+zone,Asia and Oceania,1974,Gas,Bcm,3001.45
+zone,Asia and Oceania,1975,Gas,Bcm,3175.0
+zone,Asia and Oceania,1976,Gas,Bcm,3747.0
+zone,Asia and Oceania,1977,Gas,Bcm,3939.0
+zone,Asia and Oceania,1978,Gas,Bcm,4042.0
+zone,Asia and Oceania,1979,Gas,Bcm,4478.0
+zone,Asia and Oceania,1980,Gas,Bcm,5207.0
+zone,Asia and Oceania,1981,Gas,Bcm,5710.0
+zone,Asia and Oceania,1982,Gas,Bcm,5844.0
+zone,Asia and Oceania,1983,Gas,Bcm,5885.0
+zone,Asia and Oceania,1984,Gas,Bcm,6162.0
+zone,Asia and Oceania,1985,Gas,Bcm,7217.0
+zone,Asia and Oceania,1986,Gas,Bcm,7978.0
+zone,Asia and Oceania,1987,Gas,Bcm,8208.0
+zone,Asia and Oceania,1988,Gas,Bcm,8375.0
+zone,Asia and Oceania,1989,Gas,Bcm,8212.0
+zone,Asia and Oceania,1990,Gas,Bcm,8311.0
+zone,Asia and Oceania,1991,Gas,Bcm,8619.0
+zone,Asia and Oceania,1992,Gas,Bcm,8572.0
+zone,Asia and Oceania,1993,Gas,Bcm,9165.0
+zone,Asia and Oceania,1994,Gas,Bcm,9399.0
+zone,Asia and Oceania,1995,Gas,Bcm,9568.0
+zone,Asia and Oceania,1996,Gas,Bcm,9594.0
+zone,Asia and Oceania,1997,Gas,Bcm,9855.0
+zone,Asia and Oceania,1998,Gas,Bcm,11061.0
+zone,Asia and Oceania,1999,Gas,Bcm,11425.0
+zone,Asia and Oceania,2000,Gas,Bcm,11438.0
+zone,Asia and Oceania,2001,Gas,Bcm,12116.0
+zone,Asia and Oceania,2002,Gas,Bcm,12402.0
+zone,Asia and Oceania,2003,Gas,Bcm,12661.0
+zone,Asia and Oceania,2004,Gas,Bcm,12987.0
+zone,Asia and Oceania,2005,Gas,Bcm,12836.0
+zone,Asia and Oceania,2006,Gas,Bcm,13382.0
+zone,Asia and Oceania,2007,Gas,Bcm,13607.0
+zone,Asia and Oceania,2008,Gas,Bcm,14729.0
+zone,Asia and Oceania,2009,Gas,Bcm,14629.0
+zone,Asia and Oceania,2010,Gas,Bcm,15014.0
+zone,Asia and Oceania,2011,Gas,Bcm,14996.0
+zone,Asia and Oceania,2012,Gas,Bcm,15512.0
+zone,Asia and Oceania,2013,Gas,Bcm,14952.0
+zone,Asia and Oceania,2014,Gas,Bcm,14512.0
+zone,Asia and Oceania,2015,Gas,Bcm,14775.0
+zone,Asia and Oceania,2016,Gas,Bcm,14327.0
+zone,Asia and Oceania,2017,Gas,Bcm,14156.0
+zone,Asia and Oceania,2018,Gas,Bcm,12716.0
+zone,Asia and Oceania,2019,Gas,Bcm,12183.0
+zone,Asia and Oceania,2020,Gas,Bcm,11980.0
+zone,Asia and Oceania,2021,Gas,Bcm,11793.0
+zone,Asia and Oceania,2022,Gas,Bcm,11315.0
+zone,Asia and Oceania,2023,Gas,Bcm,11057.06550231853
+zone,Central and South America,1960,Gas,Bcm,8511.2
+zone,Central and South America,1961,Gas,Bcm,8662.307331017864
+zone,Central and South America,1962,Gas,Bcm,8829.36124685325
+zone,Central and South America,1963,Gas,Bcm,8935.501129464346
+zone,Central and South America,1964,Gas,Bcm,9125.31311376762
+zone,Central and South America,1965,Gas,Bcm,9287.25070541039
+zone,Central and South America,1966,Gas,Bcm,9346.974730153603
+zone,Central and South America,1967,Gas,Bcm,9411.44289157681
+zone,Central and South America,1968,Gas,Bcm,9296.627216927158
+zone,Central and South America,1969,Gas,Bcm,8958.936112569498
+zone,Central and South America,1970,Gas,Bcm,9185.766666666666
+zone,Central and South America,1971,Gas,Bcm,9219.878218852215
+zone,Central and South America,1972,Gas,Bcm,9278.75242937853
+zone,Central and South America,1973,Gas,Bcm,8797.042542372881
+zone,Central and South America,1974,Gas,Bcm,8596.512506690455
+zone,Central and South America,1975,Gas,Bcm,1970.6
+zone,Central and South America,1976,Gas,Bcm,2055.8199999999997
+zone,Central and South America,1977,Gas,Bcm,2129.1400000000003
+zone,Central and South America,1978,Gas,Bcm,2225.2200000000003
+zone,Central and South America,1979,Gas,Bcm,2522.1800000000003
+zone,Central and South America,1980,Gas,Bcm,2683.41
+zone,Central and South America,1981,Gas,Bcm,2874.1
+zone,Central and South America,1982,Gas,Bcm,3010.2200000000003
+zone,Central and South America,1983,Gas,Bcm,3061.33
+zone,Central and South America,1984,Gas,Bcm,3134.3
+zone,Central and South America,1985,Gas,Bcm,3233.8
+zone,Central and South America,1986,Gas,Bcm,4147.0
+zone,Central and South America,1987,Gas,Bcm,4661.0
+zone,Central and South America,1988,Gas,Bcm,4788.0
+zone,Central and South America,1989,Gas,Bcm,4770.7
+zone,Central and South America,1990,Gas,Bcm,5147.0
+zone,Central and South America,1991,Gas,Bcm,5280.8
+zone,Central and South America,1992,Gas,Bcm,5365.0
+zone,Central and South America,1993,Gas,Bcm,5370.0
+zone,Central and South America,1994,Gas,Bcm,5724.05
+zone,Central and South America,1995,Gas,Bcm,5859.7
+zone,Central and South America,1996,Gas,Bcm,5982.5
+zone,Central and South America,1997,Gas,Bcm,6184.8
+zone,Central and South America,1998,Gas,Bcm,6342.464
+zone,Central and South America,1999,Gas,Bcm,6716.418
+zone,Central and South America,2000,Gas,Bcm,6784.418
+zone,Central and South America,2001,Gas,Bcm,6920.0
+zone,Central and South America,2002,Gas,Bcm,6884.8
+zone,Central and South America,2003,Gas,Bcm,6774.835
+zone,Central and South America,2004,Gas,Bcm,6911.277
+zone,Central and South America,2005,Gas,Bcm,6774.056
+zone,Central and South America,2006,Gas,Bcm,7155.6
+zone,Central and South America,2007,Gas,Bcm,7296.4
+zone,Central and South America,2008,Gas,Bcm,7379.219
+zone,Central and South America,2009,Gas,Bcm,7410.0
+zone,Central and South America,2010,Gas,Bcm,7484.0
+zone,Central and South America,2011,Gas,Bcm,7507.0
+zone,Central and South America,2012,Gas,Bcm,7635.0
+zone,Central and South America,2013,Gas,Bcm,7604.0
+zone,Central and South America,2014,Gas,Bcm,7611.0
+zone,Central and South America,2015,Gas,Bcm,7624.5
+zone,Central and South America,2016,Gas,Bcm,7631.703
+zone,Central and South America,2017,Gas,Bcm,7523.6
+zone,Central and South America,2018,Gas,Bcm,7334.817
+zone,Central and South America,2019,Gas,Bcm,7336.817
+zone,Central and South America,2020,Gas,Bcm,7159.563
+zone,Central and South America,2021,Gas,Bcm,7150.0
+zone,Central and South America,2022,Gas,Bcm,7144.0
+zone,Central and South America,2023,Gas,Bcm,7132.154111442406
+zone,Eurasia,1960,Gas,Bcm,1752.70347533632
+zone,Eurasia,1961,Gas,Bcm,1933.304078475337
+zone,Eurasia,1962,Gas,Bcm,2061.6545964125567
+zone,Eurasia,1963,Gas,Bcm,2303.553139013453
+zone,Eurasia,1964,Gas,Bcm,2495.0858587443945
+zone,Eurasia,1965,Gas,Bcm,2507.2571748878927
+zone,Eurasia,1966,Gas,Bcm,3271.147309417041
+zone,Eurasia,1967,Gas,Bcm,3736.271524663677
+zone,Eurasia,1968,Gas,Bcm,7869.765919282511
+zone,Eurasia,1969,Gas,Bcm,8024.241479820628
+zone,Eurasia,1970,Gas,Bcm,9622.469394618834
+zone,Eurasia,1971,Gas,Bcm,12580.45569955157
+zone,Eurasia,1972,Gas,Bcm,15270.16378923767
+zone,Eurasia,1973,Gas,Bcm,15073.343252242154
+zone,Eurasia,1974,Gas,Bcm,16275.052773542604
+zone,Eurasia,1975,Gas,Bcm,20541.85448430493
+zone,Eurasia,1976,Gas,Bcm,22397.25874439462
+zone,Eurasia,1977,Gas,Bcm,22691.780829596413
+zone,Eurasia,1978,Gas,Bcm,23885.995739910315
+zone,Eurasia,1979,Gas,Bcm,24682.13901345292
+zone,Eurasia,1980,Gas,Bcm,25478.28228699552
+zone,Eurasia,1981,Gas,Bcm,27070.56883408072
+zone,Eurasia,1982,Gas,Bcm,27867.560874439463
+zone,Eurasia,1983,Gas,Bcm,28663.704147982065
+zone,Eurasia,1984,Gas,Bcm,29857.919058295967
+zone,Eurasia,1985,Gas,Bcm,31848.277242152468
+zone,Eurasia,1986,Gas,Bcm,32644.42051569507
+zone,Eurasia,1987,Gas,Bcm,33202.06031390135
+zone,Eurasia,1988,Gas,Bcm,33838.63542600897
+zone,Eurasia,1989,Gas,Bcm,41402.84529147983
+zone,Eurasia,1990,Gas,Bcm,43416.968946188346
+zone,Eurasia,1991,Gas,Bcm,43791.27511210763
+zone,Eurasia,1992,Gas,Bcm,44746.9865470852
+zone,Eurasia,1993,Gas,Bcm,46020.9855381166
+zone,Eurasia,1994,Gas,Bcm,46299.38105381166
+zone,Eurasia,1995,Gas,Bcm,45678.93251121076
+zone,Eurasia,1996,Gas,Bcm,45147.60448430494
+zone,Eurasia,1997,Gas,Bcm,50820.0
+zone,Eurasia,1998,Gas,Bcm,50798.0
+zone,Eurasia,1999,Gas,Bcm,49732.0
+zone,Eurasia,2000,Gas,Bcm,49536.0
+zone,Eurasia,2001,Gas,Bcm,49629.0
+zone,Eurasia,2002,Gas,Bcm,49822.0
+zone,Eurasia,2003,Gas,Bcm,50755.0
+zone,Eurasia,2004,Gas,Bcm,50567.0
+zone,Eurasia,2005,Gas,Bcm,50588.0
+zone,Eurasia,2006,Gas,Bcm,50587.0
+zone,Eurasia,2007,Gas,Bcm,54652.0
+zone,Eurasia,2008,Gas,Bcm,54579.0
+zone,Eurasia,2009,Gas,Bcm,57903.0
+zone,Eurasia,2010,Gas,Bcm,63719.0
+zone,Eurasia,2011,Gas,Bcm,66395.0
+zone,Eurasia,2012,Gas,Bcm,66484.0
+zone,Eurasia,2013,Gas,Bcm,67168.0
+zone,Eurasia,2014,Gas,Bcm,67172.0
+zone,Eurasia,2015,Gas,Bcm,67909.0
+zone,Eurasia,2016,Gas,Bcm,68309.0
+zone,Eurasia,2017,Gas,Bcm,68613.0
+zone,Eurasia,2018,Gas,Bcm,68011.0
+zone,Eurasia,2019,Gas,Bcm,67997.0
+zone,Eurasia,2020,Gas,Bcm,66661.0
+zone,Eurasia,2021,Gas,Bcm,66589.0
+zone,Eurasia,2022,Gas,Bcm,62962.0
+zone,Eurasia,2023,Gas,Bcm,62962.0
+zone,Europe,1960,Gas,Bcm,623.0
+zone,Europe,1961,Gas,Bcm,817.22
+zone,Europe,1962,Gas,Bcm,1225.54
+zone,Europe,1963,Gas,Bcm,1902.64
+zone,Europe,1964,Gas,Bcm,2052.84
+zone,Europe,1965,Gas,Bcm,2107.88
+zone,Europe,1966,Gas,Bcm,2935.18
+zone,Europe,1967,Gas,Bcm,3506.4500000000007
+zone,Europe,1968,Gas,Bcm,3616.55
+zone,Europe,1969,Gas,Bcm,3702.1600000000008
+zone,Europe,1970,Gas,Bcm,3963.0
+zone,Europe,1971,Gas,Bcm,4087.33
+zone,Europe,1972,Gas,Bcm,4521.03
+zone,Europe,1973,Gas,Bcm,5043.46
+zone,Europe,1974,Gas,Bcm,5166.299999999999
+zone,Europe,1975,Gas,Bcm,5381.0
+zone,Europe,1976,Gas,Bcm,5340.0
+zone,Europe,1977,Gas,Bcm,5317.0
+zone,Europe,1978,Gas,Bcm,5347.0
+zone,Europe,1979,Gas,Bcm,5487.0
+zone,Europe,1980,Gas,Bcm,5955.0
+zone,Europe,1981,Gas,Bcm,5842.0
+zone,Europe,1982,Gas,Bcm,5801.0
+zone,Europe,1983,Gas,Bcm,6558.0
+zone,Europe,1984,Gas,Bcm,6880.0
+zone,Europe,1985,Gas,Bcm,6700.0
+zone,Europe,1986,Gas,Bcm,6961.0
+zone,Europe,1987,Gas,Bcm,6833.0
+zone,Europe,1988,Gas,Bcm,6683.0
+zone,Europe,1989,Gas,Bcm,6637.0
+zone,Europe,1990,Gas,Bcm,6718.0
+zone,Europe,1991,Gas,Bcm,6834.0
+zone,Europe,1992,Gas,Bcm,7352.0
+zone,Europe,1993,Gas,Bcm,7369.0
+zone,Europe,1994,Gas,Bcm,7459.0
+zone,Europe,1995,Gas,Bcm,7471.0
+zone,Europe,1996,Gas,Bcm,7345.0
+zone,Europe,1997,Gas,Bcm,7920.0
+zone,Europe,1998,Gas,Bcm,7902.0
+zone,Europe,1999,Gas,Bcm,7801.0
+zone,Europe,2000,Gas,Bcm,7654.0
+zone,Europe,2001,Gas,Bcm,7450.0
+zone,Europe,2002,Gas,Bcm,7090.0
+zone,Europe,2003,Gas,Bcm,6380.0
+zone,Europe,2004,Gas,Bcm,6187.0
+zone,Europe,2005,Gas,Bcm,5936.0
+zone,Europe,2006,Gas,Bcm,5674.0
+zone,Europe,2007,Gas,Bcm,5453.0
+zone,Europe,2008,Gas,Bcm,5359.0
+zone,Europe,2009,Gas,Bcm,5154.0
+zone,Europe,2010,Gas,Bcm,4958.0
+zone,Europe,2011,Gas,Bcm,4766.0
+zone,Europe,2012,Gas,Bcm,4521.0
+zone,Europe,2013,Gas,Bcm,4398.0
+zone,Europe,2014,Gas,Bcm,4123.0
+zone,Europe,2015,Gas,Bcm,3962.0
+zone,Europe,2016,Gas,Bcm,3734.0
+zone,Europe,2017,Gas,Bcm,3598.0
+zone,Europe,2018,Gas,Bcm,3009.0
+zone,Europe,2019,Gas,Bcm,2876.0
+zone,Europe,2020,Gas,Bcm,2714.0
+zone,Europe,2021,Gas,Bcm,2672.0
+zone,Europe,2022,Gas,Bcm,2516.0
+zone,Europe,2023,Gas,Bcm,2500.9155778199515
+zone,Middle East,1960,Gas,Bcm,4952.6
+zone,Middle East,1961,Gas,Bcm,5025.2699999999995
+zone,Middle East,1962,Gas,Bcm,5032.69
+zone,Middle East,1963,Gas,Bcm,5723.95
+zone,Middle East,1964,Gas,Bcm,5844.96
+zone,Middle East,1965,Gas,Bcm,6168.849999999999
+zone,Middle East,1966,Gas,Bcm,6637.389999999999
+zone,Middle East,1967,Gas,Bcm,6651.79
+zone,Middle East,1968,Gas,Bcm,6719.08
+zone,Middle East,1969,Gas,Bcm,6759.97
+zone,Middle East,1970,Gas,Bcm,10009.7
+zone,Middle East,1971,Gas,Bcm,10011.17
+zone,Middle East,1972,Gas,Bcm,10072.82
+zone,Middle East,1973,Gas,Bcm,11746.810000000001
+zone,Middle East,1974,Gas,Bcm,13838.45
+zone,Middle East,1975,Gas,Bcm,15303.800000000001
+zone,Middle East,1976,Gas,Bcm,15283.45
+zone,Middle East,1977,Gas,Bcm,20886.530000000002
+zone,Middle East,1978,Gas,Bcm,21169.74
+zone,Middle East,1979,Gas,Bcm,21077.95
+zone,Middle East,1980,Gas,Bcm,24366.63
+zone,Middle East,1981,Gas,Bcm,24687.23
+zone,Middle East,1982,Gas,Bcm,25557.8
+zone,Middle East,1983,Gas,Bcm,26060.17
+zone,Middle East,1984,Gas,Bcm,27082.81
+zone,Middle East,1985,Gas,Bcm,27336.7
+zone,Middle East,1986,Gas,Bcm,30047.39
+zone,Middle East,1987,Gas,Bcm,30712.5
+zone,Middle East,1988,Gas,Bcm,33855.0
+zone,Middle East,1989,Gas,Bcm,37282.4
+zone,Middle East,1990,Gas,Bcm,37368.7
+zone,Middle East,1991,Gas,Bcm,41934.6
+zone,Middle East,1992,Gas,Bcm,43557.8
+zone,Middle East,1993,Gas,Bcm,43641.8
+zone,Middle East,1994,Gas,Bcm,46171.0
+zone,Middle East,1995,Gas,Bcm,44560.5
+zone,Middle East,1996,Gas,Bcm,48443.3
+zone,Middle East,1997,Gas,Bcm,48665.0
+zone,Middle East,1998,Gas,Bcm,52302.0
+zone,Middle East,1999,Gas,Bcm,51206.0
+zone,Middle East,2000,Gas,Bcm,58929.0
+zone,Middle East,2001,Gas,Bcm,70394.56
+zone,Middle East,2002,Gas,Bcm,70756.0
+zone,Middle East,2003,Gas,Bcm,71739.2
+zone,Middle East,2004,Gas,Bcm,71609.4
+zone,Middle East,2005,Gas,Bcm,71588.3
+zone,Middle East,2006,Gas,Bcm,71280.0
+zone,Middle East,2007,Gas,Bcm,72677.4
+zone,Middle East,2008,Gas,Bcm,74301.4
+zone,Middle East,2009,Gas,Bcm,74470.0
+zone,Middle East,2010,Gas,Bcm,77860.0
+zone,Middle East,2011,Gas,Bcm,78429.0
+zone,Middle East,2012,Gas,Bcm,78622.0
+zone,Middle East,2013,Gas,Bcm,78757.0
+zone,Middle East,2014,Gas,Bcm,78777.87000849617
+zone,Middle East,2015,Gas,Bcm,78125.24695553667
+zone,Middle East,2016,Gas,Bcm,78812.49196233362
+zone,Middle East,2017,Gas,Bcm,78709.7088
+zone,Middle East,2018,Gas,Bcm,77717.55
+zone,Middle East,2019,Gas,Bcm,79994.2378
+zone,Middle East,2020,Gas,Bcm,80156.9378
+zone,Middle East,2021,Gas,Bcm,80697.53779999999
+zone,Middle East,2022,Gas,Bcm,81714.2378
+zone,Middle East,2023,Gas,Bcm,81839.0258
+zone,North America,1960,Gas,Bcm,908.0
+zone,North America,1961,Gas,Bcm,1043.1557034308082
+zone,North America,1962,Gas,Bcm,1095.30008289201
+zone,North America,1963,Gas,Bcm,1132.1800828920102
+zone,North America,1964,Gas,Bcm,1215.1472691687773
+zone,North America,1965,Gas,Bcm,1253.5482799907898
+zone,North America,1966,Gas,Bcm,1339.2061547317523
+zone,North America,1967,Gas,Bcm,1383.6782592677873
+zone,North America,1968,Gas,Bcm,1516.5038613861398
+zone,North America,1969,Gas,Bcm,1722.9256642873602
+zone,North America,1970,Gas,Bcm,2056.0
+zone,North America,1971,Gas,Bcm,2100.7312544660576
+zone,North America,1972,Gas,Bcm,2136.462620087336
+zone,North America,1973,Gas,Bcm,2202.37606192934
+zone,North America,1974,Gas,Bcm,2445.54726478761
+zone,North America,1975,Gas,Bcm,8869.0
+zone,North America,1976,Gas,Bcm,8832.0
+zone,North America,1977,Gas,Bcm,8935.0
+zone,North America,1978,Gas,Bcm,9663.0
+zone,North America,1979,Gas,Bcm,9750.0
+zone,North America,1980,Gas,Bcm,9955.0
+zone,North America,1981,Gas,Bcm,10409.0
+zone,North America,1982,Gas,Bcm,10431.0
+zone,North America,1983,Gas,Bcm,10464.0
+zone,North America,1984,Gas,Bcm,10572.0
+zone,North America,1985,Gas,Bcm,10425.0
+zone,North America,1986,Gas,Bcm,10317.0
+zone,North America,1987,Gas,Bcm,10113.0
+zone,North America,1988,Gas,Bcm,9507.0
+zone,North America,1989,Gas,Bcm,9524.0
+zone,North America,1990,Gas,Bcm,9545.0
+zone,North America,1991,Gas,Bcm,9451.0
+zone,North America,1992,Gas,Bcm,9328.0
+zone,North America,1993,Gas,Bcm,8804.0
+zone,North America,1994,Gas,Bcm,8473.0
+zone,North America,1995,Gas,Bcm,8521.0
+zone,North America,1996,Gas,Bcm,8456.0
+zone,North America,1997,Gas,Bcm,8341.0
+zone,North America,1998,Gas,Bcm,7244.0
+zone,North America,1999,Gas,Bcm,7320.0
+zone,North America,2000,Gas,Bcm,7542.0
+zone,North America,2001,Gas,Bcm,7686.0
+zone,North America,2002,Gas,Bcm,7519.33447006584
+zone,North America,2003,Gas,Bcm,7505.33447006584
+zone,North America,2004,Gas,Bcm,7600.33447006584
+zone,North America,2005,Gas,Bcm,7968.33447006584
+zone,North America,2006,Gas,Bcm,8146.33447006584
+zone,North America,2007,Gas,Bcm,8874.33447006584
+zone,North America,2008,Gas,Bcm,9175.33447006584
+zone,North America,2009,Gas,Bcm,9915.33447006584
+zone,North America,2010,Gas,Bcm,11087.33447006584
+zone,North America,2011,Gas,Bcm,11848.72932042123
+zone,North America,2012,Gas,Bcm,11228.51011067072
+zone,North America,2013,Gas,Bcm,12069.615450746107
+zone,North America,2014,Gas,Bcm,12853.964544196506
+zone,North America,2015,Gas,Bcm,11185.236392977762
+zone,North America,2016,Gas,Bcm,11508.551810904646
+zone,North America,2017,Gas,Bcm,14671.791410198652
+zone,North America,2018,Gas,Bcm,15804.370811620214
+zone,North America,2019,Gas,Bcm,15904.950213041775
+zone,North America,2020,Gas,Bcm,15925.330419596161
+zone,North America,2021,Gas,Bcm,19594.28389476668
+zone,North America,2022,Gas,Bcm,19788.17149476668
+zone,North America,2023,Gas,Bcm,20523.191894766678
+zone,World,1960,Gas,Bcm,18653.70347533632
+zone,World,1961,Gas,Bcm,19511.94711292401
+zone,World,1962,Gas,Bcm,20382.395926157817
+zone,World,1963,Gas,Bcm,22297.954351369808
+zone,World,1964,Gas,Bcm,23298.46624168079
+zone,World,1965,Gas,Bcm,24195.416160289074
+zone,World,1966,Gas,Bcm,28629.698194302397
+zone,World,1967,Gas,Bcm,29914.33267550827
+zone,World,1968,Gas,Bcm,34517.04699759581
+zone,World,1969,Gas,Bcm,35240.54325667749
+zone,World,1970,Gas,Bcm,41204.3360612855
+zone,World,1971,Gas,Bcm,45806.145172869845
+zone,World,1972,Gas,Bcm,49479.538838703535
+zone,World,1973,Gas,Bcm,51344.30185654438
+zone,World,1974,Gas,Bcm,55423.46254502067
+zone,World,1975,Gas,Bcm,61288.85448430493
+zone,World,1976,Gas,Bcm,63660.63874439462
+zone,World,1977,Gas,Bcm,69844.45082959642
+zone,World,1978,Gas,Bcm,72235.95573991032
+zone,World,1979,Gas,Bcm,73851.26901345293
+zone,World,1980,Gas,Bcm,79550.46228699552
+zone,World,1981,Gas,Bcm,82400.87883408072
+zone,World,1982,Gas,Bcm,84610.59087443947
+zone,World,1983,Gas,Bcm,86743.20414798206
+zone,World,1984,Gas,Bcm,89664.20705829597
+zone,World,1985,Gas,Bcm,92647.95524215247
+zone,World,1986,Gas,Bcm,99107.98851569508
+zone,World,1987,Gas,Bcm,100665.73831390135
+zone,World,1988,Gas,Bcm,104234.11542600897
+zone,World,1989,Gas,Bcm,115803.98129147984
+zone,World,1990,Gas,Bcm,118558.70494618834
+zone,World,1991,Gas,Bcm,124964.71111210763
+zone,World,1992,Gas,Bcm,128359.0225470852
+zone,World,1993,Gas,Bcm,129969.1055381166
+zone,World,1994,Gas,Bcm,132224.76635993412
+zone,World,1995,Gas,Bcm,131157.86931121076
+zone,World,1996,Gas,Bcm,134655.72048430494
+zone,World,1997,Gas,Bcm,141942.5
+zone,World,1998,Gas,Bcm,145975.364
+zone,World,1999,Gas,Bcm,145160.718
+zone,World,2000,Gas,Bcm,153859.218
+zone,World,2001,Gas,Bcm,166827.16
+zone,World,2002,Gas,Bcm,167838.43447006584
+zone,World,2003,Gas,Bcm,169340.96947006584
+zone,World,2004,Gas,Bcm,169715.81147006585
+zone,World,2005,Gas,Bcm,169571.79047006584
+zone,World,2006,Gas,Bcm,170160.33447006583
+zone,World,2007,Gas,Bcm,176771.93447006584
+zone,World,2008,Gas,Bcm,179859.55347006585
+zone,World,2009,Gas,Bcm,183864.33447006583
+zone,World,2010,Gas,Bcm,194359.00456352378
+zone,World,2011,Gas,Bcm,198233.4169726444
+zone,World,2012,Gas,Bcm,198233.690172976
+zone,World,2013,Gas,Bcm,199149.2672774241
+zone,World,2014,Gas,Bcm,202241.4215535423
+zone,World,2015,Gas,Bcm,200634.4859363867
+zone,World,2016,Gas,Bcm,201837.85669170666
+zone,World,2017,Gas,Bcm,204915.5895967422
+zone,World,2018,Gas,Bcm,202244.18535011337
+zone,World,2019,Gas,Bcm,203973.57499160204
+zone,World,2020,Gas,Bcm,202233.20746168817
+zone,World,2021,Gas,Bcm,206227.78897584596
+zone,World,2022,Gas,Bcm,203061.3780966755
+zone,World,2023,Gas,Bcm,203592.34599990267
