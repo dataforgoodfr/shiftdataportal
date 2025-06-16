@@ -1,0 +1,3205 @@
+group_type,group_name,year,energy_source,proven_reserves_unit,proven_reserves
+country,Algeria,1960,Oil,Gb,5.2
+country,Algeria,1961,Oil,Gb,5.5
+country,Algeria,1962,Oil,Gb,6.5
+country,Algeria,1963,Oil,Gb,7.0
+country,Algeria,1964,Oil,Gb,7.5
+country,Algeria,1965,Oil,Gb,7.4
+country,Algeria,1966,Oil,Gb,7.25
+country,Algeria,1967,Oil,Gb,6.9
+country,Algeria,1968,Oil,Gb,7.0
+country,Algeria,1969,Oil,Gb,8.0
+country,Algeria,1970,Oil,Gb,8.098
+country,Algeria,1971,Oil,Gb,9.84
+country,Algeria,1972,Oil,Gb,9.75
+country,Algeria,1973,Oil,Gb,7.64
+country,Algeria,1974,Oil,Gb,7.7
+country,Algeria,1975,Oil,Gb,7.37
+country,Algeria,1976,Oil,Gb,6.8
+country,Algeria,1977,Oil,Gb,6.6
+country,Algeria,1978,Oil,Gb,6.3
+country,Algeria,1979,Oil,Gb,8.44
+country,Algeria,1980,Oil,Gb,8.2
+country,Algeria,1981,Oil,Gb,8.08
+country,Algeria,1982,Oil,Gb,9.44
+country,Algeria,1983,Oil,Gb,9.22
+country,Algeria,1984,Oil,Gb,9.0
+country,Algeria,1985,Oil,Gb,8.82
+country,Algeria,1986,Oil,Gb,8.8
+country,Algeria,1987,Oil,Gb,8.564
+country,Algeria,1988,Oil,Gb,9.2
+country,Algeria,1989,Oil,Gb,9.236
+country,Algeria,1990,Oil,Gb,9.2
+country,Algeria,1991,Oil,Gb,9.2
+country,Algeria,1992,Oil,Gb,9.2
+country,Algeria,1993,Oil,Gb,9.2
+country,Algeria,1994,Oil,Gb,9.979
+country,Algeria,1995,Oil,Gb,9.979
+country,Algeria,1996,Oil,Gb,10.8
+country,Algeria,1997,Oil,Gb,11.2
+country,Algeria,1998,Oil,Gb,11.314
+country,Algeria,1999,Oil,Gb,11.314
+country,Algeria,2000,Oil,Gb,11.314
+country,Algeria,2001,Oil,Gb,11.314
+country,Algeria,2002,Oil,Gb,11.314
+country,Algeria,2003,Oil,Gb,11.8
+country,Algeria,2004,Oil,Gb,11.35
+country,Algeria,2005,Oil,Gb,12.27
+country,Algeria,2006,Oil,Gb,12.2
+country,Algeria,2007,Oil,Gb,12.2
+country,Algeria,2008,Oil,Gb,12.2
+country,Algeria,2009,Oil,Gb,12.2
+country,Algeria,2010,Oil,Gb,12.2
+country,Algeria,2011,Oil,Gb,12.2
+country,Algeria,2012,Oil,Gb,12.2
+country,Algeria,2013,Oil,Gb,12.2
+country,Algeria,2014,Oil,Gb,12.2
+country,Algeria,2015,Oil,Gb,12.2
+country,Algeria,2016,Oil,Gb,12.2
+country,Algeria,2017,Oil,Gb,12.2
+country,Algeria,2018,Oil,Gb,12.2
+country,Algeria,2019,Oil,Gb,12.2
+country,Algeria,2020,Oil,Gb,12.2
+country,Algeria,2021,Oil,Gb,12.2
+country,Algeria,2022,Oil,Gb,12.2
+country,Algeria,2023,Oil,Gb,12.2
+country,Angola,1960,Oil,Gb,0.03
+country,Angola,1961,Oil,Gb,0.03
+country,Angola,1962,Oil,Gb,0.05
+country,Angola,1963,Oil,Gb,0.2
+country,Angola,1964,Oil,Gb,0.2
+country,Angola,1965,Oil,Gb,0.196
+country,Angola,1966,Oil,Gb,0.193
+country,Angola,1967,Oil,Gb,0.5
+country,Angola,1968,Oil,Gb,0.5
+country,Angola,1969,Oil,Gb,0.5
+country,Angola,1970,Oil,Gb,0.5
+country,Angola,1971,Oil,Gb,0.803
+country,Angola,1972,Oil,Gb,1.2
+country,Angola,1973,Oil,Gb,1.5
+country,Angola,1974,Oil,Gb,1.439
+country,Angola,1975,Oil,Gb,1.38
+country,Angola,1976,Oil,Gb,1.331
+country,Angola,1977,Oil,Gb,1.267
+country,Angola,1978,Oil,Gb,1.207
+country,Angola,1979,Oil,Gb,1.2
+country,Angola,1980,Oil,Gb,1.375
+country,Angola,1981,Oil,Gb,1.108
+country,Angola,1982,Oil,Gb,1.457
+country,Angola,1983,Oil,Gb,1.715
+country,Angola,1984,Oil,Gb,2.147
+country,Angola,1985,Oil,Gb,2.018
+country,Angola,1986,Oil,Gb,1.4
+country,Angola,1987,Oil,Gb,2.0
+country,Angola,1988,Oil,Gb,2.0
+country,Angola,1989,Oil,Gb,2.074
+country,Angola,1990,Oil,Gb,1.625
+country,Angola,1991,Oil,Gb,1.45
+country,Angola,1992,Oil,Gb,1.334
+country,Angola,1993,Oil,Gb,1.901
+country,Angola,1994,Oil,Gb,2.965
+country,Angola,1995,Oil,Gb,3.125
+country,Angola,1996,Oil,Gb,3.695
+country,Angola,1997,Oil,Gb,3.9
+country,Angola,1998,Oil,Gb,4.03
+country,Angola,1999,Oil,Gb,5.05
+country,Angola,2000,Oil,Gb,5.972
+country,Angola,2001,Oil,Gb,6.5
+country,Angola,2002,Oil,Gb,8.9
+country,Angola,2003,Oil,Gb,8.801
+country,Angola,2004,Oil,Gb,9.035
+country,Angola,2005,Oil,Gb,9.05
+country,Angola,2006,Oil,Gb,9.33
+country,Angola,2007,Oil,Gb,9.5
+country,Angola,2008,Oil,Gb,9.5
+country,Angola,2009,Oil,Gb,9.5
+country,Angola,2010,Oil,Gb,9.055
+country,Angola,2011,Oil,Gb,9.055
+country,Angola,2012,Oil,Gb,9.055
+country,Angola,2013,Oil,Gb,9.011
+country,Angola,2014,Oil,Gb,8.423
+country,Angola,2015,Oil,Gb,9.524
+country,Angola,2016,Oil,Gb,9.523
+country,Angola,2017,Oil,Gb,8.384
+country,Angola,2018,Oil,Gb,8.16
+country,Angola,2019,Oil,Gb,7.783
+country,Angola,2020,Oil,Gb,7.231
+country,Angola,2021,Oil,Gb,2.516
+country,Angola,2022,Oil,Gb,2.55
+country,Angola,2023,Oil,Gb,2.55
+country,Argentina,1960,Oil,Gb,2.2
+country,Argentina,1961,Oil,Gb,2.4
+country,Argentina,1962,Oil,Gb,2.4
+country,Argentina,1963,Oil,Gb,2.3
+country,Argentina,1964,Oil,Gb,2.0
+country,Argentina,1965,Oil,Gb,1.9
+country,Argentina,1966,Oil,Gb,2.905
+country,Argentina,1967,Oil,Gb,2.905
+country,Argentina,1968,Oil,Gb,3.1
+country,Argentina,1969,Oil,Gb,4.0
+country,Argentina,1970,Oil,Gb,4.5
+country,Argentina,1971,Oil,Gb,2.5
+country,Argentina,1972,Oil,Gb,4.9
+country,Argentina,1973,Oil,Gb,2.5
+country,Argentina,1974,Oil,Gb,2.346
+country,Argentina,1975,Oil,Gb,2.465
+country,Argentina,1976,Oil,Gb,2.3
+country,Argentina,1977,Oil,Gb,2.503
+country,Argentina,1978,Oil,Gb,2.4
+country,Argentina,1979,Oil,Gb,2.4
+country,Argentina,1980,Oil,Gb,2.464
+country,Argentina,1981,Oil,Gb,2.426
+country,Argentina,1982,Oil,Gb,2.429
+country,Argentina,1983,Oil,Gb,2.45
+country,Argentina,1984,Oil,Gb,2.349
+country,Argentina,1985,Oil,Gb,2.316
+country,Argentina,1986,Oil,Gb,2.233
+country,Argentina,1987,Oil,Gb,2.246
+country,Argentina,1988,Oil,Gb,2.28
+country,Argentina,1989,Oil,Gb,2.168
+country,Argentina,1990,Oil,Gb,1.57
+country,Argentina,1991,Oil,Gb,1.683
+country,Argentina,1992,Oil,Gb,2.017
+country,Argentina,1993,Oil,Gb,2.217
+country,Argentina,1994,Oil,Gb,2.253
+country,Argentina,1995,Oil,Gb,2.386
+country,Argentina,1996,Oil,Gb,2.588
+country,Argentina,1997,Oil,Gb,2.621
+country,Argentina,1998,Oil,Gb,2.753
+country,Argentina,1999,Oil,Gb,3.071
+country,Argentina,2000,Oil,Gb,2.974
+country,Argentina,2001,Oil,Gb,2.879
+country,Argentina,2002,Oil,Gb,2.821
+country,Argentina,2003,Oil,Gb,2.675
+country,Argentina,2004,Oil,Gb,2.478
+country,Argentina,2005,Oil,Gb,2.32
+country,Argentina,2006,Oil,Gb,2.468
+country,Argentina,2007,Oil,Gb,2.587
+country,Argentina,2008,Oil,Gb,2.616
+country,Argentina,2009,Oil,Gb,2.52
+country,Argentina,2010,Oil,Gb,2.50468
+country,Argentina,2011,Oil,Gb,2.505
+country,Argentina,2012,Oil,Gb,2.805
+country,Argentina,2013,Oil,Gb,2.82
+country,Argentina,2014,Oil,Gb,2.3542
+country,Argentina,2015,Oil,Gb,2.3797020000000004
+country,Argentina,2016,Oil,Gb,2.185
+country,Argentina,2017,Oil,Gb,2.162
+country,Argentina,2018,Oil,Gb,2.017
+country,Argentina,2019,Oil,Gb,2.389
+country,Argentina,2020,Oil,Gb,2.483
+country,Argentina,2021,Oil,Gb,2.411
+country,Argentina,2022,Oil,Gb,2.838
+country,Argentina,2023,Oil,Gb,2.924
+country,Australia,1960,Oil,Gb,0.001
+country,Australia,1961,Oil,Gb,0.002
+country,Australia,1962,Oil,Gb,0.05
+country,Australia,1963,Oil,Gb,0.05
+country,Australia,1964,Oil,Gb,0.05
+country,Australia,1965,Oil,Gb,0.06
+country,Australia,1966,Oil,Gb,0.6079
+country,Australia,1967,Oil,Gb,0.601
+country,Australia,1968,Oil,Gb,2.5
+country,Australia,1969,Oil,Gb,2.5
+country,Australia,1970,Oil,Gb,2.44
+country,Australia,1971,Oil,Gb,2.321
+country,Australia,1972,Oil,Gb,2.198
+country,Australia,1973,Oil,Gb,2.045
+country,Australia,1974,Oil,Gb,1.897
+country,Australia,1975,Oil,Gb,1.747
+country,Australia,1976,Oil,Gb,1.592
+country,Australia,1977,Oil,Gb,1.435
+country,Australia,1978,Oil,Gb,1.278
+country,Australia,1979,Oil,Gb,1.118
+country,Australia,1980,Oil,Gb,2.123
+country,Australia,1981,Oil,Gb,2.618
+country,Australia,1982,Oil,Gb,2.9310500000000004
+country,Australia,1983,Oil,Gb,2.49077
+country,Australia,1984,Oil,Gb,2.55995
+country,Australia,1985,Oil,Gb,2.45932
+country,Australia,1986,Oil,Gb,2.87444
+country,Australia,1987,Oil,Gb,2.90589
+country,Australia,1988,Oil,Gb,3.18893
+country,Australia,1989,Oil,Gb,3.10088
+country,Australia,1990,Oil,Gb,3.15749
+country,Australia,1991,Oil,Gb,3.22667
+country,Australia,1992,Oil,Gb,3.22038
+country,Australia,1993,Oil,Gb,3.25812
+country,Australia,1994,Oil,Gb,3.81792
+country,Australia,1995,Oil,Gb,3.79905
+country,Australia,1996,Oil,Gb,3.81792
+country,Australia,1997,Oil,Gb,4.03806
+country,Australia,1998,Oil,Gb,4.77397
+country,Australia,1999,Oil,Gb,4.742520000000001
+country,Australia,2000,Oil,Gb,4.94379
+country,Australia,2001,Oil,Gb,4.95637
+country,Australia,2002,Oil,Gb,4.57269
+country,Australia,2003,Oil,Gb,3.74944
+country,Australia,2004,Oil,Gb,3.88926
+country,Australia,2005,Oil,Gb,3.71834
+country,Australia,2006,Oil,Gb,3.51452
+country,Australia,2007,Oil,Gb,3.42896
+country,Australia,2008,Oil,Gb,4.239199999999999
+country,Australia,2009,Oil,Gb,4.0614
+country,Australia,2010,Oil,Gb,3.83108
+country,Australia,2011,Oil,Gb,3.87294
+country,Australia,2012,Oil,Gb,3.92197
+country,Australia,2013,Oil,Gb,3.957
+country,Australia,2014,Oil,Gb,2.39
+country,Australia,2015,Oil,Gb,2.39
+country,Australia,2016,Oil,Gb,2.39
+country,Australia,2017,Oil,Gb,2.39
+country,Australia,2018,Oil,Gb,2.39
+country,Australia,2019,Oil,Gb,2.39
+country,Australia,2020,Oil,Gb,2.39
+country,Australia,2021,Oil,Gb,1.747
+country,Australia,2022,Oil,Gb,1.803
+country,Australia,2023,Oil,Gb,1.803
+country,Azerbaijan,1996,Oil,Gb,1.178
+country,Azerbaijan,1997,Oil,Gb,1.178
+country,Azerbaijan,1998,Oil,Gb,1.178
+country,Azerbaijan,1999,Oil,Gb,1.178
+country,Azerbaijan,2000,Oil,Gb,1.178
+country,Azerbaijan,2001,Oil,Gb,7.0
+country,Azerbaijan,2002,Oil,Gb,7.0
+country,Azerbaijan,2003,Oil,Gb,7.0
+country,Azerbaijan,2004,Oil,Gb,7.0
+country,Azerbaijan,2005,Oil,Gb,7.0
+country,Azerbaijan,2006,Oil,Gb,7.0
+country,Azerbaijan,2007,Oil,Gb,7.0
+country,Azerbaijan,2008,Oil,Gb,7.0
+country,Azerbaijan,2009,Oil,Gb,7.0
+country,Azerbaijan,2010,Oil,Gb,7.0
+country,Azerbaijan,2011,Oil,Gb,7.0
+country,Azerbaijan,2012,Oil,Gb,7.0
+country,Azerbaijan,2013,Oil,Gb,7.0
+country,Azerbaijan,2014,Oil,Gb,7.0
+country,Azerbaijan,2015,Oil,Gb,7.0
+country,Azerbaijan,2016,Oil,Gb,7.0
+country,Azerbaijan,2017,Oil,Gb,7.0
+country,Azerbaijan,2018,Oil,Gb,7.0
+country,Azerbaijan,2019,Oil,Gb,7.0
+country,Azerbaijan,2020,Oil,Gb,7.0
+country,Azerbaijan,2021,Oil,Gb,7.0
+country,Azerbaijan,2022,Oil,Gb,7.0
+country,Azerbaijan,2023,Oil,Gb,7.0
+country,Belarus,1996,Oil,Gb,0.198
+country,Belarus,1997,Oil,Gb,0.198
+country,Belarus,1998,Oil,Gb,0.198
+country,Belarus,1999,Oil,Gb,0.198
+country,Belarus,2000,Oil,Gb,0.198
+country,Belarus,2001,Oil,Gb,0.198
+country,Belarus,2002,Oil,Gb,0.198
+country,Belarus,2003,Oil,Gb,0.198
+country,Belarus,2004,Oil,Gb,0.198
+country,Belarus,2005,Oil,Gb,0.198
+country,Belarus,2006,Oil,Gb,0.198
+country,Belarus,2007,Oil,Gb,0.198
+country,Belarus,2008,Oil,Gb,0.198
+country,Belarus,2009,Oil,Gb,0.198
+country,Belarus,2010,Oil,Gb,0.198
+country,Belarus,2011,Oil,Gb,0.198
+country,Belarus,2012,Oil,Gb,0.198
+country,Belarus,2013,Oil,Gb,0.198
+country,Belarus,2014,Oil,Gb,0.198
+country,Belarus,2015,Oil,Gb,0.198
+country,Belarus,2016,Oil,Gb,0.198
+country,Belarus,2017,Oil,Gb,0.198
+country,Belarus,2018,Oil,Gb,0.198
+country,Belarus,2019,Oil,Gb,0.198
+country,Belarus,2020,Oil,Gb,0.198
+country,Belarus,2021,Oil,Gb,0.198
+country,Belarus,2022,Oil,Gb,0.198
+country,Belarus,2023,Oil,Gb,0.198
+country,Brazil,1960,Oil,Gb,0.3
+country,Brazil,1961,Oil,Gb,0.325
+country,Brazil,1962,Oil,Gb,0.3
+country,Brazil,1963,Oil,Gb,0.3
+country,Brazil,1964,Oil,Gb,0.9
+country,Brazil,1965,Oil,Gb,0.5
+country,Brazil,1966,Oil,Gb,1.0
+country,Brazil,1967,Oil,Gb,0.7
+country,Brazil,1968,Oil,Gb,0.85
+country,Brazil,1969,Oil,Gb,0.882
+country,Brazil,1970,Oil,Gb,0.85
+country,Brazil,1971,Oil,Gb,1.0
+country,Brazil,1972,Oil,Gb,0.857
+country,Brazil,1973,Oil,Gb,0.799
+country,Brazil,1974,Oil,Gb,0.775
+country,Brazil,1975,Oil,Gb,0.78
+country,Brazil,1976,Oil,Gb,0.8
+country,Brazil,1977,Oil,Gb,0.88
+country,Brazil,1978,Oil,Gb,1.2
+country,Brazil,1979,Oil,Gb,1.22
+country,Brazil,1980,Oil,Gb,1.3
+country,Brazil,1981,Oil,Gb,1.3251
+country,Brazil,1982,Oil,Gb,1.75
+country,Brazil,1983,Oil,Gb,1.85
+country,Brazil,1984,Oil,Gb,1.976
+country,Brazil,1985,Oil,Gb,2.07
+country,Brazil,1986,Oil,Gb,2.25
+country,Brazil,1987,Oil,Gb,2.34
+country,Brazil,1988,Oil,Gb,2.55
+country,Brazil,1989,Oil,Gb,2.816
+country,Brazil,1990,Oil,Gb,4.4511
+country,Brazil,1991,Oil,Gb,4.8185
+country,Brazil,1992,Oil,Gb,4.966
+country,Brazil,1993,Oil,Gb,4.9823
+country,Brazil,1994,Oil,Gb,5.3746
+country,Brazil,1995,Oil,Gb,6.223199999999999
+country,Brazil,1996,Oil,Gb,6.6808000000000005
+country,Brazil,1997,Oil,Gb,7.106
+country,Brazil,1998,Oil,Gb,7.357
+country,Brazil,1999,Oil,Gb,8.153
+country,Brazil,2000,Oil,Gb,8.464
+country,Brazil,2001,Oil,Gb,8.485
+country,Brazil,2002,Oil,Gb,10.535
+country,Brazil,2003,Oil,Gb,11.302
+country,Brazil,2004,Oil,Gb,11.591
+country,Brazil,2005,Oil,Gb,11.772
+country,Brazil,2006,Oil,Gb,12.182
+country,Brazil,2007,Oil,Gb,12.624
+country,Brazil,2008,Oil,Gb,11.722
+country,Brazil,2009,Oil,Gb,11.899
+country,Brazil,2010,Oil,Gb,11.985
+country,Brazil,2011,Oil,Gb,12.841
+country,Brazil,2012,Oil,Gb,13.154
+country,Brazil,2013,Oil,Gb,15.0499
+country,Brazil,2014,Oil,Gb,15.544
+country,Brazil,2015,Oil,Gb,16.1841
+country,Brazil,2016,Oil,Gb,12.9998
+country,Brazil,2017,Oil,Gb,12.634
+country,Brazil,2018,Oil,Gb,12.835
+country,Brazil,2019,Oil,Gb,13.435
+country,Brazil,2020,Oil,Gb,12.715
+country,Brazil,2021,Oil,Gb,11.89
+country,Brazil,2022,Oil,Gb,13.242
+country,Brazil,2023,Oil,Gb,14.856
+country,Brunei Darussalam,1960,Oil,Gb,0.5
+country,Brunei Darussalam,1961,Oil,Gb,0.5
+country,Brunei Darussalam,1962,Oil,Gb,0.65
+country,Brunei Darussalam,1963,Oil,Gb,0.65
+country,Brunei Darussalam,1964,Oil,Gb,0.7
+country,Brunei Darussalam,1965,Oil,Gb,0.676
+country,Brunei Darussalam,1966,Oil,Gb,0.647
+country,Brunei Darussalam,1967,Oil,Gb,0.616
+country,Brunei Darussalam,1968,Oil,Gb,0.6
+country,Brunei Darussalam,1969,Oil,Gb,0.65
+country,Brunei Darussalam,1970,Oil,Gb,1.0
+country,Brunei Darussalam,1971,Oil,Gb,0.95
+country,Brunei Darussalam,1972,Oil,Gb,1.5
+country,Brunei Darussalam,1973,Oil,Gb,1.6
+country,Brunei Darussalam,1974,Oil,Gb,1.6
+country,Brunei Darussalam,1975,Oil,Gb,1.484
+country,Brunei Darussalam,1976,Oil,Gb,1.625
+country,Brunei Darussalam,1977,Oil,Gb,1.55
+country,Brunei Darussalam,1978,Oil,Gb,1.48
+country,Brunei Darussalam,1979,Oil,Gb,1.298
+country,Brunei Darussalam,1980,Oil,Gb,1.294
+country,Brunei Darussalam,1981,Oil,Gb,1.5
+country,Brunei Darussalam,1982,Oil,Gb,1.445
+country,Brunei Darussalam,1983,Oil,Gb,1.527
+country,Brunei Darussalam,1984,Oil,Gb,1.47
+country,Brunei Darussalam,1985,Oil,Gb,1.443
+country,Brunei Darussalam,1986,Oil,Gb,1.475
+country,Brunei Darussalam,1987,Oil,Gb,1.6
+country,Brunei Darussalam,1988,Oil,Gb,1.2
+country,Brunei Darussalam,1989,Oil,Gb,1.152
+country,Brunei Darussalam,1990,Oil,Gb,1.124
+country,Brunei Darussalam,1991,Oil,Gb,1.15
+country,Brunei Darussalam,1992,Oil,Gb,1.13
+country,Brunei Darussalam,1993,Oil,Gb,1.25
+country,Brunei Darussalam,1994,Oil,Gb,1.188
+country,Brunei Darussalam,1995,Oil,Gb,1.124
+country,Brunei Darussalam,1996,Oil,Gb,1.09
+country,Brunei Darussalam,1997,Oil,Gb,1.06
+country,Brunei Darussalam,1998,Oil,Gb,1.02
+country,Brunei Darussalam,1999,Oil,Gb,1.3
+country,Brunei Darussalam,2000,Oil,Gb,1.23
+country,Brunei Darussalam,2001,Oil,Gb,1.16
+country,Brunei Darussalam,2002,Oil,Gb,1.1
+country,Brunei Darussalam,2003,Oil,Gb,1.05
+country,Brunei Darussalam,2004,Oil,Gb,1.12
+country,Brunei Darussalam,2005,Oil,Gb,1.105
+country,Brunei Darussalam,2006,Oil,Gb,1.2
+country,Brunei Darussalam,2007,Oil,Gb,1.2
+country,Brunei Darussalam,2008,Oil,Gb,1.2
+country,Brunei Darussalam,2009,Oil,Gb,1.1
+country,Brunei Darussalam,2010,Oil,Gb,1.1
+country,Brunei Darussalam,2011,Oil,Gb,1.1
+country,Brunei Darussalam,2012,Oil,Gb,1.1
+country,Brunei Darussalam,2013,Oil,Gb,1.1
+country,Brunei Darussalam,2014,Oil,Gb,1.1
+country,Brunei Darussalam,2015,Oil,Gb,1.1
+country,Brunei Darussalam,2016,Oil,Gb,1.1
+country,Brunei Darussalam,2017,Oil,Gb,1.1
+country,Brunei Darussalam,2018,Oil,Gb,1.1
+country,Brunei Darussalam,2019,Oil,Gb,1.1
+country,Brunei Darussalam,2020,Oil,Gb,1.1
+country,Brunei Darussalam,2021,Oil,Gb,1.1
+country,Brunei Darussalam,2022,Oil,Gb,1.1
+country,Brunei Darussalam,2023,Oil,Gb,1.1
+country,Canada,1960,Oil,Gb,5.0
+country,Canada,1961,Oil,Gb,5.0
+country,Canada,1962,Oil,Gb,4.6
+country,Canada,1963,Oil,Gb,5.675
+country,Canada,1964,Oil,Gb,5.281
+country,Canada,1965,Oil,Gb,7.5
+country,Canada,1966,Oil,Gb,8.25
+country,Canada,1967,Oil,Gb,8.791799999999999
+country,Canada,1968,Oil,Gb,9.9
+country,Canada,1969,Oil,Gb,8.782
+country,Canada,1970,Oil,Gb,10.75
+country,Canada,1971,Oil,Gb,8.4483
+country,Canada,1972,Oil,Gb,10.2
+country,Canada,1973,Oil,Gb,9.4242
+country,Canada,1974,Oil,Gb,9.4
+country,Canada,1975,Oil,Gb,7.1
+country,Canada,1976,Oil,Gb,6.2
+country,Canada,1977,Oil,Gb,6.0
+country,Canada,1978,Oil,Gb,6.0
+country,Canada,1979,Oil,Gb,6.8
+country,Canada,1980,Oil,Gb,6.8055
+country,Canada,1981,Oil,Gb,5.983
+country,Canada,1982,Oil,Gb,6.689
+country,Canada,1983,Oil,Gb,6.4327
+country,Canada,1984,Oil,Gb,5.9692
+country,Canada,1985,Oil,Gb,5.7604
+country,Canada,1986,Oil,Gb,5.9402
+country,Canada,1987,Oil,Gb,5.913399999999999
+country,Canada,1988,Oil,Gb,6.1335
+country,Canada,1989,Oil,Gb,5.8998
+country,Canada,1990,Oil,Gb,5.585100000000001
+country,Canada,1991,Oil,Gb,5.291600000000001
+country,Canada,1992,Oil,Gb,5.093100000000001
+country,Canada,1993,Oil,Gb,5.0355
+country,Canada,1994,Oil,Gb,4.8985
+country,Canada,1995,Oil,Gb,4.8936
+country,Canada,1996,Oil,Gb,4.8392
+country,Canada,1997,Oil,Gb,4.9308000000000005
+country,Canada,1998,Oil,Gb,4.8768
+country,Canada,1999,Oil,Gb,4.7038
+country,Canada,2000,Oil,Gb,4.855899999999999
+country,Canada,2001,Oil,Gb,4.6551
+country,Canada,2002,Oil,Gb,4.49
+country,Canada,2003,Oil,Gb,4.254
+country,Canada,2004,Oil,Gb,4.352
+country,Canada,2005,Oil,Gb,5.208
+country,Canada,2006,Oil,Gb,4.942
+country,Canada,2007,Oil,Gb,5.01445
+country,Canada,2008,Oil,Gb,4.812
+country,Canada,2009,Oil,Gb,4.325
+country,Canada,2010,Oil,Gb,4.145
+country,Canada,2011,Oil,Gb,4.122
+country,Canada,2012,Oil,Gb,4.291
+country,Canada,2013,Oil,Gb,4.281
+country,Canada,2014,Oil,Gb,4.129
+country,Canada,2015,Oil,Gb,4.354
+country,Canada,2016,Oil,Gb,4.418
+country,Canada,2017,Oil,Gb,5.423
+country,Canada,2018,Oil,Gb,5.192
+country,Canada,2019,Oil,Gb,4.906
+country,Canada,2020,Oil,Gb,4.919
+country,Canada,2021,Oil,Gb,4.855
+country,Canada,2022,Oil,Gb,4.731
+country,Canada,2023,Oil,Gb,4.711
+country,Chile,1960,Oil,Gb,0.11
+country,Chile,1961,Oil,Gb,0.15
+country,Chile,1962,Oil,Gb,0.15
+country,Chile,1963,Oil,Gb,0.2
+country,Chile,1964,Oil,Gb,0.225
+country,Chile,1965,Oil,Gb,0.2
+country,Chile,1966,Oil,Gb,0.175
+country,Chile,1967,Oil,Gb,0.15
+country,Chile,1968,Oil,Gb,0.136
+country,Chile,1969,Oil,Gb,0.13
+country,Chile,1970,Oil,Gb,0.125
+country,Chile,1971,Oil,Gb,0.12
+country,Chile,1972,Oil,Gb,0.125
+country,Chile,1973,Oil,Gb,0.124
+country,Chile,1974,Oil,Gb,0.2
+country,Chile,1975,Oil,Gb,0.19
+country,Chile,1976,Oil,Gb,0.182
+country,Chile,1977,Oil,Gb,0.44
+country,Chile,1978,Oil,Gb,0.4
+country,Chile,1979,Oil,Gb,0.4
+country,Chile,1980,Oil,Gb,0.4
+country,Chile,1981,Oil,Gb,0.387
+country,Chile,1982,Oil,Gb,0.372
+country,Chile,1983,Oil,Gb,0.358
+country,Chile,1984,Oil,Gb,0.345
+country,Chile,1985,Oil,Gb,0.333
+country,Chile,1986,Oil,Gb,0.322
+country,Chile,1987,Oil,Gb,0.312
+country,Chile,1988,Oil,Gb,0.303
+country,Chile,1989,Oil,Gb,0.3
+country,Chile,1990,Oil,Gb,0.3
+country,Chile,1991,Oil,Gb,0.3
+country,Chile,1992,Oil,Gb,0.3
+country,Chile,1993,Oil,Gb,0.3
+country,Chile,1994,Oil,Gb,0.3
+country,Chile,1995,Oil,Gb,0.3
+country,Chile,1996,Oil,Gb,0.3
+country,Chile,1997,Oil,Gb,0.15
+country,Chile,1998,Oil,Gb,0.15
+country,Chile,1999,Oil,Gb,0.15
+country,Chile,2000,Oil,Gb,0.15
+country,Chile,2001,Oil,Gb,0.15
+country,Chile,2002,Oil,Gb,0.15
+country,Chile,2003,Oil,Gb,0.15
+country,Chile,2004,Oil,Gb,0.15
+country,Chile,2005,Oil,Gb,0.15
+country,Chile,2006,Oil,Gb,0.15
+country,Chile,2007,Oil,Gb,0.15
+country,Chile,2008,Oil,Gb,0.15
+country,Chile,2009,Oil,Gb,0.15
+country,Chile,2010,Oil,Gb,0.15
+country,Chile,2011,Oil,Gb,0.15
+country,Chile,2012,Oil,Gb,0.15
+country,Chile,2013,Oil,Gb,0.15
+country,Chile,2014,Oil,Gb,0.15
+country,Chile,2015,Oil,Gb,0.15
+country,Chile,2016,Oil,Gb,0.15
+country,Chile,2017,Oil,Gb,0.15
+country,Chile,2018,Oil,Gb,0.15
+country,Chile,2019,Oil,Gb,0.15
+country,Chile,2020,Oil,Gb,0.15
+country,Chile,2021,Oil,Gb,0.15
+country,Chile,2022,Oil,Gb,0.15
+country,Chile,2023,Oil,Gb,0.15
+country,China,1960,Oil,Gb,0.5
+country,China,1961,Oil,Gb,0.6
+country,China,1962,Oil,Gb,0.6
+country,China,1963,Oil,Gb,0.6
+country,China,1964,Oil,Gb,0.8
+country,China,1965,Oil,Gb,1.0
+country,China,1966,Oil,Gb,1.0
+country,China,1967,Oil,Gb,1.0
+country,China,1968,Oil,Gb,2.0
+country,China,1969,Oil,Gb,2.0
+country,China,1970,Oil,Gb,2.0
+country,China,1971,Oil,Gb,8.772
+country,China,1972,Oil,Gb,8.772
+country,China,1973,Oil,Gb,10.386
+country,China,1974,Oil,Gb,10.386
+country,China,1975,Oil,Gb,12.1
+country,China,1976,Oil,Gb,12.632
+country,China,1977,Oil,Gb,12.65
+country,China,1978,Oil,Gb,14.053
+country,China,1979,Oil,Gb,13.509
+country,China,1980,Oil,Gb,13.334
+country,China,1981,Oil,Gb,13.272
+country,China,1982,Oil,Gb,13.241
+country,China,1983,Oil,Gb,14.861
+country,China,1984,Oil,Gb,16.342
+country,China,1985,Oil,Gb,17.064
+country,China,1986,Oil,Gb,17.138
+country,China,1987,Oil,Gb,17.4
+country,China,1988,Oil,Gb,17.26
+country,China,1989,Oil,Gb,16.037
+country,China,1990,Oil,Gb,15.998
+country,China,1991,Oil,Gb,15.492
+country,China,1992,Oil,Gb,15.172
+country,China,1993,Oil,Gb,16.413
+country,China,1994,Oil,Gb,16.236
+country,China,1995,Oil,Gb,16.333
+country,China,1996,Oil,Gb,16.422
+country,China,1997,Oil,Gb,16.998
+country,China,1998,Oil,Gb,17.399
+country,China,1999,Oil,Gb,17.832
+country,China,2000,Oil,Gb,17.945
+country,China,2001,Oil,Gb,18.3
+country,China,2002,Oil,Gb,15.509
+country,China,2003,Oil,Gb,15.476
+country,China,2004,Oil,Gb,18.259
+country,China,2005,Oil,Gb,18.25
+country,China,2006,Oil,Gb,20.22
+country,China,2007,Oil,Gb,20.22
+country,China,2008,Oil,Gb,21.187
+country,China,2009,Oil,Gb,21.618
+country,China,2010,Oil,Gb,23.268
+country,China,2011,Oil,Gb,23.747
+country,China,2012,Oil,Gb,24.428
+country,China,2013,Oil,Gb,24.3756
+country,China,2014,Oil,Gb,24.64884
+country,China,2015,Oil,Gb,25.132122
+country,China,2016,Oil,Gb,25.62
+country,China,2017,Oil,Gb,25.627
+country,China,2018,Oil,Gb,25.927
+country,China,2019,Oil,Gb,26.154
+country,China,2020,Oil,Gb,26.023
+country,China,2021,Oil,Gb,26.491
+country,China,2022,Oil,Gb,27.003
+country,China,2023,Oil,Gb,27.889
+country,Colombia,1960,Oil,Gb,0.75
+country,Colombia,1961,Oil,Gb,0.75
+country,Colombia,1962,Oil,Gb,0.85
+country,Colombia,1963,Oil,Gb,0.9
+country,Colombia,1964,Oil,Gb,1.2
+country,Colombia,1965,Oil,Gb,1.5
+country,Colombia,1966,Oil,Gb,1.7
+country,Colombia,1967,Oil,Gb,2.0
+country,Colombia,1968,Oil,Gb,1.7
+country,Colombia,1969,Oil,Gb,1.75
+country,Colombia,1970,Oil,Gb,1.675
+country,Colombia,1971,Oil,Gb,1.663
+country,Colombia,1972,Oil,Gb,1.5
+country,Colombia,1973,Oil,Gb,1.432
+country,Colombia,1974,Oil,Gb,0.9
+country,Colombia,1975,Oil,Gb,0.5566
+country,Colombia,1976,Oil,Gb,0.825
+country,Colombia,1977,Oil,Gb,0.96
+country,Colombia,1978,Oil,Gb,0.75
+country,Colombia,1979,Oil,Gb,0.71
+country,Colombia,1980,Oil,Gb,0.5537000000000001
+country,Colombia,1981,Oil,Gb,0.5308999999999999
+country,Colombia,1982,Oil,Gb,0.61
+country,Colombia,1983,Oil,Gb,0.6351
+country,Colombia,1984,Oil,Gb,1.108
+country,Colombia,1985,Oil,Gb,1.2435
+country,Colombia,1986,Oil,Gb,1.2962
+country,Colombia,1987,Oil,Gb,1.9071
+country,Colombia,1988,Oil,Gb,2.1249
+country,Colombia,1989,Oil,Gb,1.9842
+country,Colombia,1990,Oil,Gb,1.9906
+country,Colombia,1991,Oil,Gb,1.8845
+country,Colombia,1992,Oil,Gb,3.2318
+country,Colombia,1993,Oil,Gb,3.1563000000000003
+country,Colombia,1994,Oil,Gb,3.1383
+country,Colombia,1995,Oil,Gb,2.9518
+country,Colombia,1996,Oil,Gb,2.798
+country,Colombia,1997,Oil,Gb,2.577
+country,Colombia,1998,Oil,Gb,2.478
+country,Colombia,1999,Oil,Gb,2.289
+country,Colombia,2000,Oil,Gb,1.972
+country,Colombia,2001,Oil,Gb,1.842
+country,Colombia,2002,Oil,Gb,1.632
+country,Colombia,2003,Oil,Gb,1.542
+country,Colombia,2004,Oil,Gb,1.478
+country,Colombia,2005,Oil,Gb,1.453
+country,Colombia,2006,Oil,Gb,1.509
+country,Colombia,2007,Oil,Gb,1.51
+country,Colombia,2008,Oil,Gb,1.51
+country,Colombia,2009,Oil,Gb,1.362
+country,Colombia,2010,Oil,Gb,1.36
+country,Colombia,2011,Oil,Gb,1.9
+country,Colombia,2012,Oil,Gb,2.2
+country,Colombia,2013,Oil,Gb,2.377
+country,Colombia,2014,Oil,Gb,2.445
+country,Colombia,2015,Oil,Gb,2.308
+country,Colombia,2016,Oil,Gb,2.002
+country,Colombia,2017,Oil,Gb,1.665
+country,Colombia,2018,Oil,Gb,1.782
+country,Colombia,2019,Oil,Gb,1.96
+country,Colombia,2020,Oil,Gb,2.036
+country,Colombia,2021,Oil,Gb,1.82
+country,Colombia,2022,Oil,Gb,2.04
+country,Colombia,2023,Oil,Gb,2.074
+country,Congo,1960,Oil,Gb,0.01
+country,Congo,1961,Oil,Gb,0.01
+country,Congo,1962,Oil,Gb,0.01
+country,Congo,1963,Oil,Gb,0.01
+country,Congo,1964,Oil,Gb,0.01
+country,Congo,1965,Oil,Gb,0.01
+country,Congo,1966,Oil,Gb,0.01
+country,Congo,1967,Oil,Gb,0.01
+country,Congo,1968,Oil,Gb,0.01
+country,Congo,1969,Oil,Gb,0.01
+country,Congo,1970,Oil,Gb,0.01
+country,Congo,1971,Oil,Gb,0.33
+country,Congo,1972,Oil,Gb,0.5
+country,Congo,1973,Oil,Gb,0.5
+country,Congo,1974,Oil,Gb,0.5
+country,Congo,1975,Oil,Gb,0.5
+country,Congo,1976,Oil,Gb,0.486
+country,Congo,1977,Oil,Gb,0.474
+country,Congo,1978,Oil,Gb,0.462
+country,Congo,1979,Oil,Gb,0.445
+country,Congo,1980,Oil,Gb,0.66
+country,Congo,1981,Oil,Gb,0.733
+country,Congo,1982,Oil,Gb,0.7544
+country,Congo,1983,Oil,Gb,0.723
+country,Congo,1984,Oil,Gb,0.691
+country,Congo,1985,Oil,Gb,0.656
+country,Congo,1986,Oil,Gb,0.72
+country,Congo,1987,Oil,Gb,0.72
+country,Congo,1988,Oil,Gb,0.71
+country,Congo,1989,Oil,Gb,0.83
+country,Congo,1990,Oil,Gb,0.83
+country,Congo,1991,Oil,Gb,0.83
+country,Congo,1992,Oil,Gb,0.83
+country,Congo,1993,Oil,Gb,0.83
+country,Congo,1994,Oil,Gb,0.83
+country,Congo,1995,Oil,Gb,1.5059
+country,Congo,1996,Oil,Gb,1.5059
+country,Congo,1997,Oil,Gb,1.5059
+country,Congo,1998,Oil,Gb,1.505913
+country,Congo,1999,Oil,Gb,1.505913
+country,Congo,2000,Oil,Gb,1.505913
+country,Congo,2001,Oil,Gb,1.505913
+country,Congo,2002,Oil,Gb,1.515
+country,Congo,2003,Oil,Gb,1.785
+country,Congo,2004,Oil,Gb,1.784
+country,Congo,2005,Oil,Gb,1.905
+country,Congo,2006,Oil,Gb,1.94
+country,Congo,2007,Oil,Gb,1.94
+country,Congo,2008,Oil,Gb,1.94
+country,Congo,2009,Oil,Gb,2.0
+country,Congo,2010,Oil,Gb,2.0
+country,Congo,2011,Oil,Gb,2.0
+country,Congo,2012,Oil,Gb,2.0
+country,Congo,2013,Oil,Gb,2.673
+country,Congo,2014,Oil,Gb,2.867
+country,Congo,2015,Oil,Gb,2.982
+country,Congo,2016,Oil,Gb,2.982
+country,Congo,2017,Oil,Gb,2.982
+country,Congo,2018,Oil,Gb,2.982
+country,Congo,2019,Oil,Gb,1.947
+country,Congo,2020,Oil,Gb,1.811
+country,Congo,2021,Oil,Gb,1.811
+country,Congo,2022,Oil,Gb,1.811
+country,Congo,2023,Oil,Gb,1.811
+country,Denmark,1960,Oil,Gb,0.0
+country,Denmark,1961,Oil,Gb,0.0
+country,Denmark,1962,Oil,Gb,0.0
+country,Denmark,1963,Oil,Gb,0.0
+country,Denmark,1964,Oil,Gb,0.0
+country,Denmark,1965,Oil,Gb,0.0
+country,Denmark,1966,Oil,Gb,0.0
+country,Denmark,1967,Oil,Gb,0.0
+country,Denmark,1968,Oil,Gb,0.0
+country,Denmark,1969,Oil,Gb,0.0
+country,Denmark,1970,Oil,Gb,0.0
+country,Denmark,1971,Oil,Gb,0.25
+country,Denmark,1972,Oil,Gb,0.25
+country,Denmark,1973,Oil,Gb,0.2485
+country,Denmark,1974,Oil,Gb,0.247
+country,Denmark,1975,Oil,Gb,0.245
+country,Denmark,1976,Oil,Gb,0.3
+country,Denmark,1977,Oil,Gb,0.3
+country,Denmark,1978,Oil,Gb,0.3
+country,Denmark,1979,Oil,Gb,0.375
+country,Denmark,1980,Oil,Gb,0.45
+country,Denmark,1981,Oil,Gb,0.371
+country,Denmark,1982,Oil,Gb,0.327
+country,Denmark,1983,Oil,Gb,0.308
+country,Denmark,1984,Oil,Gb,0.465
+country,Denmark,1985,Oil,Gb,0.447
+country,Denmark,1986,Oil,Gb,0.403
+country,Denmark,1987,Oil,Gb,0.403
+country,Denmark,1988,Oil,Gb,0.541
+country,Denmark,1989,Oil,Gb,0.629
+country,Denmark,1990,Oil,Gb,0.591
+country,Denmark,1991,Oil,Gb,0.616
+country,Denmark,1992,Oil,Gb,0.748
+country,Denmark,1993,Oil,Gb,0.704
+country,Denmark,1994,Oil,Gb,0.755
+country,Denmark,1995,Oil,Gb,0.912
+country,Denmark,1996,Oil,Gb,0.862
+country,Denmark,1997,Oil,Gb,0.943
+country,Denmark,1998,Oil,Gb,0.881
+country,Denmark,1999,Oil,Gb,0.906
+country,Denmark,2000,Oil,Gb,1.113
+country,Denmark,2001,Oil,Gb,1.346
+country,Denmark,2002,Oil,Gb,1.277
+country,Denmark,2003,Oil,Gb,1.277
+country,Denmark,2004,Oil,Gb,1.327
+country,Denmark,2005,Oil,Gb,1.277
+country,Denmark,2006,Oil,Gb,1.157
+country,Denmark,2007,Oil,Gb,1.113
+country,Denmark,2008,Oil,Gb,1.113
+country,Denmark,2009,Oil,Gb,1.06
+country,Denmark,2010,Oil,Gb,0.812
+country,Denmark,2011,Oil,Gb,0.9
+country,Denmark,2012,Oil,Gb,0.805
+country,Denmark,2013,Oil,Gb,0.8050900000000001
+country,Denmark,2014,Oil,Gb,0.611
+country,Denmark,2015,Oil,Gb,0.511
+country,Denmark,2016,Oil,Gb,0.491
+country,Denmark,2017,Oil,Gb,0.439
+country,Denmark,2018,Oil,Gb,0.428
+country,Denmark,2019,Oil,Gb,0.441
+country,Denmark,2020,Oil,Gb,0.441
+country,Denmark,2021,Oil,Gb,0.428
+country,Denmark,2022,Oil,Gb,0.34
+country,Denmark,2023,Oil,Gb,0.346
+country,Ecuador,1960,Oil,Gb,0.03
+country,Ecuador,1961,Oil,Gb,0.03
+country,Ecuador,1962,Oil,Gb,0.025
+country,Ecuador,1963,Oil,Gb,0.025
+country,Ecuador,1964,Oil,Gb,0.025
+country,Ecuador,1965,Oil,Gb,0.02
+country,Ecuador,1966,Oil,Gb,0.018
+country,Ecuador,1967,Oil,Gb,0.025
+country,Ecuador,1968,Oil,Gb,0.325
+country,Ecuador,1969,Oil,Gb,0.5
+country,Ecuador,1970,Oil,Gb,0.75
+country,Ecuador,1971,Oil,Gb,5.748
+country,Ecuador,1972,Oil,Gb,5.75
+country,Ecuador,1973,Oil,Gb,5.675
+country,Ecuador,1974,Oil,Gb,2.5
+country,Ecuador,1975,Oil,Gb,2.45
+country,Ecuador,1976,Oil,Gb,1.7
+country,Ecuador,1977,Oil,Gb,1.64
+country,Ecuador,1978,Oil,Gb,1.17
+country,Ecuador,1979,Oil,Gb,1.1
+country,Ecuador,1980,Oil,Gb,1.1
+country,Ecuador,1981,Oil,Gb,0.85
+country,Ecuador,1982,Oil,Gb,0.85
+country,Ecuador,1983,Oil,Gb,0.86
+country,Ecuador,1984,Oil,Gb,1.1810999999999998
+country,Ecuador,1985,Oil,Gb,1.148
+country,Ecuador,1986,Oil,Gb,1.2351
+country,Ecuador,1987,Oil,Gb,1.5943
+country,Ecuador,1988,Oil,Gb,1.5149
+country,Ecuador,1989,Oil,Gb,1.4416
+country,Ecuador,1990,Oil,Gb,1.3552
+country,Ecuador,1991,Oil,Gb,1.5243
+country,Ecuador,1992,Oil,Gb,3.24
+country,Ecuador,1993,Oil,Gb,3.6598
+country,Ecuador,1994,Oil,Gb,3.4912
+country,Ecuador,1995,Oil,Gb,3.3853
+country,Ecuador,1996,Oil,Gb,3.453
+country,Ecuador,1997,Oil,Gb,3.674
+country,Ecuador,1998,Oil,Gb,4.102
+country,Ecuador,1999,Oil,Gb,4.428
+country,Ecuador,2000,Oil,Gb,4.566
+country,Ecuador,2001,Oil,Gb,4.63
+country,Ecuador,2002,Oil,Gb,5.06
+country,Ecuador,2003,Oil,Gb,5.06
+country,Ecuador,2004,Oil,Gb,5.18
+country,Ecuador,2005,Oil,Gb,5.18
+country,Ecuador,2006,Oil,Gb,5.18
+country,Ecuador,2007,Oil,Gb,6.368
+country,Ecuador,2008,Oil,Gb,6.511
+country,Ecuador,2009,Oil,Gb,6.511
+country,Ecuador,2010,Oil,Gb,7.206
+country,Ecuador,2011,Oil,Gb,8.235
+country,Ecuador,2012,Oil,Gb,8.235
+country,Ecuador,2013,Oil,Gb,8.832
+country,Ecuador,2014,Oil,Gb,8.273
+country,Ecuador,2015,Oil,Gb,8.273
+country,Ecuador,2016,Oil,Gb,8.273
+country,Ecuador,2017,Oil,Gb,8.273
+country,Ecuador,2018,Oil,Gb,8.273
+country,Ecuador,2019,Oil,Gb,8.273
+country,Ecuador,2020,Oil,Gb,8.273
+country,Ecuador,2021,Oil,Gb,8.273
+country,Ecuador,2022,Oil,Gb,8.273
+country,Ecuador,2023,Oil,Gb,8.273
+country,Egypt,1960,Oil,Gb,0.55
+country,Egypt,1961,Oil,Gb,0.71
+country,Egypt,1962,Oil,Gb,0.72
+country,Egypt,1963,Oil,Gb,1.5
+country,Egypt,1964,Oil,Gb,1.5
+country,Egypt,1965,Oil,Gb,2.0
+country,Egypt,1966,Oil,Gb,0.944
+country,Egypt,1967,Oil,Gb,1.4
+country,Egypt,1968,Oil,Gb,2.1
+country,Egypt,1969,Oil,Gb,5.0
+country,Egypt,1970,Oil,Gb,4.5
+country,Egypt,1971,Oil,Gb,4.0
+country,Egypt,1972,Oil,Gb,5.2
+country,Egypt,1973,Oil,Gb,5.125
+country,Egypt,1974,Oil,Gb,3.7
+country,Egypt,1975,Oil,Gb,3.9
+country,Egypt,1976,Oil,Gb,1.95
+country,Egypt,1977,Oil,Gb,2.45
+country,Egypt,1978,Oil,Gb,3.2
+country,Egypt,1979,Oil,Gb,3.1
+country,Egypt,1980,Oil,Gb,2.88
+country,Egypt,1981,Oil,Gb,3.99
+country,Egypt,1982,Oil,Gb,3.82
+country,Egypt,1983,Oil,Gb,3.82
+country,Egypt,1984,Oil,Gb,3.25
+country,Egypt,1985,Oil,Gb,3.203
+country,Egypt,1986,Oil,Gb,3.309
+country,Egypt,1987,Oil,Gb,3.335
+country,Egypt,1988,Oil,Gb,3.331
+country,Egypt,1989,Oil,Gb,3.318
+country,Egypt,1990,Oil,Gb,3.453
+country,Egypt,1991,Oil,Gb,3.376
+country,Egypt,1992,Oil,Gb,3.439
+country,Egypt,1993,Oil,Gb,3.1
+country,Egypt,1994,Oil,Gb,3.265
+country,Egypt,1995,Oil,Gb,3.115
+country,Egypt,1996,Oil,Gb,3.0
+country,Egypt,1997,Oil,Gb,2.924
+country,Egypt,1998,Oil,Gb,3.757
+country,Egypt,1999,Oil,Gb,3.767
+country,Egypt,2000,Oil,Gb,3.627
+country,Egypt,2001,Oil,Gb,3.668
+country,Egypt,2002,Oil,Gb,3.525
+country,Egypt,2003,Oil,Gb,3.525
+country,Egypt,2004,Oil,Gb,3.62
+country,Egypt,2005,Oil,Gb,3.72
+country,Egypt,2006,Oil,Gb,3.72
+country,Egypt,2007,Oil,Gb,4.07
+country,Egypt,2008,Oil,Gb,4.34
+country,Egypt,2009,Oil,Gb,4.3
+country,Egypt,2010,Oil,Gb,4.4
+country,Egypt,2011,Oil,Gb,4.3
+country,Egypt,2012,Oil,Gb,4.2
+country,Egypt,2013,Oil,Gb,3.9
+country,Egypt,2014,Oil,Gb,3.681
+country,Egypt,2015,Oil,Gb,3.473
+country,Egypt,2016,Oil,Gb,3.384
+country,Egypt,2017,Oil,Gb,3.325
+country,Egypt,2018,Oil,Gb,3.325
+country,Egypt,2019,Oil,Gb,3.075
+country,Egypt,2020,Oil,Gb,3.075
+country,Egypt,2021,Oil,Gb,3.3
+country,Egypt,2022,Oil,Gb,3.3
+country,Egypt,2023,Oil,Gb,3.3
+country,Equatorial Guinea,1960,Oil,Gb,0.0
+country,Equatorial Guinea,1961,Oil,Gb,0.0
+country,Equatorial Guinea,1962,Oil,Gb,0.0
+country,Equatorial Guinea,1963,Oil,Gb,0.0
+country,Equatorial Guinea,1964,Oil,Gb,0.0
+country,Equatorial Guinea,1965,Oil,Gb,0.0
+country,Equatorial Guinea,1966,Oil,Gb,0.0
+country,Equatorial Guinea,1967,Oil,Gb,0.0
+country,Equatorial Guinea,1968,Oil,Gb,0.0
+country,Equatorial Guinea,1969,Oil,Gb,0.0
+country,Equatorial Guinea,1970,Oil,Gb,0.0
+country,Equatorial Guinea,1971,Oil,Gb,0.0
+country,Equatorial Guinea,1972,Oil,Gb,0.0
+country,Equatorial Guinea,1973,Oil,Gb,0.0
+country,Equatorial Guinea,1974,Oil,Gb,0.0
+country,Equatorial Guinea,1975,Oil,Gb,0.0
+country,Equatorial Guinea,1976,Oil,Gb,0.0
+country,Equatorial Guinea,1977,Oil,Gb,0.0
+country,Equatorial Guinea,1978,Oil,Gb,0.0
+country,Equatorial Guinea,1979,Oil,Gb,0.0
+country,Equatorial Guinea,1980,Oil,Gb,0.0
+country,Equatorial Guinea,1981,Oil,Gb,0.0
+country,Equatorial Guinea,1982,Oil,Gb,0.0
+country,Equatorial Guinea,1983,Oil,Gb,0.0
+country,Equatorial Guinea,1984,Oil,Gb,0.0
+country,Equatorial Guinea,1985,Oil,Gb,0.0
+country,Equatorial Guinea,1986,Oil,Gb,0.0
+country,Equatorial Guinea,1987,Oil,Gb,0.0
+country,Equatorial Guinea,1988,Oil,Gb,0.0
+country,Equatorial Guinea,1989,Oil,Gb,0.0
+country,Equatorial Guinea,1990,Oil,Gb,0.0
+country,Equatorial Guinea,1991,Oil,Gb,0.3
+country,Equatorial Guinea,1992,Oil,Gb,0.3
+country,Equatorial Guinea,1993,Oil,Gb,0.3
+country,Equatorial Guinea,1994,Oil,Gb,0.3
+country,Equatorial Guinea,1995,Oil,Gb,0.555
+country,Equatorial Guinea,1996,Oil,Gb,0.555
+country,Equatorial Guinea,1997,Oil,Gb,0.555
+country,Equatorial Guinea,1998,Oil,Gb,0.555
+country,Equatorial Guinea,1999,Oil,Gb,0.555
+country,Equatorial Guinea,2000,Oil,Gb,0.8
+country,Equatorial Guinea,2001,Oil,Gb,1.11
+country,Equatorial Guinea,2002,Oil,Gb,1.095
+country,Equatorial Guinea,2003,Oil,Gb,1.28
+country,Equatorial Guinea,2004,Oil,Gb,1.765
+country,Equatorial Guinea,2005,Oil,Gb,1.805
+country,Equatorial Guinea,2006,Oil,Gb,1.755
+country,Equatorial Guinea,2007,Oil,Gb,1.705
+country,Equatorial Guinea,2008,Oil,Gb,1.705
+country,Equatorial Guinea,2009,Oil,Gb,1.705
+country,Equatorial Guinea,2010,Oil,Gb,1.705
+country,Equatorial Guinea,2011,Oil,Gb,1.705
+country,Equatorial Guinea,2012,Oil,Gb,1.705
+country,Equatorial Guinea,2013,Oil,Gb,1.705
+country,Equatorial Guinea,2014,Oil,Gb,1.1
+country,Equatorial Guinea,2015,Oil,Gb,1.1
+country,Equatorial Guinea,2016,Oil,Gb,1.1
+country,Equatorial Guinea,2017,Oil,Gb,1.1
+country,Equatorial Guinea,2018,Oil,Gb,1.1
+country,Equatorial Guinea,2019,Oil,Gb,1.1
+country,Equatorial Guinea,2020,Oil,Gb,1.1
+country,Equatorial Guinea,2021,Oil,Gb,1.1
+country,Equatorial Guinea,2022,Oil,Gb,1.1
+country,Equatorial Guinea,2023,Oil,Gb,1.1
+country,Gabon,1960,Oil,Gb,0.05
+country,Gabon,1961,Oil,Gb,0.05
+country,Gabon,1962,Oil,Gb,0.08
+country,Gabon,1963,Oil,Gb,0.1
+country,Gabon,1964,Oil,Gb,0.25
+country,Gabon,1965,Oil,Gb,0.275
+country,Gabon,1966,Oil,Gb,0.4
+country,Gabon,1967,Oil,Gb,0.5
+country,Gabon,1968,Oil,Gb,0.48
+country,Gabon,1969,Oil,Gb,0.5
+country,Gabon,1970,Oil,Gb,0.485
+country,Gabon,1971,Oil,Gb,0.725
+country,Gabon,1972,Oil,Gb,0.7607
+country,Gabon,1973,Oil,Gb,0.7607
+country,Gabon,1974,Oil,Gb,0.6521
+country,Gabon,1975,Oil,Gb,0.5796
+country,Gabon,1976,Oil,Gb,0.5868
+country,Gabon,1977,Oil,Gb,0.5434
+country,Gabon,1978,Oil,Gb,0.5999
+country,Gabon,1979,Oil,Gb,0.4347
+country,Gabon,1980,Oil,Gb,0.4709
+country,Gabon,1981,Oil,Gb,0.4635
+country,Gabon,1982,Oil,Gb,0.4818
+country,Gabon,1983,Oil,Gb,0.5473
+country,Gabon,1984,Oil,Gb,0.5181
+country,Gabon,1985,Oil,Gb,0.6775
+country,Gabon,1986,Oil,Gb,0.733
+country,Gabon,1987,Oil,Gb,0.96
+country,Gabon,1988,Oil,Gb,0.93
+country,Gabon,1989,Oil,Gb,0.959
+country,Gabon,1990,Oil,Gb,0.86
+country,Gabon,1991,Oil,Gb,0.876
+country,Gabon,1992,Oil,Gb,0.768
+country,Gabon,1993,Oil,Gb,0.662
+country,Gabon,1994,Oil,Gb,1.4
+country,Gabon,1995,Oil,Gb,1.47
+country,Gabon,1996,Oil,Gb,2.8
+country,Gabon,1997,Oil,Gb,2.672
+country,Gabon,1998,Oil,Gb,2.565
+country,Gabon,1999,Oil,Gb,2.565
+country,Gabon,2000,Oil,Gb,2.42
+country,Gabon,2001,Oil,Gb,2.4
+country,Gabon,2002,Oil,Gb,2.37
+country,Gabon,2003,Oil,Gb,2.285
+country,Gabon,2004,Oil,Gb,2.19
+country,Gabon,2005,Oil,Gb,2.146
+country,Gabon,2006,Oil,Gb,1.995
+country,Gabon,2007,Oil,Gb,1.995
+country,Gabon,2008,Oil,Gb,1.995
+country,Gabon,2009,Oil,Gb,2.0
+country,Gabon,2010,Oil,Gb,2.0
+country,Gabon,2011,Oil,Gb,2.0
+country,Gabon,2012,Oil,Gb,2.0
+country,Gabon,2013,Oil,Gb,2.0
+country,Gabon,2014,Oil,Gb,2.0
+country,Gabon,2015,Oil,Gb,2.0
+country,Gabon,2016,Oil,Gb,2.0
+country,Gabon,2017,Oil,Gb,2.0
+country,Gabon,2018,Oil,Gb,2.0
+country,Gabon,2019,Oil,Gb,2.0
+country,Gabon,2020,Oil,Gb,2.0
+country,Gabon,2021,Oil,Gb,2.0
+country,Gabon,2022,Oil,Gb,2.0
+country,Gabon,2023,Oil,Gb,2.0
+country,India,1960,Oil,Gb,0.75
+country,India,1961,Oil,Gb,0.5
+country,India,1962,Oil,Gb,0.5
+country,India,1963,Oil,Gb,0.75
+country,India,1964,Oil,Gb,0.75
+country,India,1965,Oil,Gb,0.8
+country,India,1966,Oil,Gb,1.4
+country,India,1967,Oil,Gb,1.638
+country,India,1968,Oil,Gb,1.5
+country,India,1969,Oil,Gb,0.715
+country,India,1970,Oil,Gb,0.956
+country,India,1971,Oil,Gb,0.949
+country,India,1972,Oil,Gb,0.897
+country,India,1973,Oil,Gb,0.843
+country,India,1974,Oil,Gb,0.788
+country,India,1975,Oil,Gb,0.729
+country,India,1976,Oil,Gb,3.0
+country,India,1977,Oil,Gb,3.0
+country,India,1978,Oil,Gb,2.982439995
+country,India,1979,Oil,Gb,2.893
+country,India,1980,Oil,Gb,3.4360841
+country,India,1981,Oil,Gb,3.4442
+country,India,1982,Oil,Gb,3.8578523
+country,India,1983,Oil,Gb,3.7443
+country,India,1984,Oil,Gb,3.6614083
+country,India,1985,Oil,Gb,4.0902133
+country,India,1986,Oil,Gb,4.1322875
+country,India,1987,Oil,Gb,4.3631825
+country,India,1988,Oil,Gb,4.8378000000000005
+country,India,1989,Oil,Gb,5.345403
+country,India,1990,Oil,Gb,5.5396475
+country,India,1991,Oil,Gb,5.8988175
+country,India,1992,Oil,Gb,5.831015000000001
+country,India,1993,Oil,Gb,5.684415
+country,India,1994,Oil,Gb,5.5469775
+country,India,1995,Oil,Gb,5.3563975
+country,India,1996,Oil,Gb,5.3637275
+country,India,1997,Oil,Gb,5.4682
+country,India,1998,Oil,Gb,5.394
+country,India,1999,Oil,Gb,4.972
+country,India,2000,Oil,Gb,5.29
+country,India,2001,Oil,Gb,5.513
+country,India,2002,Oil,Gb,5.576
+country,India,2003,Oil,Gb,5.731
+country,India,2004,Oil,Gb,5.565
+country,India,2005,Oil,Gb,5.919
+country,India,2006,Oil,Gb,5.693
+country,India,2007,Oil,Gb,5.459
+country,India,2008,Oil,Gb,5.798
+country,India,2009,Oil,Gb,5.823
+country,India,2010,Oil,Gb,5.883
+country,India,2011,Oil,Gb,5.704
+country,India,2012,Oil,Gb,5.72
+country,India,2013,Oil,Gb,5.711
+country,India,2014,Oil,Gb,5.743
+country,India,2015,Oil,Gb,4.786
+country,India,2016,Oil,Gb,4.622
+country,India,2017,Oil,Gb,4.495
+country,India,2018,Oil,Gb,4.423
+country,India,2019,Oil,Gb,4.423
+country,India,2020,Oil,Gb,4.605
+country,India,2021,Oil,Gb,4.489
+country,India,2022,Oil,Gb,4.37
+country,India,2023,Oil,Gb,4.849
+country,Indonesia,1960,Oil,Gb,9.5
+country,Indonesia,1961,Oil,Gb,9.5
+country,Indonesia,1962,Oil,Gb,10.0
+country,Indonesia,1963,Oil,Gb,10.0
+country,Indonesia,1964,Oil,Gb,10.0
+country,Indonesia,1965,Oil,Gb,9.825
+country,Indonesia,1966,Oil,Gb,9.656
+country,Indonesia,1967,Oil,Gb,9.472
+country,Indonesia,1968,Oil,Gb,9.253
+country,Indonesia,1969,Oil,Gb,9.0
+country,Indonesia,1970,Oil,Gb,10.0
+country,Indonesia,1971,Oil,Gb,10.4
+country,Indonesia,1972,Oil,Gb,10.005
+country,Indonesia,1973,Oil,Gb,10.5
+country,Indonesia,1974,Oil,Gb,15.0
+country,Indonesia,1975,Oil,Gb,14.5231275
+country,Indonesia,1976,Oil,Gb,13.972806606
+country,Indonesia,1977,Oil,Gb,13.357359301
+country,Indonesia,1978,Oil,Gb,12.760511666
+country,Indonesia,1979,Oil,Gb,12.179866381
+country,Indonesia,1980,Oil,Gb,11.603160181
+country,Indonesia,1981,Oil,Gb,11.0176
+country,Indonesia,1982,Oil,Gb,10.534064231
+country,Indonesia,1983,Oil,Gb,10.0795
+country,Indonesia,1984,Oil,Gb,9.611013131
+country,Indonesia,1985,Oil,Gb,9.179765631
+country,Indonesia,1986,Oil,Gb,9.0
+country,Indonesia,1987,Oil,Gb,9.0
+country,Indonesia,1988,Oil,Gb,9.0
+country,Indonesia,1989,Oil,Gb,5.113899999999999
+country,Indonesia,1990,Oil,Gb,5.415
+country,Indonesia,1991,Oil,Gb,5.909
+country,Indonesia,1992,Oil,Gb,5.5978
+country,Indonesia,1993,Oil,Gb,5.16688
+country,Indonesia,1994,Oil,Gb,4.9797
+country,Indonesia,1995,Oil,Gb,4.9797
+country,Indonesia,1996,Oil,Gb,4.9797
+country,Indonesia,1997,Oil,Gb,4.8672
+country,Indonesia,1998,Oil,Gb,5.0999
+country,Indonesia,1999,Oil,Gb,5.200961
+country,Indonesia,2000,Oil,Gb,5.122623
+country,Indonesia,2001,Oil,Gb,5.094600000000001
+country,Indonesia,2002,Oil,Gb,4.721841
+country,Indonesia,2003,Oil,Gb,4.3197125
+country,Indonesia,2004,Oil,Gb,4.300679
+country,Indonesia,2005,Oil,Gb,4.1875
+country,Indonesia,2006,Oil,Gb,4.3703
+country,Indonesia,2007,Oil,Gb,3.9897
+country,Indonesia,2008,Oil,Gb,3.9897
+country,Indonesia,2009,Oil,Gb,3.9897
+country,Indonesia,2010,Oil,Gb,3.9897
+country,Indonesia,2011,Oil,Gb,3.64
+country,Indonesia,2012,Oil,Gb,3.291
+country,Indonesia,2013,Oil,Gb,3.303
+country,Indonesia,2014,Oil,Gb,3.303
+country,Indonesia,2015,Oil,Gb,3.23
+country,Indonesia,2016,Oil,Gb,3.23
+country,Indonesia,2017,Oil,Gb,3.31
+country,Indonesia,2018,Oil,Gb,3.17
+country,Indonesia,2019,Oil,Gb,3.15
+country,Indonesia,2020,Oil,Gb,2.48
+country,Indonesia,2021,Oil,Gb,2.44
+country,Indonesia,2022,Oil,Gb,2.25
+country,Indonesia,2023,Oil,Gb,2.27
+country,Iran,1960,Oil,Gb,35.0
+country,Iran,1961,Oil,Gb,35.0
+country,Iran,1962,Oil,Gb,37.0
+country,Iran,1963,Oil,Gb,37.0
+country,Iran,1964,Oil,Gb,38.0
+country,Iran,1965,Oil,Gb,40.0
+country,Iran,1966,Oil,Gb,44.2
+country,Iran,1967,Oil,Gb,43.8
+country,Iran,1968,Oil,Gb,54.0
+country,Iran,1969,Oil,Gb,55.0
+country,Iran,1970,Oil,Gb,60.0
+country,Iran,1971,Oil,Gb,58.344
+country,Iran,1972,Oil,Gb,65.0
+country,Iran,1973,Oil,Gb,62.861
+country,Iran,1974,Oil,Gb,66.0
+country,Iran,1975,Oil,Gb,64.5
+country,Iran,1976,Oil,Gb,63.0
+country,Iran,1977,Oil,Gb,62.0
+country,Iran,1978,Oil,Gb,60.088
+country,Iran,1979,Oil,Gb,58.833
+country,Iran,1980,Oil,Gb,58.296
+country,Iran,1981,Oil,Gb,57.02
+country,Iran,1982,Oil,Gb,56.148
+country,Iran,1983,Oil,Gb,55.257
+country,Iran,1984,Oil,Gb,58.874
+country,Iran,1985,Oil,Gb,59.0
+country,Iran,1986,Oil,Gb,92.86
+country,Iran,1987,Oil,Gb,92.86
+country,Iran,1988,Oil,Gb,92.86
+country,Iran,1989,Oil,Gb,92.86
+country,Iran,1990,Oil,Gb,92.85
+country,Iran,1991,Oil,Gb,92.86
+country,Iran,1992,Oil,Gb,92.86
+country,Iran,1993,Oil,Gb,92.86
+country,Iran,1994,Oil,Gb,94.3
+country,Iran,1995,Oil,Gb,93.7
+country,Iran,1996,Oil,Gb,92.6
+country,Iran,1997,Oil,Gb,92.6
+country,Iran,1998,Oil,Gb,93.7
+country,Iran,1999,Oil,Gb,93.1
+country,Iran,2000,Oil,Gb,99.53
+country,Iran,2001,Oil,Gb,99.08
+country,Iran,2002,Oil,Gb,130.69
+country,Iran,2003,Oil,Gb,133.25
+country,Iran,2004,Oil,Gb,132.46
+country,Iran,2005,Oil,Gb,136.27
+country,Iran,2006,Oil,Gb,138.4
+country,Iran,2007,Oil,Gb,136.15
+country,Iran,2008,Oil,Gb,137.62
+country,Iran,2009,Oil,Gb,137.01
+country,Iran,2010,Oil,Gb,151.17
+country,Iran,2011,Oil,Gb,154.58
+country,Iran,2012,Oil,Gb,157.3
+country,Iran,2013,Oil,Gb,157.8
+country,Iran,2014,Oil,Gb,157.53
+country,Iran,2015,Oil,Gb,158.4
+country,Iran,2016,Oil,Gb,157.2
+country,Iran,2017,Oil,Gb,155.6
+country,Iran,2018,Oil,Gb,155.6
+country,Iran,2019,Oil,Gb,208.6
+country,Iran,2020,Oil,Gb,208.6
+country,Iran,2021,Oil,Gb,208.6
+country,Iran,2022,Oil,Gb,208.6
+country,Iran,2023,Oil,Gb,208.6
+country,Iraq,1960,Oil,Gb,27.0
+country,Iraq,1961,Oil,Gb,26.5
+country,Iraq,1962,Oil,Gb,26.0
+country,Iraq,1963,Oil,Gb,25.5
+country,Iraq,1964,Oil,Gb,25.0
+country,Iraq,1965,Oil,Gb,25.0
+country,Iraq,1966,Oil,Gb,24.0
+country,Iraq,1967,Oil,Gb,23.5
+country,Iraq,1968,Oil,Gb,28.0
+country,Iraq,1969,Oil,Gb,27.5
+country,Iraq,1970,Oil,Gb,32.0
+country,Iraq,1971,Oil,Gb,35.99
+country,Iraq,1972,Oil,Gb,29.0
+country,Iraq,1973,Oil,Gb,31.5
+country,Iraq,1974,Oil,Gb,35.0
+country,Iraq,1975,Oil,Gb,34.3
+country,Iraq,1976,Oil,Gb,34.0
+country,Iraq,1977,Oil,Gb,34.5
+country,Iraq,1978,Oil,Gb,32.1
+country,Iraq,1979,Oil,Gb,31.0
+country,Iraq,1980,Oil,Gb,30.0
+country,Iraq,1981,Oil,Gb,32.0
+country,Iraq,1982,Oil,Gb,59.0
+country,Iraq,1983,Oil,Gb,65.0
+country,Iraq,1984,Oil,Gb,65.0
+country,Iraq,1985,Oil,Gb,65.0
+country,Iraq,1986,Oil,Gb,72.0
+country,Iraq,1987,Oil,Gb,100.0
+country,Iraq,1988,Oil,Gb,100.0
+country,Iraq,1989,Oil,Gb,100.0
+country,Iraq,1990,Oil,Gb,100.0
+country,Iraq,1991,Oil,Gb,100.0
+country,Iraq,1992,Oil,Gb,100.0
+country,Iraq,1993,Oil,Gb,100.0
+country,Iraq,1994,Oil,Gb,100.0
+country,Iraq,1995,Oil,Gb,100.0
+country,Iraq,1996,Oil,Gb,112.0
+country,Iraq,1997,Oil,Gb,112.5
+country,Iraq,1998,Oil,Gb,112.5
+country,Iraq,1999,Oil,Gb,112.5
+country,Iraq,2000,Oil,Gb,112.5
+country,Iraq,2001,Oil,Gb,115.0
+country,Iraq,2002,Oil,Gb,115.0
+country,Iraq,2003,Oil,Gb,115.0
+country,Iraq,2004,Oil,Gb,115.0
+country,Iraq,2005,Oil,Gb,115.0
+country,Iraq,2006,Oil,Gb,115.0
+country,Iraq,2007,Oil,Gb,115.0
+country,Iraq,2008,Oil,Gb,115.0
+country,Iraq,2009,Oil,Gb,115.0
+country,Iraq,2010,Oil,Gb,143.1
+country,Iraq,2011,Oil,Gb,141.35
+country,Iraq,2012,Oil,Gb,140.3
+country,Iraq,2013,Oil,Gb,144.211
+country,Iraq,2014,Oil,Gb,143.0694
+country,Iraq,2015,Oil,Gb,142.503
+country,Iraq,2016,Oil,Gb,148.7655
+country,Iraq,2017,Oil,Gb,147.223
+country,Iraq,2018,Oil,Gb,145.019
+country,Iraq,2019,Oil,Gb,145.019
+country,Iraq,2020,Oil,Gb,145.019
+country,Iraq,2021,Oil,Gb,145.019
+country,Iraq,2022,Oil,Gb,145.019
+country,Iraq,2023,Oil,Gb,145.019
+country,Kazakhstan,1996,Oil,Gb,5.417
+country,Kazakhstan,1997,Oil,Gb,5.417
+country,Kazakhstan,1998,Oil,Gb,25.02
+country,Kazakhstan,1999,Oil,Gb,25.02
+country,Kazakhstan,2000,Oil,Gb,25.02
+country,Kazakhstan,2001,Oil,Gb,39.62
+country,Kazakhstan,2002,Oil,Gb,39.62
+country,Kazakhstan,2003,Oil,Gb,39.62
+country,Kazakhstan,2004,Oil,Gb,39.62
+country,Kazakhstan,2005,Oil,Gb,39.828
+country,Kazakhstan,2006,Oil,Gb,39.828
+country,Kazakhstan,2007,Oil,Gb,30.0
+country,Kazakhstan,2008,Oil,Gb,30.0
+country,Kazakhstan,2009,Oil,Gb,30.0
+country,Kazakhstan,2010,Oil,Gb,30.0
+country,Kazakhstan,2011,Oil,Gb,30.0
+country,Kazakhstan,2012,Oil,Gb,30.0
+country,Kazakhstan,2013,Oil,Gb,30.0
+country,Kazakhstan,2014,Oil,Gb,30.0
+country,Kazakhstan,2015,Oil,Gb,30.0
+country,Kazakhstan,2016,Oil,Gb,30.0
+country,Kazakhstan,2017,Oil,Gb,30.0
+country,Kazakhstan,2018,Oil,Gb,30.0
+country,Kazakhstan,2019,Oil,Gb,30.0
+country,Kazakhstan,2020,Oil,Gb,30.0
+country,Kazakhstan,2021,Oil,Gb,30.0
+country,Kazakhstan,2022,Oil,Gb,30.0
+country,Kazakhstan,2023,Oil,Gb,30.0
+country,Kuwait,1960,Oil,Gb,65.0
+country,Kuwait,1961,Oil,Gb,65.0
+country,Kuwait,1962,Oil,Gb,66.725
+country,Kuwait,1963,Oil,Gb,68.5
+country,Kuwait,1964,Oil,Gb,69.225
+country,Kuwait,1965,Oil,Gb,68.7
+country,Kuwait,1966,Oil,Gb,75.2
+country,Kuwait,1967,Oil,Gb,76.75
+country,Kuwait,1968,Oil,Gb,76.5
+country,Kuwait,1969,Oil,Gb,74.5
+country,Kuwait,1970,Oil,Gb,79.95
+country,Kuwait,1971,Oil,Gb,78.198
+country,Kuwait,1972,Oil,Gb,72.9
+country,Kuwait,1973,Oil,Gb,72.75
+country,Kuwait,1974,Oil,Gb,81.45
+country,Kuwait,1975,Oil,Gb,71.2
+country,Kuwait,1976,Oil,Gb,70.55
+country,Kuwait,1977,Oil,Gb,70.1
+country,Kuwait,1978,Oil,Gb,69.44
+country,Kuwait,1979,Oil,Gb,68.53
+country,Kuwait,1980,Oil,Gb,67.93
+country,Kuwait,1981,Oil,Gb,67.73
+country,Kuwait,1982,Oil,Gb,67.15
+country,Kuwait,1983,Oil,Gb,67.0
+country,Kuwait,1984,Oil,Gb,92.71
+country,Kuwait,1985,Oil,Gb,92.464
+country,Kuwait,1986,Oil,Gb,94.5221
+country,Kuwait,1987,Oil,Gb,94.525
+country,Kuwait,1988,Oil,Gb,94.525
+country,Kuwait,1989,Oil,Gb,97.125
+country,Kuwait,1990,Oil,Gb,97.025
+country,Kuwait,1991,Oil,Gb,96.5
+country,Kuwait,1992,Oil,Gb,96.5
+country,Kuwait,1993,Oil,Gb,96.5
+country,Kuwait,1994,Oil,Gb,96.5
+country,Kuwait,1995,Oil,Gb,96.5
+country,Kuwait,1996,Oil,Gb,96.5
+country,Kuwait,1997,Oil,Gb,96.5
+country,Kuwait,1998,Oil,Gb,96.5
+country,Kuwait,1999,Oil,Gb,96.5
+country,Kuwait,2000,Oil,Gb,96.5
+country,Kuwait,2001,Oil,Gb,96.5
+country,Kuwait,2002,Oil,Gb,96.5
+country,Kuwait,2003,Oil,Gb,99.0
+country,Kuwait,2004,Oil,Gb,101.5
+country,Kuwait,2005,Oil,Gb,101.5
+country,Kuwait,2006,Oil,Gb,101.5
+country,Kuwait,2007,Oil,Gb,101.5
+country,Kuwait,2008,Oil,Gb,101.5
+country,Kuwait,2009,Oil,Gb,101.5
+country,Kuwait,2010,Oil,Gb,101.5
+country,Kuwait,2011,Oil,Gb,101.5
+country,Kuwait,2012,Oil,Gb,101.5
+country,Kuwait,2013,Oil,Gb,101.5
+country,Kuwait,2014,Oil,Gb,101.5
+country,Kuwait,2015,Oil,Gb,101.5
+country,Kuwait,2016,Oil,Gb,101.5
+country,Kuwait,2017,Oil,Gb,101.5
+country,Kuwait,2018,Oil,Gb,101.5
+country,Kuwait,2019,Oil,Gb,101.5
+country,Kuwait,2020,Oil,Gb,101.5
+country,Kuwait,2021,Oil,Gb,101.5
+country,Kuwait,2022,Oil,Gb,101.5
+country,Kuwait,2023,Oil,Gb,101.5
+country,Libya,1960,Oil,Gb,2.0
+country,Libya,1961,Oil,Gb,3.0
+country,Libya,1962,Oil,Gb,4.5
+country,Libya,1963,Oil,Gb,7.0
+country,Libya,1964,Oil,Gb,9.0
+country,Libya,1965,Oil,Gb,10.0
+country,Libya,1966,Oil,Gb,20.0
+country,Libya,1967,Oil,Gb,29.2
+country,Libya,1968,Oil,Gb,30.0
+country,Libya,1969,Oil,Gb,28.866
+country,Libya,1970,Oil,Gb,27.655
+country,Libya,1971,Oil,Gb,26.648
+country,Libya,1972,Oil,Gb,25.829
+country,Libya,1973,Oil,Gb,25.036
+country,Libya,1974,Oil,Gb,24.481
+country,Libya,1975,Oil,Gb,23.942
+country,Libya,1976,Oil,Gb,23.236
+country,Libya,1977,Oil,Gb,22.484
+country,Libya,1978,Oil,Gb,21.761
+country,Libya,1979,Oil,Gb,20.999
+country,Libya,1980,Oil,Gb,20.33
+country,Libya,1981,Oil,Gb,22.6
+country,Libya,1982,Oil,Gb,22.186
+country,Libya,1983,Oil,Gb,21.784
+country,Libya,1984,Oil,Gb,21.425
+country,Libya,1985,Oil,Gb,21.3
+country,Libya,1986,Oil,Gb,22.8
+country,Libya,1987,Oil,Gb,22.8
+country,Libya,1988,Oil,Gb,22.8
+country,Libya,1989,Oil,Gb,22.8
+country,Libya,1990,Oil,Gb,22.8
+country,Libya,1991,Oil,Gb,22.8
+country,Libya,1992,Oil,Gb,22.8
+country,Libya,1993,Oil,Gb,22.8
+country,Libya,1994,Oil,Gb,22.8
+country,Libya,1995,Oil,Gb,29.5
+country,Libya,1996,Oil,Gb,29.5
+country,Libya,1997,Oil,Gb,29.5
+country,Libya,1998,Oil,Gb,29.5
+country,Libya,1999,Oil,Gb,29.5
+country,Libya,2000,Oil,Gb,36.0
+country,Libya,2001,Oil,Gb,36.0
+country,Libya,2002,Oil,Gb,36.0
+country,Libya,2003,Oil,Gb,39.126
+country,Libya,2004,Oil,Gb,39.126
+country,Libya,2005,Oil,Gb,41.464
+country,Libya,2006,Oil,Gb,41.464
+country,Libya,2007,Oil,Gb,43.6634
+country,Libya,2008,Oil,Gb,44.271
+country,Libya,2009,Oil,Gb,46.422
+country,Libya,2010,Oil,Gb,47.097
+country,Libya,2011,Oil,Gb,48.014
+country,Libya,2012,Oil,Gb,48.472
+country,Libya,2013,Oil,Gb,48.363
+country,Libya,2014,Oil,Gb,48.363
+country,Libya,2015,Oil,Gb,48.363
+country,Libya,2016,Oil,Gb,48.363
+country,Libya,2017,Oil,Gb,48.363
+country,Libya,2018,Oil,Gb,48.363
+country,Libya,2019,Oil,Gb,48.363
+country,Libya,2020,Oil,Gb,48.363
+country,Libya,2021,Oil,Gb,48.363
+country,Libya,2022,Oil,Gb,48.363
+country,Libya,2023,Oil,Gb,48.363
+country,Malaysia,1960,Oil,Gb,0.41
+country,Malaysia,1961,Oil,Gb,0.41
+country,Malaysia,1962,Oil,Gb,0.41
+country,Malaysia,1963,Oil,Gb,0.41
+country,Malaysia,1964,Oil,Gb,0.4096
+country,Malaysia,1965,Oil,Gb,0.45
+country,Malaysia,1966,Oil,Gb,0.525
+country,Malaysia,1967,Oil,Gb,0.525
+country,Malaysia,1968,Oil,Gb,0.6
+country,Malaysia,1969,Oil,Gb,0.65
+country,Malaysia,1970,Oil,Gb,0.7
+country,Malaysia,1971,Oil,Gb,1.3
+country,Malaysia,1972,Oil,Gb,1.5
+country,Malaysia,1973,Oil,Gb,1.5
+country,Malaysia,1974,Oil,Gb,1.5
+country,Malaysia,1975,Oil,Gb,2.5
+country,Malaysia,1976,Oil,Gb,2.5
+country,Malaysia,1977,Oil,Gb,2.5
+country,Malaysia,1978,Oil,Gb,2.8
+country,Malaysia,1979,Oil,Gb,1.825
+country,Malaysia,1980,Oil,Gb,2.313
+country,Malaysia,1981,Oil,Gb,2.295
+country,Malaysia,1982,Oil,Gb,2.57
+country,Malaysia,1983,Oil,Gb,2.952
+country,Malaysia,1984,Oil,Gb,3.066
+country,Malaysia,1985,Oil,Gb,3.023
+country,Malaysia,1986,Oil,Gb,2.906
+country,Malaysia,1987,Oil,Gb,2.922
+country,Malaysia,1988,Oil,Gb,3.054
+country,Malaysia,1989,Oil,Gb,2.943
+country,Malaysia,1990,Oil,Gb,3.045
+country,Malaysia,1991,Oil,Gb,3.743
+country,Malaysia,1992,Oil,Gb,4.279
+country,Malaysia,1993,Oil,Gb,4.277
+country,Malaysia,1994,Oil,Gb,4.277
+country,Malaysia,1995,Oil,Gb,4.0
+country,Malaysia,1996,Oil,Gb,3.852
+country,Malaysia,1997,Oil,Gb,3.88
+country,Malaysia,1998,Oil,Gb,3.63
+country,Malaysia,1999,Oil,Gb,5.029
+country,Malaysia,2000,Oil,Gb,4.53
+country,Malaysia,2001,Oil,Gb,4.457
+country,Malaysia,2002,Oil,Gb,4.54
+country,Malaysia,2003,Oil,Gb,4.84
+country,Malaysia,2004,Oil,Gb,5.16
+country,Malaysia,2005,Oil,Gb,5.252
+country,Malaysia,2006,Oil,Gb,5.357
+country,Malaysia,2007,Oil,Gb,5.46
+country,Malaysia,2008,Oil,Gb,5.52
+country,Malaysia,2009,Oil,Gb,3.572
+country,Malaysia,2010,Oil,Gb,3.739
+country,Malaysia,2011,Oil,Gb,3.739
+country,Malaysia,2012,Oil,Gb,3.668
+country,Malaysia,2013,Oil,Gb,3.75
+country,Malaysia,2014,Oil,Gb,3.75
+country,Malaysia,2015,Oil,Gb,3.6
+country,Malaysia,2016,Oil,Gb,3.6
+country,Malaysia,2017,Oil,Gb,3.6
+country,Malaysia,2018,Oil,Gb,3.6
+country,Malaysia,2019,Oil,Gb,3.6
+country,Malaysia,2020,Oil,Gb,3.6
+country,Malaysia,2021,Oil,Gb,3.6
+country,Malaysia,2022,Oil,Gb,2.7
+country,Malaysia,2023,Oil,Gb,2.7
+country,Mexico,1960,Oil,Gb,2.25
+country,Mexico,1961,Oil,Gb,2.5
+country,Mexico,1962,Oil,Gb,2.5
+country,Mexico,1963,Oil,Gb,2.5
+country,Mexico,1964,Oil,Gb,2.8
+country,Mexico,1965,Oil,Gb,2.5
+country,Mexico,1966,Oil,Gb,2.5
+country,Mexico,1967,Oil,Gb,2.6
+country,Mexico,1968,Oil,Gb,5.5
+country,Mexico,1969,Oil,Gb,6.0
+country,Mexico,1970,Oil,Gb,3.2
+country,Mexico,1971,Oil,Gb,4.5
+country,Mexico,1972,Oil,Gb,2.8
+country,Mexico,1973,Oil,Gb,3.6
+country,Mexico,1974,Oil,Gb,3.582
+country,Mexico,1975,Oil,Gb,9.5
+country,Mexico,1976,Oil,Gb,7.0
+country,Mexico,1977,Oil,Gb,14.0
+country,Mexico,1978,Oil,Gb,16.0
+country,Mexico,1979,Oil,Gb,31.25
+country,Mexico,1980,Oil,Gb,47.224
+country,Mexico,1981,Oil,Gb,56.998
+country,Mexico,1982,Oil,Gb,56.998
+country,Mexico,1983,Oil,Gb,57.096
+country,Mexico,1984,Oil,Gb,56.41
+country,Mexico,1985,Oil,Gb,55.593
+country,Mexico,1986,Oil,Gb,54.88
+country,Mexico,1987,Oil,Gb,54.11
+country,Mexico,1988,Oil,Gb,53.012
+country,Mexico,1989,Oil,Gb,51.983
+country,Mexico,1990,Oil,Gb,51.298
+country,Mexico,1991,Oil,Gb,50.925
+country,Mexico,1992,Oil,Gb,51.225
+country,Mexico,1993,Oil,Gb,50.776
+country,Mexico,1994,Oil,Gb,49.775
+country,Mexico,1995,Oil,Gb,48.796
+country,Mexico,1996,Oil,Gb,48.472
+country,Mexico,1997,Oil,Gb,47.822
+country,Mexico,1998,Oil,Gb,28.399
+country,Mexico,1999,Oil,Gb,28.26
+country,Mexico,2000,Oil,Gb,24.384
+country,Mexico,2001,Oil,Gb,25.425
+country,Mexico,2002,Oil,Gb,17.196
+country,Mexico,2003,Oil,Gb,16.04
+country,Mexico,2004,Oil,Gb,14.803
+country,Mexico,2005,Oil,Gb,13.67
+country,Mexico,2006,Oil,Gb,12.85
+country,Mexico,2007,Oil,Gb,12.187
+country,Mexico,2008,Oil,Gb,11.865
+country,Mexico,2009,Oil,Gb,11.866
+country,Mexico,2010,Oil,Gb,11.691
+country,Mexico,2011,Oil,Gb,10.161
+country,Mexico,2012,Oil,Gb,10.025
+country,Mexico,2013,Oil,Gb,10.073
+country,Mexico,2014,Oil,Gb,9.812
+country,Mexico,2015,Oil,Gb,9.711
+country,Mexico,2016,Oil,Gb,7.142
+country,Mexico,2017,Oil,Gb,6.537
+country,Mexico,2018,Oil,Gb,5.807
+country,Mexico,2019,Oil,Gb,5.333
+country,Mexico,2020,Oil,Gb,5.498
+country,Mexico,2021,Oil,Gb,5.618
+country,Mexico,2022,Oil,Gb,5.558
+country,Mexico,2023,Oil,Gb,5.674
+country,Nigeria,1960,Oil,Gb,0.15
+country,Nigeria,1961,Oil,Gb,0.3
+country,Nigeria,1962,Oil,Gb,0.4
+country,Nigeria,1963,Oil,Gb,0.5
+country,Nigeria,1964,Oil,Gb,1.0
+country,Nigeria,1965,Oil,Gb,3.0
+country,Nigeria,1966,Oil,Gb,3.5
+country,Nigeria,1967,Oil,Gb,3.55
+country,Nigeria,1968,Oil,Gb,4.0
+country,Nigeria,1969,Oil,Gb,5.0
+country,Nigeria,1970,Oil,Gb,9.3
+country,Nigeria,1971,Oil,Gb,11.68
+country,Nigeria,1972,Oil,Gb,15.0
+country,Nigeria,1973,Oil,Gb,20.0
+country,Nigeria,1974,Oil,Gb,20.9
+country,Nigeria,1975,Oil,Gb,20.2
+country,Nigeria,1976,Oil,Gb,19.445
+country,Nigeria,1977,Oil,Gb,18.7
+country,Nigeria,1978,Oil,Gb,18.2
+country,Nigeria,1979,Oil,Gb,17.4
+country,Nigeria,1980,Oil,Gb,16.7
+country,Nigeria,1981,Oil,Gb,16.5
+country,Nigeria,1982,Oil,Gb,16.75
+country,Nigeria,1983,Oil,Gb,16.55
+country,Nigeria,1984,Oil,Gb,16.65
+country,Nigeria,1985,Oil,Gb,16.6
+country,Nigeria,1986,Oil,Gb,16.066
+country,Nigeria,1987,Oil,Gb,15.98
+country,Nigeria,1988,Oil,Gb,16.0
+country,Nigeria,1989,Oil,Gb,16.0
+country,Nigeria,1990,Oil,Gb,17.1
+country,Nigeria,1991,Oil,Gb,20.0
+country,Nigeria,1992,Oil,Gb,20.9905
+country,Nigeria,1993,Oil,Gb,20.9905
+country,Nigeria,1994,Oil,Gb,20.9905
+country,Nigeria,1995,Oil,Gb,20.828
+country,Nigeria,1996,Oil,Gb,20.828
+country,Nigeria,1997,Oil,Gb,20.828
+country,Nigeria,1998,Oil,Gb,22.5
+country,Nigeria,1999,Oil,Gb,29.0
+country,Nigeria,2000,Oil,Gb,29.0
+country,Nigeria,2001,Oil,Gb,31.506
+country,Nigeria,2002,Oil,Gb,34.349
+country,Nigeria,2003,Oil,Gb,35.254870000000004
+country,Nigeria,2004,Oil,Gb,35.87623000000001
+country,Nigeria,2005,Oil,Gb,36.22
+country,Nigeria,2006,Oil,Gb,37.2
+country,Nigeria,2007,Oil,Gb,37.2
+country,Nigeria,2008,Oil,Gb,37.2
+country,Nigeria,2009,Oil,Gb,37.2
+country,Nigeria,2010,Oil,Gb,37.2
+country,Nigeria,2011,Oil,Gb,36.247
+country,Nigeria,2012,Oil,Gb,37.139
+country,Nigeria,2013,Oil,Gb,37.071
+country,Nigeria,2014,Oil,Gb,37.448
+country,Nigeria,2015,Oil,Gb,37.062
+country,Nigeria,2016,Oil,Gb,37.453
+country,Nigeria,2017,Oil,Gb,37.453
+country,Nigeria,2018,Oil,Gb,36.972
+country,Nigeria,2019,Oil,Gb,36.89
+country,Nigeria,2020,Oil,Gb,36.91
+country,Nigeria,2021,Oil,Gb,37.05
+country,Nigeria,2022,Oil,Gb,36.967
+country,Nigeria,2023,Oil,Gb,37.5
+country,Norway,1960,Oil,Gb,0.0
+country,Norway,1961,Oil,Gb,0.0
+country,Norway,1962,Oil,Gb,0.0
+country,Norway,1963,Oil,Gb,0.0
+country,Norway,1964,Oil,Gb,0.0
+country,Norway,1965,Oil,Gb,0.0
+country,Norway,1966,Oil,Gb,0.0
+country,Norway,1967,Oil,Gb,0.0
+country,Norway,1968,Oil,Gb,0.0
+country,Norway,1969,Oil,Gb,0.0
+country,Norway,1970,Oil,Gb,2.0
+country,Norway,1971,Oil,Gb,2.0
+country,Norway,1972,Oil,Gb,2.0
+country,Norway,1973,Oil,Gb,4.0
+country,Norway,1974,Oil,Gb,7.3
+country,Norway,1975,Oil,Gb,7.0
+country,Norway,1976,Oil,Gb,5.66
+country,Norway,1977,Oil,Gb,6.0
+country,Norway,1978,Oil,Gb,5.9
+country,Norway,1979,Oil,Gb,5.75
+country,Norway,1980,Oil,Gb,4.962
+country,Norway,1981,Oil,Gb,4.597
+country,Norway,1982,Oil,Gb,4.484
+country,Norway,1983,Oil,Gb,5.824
+country,Norway,1984,Oil,Gb,6.012
+country,Norway,1985,Oil,Gb,6.082
+country,Norway,1986,Oil,Gb,7.982
+country,Norway,1987,Oil,Gb,9.259
+country,Norway,1988,Oil,Gb,9.485
+country,Norway,1989,Oil,Gb,9.353
+country,Norway,1990,Oil,Gb,9.951
+country,Norway,1991,Oil,Gb,9.894
+country,Norway,1992,Oil,Gb,10.122
+country,Norway,1993,Oil,Gb,10.194
+country,Norway,1994,Oil,Gb,12.277
+country,Norway,1995,Oil,Gb,13.612
+country,Norway,1996,Oil,Gb,11.28
+country,Norway,1997,Oil,Gb,10.913
+country,Norway,1998,Oil,Gb,10.366
+country,Norway,1999,Oil,Gb,10.921
+country,Norway,2000,Oil,Gb,11.373
+country,Norway,2001,Oil,Gb,11.597
+country,Norway,2002,Oil,Gb,10.448
+country,Norway,2003,Oil,Gb,10.149
+country,Norway,2004,Oil,Gb,9.722
+country,Norway,2005,Oil,Gb,9.697
+country,Norway,2006,Oil,Gb,8.548
+country,Norway,2007,Oil,Gb,8.168
+country,Norway,2008,Oil,Gb,7.491
+country,Norway,2009,Oil,Gb,7.078
+country,Norway,2010,Oil,Gb,6.804
+country,Norway,2011,Oil,Gb,6.883
+country,Norway,2012,Oil,Gb,7.495
+country,Norway,2013,Oil,Gb,7.047
+country,Norway,2014,Oil,Gb,6.539
+country,Norway,2015,Oil,Gb,8.005
+country,Norway,2016,Oil,Gb,7.601
+country,Norway,2017,Oil,Gb,7.918
+country,Norway,2018,Oil,Gb,8.645
+country,Norway,2019,Oil,Gb,8.523
+country,Norway,2020,Oil,Gb,7.902
+country,Norway,2021,Oil,Gb,7.745
+country,Norway,2022,Oil,Gb,7.573
+country,Norway,2023,Oil,Gb,7.642
+country,Oman,1960,Oil,Gb,0.0
+country,Oman,1961,Oil,Gb,0.0
+country,Oman,1962,Oil,Gb,0.0
+country,Oman,1963,Oil,Gb,0.0
+country,Oman,1964,Oil,Gb,0.5
+country,Oman,1965,Oil,Gb,0.5
+country,Oman,1966,Oil,Gb,0.5
+country,Oman,1967,Oil,Gb,2.5
+country,Oman,1968,Oil,Gb,2.5
+country,Oman,1969,Oil,Gb,5.0
+country,Oman,1970,Oil,Gb,4.0
+country,Oman,1971,Oil,Gb,5.2
+country,Oman,1972,Oil,Gb,5.0
+country,Oman,1973,Oil,Gb,5.25
+country,Oman,1974,Oil,Gb,6.0
+country,Oman,1975,Oil,Gb,5.9
+country,Oman,1976,Oil,Gb,5.8
+country,Oman,1977,Oil,Gb,5.65
+country,Oman,1978,Oil,Gb,2.5
+country,Oman,1979,Oil,Gb,2.4
+country,Oman,1980,Oil,Gb,2.493
+country,Oman,1981,Oil,Gb,2.908
+country,Oman,1982,Oil,Gb,2.991
+country,Oman,1983,Oil,Gb,3.5
+country,Oman,1984,Oil,Gb,3.852
+country,Oman,1985,Oil,Gb,4.026
+country,Oman,1986,Oil,Gb,3.972
+country,Oman,1987,Oil,Gb,4.088
+country,Oman,1988,Oil,Gb,4.119
+country,Oman,1989,Oil,Gb,4.269
+country,Oman,1990,Oil,Gb,4.361
+country,Oman,1991,Oil,Gb,4.471
+country,Oman,1992,Oil,Gb,4.748
+country,Oman,1993,Oil,Gb,4.97
+country,Oman,1994,Oil,Gb,5.138
+country,Oman,1995,Oil,Gb,5.172
+country,Oman,1996,Oil,Gb,5.238
+country,Oman,1997,Oil,Gb,5.4
+country,Oman,1998,Oil,Gb,5.4
+country,Oman,1999,Oil,Gb,5.7
+country,Oman,2000,Oil,Gb,5.848
+country,Oman,2001,Oil,Gb,5.9
+country,Oman,2002,Oil,Gb,5.706
+country,Oman,2003,Oil,Gb,5.572
+country,Oman,2004,Oil,Gb,5.572
+country,Oman,2005,Oil,Gb,5.572
+country,Oman,2006,Oil,Gb,5.572
+country,Oman,2007,Oil,Gb,5.572
+country,Oman,2008,Oil,Gb,5.572
+country,Oman,2009,Oil,Gb,5.5
+country,Oman,2010,Oil,Gb,5.5
+country,Oman,2011,Oil,Gb,5.5
+country,Oman,2012,Oil,Gb,5.5
+country,Oman,2013,Oil,Gb,4.9743
+country,Oman,2014,Oil,Gb,5.151
+country,Oman,2015,Oil,Gb,5.306
+country,Oman,2016,Oil,Gb,5.373
+country,Oman,2017,Oil,Gb,5.373
+country,Oman,2018,Oil,Gb,5.373
+country,Oman,2019,Oil,Gb,5.373
+country,Oman,2020,Oil,Gb,5.373
+country,Oman,2021,Oil,Gb,5.373
+country,Oman,2022,Oil,Gb,4.856
+country,Oman,2023,Oil,Gb,4.905
+country,Qatar,1960,Oil,Gb,2.5
+country,Qatar,1961,Oil,Gb,2.75
+country,Qatar,1962,Oil,Gb,3.0
+country,Qatar,1963,Oil,Gb,2.95
+country,Qatar,1964,Oil,Gb,3.5
+country,Qatar,1965,Oil,Gb,3.0
+country,Qatar,1966,Oil,Gb,4.0
+country,Qatar,1967,Oil,Gb,3.75
+country,Qatar,1968,Oil,Gb,3.875
+country,Qatar,1969,Oil,Gb,5.5
+country,Qatar,1970,Oil,Gb,4.3
+country,Qatar,1971,Oil,Gb,6.0
+country,Qatar,1972,Oil,Gb,7.0
+country,Qatar,1973,Oil,Gb,6.5
+country,Qatar,1974,Oil,Gb,6.0
+country,Qatar,1975,Oil,Gb,5.85
+country,Qatar,1976,Oil,Gb,5.7
+country,Qatar,1977,Oil,Gb,5.6
+country,Qatar,1978,Oil,Gb,4.0
+country,Qatar,1979,Oil,Gb,3.76
+country,Qatar,1980,Oil,Gb,3.585
+country,Qatar,1981,Oil,Gb,3.45
+country,Qatar,1982,Oil,Gb,3.425
+country,Qatar,1983,Oil,Gb,3.33
+country,Qatar,1984,Oil,Gb,4.5
+country,Qatar,1985,Oil,Gb,4.5
+country,Qatar,1986,Oil,Gb,4.5
+country,Qatar,1987,Oil,Gb,4.5
+country,Qatar,1988,Oil,Gb,4.5
+country,Qatar,1989,Oil,Gb,4.5
+country,Qatar,1990,Oil,Gb,2.993
+country,Qatar,1991,Oil,Gb,2.993
+country,Qatar,1992,Oil,Gb,3.121
+country,Qatar,1993,Oil,Gb,3.121
+country,Qatar,1994,Oil,Gb,3.5
+country,Qatar,1995,Oil,Gb,3.7
+country,Qatar,1996,Oil,Gb,3.7
+country,Qatar,1997,Oil,Gb,3.7
+country,Qatar,1998,Oil,Gb,3.7
+country,Qatar,1999,Oil,Gb,3.7
+country,Qatar,2000,Oil,Gb,13.157
+country,Qatar,2001,Oil,Gb,15.207
+country,Qatar,2002,Oil,Gb,15.207
+country,Qatar,2003,Oil,Gb,26.089
+country,Qatar,2004,Oil,Gb,25.494
+country,Qatar,2005,Oil,Gb,25.288
+country,Qatar,2006,Oil,Gb,26.185
+country,Qatar,2007,Oil,Gb,25.09
+country,Qatar,2008,Oil,Gb,25.405
+country,Qatar,2009,Oil,Gb,25.3819
+country,Qatar,2010,Oil,Gb,25.3819
+country,Qatar,2011,Oil,Gb,25.382
+country,Qatar,2012,Oil,Gb,25.244
+country,Qatar,2013,Oil,Gb,25.244
+country,Qatar,2014,Oil,Gb,25.244
+country,Qatar,2015,Oil,Gb,25.244
+country,Qatar,2016,Oil,Gb,25.244
+country,Qatar,2017,Oil,Gb,25.244
+country,Qatar,2018,Oil,Gb,25.244
+country,Qatar,2019,Oil,Gb,25.244
+country,Qatar,2020,Oil,Gb,25.244
+country,Qatar,2021,Oil,Gb,25.244
+country,Qatar,2022,Oil,Gb,25.244
+country,Qatar,2023,Oil,Gb,25.244
+country,Russian federation & USSR,1960,Oil,Gb,23.579
+country,Russian federation & USSR,1961,Oil,Gb,23.5
+country,Russian federation & USSR,1962,Oil,Gb,29.0
+country,Russian federation & USSR,1963,Oil,Gb,32.0
+country,Russian federation & USSR,1964,Oil,Gb,33.0
+country,Russian federation & USSR,1965,Oil,Gb,35.0
+country,Russian federation & USSR,1966,Oil,Gb,38.0
+country,Russian federation & USSR,1967,Oil,Gb,36.0
+country,Russian federation & USSR,1968,Oil,Gb,60.0
+country,Russian federation & USSR,1969,Oil,Gb,58.0
+country,Russian federation & USSR,1970,Oil,Gb,58.0
+country,Russian federation & USSR,1971,Oil,Gb,55.286
+country,Russian federation & USSR,1972,Oil,Gb,52.412
+country,Russian federation & USSR,1973,Oil,Gb,49.339
+country,Russian federation & USSR,1974,Oil,Gb,56.341
+country,Russian federation & USSR,1975,Oil,Gb,58.878
+country,Russian federation & USSR,1976,Oil,Gb,59.9
+country,Russian federation & USSR,1977,Oil,Gb,59.0
+country,Russian federation & USSR,1978,Oil,Gb,58.438
+country,Russian federation & USSR,1979,Oil,Gb,59.878
+country,Russian federation & USSR,1980,Oil,Gb,63.0
+country,Russian federation & USSR,1981,Oil,Gb,63.0
+country,Russian federation & USSR,1982,Oil,Gb,63.0
+country,Russian federation & USSR,1983,Oil,Gb,63.0
+country,Russian federation & USSR,1984,Oil,Gb,63.0
+country,Russian federation & USSR,1985,Oil,Gb,62.685
+country,Russian federation & USSR,1986,Oil,Gb,62.983
+country,Russian federation & USSR,1987,Oil,Gb,61.663
+country,Russian federation & USSR,1988,Oil,Gb,63.161
+country,Russian federation & USSR,1989,Oil,Gb,69.384
+country,Russian federation & USSR,1990,Oil,Gb,65.28
+country,Russian federation & USSR,1991,Oil,Gb,64.99
+country,Russian federation & USSR,1992,Oil,Gb,64.58
+country,Russian federation & USSR,1993,Oil,Gb,64.279
+country,Russian federation & USSR,1994,Oil,Gb,63.938
+country,Russian federation & USSR,1995,Oil,Gb,63.659
+country,Russian federation & USSR,1996,Oil,Gb,54.086
+country,Russian federation & USSR,1997,Oil,Gb,55.143
+country,Russian federation & USSR,1998,Oil,Gb,55.757
+country,Russian federation & USSR,1999,Oil,Gb,59.217
+country,Russian federation & USSR,2000,Oil,Gb,59.639
+country,Russian federation & USSR,2001,Oil,Gb,64.578
+country,Russian federation & USSR,2002,Oil,Gb,73.949
+country,Russian federation & USSR,2003,Oil,Gb,77.345
+country,Russian federation & USSR,2004,Oil,Gb,76.772
+country,Russian federation & USSR,2005,Oil,Gb,77.712
+country,Russian federation & USSR,2006,Oil,Gb,79.306
+country,Russian federation & USSR,2007,Oil,Gb,72.97
+country,Russian federation & USSR,2008,Oil,Gb,75.954
+country,Russian federation & USSR,2009,Oil,Gb,76.65
+country,Russian federation & USSR,2010,Oil,Gb,77.403
+country,Russian federation & USSR,2011,Oil,Gb,77.403
+country,Russian federation & USSR,2012,Oil,Gb,80.0
+country,Russian federation & USSR,2013,Oil,Gb,80.0
+country,Russian federation & USSR,2014,Oil,Gb,80.0
+country,Russian federation & USSR,2015,Oil,Gb,80.0
+country,Russian federation & USSR,2016,Oil,Gb,80.0
+country,Russian federation & USSR,2017,Oil,Gb,80.0
+country,Russian federation & USSR,2018,Oil,Gb,80.0
+country,Russian federation & USSR,2019,Oil,Gb,80.0
+country,Russian federation & USSR,2020,Oil,Gb,80.0
+country,Russian federation & USSR,2021,Oil,Gb,80.0
+country,Russian federation & USSR,2022,Oil,Gb,80.0
+country,Russian federation & USSR,2023,Oil,Gb,80.0
+country,Saudi Arabia,1960,Oil,Gb,53.0
+country,Saudi Arabia,1961,Oil,Gb,55.0
+country,Saudi Arabia,1962,Oil,Gb,55.75
+country,Saudi Arabia,1963,Oil,Gb,65.0
+country,Saudi Arabia,1964,Oil,Gb,66.75
+country,Saudi Arabia,1965,Oil,Gb,66.2
+country,Saudi Arabia,1966,Oil,Gb,72.5
+country,Saudi Arabia,1967,Oil,Gb,81.45
+country,Saudi Arabia,1968,Oil,Gb,84.5
+country,Saudi Arabia,1969,Oil,Gb,146.5
+country,Saudi Arabia,1970,Oil,Gb,141.35
+country,Saudi Arabia,1971,Oil,Gb,139.6093515
+country,Saudi Arabia,1972,Oil,Gb,146.0
+country,Saudi Arabia,1973,Oil,Gb,143.227387
+country,Saudi Arabia,1974,Oil,Gb,173.15
+country,Saudi Arabia,1975,Oil,Gb,170.567479
+country,Saudi Arabia,1976,Oil,Gb,167.428233316
+country,Saudi Arabia,1977,Oil,Gb,164.070267991
+country,Saudi Arabia,1978,Oil,Gb,168.94
+country,Saudi Arabia,1979,Oil,Gb,166.48
+country,Saudi Arabia,1980,Oil,Gb,168.03
+country,Saudi Arabia,1981,Oil,Gb,167.85
+country,Saudi Arabia,1982,Oil,Gb,165.483705
+country,Saudi Arabia,1983,Oil,Gb,168.8475
+country,Saudi Arabia,1984,Oil,Gb,171.71
+country,Saudi Arabia,1985,Oil,Gb,171.49
+country,Saudi Arabia,1986,Oil,Gb,169.743767
+country,Saudi Arabia,1987,Oil,Gb,169.585
+country,Saudi Arabia,1988,Oil,Gb,254.989
+country,Saudi Arabia,1989,Oil,Gb,260.05
+country,Saudi Arabia,1990,Oil,Gb,260.342
+country,Saudi Arabia,1991,Oil,Gb,260.936
+country,Saudi Arabia,1992,Oil,Gb,261.203
+country,Saudi Arabia,1993,Oil,Gb,261.355
+country,Saudi Arabia,1994,Oil,Gb,261.374
+country,Saudi Arabia,1995,Oil,Gb,261.45
+country,Saudi Arabia,1996,Oil,Gb,261.444
+country,Saudi Arabia,1997,Oil,Gb,261.541
+country,Saudi Arabia,1998,Oil,Gb,261.542
+country,Saudi Arabia,1999,Oil,Gb,262.784
+country,Saudi Arabia,2000,Oil,Gb,262.766
+country,Saudi Arabia,2001,Oil,Gb,262.697
+country,Saudi Arabia,2002,Oil,Gb,262.79
+country,Saudi Arabia,2003,Oil,Gb,262.73
+country,Saudi Arabia,2004,Oil,Gb,264.31
+country,Saudi Arabia,2005,Oil,Gb,264.211
+country,Saudi Arabia,2006,Oil,Gb,264.251
+country,Saudi Arabia,2007,Oil,Gb,264.209
+country,Saudi Arabia,2008,Oil,Gb,264.063
+country,Saudi Arabia,2009,Oil,Gb,264.59
+country,Saudi Arabia,2010,Oil,Gb,264.516
+country,Saudi Arabia,2011,Oil,Gb,265.405
+country,Saudi Arabia,2012,Oil,Gb,265.85
+country,Saudi Arabia,2013,Oil,Gb,265.789
+country,Saudi Arabia,2014,Oil,Gb,266.578
+country,Saudi Arabia,2015,Oil,Gb,266.455
+country,Saudi Arabia,2016,Oil,Gb,266.208
+country,Saudi Arabia,2017,Oil,Gb,266.26
+country,Saudi Arabia,2018,Oil,Gb,267.026
+country,Saudi Arabia,2019,Oil,Gb,267.073
+country,Saudi Arabia,2020,Oil,Gb,267.082
+country,Saudi Arabia,2021,Oil,Gb,267.192
+country,Saudi Arabia,2022,Oil,Gb,267.192
+country,Saudi Arabia,2023,Oil,Gb,267.23
+country,Sudan,1960,Oil,Gb,0.0
+country,Sudan,1961,Oil,Gb,0.0
+country,Sudan,1962,Oil,Gb,0.0
+country,Sudan,1963,Oil,Gb,0.0
+country,Sudan,1964,Oil,Gb,0.0
+country,Sudan,1965,Oil,Gb,0.0
+country,Sudan,1966,Oil,Gb,0.0
+country,Sudan,1967,Oil,Gb,0.0
+country,Sudan,1968,Oil,Gb,0.0
+country,Sudan,1969,Oil,Gb,0.0
+country,Sudan,1970,Oil,Gb,0.0
+country,Sudan,1971,Oil,Gb,0.0
+country,Sudan,1972,Oil,Gb,0.0
+country,Sudan,1973,Oil,Gb,0.0
+country,Sudan,1974,Oil,Gb,0.0
+country,Sudan,1975,Oil,Gb,0.0
+country,Sudan,1976,Oil,Gb,0.0
+country,Sudan,1977,Oil,Gb,0.0
+country,Sudan,1978,Oil,Gb,0.0
+country,Sudan,1979,Oil,Gb,0.0
+country,Sudan,1980,Oil,Gb,0.0
+country,Sudan,1981,Oil,Gb,0.2
+country,Sudan,1982,Oil,Gb,0.2
+country,Sudan,1983,Oil,Gb,0.3
+country,Sudan,1984,Oil,Gb,0.3
+country,Sudan,1985,Oil,Gb,0.3
+country,Sudan,1986,Oil,Gb,0.3
+country,Sudan,1987,Oil,Gb,0.3
+country,Sudan,1988,Oil,Gb,0.3
+country,Sudan,1989,Oil,Gb,0.3
+country,Sudan,1990,Oil,Gb,0.3
+country,Sudan,1991,Oil,Gb,0.3
+country,Sudan,1992,Oil,Gb,0.3
+country,Sudan,1993,Oil,Gb,0.3
+country,Sudan,1994,Oil,Gb,0.3
+country,Sudan,1995,Oil,Gb,0.3
+country,Sudan,1996,Oil,Gb,0.3
+country,Sudan,1997,Oil,Gb,0.2621
+country,Sudan,1998,Oil,Gb,0.2621
+country,Sudan,1999,Oil,Gb,0.2621
+country,Sudan,2000,Oil,Gb,0.6
+country,Sudan,2001,Oil,Gb,6.0
+country,Sudan,2002,Oil,Gb,6.0
+country,Sudan,2003,Oil,Gb,6.0
+country,Sudan,2004,Oil,Gb,6.405
+country,Sudan,2005,Oil,Gb,6.402
+country,Sudan,2006,Oil,Gb,6.615
+country,Sudan,2007,Oil,Gb,6.7
+country,Sudan,2008,Oil,Gb,6.7
+country,Sudan,2009,Oil,Gb,5.0
+country,Sudan,2010,Oil,Gb,5.0
+country,Sudan,2011,Oil,Gb,5.0
+country,Sudan,2012,Oil,Gb,5.0
+country,Sudan,2013,Oil,Gb,5.0
+country,Sudan,2014,Oil,Gb,5.0
+country,Sudan,2015,Oil,Gb,5.0
+country,Sudan,2016,Oil,Gb,5.0
+country,Sudan,2017,Oil,Gb,5.0
+country,Sudan,2018,Oil,Gb,5.0
+country,Sudan,2019,Oil,Gb,5.0
+country,Sudan,2020,Oil,Gb,5.0
+country,Sudan,2021,Oil,Gb,5.0
+country,Sudan,2022,Oil,Gb,5.0
+country,Sudan,2023,Oil,Gb,5.0
+country,Turkmenistan,1996,Oil,Gb,0.546
+country,Turkmenistan,1997,Oil,Gb,0.546
+country,Turkmenistan,1998,Oil,Gb,0.546
+country,Turkmenistan,1999,Oil,Gb,0.546
+country,Turkmenistan,2000,Oil,Gb,0.546
+country,Turkmenistan,2001,Oil,Gb,0.546
+country,Turkmenistan,2002,Oil,Gb,0.546
+country,Turkmenistan,2003,Oil,Gb,0.546
+country,Turkmenistan,2004,Oil,Gb,0.546
+country,Turkmenistan,2005,Oil,Gb,0.546
+country,Turkmenistan,2006,Oil,Gb,0.6
+country,Turkmenistan,2007,Oil,Gb,0.6
+country,Turkmenistan,2008,Oil,Gb,0.6
+country,Turkmenistan,2009,Oil,Gb,0.6
+country,Turkmenistan,2010,Oil,Gb,0.6
+country,Turkmenistan,2011,Oil,Gb,0.6
+country,Turkmenistan,2012,Oil,Gb,0.6
+country,Turkmenistan,2013,Oil,Gb,0.6
+country,Turkmenistan,2014,Oil,Gb,0.6
+country,Turkmenistan,2015,Oil,Gb,0.6
+country,Turkmenistan,2016,Oil,Gb,0.6
+country,Turkmenistan,2017,Oil,Gb,0.6
+country,Turkmenistan,2018,Oil,Gb,0.6
+country,Turkmenistan,2019,Oil,Gb,0.6
+country,Turkmenistan,2020,Oil,Gb,0.6
+country,Turkmenistan,2021,Oil,Gb,0.6
+country,Turkmenistan,2022,Oil,Gb,0.6
+country,Turkmenistan,2023,Oil,Gb,0.6
+country,Ukraine,1996,Oil,Gb,0.395
+country,Ukraine,1997,Oil,Gb,0.395
+country,Ukraine,1998,Oil,Gb,0.395
+country,Ukraine,1999,Oil,Gb,0.395
+country,Ukraine,2000,Oil,Gb,0.395
+country,Ukraine,2001,Oil,Gb,0.395
+country,Ukraine,2002,Oil,Gb,0.395
+country,Ukraine,2003,Oil,Gb,0.395
+country,Ukraine,2004,Oil,Gb,0.395
+country,Ukraine,2005,Oil,Gb,0.395
+country,Ukraine,2006,Oil,Gb,0.395
+country,Ukraine,2007,Oil,Gb,0.395
+country,Ukraine,2008,Oil,Gb,0.395
+country,Ukraine,2009,Oil,Gb,0.395
+country,Ukraine,2010,Oil,Gb,0.395
+country,Ukraine,2011,Oil,Gb,0.395
+country,Ukraine,2012,Oil,Gb,0.395
+country,Ukraine,2013,Oil,Gb,0.395
+country,Ukraine,2014,Oil,Gb,0.395
+country,Ukraine,2015,Oil,Gb,0.395
+country,Ukraine,2016,Oil,Gb,0.395
+country,Ukraine,2017,Oil,Gb,0.395
+country,Ukraine,2018,Oil,Gb,0.395
+country,Ukraine,2019,Oil,Gb,0.395
+country,Ukraine,2020,Oil,Gb,0.395
+country,Ukraine,2021,Oil,Gb,0.395
+country,Ukraine,2022,Oil,Gb,0.395
+country,Ukraine,2023,Oil,Gb,0.395
+country,United Arab Emirates,1960,Oil,Gb,0.25
+country,United Arab Emirates,1961,Oil,Gb,3.5
+country,United Arab Emirates,1962,Oil,Gb,5.0
+country,United Arab Emirates,1963,Oil,Gb,7.5
+country,United Arab Emirates,1964,Oil,Gb,7.7
+country,United Arab Emirates,1965,Oil,Gb,10.0
+country,United Arab Emirates,1966,Oil,Gb,12.5
+country,United Arab Emirates,1967,Oil,Gb,15.0
+country,United Arab Emirates,1968,Oil,Gb,19.0
+country,United Arab Emirates,1969,Oil,Gb,17.0
+country,United Arab Emirates,1970,Oil,Gb,12.783
+country,United Arab Emirates,1971,Oil,Gb,20.502
+country,United Arab Emirates,1972,Oil,Gb,22.768
+country,United Arab Emirates,1973,Oil,Gb,25.5
+country,United Arab Emirates,1974,Oil,Gb,33.92
+country,United Arab Emirates,1975,Oil,Gb,32.2
+country,United Arab Emirates,1976,Oil,Gb,31.2
+country,United Arab Emirates,1977,Oil,Gb,32.425
+country,United Arab Emirates,1978,Oil,Gb,31.316
+country,United Arab Emirates,1979,Oil,Gb,29.4113
+country,United Arab Emirates,1980,Oil,Gb,30.41
+country,United Arab Emirates,1981,Oil,Gb,32.176
+country,United Arab Emirates,1982,Oil,Gb,32.354
+country,United Arab Emirates,1983,Oil,Gb,32.34
+country,United Arab Emirates,1984,Oil,Gb,32.49
+country,United Arab Emirates,1985,Oil,Gb,32.99
+country,United Arab Emirates,1986,Oil,Gb,97.203
+country,United Arab Emirates,1987,Oil,Gb,98.105
+country,United Arab Emirates,1988,Oil,Gb,98.105
+country,United Arab Emirates,1989,Oil,Gb,98.105
+country,United Arab Emirates,1990,Oil,Gb,98.1
+country,United Arab Emirates,1991,Oil,Gb,98.1
+country,United Arab Emirates,1992,Oil,Gb,98.1
+country,United Arab Emirates,1993,Oil,Gb,98.1
+country,United Arab Emirates,1994,Oil,Gb,98.1
+country,United Arab Emirates,1995,Oil,Gb,98.1
+country,United Arab Emirates,1996,Oil,Gb,97.8
+country,United Arab Emirates,1997,Oil,Gb,97.8
+country,United Arab Emirates,1998,Oil,Gb,97.8
+country,United Arab Emirates,1999,Oil,Gb,97.8
+country,United Arab Emirates,2000,Oil,Gb,97.8
+country,United Arab Emirates,2001,Oil,Gb,97.8
+country,United Arab Emirates,2002,Oil,Gb,97.8
+country,United Arab Emirates,2003,Oil,Gb,97.8
+country,United Arab Emirates,2004,Oil,Gb,97.8
+country,United Arab Emirates,2005,Oil,Gb,97.8
+country,United Arab Emirates,2006,Oil,Gb,97.8
+country,United Arab Emirates,2007,Oil,Gb,97.8
+country,United Arab Emirates,2008,Oil,Gb,97.8
+country,United Arab Emirates,2009,Oil,Gb,97.8
+country,United Arab Emirates,2010,Oil,Gb,97.8
+country,United Arab Emirates,2011,Oil,Gb,97.8
+country,United Arab Emirates,2012,Oil,Gb,97.8
+country,United Arab Emirates,2013,Oil,Gb,97.8
+country,United Arab Emirates,2014,Oil,Gb,97.8
+country,United Arab Emirates,2015,Oil,Gb,97.8
+country,United Arab Emirates,2016,Oil,Gb,97.8
+country,United Arab Emirates,2017,Oil,Gb,97.8
+country,United Arab Emirates,2018,Oil,Gb,97.8
+country,United Arab Emirates,2019,Oil,Gb,105.0
+country,United Arab Emirates,2020,Oil,Gb,107.0
+country,United Arab Emirates,2021,Oil,Gb,111.0
+country,United Arab Emirates,2022,Oil,Gb,113.0
+country,United Arab Emirates,2023,Oil,Gb,113.0
+country,United Kingdom,1960,Oil,Gb,0.005
+country,United Kingdom,1961,Oil,Gb,0.005
+country,United Kingdom,1962,Oil,Gb,0.005
+country,United Kingdom,1963,Oil,Gb,0.005
+country,United Kingdom,1964,Oil,Gb,0.005
+country,United Kingdom,1965,Oil,Gb,0.005
+country,United Kingdom,1966,Oil,Gb,0.005
+country,United Kingdom,1967,Oil,Gb,0.01
+country,United Kingdom,1968,Oil,Gb,0.009
+country,United Kingdom,1969,Oil,Gb,0.009
+country,United Kingdom,1970,Oil,Gb,2.5
+country,United Kingdom,1971,Oil,Gb,3.0
+country,United Kingdom,1972,Oil,Gb,6.0
+country,United Kingdom,1973,Oil,Gb,10.9
+country,United Kingdom,1974,Oil,Gb,7.725
+country,United Kingdom,1975,Oil,Gb,9.827
+country,United Kingdom,1976,Oil,Gb,9.896
+country,United Kingdom,1977,Oil,Gb,10.07
+country,United Kingdom,1978,Oil,Gb,8.735
+country,United Kingdom,1979,Oil,Gb,8.755
+country,United Kingdom,1980,Oil,Gb,8.438
+country,United Kingdom,1981,Oil,Gb,7.875
+country,United Kingdom,1982,Oil,Gb,7.463
+country,United Kingdom,1983,Oil,Gb,6.938
+country,United Kingdom,1984,Oil,Gb,6.0
+country,United Kingdom,1985,Oil,Gb,5.625
+country,United Kingdom,1986,Oil,Gb,5.325
+country,United Kingdom,1987,Oil,Gb,5.175
+country,United Kingdom,1988,Oil,Gb,4.275
+country,United Kingdom,1989,Oil,Gb,3.825
+country,United Kingdom,1990,Oil,Gb,4.013
+country,United Kingdom,1991,Oil,Gb,4.163
+country,United Kingdom,1992,Oil,Gb,4.575
+country,United Kingdom,1993,Oil,Gb,4.538
+country,United Kingdom,1994,Oil,Gb,4.313
+country,United Kingdom,1995,Oil,Gb,4.538
+country,United Kingdom,1996,Oil,Gb,4.988
+country,United Kingdom,1997,Oil,Gb,5.175
+country,United Kingdom,1998,Oil,Gb,5.138
+country,United Kingdom,1999,Oil,Gb,4.988
+country,United Kingdom,2000,Oil,Gb,4.725
+country,United Kingdom,2001,Oil,Gb,4.538
+country,United Kingdom,2002,Oil,Gb,4.463
+country,United Kingdom,2003,Oil,Gb,4.283
+country,United Kingdom,2004,Oil,Gb,3.998
+country,United Kingdom,2005,Oil,Gb,3.87
+country,United Kingdom,2006,Oil,Gb,3.593
+country,United Kingdom,2007,Oil,Gb,3.593
+country,United Kingdom,2008,Oil,Gb,3.59
+country,United Kingdom,2009,Oil,Gb,3.1
+country,United Kingdom,2010,Oil,Gb,2.8
+country,United Kingdom,2011,Oil,Gb,2.8
+country,United Kingdom,2012,Oil,Gb,2.8
+country,United Kingdom,2013,Oil,Gb,2.97908
+country,United Kingdom,2014,Oil,Gb,2.98214
+country,United Kingdom,2015,Oil,Gb,2.754685
+country,United Kingdom,2016,Oil,Gb,2.564
+country,United Kingdom,2017,Oil,Gb,2.5
+country,United Kingdom,2018,Oil,Gb,2.5
+country,United Kingdom,2019,Oil,Gb,2.7
+country,United Kingdom,2020,Oil,Gb,2.5
+country,United Kingdom,2021,Oil,Gb,2.0
+country,United Kingdom,2022,Oil,Gb,1.8
+country,United Kingdom,2023,Oil,Gb,1.5
+country,United States of America,1960,Oil,Gb,31.6132
+country,United States of America,1961,Oil,Gb,31.7585
+country,United States of America,1962,Oil,Gb,31.3892
+country,United States of America,1963,Oil,Gb,30.97
+country,United States of America,1964,Oil,Gb,30.9905
+country,United States of America,1965,Oil,Gb,31.352400000000003
+country,United States of America,1966,Oil,Gb,31.4521
+country,United States of America,1967,Oil,Gb,31.3767
+country,United States of America,1968,Oil,Gb,30.7071
+country,United States of America,1969,Oil,Gb,29.6319
+country,United States of America,1970,Oil,Gb,39.0013
+country,United States of America,1971,Oil,Gb,38.063
+country,United States of America,1972,Oil,Gb,36.339400000000005
+country,United States of America,1973,Oil,Gb,35.299800000000005
+country,United States of America,1974,Oil,Gb,32.25
+country,United States of America,1975,Oil,Gb,32.682
+country,United States of America,1976,Oil,Gb,30.9422
+country,United States of America,1977,Oil,Gb,31.78
+country,United States of America,1978,Oil,Gb,31.355
+country,United States of America,1979,Oil,Gb,29.81
+country,United States of America,1980,Oil,Gb,29.805
+country,United States of America,1981,Oil,Gb,29.426
+country,United States of America,1982,Oil,Gb,27.858
+country,United States of America,1983,Oil,Gb,27.735
+country,United States of America,1984,Oil,Gb,28.446
+country,United States of America,1985,Oil,Gb,28.416
+country,United States of America,1986,Oil,Gb,26.889
+country,United States of America,1987,Oil,Gb,27.256
+country,United States of America,1988,Oil,Gb,26.825
+country,United States of America,1989,Oil,Gb,26.501
+country,United States of America,1990,Oil,Gb,26.254
+country,United States of America,1991,Oil,Gb,24.682
+country,United States of America,1992,Oil,Gb,23.745
+country,United States of America,1993,Oil,Gb,22.957
+country,United States of America,1994,Oil,Gb,22.457
+country,United States of America,1995,Oil,Gb,22.351
+country,United States of America,1996,Oil,Gb,22.017
+country,United States of America,1997,Oil,Gb,22.546
+country,United States of America,1998,Oil,Gb,21.034
+country,United States of America,1999,Oil,Gb,21.765
+country,United States of America,2000,Oil,Gb,22.045
+country,United States of America,2001,Oil,Gb,22.446
+country,United States of America,2002,Oil,Gb,22.677
+country,United States of America,2003,Oil,Gb,21.891
+country,United States of America,2004,Oil,Gb,21.371
+country,United States of America,2005,Oil,Gb,21.757
+country,United States of America,2006,Oil,Gb,20.972
+country,United States of America,2007,Oil,Gb,21.317
+country,United States of America,2008,Oil,Gb,19.121
+country,United States of America,2009,Oil,Gb,20.682
+country,United States of America,2010,Oil,Gb,23.267
+country,United States of America,2011,Oil,Gb,26.544
+country,United States of America,2012,Oil,Gb,30.529
+country,United States of America,2013,Oil,Gb,33.371
+country,United States of America,2014,Oil,Gb,36.385
+country,United States of America,2015,Oil,Gb,32.318
+country,United States of America,2016,Oil,Gb,32.773
+country,United States of America,2017,Oil,Gb,39.16
+country,United States of America,2018,Oil,Gb,43.824
+country,United States of America,2019,Oil,Gb,44.191
+country,United States of America,2020,Oil,Gb,35.835
+country,United States of America,2021,Oil,Gb,41.61
+country,United States of America,2022,Oil,Gb,45.271
+country,United States of America,2023,Oil,Gb,47.73
+country,Uzbekistan,1996,Oil,Gb,0.594
+country,Uzbekistan,1997,Oil,Gb,0.594
+country,Uzbekistan,1998,Oil,Gb,0.594
+country,Uzbekistan,1999,Oil,Gb,0.594
+country,Uzbekistan,2000,Oil,Gb,0.594
+country,Uzbekistan,2001,Oil,Gb,0.594
+country,Uzbekistan,2002,Oil,Gb,0.594
+country,Uzbekistan,2003,Oil,Gb,0.594
+country,Uzbekistan,2004,Oil,Gb,0.594
+country,Uzbekistan,2005,Oil,Gb,0.594
+country,Uzbekistan,2006,Oil,Gb,0.594
+country,Uzbekistan,2007,Oil,Gb,0.594
+country,Uzbekistan,2008,Oil,Gb,0.594
+country,Uzbekistan,2009,Oil,Gb,0.594
+country,Uzbekistan,2010,Oil,Gb,0.594
+country,Uzbekistan,2011,Oil,Gb,0.594
+country,Uzbekistan,2012,Oil,Gb,0.594
+country,Uzbekistan,2013,Oil,Gb,0.594
+country,Uzbekistan,2014,Oil,Gb,0.594
+country,Uzbekistan,2015,Oil,Gb,0.594
+country,Uzbekistan,2016,Oil,Gb,0.594
+country,Uzbekistan,2017,Oil,Gb,0.594
+country,Uzbekistan,2018,Oil,Gb,0.594
+country,Uzbekistan,2019,Oil,Gb,0.594
+country,Uzbekistan,2020,Oil,Gb,0.594
+country,Uzbekistan,2021,Oil,Gb,0.594
+country,Uzbekistan,2022,Oil,Gb,0.594
+country,Uzbekistan,2023,Oil,Gb,0.594
+country,Venezuela,1960,Oil,Gb,18.5
+country,Venezuela,1961,Oil,Gb,17.55
+country,Venezuela,1962,Oil,Gb,17.0
+country,Venezuela,1963,Oil,Gb,17.0
+country,Venezuela,1964,Oil,Gb,17.0
+country,Venezuela,1965,Oil,Gb,17.25
+country,Venezuela,1966,Oil,Gb,17.4
+country,Venezuela,1967,Oil,Gb,17.0
+country,Venezuela,1968,Oil,Gb,15.5
+country,Venezuela,1969,Oil,Gb,14.75
+country,Venezuela,1970,Oil,Gb,14.0
+country,Venezuela,1971,Oil,Gb,13.762
+country,Venezuela,1972,Oil,Gb,13.919
+country,Venezuela,1973,Oil,Gb,13.812
+country,Venezuela,1974,Oil,Gb,18.567
+country,Venezuela,1975,Oil,Gb,18.398
+country,Venezuela,1976,Oil,Gb,18.228
+country,Venezuela,1977,Oil,Gb,18.039
+country,Venezuela,1978,Oil,Gb,18.228
+country,Venezuela,1979,Oil,Gb,18.523
+country,Venezuela,1980,Oil,Gb,19.53
+country,Venezuela,1981,Oil,Gb,19.888
+country,Venezuela,1982,Oil,Gb,24.9
+country,Venezuela,1983,Oil,Gb,25.887
+country,Venezuela,1984,Oil,Gb,28.028
+country,Venezuela,1985,Oil,Gb,54.454
+country,Venezuela,1986,Oil,Gb,55.521
+country,Venezuela,1987,Oil,Gb,58.101
+country,Venezuela,1988,Oil,Gb,58.505
+country,Venezuela,1989,Oil,Gb,59.04
+country,Venezuela,1990,Oil,Gb,60.054
+country,Venezuela,1991,Oil,Gb,62.649
+country,Venezuela,1992,Oil,Gb,63.33
+country,Venezuela,1993,Oil,Gb,64.448
+country,Venezuela,1994,Oil,Gb,64.877
+country,Venezuela,1995,Oil,Gb,66.329
+country,Venezuela,1996,Oil,Gb,72.667
+country,Venezuela,1997,Oil,Gb,74.9308
+country,Venezuela,1998,Oil,Gb,76.108367
+country,Venezuela,1999,Oil,Gb,76.84808
+country,Venezuela,2000,Oil,Gb,76.84808
+country,Venezuela,2001,Oil,Gb,77.685
+country,Venezuela,2002,Oil,Gb,77.307
+country,Venezuela,2003,Oil,Gb,77.226186
+country,Venezuela,2004,Oil,Gb,79.729179
+country,Venezuela,2005,Oil,Gb,80.012
+country,Venezuela,2006,Oil,Gb,87.3236
+country,Venezuela,2007,Oil,Gb,99.3774
+country,Venezuela,2008,Oil,Gb,172.323
+country,Venezuela,2009,Oil,Gb,211.173193
+country,Venezuela,2010,Oil,Gb,296.501064
+country,Venezuela,2011,Oil,Gb,297.571
+country,Venezuela,2012,Oil,Gb,297.735
+country,Venezuela,2013,Oil,Gb,298.35
+country,Venezuela,2014,Oil,Gb,299.95317
+country,Venezuela,2015,Oil,Gb,300.878
+country,Venezuela,2016,Oil,Gb,302.25
+country,Venezuela,2017,Oil,Gb,302.809
+country,Venezuela,2018,Oil,Gb,303.806
+country,Venezuela,2019,Oil,Gb,303.806
+country,Venezuela,2020,Oil,Gb,303.561
+country,Venezuela,2021,Oil,Gb,303.468
+country,Venezuela,2022,Oil,Gb,303.221
+country,Venezuela,2023,Oil,Gb,303.008
+country,Viet Nam,1960,Oil,Gb,0.0
+country,Viet Nam,1961,Oil,Gb,0.0
+country,Viet Nam,1962,Oil,Gb,0.0
+country,Viet Nam,1963,Oil,Gb,0.0
+country,Viet Nam,1964,Oil,Gb,0.0
+country,Viet Nam,1965,Oil,Gb,0.0
+country,Viet Nam,1966,Oil,Gb,0.0
+country,Viet Nam,1967,Oil,Gb,0.0
+country,Viet Nam,1968,Oil,Gb,0.0
+country,Viet Nam,1969,Oil,Gb,0.0
+country,Viet Nam,1970,Oil,Gb,0.0
+country,Viet Nam,1971,Oil,Gb,0.0
+country,Viet Nam,1972,Oil,Gb,0.0
+country,Viet Nam,1973,Oil,Gb,0.0
+country,Viet Nam,1974,Oil,Gb,0.0
+country,Viet Nam,1975,Oil,Gb,0.0
+country,Viet Nam,1976,Oil,Gb,0.0
+country,Viet Nam,1977,Oil,Gb,0.0
+country,Viet Nam,1978,Oil,Gb,0.0
+country,Viet Nam,1979,Oil,Gb,0.0
+country,Viet Nam,1980,Oil,Gb,0.0
+country,Viet Nam,1981,Oil,Gb,0.0
+country,Viet Nam,1982,Oil,Gb,0.0
+country,Viet Nam,1983,Oil,Gb,0.0
+country,Viet Nam,1984,Oil,Gb,0.0
+country,Viet Nam,1985,Oil,Gb,0.0
+country,Viet Nam,1986,Oil,Gb,0.0
+country,Viet Nam,1987,Oil,Gb,0.021
+country,Viet Nam,1988,Oil,Gb,0.051
+country,Viet Nam,1989,Oil,Gb,0.11
+country,Viet Nam,1990,Oil,Gb,0.2
+country,Viet Nam,1991,Oil,Gb,0.24
+country,Viet Nam,1992,Oil,Gb,0.35
+country,Viet Nam,1993,Oil,Gb,0.596
+country,Viet Nam,1994,Oil,Gb,0.639
+country,Viet Nam,1995,Oil,Gb,0.764
+country,Viet Nam,1996,Oil,Gb,0.89
+country,Viet Nam,1997,Oil,Gb,1.246
+country,Viet Nam,1998,Oil,Gb,1.9
+country,Viet Nam,1999,Oil,Gb,1.8
+country,Viet Nam,2000,Oil,Gb,1.95
+country,Viet Nam,2001,Oil,Gb,2.2
+country,Viet Nam,2002,Oil,Gb,2.812
+country,Viet Nam,2003,Oil,Gb,2.96
+country,Viet Nam,2004,Oil,Gb,3.084
+country,Viet Nam,2005,Oil,Gb,3.119
+country,Viet Nam,2006,Oil,Gb,3.25
+country,Viet Nam,2007,Oil,Gb,3.41
+country,Viet Nam,2008,Oil,Gb,4.7
+country,Viet Nam,2009,Oil,Gb,4.5
+country,Viet Nam,2010,Oil,Gb,4.4
+country,Viet Nam,2011,Oil,Gb,4.4
+country,Viet Nam,2012,Oil,Gb,4.4
+country,Viet Nam,2013,Oil,Gb,4.4
+country,Viet Nam,2014,Oil,Gb,4.4
+country,Viet Nam,2015,Oil,Gb,4.4
+country,Viet Nam,2016,Oil,Gb,4.4
+country,Viet Nam,2017,Oil,Gb,4.4
+country,Viet Nam,2018,Oil,Gb,4.4
+country,Viet Nam,2019,Oil,Gb,4.4
+country,Viet Nam,2020,Oil,Gb,4.4
+country,Viet Nam,2021,Oil,Gb,4.4
+country,Viet Nam,2022,Oil,Gb,4.4
+country,Viet Nam,2023,Oil,Gb,4.4
+group,EU27,1960,Oil,Gb,0.0
+group,EU27,1961,Oil,Gb,0.0
+group,EU27,1962,Oil,Gb,0.0
+group,EU27,1963,Oil,Gb,0.0
+group,EU27,1964,Oil,Gb,0.0
+group,EU27,1965,Oil,Gb,0.0
+group,EU27,1966,Oil,Gb,0.0
+group,EU27,1967,Oil,Gb,0.0
+group,EU27,1968,Oil,Gb,0.0
+group,EU27,1969,Oil,Gb,0.0
+group,EU27,1970,Oil,Gb,0.0
+group,EU27,1971,Oil,Gb,0.25
+group,EU27,1972,Oil,Gb,0.25
+group,EU27,1973,Oil,Gb,0.2485
+group,EU27,1974,Oil,Gb,0.247
+group,EU27,1975,Oil,Gb,0.245
+group,EU27,1976,Oil,Gb,0.3
+group,EU27,1977,Oil,Gb,0.3
+group,EU27,1978,Oil,Gb,0.3
+group,EU27,1979,Oil,Gb,0.375
+group,EU27,1980,Oil,Gb,0.45
+group,EU27,1981,Oil,Gb,0.371
+group,EU27,1982,Oil,Gb,0.327
+group,EU27,1983,Oil,Gb,0.308
+group,EU27,1984,Oil,Gb,0.465
+group,EU27,1985,Oil,Gb,0.447
+group,EU27,1986,Oil,Gb,0.403
+group,EU27,1987,Oil,Gb,0.403
+group,EU27,1988,Oil,Gb,0.541
+group,EU27,1989,Oil,Gb,0.629
+group,EU27,1990,Oil,Gb,0.591
+group,EU27,1991,Oil,Gb,0.616
+group,EU27,1992,Oil,Gb,0.748
+group,EU27,1993,Oil,Gb,0.704
+group,EU27,1994,Oil,Gb,0.755
+group,EU27,1995,Oil,Gb,0.912
+group,EU27,1996,Oil,Gb,0.862
+group,EU27,1997,Oil,Gb,0.943
+group,EU27,1998,Oil,Gb,0.881
+group,EU27,1999,Oil,Gb,0.906
+group,EU27,2000,Oil,Gb,1.113
+group,EU27,2001,Oil,Gb,1.346
+group,EU27,2002,Oil,Gb,1.277
+group,EU27,2003,Oil,Gb,1.277
+group,EU27,2004,Oil,Gb,1.327
+group,EU27,2005,Oil,Gb,1.277
+group,EU27,2006,Oil,Gb,1.157
+group,EU27,2007,Oil,Gb,1.113
+group,EU27,2008,Oil,Gb,1.113
+group,EU27,2009,Oil,Gb,1.06
+group,EU27,2010,Oil,Gb,0.812
+group,EU27,2011,Oil,Gb,0.9
+group,EU27,2012,Oil,Gb,0.805
+group,EU27,2013,Oil,Gb,0.8050900000000001
+group,EU27,2014,Oil,Gb,0.611
+group,EU27,2015,Oil,Gb,0.511
+group,EU27,2016,Oil,Gb,0.491
+group,EU27,2017,Oil,Gb,0.439
+group,EU27,2018,Oil,Gb,0.428
+group,EU27,2019,Oil,Gb,0.441
+group,EU27,2020,Oil,Gb,0.441
+group,EU27,2021,Oil,Gb,0.428
+group,EU27,2022,Oil,Gb,0.34
+group,EU27,2023,Oil,Gb,0.346
+group,OECD,1960,Oil,Gb,39.7292
+group,OECD,1961,Oil,Gb,40.1655
+group,OECD,1962,Oil,Gb,39.5442
+group,OECD,1963,Oil,Gb,40.3
+group,OECD,1964,Oil,Gb,40.551500000000004
+group,OECD,1965,Oil,Gb,43.1174
+group,OECD,1966,Oil,Gb,44.690000000000005
+group,OECD,1967,Oil,Gb,45.5295
+group,OECD,1968,Oil,Gb,50.4521
+group,OECD,1969,Oil,Gb,48.8029
+group,OECD,1970,Oil,Gb,61.6913
+group,OECD,1971,Oil,Gb,60.365300000000005
+group,OECD,1972,Oil,Gb,61.412400000000005
+group,OECD,1973,Oil,Gb,67.07350000000001
+group,OECD,1974,Oil,Gb,63.501
+group,OECD,1975,Oil,Gb,68.8476
+group,OECD,1976,Oil,Gb,62.5972
+group,OECD,1977,Oil,Gb,70.985
+group,OECD,1978,Oil,Gb,70.718
+group,OECD,1979,Oil,Gb,84.96799999999999
+group,OECD,1980,Oil,Gb,100.7612
+group,OECD,1981,Oil,Gb,108.7859
+group,OECD,1982,Oil,Gb,107.73205
+group,OECD,1983,Oil,Gb,107.81756999999999
+group,OECD,1984,Oil,Gb,107.31515
+group,OECD,1985,Oil,Gb,105.95922
+group,OECD,1986,Oil,Gb,105.91184
+group,OECD,1987,Oil,Gb,107.24139
+group,OECD,1988,Oil,Gb,105.88833
+group,OECD,1989,Oil,Gb,103.57588
+group,OECD,1990,Oil,Gb,103.14019
+group,OECD,1991,Oil,Gb,100.98276999999999
+group,OECD,1992,Oil,Gb,102.26028
+group,OECD,1993,Oil,Gb,100.91892
+group,OECD,1994,Oil,Gb,101.73172
+group,OECD,1995,Oil,Gb,102.15344999999999
+group,OECD,1996,Oil,Gb,99.37412
+group,OECD,1997,Oil,Gb,99.09486000000001
+group,OECD,1998,Oil,Gb,78.09676999999999
+group,OECD,1999,Oil,Gb,78.72532
+group,OECD,2000,Oil,Gb,75.56169
+group,OECD,2001,Oil,Gb,76.95546999999999
+group,OECD,2002,Oil,Gb,66.90569
+group,OECD,2003,Oil,Gb,63.33543999999999
+group,OECD,2004,Oil,Gb,61.09026
+group,OECD,2005,Oil,Gb,60.800340000000006
+group,OECD,2006,Oil,Gb,57.23552
+group,OECD,2007,Oil,Gb,56.48141
+group,OECD,2008,Oil,Gb,53.8912
+group,OECD,2009,Oil,Gb,53.6844
+group,OECD,2010,Oil,Gb,54.860079999999996
+group,OECD,2011,Oil,Gb,57.33294
+group,OECD,2012,Oil,Gb,62.21697
+group,OECD,2013,Oil,Gb,65.04017
+group,OECD,2014,Oil,Gb,65.44314
+group,OECD,2015,Oil,Gb,62.501684999999995
+group,OECD,2016,Oil,Gb,59.531000000000006
+group,OECD,2017,Oil,Gb,66.18199999999999
+group,OECD,2018,Oil,Gb,70.718
+group,OECD,2019,Oil,Gb,70.594
+group,OECD,2020,Oil,Gb,61.671
+group,OECD,2021,Oil,Gb,65.973
+group,OECD,2022,Oil,Gb,69.266
+group,OECD,2023,Oil,Gb,71.63
+group,OPEC,1960,Oil,Gb,206.19
+group,OPEC,1961,Oil,Gb,211.44
+group,OPEC,1962,Oil,Gb,219.015
+group,OPEC,1963,Oil,Gb,235.31
+group,OPEC,1964,Oil,Gb,241.635
+group,OPEC,1965,Oil,Gb,248.031
+group,OPEC,1966,Oil,Gb,277.153
+group,OPEC,1967,Oil,Gb,298.15999999999997
+group,OPEC,1968,Oil,Gb,319.49
+group,OPEC,1969,Oil,Gb,378.126
+group,OPEC,1970,Oil,Gb,386.13100000000003
+group,OPEC,1971,Oil,Gb,396.4313515
+group,OPEC,1972,Oil,Gb,402.6267
+group,OPEC,1973,Oil,Gb,405.087087
+group,OPEC,1974,Oil,Gb,463.75910000000005
+group,OPEC,1975,Oil,Gb,445.13707899999997
+group,OPEC,1976,Oil,Gb,436.291033316
+group,OPEC,1977,Oil,Gb,431.202667991
+group,OPEC,1978,Oil,Gb,428.64189999999996
+group,OPEC,1979,Oil,Gb,421.69599999999997
+group,OPEC,1980,Oil,Gb,421.93190000000004
+group,OPEC,1981,Oil,Gb,426.1485
+group,OPEC,1982,Oil,Gb,456.10490500000003
+group,OPEC,1983,Oil,Gb,464.87080000000003
+group,OPEC,1984,Oil,Gb,499.2431
+group,OPEC,1985,Oil,Gb,525.4695
+group,OPEC,1986,Oil,Gb,632.368867
+group,OPEC,1987,Oil,Gb,664.2
+group,OPEC,1988,Oil,Gb,750.624
+group,OPEC,1989,Oil,Gb,759.0790000000001
+group,OPEC,1990,Oil,Gb,760.7860000000001
+group,OPEC,1991,Oil,Gb,766.501
+group,OPEC,1992,Oil,Gb,768.2154999999999
+group,OPEC,1993,Oil,Gb,769.9465
+group,OPEC,1994,Oil,Gb,774.4155000000001
+group,OPEC,1995,Oil,Gb,783.0418999999999
+group,OPEC,1996,Oil,Gb,802.6949000000001
+group,OPEC,1997,Oil,Gb,806.0327
+group,OPEC,1998,Oil,Gb,810.12028
+group,OPEC,1999,Oil,Gb,819.0219930000001
+group,OPEC,2000,Oil,Gb,832.955993
+group,OPEC,2001,Oil,Gb,839.097913
+group,OPEC,2002,Oil,Gb,875.63
+group,OPEC,2003,Oil,Gb,885.338056
+group,OPEC,2004,Oil,Gb,891.925409
+group,OPEC,2005,Oil,Gb,899.653
+group,OPEC,2006,Oil,Gb,910.1586
+group,OPEC,2007,Oil,Gb,922.2398000000001
+group,OPEC,2008,Oil,Gb,997.117
+group,OPEC,2009,Oil,Gb,1038.100193
+group,OPEC,2010,Oil,Gb,1165.844064
+group,OPEC,2011,Oil,Gb,1169.4270000000001
+group,OPEC,2012,Oil,Gb,1173.056
+group,OPEC,2013,Oil,Gb,1178.473
+group,OPEC,2014,Oil,Gb,1178.83157
+group,OPEC,2015,Oil,Gb,1180.7669999999998
+group,OPEC,2016,Oil,Gb,1187.3445000000002
+group,OPEC,2017,Oil,Gb,1183.674
+group,OPEC,2018,Oil,Gb,1182.528
+group,OPEC,2019,Oil,Gb,1241.281
+group,OPEC,2020,Oil,Gb,1242.377
+group,OPEC,2021,Oil,Gb,1241.819
+group,OPEC,2022,Oil,Gb,1243.5230000000001
+group,OPEC,2023,Oil,Gb,1243.881
+group,Persian Gulf,1960,Oil,Gb,182.75
+group,Persian Gulf,1961,Oil,Gb,187.75
+group,Persian Gulf,1962,Oil,Gb,193.475
+group,Persian Gulf,1963,Oil,Gb,206.45
+group,Persian Gulf,1964,Oil,Gb,210.17499999999998
+group,Persian Gulf,1965,Oil,Gb,212.9
+group,Persian Gulf,1966,Oil,Gb,232.4
+group,Persian Gulf,1967,Oil,Gb,244.25
+group,Persian Gulf,1968,Oil,Gb,265.875
+group,Persian Gulf,1969,Oil,Gb,326.0
+group,Persian Gulf,1970,Oil,Gb,330.383
+group,Persian Gulf,1971,Oil,Gb,338.6433515
+group,Persian Gulf,1972,Oil,Gb,342.668
+group,Persian Gulf,1973,Oil,Gb,342.338387
+group,Persian Gulf,1974,Oil,Gb,395.52000000000004
+group,Persian Gulf,1975,Oil,Gb,378.617479
+group,Persian Gulf,1976,Oil,Gb,371.878233316
+group,Persian Gulf,1977,Oil,Gb,368.695267991
+group,Persian Gulf,1978,Oil,Gb,365.88399999999996
+group,Persian Gulf,1979,Oil,Gb,358.0143
+group,Persian Gulf,1980,Oil,Gb,358.25100000000003
+group,Persian Gulf,1981,Oil,Gb,360.226
+group,Persian Gulf,1982,Oil,Gb,383.560705
+group,Persian Gulf,1983,Oil,Gb,391.7745
+group,Persian Gulf,1984,Oil,Gb,425.284
+group,Persian Gulf,1985,Oil,Gb,425.444
+group,Persian Gulf,1986,Oil,Gb,530.828867
+group,Persian Gulf,1987,Oil,Gb,559.575
+group,Persian Gulf,1988,Oil,Gb,644.979
+group,Persian Gulf,1989,Oil,Gb,652.64
+group,Persian Gulf,1990,Oil,Gb,651.31
+group,Persian Gulf,1991,Oil,Gb,651.389
+group,Persian Gulf,1992,Oil,Gb,651.784
+group,Persian Gulf,1993,Oil,Gb,651.936
+group,Persian Gulf,1994,Oil,Gb,653.774
+group,Persian Gulf,1995,Oil,Gb,653.4499999999999
+group,Persian Gulf,1996,Oil,Gb,664.044
+group,Persian Gulf,1997,Oil,Gb,664.641
+group,Persian Gulf,1998,Oil,Gb,665.742
+group,Persian Gulf,1999,Oil,Gb,666.384
+group,Persian Gulf,2000,Oil,Gb,682.253
+group,Persian Gulf,2001,Oil,Gb,686.284
+group,Persian Gulf,2002,Oil,Gb,717.987
+group,Persian Gulf,2003,Oil,Gb,733.869
+group,Persian Gulf,2004,Oil,Gb,736.564
+group,Persian Gulf,2005,Oil,Gb,740.069
+group,Persian Gulf,2006,Oil,Gb,743.136
+group,Persian Gulf,2007,Oil,Gb,739.749
+group,Persian Gulf,2008,Oil,Gb,741.3879999999999
+group,Persian Gulf,2009,Oil,Gb,741.2819
+group,Persian Gulf,2010,Oil,Gb,783.4679
+group,Persian Gulf,2011,Oil,Gb,786.0169999999999
+group,Persian Gulf,2012,Oil,Gb,787.994
+group,Persian Gulf,2013,Oil,Gb,792.3439999999999
+group,Persian Gulf,2014,Oil,Gb,791.7213999999999
+group,Persian Gulf,2015,Oil,Gb,791.9019999999999
+group,Persian Gulf,2016,Oil,Gb,796.7175
+group,Persian Gulf,2017,Oil,Gb,793.627
+group,Persian Gulf,2018,Oil,Gb,792.189
+group,Persian Gulf,2019,Oil,Gb,852.4359999999999
+group,Persian Gulf,2020,Oil,Gb,854.4449999999999
+group,Persian Gulf,2021,Oil,Gb,858.5550000000001
+group,Persian Gulf,2022,Oil,Gb,860.5550000000001
+group,Persian Gulf,2023,Oil,Gb,860.5930000000001
+zone,Africa,1960,Oil,Gb,7.99
+zone,Africa,1961,Oil,Gb,9.6
+zone,Africa,1962,Oil,Gb,12.26
+zone,Africa,1963,Oil,Gb,16.31
+zone,Africa,1964,Oil,Gb,19.46
+zone,Africa,1965,Oil,Gb,22.881
+zone,Africa,1966,Oil,Gb,32.297
+zone,Africa,1967,Oil,Gb,42.06
+zone,Africa,1968,Oil,Gb,44.09
+zone,Africa,1969,Oil,Gb,47.876
+zone,Africa,1970,Oil,Gb,50.548
+zone,Africa,1971,Oil,Gb,54.025999999999996
+zone,Africa,1972,Oil,Gb,58.2397
+zone,Africa,1973,Oil,Gb,60.5617
+zone,Africa,1974,Oil,Gb,59.3721
+zone,Africa,1975,Oil,Gb,57.8716
+zone,Africa,1976,Oil,Gb,53.8348
+zone,Africa,1977,Oil,Gb,52.5184
+zone,Africa,1978,Oil,Gb,51.7299
+zone,Africa,1979,Oil,Gb,52.018699999999995
+zone,Africa,1980,Oil,Gb,50.615899999999996
+zone,Africa,1981,Oil,Gb,53.6745
+zone,Africa,1982,Oil,Gb,55.0892
+zone,Africa,1983,Oil,Gb,54.6593
+zone,Africa,1984,Oil,Gb,53.9811
+zone,Africa,1985,Oil,Gb,53.5745
+zone,Africa,1986,Oil,Gb,54.128
+zone,Africa,1987,Oil,Gb,54.659
+zone,Africa,1988,Oil,Gb,55.271
+zone,Africa,1989,Oil,Gb,55.517
+zone,Africa,1990,Oil,Gb,56.168
+zone,Africa,1991,Oil,Gb,59.132
+zone,Africa,1992,Oil,Gb,59.9615
+zone,Africa,1993,Oil,Gb,60.0835
+zone,Africa,1994,Oil,Gb,62.8295
+zone,Africa,1995,Oil,Gb,70.3779
+zone,Africa,1996,Oil,Gb,72.9839
+zone,Africa,1997,Oil,Gb,73.347
+zone,Africa,1998,Oil,Gb,75.989013
+zone,Africa,1999,Oil,Gb,83.519013
+zone,Africa,2000,Oil,Gb,91.238913
+zone,Africa,2001,Oil,Gb,100.003913
+zone,Africa,2002,Oil,Gb,105.068
+zone,Africa,2003,Oil,Gb,109.85687
+zone,Africa,2004,Oil,Gb,111.15123
+zone,Africa,2005,Oil,Gb,114.982
+zone,Africa,2006,Oil,Gb,116.219
+zone,Africa,2007,Oil,Gb,118.9734
+zone,Africa,2008,Oil,Gb,119.851
+zone,Africa,2009,Oil,Gb,120.327
+zone,Africa,2010,Oil,Gb,120.65700000000001
+zone,Africa,2011,Oil,Gb,120.521
+zone,Africa,2012,Oil,Gb,121.771
+zone,Africa,2013,Oil,Gb,121.923
+zone,Africa,2014,Oil,Gb,121.082
+zone,Africa,2015,Oil,Gb,121.704
+zone,Africa,2016,Oil,Gb,122.005
+zone,Africa,2017,Oil,Gb,120.807
+zone,Africa,2018,Oil,Gb,120.102
+zone,Africa,2019,Oil,Gb,118.358
+zone,Africa,2020,Oil,Gb,117.69
+zone,Africa,2021,Oil,Gb,113.34
+zone,Africa,2022,Oil,Gb,113.291
+zone,Africa,2023,Oil,Gb,113.824
+zone,Asia and Oceania,1960,Oil,Gb,11.661
+zone,Asia and Oceania,1961,Oil,Gb,11.512
+zone,Asia and Oceania,1962,Oil,Gb,12.21
+zone,Asia and Oceania,1963,Oil,Gb,12.46
+zone,Asia and Oceania,1964,Oil,Gb,12.7096
+zone,Asia and Oceania,1965,Oil,Gb,12.810999999999998
+zone,Asia and Oceania,1966,Oil,Gb,13.8359
+zone,Asia and Oceania,1967,Oil,Gb,13.852
+zone,Asia and Oceania,1968,Oil,Gb,16.453
+zone,Asia and Oceania,1969,Oil,Gb,15.515
+zone,Asia and Oceania,1970,Oil,Gb,17.096
+zone,Asia and Oceania,1971,Oil,Gb,24.692
+zone,Asia and Oceania,1972,Oil,Gb,24.872
+zone,Asia and Oceania,1973,Oil,Gb,26.874
+zone,Asia and Oceania,1974,Oil,Gb,31.171
+zone,Asia and Oceania,1975,Oil,Gb,33.083127499999996
+zone,Asia and Oceania,1976,Oil,Gb,35.321806606
+zone,Asia and Oceania,1977,Oil,Gb,34.492359301
+zone,Asia and Oceania,1978,Oil,Gb,35.353951660999996
+zone,Asia and Oceania,1979,Oil,Gb,32.822866381000004
+zone,Asia and Oceania,1980,Oil,Gb,34.103244281
+zone,Asia and Oceania,1981,Oil,Gb,34.1468
+zone,Asia and Oceania,1982,Oil,Gb,34.578966531
+zone,Asia and Oceania,1983,Oil,Gb,35.65457
+zone,Asia and Oceania,1984,Oil,Gb,36.710371431
+zone,Asia and Oceania,1985,Oil,Gb,37.259298931000004
+zone,Asia and Oceania,1986,Oil,Gb,37.5257275
+zone,Asia and Oceania,1987,Oil,Gb,38.2120725
+zone,Asia and Oceania,1988,Oil,Gb,38.591730000000005
+zone,Asia and Oceania,1989,Oil,Gb,33.802183
+zone,Asia and Oceania,1990,Oil,Gb,34.4791375
+zone,Asia and Oceania,1991,Oil,Gb,35.659487500000004
+zone,Asia and Oceania,1992,Oil,Gb,35.580195
+zone,Asia and Oceania,1993,Oil,Gb,36.645415
+zone,Asia and Oceania,1994,Oil,Gb,36.6845975
+zone,Asia and Oceania,1995,Oil,Gb,36.3561475
+zone,Asia and Oceania,1996,Oil,Gb,36.4153475
+zone,Asia and Oceania,1997,Oil,Gb,37.55746
+zone,Asia and Oceania,1998,Oil,Gb,39.21687
+zone,Asia and Oceania,1999,Oil,Gb,40.876481
+zone,Asia and Oceania,2000,Oil,Gb,41.011413
+zone,Asia and Oceania,2001,Oil,Gb,41.68097
+zone,Asia and Oceania,2002,Oil,Gb,38.831531
+zone,Asia and Oceania,2003,Oil,Gb,38.1261525
+zone,Asia and Oceania,2004,Oil,Gb,41.377939000000005
+zone,Asia and Oceania,2005,Oil,Gb,41.55084
+zone,Asia and Oceania,2006,Oil,Gb,43.60482
+zone,Asia and Oceania,2007,Oil,Gb,43.16766
+zone,Asia and Oceania,2008,Oil,Gb,46.6339
+zone,Asia and Oceania,2009,Oil,Gb,44.6641
+zone,Asia and Oceania,2010,Oil,Gb,46.21078
+zone,Asia and Oceania,2011,Oil,Gb,46.20294
+zone,Asia and Oceania,2012,Oil,Gb,46.52897
+zone,Asia and Oceania,2013,Oil,Gb,46.5966
+zone,Asia and Oceania,2014,Oil,Gb,45.33484
+zone,Asia and Oceania,2015,Oil,Gb,44.638122
+zone,Asia and Oceania,2016,Oil,Gb,44.962
+zone,Asia and Oceania,2017,Oil,Gb,44.922000000000004
+zone,Asia and Oceania,2018,Oil,Gb,45.010000000000005
+zone,Asia and Oceania,2019,Oil,Gb,45.217
+zone,Asia and Oceania,2020,Oil,Gb,44.598
+zone,Asia and Oceania,2021,Oil,Gb,44.267
+zone,Asia and Oceania,2022,Oil,Gb,43.626
+zone,Asia and Oceania,2023,Oil,Gb,45.010999999999996
+zone,Central and South America,1960,Oil,Gb,21.89
+zone,Central and South America,1961,Oil,Gb,21.205000000000002
+zone,Central and South America,1962,Oil,Gb,20.725
+zone,Central and South America,1963,Oil,Gb,20.725
+zone,Central and South America,1964,Oil,Gb,21.35
+zone,Central and South America,1965,Oil,Gb,21.37
+zone,Central and South America,1966,Oil,Gb,23.198
+zone,Central and South America,1967,Oil,Gb,22.78
+zone,Central and South America,1968,Oil,Gb,21.611
+zone,Central and South America,1969,Oil,Gb,22.012
+zone,Central and South America,1970,Oil,Gb,21.9
+zone,Central and South America,1971,Oil,Gb,24.793
+zone,Central and South America,1972,Oil,Gb,27.051000000000002
+zone,Central and South America,1973,Oil,Gb,24.342
+zone,Central and South America,1974,Oil,Gb,25.288
+zone,Central and South America,1975,Oil,Gb,24.8396
+zone,Central and South America,1976,Oil,Gb,24.035
+zone,Central and South America,1977,Oil,Gb,24.462000000000003
+zone,Central and South America,1978,Oil,Gb,24.148000000000003
+zone,Central and South America,1979,Oil,Gb,24.353
+zone,Central and South America,1980,Oil,Gb,25.347700000000003
+zone,Central and South America,1981,Oil,Gb,25.407000000000004
+zone,Central and South America,1982,Oil,Gb,30.910999999999998
+zone,Central and South America,1983,Oil,Gb,32.0401
+zone,Central and South America,1984,Oil,Gb,34.9871
+zone,Central and South America,1985,Oil,Gb,61.5645
+zone,Central and South America,1986,Oil,Gb,62.8573
+zone,Central and South America,1987,Oil,Gb,66.5004
+zone,Central and South America,1988,Oil,Gb,67.2778
+zone,Central and South America,1989,Oil,Gb,67.7498
+zone,Central and South America,1990,Oil,Gb,69.7209
+zone,Central and South America,1991,Oil,Gb,72.8593
+zone,Central and South America,1992,Oil,Gb,77.0848
+zone,Central and South America,1993,Oil,Gb,78.76339999999999
+zone,Central and South America,1994,Oil,Gb,79.4341
+zone,Central and South America,1995,Oil,Gb,81.5753
+zone,Central and South America,1996,Oil,Gb,88.4868
+zone,Central and South America,1997,Oil,Gb,91.0588
+zone,Central and South America,1998,Oil,Gb,92.948367
+zone,Central and South America,1999,Oil,Gb,94.93907999999999
+zone,Central and South America,2000,Oil,Gb,94.97408
+zone,Central and South America,2001,Oil,Gb,95.67099999999999
+zone,Central and South America,2002,Oil,Gb,97.505
+zone,Central and South America,2003,Oil,Gb,97.955186
+zone,Central and South America,2004,Oil,Gb,100.606179
+zone,Central and South America,2005,Oil,Gb,100.887
+zone,Central and South America,2006,Oil,Gb,108.8126
+zone,Central and South America,2007,Oil,Gb,122.6164
+zone,Central and South America,2008,Oil,Gb,194.832
+zone,Central and South America,2009,Oil,Gb,233.615193
+zone,Central and South America,2010,Oil,Gb,319.70674399999996
+zone,Central and South America,2011,Oil,Gb,323.202
+zone,Central and South America,2012,Oil,Gb,324.279
+zone,Central and South America,2013,Oil,Gb,327.57890000000003
+zone,Central and South America,2014,Oil,Gb,328.71937
+zone,Central and South America,2015,Oil,Gb,330.172802
+zone,Central and South America,2016,Oil,Gb,327.8598
+zone,Central and South America,2017,Oil,Gb,327.69300000000004
+zone,Central and South America,2018,Oil,Gb,328.863
+zone,Central and South America,2019,Oil,Gb,330.013
+zone,Central and South America,2020,Oil,Gb,329.21799999999996
+zone,Central and South America,2021,Oil,Gb,328.012
+zone,Central and South America,2022,Oil,Gb,329.764
+zone,Central and South America,2023,Oil,Gb,331.28499999999997
+zone,Eurasia,1996,Oil,Gb,8.328
+zone,Eurasia,1997,Oil,Gb,8.328
+zone,Eurasia,1998,Oil,Gb,27.931
+zone,Eurasia,1999,Oil,Gb,27.931
+zone,Eurasia,2000,Oil,Gb,27.931
+zone,Eurasia,2001,Oil,Gb,48.352999999999994
+zone,Eurasia,2002,Oil,Gb,48.352999999999994
+zone,Eurasia,2003,Oil,Gb,48.352999999999994
+zone,Eurasia,2004,Oil,Gb,48.352999999999994
+zone,Eurasia,2005,Oil,Gb,48.561
+zone,Eurasia,2006,Oil,Gb,48.615
+zone,Eurasia,2007,Oil,Gb,38.787
+zone,Eurasia,2008,Oil,Gb,38.787
+zone,Eurasia,2009,Oil,Gb,38.787
+zone,Eurasia,2010,Oil,Gb,38.787
+zone,Eurasia,2011,Oil,Gb,38.787
+zone,Eurasia,2012,Oil,Gb,38.787
+zone,Eurasia,2013,Oil,Gb,38.787
+zone,Eurasia,2014,Oil,Gb,38.787
+zone,Eurasia,2015,Oil,Gb,38.787
+zone,Eurasia,2016,Oil,Gb,38.787
+zone,Eurasia,2017,Oil,Gb,38.787
+zone,Eurasia,2018,Oil,Gb,38.787
+zone,Eurasia,2019,Oil,Gb,38.787
+zone,Eurasia,2020,Oil,Gb,38.787
+zone,Eurasia,2021,Oil,Gb,38.787
+zone,Eurasia,2022,Oil,Gb,38.787
+zone,Eurasia,2023,Oil,Gb,38.787
+zone,Europe,1960,Oil,Gb,0.005
+zone,Europe,1961,Oil,Gb,0.005
+zone,Europe,1962,Oil,Gb,0.005
+zone,Europe,1963,Oil,Gb,0.005
+zone,Europe,1964,Oil,Gb,0.005
+zone,Europe,1965,Oil,Gb,0.005
+zone,Europe,1966,Oil,Gb,0.005
+zone,Europe,1967,Oil,Gb,0.01
+zone,Europe,1968,Oil,Gb,0.009
+zone,Europe,1969,Oil,Gb,0.009
+zone,Europe,1970,Oil,Gb,4.5
+zone,Europe,1971,Oil,Gb,5.25
+zone,Europe,1972,Oil,Gb,8.25
+zone,Europe,1973,Oil,Gb,15.1485
+zone,Europe,1974,Oil,Gb,15.271999999999998
+zone,Europe,1975,Oil,Gb,17.072
+zone,Europe,1976,Oil,Gb,15.856000000000002
+zone,Europe,1977,Oil,Gb,16.37
+zone,Europe,1978,Oil,Gb,14.934999999999999
+zone,Europe,1979,Oil,Gb,14.88
+zone,Europe,1980,Oil,Gb,13.850000000000001
+zone,Europe,1981,Oil,Gb,12.843
+zone,Europe,1982,Oil,Gb,12.274000000000001
+zone,Europe,1983,Oil,Gb,13.07
+zone,Europe,1984,Oil,Gb,12.477
+zone,Europe,1985,Oil,Gb,12.154
+zone,Europe,1986,Oil,Gb,13.71
+zone,Europe,1987,Oil,Gb,14.837
+zone,Europe,1988,Oil,Gb,14.301
+zone,Europe,1989,Oil,Gb,13.806999999999999
+zone,Europe,1990,Oil,Gb,14.555
+zone,Europe,1991,Oil,Gb,14.673
+zone,Europe,1992,Oil,Gb,15.445
+zone,Europe,1993,Oil,Gb,15.436000000000002
+zone,Europe,1994,Oil,Gb,17.345
+zone,Europe,1995,Oil,Gb,19.062
+zone,Europe,1996,Oil,Gb,17.13
+zone,Europe,1997,Oil,Gb,17.031
+zone,Europe,1998,Oil,Gb,16.384999999999998
+zone,Europe,1999,Oil,Gb,16.815
+zone,Europe,2000,Oil,Gb,17.211
+zone,Europe,2001,Oil,Gb,17.481
+zone,Europe,2002,Oil,Gb,16.188
+zone,Europe,2003,Oil,Gb,15.709
+zone,Europe,2004,Oil,Gb,15.047
+zone,Europe,2005,Oil,Gb,14.843999999999998
+zone,Europe,2006,Oil,Gb,13.298
+zone,Europe,2007,Oil,Gb,12.873999999999999
+zone,Europe,2008,Oil,Gb,12.193999999999999
+zone,Europe,2009,Oil,Gb,11.238000000000001
+zone,Europe,2010,Oil,Gb,10.416
+zone,Europe,2011,Oil,Gb,10.583
+zone,Europe,2012,Oil,Gb,11.1
+zone,Europe,2013,Oil,Gb,10.83117
+zone,Europe,2014,Oil,Gb,10.13214
+zone,Europe,2015,Oil,Gb,11.270685
+zone,Europe,2016,Oil,Gb,10.655999999999999
+zone,Europe,2017,Oil,Gb,10.857
+zone,Europe,2018,Oil,Gb,11.573
+zone,Europe,2019,Oil,Gb,11.664000000000001
+zone,Europe,2020,Oil,Gb,10.843
+zone,Europe,2021,Oil,Gb,10.173
+zone,Europe,2022,Oil,Gb,9.713000000000001
+zone,Europe,2023,Oil,Gb,9.488
+zone,Middle East,1960,Oil,Gb,182.75
+zone,Middle East,1961,Oil,Gb,187.75
+zone,Middle East,1962,Oil,Gb,193.475
+zone,Middle East,1963,Oil,Gb,206.45
+zone,Middle East,1964,Oil,Gb,210.67499999999998
+zone,Middle East,1965,Oil,Gb,213.4
+zone,Middle East,1966,Oil,Gb,232.9
+zone,Middle East,1967,Oil,Gb,246.75
+zone,Middle East,1968,Oil,Gb,268.375
+zone,Middle East,1969,Oil,Gb,331.0
+zone,Middle East,1970,Oil,Gb,334.383
+zone,Middle East,1971,Oil,Gb,343.8433515
+zone,Middle East,1972,Oil,Gb,347.668
+zone,Middle East,1973,Oil,Gb,347.588387
+zone,Middle East,1974,Oil,Gb,401.52000000000004
+zone,Middle East,1975,Oil,Gb,384.517479
+zone,Middle East,1976,Oil,Gb,377.678233316
+zone,Middle East,1977,Oil,Gb,374.345267991
+zone,Middle East,1978,Oil,Gb,368.38399999999996
+zone,Middle East,1979,Oil,Gb,360.41429999999997
+zone,Middle East,1980,Oil,Gb,360.744
+zone,Middle East,1981,Oil,Gb,363.134
+zone,Middle East,1982,Oil,Gb,386.55170499999997
+zone,Middle East,1983,Oil,Gb,395.2745
+zone,Middle East,1984,Oil,Gb,429.13599999999997
+zone,Middle East,1985,Oil,Gb,429.47
+zone,Middle East,1986,Oil,Gb,534.8008669999999
+zone,Middle East,1987,Oil,Gb,563.663
+zone,Middle East,1988,Oil,Gb,649.098
+zone,Middle East,1989,Oil,Gb,656.909
+zone,Middle East,1990,Oil,Gb,655.6709999999999
+zone,Middle East,1991,Oil,Gb,655.86
+zone,Middle East,1992,Oil,Gb,656.5319999999999
+zone,Middle East,1993,Oil,Gb,656.9060000000001
+zone,Middle East,1994,Oil,Gb,658.912
+zone,Middle East,1995,Oil,Gb,658.622
+zone,Middle East,1996,Oil,Gb,669.282
+zone,Middle East,1997,Oil,Gb,670.0409999999999
+zone,Middle East,1998,Oil,Gb,671.1419999999999
+zone,Middle East,1999,Oil,Gb,672.084
+zone,Middle East,2000,Oil,Gb,688.101
+zone,Middle East,2001,Oil,Gb,692.184
+zone,Middle East,2002,Oil,Gb,723.693
+zone,Middle East,2003,Oil,Gb,739.441
+zone,Middle East,2004,Oil,Gb,742.136
+zone,Middle East,2005,Oil,Gb,745.641
+zone,Middle East,2006,Oil,Gb,748.708
+zone,Middle East,2007,Oil,Gb,745.321
+zone,Middle East,2008,Oil,Gb,746.9599999999999
+zone,Middle East,2009,Oil,Gb,746.7819
+zone,Middle East,2010,Oil,Gb,788.9679
+zone,Middle East,2011,Oil,Gb,791.5169999999999
+zone,Middle East,2012,Oil,Gb,793.494
+zone,Middle East,2013,Oil,Gb,797.3183
+zone,Middle East,2014,Oil,Gb,796.8724
+zone,Middle East,2015,Oil,Gb,797.208
+zone,Middle East,2016,Oil,Gb,802.0905
+zone,Middle East,2017,Oil,Gb,799.0
+zone,Middle East,2018,Oil,Gb,797.562
+zone,Middle East,2019,Oil,Gb,857.809
+zone,Middle East,2020,Oil,Gb,859.818
+zone,Middle East,2021,Oil,Gb,863.928
+zone,Middle East,2022,Oil,Gb,865.4110000000001
+zone,Middle East,2023,Oil,Gb,865.498
+zone,North America,1960,Oil,Gb,38.8632
+zone,North America,1961,Oil,Gb,39.2585
+zone,North America,1962,Oil,Gb,38.4892
+zone,North America,1963,Oil,Gb,39.144999999999996
+zone,North America,1964,Oil,Gb,39.0715
+zone,North America,1965,Oil,Gb,41.3524
+zone,North America,1966,Oil,Gb,42.2021
+zone,North America,1967,Oil,Gb,42.768499999999996
+zone,North America,1968,Oil,Gb,46.1071
+zone,North America,1969,Oil,Gb,44.4139
+zone,North America,1970,Oil,Gb,52.9513
+zone,North America,1971,Oil,Gb,51.011300000000006
+zone,North America,1972,Oil,Gb,49.339400000000005
+zone,North America,1973,Oil,Gb,48.324000000000005
+zone,North America,1974,Oil,Gb,45.232
+zone,North America,1975,Oil,Gb,49.282000000000004
+zone,North America,1976,Oil,Gb,44.1422
+zone,North America,1977,Oil,Gb,51.78
+zone,North America,1978,Oil,Gb,53.355000000000004
+zone,North America,1979,Oil,Gb,67.86
+zone,North America,1980,Oil,Gb,83.83449999999999
+zone,North America,1981,Oil,Gb,92.407
+zone,North America,1982,Oil,Gb,91.545
+zone,North America,1983,Oil,Gb,91.2637
+zone,North America,1984,Oil,Gb,90.8252
+zone,North America,1985,Oil,Gb,89.7694
+zone,North America,1986,Oil,Gb,87.7092
+zone,North America,1987,Oil,Gb,87.2794
+zone,North America,1988,Oil,Gb,85.9705
+zone,North America,1989,Oil,Gb,84.3838
+zone,North America,1990,Oil,Gb,83.1371
+zone,North America,1991,Oil,Gb,80.8986
+zone,North America,1992,Oil,Gb,80.0631
+zone,North America,1993,Oil,Gb,78.7685
+zone,North America,1994,Oil,Gb,77.1305
+zone,North America,1995,Oil,Gb,76.0406
+zone,North America,1996,Oil,Gb,75.3282
+zone,North America,1997,Oil,Gb,75.2988
+zone,North America,1998,Oil,Gb,54.309799999999996
+zone,North America,1999,Oil,Gb,54.72880000000001
+zone,North America,2000,Oil,Gb,51.2849
+zone,North America,2001,Oil,Gb,52.5261
+zone,North America,2002,Oil,Gb,44.363
+zone,North America,2003,Oil,Gb,42.184999999999995
+zone,North America,2004,Oil,Gb,40.525999999999996
+zone,North America,2005,Oil,Gb,40.635000000000005
+zone,North America,2006,Oil,Gb,38.764
+zone,North America,2007,Oil,Gb,38.51845
+zone,North America,2008,Oil,Gb,35.798
+zone,North America,2009,Oil,Gb,36.873
+zone,North America,2010,Oil,Gb,39.103
+zone,North America,2011,Oil,Gb,40.827
+zone,North America,2012,Oil,Gb,44.845
+zone,North America,2013,Oil,Gb,47.725
+zone,North America,2014,Oil,Gb,50.32599999999999
+zone,North America,2015,Oil,Gb,46.382999999999996
+zone,North America,2016,Oil,Gb,44.333000000000006
+zone,North America,2017,Oil,Gb,51.12
+zone,North America,2018,Oil,Gb,54.823
+zone,North America,2019,Oil,Gb,54.43000000000001
+zone,North America,2020,Oil,Gb,46.252
+zone,North America,2021,Oil,Gb,52.083
+zone,North America,2022,Oil,Gb,55.56
+zone,North America,2023,Oil,Gb,58.114999999999995
+zone,World,1960,Oil,Gb,263.1592
+zone,World,1961,Oil,Gb,269.33050000000003
+zone,World,1962,Oil,Gb,277.1642
+zone,World,1963,Oil,Gb,295.09499999999997
+zone,World,1964,Oil,Gb,303.2711
+zone,World,1965,Oil,Gb,311.81940000000003
+zone,World,1966,Oil,Gb,344.438
+zone,World,1967,Oil,Gb,368.2205
+zone,World,1968,Oil,Gb,396.6451
+zone,World,1969,Oil,Gb,460.8259
+zone,World,1970,Oil,Gb,481.37829999999997
+zone,World,1971,Oil,Gb,503.6156515
+zone,World,1972,Oil,Gb,515.4201
+zone,World,1973,Oil,Gb,522.838587
+zone,World,1974,Oil,Gb,577.8551
+zone,World,1975,Oil,Gb,566.6658065
+zone,World,1976,Oil,Gb,550.868039922
+zone,World,1977,Oil,Gb,553.968027292
+zone,World,1978,Oil,Gb,547.905851661
+zone,World,1979,Oil,Gb,552.348866381
+zone,World,1980,Oil,Gb,568.495344281
+zone,World,1981,Oil,Gb,581.6123
+zone,World,1982,Oil,Gb,610.949871531
+zone,World,1983,Oil,Gb,621.96217
+zone,World,1984,Oil,Gb,658.116771431
+zone,World,1985,Oil,Gb,683.791698931
+zone,World,1986,Oil,Gb,790.7310944999999
+zone,World,1987,Oil,Gb,825.1508725
+zone,World,1988,Oil,Gb,910.51003
+zone,World,1989,Oil,Gb,912.168783
+zone,World,1990,Oil,Gb,913.7311375
+zone,World,1991,Oil,Gb,919.0823875
+zone,World,1992,Oil,Gb,924.666595
+zone,World,1993,Oil,Gb,926.6028150000001
+zone,World,1994,Oil,Gb,932.3356975
+zone,World,1995,Oil,Gb,942.0339475
+zone,World,1996,Oil,Gb,967.9542475
+zone,World,1997,Oil,Gb,972.66206
+zone,World,1998,Oil,Gb,977.9220499999999
+zone,World,1999,Oil,Gb,990.893374
+zone,World,2000,Oil,Gb,1011.752306
+zone,World,2001,Oil,Gb,1047.899983
+zone,World,2002,Oil,Gb,1074.001531
+zone,World,2003,Oil,Gb,1091.6262085
+zone,World,2004,Oil,Gb,1099.197348
+zone,World,2005,Oil,Gb,1107.10084
+zone,World,2006,Oil,Gb,1118.02142
+zone,World,2007,Oil,Gb,1120.25791
+zone,World,2008,Oil,Gb,1195.0559
+zone,World,2009,Oil,Gb,1232.286193
+zone,World,2010,Oil,Gb,1363.848424
+zone,World,2011,Oil,Gb,1371.63994
+zone,World,2012,Oil,Gb,1380.8049700000001
+zone,World,2013,Oil,Gb,1390.75997
+zone,World,2014,Oil,Gb,1391.25375
+zone,World,2015,Oil,Gb,1390.163609
+zone,World,2016,Oil,Gb,1390.6933
+zone,World,2017,Oil,Gb,1393.186
+zone,World,2018,Oil,Gb,1396.72
+zone,World,2019,Oil,Gb,1456.278
+zone,World,2020,Oil,Gb,1447.206
+zone,World,2021,Oil,Gb,1450.5900000000001
+zone,World,2022,Oil,Gb,1456.152
+zone,World,2023,Oil,Gb,1462.008
