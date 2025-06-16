@@ -1,11 +1,13 @@
+import os
 import pandas as pd
 
 from sdp_data_preparation.countries_and_zones import CountryNameTranslator
 
 
-def stage_proven_reserves_gas(input_data_filepath: str) -> pd.DataFrame:
-    raw_proven_reserves_gas = pd.read_excel(input_data_filepath)
-    df = _set_columns(raw_proven_reserves_gas)
+def stage_yearly_proven_reserves_gas(opec_data_path: str) -> pd.DataFrame:
+    filepath = os.path.join(opec_data_path, "raw_yearly_proven_reserves_gas.xlsx")
+    yearly_proven_reserves_gas = pd.read_excel(filepath)
+    df = _set_columns(yearly_proven_reserves_gas)
     df = _drop_unnecessary_lines(df)
     df = _translate_country(df)
     df = _column_to_line(df)

@@ -1,1 +1,1 @@
-from .stg_proven_reserves import stage_proven_reserves
+from .stg_yearly_proven_reserves import stage_yearly_proven_reserves

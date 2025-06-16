@@ -1,14 +1,18 @@
+import os
+
 import pandas as pd
 
 from sdp_data_preparation.countries_and_zones import StatisticsPerCountriesAndZonesProcessor
 from sdp_data_preparation.utils import StatisticsDataframeFormatter
 
 
-def stage_proven_reserves(
-        proven_reserves_gas_filepath: str,
-        countries_and_zones_filepath: str,
-) -> pd.DataFrame:
-    proven_reserves_by_country = pd.read_csv(proven_reserves_gas_filepath)
+def stage_yearly_proven_reserves(project_root_path: str) -> pd.DataFrame:
+    proven_reserves_filepath = os.path.join(
+        project_root_path,
+        "data/opec/stg_yearly_proven_reserves_gas.csv"
+    )
+    countries_and_zones_filepath = os.path.join(project_root_path, "data/countries/countries_and_zones.csv")
+    proven_reserves_by_country = pd.read_csv(proven_reserves_filepath)
     countries_and_zones = pd.read_csv(countries_and_zones_filepath)
 
     processor = StatisticsPerCountriesAndZonesProcessor(
