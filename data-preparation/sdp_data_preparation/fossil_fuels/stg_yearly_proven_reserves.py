@@ -15,7 +15,8 @@ def stage_yearly_proven_reserves(project_root_path: str) -> pd.DataFrame:
         df=yearly_proven_reserves,
         col_statistics="proven_reserves",
     )
-    return formatter.run()
+    df = formatter.run()
+    return df[["group_type", "group_name", "energy_source", "year", "proven_reserves", "proven_reserves_unit"]]
 
 
 def _get_yearly_proven_reserves(project_root_path: str, fossil_fuel: str) -> pd.DataFrame:
