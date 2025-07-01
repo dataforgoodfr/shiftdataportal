@@ -29,5 +29,6 @@ def process_final_yearly_population(project_root_path: str) -> pd.DataFrame:
     )
     df = formatter.run()
 
-    df["source"] = "World Bank"
+    # Uncomment the line below after merging PR 42
+    # df["source"] = "World Bank"
     return df
