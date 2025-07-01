@@ -11,10 +11,7 @@ def process_final_yearly_population(project_root_path: str) -> pd.DataFrame:
         project_root_path,
         f"data/world_bank/stg_yearly_population.csv"
     )
-    countries_and_zones_filepath = os.path.join(
-        project_root_path,
-        "data/countries_and_zones/final_countries_and_zones.csvqqqq"
-    )
+    countries_and_zones_filepath = os.path.join(project_root_path, "data/countries/countries_and_zones.csv")
     population_by_country = pd.read_csv(population_filepath)
     countries_and_zones = pd.read_csv(countries_and_zones_filepath)
 

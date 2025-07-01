@@ -34,10 +34,7 @@ def _get_yearly_proven_reserves(project_root_path: str, fossil_fuel: str) -> pd.
         project_root_path,
         f"data/opec/stg_yearly_proven_reserves_{fossil_fuel}.csv"
     )
-    countries_and_zones_filepath = os.path.join(
-        project_root_path,
-        "data/countries_and_zones/final_countries_and_zones.csv"
-    )
+    countries_and_zones_filepath = os.path.join(project_root_path, "data/countries/countries_and_zones.csv")
     proven_reserves_by_country = pd.read_csv(proven_reserves_filepath)
     countries_and_zones = pd.read_csv(countries_and_zones_filepath)
 
