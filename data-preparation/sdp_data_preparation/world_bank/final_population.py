@@ -6,10 +6,10 @@ from sdp_data_preparation.countries_and_zones import StatisticsPerCountriesAndZo
 from sdp_data_preparation.utils import StatisticsDataframeFormatter
 
 
-def process_final_yearly_population(project_root_path: str) -> pd.DataFrame:
+def process_final_population(project_root_path: str) -> pd.DataFrame:
     population_filepath = os.path.join(
         project_root_path,
-        f"data/gapminder/stg_yearly_population.csv"
+        f"data/world_bank/stg_population.csv"
     )
     countries_and_zones_filepath = os.path.join(project_root_path, "data/countries/countries_and_zones.csv")
     population_by_country = pd.read_csv(population_filepath)
@@ -30,5 +30,5 @@ def process_final_yearly_population(project_root_path: str) -> pd.DataFrame:
     df = formatter.run()
 
     # Uncomment the line below after merging PR 42
-    # df["source"] = "Gapminder"
+    # df["source"] = "World Bank"
     return df

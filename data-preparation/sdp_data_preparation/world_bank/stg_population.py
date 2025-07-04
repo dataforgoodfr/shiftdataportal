@@ -5,10 +5,10 @@ import pandas as pd
 from sdp_data_preparation.countries_and_zones import CountryNameTranslator
 
 
-def stage_yearly_population(data_filepath: str) -> pd.DataFrame:
-    filepath = os.path.join(data_filepath, "raw_yearly_population.csv")
-    yearly_population = pd.read_csv(filepath)
-    df = _select_and_rename_columns(yearly_population)
+def stage_population(data_filepath: str) -> pd.DataFrame:
+    filepath = os.path.join(data_filepath, "raw_population.csv")
+    population = pd.read_csv(filepath)
+    df = _select_and_rename_columns(population)
     df = _translate_country(df)
     return df
 

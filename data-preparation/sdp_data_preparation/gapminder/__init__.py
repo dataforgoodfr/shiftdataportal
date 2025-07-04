@@ -1,2 +1,2 @@
-from .final_yearly_population import process_final_yearly_population
-from .stg_yearly_population import stage_yearly_population
+from .final_population import process_final_population
+from .stg_population import stage_population

@@ -5,10 +5,10 @@ import pandas as pd
 from sdp_data_preparation.countries_and_zones import CountryNameTranslator
 
 
-def stage_yearly_population(data_filepath: str, end_year: int = 2024) -> pd.DataFrame:
-    filepath = os.path.join(data_filepath, "raw_yearly_population.csv")
-    yearly_population = pd.read_csv(filepath)
-    df = _clean_columns_and_rows(yearly_population)
+def stage_population(data_filepath: str, end_year: int = 2024) -> pd.DataFrame:
+    filepath = os.path.join(data_filepath, "raw_population.csv")
+    population = pd.read_csv(filepath)
+    df = _clean_columns_and_rows(population)
     df = _unstack_to_series(df)
     df = _filter_out_projection_years(df, last_estimation_year=end_year)
     df = _translate_country(df)
