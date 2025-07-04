@@ -15,7 +15,6 @@ def stage_yearly_proven_reserves_oil(opec_data_path: str) -> pd.DataFrame:
     df = _convert_from_mb_to_gb(df)
     df = _translate_country(df)
     df = _column_to_line(df)
-    df = _add_columns(df)
     return _add_columns(df)
 
 

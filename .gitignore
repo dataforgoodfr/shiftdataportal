@@ -178,9 +178,6 @@ dmypy.json
 # MacOS stuff
 .DS_Store
 
-# Large files of raw data
-data/_raw/**
-
 # API key
 .github/workflows/api_key.yml
 
@@ -188,6 +185,11 @@ _MISC.ipynb
 .~lock.*
 .idea
 
+
+# Large files of raw data
+data/pik/raw_greenhouse_gas_emissions.csv
+# TODO: clean the list of files below until results/raw_new_data/*
+data/_raw/**
 data/_raw 2/bp/bp_file_energy_review_world.csv
 data/_raw 2/eia/eia_api_ieo_world.csv
 data/_raw 2/eia/eia_api_intl_region.csv
