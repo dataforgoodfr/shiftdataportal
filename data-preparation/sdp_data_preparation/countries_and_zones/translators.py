@@ -1,7 +1,6 @@
 import pandas as pd
 from sdp_data_preparation.utils.iso3166 import countries_by_alpha3
 
-
 # TODO: `mapping_country_names` à refactorer plus proprement à l'aide d'un fichier JSON
 mapping_country_names = {
     "ALM": "ALM SRES",
@@ -291,7 +290,8 @@ mapping_country_names = {
     "Liban": "Lebanon",
     "Liberia": "Liberia",
     "Libyan Arab Jamahiriya": "Libya",
-    "Libye": "Libya", "Libya": "Libya",
+    "Libye": "Libya",
+    "Libya": "Libya",
     "Jamahiriya arabe libyenne": "Libya",
     "Liechtenstein": "Liechtenstein",
     "Lituanie": "Lithuania",
@@ -445,7 +445,6 @@ mapping_country_names = {
     "Réunion": "Reunion",
     "Rwanda": "Rwanda",
     "Saint Helena": "Saint Helena",
-    "Saint Helena, Ascension and Tristan da Cunha": "Saint Helena",
     "Saint Kitts & Nevis": "Saint Kitts and Nevis",
     "Saint Kitts and Nevis": "Saint Kitts and Nevis",
     "St. Kitts and Nevis": "Saint Kitts and Nevis",
@@ -545,7 +544,8 @@ mapping_country_names = {
     "Trinidad": "Trinidad and Tobago",
     "Trinité et Tobago": "Trinidad and Tobago",
     "Trinidad and Tobago": "Trinidad and Tobago",
-    "Tunisia": "Tunisia", "Tunisie": "Tunisia",
+    "Tunisia": "Tunisia",
+    "Tunisie": "Tunisia",
     "Turquie": "Turkey",
     "Turkey": "Turkey",
     "Türkiye": "Turkey",
@@ -611,7 +611,7 @@ mapping_country_names = {
     "Zambia": "Zambia",
     "Zimbabwe": "Zimbabwe",
     "Holy See": "Vatican",
-    r'Holy SeeÂ\xa0(Vatican City State)': "Vatican",
+    r"Holy SeeÂ\xa0(Vatican City State)": "Vatican",
     "Palestinian Territories": "Palestinian Territories",
 }
 
@@ -621,7 +621,9 @@ class CountryNameTranslator:
     def __init__(self):
         self.country_name_translations = mapping_country_names
 
-    def run(self, series_country_to_translate: pd.Series, raise_errors: bool) -> pd.Series:
+    def run(
+        self, series_country_to_translate: pd.Series, raise_errors: bool
+    ) -> pd.Series:
         """
         Maps the country names from the provided Series to standardized names. If no correspondence
         is found in the mapping, the country is replaced by a NaN value.
@@ -629,14 +631,28 @@ class CountryNameTranslator:
         :param raise_errors: (bool) True to raise error if no translation. Else False to ignore.
         :return:
         """
-        series_country_translated = series_country_to_translate.map(self.country_name_translations)
-        countries_no_translating = list(set(series_country_translated[series_country_translated.isnull()].values.tolist()))
+        series_country_translated = series_country_to_translate.map(
+            self.country_name_translations
+        )
+        countries_no_translating = list(
+            set(
+                series_country_translated[
+                    series_country_translated.isnull()
+                ].values.tolist()
+            )
+        )
         if series_country_translated.isnull().sum() > 0:
-            print("WARNING : no translating found for %s countries" % len(countries_no_translating))
+            print(
+                "WARNING : no translating found for %s countries"
+                % len(countries_no_translating)
+            )
             print("Please, check the following list :")
             print(countries_no_translating)
             if raise_errors:
-                raise ValueError("ERROR : no translating found for countries %s" % countries_no_translating)
+                raise ValueError(
+                    "ERROR : no translating found for countries %s"
+                    % countries_no_translating
+                )
 
         return series_country_translated
 
@@ -645,7 +661,9 @@ class CountryIsoCodeTranslator:
 
     def __init__(self) -> None:
         self.countries_by_alpha3 = countries_by_alpha3
-        self.countries_by_alpha3 = {k: v.name for k, v in self.countries_by_alpha3.items()}
+        self.countries_by_alpha3 = {
+            k: v.name for k, v in self.countries_by_alpha3.items()
+        }
 
     def run(self, serie_country_code_to_translate: pd.Series, raise_errors: bool):
         """
@@ -655,13 +673,25 @@ class CountryIsoCodeTranslator:
         :param raise_errors: (bool) True to raise error if no translation. Else False to ignore.
         :return:
         """
-        serie_country_translated = serie_country_code_to_translate.map(self.countries_by_alpha3)
+        serie_country_translated = serie_country_code_to_translate.map(
+            self.countries_by_alpha3
+        )
         countries_no_translating = list(
-            set(serie_country_code_to_translate[serie_country_translated.isnull()].values.tolist()))
+            set(
+                serie_country_code_to_translate[
+                    serie_country_translated.isnull()
+                ].values.tolist()
+            )
+        )
         if serie_country_code_to_translate.isnull().sum() > 0:
             print(
-                "WARN : no translating found for countries %s. Please add it in iso3166.py" % countries_no_translating)
+                "WARN : no translating found for countries %s. Please add it in iso3166.py"
+                % countries_no_translating
+            )
             if raise_errors:
-                raise ValueError("ERROR : no translating found for countries %s" % countries_no_translating)
+                raise ValueError(
+                    "ERROR : no translating found for countries %s"
+                    % countries_no_translating
+                )
 
         return serie_country_translated
