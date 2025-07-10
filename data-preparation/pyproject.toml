@@ -2,19 +2,13 @@
 name = "sdp-data-preparation"
 version = "0.1.0"
 description = "All the steps of the data preparation for the Shift Data Portal: extraction, transformation and loading."
-authors = [
-    {name = "Antoine Dhelft", email=""},
-    {name = "Cherif Yahiaoui", email=""},
-    {name = "Sébastien Bourgeois", email="sebastienbourgeois60@gmail.com"},
-    {name = "Thibaud Vienne", email=""},
-]
+authors = ["Sébastien Bourgeois <sebastienbourgeois60@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
 pandas = "^2.2.1"
 requests = "^2.31.0"
-openpyxl = "^3.1.5"
 
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.0.0"
