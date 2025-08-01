@@ -393,7 +393,7 @@ translations_dictionnary = {"ALM": "ALM SRES",
                         "Zimbabwe": "Zimbabwe",
                         "Holy See": "Vatican",
                         r'Holy SeeÂ\xa0(Vatican City State)': "Vatican",
-                        "Palestinian Territories":"Palestinian Territories"
+                        "Palestinian Territories":"Palestine"
                     }
 
 sector_translations_unfccc = {
