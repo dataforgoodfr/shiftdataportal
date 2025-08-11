@@ -424,6 +424,7 @@ mapping_country_names = {
     "Portugal": "Portugal",
     "Porto Rico": "Puerto Rico",
     "Puerto Rico": "Puerto Rico",
+    "Puerto Rico (US)": "Puerto Rico",
     "Qatar": "Qatar",
     "REF": "REF SRES",
     "REF SRES": "REF SRES",
