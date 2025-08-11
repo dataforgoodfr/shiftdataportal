@@ -7,6 +7,8 @@ repos:
     hooks:
     -   id: check-yaml
     -   id: check-added-large-files
+        # We set the Github's warning limit of 50Mb
+        args: ["--maxkb=50000"]
     -   id: detect-private-key
 -   repo: https://github.com/psf/black
     rev: 25.1.0

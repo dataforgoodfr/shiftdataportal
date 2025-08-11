@@ -7,45 +7,6 @@ from transformation.demographic.countries import StatisticsPerCountriesAndZonesJ
 """
 
 
-class GapMinderPerZoneAndCountryProcessor:
-
-    def __init__(self):
-        self.list_countries_to_drop = ["africa", "asia", "europe", "americas", "Regions", "world"]
-        self.max_year = 2024
-
-    @staticmethod
-    def unstack_dataframe_to_serie(df: pd.DataFrame):
-        df = df.unstack().reset_index()
-        df.columns = ["year", "country", "population"]
-        return df
-
-    def run(self, df_gapminder: pd.DataFrame, df_country: pd.DataFrame) -> pd.DataFrame:
-        """
-        Computes the total gapminder for each year, each country and each geographic zone.
-        :return:
-        """
-        # clean columns and rows
-        print("\n----- compute GapMinder for each country and each zone")
-        df_gapminder = df_gapminder.set_index("name").drop("geo", axis=1)
-        df_gapminder = df_gapminder.loc[~df_gapminder.index.isin(self.list_countries_to_drop)]
-
-        # unstack to a unique pandas serie and filter time
-        df_gapminder = self.unstack_dataframe_to_serie(df_gapminder)
-        df_gapminder["year"] = pd.to_numeric(df_gapminder["year"])
-        df_gapminder = df_gapminder[(df_gapminder["year"].astype(int) <= int(self.max_year)) & (df_gapminder['year'].notnull())]
-
-        # convert countries from french to english
-        df_gapminder["country"] = CountryTranslatorFrenchToEnglish().run(df_gapminder["country"], raise_errors=False)
-
-        # join with countries
-        list_cols_group_by = ['group_type', 'group_name', 'year']
-        dict_aggregation = {'population': 'sum'}
-        df_gapminder_per_zone_and_countries = StatisticsPerCountriesAndZonesJoiner().run(df_gapminder, df_country, list_cols_group_by, dict_aggregation)
-        df_gapminder_per_zone_and_countries = df_gapminder_per_zone_and_countries.sort_values(list_cols_group_by)
-
-        return df_gapminder_per_zone_and_countries
-
-
 class WorldbankPopulationProcessor:
 
     def run(self, df_population: pd.DataFrame, df_country: pd.DataFrame) -> pd.DataFrame:
