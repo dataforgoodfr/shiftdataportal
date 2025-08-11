@@ -1,0 +1,3464 @@
+country,year,proven_reserves,energy_source,proven_reserves_unit
+Canada,1960.0,660.0,Gas,Bcm
+Chile,1960.0,7396.0,Gas,Bcm
+Mexico,1960.0,20.0,Gas,Bcm
+United States of America,1960.0,228.0,Gas,Bcm
+Denmark,1960.0,0.0,Gas,Bcm
+Germany,1960.0,20.0,Gas,Bcm
+Italy,1960.0,90.0,Gas,Bcm
+Netherlands,1960.0,10.0,Gas,Bcm
+Norway,1960.0,0.0,Gas,Bcm
+Poland,1960.0,10.0,Gas,Bcm
+United Kingdom,1960.0,0.0,Gas,Bcm
+Australia,1960.0,0.0,Gas,Bcm
+Japan,1960.0,10.0,Gas,Bcm
+New Zealand,1960.0,5.0,Gas,Bcm
+China,1960.0,40.0,Gas,Bcm
+India,1960.0,15.0,Gas,Bcm
+Bangladesh,1960.0,0.0,Gas,Bcm
+Brunei Darussalam,1960.0,10.0,Gas,Bcm
+Indonesia,1960.0,56.8,Gas,Bcm
+Malaysia,1960.0,0.0,Gas,Bcm
+Burma,1960.0,2.0,Gas,Bcm
+Pakistan,1960.0,350.0,Gas,Bcm
+Thailand,1960.0,0.0,Gas,Bcm
+Viet Nam,1960.0,0.0,Gas,Bcm
+Argentina,1960.0,100.0,Gas,Bcm
+Bolivia,1960.0,7.0,Gas,Bcm
+Brazil,1960.0,3.1,Gas,Bcm
+Colombia,1960.0,10.0,Gas,Bcm
+Ecuador,1960.0,2.1,Gas,Bcm
+Peru,1960.0,20.0,Gas,Bcm
+Trinidad and Tobago,1960.0,20.0,Gas,Bcm
+Venezuela,1960.0,953.0,Gas,Bcm
+Iran,1960.0,1840.0,Gas,Bcm
+Iraq,1960.0,600.0,Gas,Bcm
+Kuwait,1960.0,950.0,Gas,Bcm
+Oman,1960.0,0.0,Gas,Bcm
+Qatar,1960.0,180.0,Gas,Bcm
+Saudi Arabia,1960.0,1302.6,Gas,Bcm
+United Arab Emirates,1960.0,80.0,Gas,Bcm
+Algeria,1960.0,1300.0,Gas,Bcm
+Angola,1960.0,0.0,Gas,Bcm
+Cameroon,1960.0,0.0,Gas,Bcm
+Congo,1960.0,0.1,Gas,Bcm
+Egypt,1960.0,5.0,Gas,Bcm
+Equatorial Guinea,1960.0,0.0,Gas,Bcm
+Gabon,1960.0,0.5,Gas,Bcm
+Libya,1960.0,104.7,Gas,Bcm
+Mozambique,1960.0,0.0,Gas,Bcm
+Nigeria,1960.0,7.1,Gas,Bcm
+Russian Federation & USSR,1960.0,1752.70347533632,Gas,Bcm
+Bulgaria,1960.0,0.0,Gas,Bcm
+Romania,1960.0,493.0,Gas,Bcm
+Canada,1961.0,721.6157034308083,Gas,Bcm
+Chile,1961.0,7507.28399768453,Gas,Bcm
+Mexico,1961.0,38.37,Gas,Bcm
+United States of America,1961.0,283.17,Gas,Bcm
+Denmark,1961.0,0.0,Gas,Bcm
+Germany,1961.0,25.0,Gas,Bcm
+Italy,1961.0,115.0,Gas,Bcm
+Netherlands,1961.0,164.0,Gas,Bcm
+Norway,1961.0,0.0,Gas,Bcm
+Poland,1961.0,14.16,Gas,Bcm
+United Kingdom,1961.0,0.14,Gas,Bcm
+Australia,1961.0,0.0,Gas,Bcm
+Japan,1961.0,10.0,Gas,Bcm
+New Zealand,1961.0,5.0,Gas,Bcm
+China,1961.0,40.0,Gas,Bcm
+India,1961.0,21.1,Gas,Bcm
+Bangladesh,1961.0,0.0,Gas,Bcm
+Brunei Darussalam,1961.0,10.0,Gas,Bcm
+Indonesia,1961.0,56.7,Gas,Bcm
+Malaysia,1961.0,0.0,Gas,Bcm
+Burma,1961.0,4.25,Gas,Bcm
+Pakistan,1961.0,349.96,Gas,Bcm
+Thailand,1961.0,0.0,Gas,Bcm
+Viet Nam,1961.0,0.0,Gas,Bcm
+Argentina,1961.0,141.58333333333331,Gas,Bcm
+Bolivia,1961.0,7.08,Gas,Bcm
+Brazil,1961.0,9.91,Gas,Bcm
+Colombia,1961.0,20.14,Gas,Bcm
+Ecuador,1961.0,2.12,Gas,Bcm
+Peru,1961.0,20.53,Gas,Bcm
+Trinidad and Tobago,1961.0,19.200000000000003,Gas,Bcm
+Venezuela,1961.0,934.46,Gas,Bcm
+Iran,1961.0,1840.61,Gas,Bcm
+Iraq,1961.0,637.13,Gas,Bcm
+Kuwait,1961.0,950.0,Gas,Bcm
+Oman,1961.0,0.0,Gas,Bcm
+Qatar,1961.0,210.0,Gas,Bcm
+Saudi Arabia,1961.0,1302.58,Gas,Bcm
+United Arab Emirates,1961.0,84.95,Gas,Bcm
+Algeria,1961.0,1415.85,Gas,Bcm
+Angola,1961.0,0.0,Gas,Bcm
+Cameroon,1961.0,0.0,Gas,Bcm
+Congo,1961.0,0.14,Gas,Bcm
+Egypt,1961.0,5.039999999999999,Gas,Bcm
+Equatorial Guinea,1961.0,0.0,Gas,Bcm
+Gabon,1961.0,0.85,Gas,Bcm
+Libya,1961.0,104.72,Gas,Bcm
+Mozambique,1961.0,0.0,Gas,Bcm
+Nigeria,1961.0,7.08,Gas,Bcm
+Russian Federation & USSR,1961.0,1933.304078475337,Gas,Bcm
+Bulgaria,1961.0,0.0,Gas,Bcm
+Romania,1961.0,498.91999999999996,Gas,Bcm
+Canada,1962.0,762.4800828920102,Gas,Bcm
+Chile,1962.0,7676.594580186583,Gas,Bcm
+Mexico,1962.0,51.81999999999999,Gas,Bcm
+United States of America,1962.0,281.0,Gas,Bcm
+Denmark,1962.0,0.0,Gas,Bcm
+Germany,1962.0,26.0,Gas,Bcm
+Italy,1962.0,123.0,Gas,Bcm
+Netherlands,1962.0,500.0,Gas,Bcm
+Norway,1962.0,0.0,Gas,Bcm
+Poland,1962.0,13.4,Gas,Bcm
+United Kingdom,1962.0,0.14,Gas,Bcm
+Australia,1962.0,0.2,Gas,Bcm
+Japan,1962.0,10.0,Gas,Bcm
+New Zealand,1962.0,5.0,Gas,Bcm
+China,1962.0,40.0,Gas,Bcm
+India,1962.0,21.1,Gas,Bcm
+Bangladesh,1962.0,0.0,Gas,Bcm
+Brunei Darussalam,1962.0,10.0,Gas,Bcm
+Indonesia,1962.0,56.7,Gas,Bcm
+Malaysia,1962.0,0.0,Gas,Bcm
+Burma,1962.0,4.25,Gas,Bcm
+Pakistan,1962.0,349.96,Gas,Bcm
+Thailand,1962.0,0.0,Gas,Bcm
+Viet Nam,1962.0,0.0,Gas,Bcm
+Argentina,1962.0,141.66666666666663,Gas,Bcm
+Bolivia,1962.0,23.36,Gas,Bcm
+Brazil,1962.0,14.72,Gas,Bcm
+Colombia,1962.0,36.10000000000001,Gas,Bcm
+Ecuador,1962.0,2.12,Gas,Bcm
+Peru,1962.0,20.5,Gas,Bcm
+Trinidad and Tobago,1962.0,18.300000000000004,Gas,Bcm
+Venezuela,1962.0,896.0,Gas,Bcm
+Iran,1962.0,1840.61,Gas,Bcm
+Iraq,1962.0,637.13,Gas,Bcm
+Kuwait,1962.0,950.0,Gas,Bcm
+Oman,1962.0,0.0,Gas,Bcm
+Qatar,1962.0,210.0,Gas,Bcm
+Saudi Arabia,1962.0,1310.0,Gas,Bcm
+United Arab Emirates,1962.0,84.95,Gas,Bcm
+Algeria,1962.0,1500.0,Gas,Bcm
+Angola,1962.0,0.0,Gas,Bcm
+Cameroon,1962.0,0.0,Gas,Bcm
+Congo,1962.0,0.1,Gas,Bcm
+Egypt,1962.0,5.039999999999999,Gas,Bcm
+Equatorial Guinea,1962.0,0.0,Gas,Bcm
+Gabon,1962.0,2.5,Gas,Bcm
+Libya,1962.0,120.0,Gas,Bcm
+Mozambique,1962.0,0.0,Gas,Bcm
+Nigeria,1962.0,13.0,Gas,Bcm
+Russian Federation & USSR,1962.0,2061.6545964125567,Gas,Bcm
+Bulgaria,1962.0,0.0,Gas,Bcm
+Romania,1962.0,563.0,Gas,Bcm
+Canada,1963.0,762.4800828920102,Gas,Bcm
+Chile,1963.0,7785.767796131013,Gas,Bcm
+Mexico,1963.0,49.69999999999999,Gas,Bcm
+United States of America,1963.0,320.0,Gas,Bcm
+Denmark,1963.0,0.0,Gas,Bcm
+Germany,1963.0,59.0,Gas,Bcm
+Italy,1963.0,133.0,Gas,Bcm
+Netherlands,1963.0,1100.0,Gas,Bcm
+Norway,1963.0,0.0,Gas,Bcm
+Poland,1963.0,12.5,Gas,Bcm
+United Kingdom,1963.0,0.14,Gas,Bcm
+Australia,1963.0,0.6,Gas,Bcm
+Japan,1963.0,12.0,Gas,Bcm
+New Zealand,1963.0,5.0,Gas,Bcm
+China,1963.0,60.0,Gas,Bcm
+India,1963.0,42.48,Gas,Bcm
+Bangladesh,1963.0,0.0,Gas,Bcm
+Brunei Darussalam,1963.0,10.0,Gas,Bcm
+Indonesia,1963.0,56.7,Gas,Bcm
+Malaysia,1963.0,0.0,Gas,Bcm
+Burma,1963.0,4.25,Gas,Bcm
+Pakistan,1963.0,349.96,Gas,Bcm
+Thailand,1963.0,0.0,Gas,Bcm
+Viet Nam,1963.0,0.0,Gas,Bcm
+Argentina,1963.0,145.8333333333333,Gas,Bcm
+Bolivia,1963.0,24.78,Gas,Bcm
+Brazil,1963.0,14.9,Gas,Bcm
+Colombia,1963.0,65.1,Gas,Bcm
+Ecuador,1963.0,2.12,Gas,Bcm
+Peru,1963.0,20.5,Gas,Bcm
+Trinidad and Tobago,1963.0,17.5,Gas,Bcm
+Venezuela,1963.0,859.0,Gas,Bcm
+Iran,1963.0,2265.36,Gas,Bcm
+Iraq,1963.0,637.0,Gas,Bcm
+Kuwait,1963.0,1020.0,Gas,Bcm
+Oman,1963.0,0.0,Gas,Bcm
+Qatar,1963.0,210.0,Gas,Bcm
+Saudi Arabia,1963.0,1450.0,Gas,Bcm
+United Arab Emirates,1963.0,141.59,Gas,Bcm
+Algeria,1963.0,1600.0,Gas,Bcm
+Angola,1963.0,0.0,Gas,Bcm
+Cameroon,1963.0,0.0,Gas,Bcm
+Congo,1963.0,0.1,Gas,Bcm
+Egypt,1963.0,5.039999999999999,Gas,Bcm
+Equatorial Guinea,1963.0,0.0,Gas,Bcm
+Gabon,1963.0,3.0,Gas,Bcm
+Libya,1963.0,127.0,Gas,Bcm
+Mozambique,1963.0,0.0,Gas,Bcm
+Nigeria,1963.0,24.0,Gas,Bcm
+Russian Federation & USSR,1963.0,2303.553139013453,Gas,Bcm
+Bulgaria,1963.0,0.0,Gas,Bcm
+Romania,1963.0,598.0,Gas,Bcm
+Canada,1964.0,846.0172691687774,Gas,Bcm
+Chile,1964.0,7929.569780434285,Gas,Bcm
+Mexico,1964.0,43.19999999999999,Gas,Bcm
+United States of America,1964.0,325.93,Gas,Bcm
+Denmark,1964.0,0.0,Gas,Bcm
+Germany,1964.0,92.0,Gas,Bcm
+Italy,1964.0,145.83,Gas,Bcm
+Netherlands,1964.0,1217.63,Gas,Bcm
+Norway,1964.0,0.0,Gas,Bcm
+Poland,1964.0,14.16,Gas,Bcm
+United Kingdom,1964.0,0.2,Gas,Bcm
+Australia,1964.0,11.9,Gas,Bcm
+Japan,1964.0,12.0,Gas,Bcm
+New Zealand,1964.0,5.0,Gas,Bcm
+China,1964.0,60.0,Gas,Bcm
+India,1964.0,42.48,Gas,Bcm
+Bangladesh,1964.0,0.0,Gas,Bcm
+Brunei Darussalam,1964.0,17.0,Gas,Bcm
+Indonesia,1964.0,56.63,Gas,Bcm
+Malaysia,1964.0,0.0,Gas,Bcm
+Burma,1964.0,5.0,Gas,Bcm
+Pakistan,1964.0,456.14000000000004,Gas,Bcm
+Thailand,1964.0,0.0,Gas,Bcm
+Viet Nam,1964.0,0.0,Gas,Bcm
+Argentina,1964.0,153.3833333333333,Gas,Bcm
+Bolivia,1964.0,56.63,Gas,Bcm
+Brazil,1964.0,14.3,Gas,Bcm
+Colombia,1964.0,62.29999999999998,Gas,Bcm
+Ecuador,1964.0,2.12,Gas,Bcm
+Peru,1964.0,20.0,Gas,Bcm
+Trinidad and Tobago,1964.0,16.400000000000006,Gas,Bcm
+Venezuela,1964.0,870.61,Gas,Bcm
+Iran,1964.0,2265.36,Gas,Bcm
+Iraq,1964.0,637.0,Gas,Bcm
+Kuwait,1964.0,1047.73,Gas,Bcm
+Oman,1964.0,14.16,Gas,Bcm
+Qatar,1964.0,210.0,Gas,Bcm
+Saudi Arabia,1964.0,1529.12,Gas,Bcm
+United Arab Emirates,1964.0,141.59,Gas,Bcm
+Algeria,1964.0,1699.02,Gas,Bcm
+Angola,1964.0,0.0,Gas,Bcm
+Cameroon,1964.0,0.0,Gas,Bcm
+Congo,1964.0,0.06,Gas,Bcm
+Egypt,1964.0,7.16,Gas,Bcm
+Equatorial Guinea,1964.0,0.0,Gas,Bcm
+Gabon,1964.0,3.0,Gas,Bcm
+Libya,1964.0,141.59,Gas,Bcm
+Mozambique,1964.0,0.0,Gas,Bcm
+Nigeria,1964.0,48.14,Gas,Bcm
+Russian Federation & USSR,1964.0,2495.0858587443945,Gas,Bcm
+Bulgaria,1964.0,0.0,Gas,Bcm
+Romania,1964.0,583.02,Gas,Bcm
+Canada,1965.0,868.2882799907898,Gas,Bcm
+Chile,1965.0,8076.667372077057,Gas,Bcm
+Mexico,1965.0,66.69,Gas,Bcm
+United States of America,1965.0,318.57,Gas,Bcm
+Denmark,1965.0,0.0,Gas,Bcm
+Germany,1965.0,106.0,Gas,Bcm
+Italy,1965.0,143.0,Gas,Bcm
+Netherlands,1965.0,1274.27,Gas,Bcm
+Norway,1965.0,0.0,Gas,Bcm
+Poland,1965.0,14.16,Gas,Bcm
+United Kingdom,1965.0,0.28,Gas,Bcm
+Australia,1965.0,26.0,Gas,Bcm
+Japan,1965.0,12.0,Gas,Bcm
+New Zealand,1965.0,9.0,Gas,Bcm
+China,1965.0,60.0,Gas,Bcm
+India,1965.0,42.48,Gas,Bcm
+Bangladesh,1965.0,0.0,Gas,Bcm
+Brunei Darussalam,1965.0,19.82,Gas,Bcm
+Indonesia,1965.0,56.63,Gas,Bcm
+Malaysia,1965.0,0.0,Gas,Bcm
+Burma,1965.0,5.0,Gas,Bcm
+Pakistan,1965.0,491.54,Gas,Bcm
+Thailand,1965.0,0.0,Gas,Bcm
+Viet Nam,1965.0,0.0,Gas,Bcm
+Argentina,1965.0,188.78333333333327,Gas,Bcm
+Bolivia,1965.0,56.63,Gas,Bcm
+Brazil,1965.0,19.0,Gas,Bcm
+Colombia,1965.0,59.2,Gas,Bcm
+Ecuador,1965.0,2.12,Gas,Bcm
+Peru,1965.0,19.6,Gas,Bcm
+Trinidad and Tobago,1965.0,15.200000000000003,Gas,Bcm
+Venezuela,1965.0,850.05,Gas,Bcm
+Iran,1965.0,2406.95,Gas,Bcm
+Iraq,1965.0,637.0,Gas,Bcm
+Kuwait,1965.0,1047.73,Gas,Bcm
+Oman,1965.0,42.48,Gas,Bcm
+Qatar,1965.0,210.0,Gas,Bcm
+Saudi Arabia,1965.0,1654.79,Gas,Bcm
+United Arab Emirates,1965.0,169.9,Gas,Bcm
+Algeria,1965.0,1840.61,Gas,Bcm
+Angola,1965.0,0.0,Gas,Bcm
+Cameroon,1965.0,0.0,Gas,Bcm
+Congo,1965.0,0.06,Gas,Bcm
+Egypt,1965.0,7.16,Gas,Bcm
+Equatorial Guinea,1965.0,0.0,Gas,Bcm
+Gabon,1965.0,3.0,Gas,Bcm
+Libya,1965.0,212.38,Gas,Bcm
+Mozambique,1965.0,0.0,Gas,Bcm
+Nigeria,1965.0,84.95,Gas,Bcm
+Russian Federation & USSR,1965.0,2507.2571748878927,Gas,Bcm
+Bulgaria,1965.0,0.0,Gas,Bcm
+Romania,1965.0,570.17,Gas,Bcm
+Canada,1966.0,934.8961547317523,Gas,Bcm
+Chile,1966.0,8157.414730153603,Gas,Bcm
+Mexico,1966.0,72.34999999999998,Gas,Bcm
+United States of America,1966.0,331.96,Gas,Bcm
+Denmark,1966.0,0.0,Gas,Bcm
+Germany,1966.0,127.0,Gas,Bcm
+Italy,1966.0,151.5,Gas,Bcm
+Netherlands,1966.0,1783.97,Gas,Bcm
+Norway,1966.0,0.0,Gas,Bcm
+Poland,1966.0,14.16,Gas,Bcm
+United Kingdom,1966.0,283.17,Gas,Bcm
+Australia,1966.0,27.1,Gas,Bcm
+Japan,1966.0,14.0,Gas,Bcm
+New Zealand,1966.0,13.0,Gas,Bcm
+China,1966.0,80.0,Gas,Bcm
+India,1966.0,42.48,Gas,Bcm
+Bangladesh,1966.0,0.0,Gas,Bcm
+Brunei Darussalam,1966.0,19.82,Gas,Bcm
+Indonesia,1966.0,70.8,Gas,Bcm
+Malaysia,1966.0,0.0,Gas,Bcm
+Burma,1966.0,5.0,Gas,Bcm
+Pakistan,1966.0,500.10999999999996,Gas,Bcm
+Thailand,1966.0,0.0,Gas,Bcm
+Viet Nam,1966.0,0.0,Gas,Bcm
+Argentina,1966.0,188.79999999999993,Gas,Bcm
+Bolivia,1966.0,56.63,Gas,Bcm
+Brazil,1966.0,26.9,Gas,Bcm
+Colombia,1966.0,55.90000000000002,Gas,Bcm
+Ecuador,1966.0,2.12,Gas,Bcm
+Peru,1966.0,19.2,Gas,Bcm
+Trinidad and Tobago,1966.0,13.800000000000004,Gas,Bcm
+Venezuela,1966.0,826.21,Gas,Bcm
+Iran,1966.0,2831.7,Gas,Bcm
+Iraq,1966.0,632.0,Gas,Bcm
+Kuwait,1966.0,1054.81,Gas,Bcm
+Oman,1966.0,42.48,Gas,Bcm
+Qatar,1966.0,210.0,Gas,Bcm
+Saudi Arabia,1966.0,1654.0,Gas,Bcm
+United Arab Emirates,1966.0,212.4,Gas,Bcm
+Algeria,1966.0,3964.88,Gas,Bcm
+Angola,1966.0,2.83,Gas,Bcm
+Cameroon,1966.0,0.0,Gas,Bcm
+Congo,1966.0,0.06,Gas,Bcm
+Egypt,1966.0,14.239999999999998,Gas,Bcm
+Equatorial Guinea,1966.0,0.0,Gas,Bcm
+Gabon,1966.0,5.66,Gas,Bcm
+Libya,1966.0,226.54,Gas,Bcm
+Mozambique,1966.0,0.0,Gas,Bcm
+Nigeria,1966.0,113.28,Gas,Bcm
+Russian Federation & USSR,1966.0,3271.1473094170406,Gas,Bcm
+Bulgaria,1966.0,0.0,Gas,Bcm
+Romania,1966.0,575.38,Gas,Bcm
+Canada,1967.0,982.9182592677871,Gas,Bcm
+Chile,1967.0,8258.204558243475,Gas,Bcm
+Mexico,1967.0,72.34999999999998,Gas,Bcm
+United States of America,1967.0,328.41,Gas,Bcm
+Denmark,1967.0,0.0,Gas,Bcm
+Germany,1967.0,126.0,Gas,Bcm
+Italy,1967.0,155.76,Gas,Bcm
+Netherlands,1967.0,1907.690000000001,Gas,Bcm
+Norway,1967.0,0.0,Gas,Bcm
+Poland,1967.0,45.99,Gas,Bcm
+United Kingdom,1967.0,708.01,Gas,Bcm
+Australia,1967.0,45.2,Gas,Bcm
+Japan,1967.0,15.0,Gas,Bcm
+New Zealand,1967.0,14.0,Gas,Bcm
+China,1967.0,80.0,Gas,Bcm
+India,1967.0,42.48,Gas,Bcm
+Bangladesh,1967.0,0.0,Gas,Bcm
+Brunei Darussalam,1967.0,19.82,Gas,Bcm
+Indonesia,1967.0,70.8,Gas,Bcm
+Malaysia,1967.0,0.0,Gas,Bcm
+Burma,1967.0,5.0,Gas,Bcm
+Pakistan,1967.0,500.10999999999996,Gas,Bcm
+Thailand,1967.0,0.0,Gas,Bcm
+Viet Nam,1967.0,0.0,Gas,Bcm
+Argentina,1967.0,187.85833333333326,Gas,Bcm
+Bolivia,1967.0,64.7,Gas,Bcm
+Brazil,1967.0,25.9,Gas,Bcm
+Colombia,1967.0,52.70000000000002,Gas,Bcm
+Ecuador,1967.0,2.83,Gas,Bcm
+Peru,1967.0,18.8,Gas,Bcm
+Trinidad and Tobago,1967.0,12.300000000000004,Gas,Bcm
+Venezuela,1967.0,788.15,Gas,Bcm
+Iran,1967.0,2831.7,Gas,Bcm
+Iraq,1967.0,627.0,Gas,Bcm
+Kuwait,1967.0,1076.05,Gas,Bcm
+Oman,1967.0,42.48,Gas,Bcm
+Qatar,1967.0,207.0,Gas,Bcm
+Saudi Arabia,1967.0,1641.0,Gas,Bcm
+United Arab Emirates,1967.0,226.56,Gas,Bcm
+Algeria,1967.0,3964.88,Gas,Bcm
+Angola,1967.0,4.25,Gas,Bcm
+Cameroon,1967.0,0.0,Gas,Bcm
+Congo,1967.0,0.06,Gas,Bcm
+Egypt,1967.0,29.82,Gas,Bcm
+Equatorial Guinea,1967.0,0.0,Gas,Bcm
+Gabon,1967.0,9.0,Gas,Bcm
+Libya,1967.0,311.0,Gas,Bcm
+Mozambique,1967.0,0.0,Gas,Bcm
+Nigeria,1967.0,113.28,Gas,Bcm
+Russian Federation & USSR,1967.0,3736.271524663677,Gas,Bcm
+Bulgaria,1967.0,0.0,Gas,Bcm
+Romania,1967.0,563.0,Gas,Bcm
+Canada,1968.0,1125.61386138614,Gas,Bcm
+Chile,1968.0,8101.508883593824,Gas,Bcm
+Mexico,1968.0,65.19999999999997,Gas,Bcm
+United States of America,1968.0,325.69,Gas,Bcm
+Denmark,1968.0,0.0,Gas,Bcm
+Germany,1968.0,155.0,Gas,Bcm
+Italy,1968.0,184.08,Gas,Bcm
+Netherlands,1968.0,1912.6700000000005,Gas,Bcm
+Norway,1968.0,0.0,Gas,Bcm
+Poland,1968.0,46.0,Gas,Bcm
+United Kingdom,1968.0,705.8,Gas,Bcm
+Australia,1968.0,57.3,Gas,Bcm
+Japan,1968.0,17.0,Gas,Bcm
+New Zealand,1968.0,14.0,Gas,Bcm
+China,1968.0,80.0,Gas,Bcm
+India,1968.0,42.48,Gas,Bcm
+Bangladesh,1968.0,0.0,Gas,Bcm
+Brunei Darussalam,1968.0,18.41,Gas,Bcm
+Indonesia,1968.0,70.8,Gas,Bcm
+Malaysia,1968.0,0.0,Gas,Bcm
+Burma,1968.0,5.0,Gas,Bcm
+Pakistan,1968.0,498.2,Gas,Bcm
+Thailand,1968.0,0.0,Gas,Bcm
+Viet Nam,1968.0,0.0,Gas,Bcm
+Argentina,1968.0,200.60833333333323,Gas,Bcm
+Bolivia,1968.0,74.4,Gas,Bcm
+Brazil,1968.0,28.32,Gas,Bcm
+Colombia,1968.0,79.62000000000002,Gas,Bcm
+Ecuador,1968.0,4.25,Gas,Bcm
+Peru,1968.0,18.4,Gas,Bcm
+Trinidad and Tobago,1968.0,10.700000000000003,Gas,Bcm
+Venezuela,1968.0,778.82,Gas,Bcm
+Iran,1968.0,2832.06,Gas,Bcm
+Iraq,1968.0,622.0,Gas,Bcm
+Kuwait,1968.0,1163.98,Gas,Bcm
+Oman,1968.0,42.48,Gas,Bcm
+Qatar,1968.0,205.0,Gas,Bcm
+Saudi Arabia,1968.0,1627.0,Gas,Bcm
+United Arab Emirates,1968.0,226.56,Gas,Bcm
+Algeria,1968.0,3959.0,Gas,Bcm
+Angola,1968.0,15.0,Gas,Bcm
+Cameroon,1968.0,0.0,Gas,Bcm
+Congo,1968.0,0.06,Gas,Bcm
+Egypt,1968.0,30.0,Gas,Bcm
+Equatorial Guinea,1968.0,0.0,Gas,Bcm
+Gabon,1968.0,14.16,Gas,Bcm
+Libya,1968.0,566.41,Gas,Bcm
+Mozambique,1968.0,0.0,Gas,Bcm
+Nigeria,1968.0,110.7,Gas,Bcm
+Russian Federation & USSR,1968.0,7869.765919282511,Gas,Bcm
+Bulgaria,1968.0,0.0,Gas,Bcm
+Romania,1968.0,613.0,Gas,Bcm
+Canada,1969.0,1317.80566428736,Gas,Bcm
+Chile,1969.0,7756.386112569498,Gas,Bcm
+Mexico,1969.0,65.27,Gas,Bcm
+United States of America,1969.0,339.85,Gas,Bcm
+Denmark,1969.0,0.0,Gas,Bcm
+Germany,1969.0,170.0,Gas,Bcm
+Italy,1969.0,178.42,Gas,Bcm
+Netherlands,1969.0,1916.1800000000007,Gas,Bcm
+Norway,1969.0,0.0,Gas,Bcm
+Poland,1969.0,60.0,Gas,Bcm
+United Kingdom,1969.0,764.56,Gas,Bcm
+Australia,1969.0,196.0,Gas,Bcm
+Japan,1969.0,17.0,Gas,Bcm
+New Zealand,1969.0,14.0,Gas,Bcm
+China,1969.0,100.0,Gas,Bcm
+India,1969.0,40.0,Gas,Bcm
+Bangladesh,1969.0,0.0,Gas,Bcm
+Brunei Darussalam,1969.0,60.0,Gas,Bcm
+Indonesia,1969.0,141.59,Gas,Bcm
+Malaysia,1969.0,0.0,Gas,Bcm
+Burma,1969.0,5.0,Gas,Bcm
+Pakistan,1969.0,496.2,Gas,Bcm
+Thailand,1969.0,0.0,Gas,Bcm
+Viet Nam,1969.0,0.0,Gas,Bcm
+Argentina,1969.0,188.7999999999999,Gas,Bcm
+Bolivia,1969.0,82.8,Gas,Bcm
+Brazil,1969.0,26.8,Gas,Bcm
+Colombia,1969.0,76.20000000000002,Gas,Bcm
+Ecuador,1969.0,4.25,Gas,Bcm
+Peru,1969.0,17.9,Gas,Bcm
+Trinidad and Tobago,1969.0,73.8,Gas,Bcm
+Venezuela,1969.0,732.0,Gas,Bcm
+Iran,1969.0,2832.06,Gas,Bcm
+Iraq,1969.0,617.0,Gas,Bcm
+Kuwait,1969.0,1154.06,Gas,Bcm
+Oman,1969.0,42.48,Gas,Bcm
+Qatar,1969.0,205.0,Gas,Bcm
+Saudi Arabia,1969.0,1612.0,Gas,Bcm
+United Arab Emirates,1969.0,297.37,Gas,Bcm
+Algeria,1969.0,3952.0,Gas,Bcm
+Angola,1969.0,15.0,Gas,Bcm
+Cameroon,1969.0,0.0,Gas,Bcm
+Congo,1969.0,0.14,Gas,Bcm
+Egypt,1969.0,30.0,Gas,Bcm
+Equatorial Guinea,1969.0,0.0,Gas,Bcm
+Gabon,1969.0,14.16,Gas,Bcm
+Libya,1969.0,849.62,Gas,Bcm
+Mozambique,1969.0,0.0,Gas,Bcm
+Nigeria,1969.0,141.6,Gas,Bcm
+Russian Federation & USSR,1969.0,8024.241479820628,Gas,Bcm
+Bulgaria,1969.0,0.0,Gas,Bcm
+Romania,1969.0,613.0,Gas,Bcm
+Canada,1970.0,1638.0,Gas,Bcm
+Chile,1970.0,7790.0,Gas,Bcm
+Mexico,1970.0,78.0,Gas,Bcm
+United States of America,1970.0,340.0,Gas,Bcm
+Denmark,1970.0,0.0,Gas,Bcm
+Germany,1970.0,280.0,Gas,Bcm
+Italy,1970.0,164.0,Gas,Bcm
+Netherlands,1970.0,1936.0,Gas,Bcm
+Norway,1970.0,0.0,Gas,Bcm
+Poland,1970.0,70.0,Gas,Bcm
+United Kingdom,1970.0,850.0,Gas,Bcm
+Australia,1970.0,286.0,Gas,Bcm
+Japan,1970.0,17.0,Gas,Bcm
+New Zealand,1970.0,14.0,Gas,Bcm
+China,1970.0,100.0,Gas,Bcm
+India,1970.0,40.0,Gas,Bcm
+Bangladesh,1970.0,0.0,Gas,Bcm
+Brunei Darussalam,1970.0,115.0,Gas,Bcm
+Indonesia,1970.0,141.6,Gas,Bcm
+Malaysia,1970.0,0.0,Gas,Bcm
+Burma,1970.0,4.0,Gas,Bcm
+Pakistan,1970.0,590.0,Gas,Bcm
+Thailand,1970.0,0.0,Gas,Bcm
+Viet Nam,1970.0,0.0,Gas,Bcm
+Argentina,1970.0,207.66666666666652,Gas,Bcm
+Bolivia,1970.0,85.0,Gas,Bcm
+Brazil,1970.0,25.8,Gas,Bcm
+Colombia,1970.0,79.0,Gas,Bcm
+Ecuador,1970.0,98.6,Gas,Bcm
+Peru,1970.0,50.0,Gas,Bcm
+Trinidad and Tobago,1970.0,85.0,Gas,Bcm
+Venezuela,1970.0,764.7,Gas,Bcm
+Iran,1970.0,6060.6,Gas,Bcm
+Iraq,1970.0,611.0,Gas,Bcm
+Kuwait,1970.0,1189.5,Gas,Bcm
+Oman,1970.0,56.6,Gas,Bcm
+Qatar,1970.0,205.0,Gas,Bcm
+Saudi Arabia,1970.0,1596.0,Gas,Bcm
+United Arab Emirates,1970.0,291.0,Gas,Bcm
+Algeria,1970.0,3944.0,Gas,Bcm
+Angola,1970.0,42.0,Gas,Bcm
+Cameroon,1970.0,0.0,Gas,Bcm
+Congo,1970.0,0.1,Gas,Bcm
+Egypt,1970.0,40.0,Gas,Bcm
+Equatorial Guinea,1970.0,0.0,Gas,Bcm
+Gabon,1970.0,14.2,Gas,Bcm
+Libya,1970.0,849.6,Gas,Bcm
+Mozambique,1970.0,0.0,Gas,Bcm
+Nigeria,1970.0,169.9,Gas,Bcm
+Russian Federation & USSR,1970.0,9622.469394618834,Gas,Bcm
+Bulgaria,1970.0,0.0,Gas,Bcm
+Romania,1970.0,663.0,Gas,Bcm
+Canada,1971.0,1702.0612544660578,Gas,Bcm
+Chile,1971.0,7894.94,Gas,Bcm
+Mexico,1971.0,72.98,Gas,Bcm
+United States of America,1971.0,325.69,Gas,Bcm
+Denmark,1971.0,0.0,Gas,Bcm
+Germany,1971.0,262.9,Gas,Bcm
+Italy,1971.0,145.29999999999995,Gas,Bcm
+Netherlands,1971.0,1936.0100000000002,Gas,Bcm
+Norway,1971.0,145.20999999999975,Gas,Bcm
+Poland,1971.0,84.95,Gas,Bcm
+United Kingdom,1971.0,850.0100000000002,Gas,Bcm
+Australia,1971.0,384.0,Gas,Bcm
+Japan,1971.0,18.0,Gas,Bcm
+New Zealand,1971.0,14.0,Gas,Bcm
+China,1971.0,250.0,Gas,Bcm
+India,1971.0,50.98,Gas,Bcm
+Bangladesh,1971.0,0.0,Gas,Bcm
+Brunei Darussalam,1971.0,100.2,Gas,Bcm
+Indonesia,1971.0,147.25,Gas,Bcm
+Malaysia,1971.0,225.0,Gas,Bcm
+Burma,1971.0,4.0,Gas,Bcm
+Pakistan,1971.0,587.0,Gas,Bcm
+Thailand,1971.0,0.0,Gas,Bcm
+Viet Nam,1971.0,0.0,Gas,Bcm
+Argentina,1971.0,179.36666666666656,Gas,Bcm
+Bolivia,1971.0,103.06155218554862,Gas,Bcm
+Brazil,1971.0,25.97,Gas,Bcm
+Colombia,1971.0,75.39999999999999,Gas,Bcm
+Ecuador,1971.0,98.8,Gas,Bcm
+Peru,1971.0,38.0,Gas,Bcm
+Trinidad and Tobago,1971.0,85.0,Gas,Bcm
+Venezuela,1971.0,719.34,Gas,Bcm
+Iran,1971.0,6030.0,Gas,Bcm
+Iraq,1971.0,623.05,Gas,Bcm
+Kuwait,1971.0,1174.0,Gas,Bcm
+Oman,1971.0,56.64,Gas,Bcm
+Qatar,1971.0,230.0,Gas,Bcm
+Saudi Arabia,1971.0,1585.95,Gas,Bcm
+United Arab Emirates,1971.0,311.53,Gas,Bcm
+Algeria,1971.0,3935.0,Gas,Bcm
+Angola,1971.0,42.0,Gas,Bcm
+Cameroon,1971.0,0.0,Gas,Bcm
+Congo,1971.0,0.17,Gas,Bcm
+Egypt,1971.0,65.70000000000002,Gas,Bcm
+Equatorial Guinea,1971.0,0.0,Gas,Bcm
+Gabon,1971.0,15.0,Gas,Bcm
+Libya,1971.0,835.46,Gas,Bcm
+Mozambique,1971.0,0.0,Gas,Bcm
+Nigeria,1971.0,1132.82,Gas,Bcm
+Russian Federation & USSR,1971.0,12580.45569955157,Gas,Bcm
+Bulgaria,1971.0,0.0,Gas,Bcm
+Romania,1971.0,662.95,Gas,Bcm
+Canada,1972.0,1728.602620087336,Gas,Bcm
+Chile,1972.0,7534.73,Gas,Bcm
+Mexico,1972.0,82.16,Gas,Bcm
+United States of America,1972.0,325.7,Gas,Bcm
+Denmark,1972.0,0.0,Gas,Bcm
+Germany,1972.0,241.39999999999998,Gas,Bcm
+Italy,1972.0,123.79999999999995,Gas,Bcm
+Netherlands,1972.0,2077.61,Gas,Bcm
+Norway,1972.0,286.80999999999983,Gas,Bcm
+Poland,1972.0,136.8,Gas,Bcm
+United Kingdom,1972.0,991.6100000000001,Gas,Bcm
+Australia,1972.0,474.0,Gas,Bcm
+Japan,1972.0,18.0,Gas,Bcm
+New Zealand,1972.0,14.0,Gas,Bcm
+China,1972.0,250.0,Gas,Bcm
+India,1972.0,65.14,Gas,Bcm
+Bangladesh,1972.0,226.56,Gas,Bcm
+Brunei Darussalam,1972.0,103.01,Gas,Bcm
+Indonesia,1972.0,155.76,Gas,Bcm
+Malaysia,1972.0,280.0,Gas,Bcm
+Burma,1972.0,4.0,Gas,Bcm
+Pakistan,1972.0,584.0,Gas,Bcm
+Thailand,1972.0,0.0,Gas,Bcm
+Viet Nam,1972.0,0.0,Gas,Bcm
+Argentina,1972.0,207.66666666666652,Gas,Bcm
+Bolivia,1972.0,105.74576271186442,Gas,Bcm
+Brazil,1972.0,26.11,Gas,Bcm
+Colombia,1972.0,71.60000000000001,Gas,Bcm
+Ecuador,1972.0,99.0,Gas,Bcm
+Peru,1972.0,36.1,Gas,Bcm
+Trinidad and Tobago,1972.0,98.30000000000001,Gas,Bcm
+Venezuela,1972.0,1099.5,Gas,Bcm
+Iran,1972.0,5993.0,Gas,Bcm
+Iraq,1972.0,708.01,Gas,Bcm
+Kuwait,1972.0,1156.0,Gas,Bcm
+Oman,1972.0,56.64,Gas,Bcm
+Qatar,1972.0,230.0,Gas,Bcm
+Saudi Arabia,1972.0,1561.0,Gas,Bcm
+United Arab Emirates,1972.0,368.17,Gas,Bcm
+Algeria,1972.0,3922.0,Gas,Bcm
+Angola,1972.0,42.0,Gas,Bcm
+Cameroon,1972.0,0.0,Gas,Bcm
+Congo,1972.0,28.32,Gas,Bcm
+Egypt,1972.0,65.70000000000002,Gas,Bcm
+Equatorial Guinea,1972.0,0.0,Gas,Bcm
+Gabon,1972.0,15.0,Gas,Bcm
+Libya,1972.0,820.0,Gas,Bcm
+Mozambique,1972.0,0.0,Gas,Bcm
+Nigeria,1972.0,1132.82,Gas,Bcm
+Russian Federation & USSR,1972.0,15270.16378923767,Gas,Bcm
+Bulgaria,1972.0,0.0,Gas,Bcm
+Romania,1972.0,663.0,Gas,Bcm
+Canada,1973.0,1803.67606192934,Gas,Bcm
+Chile,1973.0,7077.84,Gas,Bcm
+Mexico,1973.0,87.17,Gas,Bcm
+United States of America,1973.0,311.53,Gas,Bcm
+Denmark,1973.0,0.0,Gas,Bcm
+Germany,1973.0,289.7,Gas,Bcm
+Italy,1973.0,172.09999999999997,Gas,Bcm
+Netherlands,1973.0,2190.89,Gas,Bcm
+Norway,1973.0,513.3699999999999,Gas,Bcm
+Poland,1973.0,136.29,Gas,Bcm
+United Kingdom,1973.0,1104.8899999999999,Gas,Bcm
+Australia,1973.0,564.0,Gas,Bcm
+Japan,1973.0,22.0,Gas,Bcm
+New Zealand,1973.0,14.0,Gas,Bcm
+China,1973.0,300.0,Gas,Bcm
+India,1973.0,65.0,Gas,Bcm
+Bangladesh,1973.0,226.56,Gas,Bcm
+Brunei Darussalam,1973.0,103.6,Gas,Bcm
+Indonesia,1973.0,283.17,Gas,Bcm
+Malaysia,1973.0,320.0,Gas,Bcm
+Burma,1973.0,6.0,Gas,Bcm
+Pakistan,1973.0,581.0,Gas,Bcm
+Thailand,1973.0,0.0,Gas,Bcm
+Viet Nam,1973.0,0.0,Gas,Bcm
+Argentina,1973.0,188.79999999999987,Gas,Bcm
+Bolivia,1973.0,103.15254237288136,Gas,Bcm
+Brazil,1973.0,25.85,Gas,Bcm
+Colombia,1973.0,67.79999999999998,Gas,Bcm
+Ecuador,1973.0,99.3,Gas,Bcm
+Peru,1973.0,34.2,Gas,Bcm
+Trinidad and Tobago,1973.0,127.5,Gas,Bcm
+Venezuela,1973.0,1072.6,Gas,Bcm
+Iran,1973.0,7646.56,Gas,Bcm
+Iraq,1973.0,701.0,Gas,Bcm
+Kuwait,1973.0,1138.0,Gas,Bcm
+Oman,1973.0,56.64,Gas,Bcm
+Qatar,1973.0,225.0,Gas,Bcm
+Saudi Arabia,1973.0,1554.8,Gas,Bcm
+United Arab Emirates,1973.0,424.81,Gas,Bcm
+Algeria,1973.0,3907.0,Gas,Bcm
+Angola,1973.0,42.0,Gas,Bcm
+Cameroon,1973.0,0.0,Gas,Bcm
+Congo,1973.0,28.32,Gas,Bcm
+Egypt,1973.0,64.80000000000001,Gas,Bcm
+Equatorial Guinea,1973.0,0.0,Gas,Bcm
+Gabon,1973.0,15.0,Gas,Bcm
+Libya,1973.0,806.0,Gas,Bcm
+Mozambique,1973.0,0.0,Gas,Bcm
+Nigeria,1973.0,1132.82,Gas,Bcm
+Russian Federation & USSR,1973.0,15073.343252242154,Gas,Bcm
+Bulgaria,1973.0,0.0,Gas,Bcm
+Romania,1973.0,636.22,Gas,Bcm
+Canada,1974.0,1940.30726478761,Gas,Bcm
+Chile,1974.0,6714.88,Gas,Bcm
+Mexico,1974.0,80.43,Gas,Bcm
+United States of America,1974.0,424.81,Gas,Bcm
+Denmark,1974.0,0.0,Gas,Bcm
+Germany,1974.0,263.4,Gas,Bcm
+Italy,1974.0,145.79999999999995,Gas,Bcm
+Netherlands,1974.0,2270.19,Gas,Bcm
+Norway,1974.0,561.52,Gas,Bcm
+Poland,1974.0,135.64,Gas,Bcm
+United Kingdom,1974.0,1184.19,Gas,Bcm
+Australia,1974.0,651.0,Gas,Bcm
+Japan,1974.0,25.0,Gas,Bcm
+New Zealand,1974.0,14.0,Gas,Bcm
+China,1974.0,500.0,Gas,Bcm
+India,1974.0,70.8,Gas,Bcm
+Bangladesh,1974.0,250.0,Gas,Bcm
+Brunei Darussalam,1974.0,141.84,Gas,Bcm
+Indonesia,1974.0,424.81,Gas,Bcm
+Malaysia,1974.0,340.0,Gas,Bcm
+Burma,1974.0,6.0,Gas,Bcm
+Pakistan,1974.0,578.0,Gas,Bcm
+Thailand,1974.0,0.0,Gas,Bcm
+Viet Nam,1974.0,0.0,Gas,Bcm
+Argentina,1974.0,176.9999999999999,Gas,Bcm
+Bolivia,1974.0,100.39250669045495,Gas,Bcm
+Brazil,1974.0,26.26,Gas,Bcm
+Colombia,1974.0,114.66999999999999,Gas,Bcm
+Ecuador,1974.0,99.6,Gas,Bcm
+Peru,1974.0,37.38,Gas,Bcm
+Trinidad and Tobago,1974.0,155.82,Gas,Bcm
+Venezuela,1974.0,1170.51,Gas,Bcm
+Iran,1974.0,9345.79,Gas,Bcm
+Iraq,1974.0,778.82,Gas,Bcm
+Kuwait,1974.0,1122.0,Gas,Bcm
+Oman,1974.0,56.64,Gas,Bcm
+Qatar,1974.0,220.0,Gas,Bcm
+Saudi Arabia,1974.0,1663.83,Gas,Bcm
+United Arab Emirates,1974.0,651.37,Gas,Bcm
+Algeria,1974.0,3886.0,Gas,Bcm
+Angola,1974.0,42.0,Gas,Bcm
+Cameroon,1974.0,0.0,Gas,Bcm
+Congo,1974.0,28.32,Gas,Bcm
+Egypt,1974.0,63.400000000000006,Gas,Bcm
+Equatorial Guinea,1974.0,0.0,Gas,Bcm
+Gabon,1974.0,15.0,Gas,Bcm
+Libya,1974.0,791.0,Gas,Bcm
+Mozambique,1974.0,0.0,Gas,Bcm
+Nigeria,1974.0,1274.43,Gas,Bcm
+Russian Federation & USSR,1974.0,16275.052773542604,Gas,Bcm
+Bulgaria,1974.0,0.0,Gas,Bcm
+Romania,1974.0,605.56,Gas,Bcm
+Canada,1975.0,2028.0,Gas,Bcm
+Chile,1975.0,42.0,Gas,Bcm
+Mexico,1975.0,379.0,Gas,Bcm
+United States of America,1975.0,6462.0,Gas,Bcm
+Denmark,1975.0,55.0,Gas,Bcm
+Germany,1975.0,310.0,Gas,Bcm
+Italy,1975.0,208.0,Gas,Bcm
+Netherlands,1975.0,2347.0,Gas,Bcm
+Norway,1975.0,570.0,Gas,Bcm
+Poland,1975.0,135.0,Gas,Bcm
+United Kingdom,1975.0,1140.0,Gas,Bcm
+Australia,1975.0,624.0,Gas,Bcm
+Japan,1975.0,26.0,Gas,Bcm
+New Zealand,1975.0,170.0,Gas,Bcm
+China,1975.0,550.0,Gas,Bcm
+India,1975.0,88.0,Gas,Bcm
+Bangladesh,1975.0,250.0,Gas,Bcm
+Brunei Darussalam,1975.0,190.0,Gas,Bcm
+Indonesia,1975.0,510.0,Gas,Bcm
+Malaysia,1975.0,340.0,Gas,Bcm
+Burma,1975.0,7.0,Gas,Bcm
+Pakistan,1975.0,420.0,Gas,Bcm
+Thailand,1975.0,0.0,Gas,Bcm
+Viet Nam,1975.0,0.0,Gas,Bcm
+Argentina,1975.0,201.0,Gas,Bcm
+Bolivia,1975.0,133.0,Gas,Bcm
+Brazil,1975.0,26.0,Gas,Bcm
+Colombia,1975.0,99.0,Gas,Bcm
+Ecuador,1975.0,120.0,Gas,Bcm
+Peru,1975.0,36.0,Gas,Bcm
+Trinidad and Tobago,1975.0,140.0,Gas,Bcm
+Venezuela,1975.0,1173.6,Gas,Bcm
+Iran,1975.0,9331.6,Gas,Bcm
+Iraq,1975.0,770.0,Gas,Bcm
+Kuwait,1975.0,1109.0,Gas,Bcm
+Oman,1975.0,70.0,Gas,Bcm
+Qatar,1975.0,1350.0,Gas,Bcm
+Saudi Arabia,1975.0,2023.2,Gas,Bcm
+United Arab Emirates,1975.0,650.0,Gas,Bcm
+Algeria,1975.0,3867.0,Gas,Bcm
+Angola,1975.0,42.0,Gas,Bcm
+Cameroon,1975.0,0.0,Gas,Bcm
+Congo,1975.0,28.0,Gas,Bcm
+Egypt,1975.0,62.0,Gas,Bcm
+Equatorial Guinea,1975.0,0.0,Gas,Bcm
+Gabon,1975.0,15.0,Gas,Bcm
+Libya,1975.0,779.0,Gas,Bcm
+Mozambique,1975.0,0.0,Gas,Bcm
+Nigeria,1975.0,1254.6,Gas,Bcm
+Russian Federation & USSR,1975.0,20541.854484304935,Gas,Bcm
+Bulgaria,1975.0,13.0,Gas,Bcm
+Romania,1975.0,603.0,Gas,Bcm
+Canada,1976.0,2165.0,Gas,Bcm
+Chile,1976.0,40.0,Gas,Bcm
+Mexico,1976.0,550.0,Gas,Bcm
+United States of America,1976.0,6117.0,Gas,Bcm
+Denmark,1976.0,70.0,Gas,Bcm
+Germany,1976.0,297.0,Gas,Bcm
+Italy,1976.0,198.0,Gas,Bcm
+Netherlands,1976.0,2271.0,Gas,Bcm
+Norway,1976.0,674.0,Gas,Bcm
+Poland,1976.0,140.0,Gas,Bcm
+United Kingdom,1976.0,1081.0,Gas,Bcm
+Australia,1976.0,611.0,Gas,Bcm
+Japan,1976.0,24.0,Gas,Bcm
+New Zealand,1976.0,170.0,Gas,Bcm
+China,1976.0,700.0,Gas,Bcm
+India,1976.0,185.0,Gas,Bcm
+Bangladesh,1976.0,250.0,Gas,Bcm
+Brunei Darussalam,1976.0,180.0,Gas,Bcm
+Indonesia,1976.0,645.0,Gas,Bcm
+Malaysia,1976.0,420.0,Gas,Bcm
+Burma,1976.0,7.0,Gas,Bcm
+Pakistan,1976.0,420.0,Gas,Bcm
+Thailand,1976.0,135.0,Gas,Bcm
+Viet Nam,1976.0,0.0,Gas,Bcm
+Argentina,1976.0,202.0,Gas,Bcm
+Bolivia,1976.0,134.0,Gas,Bcm
+Brazil,1976.0,34.0,Gas,Bcm
+Colombia,1976.0,140.0,Gas,Bcm
+Ecuador,1976.0,120.0,Gas,Bcm
+Peru,1976.0,36.0,Gas,Bcm
+Trinidad and Tobago,1976.0,170.0,Gas,Bcm
+Venezuela,1976.0,1179.82,Gas,Bcm
+Iran,1976.0,9345.79,Gas,Bcm
+Iraq,1976.0,764.66,Gas,Bcm
+Kuwait,1976.0,1099.0,Gas,Bcm
+Oman,1976.0,70.0,Gas,Bcm
+Qatar,1976.0,1380.0,Gas,Bcm
+Saudi Arabia,1976.0,1986.0,Gas,Bcm
+United Arab Emirates,1976.0,638.0,Gas,Bcm
+Algeria,1976.0,3846.0,Gas,Bcm
+Angola,1976.0,42.0,Gas,Bcm
+Cameroon,1976.0,0.0,Gas,Bcm
+Congo,1976.0,28.0,Gas,Bcm
+Egypt,1976.0,62.0,Gas,Bcm
+Equatorial Guinea,1976.0,0.0,Gas,Bcm
+Gabon,1976.0,15.0,Gas,Bcm
+Libya,1976.0,766.0,Gas,Bcm
+Mozambique,1976.0,0.0,Gas,Bcm
+Nigeria,1976.0,1246.11,Gas,Bcm
+Russian Federation & USSR,1976.0,22397.25874439462,Gas,Bcm
+Bulgaria,1976.0,11.0,Gas,Bcm
+Romania,1976.0,598.0,Gas,Bcm
+Canada,1977.0,2231.0,Gas,Bcm
+Chile,1977.0,38.0,Gas,Bcm
+Mexico,1977.0,789.0,Gas,Bcm
+United States of America,1977.0,5915.0,Gas,Bcm
+Denmark,1977.0,75.0,Gas,Bcm
+Germany,1977.0,288.0,Gas,Bcm
+Italy,1977.0,195.0,Gas,Bcm
+Netherlands,1977.0,2235.0,Gas,Bcm
+Norway,1977.0,689.0,Gas,Bcm
+Poland,1977.0,135.0,Gas,Bcm
+United Kingdom,1977.0,1098.0,Gas,Bcm
+Australia,1977.0,614.0,Gas,Bcm
+Japan,1977.0,23.0,Gas,Bcm
+New Zealand,1977.0,170.0,Gas,Bcm
+China,1977.0,740.0,Gas,Bcm
+India,1977.0,231.0,Gas,Bcm
+Bangladesh,1977.0,250.0,Gas,Bcm
+Brunei Darussalam,1977.0,175.0,Gas,Bcm
+Indonesia,1977.0,695.0,Gas,Bcm
+Malaysia,1977.0,480.0,Gas,Bcm
+Burma,1977.0,6.0,Gas,Bcm
+Pakistan,1977.0,420.0,Gas,Bcm
+Thailand,1977.0,135.0,Gas,Bcm
+Viet Nam,1977.0,0.0,Gas,Bcm
+Argentina,1977.0,250.0,Gas,Bcm
+Bolivia,1977.0,152.0,Gas,Bcm
+Brazil,1977.0,39.0,Gas,Bcm
+Colombia,1977.0,138.0,Gas,Bcm
+Ecuador,1977.0,120.0,Gas,Bcm
+Peru,1977.0,37.0,Gas,Bcm
+Trinidad and Tobago,1977.0,170.0,Gas,Bcm
+Venezuela,1977.0,1185.14,Gas,Bcm
+Iran,1977.0,14160.29,Gas,Bcm
+Iraq,1977.0,792.98,Gas,Bcm
+Kuwait,1977.0,1088.0,Gas,Bcm
+Oman,1977.0,70.0,Gas,Bcm
+Qatar,1977.0,1660.0,Gas,Bcm
+Saudi Arabia,1977.0,2478.05,Gas,Bcm
+United Arab Emirates,1977.0,637.21,Gas,Bcm
+Algeria,1977.0,3822.0,Gas,Bcm
+Angola,1977.0,47.0,Gas,Bcm
+Cameroon,1977.0,0.0,Gas,Bcm
+Congo,1977.0,28.0,Gas,Bcm
+Egypt,1977.0,61.0,Gas,Bcm
+Equatorial Guinea,1977.0,0.0,Gas,Bcm
+Gabon,1977.0,15.0,Gas,Bcm
+Libya,1977.0,749.0,Gas,Bcm
+Mozambique,1977.0,0.0,Gas,Bcm
+Nigeria,1977.0,1224.0,Gas,Bcm
+Russian Federation & USSR,1977.0,22691.780829596413,Gas,Bcm
+Bulgaria,1977.0,9.0,Gas,Bcm
+Romania,1977.0,593.0,Gas,Bcm
+Canada,1978.0,2322.0,Gas,Bcm
+Chile,1978.0,37.0,Gas,Bcm
+Mexico,1978.0,1669.0,Gas,Bcm
+United States of America,1978.0,5672.0,Gas,Bcm
+Denmark,1978.0,110.0,Gas,Bcm
+Germany,1978.0,275.0,Gas,Bcm
+Italy,1978.0,190.0,Gas,Bcm
+Netherlands,1978.0,2152.0,Gas,Bcm
+Norway,1978.0,788.0,Gas,Bcm
+Poland,1978.0,125.0,Gas,Bcm
+United Kingdom,1978.0,1032.0,Gas,Bcm
+Australia,1978.0,618.0,Gas,Bcm
+Japan,1978.0,19.0,Gas,Bcm
+New Zealand,1978.0,160.0,Gas,Bcm
+China,1978.0,740.0,Gas,Bcm
+India,1978.0,239.0,Gas,Bcm
+Bangladesh,1978.0,265.0,Gas,Bcm
+Brunei Darussalam,1978.0,195.0,Gas,Bcm
+Indonesia,1978.0,685.0,Gas,Bcm
+Malaysia,1978.0,480.0,Gas,Bcm
+Burma,1978.0,6.0,Gas,Bcm
+Pakistan,1978.0,450.0,Gas,Bcm
+Thailand,1978.0,185.0,Gas,Bcm
+Viet Nam,1978.0,0.0,Gas,Bcm
+Argentina,1978.0,339.0,Gas,Bcm
+Bolivia,1978.0,148.0,Gas,Bcm
+Brazil,1978.0,44.0,Gas,Bcm
+Colombia,1978.0,136.0,Gas,Bcm
+Ecuador,1978.0,120.0,Gas,Bcm
+Peru,1978.0,38.0,Gas,Bcm
+Trinidad and Tobago,1978.0,170.0,Gas,Bcm
+Venezuela,1978.0,1193.22,Gas,Bcm
+Iran,1978.0,14160.29,Gas,Bcm
+Iraq,1978.0,787.31,Gas,Bcm
+Kuwait,1978.0,1078.0,Gas,Bcm
+Oman,1978.0,74.0,Gas,Bcm
+Qatar,1978.0,1700.0,Gas,Bcm
+Saudi Arabia,1978.0,2730.1,Gas,Bcm
+United Arab Emirates,1978.0,640.04,Gas,Bcm
+Algeria,1978.0,3796.0,Gas,Bcm
+Angola,1978.0,47.0,Gas,Bcm
+Cameroon,1978.0,0.0,Gas,Bcm
+Congo,1978.0,28.0,Gas,Bcm
+Egypt,1978.0,85.0,Gas,Bcm
+Equatorial Guinea,1978.0,0.0,Gas,Bcm
+Gabon,1978.0,15.0,Gas,Bcm
+Libya,1978.0,729.0,Gas,Bcm
+Mozambique,1978.0,0.0,Gas,Bcm
+Nigeria,1978.0,1203.0,Gas,Bcm
+Russian Federation & USSR,1978.0,23885.995739910315,Gas,Bcm
+Bulgaria,1978.0,7.0,Gas,Bcm
+Romania,1978.0,668.0,Gas,Bcm
+Canada,1979.0,2496.0,Gas,Bcm
+Chile,1979.0,35.0,Gas,Bcm
+Mexico,1979.0,1735.0,Gas,Bcm
+United States of America,1979.0,5519.0,Gas,Bcm
+Denmark,1979.0,110.0,Gas,Bcm
+Germany,1979.0,263.0,Gas,Bcm
+Italy,1979.0,185.0,Gas,Bcm
+Netherlands,1979.0,2205.0,Gas,Bcm
+Norway,1979.0,839.0,Gas,Bcm
+Poland,1979.0,110.0,Gas,Bcm
+United Kingdom,1979.0,1077.0,Gas,Bcm
+Australia,1979.0,619.0,Gas,Bcm
+Japan,1979.0,19.0,Gas,Bcm
+New Zealand,1979.0,160.0,Gas,Bcm
+China,1979.0,740.0,Gas,Bcm
+India,1979.0,344.0,Gas,Bcm
+Bangladesh,1979.0,255.0,Gas,Bcm
+Brunei Darussalam,1979.0,210.0,Gas,Bcm
+Indonesia,1979.0,800.0,Gas,Bcm
+Malaysia,1979.0,660.0,Gas,Bcm
+Burma,1979.0,6.0,Gas,Bcm
+Pakistan,1979.0,450.0,Gas,Bcm
+Thailand,1979.0,215.0,Gas,Bcm
+Viet Nam,1979.0,0.0,Gas,Bcm
+Argentina,1979.0,574.0,Gas,Bcm
+Bolivia,1979.0,130.0,Gas,Bcm
+Brazil,1979.0,45.0,Gas,Bcm
+Colombia,1979.0,134.0,Gas,Bcm
+Ecuador,1979.0,120.0,Gas,Bcm
+Peru,1979.0,37.0,Gas,Bcm
+Trinidad and Tobago,1979.0,200.0,Gas,Bcm
+Venezuela,1979.0,1247.18,Gas,Bcm
+Iran,1979.0,14121.0,Gas,Bcm
+Iraq,1979.0,778.82,Gas,Bcm
+Kuwait,1979.0,1067.0,Gas,Bcm
+Oman,1979.0,74.0,Gas,Bcm
+Qatar,1979.0,1700.0,Gas,Bcm
+Saudi Arabia,1979.0,2711.13,Gas,Bcm
+United Arab Emirates,1979.0,626.0,Gas,Bcm
+Algeria,1979.0,3764.0,Gas,Bcm
+Angola,1979.0,45.0,Gas,Bcm
+Cameroon,1979.0,0.0,Gas,Bcm
+Congo,1979.0,55.0,Gas,Bcm
+Egypt,1979.0,85.0,Gas,Bcm
+Equatorial Guinea,1979.0,0.0,Gas,Bcm
+Gabon,1979.0,14.0,Gas,Bcm
+Libya,1979.0,708.0,Gas,Bcm
+Mozambique,1979.0,0.0,Gas,Bcm
+Nigeria,1979.0,1183.0,Gas,Bcm
+Russian Federation & USSR,1979.0,24682.139013452917,Gas,Bcm
+Bulgaria,1979.0,5.0,Gas,Bcm
+Romania,1979.0,693.0,Gas,Bcm
+Canada,1980.0,2492.0,Gas,Bcm
+Chile,1980.0,34.0,Gas,Bcm
+Mexico,1980.0,1827.0,Gas,Bcm
+United States of America,1980.0,5636.0,Gas,Bcm
+Denmark,1980.0,139.0,Gas,Bcm
+Germany,1980.0,265.0,Gas,Bcm
+Italy,1980.0,181.0,Gas,Bcm
+Netherlands,1980.0,2133.0,Gas,Bcm
+Norway,1980.0,1314.0,Gas,Bcm
+Poland,1980.0,104.0,Gas,Bcm
+United Kingdom,1980.0,1101.0,Gas,Bcm
+Australia,1980.0,620.0,Gas,Bcm
+Japan,1980.0,25.0,Gas,Bcm
+New Zealand,1980.0,158.0,Gas,Bcm
+China,1980.0,735.0,Gas,Bcm
+India,1980.0,343.0,Gas,Bcm
+Bangladesh,1980.0,286.0,Gas,Bcm
+Brunei Darussalam,1980.0,207.0,Gas,Bcm
+Indonesia,1980.0,819.0,Gas,Bcm
+Malaysia,1980.0,1179.0,Gas,Bcm
+Burma,1980.0,93.0,Gas,Bcm
+Pakistan,1980.0,450.0,Gas,Bcm
+Thailand,1980.0,292.0,Gas,Bcm
+Viet Nam,1980.0,0.0,Gas,Bcm
+Argentina,1980.0,641.0,Gas,Bcm
+Bolivia,1980.0,122.0,Gas,Bcm
+Brazil,1980.0,53.0,Gas,Bcm
+Colombia,1980.0,122.0,Gas,Bcm
+Ecuador,1980.0,120.0,Gas,Bcm
+Peru,1980.0,32.0,Gas,Bcm
+Trinidad and Tobago,1980.0,297.0,Gas,Bcm
+Venezuela,1980.0,1262.41,Gas,Bcm
+Iran,1980.0,14101.0,Gas,Bcm
+Iraq,1980.0,777.4,Gas,Bcm
+Kuwait,1980.0,1054.0,Gas,Bcm
+Oman,1980.0,81.0,Gas,Bcm
+Qatar,1980.0,2800.0,Gas,Bcm
+Saudi Arabia,1980.0,3183.23,Gas,Bcm
+United Arab Emirates,1980.0,2370.0,Gas,Bcm
+Algeria,1980.0,3721.0,Gas,Bcm
+Angola,1980.0,43.0,Gas,Bcm
+Cameroon,1980.0,140.0,Gas,Bcm
+Congo,1980.0,57.0,Gas,Bcm
+Egypt,1980.0,84.0,Gas,Bcm
+Equatorial Guinea,1980.0,0.0,Gas,Bcm
+Gabon,1980.0,14.0,Gas,Bcm
+Libya,1980.0,685.0,Gas,Bcm
+Mozambique,1980.0,0.0,Gas,Bcm
+Nigeria,1980.0,1161.14,Gas,Bcm
+Russian Federation & USSR,1980.0,25478.282286995516,Gas,Bcm
+Bulgaria,1980.0,5.0,Gas,Bcm
+Romania,1980.0,713.0,Gas,Bcm
+Canada,1981.0,2563.0,Gas,Bcm
+Chile,1981.0,33.0,Gas,Bcm
+Mexico,1981.0,2134.0,Gas,Bcm
+United States of America,1981.0,5712.0,Gas,Bcm
+Denmark,1981.0,141.0,Gas,Bcm
+Germany,1981.0,248.0,Gas,Bcm
+Italy,1981.0,179.0,Gas,Bcm
+Netherlands,1981.0,2060.0,Gas,Bcm
+Norway,1981.0,1409.0,Gas,Bcm
+Poland,1981.0,100.0,Gas,Bcm
+United Kingdom,1981.0,1007.0,Gas,Bcm
+Australia,1981.0,641.0,Gas,Bcm
+Japan,1981.0,27.0,Gas,Bcm
+New Zealand,1981.0,157.0,Gas,Bcm
+China,1981.0,736.0,Gas,Bcm
+India,1981.0,411.0,Gas,Bcm
+Bangladesh,1981.0,317.0,Gas,Bcm
+Brunei Darussalam,1981.0,212.0,Gas,Bcm
+Indonesia,1981.0,971.0,Gas,Bcm
+Malaysia,1981.0,1225.0,Gas,Bcm
+Burma,1981.0,146.0,Gas,Bcm
+Pakistan,1981.0,465.0,Gas,Bcm
+Thailand,1981.0,402.0,Gas,Bcm
+Viet Nam,1981.0,0.0,Gas,Bcm
+Argentina,1981.0,648.0,Gas,Bcm
+Bolivia,1981.0,154.0,Gas,Bcm
+Brazil,1981.0,60.0,Gas,Bcm
+Colombia,1981.0,122.0,Gas,Bcm
+Ecuador,1981.0,120.0,Gas,Bcm
+Peru,1981.0,32.0,Gas,Bcm
+Trinidad and Tobago,1981.0,340.0,Gas,Bcm
+Venezuela,1981.0,1365.1,Gas,Bcm
+Iran,1981.0,14085.0,Gas,Bcm
+Iraq,1981.0,773.15,Gas,Bcm
+Kuwait,1981.0,1046.0,Gas,Bcm
+Oman,1981.0,78.0,Gas,Bcm
+Qatar,1981.0,2830.0,Gas,Bcm
+Saudi Arabia,1981.0,3346.08,Gas,Bcm
+United Arab Emirates,1981.0,2529.0,Gas,Bcm
+Algeria,1981.0,3678.0,Gas,Bcm
+Angola,1981.0,43.0,Gas,Bcm
+Cameroon,1981.0,110.0,Gas,Bcm
+Congo,1981.0,68.0,Gas,Bcm
+Egypt,1981.0,83.0,Gas,Bcm
+Equatorial Guinea,1981.0,0.0,Gas,Bcm
+Gabon,1981.0,14.0,Gas,Bcm
+Libya,1981.0,665.0,Gas,Bcm
+Mozambique,1981.0,0.0,Gas,Bcm
+Nigeria,1981.0,1146.98,Gas,Bcm
+Russian Federation & USSR,1981.0,27070.568834080717,Gas,Bcm
+Bulgaria,1981.0,5.0,Gas,Bcm
+Romania,1981.0,693.0,Gas,Bcm
+Canada,1982.0,2591.0,Gas,Bcm
+Chile,1982.0,32.0,Gas,Bcm
+Mexico,1982.0,2134.0,Gas,Bcm
+United States of America,1982.0,5706.0,Gas,Bcm
+Denmark,1982.0,153.0,Gas,Bcm
+Germany,1982.0,241.0,Gas,Bcm
+Italy,1982.0,250.0,Gas,Bcm
+Netherlands,1982.0,2006.0,Gas,Bcm
+Norway,1982.0,1440.0,Gas,Bcm
+Poland,1982.0,97.0,Gas,Bcm
+United Kingdom,1982.0,941.0,Gas,Bcm
+Australia,1982.0,641.0,Gas,Bcm
+Japan,1982.0,20.0,Gas,Bcm
+New Zealand,1982.0,154.0,Gas,Bcm
+China,1982.0,750.0,Gas,Bcm
+India,1982.0,420.0,Gas,Bcm
+Bangladesh,1982.0,339.0,Gas,Bcm
+Brunei Darussalam,1982.0,221.0,Gas,Bcm
+Indonesia,1982.0,960.0,Gas,Bcm
+Malaysia,1982.0,1362.0,Gas,Bcm
+Burma,1982.0,146.0,Gas,Bcm
+Pakistan,1982.0,481.0,Gas,Bcm
+Thailand,1982.0,350.0,Gas,Bcm
+Viet Nam,1982.0,0.0,Gas,Bcm
+Argentina,1982.0,692.0,Gas,Bcm
+Bolivia,1982.0,146.0,Gas,Bcm
+Brazil,1982.0,72.0,Gas,Bcm
+Colombia,1982.0,120.0,Gas,Bcm
+Ecuador,1982.0,116.0,Gas,Bcm
+Peru,1982.0,27.0,Gas,Bcm
+Trinidad and Tobago,1982.0,334.0,Gas,Bcm
+Venezuela,1982.0,1471.22,Gas,Bcm
+Iran,1982.0,14069.0,Gas,Bcm
+Iraq,1982.0,815.63,Gas,Bcm
+Kuwait,1982.0,1040.0,Gas,Bcm
+Oman,1982.0,83.0,Gas,Bcm
+Qatar,1982.0,3145.0,Gas,Bcm
+Saudi Arabia,1982.0,3432.17,Gas,Bcm
+United Arab Emirates,1982.0,2973.0,Gas,Bcm
+Algeria,1982.0,3613.0,Gas,Bcm
+Angola,1982.0,51.0,Gas,Bcm
+Cameroon,1982.0,110.0,Gas,Bcm
+Congo,1982.0,70.0,Gas,Bcm
+Egypt,1982.0,203.0,Gas,Bcm
+Equatorial Guinea,1982.0,0.0,Gas,Bcm
+Gabon,1982.0,14.0,Gas,Bcm
+Libya,1982.0,653.0,Gas,Bcm
+Mozambique,1982.0,0.0,Gas,Bcm
+Nigeria,1982.0,1385.01,Gas,Bcm
+Russian Federation & USSR,1982.0,27867.560874439463,Gas,Bcm
+Bulgaria,1982.0,5.0,Gas,Bcm
+Romania,1982.0,668.0,Gas,Bcm
+Canada,1983.0,2613.0,Gas,Bcm
+Chile,1983.0,32.0,Gas,Bcm
+Mexico,1983.0,2181.0,Gas,Bcm
+United States of America,1983.0,5670.0,Gas,Bcm
+Denmark,1983.0,99.0,Gas,Bcm
+Germany,1983.0,320.0,Gas,Bcm
+Italy,1983.0,251.0,Gas,Bcm
+Netherlands,1983.0,1971.0,Gas,Bcm
+Norway,1983.0,2039.0,Gas,Bcm
+Poland,1983.0,94.0,Gas,Bcm
+United Kingdom,1983.0,1149.0,Gas,Bcm
+Australia,1983.0,629.0,Gas,Bcm
+Japan,1983.0,25.0,Gas,Bcm
+New Zealand,1983.0,152.0,Gas,Bcm
+China,1983.0,750.0,Gas,Bcm
+India,1983.0,462.0,Gas,Bcm
+Bangladesh,1983.0,311.0,Gas,Bcm
+Brunei Darussalam,1983.0,218.0,Gas,Bcm
+Indonesia,1983.0,1000.0,Gas,Bcm
+Malaysia,1983.0,1415.0,Gas,Bcm
+Burma,1983.0,245.0,Gas,Bcm
+Pakistan,1983.0,510.0,Gas,Bcm
+Thailand,1983.0,168.0,Gas,Bcm
+Viet Nam,1983.0,0.0,Gas,Bcm
+Argentina,1983.0,679.0,Gas,Bcm
+Bolivia,1983.0,134.0,Gas,Bcm
+Brazil,1983.0,82.0,Gas,Bcm
+Colombia,1983.0,113.0,Gas,Bcm
+Ecuador,1983.0,116.0,Gas,Bcm
+Peru,1983.0,26.0,Gas,Bcm
+Trinidad and Tobago,1983.0,317.0,Gas,Bcm
+Venezuela,1983.0,1562.33,Gas,Bcm
+Iran,1983.0,14045.0,Gas,Bcm
+Iraq,1983.0,821.2,Gas,Bcm
+Kuwait,1983.0,1036.0,Gas,Bcm
+Oman,1983.0,165.0,Gas,Bcm
+Qatar,1983.0,3400.0,Gas,Bcm
+Saudi Arabia,1983.0,3543.97,Gas,Bcm
+United Arab Emirates,1983.0,3049.0,Gas,Bcm
+Algeria,1983.0,3531.0,Gas,Bcm
+Angola,1983.0,53.0,Gas,Bcm
+Cameroon,1983.0,110.0,Gas,Bcm
+Congo,1983.0,70.0,Gas,Bcm
+Egypt,1983.0,200.0,Gas,Bcm
+Equatorial Guinea,1983.0,0.0,Gas,Bcm
+Gabon,1983.0,12.0,Gas,Bcm
+Libya,1983.0,640.0,Gas,Bcm
+Mozambique,1983.0,65.0,Gas,Bcm
+Nigeria,1983.0,1370.0,Gas,Bcm
+Russian Federation & USSR,1983.0,28663.704147982065,Gas,Bcm
+Bulgaria,1983.0,5.0,Gas,Bcm
+Romania,1983.0,630.0,Gas,Bcm
+Canada,1984.0,2809.0,Gas,Bcm
+Chile,1984.0,31.0,Gas,Bcm
+Mexico,1984.0,2172.0,Gas,Bcm
+United States of America,1984.0,5591.0,Gas,Bcm
+Denmark,1984.0,105.0,Gas,Bcm
+Germany,1984.0,306.0,Gas,Bcm
+Italy,1984.0,287.0,Gas,Bcm
+Netherlands,1984.0,1928.0,Gas,Bcm
+Norway,1984.0,2236.0,Gas,Bcm
+Poland,1984.0,91.0,Gas,Bcm
+United Kingdom,1984.0,1325.0,Gas,Bcm
+Australia,1984.0,689.0,Gas,Bcm
+Japan,1984.0,28.0,Gas,Bcm
+New Zealand,1984.0,151.0,Gas,Bcm
+China,1984.0,760.0,Gas,Bcm
+India,1984.0,478.0,Gas,Bcm
+Bangladesh,1984.0,353.0,Gas,Bcm
+Brunei Darussalam,1984.0,238.0,Gas,Bcm
+Indonesia,1984.0,1100.0,Gas,Bcm
+Malaysia,1984.0,1375.0,Gas,Bcm
+Burma,1984.0,260.0,Gas,Bcm
+Pakistan,1984.0,520.0,Gas,Bcm
+Thailand,1984.0,210.0,Gas,Bcm
+Viet Nam,1984.0,0.0,Gas,Bcm
+Argentina,1984.0,668.0,Gas,Bcm
+Bolivia,1984.0,125.0,Gas,Bcm
+Brazil,1984.0,84.0,Gas,Bcm
+Colombia,1984.0,109.0,Gas,Bcm
+Ecuador,1984.0,115.0,Gas,Bcm
+Peru,1984.0,25.0,Gas,Bcm
+Trinidad and Tobago,1984.0,311.0,Gas,Bcm
+Venezuela,1984.0,1666.3,Gas,Bcm
+Iran,1984.0,14016.0,Gas,Bcm
+Iraq,1984.0,818.0,Gas,Bcm
+Kuwait,1984.0,1037.8,Gas,Bcm
+Oman,1984.0,215.0,Gas,Bcm
+Qatar,1984.0,4280.0,Gas,Bcm
+Saudi Arabia,1984.0,3608.01,Gas,Bcm
+United Arab Emirates,1984.0,3108.0,Gas,Bcm
+Algeria,1984.0,3442.0,Gas,Bcm
+Angola,1984.0,55.0,Gas,Bcm
+Cameroon,1984.0,110.0,Gas,Bcm
+Congo,1984.0,69.0,Gas,Bcm
+Egypt,1984.0,235.0,Gas,Bcm
+Equatorial Guinea,1984.0,0.0,Gas,Bcm
+Gabon,1984.0,16.0,Gas,Bcm
+Libya,1984.0,628.0,Gas,Bcm
+Mozambique,1984.0,65.178,Gas,Bcm
+Nigeria,1984.0,1355.0,Gas,Bcm
+Russian Federation & USSR,1984.0,29857.919058295967,Gas,Bcm
+Bulgaria,1984.0,5.0,Gas,Bcm
+Romania,1984.0,597.0,Gas,Bcm
+Canada,1985.0,2784.0,Gas,Bcm
+Chile,1985.0,30.0,Gas,Bcm
+Mexico,1985.0,2167.0,Gas,Bcm
+United States of America,1985.0,5474.0,Gas,Bcm
+Denmark,1985.0,94.0,Gas,Bcm
+Germany,1985.0,296.0,Gas,Bcm
+Italy,1985.0,292.0,Gas,Bcm
+Netherlands,1985.0,1889.0,Gas,Bcm
+Norway,1985.0,2228.0,Gas,Bcm
+Poland,1985.0,96.0,Gas,Bcm
+United Kingdom,1985.0,1242.0,Gas,Bcm
+Australia,1985.0,709.0,Gas,Bcm
+Japan,1985.0,31.0,Gas,Bcm
+New Zealand,1985.0,161.0,Gas,Bcm
+China,1985.0,775.0,Gas,Bcm
+India,1985.0,480.0,Gas,Bcm
+Bangladesh,1985.0,353.0,Gas,Bcm
+Brunei Darussalam,1985.0,238.0,Gas,Bcm
+Indonesia,1985.0,1881.0,Gas,Bcm
+Malaysia,1985.0,1480.0,Gas,Bcm
+Burma,1985.0,268.0,Gas,Bcm
+Pakistan,1985.0,623.0,Gas,Bcm
+Thailand,1985.0,218.0,Gas,Bcm
+Viet Nam,1985.0,0.0,Gas,Bcm
+Argentina,1985.0,681.0,Gas,Bcm
+Bolivia,1985.0,129.0,Gas,Bcm
+Brazil,1985.0,93.0,Gas,Bcm
+Colombia,1985.0,107.0,Gas,Bcm
+Ecuador,1985.0,115.0,Gas,Bcm
+Peru,1985.0,27.0,Gas,Bcm
+Trinidad and Tobago,1985.0,317.0,Gas,Bcm
+Venezuela,1985.0,1734.8,Gas,Bcm
+Iran,1985.0,13986.0,Gas,Bcm
+Iraq,1985.0,821.2,Gas,Bcm
+Kuwait,1985.0,1036.5,Gas,Bcm
+Oman,1985.0,218.0,Gas,Bcm
+Qatar,1985.0,4440.0,Gas,Bcm
+Saudi Arabia,1985.0,3687.0,Gas,Bcm
+United Arab Emirates,1985.0,3148.0,Gas,Bcm
+Algeria,1985.0,3349.0,Gas,Bcm
+Angola,1985.0,52.0,Gas,Bcm
+Cameroon,1985.0,110.0,Gas,Bcm
+Congo,1985.0,71.0,Gas,Bcm
+Egypt,1985.0,255.0,Gas,Bcm
+Equatorial Guinea,1985.0,0.0,Gas,Bcm
+Gabon,1985.0,19.0,Gas,Bcm
+Libya,1985.0,626.0,Gas,Bcm
+Mozambique,1985.0,65.178,Gas,Bcm
+Nigeria,1985.0,1340.0,Gas,Bcm
+Russian Federation & USSR,1985.0,31848.277242152468,Gas,Bcm
+Bulgaria,1985.0,5.0,Gas,Bcm
+Romania,1985.0,558.0,Gas,Bcm
+Canada,1986.0,2746.0,Gas,Bcm
+Chile,1986.0,30.0,Gas,Bcm
+Mexico,1986.0,2146.0,Gas,Bcm
+United States of America,1986.0,5425.0,Gas,Bcm
+Denmark,1986.0,126.0,Gas,Bcm
+Germany,1986.0,382.0,Gas,Bcm
+Italy,1986.0,290.0,Gas,Bcm
+Netherlands,1986.0,1852.0,Gas,Bcm
+Norway,1986.0,2296.0,Gas,Bcm
+Poland,1986.0,165.0,Gas,Bcm
+United Kingdom,1986.0,1325.0,Gas,Bcm
+Australia,1986.0,902.0,Gas,Bcm
+Japan,1986.0,30.0,Gas,Bcm
+New Zealand,1986.0,145.0,Gas,Bcm
+China,1986.0,795.0,Gas,Bcm
+India,1986.0,541.0,Gas,Bcm
+Bangladesh,1986.0,354.0,Gas,Bcm
+Brunei Darussalam,1986.0,340.0,Gas,Bcm
+Indonesia,1986.0,2265.0,Gas,Bcm
+Malaysia,1986.0,1499.0,Gas,Bcm
+Burma,1986.0,268.0,Gas,Bcm
+Pakistan,1986.0,635.0,Gas,Bcm
+Thailand,1986.0,204.0,Gas,Bcm
+Viet Nam,1986.0,0.0,Gas,Bcm
+Argentina,1986.0,671.0,Gas,Bcm
+Bolivia,1986.0,137.0,Gas,Bcm
+Brazil,1986.0,96.0,Gas,Bcm
+Colombia,1986.0,113.0,Gas,Bcm
+Ecuador,1986.0,114.0,Gas,Bcm
+Peru,1986.0,55.0,Gas,Bcm
+Trinidad and Tobago,1986.0,309.0,Gas,Bcm
+Venezuela,1986.0,2622.0,Gas,Bcm
+Iran,1986.0,13955.0,Gas,Bcm
+Iraq,1986.0,821.19,Gas,Bcm
+Kuwait,1986.0,1167.0,Gas,Bcm
+Oman,1986.0,229.0,Gas,Bcm
+Qatar,1986.0,4440.0,Gas,Bcm
+Saudi Arabia,1986.0,4021.0,Gas,Bcm
+United Arab Emirates,1986.0,5414.2,Gas,Bcm
+Algeria,1986.0,3259.0,Gas,Bcm
+Angola,1986.0,50.0,Gas,Bcm
+Cameroon,1986.0,110.0,Gas,Bcm
+Congo,1986.0,70.0,Gas,Bcm
+Egypt,1986.0,290.0,Gas,Bcm
+Equatorial Guinea,1986.0,24.0,Gas,Bcm
+Gabon,1986.0,17.0,Gas,Bcm
+Libya,1986.0,728.0,Gas,Bcm
+Mozambique,1986.0,65.178,Gas,Bcm
+Nigeria,1986.0,2400.0,Gas,Bcm
+Russian Federation & USSR,1986.0,32644.42051569507,Gas,Bcm
+Bulgaria,1986.0,5.0,Gas,Bcm
+Romania,1986.0,520.0,Gas,Bcm
+Canada,1987.0,2693.0,Gas,Bcm
+Chile,1987.0,29.0,Gas,Bcm
+Mexico,1987.0,2119.0,Gas,Bcm
+United States of America,1987.0,5301.0,Gas,Bcm
+Denmark,1987.0,123.0,Gas,Bcm
+Germany,1987.0,376.0,Gas,Bcm
+Italy,1987.0,289.0,Gas,Bcm
+Netherlands,1987.0,1810.0,Gas,Bcm
+Norway,1987.0,2285.0,Gas,Bcm
+Poland,1987.0,163.0,Gas,Bcm
+United Kingdom,1987.0,1298.0,Gas,Bcm
+Australia,1987.0,1069.0,Gas,Bcm
+Japan,1987.0,40.0,Gas,Bcm
+New Zealand,1987.0,142.0,Gas,Bcm
+China,1987.0,800.0,Gas,Bcm
+India,1987.0,552.0,Gas,Bcm
+Bangladesh,1987.0,354.0,Gas,Bcm
+Brunei Darussalam,1987.0,331.0,Gas,Bcm
+Indonesia,1987.0,2367.0,Gas,Bcm
+Malaysia,1987.0,1475.0,Gas,Bcm
+Burma,1987.0,268.0,Gas,Bcm
+Pakistan,1987.0,626.0,Gas,Bcm
+Thailand,1987.0,184.0,Gas,Bcm
+Viet Nam,1987.0,0.0,Gas,Bcm
+Argentina,1987.0,693.0,Gas,Bcm
+Bolivia,1987.0,142.0,Gas,Bcm
+Brazil,1987.0,105.0,Gas,Bcm
+Colombia,1987.0,97.0,Gas,Bcm
+Ecuador,1987.0,114.0,Gas,Bcm
+Peru,1987.0,340.0,Gas,Bcm
+Trinidad and Tobago,1987.0,303.0,Gas,Bcm
+Venezuela,1987.0,2838.0,Gas,Bcm
+Iran,1987.0,13922.0,Gas,Bcm
+Iraq,1987.0,1000.0,Gas,Bcm
+Kuwait,1987.0,1205.0,Gas,Bcm
+Oman,1987.0,272.0,Gas,Bcm
+Qatar,1987.0,4440.0,Gas,Bcm
+Saudi Arabia,1987.0,4189.5,Gas,Bcm
+United Arab Emirates,1987.0,5684.0,Gas,Bcm
+Algeria,1987.0,3163.0,Gas,Bcm
+Angola,1987.0,54.0,Gas,Bcm
+Cameroon,1987.0,110.0,Gas,Bcm
+Congo,1987.0,74.0,Gas,Bcm
+Egypt,1987.0,307.0,Gas,Bcm
+Equatorial Guinea,1987.0,11.0,Gas,Bcm
+Gabon,1987.0,18.0,Gas,Bcm
+Libya,1987.0,727.0,Gas,Bcm
+Mozambique,1987.0,65.178,Gas,Bcm
+Nigeria,1987.0,2407.0,Gas,Bcm
+Russian Federation & USSR,1987.0,33202.06031390135,Gas,Bcm
+Bulgaria,1987.0,5.0,Gas,Bcm
+Romania,1987.0,484.0,Gas,Bcm
+Canada,1988.0,2671.0,Gas,Bcm
+Chile,1988.0,29.0,Gas,Bcm
+Mexico,1988.0,2078.0,Gas,Bcm
+United States of America,1988.0,4758.0,Gas,Bcm
+Denmark,1988.0,133.0,Gas,Bcm
+Germany,1988.0,363.0,Gas,Bcm
+Italy,1988.0,290.0,Gas,Bcm
+Netherlands,1988.0,1778.0,Gas,Bcm
+Norway,1988.0,2298.0,Gas,Bcm
+Poland,1988.0,171.0,Gas,Bcm
+United Kingdom,1988.0,1195.0,Gas,Bcm
+Australia,1988.0,1033.0,Gas,Bcm
+Japan,1988.0,38.0,Gas,Bcm
+New Zealand,1988.0,145.0,Gas,Bcm
+China,1988.0,850.0,Gas,Bcm
+India,1988.0,600.0,Gas,Bcm
+Bangladesh,1988.0,350.0,Gas,Bcm
+Brunei Darussalam,1988.0,322.0,Gas,Bcm
+Indonesia,1988.0,2464.0,Gas,Bcm
+Malaysia,1988.0,1460.0,Gas,Bcm
+Burma,1988.0,267.0,Gas,Bcm
+Pakistan,1988.0,651.0,Gas,Bcm
+Thailand,1988.0,195.0,Gas,Bcm
+Viet Nam,1988.0,0.0,Gas,Bcm
+Argentina,1988.0,773.0,Gas,Bcm
+Bolivia,1988.0,147.0,Gas,Bcm
+Brazil,1988.0,109.0,Gas,Bcm
+Colombia,1988.0,127.0,Gas,Bcm
+Ecuador,1988.0,113.0,Gas,Bcm
+Peru,1988.0,340.0,Gas,Bcm
+Trinidad and Tobago,1988.0,294.0,Gas,Bcm
+Venezuela,1988.0,2856.0,Gas,Bcm
+Iran,1988.0,14200.0,Gas,Bcm
+Iraq,1988.0,2690.0,Gas,Bcm
+Kuwait,1988.0,1378.0,Gas,Bcm
+Oman,1988.0,283.0,Gas,Bcm
+Qatar,1988.0,4621.0,Gas,Bcm
+Saudi Arabia,1988.0,5020.0,Gas,Bcm
+United Arab Emirates,1988.0,5663.0,Gas,Bcm
+Algeria,1988.0,3234.0,Gas,Bcm
+Angola,1988.0,49.0,Gas,Bcm
+Cameroon,1988.0,110.0,Gas,Bcm
+Congo,1988.0,73.0,Gas,Bcm
+Egypt,1988.0,329.0,Gas,Bcm
+Equatorial Guinea,1988.0,11.0,Gas,Bcm
+Gabon,1988.0,16.0,Gas,Bcm
+Libya,1988.0,827.0,Gas,Bcm
+Mozambique,1988.0,62.48000000000001,Gas,Bcm
+Nigeria,1988.0,2476.0,Gas,Bcm
+Russian Federation & USSR,1988.0,33838.63542600897,Gas,Bcm
+Bulgaria,1988.0,5.0,Gas,Bcm
+Romania,1988.0,450.0,Gas,Bcm
+Canada,1989.0,2732.0,Gas,Bcm
+Chile,1989.0,28.0,Gas,Bcm
+Mexico,1989.0,2060.0,Gas,Bcm
+United States of America,1989.0,4732.0,Gas,Bcm
+Denmark,1989.0,134.0,Gas,Bcm
+Germany,1989.0,351.0,Gas,Bcm
+Italy,1989.0,317.0,Gas,Bcm
+Netherlands,1989.0,1767.0,Gas,Bcm
+Norway,1989.0,2295.0,Gas,Bcm
+Poland,1989.0,164.0,Gas,Bcm
+United Kingdom,1989.0,1185.0,Gas,Bcm
+Australia,1989.0,955.0,Gas,Bcm
+Japan,1989.0,36.0,Gas,Bcm
+New Zealand,1989.0,139.0,Gas,Bcm
+China,1989.0,850.0,Gas,Bcm
+India,1989.0,686.0,Gas,Bcm
+Bangladesh,1989.0,725.0,Gas,Bcm
+Brunei Darussalam,1989.0,317.0,Gas,Bcm
+Indonesia,1989.0,1911.0,Gas,Bcm
+Malaysia,1989.0,1448.0,Gas,Bcm
+Burma,1989.0,266.0,Gas,Bcm
+Pakistan,1989.0,650.0,Gas,Bcm
+Thailand,1989.0,229.0,Gas,Bcm
+Viet Nam,1989.0,0.0,Gas,Bcm
+Argentina,1989.0,671.0,Gas,Bcm
+Bolivia,1989.0,116.0,Gas,Bcm
+Brazil,1989.0,116.0,Gas,Bcm
+Colombia,1989.0,109.0,Gas,Bcm
+Ecuador,1989.0,112.0,Gas,Bcm
+Peru,1989.0,340.0,Gas,Bcm
+Trinidad and Tobago,1989.0,286.0,Gas,Bcm
+Venezuela,1989.0,2992.7,Gas,Bcm
+Iran,1989.0,17000.0,Gas,Bcm
+Iraq,1989.0,3115.0,Gas,Bcm
+Kuwait,1989.0,1400.0,Gas,Bcm
+Oman,1989.0,279.0,Gas,Bcm
+Qatar,1989.0,4620.0,Gas,Bcm
+Saudi Arabia,1989.0,5218.4,Gas,Bcm
+United Arab Emirates,1989.0,5650.0,Gas,Bcm
+Algeria,1989.0,3250.0,Gas,Bcm
+Angola,1989.0,51.0,Gas,Bcm
+Cameroon,1989.0,110.0,Gas,Bcm
+Congo,1989.0,73.0,Gas,Bcm
+Egypt,1989.0,351.0,Gas,Bcm
+Equatorial Guinea,1989.0,11.0,Gas,Bcm
+Gabon,1989.0,14.0,Gas,Bcm
+Libya,1989.0,1218.0,Gas,Bcm
+Mozambique,1989.0,65.03600000000002,Gas,Bcm
+Nigeria,1989.0,2832.0,Gas,Bcm
+Russian Federation & USSR,1989.0,41402.845291479825,Gas,Bcm
+Bulgaria,1989.0,7.0,Gas,Bcm
+Romania,1989.0,417.0,Gas,Bcm
+Canada,1990.0,2725.0,Gas,Bcm
+Chile,1990.0,27.0,Gas,Bcm
+Mexico,1990.0,2025.0,Gas,Bcm
+United States of America,1990.0,4795.0,Gas,Bcm
+Denmark,1990.0,171.0,Gas,Bcm
+Germany,1990.0,217.0,Gas,Bcm
+Italy,1990.0,322.0,Gas,Bcm
+Netherlands,1990.0,2002.0,Gas,Bcm
+Norway,1990.0,2251.0,Gas,Bcm
+Poland,1990.0,159.0,Gas,Bcm
+United Kingdom,1990.0,1200.0,Gas,Bcm
+Australia,1990.0,927.0,Gas,Bcm
+Japan,1990.0,35.0,Gas,Bcm
+New Zealand,1990.0,137.0,Gas,Bcm
+China,1990.0,850.0,Gas,Bcm
+India,1990.0,700.0,Gas,Bcm
+Bangladesh,1990.0,725.0,Gas,Bcm
+Brunei Darussalam,1990.0,331.0,Gas,Bcm
+Indonesia,1990.0,1849.0,Gas,Bcm
+Malaysia,1990.0,1611.0,Gas,Bcm
+Burma,1990.0,265.0,Gas,Bcm
+Pakistan,1990.0,642.0,Gas,Bcm
+Thailand,1990.0,224.0,Gas,Bcm
+Viet Nam,1990.0,15.0,Gas,Bcm
+Argentina,1990.0,660.0,Gas,Bcm
+Bolivia,1990.0,113.0,Gas,Bcm
+Brazil,1990.0,115.0,Gas,Bcm
+Colombia,1990.0,101.0,Gas,Bcm
+Ecuador,1990.0,111.0,Gas,Bcm
+Peru,1990.0,339.0,Gas,Bcm
+Trinidad and Tobago,1990.0,252.0,Gas,Bcm
+Venezuela,1990.0,3429.0,Gas,Bcm
+Iran,1990.0,17003.0,Gas,Bcm
+Iraq,1990.0,3107.0,Gas,Bcm
+Kuwait,1990.0,1518.0,Gas,Bcm
+Oman,1990.0,280.0,Gas,Bcm
+Qatar,1990.0,4615.0,Gas,Bcm
+Saudi Arabia,1990.0,5222.7,Gas,Bcm
+United Arab Emirates,1990.0,5623.0,Gas,Bcm
+Algeria,1990.0,3300.0,Gas,Bcm
+Angola,1990.0,50.0,Gas,Bcm
+Cameroon,1990.0,110.0,Gas,Bcm
+Congo,1990.0,77.0,Gas,Bcm
+Egypt,1990.0,379.0,Gas,Bcm
+Equatorial Guinea,1990.0,11.0,Gas,Bcm
+Gabon,1990.0,12.0,Gas,Bcm
+Libya,1990.0,1208.0,Gas,Bcm
+Mozambique,1990.0,65.03600000000002,Gas,Bcm
+Nigeria,1990.0,2840.0,Gas,Bcm
+Russian Federation & USSR,1990.0,43416.968946188346,Gas,Bcm
+Bulgaria,1990.0,7.0,Gas,Bcm
+Romania,1990.0,389.0,Gas,Bcm
+Canada,1991.0,2711.0,Gas,Bcm
+Chile,1991.0,26.0,Gas,Bcm
+Mexico,1991.0,2009.0,Gas,Bcm
+United States of America,1991.0,4731.0,Gas,Bcm
+Denmark,1991.0,201.0,Gas,Bcm
+Germany,1991.0,195.0,Gas,Bcm
+Italy,1991.0,350.0,Gas,Bcm
+Netherlands,1991.0,1976.0,Gas,Bcm
+Norway,1991.0,2353.0,Gas,Bcm
+Poland,1991.0,153.0,Gas,Bcm
+United Kingdom,1991.0,1235.0,Gas,Bcm
+Australia,1991.0,950.0,Gas,Bcm
+Japan,1991.0,33.0,Gas,Bcm
+New Zealand,1991.0,100.0,Gas,Bcm
+China,1991.0,900.0,Gas,Bcm
+India,1991.0,730.0,Gas,Bcm
+Bangladesh,1991.0,720.0,Gas,Bcm
+Brunei Darussalam,1991.0,396.0,Gas,Bcm
+Indonesia,1991.0,1824.0,Gas,Bcm
+Malaysia,1991.0,1671.0,Gas,Bcm
+Burma,1991.0,278.0,Gas,Bcm
+Pakistan,1991.0,756.0,Gas,Bcm
+Thailand,1991.0,246.0,Gas,Bcm
+Viet Nam,1991.0,15.0,Gas,Bcm
+Argentina,1991.0,643.0,Gas,Bcm
+Bolivia,1991.0,116.0,Gas,Bcm
+Brazil,1991.0,124.0,Gas,Bcm
+Colombia,1991.0,99.0,Gas,Bcm
+Ecuador,1991.0,110.0,Gas,Bcm
+Peru,1991.0,343.0,Gas,Bcm
+Trinidad and Tobago,1991.0,238.0,Gas,Bcm
+Venezuela,1991.0,3581.8,Gas,Bcm
+Iran,1991.0,19800.0,Gas,Bcm
+Iraq,1991.0,3100.0,Gas,Bcm
+Kuwait,1991.0,1500.0,Gas,Bcm
+Oman,1991.0,93.0,Gas,Bcm
+Qatar,1991.0,6428.0,Gas,Bcm
+Saudi Arabia,1991.0,5220.6,Gas,Bcm
+United Arab Emirates,1991.0,5793.0,Gas,Bcm
+Algeria,1991.0,3626.0,Gas,Bcm
+Angola,1991.0,49.0,Gas,Bcm
+Cameroon,1991.0,110.0,Gas,Bcm
+Congo,1991.0,77.0,Gas,Bcm
+Egypt,1991.0,396.0,Gas,Bcm
+Equatorial Guinea,1991.0,11.0,Gas,Bcm
+Gabon,1991.0,11.0,Gas,Bcm
+Libya,1991.0,1309.0,Gas,Bcm
+Mozambique,1991.0,65.03600000000002,Gas,Bcm
+Nigeria,1991.0,3400.0,Gas,Bcm
+Russian Federation & USSR,1991.0,43791.27511210763,Gas,Bcm
+Bulgaria,1991.0,7.0,Gas,Bcm
+Romania,1991.0,364.0,Gas,Bcm
+Canada,1992.0,2672.0,Gas,Bcm
+Chile,1992.0,25.0,Gas,Bcm
+Mexico,1992.0,1983.0,Gas,Bcm
+United States of America,1992.0,4673.0,Gas,Bcm
+Denmark,1992.0,214.0,Gas,Bcm
+Germany,1992.0,198.0,Gas,Bcm
+Italy,1992.0,375.0,Gas,Bcm
+Netherlands,1992.0,1953.0,Gas,Bcm
+Norway,1992.0,2756.0,Gas,Bcm
+Poland,1992.0,158.0,Gas,Bcm
+United Kingdom,1992.0,1350.0,Gas,Bcm
+Australia,1992.0,1006.0,Gas,Bcm
+Japan,1992.0,31.0,Gas,Bcm
+New Zealand,1992.0,95.0,Gas,Bcm
+China,1992.0,920.0,Gas,Bcm
+India,1992.0,735.0,Gas,Bcm
+Bangladesh,1992.0,303.0,Gas,Bcm
+Brunei Darussalam,1992.0,400.0,Gas,Bcm
+Indonesia,1992.0,1911.0,Gas,Bcm
+Malaysia,1992.0,1919.0,Gas,Bcm
+Burma,1992.0,278.0,Gas,Bcm
+Pakistan,1992.0,637.0,Gas,Bcm
+Thailand,1992.0,231.0,Gas,Bcm
+Viet Nam,1992.0,106.0,Gas,Bcm
+Argentina,1992.0,541.0,Gas,Bcm
+Bolivia,1992.0,120.0,Gas,Bcm
+Brazil,1992.0,133.0,Gas,Bcm
+Colombia,1992.0,185.0,Gas,Bcm
+Ecuador,1992.0,109.0,Gas,Bcm
+Peru,1992.0,326.0,Gas,Bcm
+Trinidad and Tobago,1992.0,233.0,Gas,Bcm
+Venezuela,1992.0,3693.0,Gas,Bcm
+Iran,1992.0,20700.0,Gas,Bcm
+Iraq,1992.0,3100.0,Gas,Bcm
+Kuwait,1992.0,1485.0,Gas,Bcm
+Oman,1992.0,150.0,Gas,Bcm
+Qatar,1992.0,7079.0,Gas,Bcm
+Saudi Arabia,1992.0,5248.8,Gas,Bcm
+United Arab Emirates,1992.0,5795.0,Gas,Bcm
+Algeria,1992.0,3650.0,Gas,Bcm
+Angola,1992.0,51.0,Gas,Bcm
+Cameroon,1992.0,110.0,Gas,Bcm
+Congo,1992.0,77.0,Gas,Bcm
+Egypt,1992.0,436.0,Gas,Bcm
+Equatorial Guinea,1992.0,17.0,Gas,Bcm
+Gabon,1992.0,16.0,Gas,Bcm
+Libya,1992.0,1299.0,Gas,Bcm
+Mozambique,1992.0,65.03600000000002,Gas,Bcm
+Nigeria,1992.0,3716.2,Gas,Bcm
+Russian Federation & USSR,1992.0,44746.9865470852,Gas,Bcm
+Bulgaria,1992.0,7.0,Gas,Bcm
+Romania,1992.0,341.0,Gas,Bcm
+Canada,1993.0,2232.0,Gas,Bcm
+Chile,1993.0,24.0,Gas,Bcm
+Mexico,1993.0,1973.0,Gas,Bcm
+United States of America,1993.0,4599.0,Gas,Bcm
+Denmark,1993.0,215.0,Gas,Bcm
+Germany,1993.0,198.0,Gas,Bcm
+Italy,1993.0,330.0,Gas,Bcm
+Netherlands,1993.0,1904.0,Gas,Bcm
+Norway,1993.0,2805.0,Gas,Bcm
+Poland,1993.0,155.0,Gas,Bcm
+United Kingdom,1993.0,1435.0,Gas,Bcm
+Australia,1993.0,992.0,Gas,Bcm
+Japan,1993.0,30.0,Gas,Bcm
+New Zealand,1993.0,90.0,Gas,Bcm
+China,1993.0,1025.0,Gas,Bcm
+India,1993.0,718.0,Gas,Bcm
+Bangladesh,1993.0,297.0,Gas,Bcm
+Brunei Darussalam,1993.0,400.0,Gas,Bcm
+Indonesia,1993.0,2234.0,Gas,Bcm
+Malaysia,1993.0,2173.0,Gas,Bcm
+Burma,1993.0,268.0,Gas,Bcm
+Pakistan,1993.0,651.0,Gas,Bcm
+Thailand,1993.0,181.0,Gas,Bcm
+Viet Nam,1993.0,106.0,Gas,Bcm
+Argentina,1993.0,517.0,Gas,Bcm
+Bolivia,1993.0,118.0,Gas,Bcm
+Brazil,1993.0,137.0,Gas,Bcm
+Colombia,1993.0,211.0,Gas,Bcm
+Ecuador,1993.0,108.0,Gas,Bcm
+Peru,1993.0,332.0,Gas,Bcm
+Trinidad and Tobago,1993.0,230.0,Gas,Bcm
+Venezuela,1993.0,3693.0,Gas,Bcm
+Iran,1993.0,20700.0,Gas,Bcm
+Iraq,1993.0,3100.0,Gas,Bcm
+Kuwait,1993.0,1498.0,Gas,Bcm
+Oman,1993.0,200.0,Gas,Bcm
+Qatar,1993.0,7100.0,Gas,Bcm
+Saudi Arabia,1993.0,5248.8,Gas,Bcm
+United Arab Emirates,1993.0,5795.0,Gas,Bcm
+Algeria,1993.0,3700.0,Gas,Bcm
+Angola,1993.0,48.0,Gas,Bcm
+Cameroon,1993.0,110.0,Gas,Bcm
+Congo,1993.0,77.0,Gas,Bcm
+Egypt,1993.0,595.0,Gas,Bcm
+Equatorial Guinea,1993.0,17.0,Gas,Bcm
+Gabon,1993.0,14.0,Gas,Bcm
+Libya,1993.0,1289.0,Gas,Bcm
+Mozambique,1993.0,65.32000000000001,Gas,Bcm
+Nigeria,1993.0,3683.0,Gas,Bcm
+Russian Federation & USSR,1993.0,46020.9855381166,Gas,Bcm
+Bulgaria,1993.0,7.0,Gas,Bcm
+Romania,1993.0,320.0,Gas,Bcm
+Canada,1994.0,1898.0,Gas,Bcm
+Chile,1994.0,23.0,Gas,Bcm
+Mexico,1994.0,1937.0,Gas,Bcm
+United States of America,1994.0,4638.0,Gas,Bcm
+Denmark,1994.0,190.0,Gas,Bcm
+Germany,1994.0,222.0,Gas,Bcm
+Italy,1994.0,314.0,Gas,Bcm
+Netherlands,1994.0,1892.0,Gas,Bcm
+Norway,1994.0,2868.0,Gas,Bcm
+Poland,1994.0,155.0,Gas,Bcm
+United Kingdom,1994.0,1515.0,Gas,Bcm
+Australia,1994.0,1292.0,Gas,Bcm
+Japan,1994.0,30.0,Gas,Bcm
+New Zealand,1994.0,77.0,Gas,Bcm
+China,1994.0,1025.0,Gas,Bcm
+India,1994.0,702.0,Gas,Bcm
+Bangladesh,1994.0,301.0,Gas,Bcm
+Brunei Darussalam,1994.0,400.0,Gas,Bcm
+Indonesia,1994.0,2046.0,Gas,Bcm
+Malaysia,1994.0,2284.0,Gas,Bcm
+Burma,1994.0,268.0,Gas,Bcm
+Pakistan,1994.0,665.0,Gas,Bcm
+Thailand,1994.0,175.0,Gas,Bcm
+Viet Nam,1994.0,134.0,Gas,Bcm
+Argentina,1994.0,535.0,Gas,Bcm
+Bolivia,1994.0,108.0,Gas,Bcm
+Brazil,1994.0,146.0,Gas,Bcm
+Colombia,1994.0,214.0,Gas,Bcm
+Ecuador,1994.0,107.0,Gas,Bcm
+Peru,1994.0,340.0,Gas,Bcm
+Trinidad and Tobago,1994.0,286.0,Gas,Bcm
+Venezuela,1994.0,3965.05,Gas,Bcm
+Iran,1994.0,20764.0,Gas,Bcm
+Iraq,1994.0,3115.0,Gas,Bcm
+Kuwait,1994.0,1499.0,Gas,Bcm
+Oman,1994.0,256.0,Gas,Bcm
+Qatar,1994.0,8500.0,Gas,Bcm
+Saudi Arabia,1994.0,5260.0,Gas,Bcm
+United Arab Emirates,1994.0,6777.0,Gas,Bcm
+Algeria,1994.0,2963.0,Gas,Bcm
+Angola,1994.0,51.015306122449,Gas,Bcm
+Cameroon,1994.0,110.0,Gas,Bcm
+Congo,1994.0,90.0,Gas,Bcm
+Egypt,1994.0,631.0,Gas,Bcm
+Equatorial Guinea,1994.0,17.0,Gas,Bcm
+Gabon,1994.0,12.0,Gas,Bcm
+Libya,1994.0,1310.0,Gas,Bcm
+Mozambique,1994.0,65.32000000000001,Gas,Bcm
+Nigeria,1994.0,3450.0,Gas,Bcm
+Russian Federation & USSR,1994.0,46299.38105381166,Gas,Bcm
+Bulgaria,1994.0,3.0,Gas,Bcm
+Romania,1994.0,300.0,Gas,Bcm
+Canada,1995.0,1929.0,Gas,Bcm
+Chile,1995.0,22.0,Gas,Bcm
+Mexico,1995.0,1916.0,Gas,Bcm
+United States of America,1995.0,4676.0,Gas,Bcm
+Denmark,1995.0,179.0,Gas,Bcm
+Germany,1995.0,220.0,Gas,Bcm
+Italy,1995.0,305.0,Gas,Bcm
+Netherlands,1995.0,1850.0,Gas,Bcm
+Norway,1995.0,3000.0,Gas,Bcm
+Poland,1995.0,153.0,Gas,Bcm
+United Kingdom,1995.0,1480.0,Gas,Bcm
+Australia,1995.0,1264.0,Gas,Bcm
+Japan,1995.0,30.0,Gas,Bcm
+New Zealand,1995.0,68.0,Gas,Bcm
+China,1995.0,1070.0,Gas,Bcm
+India,1995.0,686.0,Gas,Bcm
+Bangladesh,1995.0,272.0,Gas,Bcm
+Brunei Darussalam,1995.0,400.0,Gas,Bcm
+Indonesia,1995.0,2186.0,Gas,Bcm
+Malaysia,1995.0,2397.0,Gas,Bcm
+Burma,1995.0,268.0,Gas,Bcm
+Pakistan,1995.0,604.0,Gas,Bcm
+Thailand,1995.0,176.0,Gas,Bcm
+Viet Nam,1995.0,147.0,Gas,Bcm
+Argentina,1995.0,619.0,Gas,Bcm
+Bolivia,1995.0,127.0,Gas,Bcm
+Brazil,1995.0,154.0,Gas,Bcm
+Colombia,1995.0,217.0,Gas,Bcm
+Ecuador,1995.0,106.0,Gas,Bcm
+Peru,1995.0,201.0,Gas,Bcm
+Trinidad and Tobago,1995.0,349.0,Gas,Bcm
+Venezuela,1995.0,4064.7,Gas,Bcm
+Iran,1995.0,19350.0,Gas,Bcm
+Iraq,1995.0,3360.0,Gas,Bcm
+Kuwait,1995.0,1494.0,Gas,Bcm
+Oman,1995.0,453.0,Gas,Bcm
+Qatar,1995.0,8500.0,Gas,Bcm
+Saudi Arabia,1995.0,5544.5,Gas,Bcm
+United Arab Emirates,1995.0,5859.0,Gas,Bcm
+Algeria,1995.0,3690.0,Gas,Bcm
+Angola,1995.0,49.0,Gas,Bcm
+Cameroon,1995.0,110.0,Gas,Bcm
+Congo,1995.0,90.0,Gas,Bcm
+Egypt,1995.0,645.0,Gas,Bcm
+Equatorial Guinea,1995.0,17.0,Gas,Bcm
+Gabon,1995.0,34.0,Gas,Bcm
+Libya,1995.0,1313.0,Gas,Bcm
+Mozambique,1995.0,76.7368,Gas,Bcm
+Nigeria,1995.0,3474.0,Gas,Bcm
+Russian Federation & USSR,1995.0,45678.93251121076,Gas,Bcm
+Bulgaria,1995.0,4.0,Gas,Bcm
+Romania,1995.0,280.0,Gas,Bcm
+Canada,1996.0,1942.0,Gas,Bcm
+Chile,1996.0,21.0,Gas,Bcm
+Mexico,1996.0,1810.0,Gas,Bcm
+United States of America,1996.0,4704.0,Gas,Bcm
+Denmark,1996.0,167.0,Gas,Bcm
+Germany,1996.0,223.0,Gas,Bcm
+Italy,1996.0,290.0,Gas,Bcm
+Netherlands,1996.0,1829.0,Gas,Bcm
+Norway,1996.0,3000.0,Gas,Bcm
+Poland,1996.0,149.0,Gas,Bcm
+United Kingdom,1996.0,1420.0,Gas,Bcm
+Australia,1996.0,1360.0,Gas,Bcm
+Japan,1996.0,31.0,Gas,Bcm
+New Zealand,1996.0,63.0,Gas,Bcm
+China,1996.0,1100.0,Gas,Bcm
+India,1996.0,675.0,Gas,Bcm
+Bangladesh,1996.0,300.0,Gas,Bcm
+Brunei Darussalam,1996.0,400.0,Gas,Bcm
+Indonesia,1996.0,2157.0,Gas,Bcm
+Malaysia,1996.0,2270.0,Gas,Bcm
+Burma,1996.0,282.0,Gas,Bcm
+Pakistan,1996.0,589.0,Gas,Bcm
+Thailand,1996.0,196.0,Gas,Bcm
+Viet Nam,1996.0,171.0,Gas,Bcm
+Argentina,1996.0,642.0,Gas,Bcm
+Bolivia,1996.0,131.0,Gas,Bcm
+Brazil,1996.0,158.0,Gas,Bcm
+Colombia,1996.0,217.0,Gas,Bcm
+Ecuador,1996.0,105.0,Gas,Bcm
+Peru,1996.0,201.0,Gas,Bcm
+Trinidad and Tobago,1996.0,456.0,Gas,Bcm
+Venezuela,1996.0,4051.5,Gas,Bcm
+Iran,1996.0,23000.0,Gas,Bcm
+Iraq,1996.0,3360.0,Gas,Bcm
+Kuwait,1996.0,1489.0,Gas,Bcm
+Oman,1996.0,617.0,Gas,Bcm
+Qatar,1996.0,8500.0,Gas,Bcm
+Saudi Arabia,1996.0,5693.3,Gas,Bcm
+United Arab Emirates,1996.0,5784.0,Gas,Bcm
+Algeria,1996.0,3700.0,Gas,Bcm
+Angola,1996.0,49.0,Gas,Bcm
+Cameroon,1996.0,110.0,Gas,Bcm
+Congo,1996.0,90.0,Gas,Bcm
+Egypt,1996.0,849.0,Gas,Bcm
+Equatorial Guinea,1996.0,17.9,Gas,Bcm
+Gabon,1996.0,34.0,Gas,Bcm
+Libya,1996.0,1313.0,Gas,Bcm
+Mozambique,1996.0,49.416000000000004,Gas,Bcm
+Nigeria,1996.0,3475.0,Gas,Bcm
+Russian Federation & USSR,1996.0,45147.60448430494,Gas,Bcm
+Bulgaria,1996.0,5.0,Gas,Bcm
+Romania,1996.0,262.0,Gas,Bcm
+Canada,1997.0,1809.0,Gas,Bcm
+Chile,1997.0,20.0,Gas,Bcm
+Mexico,1997.0,1797.0,Gas,Bcm
+United States of America,1997.0,4735.0,Gas,Bcm
+Denmark,1997.0,137.0,Gas,Bcm
+Germany,1997.0,263.0,Gas,Bcm
+Italy,1997.0,229.0,Gas,Bcm
+Netherlands,1997.0,1845.0,Gas,Bcm
+Norway,1997.0,3654.0,Gas,Bcm
+Poland,1997.0,155.0,Gas,Bcm
+United Kingdom,1997.0,1385.0,Gas,Bcm
+Australia,1997.0,1494.0,Gas,Bcm
+Japan,1997.0,41.0,Gas,Bcm
+New Zealand,1997.0,75.0,Gas,Bcm
+China,1997.0,1199.0,Gas,Bcm
+India,1997.0,665.0,Gas,Bcm
+Bangladesh,1997.0,297.0,Gas,Bcm
+Brunei Darussalam,1997.0,391.0,Gas,Bcm
+Indonesia,1997.0,2182.0,Gas,Bcm
+Malaysia,1997.0,2258.0,Gas,Bcm
+Burma,1997.0,283.0,Gas,Bcm
+Pakistan,1997.0,595.0,Gas,Bcm
+Thailand,1997.0,205.0,Gas,Bcm
+Viet Nam,1997.0,170.0,Gas,Bcm
+Argentina,1997.0,684.0,Gas,Bcm
+Bolivia,1997.0,118.0,Gas,Bcm
+Brazil,1997.0,228.0,Gas,Bcm
+Colombia,1997.0,196.0,Gas,Bcm
+Ecuador,1997.0,103.0,Gas,Bcm
+Peru,1997.0,198.0,Gas,Bcm
+Trinidad and Tobago,1997.0,517.0,Gas,Bcm
+Venezuela,1997.0,4120.8,Gas,Bcm
+Iran,1997.0,23000.0,Gas,Bcm
+Iraq,1997.0,3188.0,Gas,Bcm
+Kuwait,1997.0,1490.0,Gas,Bcm
+Oman,1997.0,542.0,Gas,Bcm
+Qatar,1997.0,8500.0,Gas,Bcm
+Saudi Arabia,1997.0,5882.0,Gas,Bcm
+United Arab Emirates,1997.0,6063.0,Gas,Bcm
+Algeria,1997.0,4077.0,Gas,Bcm
+Angola,1997.0,46.0,Gas,Bcm
+Cameroon,1997.0,110.0,Gas,Bcm
+Congo,1997.0,90.0,Gas,Bcm
+Egypt,1997.0,927.0,Gas,Bcm
+Equatorial Guinea,1997.0,17.9,Gas,Bcm
+Gabon,1997.0,34.0,Gas,Bcm
+Libya,1997.0,1315.0,Gas,Bcm
+Mozambique,1997.0,56.800000000000004,Gas,Bcm
+Nigeria,1997.0,3483.0,Gas,Bcm
+Russian Federation & USSR,1997.0,45426.0,Gas,Bcm
+Azerbaijan,1997.0,331.0,Gas,Bcm
+Kazakhstan,1997.0,1389.0,Gas,Bcm
+Turkmenistan,1997.0,1803.0,Gas,Bcm
+Ukraine,1997.0,985.0,Gas,Bcm
+Uzbekistan,1997.0,886.0,Gas,Bcm
+Bulgaria,1997.0,6.0,Gas,Bcm
+Romania,1997.0,246.0,Gas,Bcm
+Canada,1998.0,1748.0,Gas,Bcm
+Chile,1998.0,19.0,Gas,Bcm
+Mexico,1998.0,851.0,Gas,Bcm
+United States of America,1998.0,4645.0,Gas,Bcm
+Denmark,1998.0,123.0,Gas,Bcm
+Germany,1998.0,260.0,Gas,Bcm
+Italy,1998.0,222.0,Gas,Bcm
+Netherlands,1998.0,1794.0,Gas,Bcm
+Norway,1998.0,3785.0,Gas,Bcm
+Poland,1998.0,141.0,Gas,Bcm
+United Kingdom,1998.0,1340.0,Gas,Bcm
+Australia,1998.0,1989.0,Gas,Bcm
+Japan,1998.0,40.0,Gas,Bcm
+New Zealand,1998.0,72.0,Gas,Bcm
+China,1998.0,1250.0,Gas,Bcm
+India,1998.0,650.0,Gas,Bcm
+Bangladesh,1998.0,297.0,Gas,Bcm
+Brunei Darussalam,1998.0,382.0,Gas,Bcm
+Indonesia,1998.0,2432.0,Gas,Bcm
+Malaysia,1998.0,2462.0,Gas,Bcm
+Burma,1998.0,285.0,Gas,Bcm
+Pakistan,1998.0,612.0,Gas,Bcm
+Thailand,1998.0,420.0,Gas,Bcm
+Viet Nam,1998.0,170.0,Gas,Bcm
+Argentina,1998.0,687.0,Gas,Bcm
+Bolivia,1998.0,150.0,Gas,Bcm
+Brazil,1998.0,226.0,Gas,Bcm
+Colombia,1998.0,196.0,Gas,Bcm
+Ecuador,1998.0,102.0,Gas,Bcm
+Peru,1998.0,255.0,Gas,Bcm
+Trinidad and Tobago,1998.0,560.0,Gas,Bcm
+Venezuela,1998.0,4147.464,Gas,Bcm
+Iran,1998.0,24100.0,Gas,Bcm
+Iraq,1998.0,3188.0,Gas,Bcm
+Kuwait,1998.0,1482.0,Gas,Bcm
+Oman,1998.0,568.0,Gas,Bcm
+Qatar,1998.0,10900.0,Gas,Bcm
+Saudi Arabia,1998.0,6068.0,Gas,Bcm
+United Arab Emirates,1998.0,5996.0,Gas,Bcm
+Algeria,1998.0,4077.0,Gas,Bcm
+Angola,1998.0,48.0,Gas,Bcm
+Cameroon,1998.0,110.0,Gas,Bcm
+Congo,1998.0,122.0,Gas,Bcm
+Egypt,1998.0,1020.0,Gas,Bcm
+Equatorial Guinea,1998.0,17.9,Gas,Bcm
+Gabon,1998.0,33.0,Gas,Bcm
+Libya,1998.0,1315.0,Gas,Bcm
+Mozambique,1998.0,71.00000000000001,Gas,Bcm
+Nigeria,1998.0,3512.0,Gas,Bcm
+Russian Federation & USSR,1998.0,45107.0,Gas,Bcm
+Azerbaijan,1998.0,499.0,Gas,Bcm
+Kazakhstan,1998.0,1389.0,Gas,Bcm
+Turkmenistan,1998.0,1862.0,Gas,Bcm
+Ukraine,1998.0,1055.0,Gas,Bcm
+Uzbekistan,1998.0,886.0,Gas,Bcm
+Bulgaria,1998.0,6.0,Gas,Bcm
+Romania,1998.0,231.0,Gas,Bcm
+Canada,1999.0,1719.0,Gas,Bcm
+Chile,1999.0,18.0,Gas,Bcm
+Mexico,1999.0,861.0,Gas,Bcm
+United States of America,1999.0,4740.0,Gas,Bcm
+Denmark,1999.0,142.0,Gas,Bcm
+Germany,1999.0,270.0,Gas,Bcm
+Italy,1999.0,208.0,Gas,Bcm
+Netherlands,1999.0,1740.0,Gas,Bcm
+Norway,1999.0,3808.0,Gas,Bcm
+Poland,1999.0,146.0,Gas,Bcm
+United Kingdom,1999.0,1265.0,Gas,Bcm
+Australia,1999.0,1989.0,Gas,Bcm
+Japan,1999.0,40.0,Gas,Bcm
+New Zealand,1999.0,59.0,Gas,Bcm
+China,1999.0,1375.0,Gas,Bcm
+India,1999.0,650.0,Gas,Bcm
+Bangladesh,1999.0,323.0,Gas,Bcm
+Brunei Darussalam,1999.0,374.0,Gas,Bcm
+Indonesia,1999.0,2683.0,Gas,Bcm
+Malaysia,1999.0,2428.0,Gas,Bcm
+Burma,1999.0,287.0,Gas,Bcm
+Pakistan,1999.0,702.0,Gas,Bcm
+Thailand,1999.0,345.0,Gas,Bcm
+Viet Nam,1999.0,170.0,Gas,Bcm
+Argentina,1999.0,729.0,Gas,Bcm
+Bolivia,1999.0,518.0,Gas,Bcm
+Brazil,1999.0,231.0,Gas,Bcm
+Colombia,1999.0,188.0,Gas,Bcm
+Ecuador,1999.0,29.0,Gas,Bcm
+Peru,1999.0,246.0,Gas,Bcm
+Trinidad and Tobago,1999.0,605.0,Gas,Bcm
+Venezuela,1999.0,4152.418,Gas,Bcm
+Iran,1999.0,22370.0,Gas,Bcm
+Iraq,1999.0,3285.0,Gas,Bcm
+Kuwait,1999.0,1482.0,Gas,Bcm
+Oman,1999.0,830.0,Gas,Bcm
+Qatar,1999.0,11157.0,Gas,Bcm
+Saudi Arabia,1999.0,6146.0,Gas,Bcm
+United Arab Emirates,1999.0,5936.0,Gas,Bcm
+Algeria,1999.0,4520.0,Gas,Bcm
+Angola,1999.0,60.0,Gas,Bcm
+Cameroon,1999.0,102.0,Gas,Bcm
+Congo,1999.0,122.0,Gas,Bcm
+Egypt,1999.0,1223.0,Gas,Bcm
+Equatorial Guinea,1999.0,17.5,Gas,Bcm
+Gabon,1999.0,33.0,Gas,Bcm
+Libya,1999.0,1314.0,Gas,Bcm
+Mozambique,1999.0,56.800000000000004,Gas,Bcm
+Nigeria,1999.0,3512.0,Gas,Bcm
+Russian Federation & USSR,1999.0,44000.0,Gas,Bcm
+Azerbaijan,1999.0,499.0,Gas,Bcm
+Kazakhstan,1999.0,1389.0,Gas,Bcm
+Turkmenistan,1999.0,1862.0,Gas,Bcm
+Ukraine,1999.0,1045.0,Gas,Bcm
+Uzbekistan,1999.0,937.0,Gas,Bcm
+Bulgaria,1999.0,6.0,Gas,Bcm
+Romania,1999.0,216.0,Gas,Bcm
+Canada,2000.0,1683.0,Gas,Bcm
+Chile,2000.0,17.0,Gas,Bcm
+Mexico,2000.0,835.0,Gas,Bcm
+United States of America,2000.0,5024.0,Gas,Bcm
+Denmark,2000.0,144.0,Gas,Bcm
+Germany,2000.0,264.0,Gas,Bcm
+Italy,2000.0,199.0,Gas,Bcm
+Netherlands,2000.0,1684.0,Gas,Bcm
+Norway,2000.0,3841.0,Gas,Bcm
+Poland,2000.0,119.0,Gas,Bcm
+United Kingdom,2000.0,1195.0,Gas,Bcm
+Australia,2000.0,2203.0,Gas,Bcm
+Japan,2000.0,40.0,Gas,Bcm
+New Zealand,2000.0,57.0,Gas,Bcm
+China,2000.0,1269.0,Gas,Bcm
+India,2000.0,760.0,Gas,Bcm
+Bangladesh,2000.0,306.0,Gas,Bcm
+Brunei Darussalam,2000.0,366.0,Gas,Bcm
+Indonesia,2000.0,2608.0,Gas,Bcm
+Malaysia,2000.0,2335.0,Gas,Bcm
+Burma,2000.0,287.0,Gas,Bcm
+Pakistan,2000.0,677.0,Gas,Bcm
+Thailand,2000.0,360.0,Gas,Bcm
+Viet Nam,2000.0,170.0,Gas,Bcm
+Argentina,2000.0,778.0,Gas,Bcm
+Bolivia,2000.0,675.0,Gas,Bcm
+Brazil,2000.0,221.0,Gas,Bcm
+Colombia,2000.0,129.0,Gas,Bcm
+Ecuador,2000.0,10.0,Gas,Bcm
+Peru,2000.0,245.0,Gas,Bcm
+Trinidad and Tobago,2000.0,557.0,Gas,Bcm
+Venezuela,2000.0,4152.418,Gas,Bcm
+Iran,2000.0,26600.0,Gas,Bcm
+Iraq,2000.0,3109.0,Gas,Bcm
+Kuwait,2000.0,1557.0,Gas,Bcm
+Oman,2000.0,859.0,Gas,Bcm
+Qatar,2000.0,14443.0,Gas,Bcm
+Saudi Arabia,2000.0,6301.0,Gas,Bcm
+United Arab Emirates,2000.0,6060.0,Gas,Bcm
+Algeria,2000.0,4523.0,Gas,Bcm
+Angola,2000.0,269.0,Gas,Bcm
+Cameroon,2000.0,102.0,Gas,Bcm
+Congo,2000.0,122.0,Gas,Bcm
+Egypt,2000.0,1433.0,Gas,Bcm
+Equatorial Guinea,2000.0,17.0,Gas,Bcm
+Gabon,2000.0,33.0,Gas,Bcm
+Libya,2000.0,1314.0,Gas,Bcm
+Mozambique,2000.0,56.800000000000004,Gas,Bcm
+Nigeria,2000.0,4106.0,Gas,Bcm
+Russian Federation & USSR,2000.0,43809.0,Gas,Bcm
+Azerbaijan,2000.0,499.0,Gas,Bcm
+Kazakhstan,2000.0,1389.0,Gas,Bcm
+Turkmenistan,2000.0,1862.0,Gas,Bcm
+Ukraine,2000.0,1040.0,Gas,Bcm
+Uzbekistan,2000.0,937.0,Gas,Bcm
+Bulgaria,2000.0,6.0,Gas,Bcm
+Romania,2000.0,202.0,Gas,Bcm
+Canada,2001.0,1694.0,Gas,Bcm
+Chile,2001.0,17.0,Gas,Bcm
+Mexico,2001.0,797.0,Gas,Bcm
+United States of America,2001.0,5195.0,Gas,Bcm
+Denmark,2001.0,141.0,Gas,Bcm
+Germany,2001.0,237.0,Gas,Bcm
+Italy,2001.0,183.0,Gas,Bcm
+Netherlands,2001.0,1648.0,Gas,Bcm
+Norway,2001.0,3833.0,Gas,Bcm
+Poland,2001.0,115.0,Gas,Bcm
+United Kingdom,2001.0,1100.0,Gas,Bcm
+Australia,2001.0,2667.0,Gas,Bcm
+Japan,2001.0,40.0,Gas,Bcm
+New Zealand,2001.0,65.0,Gas,Bcm
+China,2001.0,1332.0,Gas,Bcm
+India,2001.0,763.0,Gas,Bcm
+Bangladesh,2001.0,340.0,Gas,Bcm
+Brunei Darussalam,2001.0,356.0,Gas,Bcm
+Indonesia,2001.0,2557.0,Gas,Bcm
+Malaysia,2001.0,2335.0,Gas,Bcm
+Burma,2001.0,345.0,Gas,Bcm
+Pakistan,2001.0,745.0,Gas,Bcm
+Thailand,2001.0,378.0,Gas,Bcm
+Viet Nam,2001.0,193.0,Gas,Bcm
+Argentina,2001.0,764.0,Gas,Bcm
+Bolivia,2001.0,775.0,Gas,Bcm
+Brazil,2001.0,223.0,Gas,Bcm
+Colombia,2001.0,128.0,Gas,Bcm
+Ecuador,2001.0,10.0,Gas,Bcm
+Peru,2001.0,247.0,Gas,Bcm
+Trinidad and Tobago,2001.0,576.0,Gas,Bcm
+Venezuela,2001.0,4180.0,Gas,Bcm
+Iran,2001.0,26600.0,Gas,Bcm
+Iraq,2001.0,3109.0,Gas,Bcm
+Kuwait,2001.0,1557.0,Gas,Bcm
+Oman,2001.0,830.0,Gas,Bcm
+Qatar,2001.0,25783.0,Gas,Bcm
+Saudi Arabia,2001.0,6455.56,Gas,Bcm
+United Arab Emirates,2001.0,6060.0,Gas,Bcm
+Algeria,2001.0,4523.0,Gas,Bcm
+Angola,2001.0,269.0,Gas,Bcm
+Cameroon,2001.0,102.0,Gas,Bcm
+Congo,2001.0,122.0,Gas,Bcm
+Egypt,2001.0,1557.0,Gas,Bcm
+Equatorial Guinea,2001.0,22.1,Gas,Bcm
+Gabon,2001.0,33.0,Gas,Bcm
+Libya,2001.0,1314.0,Gas,Bcm
+Mozambique,2001.0,56.800000000000004,Gas,Bcm
+Nigeria,2001.0,4632.7,Gas,Bcm
+Russian Federation & USSR,2001.0,43902.0,Gas,Bcm
+Azerbaijan,2001.0,499.0,Gas,Bcm
+Kazakhstan,2001.0,1389.0,Gas,Bcm
+Turkmenistan,2001.0,1862.0,Gas,Bcm
+Ukraine,2001.0,1040.0,Gas,Bcm
+Uzbekistan,2001.0,937.0,Gas,Bcm
+Bulgaria,2001.0,4.0,Gas,Bcm
+Romania,2001.0,189.0,Gas,Bcm
+Canada,2002.0,1664.0,Gas,Bcm
+Chile,2002.0,16.0,Gas,Bcm
+Mexico,2002.0,561.3344700658395,Gas,Bcm
+United States of America,2002.0,5294.0,Gas,Bcm
+Denmark,2002.0,129.0,Gas,Bcm
+Germany,2002.0,224.0,Gas,Bcm
+Italy,2002.0,172.0,Gas,Bcm
+Netherlands,2002.0,1600.0,Gas,Bcm
+Norway,2002.0,3667.0,Gas,Bcm
+Poland,2002.0,116.0,Gas,Bcm
+United Kingdom,2002.0,1000.0,Gas,Bcm
+Australia,2002.0,2528.0,Gas,Bcm
+Japan,2002.0,40.0,Gas,Bcm
+New Zealand,2002.0,65.0,Gas,Bcm
+China,2002.0,1399.0,Gas,Bcm
+India,2002.0,751.0,Gas,Bcm
+Bangladesh,2002.0,340.0,Gas,Bcm
+Brunei Darussalam,2002.0,350.0,Gas,Bcm
+Indonesia,2002.0,2582.0,Gas,Bcm
+Malaysia,2002.0,2471.0,Gas,Bcm
+Burma,2002.0,445.0,Gas,Bcm
+Pakistan,2002.0,760.0,Gas,Bcm
+Thailand,2002.0,441.0,Gas,Bcm
+Viet Nam,2002.0,230.0,Gas,Bcm
+Argentina,2002.0,664.0,Gas,Bcm
+Bolivia,2002.0,813.0,Gas,Bcm
+Brazil,2002.0,245.0,Gas,Bcm
+Colombia,2002.0,120.0,Gas,Bcm
+Ecuador,2002.0,10.0,Gas,Bcm
+Peru,2002.0,247.0,Gas,Bcm
+Trinidad and Tobago,2002.0,589.0,Gas,Bcm
+Venezuela,2002.0,4180.8,Gas,Bcm
+Iran,2002.0,26690.0,Gas,Bcm
+Iraq,2002.0,3190.0,Gas,Bcm
+Kuwait,2002.0,1557.0,Gas,Bcm
+Oman,2002.0,830.0,Gas,Bcm
+Qatar,2002.0,25783.0,Gas,Bcm
+Saudi Arabia,2002.0,6646.0,Gas,Bcm
+United Arab Emirates,2002.0,6060.0,Gas,Bcm
+Algeria,2002.0,4523.0,Gas,Bcm
+Angola,2002.0,269.0,Gas,Bcm
+Cameroon,2002.0,102.0,Gas,Bcm
+Congo,2002.0,120.0,Gas,Bcm
+Egypt,2002.0,1657.0,Gas,Bcm
+Equatorial Guinea,2002.0,32.2,Gas,Bcm
+Gabon,2002.0,33.0,Gas,Bcm
+Libya,2002.0,1503.0,Gas,Bcm
+Mozambique,2002.0,127.8,Gas,Bcm
+Nigeria,2002.0,4997.3,Gas,Bcm
+Russian Federation & USSR,2002.0,44090.0,Gas,Bcm
+Azerbaijan,2002.0,499.0,Gas,Bcm
+Kazakhstan,2002.0,1389.0,Gas,Bcm
+Turkmenistan,2002.0,1862.0,Gas,Bcm
+Ukraine,2002.0,1040.0,Gas,Bcm
+Uzbekistan,2002.0,942.0,Gas,Bcm
+Bulgaria,2002.0,4.0,Gas,Bcm
+Romania,2002.0,178.0,Gas,Bcm
+Canada,2003.0,1594.0,Gas,Bcm
+Chile,2003.0,15.0,Gas,Bcm
+Mexico,2003.0,558.3344700658395,Gas,Bcm
+United States of America,2003.0,5353.0,Gas,Bcm
+Denmark,2003.0,136.0,Gas,Bcm
+Germany,2003.0,207.0,Gas,Bcm
+Italy,2003.0,135.0,Gas,Bcm
+Netherlands,2003.0,1530.0,Gas,Bcm
+Norway,2003.0,3188.0,Gas,Bcm
+Poland,2003.0,110.0,Gas,Bcm
+United Kingdom,2003.0,905.0,Gas,Bcm
+Australia,2003.0,2462.0,Gas,Bcm
+Japan,2003.0,40.0,Gas,Bcm
+New Zealand,2003.0,63.0,Gas,Bcm
+China,2003.0,1469.0,Gas,Bcm
+India,2003.0,854.0,Gas,Bcm
+Bangladesh,2003.0,433.0,Gas,Bcm
+Brunei Darussalam,2003.0,345.0,Gas,Bcm
+Indonesia,2003.0,2683.0,Gas,Bcm
+Malaysia,2003.0,2519.0,Gas,Bcm
+Burma,2003.0,405.0,Gas,Bcm
+Pakistan,2003.0,750.0,Gas,Bcm
+Thailand,2003.0,418.0,Gas,Bcm
+Viet Nam,2003.0,220.0,Gas,Bcm
+Argentina,2003.0,612.0,Gas,Bcm
+Bolivia,2003.0,782.0,Gas,Bcm
+Brazil,2003.0,245.0,Gas,Bcm
+Colombia,2003.0,114.0,Gas,Bcm
+Ecuador,2003.0,9.0,Gas,Bcm
+Peru,2003.0,247.0,Gas,Bcm
+Trinidad and Tobago,2003.0,532.0,Gas,Bcm
+Venezuela,2003.0,4218.835,Gas,Bcm
+Iran,2003.0,27570.0,Gas,Bcm
+Iraq,2003.0,3170.0,Gas,Bcm
+Kuwait,2003.0,1572.0,Gas,Bcm
+Oman,2003.0,830.0,Gas,Bcm
+Qatar,2003.0,25783.0,Gas,Bcm
+Saudi Arabia,2003.0,6754.2,Gas,Bcm
+United Arab Emirates,2003.0,6060.0,Gas,Bcm
+Algeria,2003.0,4545.0,Gas,Bcm
+Angola,2003.0,269.0,Gas,Bcm
+Cameroon,2003.0,100.0,Gas,Bcm
+Congo,2003.0,117.0,Gas,Bcm
+Egypt,2003.0,1756.0,Gas,Bcm
+Equatorial Guinea,2003.0,32.8,Gas,Bcm
+Gabon,2003.0,32.0,Gas,Bcm
+Libya,2003.0,1491.0,Gas,Bcm
+Mozambique,2003.0,127.8,Gas,Bcm
+Nigeria,2003.0,5055.0,Gas,Bcm
+Russian Federation & USSR,2003.0,45028.0,Gas,Bcm
+Azerbaijan,2003.0,499.0,Gas,Bcm
+Kazakhstan,2003.0,1389.0,Gas,Bcm
+Turkmenistan,2003.0,1862.0,Gas,Bcm
+Ukraine,2003.0,1035.0,Gas,Bcm
+Uzbekistan,2003.0,942.0,Gas,Bcm
+Bulgaria,2003.0,4.0,Gas,Bcm
+Romania,2003.0,165.0,Gas,Bcm
+Canada,2004.0,1593.0,Gas,Bcm
+Chile,2004.0,14.0,Gas,Bcm
+Mexico,2004.0,556.3344700658395,Gas,Bcm
+United States of America,2004.0,5451.0,Gas,Bcm
+Denmark,2004.0,132.0,Gas,Bcm
+Germany,2004.0,191.0,Gas,Bcm
+Italy,2004.0,125.0,Gas,Bcm
+Netherlands,2004.0,1489.0,Gas,Bcm
+Norway,2004.0,3159.0,Gas,Bcm
+Poland,2004.0,109.0,Gas,Bcm
+United Kingdom,2004.0,826.0,Gas,Bcm
+Australia,2004.0,2587.0,Gas,Bcm
+Japan,2004.0,39.0,Gas,Bcm
+New Zealand,2004.0,63.0,Gas,Bcm
+China,2004.0,1592.0,Gas,Bcm
+India,2004.0,923.0,Gas,Bcm
+Bangladesh,2004.0,422.0,Gas,Bcm
+Brunei Darussalam,2004.0,345.0,Gas,Bcm
+Indonesia,2004.0,2768.0,Gas,Bcm
+Malaysia,2004.0,2463.0,Gas,Bcm
+Burma,2004.0,485.0,Gas,Bcm
+Pakistan,2004.0,726.0,Gas,Bcm
+Thailand,2004.0,354.0,Gas,Bcm
+Viet Nam,2004.0,220.0,Gas,Bcm
+Argentina,2004.0,542.0,Gas,Bcm
+Bolivia,2004.0,757.0,Gas,Bcm
+Brazil,2004.0,326.0,Gas,Bcm
+Colombia,2004.0,119.0,Gas,Bcm
+Ecuador,2004.0,9.0,Gas,Bcm
+Peru,2004.0,325.0,Gas,Bcm
+Trinidad and Tobago,2004.0,532.0,Gas,Bcm
+Venezuela,2004.0,4287.277,Gas,Bcm
+Iran,2004.0,27500.0,Gas,Bcm
+Iraq,2004.0,3170.0,Gas,Bcm
+Kuwait,2004.0,1572.0,Gas,Bcm
+Oman,2004.0,690.0,Gas,Bcm
+Qatar,2004.0,25783.0,Gas,Bcm
+Saudi Arabia,2004.0,6834.4,Gas,Bcm
+United Arab Emirates,2004.0,6060.0,Gas,Bcm
+Algeria,2004.0,4545.0,Gas,Bcm
+Angola,2004.0,270.0,Gas,Bcm
+Cameroon,2004.0,100.0,Gas,Bcm
+Congo,2004.0,115.0,Gas,Bcm
+Egypt,2004.0,1869.0,Gas,Bcm
+Equatorial Guinea,2004.0,77.1,Gas,Bcm
+Gabon,2004.0,30.0,Gas,Bcm
+Libya,2004.0,1491.0,Gas,Bcm
+Mozambique,2004.0,127.8,Gas,Bcm
+Nigeria,2004.0,5228.9,Gas,Bcm
+Russian Federation & USSR,2004.0,44840.0,Gas,Bcm
+Azerbaijan,2004.0,499.0,Gas,Bcm
+Kazakhstan,2004.0,1389.0,Gas,Bcm
+Turkmenistan,2004.0,1862.0,Gas,Bcm
+Ukraine,2004.0,1040.0,Gas,Bcm
+Uzbekistan,2004.0,937.0,Gas,Bcm
+Bulgaria,2004.0,4.0,Gas,Bcm
+Romania,2004.0,152.0,Gas,Bcm
+Canada,2005.0,1632.0,Gas,Bcm
+Chile,2005.0,13.0,Gas,Bcm
+Mexico,2005.0,549.3344700658395,Gas,Bcm
+United States of America,2005.0,5787.0,Gas,Bcm
+Denmark,2005.0,122.0,Gas,Bcm
+Germany,2005.0,178.0,Gas,Bcm
+Italy,2005.0,117.0,Gas,Bcm
+Netherlands,2005.0,1431.0,Gas,Bcm
+Norway,2005.0,3108.0,Gas,Bcm
+Poland,2005.0,106.0,Gas,Bcm
+United Kingdom,2005.0,728.0,Gas,Bcm
+Australia,2005.0,2428.0,Gas,Bcm
+Japan,2005.0,39.0,Gas,Bcm
+New Zealand,2005.0,62.0,Gas,Bcm
+China,2005.0,1690.0,Gas,Bcm
+India,2005.0,1101.0,Gas,Bcm
+Bangladesh,2005.0,407.0,Gas,Bcm
+Brunei Darussalam,2005.0,333.0,Gas,Bcm
+Indonesia,2005.0,2659.0,Gas,Bcm
+Malaysia,2005.0,2411.0,Gas,Bcm
+Burma,2005.0,485.0,Gas,Bcm
+Pakistan,2005.0,697.0,Gas,Bcm
+Thailand,2005.0,304.0,Gas,Bcm
+Viet Nam,2005.0,220.0,Gas,Bcm
+Argentina,2005.0,439.0,Gas,Bcm
+Bolivia,2005.0,710.0,Gas,Bcm
+Brazil,2005.0,306.0,Gas,Bcm
+Colombia,2005.0,113.0,Gas,Bcm
+Ecuador,2005.0,9.0,Gas,Bcm
+Peru,2005.0,338.0,Gas,Bcm
+Trinidad and Tobago,2005.0,531.0,Gas,Bcm
+Venezuela,2005.0,4315.056,Gas,Bcm
+Iran,2005.0,27580.0,Gas,Bcm
+Iraq,2005.0,3170.0,Gas,Bcm
+Kuwait,2005.0,1572.0,Gas,Bcm
+Oman,2005.0,670.0,Gas,Bcm
+Qatar,2005.0,25636.0,Gas,Bcm
+Saudi Arabia,2005.0,6900.3,Gas,Bcm
+United Arab Emirates,2005.0,6060.0,Gas,Bcm
+Algeria,2005.0,4504.2,Gas,Bcm
+Angola,2005.0,270.0,Gas,Bcm
+Cameroon,2005.0,165.0,Gas,Bcm
+Congo,2005.0,130.0,Gas,Bcm
+Egypt,2005.0,1920.0,Gas,Bcm
+Equatorial Guinea,2005.0,91.3,Gas,Bcm
+Gabon,2005.0,30.0,Gas,Bcm
+Libya,2005.0,1491.0,Gas,Bcm
+Mozambique,2005.0,127.8,Gas,Bcm
+Nigeria,2005.0,5151.8,Gas,Bcm
+Russian Federation & USSR,2005.0,44860.0,Gas,Bcm
+Azerbaijan,2005.0,499.0,Gas,Bcm
+Kazakhstan,2005.0,1389.0,Gas,Bcm
+Turkmenistan,2005.0,1862.0,Gas,Bcm
+Ukraine,2005.0,1030.0,Gas,Bcm
+Uzbekistan,2005.0,948.0,Gas,Bcm
+Bulgaria,2005.0,3.0,Gas,Bcm
+Romania,2005.0,143.0,Gas,Bcm
+Canada,2006.0,1640.0,Gas,Bcm
+Chile,2006.0,12.0,Gas,Bcm
+Mexico,2006.0,529.3344700658395,Gas,Bcm
+United States of America,2006.0,5977.0,Gas,Bcm
+Denmark,2006.0,120.0,Gas,Bcm
+Germany,2006.0,155.0,Gas,Bcm
+Italy,2006.0,94.0,Gas,Bcm
+Netherlands,2006.0,1363.0,Gas,Bcm
+Norway,2006.0,3022.0,Gas,Bcm
+Poland,2006.0,103.0,Gas,Bcm
+United Kingdom,2006.0,684.0,Gas,Bcm
+Australia,2006.0,2421.0,Gas,Bcm
+Japan,2006.0,39.0,Gas,Bcm
+New Zealand,2006.0,58.0,Gas,Bcm
+China,2006.0,1863.0,Gas,Bcm
+India,2006.0,1075.0,Gas,Bcm
+Bangladesh,2006.0,383.0,Gas,Bcm
+Brunei Darussalam,2006.0,321.0,Gas,Bcm
+Indonesia,2006.0,3000.0,Gas,Bcm
+Malaysia,2006.0,2489.0,Gas,Bcm
+Burma,2006.0,515.0,Gas,Bcm
+Pakistan,2006.0,667.0,Gas,Bcm
+Thailand,2006.0,331.0,Gas,Bcm
+Viet Nam,2006.0,220.0,Gas,Bcm
+Argentina,2006.0,446.0,Gas,Bcm
+Bolivia,2006.0,710.0,Gas,Bcm
+Brazil,2006.0,348.0,Gas,Bcm
+Colombia,2006.0,105.0,Gas,Bcm
+Ecuador,2006.0,9.0,Gas,Bcm
+Peru,2006.0,335.0,Gas,Bcm
+Trinidad and Tobago,2006.0,483.0,Gas,Bcm
+Venezuela,2006.0,4707.6,Gas,Bcm
+Iran,2006.0,26850.0,Gas,Bcm
+Iraq,2006.0,3170.0,Gas,Bcm
+Kuwait,2006.0,1780.0,Gas,Bcm
+Oman,2006.0,650.0,Gas,Bcm
+Qatar,2006.0,25636.0,Gas,Bcm
+Saudi Arabia,2006.0,7154.0,Gas,Bcm
+United Arab Emirates,2006.0,6040.0,Gas,Bcm
+Algeria,2006.0,4504.2,Gas,Bcm
+Angola,2006.0,270.0,Gas,Bcm
+Cameroon,2006.0,163.0,Gas,Bcm
+Congo,2006.0,130.0,Gas,Bcm
+Egypt,2006.0,1985.0,Gas,Bcm
+Equatorial Guinea,2006.0,98.4,Gas,Bcm
+Gabon,2006.0,30.0,Gas,Bcm
+Libya,2006.0,1420.0,Gas,Bcm
+Mozambique,2006.0,127.8,Gas,Bcm
+Nigeria,2006.0,5207.0,Gas,Bcm
+Russian Federation & USSR,2006.0,44855.0,Gas,Bcm
+Azerbaijan,2006.0,503.0,Gas,Bcm
+Kazakhstan,2006.0,1389.0,Gas,Bcm
+Turkmenistan,2006.0,1862.0,Gas,Bcm
+Ukraine,2006.0,1030.0,Gas,Bcm
+Uzbekistan,2006.0,948.0,Gas,Bcm
+Bulgaria,2006.0,3.0,Gas,Bcm
+Romania,2006.0,130.0,Gas,Bcm
+Canada,2007.0,1634.0,Gas,Bcm
+Chile,2007.0,11.0,Gas,Bcm
+Mexico,2007.0,510.3344700658395,Gas,Bcm
+United States of America,2007.0,6730.0,Gas,Bcm
+Denmark,2007.0,105.0,Gas,Bcm
+Germany,2007.0,137.0,Gas,Bcm
+Italy,2007.0,84.0,Gas,Bcm
+Netherlands,2007.0,1317.0,Gas,Bcm
+Norway,2007.0,2961.0,Gas,Bcm
+Poland,2007.0,79.0,Gas,Bcm
+United Kingdom,2007.0,647.0,Gas,Bcm
+Australia,2007.0,2362.0,Gas,Bcm
+Japan,2007.0,38.0,Gas,Bcm
+New Zealand,2007.0,68.0,Gas,Bcm
+China,2007.0,1978.0,Gas,Bcm
+India,2007.0,1055.0,Gas,Bcm
+Bangladesh,2007.0,374.0,Gas,Bcm
+Brunei Darussalam,2007.0,321.0,Gas,Bcm
+Indonesia,2007.0,3184.0,Gas,Bcm
+Malaysia,2007.0,2517.0,Gas,Bcm
+Burma,2007.0,536.0,Gas,Bcm
+Pakistan,2007.0,637.0,Gas,Bcm
+Thailand,2007.0,317.0,Gas,Bcm
+Viet Nam,2007.0,220.0,Gas,Bcm
+Argentina,2007.0,442.0,Gas,Bcm
+Bolivia,2007.0,710.0,Gas,Bcm
+Brazil,2007.0,365.0,Gas,Bcm
+Colombia,2007.0,106.0,Gas,Bcm
+Ecuador,2007.0,8.0,Gas,Bcm
+Peru,2007.0,335.0,Gas,Bcm
+Trinidad and Tobago,2007.0,481.0,Gas,Bcm
+Venezuela,2007.0,4838.4,Gas,Bcm
+Iran,2007.0,28080.0,Gas,Bcm
+Iraq,2007.0,3170.0,Gas,Bcm
+Kuwait,2007.0,1784.0,Gas,Bcm
+Oman,2007.0,630.0,Gas,Bcm
+Qatar,2007.0,25636.0,Gas,Bcm
+Saudi Arabia,2007.0,7305.4,Gas,Bcm
+United Arab Emirates,2007.0,6072.0,Gas,Bcm
+Algeria,2007.0,4504.2,Gas,Bcm
+Angola,2007.0,270.0,Gas,Bcm
+Cameroon,2007.0,161.0,Gas,Bcm
+Congo,2007.0,130.0,Gas,Bcm
+Egypt,2007.0,2060.0,Gas,Bcm
+Equatorial Guinea,2007.0,97.3,Gas,Bcm
+Gabon,2007.0,30.0,Gas,Bcm
+Libya,2007.0,1539.5,Gas,Bcm
+Mozambique,2007.0,127.8,Gas,Bcm
+Nigeria,2007.0,5292.0,Gas,Bcm
+Russian Federation & USSR,2007.0,44900.0,Gas,Bcm
+Azerbaijan,2007.0,532.0,Gas,Bcm
+Kazakhstan,2007.0,1389.0,Gas,Bcm
+Turkmenistan,2007.0,5859.0,Gas,Bcm
+Ukraine,2007.0,1030.0,Gas,Bcm
+Uzbekistan,2007.0,942.0,Gas,Bcm
+Bulgaria,2007.0,3.0,Gas,Bcm
+Romania,2007.0,120.0,Gas,Bcm
+Canada,2008.0,1754.0,Gas,Bcm
+Chile,2008.0,10.0,Gas,Bcm
+Mexico,2008.0,496.3344700658395,Gas,Bcm
+United States of America,2008.0,6925.0,Gas,Bcm
+Denmark,2008.0,107.0,Gas,Bcm
+Germany,2008.0,126.0,Gas,Bcm
+Italy,2008.0,69.0,Gas,Bcm
+Netherlands,2008.0,1274.0,Gas,Bcm
+Norway,2008.0,2986.0,Gas,Bcm
+Poland,2008.0,79.0,Gas,Bcm
+United Kingdom,2008.0,601.0,Gas,Bcm
+Australia,2008.0,3569.0,Gas,Bcm
+Japan,2008.0,38.0,Gas,Bcm
+New Zealand,2008.0,68.0,Gas,Bcm
+China,2008.0,2099.0,Gas,Bcm
+India,2008.0,1074.0,Gas,Bcm
+Bangladesh,2008.0,344.0,Gas,Bcm
+Brunei Darussalam,2008.0,321.0,Gas,Bcm
+Indonesia,2008.0,3038.0,Gas,Bcm
+Malaysia,2008.0,2491.0,Gas,Bcm
+Burma,2008.0,523.0,Gas,Bcm
+Pakistan,2008.0,607.0,Gas,Bcm
+Thailand,2008.0,340.0,Gas,Bcm
+Viet Nam,2008.0,217.0,Gas,Bcm
+Argentina,2008.0,399.0,Gas,Bcm
+Bolivia,2008.0,710.0,Gas,Bcm
+Brazil,2008.0,365.0,Gas,Bcm
+Colombia,2008.0,124.0,Gas,Bcm
+Ecuador,2008.0,8.0,Gas,Bcm
+Peru,2008.0,345.0,Gas,Bcm
+Trinidad and Tobago,2008.0,435.0,Gas,Bcm
+Venezuela,2008.0,4983.219,Gas,Bcm
+Iran,2008.0,29610.0,Gas,Bcm
+Iraq,2008.0,3170.0,Gas,Bcm
+Kuwait,2008.0,1784.0,Gas,Bcm
+Oman,2008.0,610.0,Gas,Bcm
+Qatar,2008.0,25466.0,Gas,Bcm
+Saudi Arabia,2008.0,7570.4,Gas,Bcm
+United Arab Emirates,2008.0,6091.0,Gas,Bcm
+Algeria,2008.0,4504.2,Gas,Bcm
+Angola,2008.0,272.0,Gas,Bcm
+Cameroon,2008.0,159.0,Gas,Bcm
+Congo,2008.0,150.0,Gas,Bcm
+Egypt,2008.0,2170.0,Gas,Bcm
+Equatorial Guinea,2008.0,93.1,Gas,Bcm
+Gabon,2008.0,29.0,Gas,Bcm
+Libya,2008.0,1539.5,Gas,Bcm
+Mozambique,2008.0,127.8,Gas,Bcm
+Nigeria,2008.0,5292.0,Gas,Bcm
+Russian Federation & USSR,2008.0,44900.0,Gas,Bcm
+Azerbaijan,2008.0,513.0,Gas,Bcm
+Kazakhstan,2008.0,1389.0,Gas,Bcm
+Turkmenistan,2008.0,5859.0,Gas,Bcm
+Ukraine,2008.0,1010.0,Gas,Bcm
+Uzbekistan,2008.0,908.0,Gas,Bcm
+Bulgaria,2008.0,4.0,Gas,Bcm
+Romania,2008.0,113.0,Gas,Bcm
+Canada,2009.0,1727.0,Gas,Bcm
+Chile,2009.0,9.0,Gas,Bcm
+Mexico,2009.0,476.3344700658395,Gas,Bcm
+United States of America,2009.0,7712.0,Gas,Bcm
+Denmark,2009.0,105.0,Gas,Bcm
+Germany,2009.0,98.0,Gas,Bcm
+Italy,2009.0,64.0,Gas,Bcm
+Netherlands,2009.0,1317.0,Gas,Bcm
+Norway,2009.0,2819.0,Gas,Bcm
+Poland,2009.0,70.0,Gas,Bcm
+United Kingdom,2009.0,564.0,Gas,Bcm
+Australia,2009.0,3594.0,Gas,Bcm
+Japan,2009.0,38.0,Gas,Bcm
+New Zealand,2009.0,64.0,Gas,Bcm
+China,2009.0,2164.0,Gas,Bcm
+India,2009.0,1024.0,Gas,Bcm
+Bangladesh,2009.0,364.0,Gas,Bcm
+Brunei Darussalam,2009.0,309.0,Gas,Bcm
+Indonesia,2009.0,2960.0,Gas,Bcm
+Malaysia,2009.0,2489.0,Gas,Bcm
+Burma,2009.0,510.0,Gas,Bcm
+Pakistan,2009.0,576.0,Gas,Bcm
+Thailand,2009.0,312.0,Gas,Bcm
+Viet Nam,2009.0,225.0,Gas,Bcm
+Argentina,2009.0,379.0,Gas,Bcm
+Bolivia,2009.0,695.0,Gas,Bcm
+Brazil,2009.0,367.0,Gas,Bcm
+Colombia,2009.0,134.0,Gas,Bcm
+Ecuador,2009.0,8.0,Gas,Bcm
+Peru,2009.0,345.0,Gas,Bcm
+Trinidad and Tobago,2009.0,408.0,Gas,Bcm
+Venezuela,2009.0,5065.0,Gas,Bcm
+Iran,2009.0,29610.0,Gas,Bcm
+Iraq,2009.0,3170.0,Gas,Bcm
+Kuwait,2009.0,1784.0,Gas,Bcm
+Oman,2009.0,529.0,Gas,Bcm
+Qatar,2009.0,25366.0,Gas,Bcm
+Saudi Arabia,2009.0,7920.0,Gas,Bcm
+United Arab Emirates,2009.0,6091.0,Gas,Bcm
+Algeria,2009.0,4504.0,Gas,Bcm
+Angola,2009.0,275.0,Gas,Bcm
+Cameroon,2009.0,157.0,Gas,Bcm
+Congo,2009.0,180.0,Gas,Bcm
+Egypt,2009.0,2185.0,Gas,Bcm
+Equatorial Guinea,2009.0,84.2,Gas,Bcm
+Gabon,2009.0,29.0,Gas,Bcm
+Libya,2009.0,1549.0,Gas,Bcm
+Mozambique,2009.0,127.8,Gas,Bcm
+Nigeria,2009.0,5292.0,Gas,Bcm
+Russian Federation & USSR,2009.0,46000.0,Gas,Bcm
+Azerbaijan,2009.0,515.0,Gas,Bcm
+Kazakhstan,2009.0,1389.0,Gas,Bcm
+Turkmenistan,2009.0,8113.0,Gas,Bcm
+Ukraine,2009.0,990.0,Gas,Bcm
+Uzbekistan,2009.0,896.0,Gas,Bcm
+Bulgaria,2009.0,5.0,Gas,Bcm
+Romania,2009.0,112.0,Gas,Bcm
+Canada,2010.0,1977.0,Gas,Bcm
+Chile,2010.0,8.0,Gas,Bcm
+Mexico,2010.0,490.3344700658395,Gas,Bcm
+United States of America,2010.0,8620.0,Gas,Bcm
+Denmark,2010.0,101.0,Gas,Bcm
+Germany,2010.0,87.0,Gas,Bcm
+Italy,2010.0,66.0,Gas,Bcm
+Netherlands,2010.0,1236.0,Gas,Bcm
+Norway,2010.0,2762.0,Gas,Bcm
+Poland,2010.0,71.0,Gas,Bcm
+United Kingdom,2010.0,520.0,Gas,Bcm
+Australia,2010.0,3759.0,Gas,Bcm
+Japan,2010.0,37.0,Gas,Bcm
+New Zealand,2010.0,52.0,Gas,Bcm
+China,2010.0,2244.0,Gas,Bcm
+India,2010.0,1098.0,Gas,Bcm
+Bangladesh,2010.0,354.0,Gas,Bcm
+Brunei Darussalam,2010.0,301.0,Gas,Bcm
+Indonesia,2010.0,3068.0,Gas,Bcm
+Malaysia,2010.0,2507.0,Gas,Bcm
+Burma,2010.0,522.0,Gas,Bcm
+Pakistan,2010.0,544.0,Gas,Bcm
+Thailand,2010.0,300.0,Gas,Bcm
+Viet Nam,2010.0,228.0,Gas,Bcm
+Argentina,2010.0,359.0,Gas,Bcm
+Bolivia,2010.0,281.0,Gas,Bcm
+Brazil,2010.0,417.0,Gas,Bcm
+Colombia,2010.0,153.0,Gas,Bcm
+Ecuador,2010.0,7.0,Gas,Bcm
+Peru,2010.0,353.0,Gas,Bcm
+Trinidad and Tobago,2010.0,381.0,Gas,Bcm
+Venezuela,2010.0,5525.0,Gas,Bcm
+Iran,2010.0,33090.0,Gas,Bcm
+Iraq,2010.0,3158.0,Gas,Bcm
+Kuwait,2010.0,1784.0,Gas,Bcm
+Oman,2010.0,520.0,Gas,Bcm
+Qatar,2010.0,25201.0,Gas,Bcm
+Saudi Arabia,2010.0,8016.0,Gas,Bcm
+United Arab Emirates,2010.0,6091.0,Gas,Bcm
+Algeria,2010.0,4504.0,Gas,Bcm
+Angola,2010.0,275.0,Gas,Bcm
+Cameroon,2010.0,155.0,Gas,Bcm
+Congo,2010.0,182.0,Gas,Bcm
+Egypt,2010.0,2210.0,Gas,Bcm
+Equatorial Guinea,2010.0,82.3,Gas,Bcm
+Gabon,2010.0,28.0,Gas,Bcm
+Libya,2010.0,1495.0,Gas,Bcm
+Mozambique,2010.0,127.8,Gas,Bcm
+Nigeria,2010.0,5177.570093457944,Gas,Bcm
+Russian Federation & USSR,2010.0,46000.0,Gas,Bcm
+Azerbaijan,2010.0,515.0,Gas,Bcm
+Kazakhstan,2010.0,1389.0,Gas,Bcm
+Turkmenistan,2010.0,13950.0,Gas,Bcm
+Ukraine,2010.0,969.0,Gas,Bcm
+Uzbekistan,2010.0,896.0,Gas,Bcm
+Bulgaria,2010.0,5.0,Gas,Bcm
+Romania,2010.0,110.0,Gas,Bcm
+Canada,2011.0,1907.0,Gas,Bcm
+Chile,2011.0,9.0,Gas,Bcm
+Mexico,2011.0,487.72932042123006,Gas,Bcm
+United States of America,2011.0,9454.0,Gas,Bcm
+Denmark,2011.0,95.0,Gas,Bcm
+Germany,2011.0,80.0,Gas,Bcm
+Italy,2011.0,62.0,Gas,Bcm
+Netherlands,2011.0,1165.0,Gas,Bcm
+Norway,2011.0,2685.0,Gas,Bcm
+Poland,2011.0,69.0,Gas,Bcm
+United Kingdom,2011.0,493.0,Gas,Bcm
+Australia,2011.0,3730.0,Gas,Bcm
+Japan,2011.0,36.0,Gas,Bcm
+New Zealand,2011.0,51.0,Gas,Bcm
+China,2011.0,2273.0,Gas,Bcm
+India,2011.0,1142.0,Gas,Bcm
+Bangladesh,2011.0,474.0,Gas,Bcm
+Brunei Darussalam,2011.0,288.0,Gas,Bcm
+Indonesia,2011.0,2925.0,Gas,Bcm
+Malaysia,2011.0,2547.0,Gas,Bcm
+Burma,2011.0,509.0,Gas,Bcm
+Pakistan,2011.0,512.0,Gas,Bcm
+Thailand,2011.0,285.0,Gas,Bcm
+Viet Nam,2011.0,224.0,Gas,Bcm
+Argentina,2011.0,333.0,Gas,Bcm
+Bolivia,2011.0,281.0,Gas,Bcm
+Brazil,2011.0,460.0,Gas,Bcm
+Colombia,2011.0,155.0,Gas,Bcm
+Ecuador,2011.0,7.0,Gas,Bcm
+Peru,2011.0,359.0,Gas,Bcm
+Trinidad and Tobago,2011.0,375.0,Gas,Bcm
+Venezuela,2011.0,5528.0,Gas,Bcm
+Iran,2011.0,33620.0,Gas,Bcm
+Iraq,2011.0,3158.0,Gas,Bcm
+Kuwait,2011.0,1784.0,Gas,Bcm
+Oman,2011.0,515.0,Gas,Bcm
+Qatar,2011.0,25110.0,Gas,Bcm
+Saudi Arabia,2011.0,8151.0,Gas,Bcm
+United Arab Emirates,2011.0,6091.0,Gas,Bcm
+Algeria,2011.0,4504.0,Gas,Bcm
+Angola,2011.0,275.0,Gas,Bcm
+Cameroon,2011.0,153.0,Gas,Bcm
+Congo,2011.0,214.0,Gas,Bcm
+Egypt,2011.0,2190.0,Gas,Bcm
+Equatorial Guinea,2011.0,78.3,Gas,Bcm
+Gabon,2011.0,27.0,Gas,Bcm
+Libya,2011.0,1547.0,Gas,Bcm
+Mozambique,2011.0,127.8,Gas,Bcm
+Nigeria,2011.0,5175.5876522231665,Gas,Bcm
+Russian Federation & USSR,2011.0,48676.0,Gas,Bcm
+Azerbaijan,2011.0,515.0,Gas,Bcm
+Kazakhstan,2011.0,1389.0,Gas,Bcm
+Turkmenistan,2011.0,13950.0,Gas,Bcm
+Ukraine,2011.0,969.0,Gas,Bcm
+Uzbekistan,2011.0,896.0,Gas,Bcm
+Bulgaria,2011.0,5.0,Gas,Bcm
+Romania,2011.0,112.0,Gas,Bcm
+Canada,2012.0,1999.0,Gas,Bcm
+Chile,2012.0,6.0,Gas,Bcm
+Mexico,2012.0,483.51011067072125,Gas,Bcm
+United States of America,2012.0,8746.0,Gas,Bcm
+Denmark,2012.0,91.0,Gas,Bcm
+Germany,2012.0,71.0,Gas,Bcm
+Italy,2012.0,59.0,Gas,Bcm
+Netherlands,2012.0,955.0,Gas,Bcm
+Norway,2012.0,2687.0,Gas,Bcm
+Poland,2012.0,73.0,Gas,Bcm
+United Kingdom,2012.0,461.0,Gas,Bcm
+Australia,2012.0,3727.0,Gas,Bcm
+Japan,2012.0,34.0,Gas,Bcm
+New Zealand,2012.0,50.0,Gas,Bcm
+China,2012.0,2313.0,Gas,Bcm
+India,2012.0,1667.0,Gas,Bcm
+Bangladesh,2012.0,456.0,Gas,Bcm
+Brunei Darussalam,2012.0,276.0,Gas,Bcm
+Indonesia,2012.0,2908.0,Gas,Bcm
+Malaysia,2012.0,2607.0,Gas,Bcm
+Burma,2012.0,496.0,Gas,Bcm
+Pakistan,2012.0,502.0,Gas,Bcm
+Thailand,2012.0,256.0,Gas,Bcm
+Viet Nam,2012.0,220.0,Gas,Bcm
+Argentina,2012.0,316.0,Gas,Bcm
+Bolivia,2012.0,317.0,Gas,Bcm
+Brazil,2012.0,459.0,Gas,Bcm
+Colombia,2012.0,162.0,Gas,Bcm
+Ecuador,2012.0,6.0,Gas,Bcm
+Peru,2012.0,435.0,Gas,Bcm
+Trinidad and Tobago,2012.0,371.0,Gas,Bcm
+Venezuela,2012.0,5563.0,Gas,Bcm
+Iran,2012.0,33780.0,Gas,Bcm
+Iraq,2012.0,3158.0,Gas,Bcm
+Kuwait,2012.0,1784.0,Gas,Bcm
+Oman,2012.0,505.0,Gas,Bcm
+Qatar,2012.0,25069.0,Gas,Bcm
+Saudi Arabia,2012.0,8235.0,Gas,Bcm
+United Arab Emirates,2012.0,6091.0,Gas,Bcm
+Algeria,2012.0,4504.0,Gas,Bcm
+Angola,2012.0,275.0,Gas,Bcm
+Cameroon,2012.0,151.0,Gas,Bcm
+Congo,2012.0,224.0,Gas,Bcm
+Egypt,2012.0,2185.0,Gas,Bcm
+Equatorial Guinea,2012.0,71.0,Gas,Bcm
+Gabon,2012.0,26.0,Gas,Bcm
+Libya,2012.0,1549.0,Gas,Bcm
+Mozambique,2012.0,127.8,Gas,Bcm
+Nigeria,2012.0,5118.380062305297,Gas,Bcm
+Russian Federation & USSR,2012.0,48810.0,Gas,Bcm
+Azerbaijan,2012.0,508.0,Gas,Bcm
+Kazakhstan,2012.0,1389.0,Gas,Bcm
+Turkmenistan,2012.0,13950.0,Gas,Bcm
+Ukraine,2012.0,960.0,Gas,Bcm
+Uzbekistan,2012.0,867.0,Gas,Bcm
+Bulgaria,2012.0,5.0,Gas,Bcm
+Romania,2012.0,119.0,Gas,Bcm
+Canada,2013.0,2028.0,Gas,Bcm
+Chile,2013.0,7.0,Gas,Bcm
+Mexico,2013.0,468.6154507461064,Gas,Bcm
+United States of America,2013.0,9573.0,Gas,Bcm
+Denmark,2013.0,90.0,Gas,Bcm
+Germany,2013.0,62.0,Gas,Bcm
+Italy,2013.0,56.0,Gas,Bcm
+Netherlands,2013.0,897.0,Gas,Bcm
+Norway,2013.0,2654.0,Gas,Bcm
+Poland,2013.0,69.0,Gas,Bcm
+United Kingdom,2013.0,452.0,Gas,Bcm
+Australia,2013.0,3769.0,Gas,Bcm
+Japan,2013.0,33.0,Gas,Bcm
+New Zealand,2013.0,53.0,Gas,Bcm
+China,2013.0,2355.0,Gas,Bcm
+India,2013.0,1172.0,Gas,Bcm
+Bangladesh,2013.0,436.0,Gas,Bcm
+Brunei Darussalam,2013.0,270.0,Gas,Bcm
+Indonesia,2013.0,2874.0,Gas,Bcm
+Malaysia,2013.0,2782.0,Gas,Bcm
+Burma,2013.0,297.0,Gas,Bcm
+Pakistan,2013.0,457.0,Gas,Bcm
+Thailand,2013.0,238.0,Gas,Bcm
+Viet Nam,2013.0,216.0,Gas,Bcm
+Argentina,2013.0,328.0,Gas,Bcm
+Bolivia,2013.0,296.0,Gas,Bcm
+Brazil,2013.0,458.0,Gas,Bcm
+Colombia,2013.0,156.0,Gas,Bcm
+Ecuador,2013.0,6.0,Gas,Bcm
+Peru,2013.0,426.0,Gas,Bcm
+Trinidad and Tobago,2013.0,346.0,Gas,Bcm
+Venezuela,2013.0,5581.0,Gas,Bcm
+Iran,2013.0,34020.0,Gas,Bcm
+Iraq,2013.0,3158.0,Gas,Bcm
+Kuwait,2013.0,1784.0,Gas,Bcm
+Oman,2013.0,706.0,Gas,Bcm
+Qatar,2013.0,24681.0,Gas,Bcm
+Saudi Arabia,2013.0,8317.0,Gas,Bcm
+United Arab Emirates,2013.0,6091.0,Gas,Bcm
+Algeria,2013.0,4504.0,Gas,Bcm
+Angola,2013.0,275.0,Gas,Bcm
+Cameroon,2013.0,150.0,Gas,Bcm
+Congo,2013.0,254.0,Gas,Bcm
+Egypt,2013.0,2185.0,Gas,Bcm
+Equatorial Guinea,2013.0,65.8,Gas,Bcm
+Gabon,2013.0,26.0,Gas,Bcm
+Libya,2013.0,1506.0,Gas,Bcm
+Mozambique,2013.0,127.8,Gas,Bcm
+Nigeria,2013.0,5107.051826677994,Gas,Bcm
+Russian Federation & USSR,2013.0,49335.0,Gas,Bcm
+Azerbaijan,2013.0,675.0,Gas,Bcm
+Kazakhstan,2013.0,1389.0,Gas,Bcm
+Turkmenistan,2013.0,13950.0,Gas,Bcm
+Ukraine,2013.0,952.0,Gas,Bcm
+Uzbekistan,2013.0,867.0,Gas,Bcm
+Bulgaria,2013.0,5.0,Gas,Bcm
+Romania,2013.0,113.0,Gas,Bcm
+Canada,2014.0,1987.0,Gas,Bcm
+Chile,2014.0,6.0,Gas,Bcm
+Mexico,2014.0,432.9645441965053,Gas,Bcm
+United States of America,2014.0,10434.0,Gas,Bcm
+Denmark,2014.0,88.0,Gas,Bcm
+Germany,2014.0,51.0,Gas,Bcm
+Italy,2014.0,54.0,Gas,Bcm
+Netherlands,2014.0,799.0,Gas,Bcm
+Norway,2014.0,2547.0,Gas,Bcm
+Poland,2014.0,63.0,Gas,Bcm
+United Kingdom,2014.0,407.0,Gas,Bcm
+Australia,2014.0,3215.0,Gas,Bcm
+Japan,2014.0,32.0,Gas,Bcm
+New Zealand,2014.0,64.0,Gas,Bcm
+China,2014.0,2557.0,Gas,Bcm
+India,2014.0,1199.0,Gas,Bcm
+Bangladesh,2014.0,412.0,Gas,Bcm
+Brunei Darussalam,2014.0,263.0,Gas,Bcm
+Indonesia,2014.0,2773.0,Gas,Bcm
+Malaysia,2014.0,2849.0,Gas,Bcm
+Burma,2014.0,290.0,Gas,Bcm
+Pakistan,2014.0,427.0,Gas,Bcm
+Thailand,2014.0,220.0,Gas,Bcm
+Viet Nam,2014.0,211.0,Gas,Bcm
+Argentina,2014.0,332.0,Gas,Bcm
+Bolivia,2014.0,300.0,Gas,Bcm
+Brazil,2014.0,471.0,Gas,Bcm
+Colombia,2014.0,135.0,Gas,Bcm
+Ecuador,2014.0,11.0,Gas,Bcm
+Peru,2014.0,414.0,Gas,Bcm
+Trinidad and Tobago,2014.0,325.0,Gas,Bcm
+Venezuela,2014.0,5617.0,Gas,Bcm
+Iran,2014.0,34020.0,Gas,Bcm
+Iraq,2014.0,3158.0,Gas,Bcm
+Kuwait,2014.0,1784.0,Gas,Bcm
+Oman,2014.0,705.0,Gas,Bcm
+Qatar,2014.0,24531.0,Gas,Bcm
+Saudi Arabia,2014.0,8488.870008496177,Gas,Bcm
+United Arab Emirates,2014.0,6091.0,Gas,Bcm
+Algeria,2014.0,4504.0,Gas,Bcm
+Angola,2014.0,308.1,Gas,Bcm
+Cameroon,2014.0,154.0,Gas,Bcm
+Congo,2014.0,285.0,Gas,Bcm
+Egypt,2014.0,2186.0,Gas,Bcm
+Equatorial Guinea,2014.0,60.1,Gas,Bcm
+Gabon,2014.0,25.5,Gas,Bcm
+Libya,2014.0,1504.8994619088076,Gas,Bcm
+Mozambique,2014.0,2840.0000000000005,Gas,Bcm
+Nigeria,2014.0,5323.98753894081,Gas,Bcm
+Russian Federation & USSR,2014.0,49896.0,Gas,Bcm
+Azerbaijan,2014.0,665.0,Gas,Bcm
+Kazakhstan,2014.0,1389.0,Gas,Bcm
+Turkmenistan,2014.0,13950.0,Gas,Bcm
+Ukraine,2014.0,405.0,Gas,Bcm
+Uzbekistan,2014.0,867.0,Gas,Bcm
+Bulgaria,2014.0,5.0,Gas,Bcm
+Romania,2014.0,109.0,Gas,Bcm
+Canada,2015.0,2118.0,Gas,Bcm
+Chile,2015.0,6.0,Gas,Bcm
+Mexico,2015.0,358.2363929777625,Gas,Bcm
+United States of America,2015.0,8709.0,Gas,Bcm
+Denmark,2015.0,80.0,Gas,Bcm
+Germany,2015.0,46.0,Gas,Bcm
+Italy,2015.0,49.0,Gas,Bcm
+Netherlands,2015.0,825.0,Gas,Bcm
+Norway,2015.0,2461.0,Gas,Bcm
+Poland,2015.0,61.0,Gas,Bcm
+United Kingdom,2015.0,333.0,Gas,Bcm
+Australia,2015.0,3205.0,Gas,Bcm
+Japan,2015.0,30.0,Gas,Bcm
+New Zealand,2015.0,56.0,Gas,Bcm
+China,2015.0,2791.0,Gas,Bcm
+India,2015.0,1252.0,Gas,Bcm
+Bangladesh,2015.0,385.0,Gas,Bcm
+Brunei Darussalam,2015.0,258.0,Gas,Bcm
+Indonesia,2015.0,2865.0,Gas,Bcm
+Malaysia,2015.0,2842.0,Gas,Bcm
+Burma,2015.0,282.0,Gas,Bcm
+Pakistan,2015.0,395.0,Gas,Bcm
+Thailand,2015.0,207.0,Gas,Bcm
+Viet Nam,2015.0,207.0,Gas,Bcm
+Argentina,2015.0,350.0,Gas,Bcm
+Bolivia,2015.0,305.0,Gas,Bcm
+Brazil,2015.0,429.0,Gas,Bcm
+Colombia,2015.0,123.0,Gas,Bcm
+Ecuador,2015.0,11.0,Gas,Bcm
+Peru,2015.0,399.0,Gas,Bcm
+Trinidad and Tobago,2015.0,300.0,Gas,Bcm
+Venezuela,2015.0,5701.5,Gas,Bcm
+Iran,2015.0,33500.0,Gas,Bcm
+Iraq,2015.0,3158.0,Gas,Bcm
+Kuwait,2015.0,1784.0,Gas,Bcm
+Oman,2015.0,705.0,Gas,Bcm
+Qatar,2015.0,24299.0,Gas,Bcm
+Saudi Arabia,2015.0,8588.246955536675,Gas,Bcm
+United Arab Emirates,2015.0,6091.0,Gas,Bcm
+Algeria,2015.0,4504.0,Gas,Bcm
+Angola,2015.0,316.025267,Gas,Bcm
+Cameroon,2015.0,154.0,Gas,Bcm
+Congo,2015.0,285.0,Gas,Bcm
+Egypt,2015.0,2086.0,Gas,Bcm
+Equatorial Guinea,2015.0,54.4,Gas,Bcm
+Gabon,2015.0,24.9,Gas,Bcm
+Libya,2015.0,1504.8994619088076,Gas,Bcm
+Mozambique,2015.0,2840.0000000000005,Gas,Bcm
+Nigeria,2015.0,5284.277858963464,Gas,Bcm
+Russian Federation & USSR,2015.0,50205.0,Gas,Bcm
+Azerbaijan,2015.0,665.0,Gas,Bcm
+Kazakhstan,2015.0,1830.0,Gas,Bcm
+Turkmenistan,2015.0,13950.0,Gas,Bcm
+Ukraine,2015.0,392.0,Gas,Bcm
+Uzbekistan,2015.0,867.0,Gas,Bcm
+Bulgaria,2015.0,4.0,Gas,Bcm
+Romania,2015.0,103.0,Gas,Bcm
+Canada,2016.0,2095.0,Gas,Bcm
+Chile,2016.0,5.0,Gas,Bcm
+Mexico,2016.0,294.5518109046467,Gas,Bcm
+United States of America,2016.0,9119.0,Gas,Bcm
+Denmark,2016.0,77.0,Gas,Bcm
+Germany,2016.0,42.0,Gas,Bcm
+Italy,2016.0,38.0,Gas,Bcm
+Netherlands,2016.0,740.0,Gas,Bcm
+Norway,2016.0,2388.0,Gas,Bcm
+Poland,2016.0,58.0,Gas,Bcm
+United Kingdom,2016.0,288.0,Gas,Bcm
+Australia,2016.0,3193.0,Gas,Bcm
+Japan,2016.0,29.0,Gas,Bcm
+New Zealand,2016.0,50.0,Gas,Bcm
+China,2016.0,2838.0,Gas,Bcm
+India,2016.0,1227.0,Gas,Bcm
+Bangladesh,2016.0,365.0,Gas,Bcm
+Brunei Darussalam,2016.0,252.0,Gas,Bcm
+Indonesia,2016.0,2841.0,Gas,Bcm
+Malaysia,2016.0,2484.0,Gas,Bcm
+Burma,2016.0,273.0,Gas,Bcm
+Pakistan,2016.0,379.0,Gas,Bcm
+Thailand,2016.0,193.0,Gas,Bcm
+Viet Nam,2016.0,203.0,Gas,Bcm
+Argentina,2016.0,337.0,Gas,Bcm
+Bolivia,2016.0,310.0,Gas,Bcm
+Brazil,2016.0,378.0,Gas,Bcm
+Colombia,2016.0,114.0,Gas,Bcm
+Ecuador,2016.0,11.0,Gas,Bcm
+Peru,2016.0,456.0,Gas,Bcm
+Trinidad and Tobago,2016.0,281.0,Gas,Bcm
+Venezuela,2016.0,5739.703,Gas,Bcm
+Iran,2016.0,33721.249,Gas,Bcm
+Iraq,2016.0,3819.9,Gas,Bcm
+Kuwait,2016.0,1784.0,Gas,Bcm
+Oman,2016.0,705.0,Gas,Bcm
+Qatar,2016.0,24072.0,Gas,Bcm
+Saudi Arabia,2016.0,8619.342962333616,Gas,Bcm
+United Arab Emirates,2016.0,6091.0,Gas,Bcm
+Algeria,2016.0,4504.0,Gas,Bcm
+Angola,2016.0,439.50615989999994,Gas,Bcm
+Cameroon,2016.0,173.0,Gas,Bcm
+Congo,2016.0,285.0,Gas,Bcm
+Egypt,2016.0,2221.0,Gas,Bcm
+Equatorial Guinea,2016.0,47.0,Gas,Bcm
+Gabon,2016.0,25.5,Gas,Bcm
+Libya,2016.0,1504.8994619088076,Gas,Bcm
+Mozambique,2016.0,2840.0000000000005,Gas,Bcm
+Nigeria,2016.0,5475.204296659579,Gas,Bcm
+Russian Federation & USSR,2016.0,50617.0,Gas,Bcm
+Azerbaijan,2016.0,665.0,Gas,Bcm
+Kazakhstan,2016.0,1830.0,Gas,Bcm
+Turkmenistan,2016.0,13950.0,Gas,Bcm
+Ukraine,2016.0,380.0,Gas,Bcm
+Uzbekistan,2016.0,867.0,Gas,Bcm
+Bulgaria,2016.0,4.0,Gas,Bcm
+Romania,2016.0,99.0,Gas,Bcm
+Canada,2017.0,1980.0,Gas,Bcm
+Chile,2017.0,5.0,Gas,Bcm
+Mexico,2017.0,283.79141019865114,Gas,Bcm
+United States of America,2017.0,12408.0,Gas,Bcm
+Denmark,2017.0,72.0,Gas,Bcm
+Germany,2017.0,37.0,Gas,Bcm
+Italy,2017.0,45.0,Gas,Bcm
+Netherlands,2017.0,695.0,Gas,Bcm
+Norway,2017.0,2334.0,Gas,Bcm
+Poland,2017.0,56.0,Gas,Bcm
+United Kingdom,2017.0,263.0,Gas,Bcm
+Australia,2017.0,3193.0,Gas,Bcm
+Japan,2017.0,28.0,Gas,Bcm
+New Zealand,2017.0,51.0,Gas,Bcm
+China,2017.0,2786.0,Gas,Bcm
+India,2017.0,1284.0,Gas,Bcm
+Bangladesh,2017.0,337.0,Gas,Bcm
+Brunei Darussalam,2017.0,240.0,Gas,Bcm
+Indonesia,2017.0,2745.0,Gas,Bcm
+Malaysia,2017.0,2346.0,Gas,Bcm
+Burma,2017.0,265.0,Gas,Bcm
+Pakistan,2017.0,501.0,Gas,Bcm
+Thailand,2017.0,181.0,Gas,Bcm
+Viet Nam,2017.0,199.0,Gas,Bcm
+Argentina,2017.0,355.0,Gas,Bcm
+Bolivia,2017.0,303.0,Gas,Bcm
+Brazil,2017.0,370.0,Gas,Bcm
+Colombia,2017.0,110.0,Gas,Bcm
+Ecuador,2017.0,11.0,Gas,Bcm
+Peru,2017.0,365.0,Gas,Bcm
+Trinidad and Tobago,2017.0,298.0,Gas,Bcm
+Venezuela,2017.0,5706.6,Gas,Bcm
+Iran,2017.0,33810.0,Gas,Bcm
+Iraq,2017.0,3744.12,Gas,Bcm
+Kuwait,2017.0,1784.0,Gas,Bcm
+Oman,2017.0,705.0,Gas,Bcm
+Qatar,2017.0,23861.0,Gas,Bcm
+Saudi Arabia,2017.0,8714.5888,Gas,Bcm
+United Arab Emirates,2017.0,6091.0,Gas,Bcm
+Algeria,2017.0,4504.0,Gas,Bcm
+Angola,2017.0,422.288924634767,Gas,Bcm
+Cameroon,2017.0,172.0,Gas,Bcm
+Congo,2017.0,284.9310000000002,Gas,Bcm
+Egypt,2017.0,2221.0,Gas,Bcm
+Equatorial Guinea,2017.0,42.0,Gas,Bcm
+Gabon,2017.0,25.5,Gas,Bcm
+Libya,2017.0,1504.8994619088076,Gas,Bcm
+Mozambique,2017.0,2840.0000000000005,Gas,Bcm
+Nigeria,2017.0,5626.87,Gas,Bcm
+Russian Federation & USSR,2017.0,50508.0,Gas,Bcm
+Azerbaijan,2017.0,1074.0,Gas,Bcm
+Kazakhstan,2017.0,1830.0,Gas,Bcm
+Turkmenistan,2017.0,13950.0,Gas,Bcm
+Ukraine,2017.0,384.0,Gas,Bcm
+Uzbekistan,2017.0,867.0,Gas,Bcm
+Bulgaria,2017.0,4.0,Gas,Bcm
+Romania,2017.0,92.0,Gas,Bcm
+Canada,2018.0,2094.0,Gas,Bcm
+Chile,2018.0,4.0,Gas,Bcm
+Mexico,2018.0,273.3708116202134,Gas,Bcm
+United States of America,2018.0,13437.0,Gas,Bcm
+Denmark,2018.0,69.0,Gas,Bcm
+Germany,2018.0,30.0,Gas,Bcm
+Italy,2018.0,48.0,Gas,Bcm
+Netherlands,2018.0,196.0,Gas,Bcm
+Norway,2018.0,2226.0,Gas,Bcm
+Poland,2018.0,73.0,Gas,Bcm
+United Kingdom,2018.0,276.0,Gas,Bcm
+Australia,2018.0,3193.0,Gas,Bcm
+Japan,2018.0,27.0,Gas,Bcm
+New Zealand,2018.0,53.0,Gas,Bcm
+China,2018.0,2779.0,Gas,Bcm
+India,2018.0,1340.0,Gas,Bcm
+Bangladesh,2018.0,325.0,Gas,Bcm
+Brunei Darussalam,2018.0,246.0,Gas,Bcm
+Indonesia,2018.0,1408.0,Gas,Bcm
+Malaysia,2018.0,2251.0,Gas,Bcm
+Burma,2018.0,256.0,Gas,Bcm
+Pakistan,2018.0,472.0,Gas,Bcm
+Thailand,2018.0,171.0,Gas,Bcm
+Viet Nam,2018.0,195.0,Gas,Bcm
+Argentina,2018.0,372.0,Gas,Bcm
+Bolivia,2018.0,201.0,Gas,Bcm
+Brazil,2018.0,368.0,Gas,Bcm
+Colombia,2018.0,107.0,Gas,Bcm
+Ecuador,2018.0,11.0,Gas,Bcm
+Peru,2018.0,300.0,Gas,Bcm
+Trinidad and Tobago,2018.0,298.0,Gas,Bcm
+Venezuela,2018.0,5673.817,Gas,Bcm
+Iran,2018.0,33330.0,Gas,Bcm
+Iraq,2018.0,3729.35,Gas,Bcm
+Kuwait,2018.0,1784.0,Gas,Bcm
+Oman,2018.0,677.0,Gas,Bcm
+Qatar,2018.0,23846.0,Gas,Bcm
+Saudi Arabia,2018.0,8260.199999999999,Gas,Bcm
+United Arab Emirates,2018.0,6091.0,Gas,Bcm
+Algeria,2018.0,4504.0,Gas,Bcm
+Angola,2018.0,382.63861665145555,Gas,Bcm
+Cameroon,2018.0,171.0,Gas,Bcm
+Congo,2018.0,284.9310000000002,Gas,Bcm
+Egypt,2018.0,2221.0,Gas,Bcm
+Equatorial Guinea,2018.0,42.0,Gas,Bcm
+Gabon,2018.0,25.981099999999998,Gas,Bcm
+Libya,2018.0,1504.8994619088076,Gas,Bcm
+Mozambique,2018.0,2840.0000000000005,Gas,Bcm
+Nigeria,2018.0,5674.9973599328905,Gas,Bcm
+Russian Federation & USSR,2018.0,49571.0,Gas,Bcm
+Azerbaijan,2018.0,1435.0,Gas,Bcm
+Kazakhstan,2018.0,1830.0,Gas,Bcm
+Turkmenistan,2018.0,13950.0,Gas,Bcm
+Ukraine,2018.0,358.0,Gas,Bcm
+Uzbekistan,2018.0,867.0,Gas,Bcm
+Bulgaria,2018.0,4.0,Gas,Bcm
+Romania,2018.0,87.0,Gas,Bcm
+Canada,2019.0,2471.0,Gas,Bcm
+Chile,2019.0,8.0,Gas,Bcm
+Mexico,2019.0,262.95021304177556,Gas,Bcm
+United States of America,2019.0,13171.0,Gas,Bcm
+Denmark,2019.0,77.0,Gas,Bcm
+Germany,2019.0,25.0,Gas,Bcm
+Italy,2019.0,46.0,Gas,Bcm
+Netherlands,2019.0,133.0,Gas,Bcm
+Norway,2019.0,2165.0,Gas,Bcm
+Poland,2019.0,85.0,Gas,Bcm
+United Kingdom,2019.0,260.0,Gas,Bcm
+Australia,2019.0,2846.0,Gas,Bcm
+Japan,2019.0,26.0,Gas,Bcm
+New Zealand,2019.0,53.0,Gas,Bcm
+China,2019.0,2834.0,Gas,Bcm
+India,2019.0,1381.0,Gas,Bcm
+Bangladesh,2019.0,300.0,Gas,Bcm
+Brunei Darussalam,2019.0,240.0,Gas,Bcm
+Indonesia,2019.0,1233.0,Gas,Bcm
+Malaysia,2019.0,2240.0,Gas,Bcm
+Burma,2019.0,248.0,Gas,Bcm
+Pakistan,2019.0,454.0,Gas,Bcm
+Thailand,2019.0,138.0,Gas,Bcm
+Viet Nam,2019.0,190.0,Gas,Bcm
+Argentina,2019.0,400.0,Gas,Bcm
+Bolivia,2019.0,200.0,Gas,Bcm
+Brazil,2019.0,365.0,Gas,Bcm
+Colombia,2019.0,90.0,Gas,Bcm
+Ecuador,2019.0,11.0,Gas,Bcm
+Peru,2019.0,287.0,Gas,Bcm
+Trinidad and Tobago,2019.0,302.0,Gas,Bcm
+Venezuela,2019.0,5673.817,Gas,Bcm
+Iran,2019.0,33899.0,Gas,Bcm
+Iraq,2019.0,3714.2378,Gas,Bcm
+Kuwait,2019.0,1784.0,Gas,Bcm
+Oman,2019.0,674.0,Gas,Bcm
+Qatar,2019.0,23831.0,Gas,Bcm
+Saudi Arabia,2019.0,8366.099999999999,Gas,Bcm
+United Arab Emirates,2019.0,7725.9,Gas,Bcm
+Algeria,2019.0,4504.0,Gas,Bcm
+Angola,2019.0,343.35821665145556,Gas,Bcm
+Cameroon,2019.0,170.0,Gas,Bcm
+Congo,2019.0,284.3,Gas,Bcm
+Egypt,2019.0,2209.0,Gas,Bcm
+Equatorial Guinea,2019.0,39.0002,Gas,Bcm
+Gabon,2019.0,25.981099999999998,Gas,Bcm
+Libya,2019.0,1504.8994619088076,Gas,Bcm
+Mozambique,2019.0,2840.0000000000005,Gas,Bcm
+Nigeria,2019.0,5761.031,Gas,Bcm
+Russian Federation & USSR,2019.0,49084.0,Gas,Bcm
+Azerbaijan,2019.0,1917.0,Gas,Bcm
+Kazakhstan,2019.0,1830.0,Gas,Bcm
+Turkmenistan,2019.0,13950.0,Gas,Bcm
+Ukraine,2019.0,349.0,Gas,Bcm
+Uzbekistan,2019.0,867.0,Gas,Bcm
+Bulgaria,2019.0,4.0,Gas,Bcm
+Romania,2019.0,81.0,Gas,Bcm
+Canada,2020.0,2471.7,Gas,Bcm
+Chile,2020.0,8.0,Gas,Bcm
+Mexico,2020.0,282.63041959616214,Gas,Bcm
+United States of America,2020.0,13171.0,Gas,Bcm
+Denmark,2020.0,74.0,Gas,Bcm
+Germany,2020.0,22.0,Gas,Bcm
+Italy,2020.0,44.0,Gas,Bcm
+Netherlands,2020.0,92.0,Gas,Bcm
+Norway,2020.0,2095.0,Gas,Bcm
+Poland,2020.0,85.0,Gas,Bcm
+United Kingdom,2020.0,221.0,Gas,Bcm
+Australia,2020.0,2844.0,Gas,Bcm
+Japan,2020.0,24.0,Gas,Bcm
+New Zealand,2020.0,54.0,Gas,Bcm
+China,2020.0,2922.0,Gas,Bcm
+India,2020.0,1372.0,Gas,Bcm
+Bangladesh,2020.0,284.0,Gas,Bcm
+Brunei Darussalam,2020.0,233.0,Gas,Bcm
+Indonesia,2020.0,1118.0,Gas,Bcm
+Malaysia,2020.0,2130.0,Gas,Bcm
+Burma,2020.0,240.0,Gas,Bcm
+Pakistan,2020.0,461.0,Gas,Bcm
+Thailand,2020.0,112.0,Gas,Bcm
+Viet Nam,2020.0,186.0,Gas,Bcm
+Argentina,2020.0,376.0,Gas,Bcm
+Bolivia,2020.0,192.0,Gas,Bcm
+Brazil,2020.0,338.0,Gas,Bcm
+Colombia,2020.0,83.0,Gas,Bcm
+Ecuador,2020.0,10.0,Gas,Bcm
+Peru,2020.0,274.0,Gas,Bcm
+Trinidad and Tobago,2020.0,289.0,Gas,Bcm
+Venezuela,2020.0,5589.563,Gas,Bcm
+Iran,2020.0,33988.0,Gas,Bcm
+Iraq,2020.0,3714.2378,Gas,Bcm
+Kuwait,2020.0,1784.0,Gas,Bcm
+Oman,2020.0,673.0,Gas,Bcm
+Qatar,2020.0,23831.0,Gas,Bcm
+Saudi Arabia,2020.0,8436.699999999999,Gas,Bcm
+United Arab Emirates,2020.0,7730.0,Gas,Bcm
+Algeria,2020.0,4504.0,Gas,Bcm
+Angola,2020.0,300.865726,Gas,Bcm
+Cameroon,2020.0,179.0,Gas,Bcm
+Congo,2020.0,283.73100000000017,Gas,Bcm
+Egypt,2020.0,2209.0,Gas,Bcm
+Equatorial Guinea,2020.0,39.0002,Gas,Bcm
+Gabon,2020.0,25.981099999999998,Gas,Bcm
+Libya,2020.0,1504.8994619088076,Gas,Bcm
+Mozambique,2020.0,2840.0000000000005,Gas,Bcm
+Nigeria,2020.0,5749.89875418321,Gas,Bcm
+Russian Federation & USSR,2020.0,47759.0,Gas,Bcm
+Azerbaijan,2020.0,1917.0,Gas,Bcm
+Kazakhstan,2020.0,1830.0,Gas,Bcm
+Turkmenistan,2020.0,13950.0,Gas,Bcm
+Ukraine,2020.0,338.0,Gas,Bcm
+Uzbekistan,2020.0,867.0,Gas,Bcm
+Bulgaria,2020.0,4.0,Gas,Bcm
+Romania,2020.0,77.0,Gas,Bcm
+Canada,2021.0,2615.0,Gas,Bcm
+Chile,2021.0,10.0,Gas,Bcm
+Mexico,2021.0,305.2838947666791,Gas,Bcm
+United States of America,2021.0,16674.0,Gas,Bcm
+Denmark,2021.0,73.0,Gas,Bcm
+Germany,2021.0,20.0,Gas,Bcm
+Italy,2021.0,40.0,Gas,Bcm
+Netherlands,2021.0,93.0,Gas,Bcm
+Norway,2021.0,2072.0,Gas,Bcm
+Poland,2021.0,84.0,Gas,Bcm
+United Kingdom,2021.0,212.0,Gas,Bcm
+Australia,2021.0,2844.0,Gas,Bcm
+Japan,2021.0,23.0,Gas,Bcm
+New Zealand,2021.0,50.0,Gas,Bcm
+China,2021.0,2892.0,Gas,Bcm
+India,2021.0,1372.0,Gas,Bcm
+Bangladesh,2021.0,263.0,Gas,Bcm
+Brunei Darussalam,2021.0,228.0,Gas,Bcm
+Indonesia,2021.0,1028.0,Gas,Bcm
+Malaysia,2021.0,2095.0,Gas,Bcm
+Burma,2021.0,232.0,Gas,Bcm
+Pakistan,2021.0,487.0,Gas,Bcm
+Thailand,2021.0,97.0,Gas,Bcm
+Viet Nam,2021.0,182.0,Gas,Bcm
+Argentina,2021.0,392.0,Gas,Bcm
+Bolivia,2021.0,183.0,Gas,Bcm
+Brazil,2021.0,379.0,Gas,Bcm
+Colombia,2021.0,90.0,Gas,Bcm
+Ecuador,2021.0,9.0,Gas,Bcm
+Peru,2021.0,262.0,Gas,Bcm
+Trinidad and Tobago,2021.0,284.0,Gas,Bcm
+Venezuela,2021.0,5541.0,Gas,Bcm
+Iran,2021.0,33988.0,Gas,Bcm
+Iraq,2021.0,3714.2378,Gas,Bcm
+Kuwait,2021.0,1784.0,Gas,Bcm
+Oman,2021.0,673.0,Gas,Bcm
+Qatar,2021.0,23831.0,Gas,Bcm
+Saudi Arabia,2021.0,8507.3,Gas,Bcm
+United Arab Emirates,2021.0,8200.0,Gas,Bcm
+Algeria,2021.0,4504.0,Gas,Bcm
+Angola,2021.0,300.9555191704809,Gas,Bcm
+Cameroon,2021.0,176.0,Gas,Bcm
+Congo,2021.0,283.73100000000017,Gas,Bcm
+Egypt,2021.0,2209.0,Gas,Bcm
+Equatorial Guinea,2021.0,39.0002,Gas,Bcm
+Gabon,2021.0,25.981099999999998,Gas,Bcm
+Libya,2021.0,1504.8994619088076,Gas,Bcm
+Mozambique,2021.0,2840.0000000000005,Gas,Bcm
+Nigeria,2021.0,5848.4,Gas,Bcm
+Russian Federation & USSR,2021.0,47759.0,Gas,Bcm
+Azerbaijan,2021.0,1917.0,Gas,Bcm
+Kazakhstan,2021.0,1830.0,Gas,Bcm
+Turkmenistan,2021.0,13950.0,Gas,Bcm
+Ukraine,2021.0,266.0,Gas,Bcm
+Uzbekistan,2021.0,867.0,Gas,Bcm
+Bulgaria,2021.0,4.0,Gas,Bcm
+Romania,2021.0,74.0,Gas,Bcm
+Canada,2022.0,2802.1,Gas,Bcm
+Chile,2022.0,10.0,Gas,Bcm
+Mexico,2022.0,312.0714947666791,Gas,Bcm
+United States of America,2022.0,16674.0,Gas,Bcm
+Denmark,2022.0,77.0,Gas,Bcm
+Germany,2022.0,20.0,Gas,Bcm
+Italy,2022.0,37.0,Gas,Bcm
+Netherlands,2022.0,72.0,Gas,Bcm
+Norway,2022.0,1959.0,Gas,Bcm
+Poland,2022.0,89.0,Gas,Bcm
+United Kingdom,2022.0,188.0,Gas,Bcm
+Australia,2022.0,2844.0,Gas,Bcm
+Japan,2022.0,23.0,Gas,Bcm
+New Zealand,2022.0,42.0,Gas,Bcm
+China,2022.0,2887.0,Gas,Bcm
+India,2022.0,1139.0,Gas,Bcm
+Bangladesh,2022.0,243.0,Gas,Bcm
+Brunei Darussalam,2022.0,222.0,Gas,Bcm
+Indonesia,2022.0,902.0,Gas,Bcm
+Malaysia,2022.0,2056.0,Gas,Bcm
+Burma,2022.0,224.0,Gas,Bcm
+Pakistan,2022.0,458.0,Gas,Bcm
+Thailand,2022.0,97.0,Gas,Bcm
+Viet Nam,2022.0,178.0,Gas,Bcm
+Argentina,2022.0,437.0,Gas,Bcm
+Bolivia,2022.0,175.0,Gas,Bcm
+Brazil,2022.0,406.0,Gas,Bcm
+Colombia,2022.0,80.0,Gas,Bcm
+Ecuador,2022.0,9.0,Gas,Bcm
+Peru,2022.0,237.0,Gas,Bcm
+Trinidad and Tobago,2022.0,279.0,Gas,Bcm
+Venezuela,2022.0,5511.0,Gas,Bcm
+Iran,2022.0,33988.0,Gas,Bcm
+Iraq,2022.0,3714.2378,Gas,Bcm
+Kuwait,2022.0,1784.0,Gas,Bcm
+Oman,2022.0,673.0,Gas,Bcm
+Qatar,2022.0,23831.0,Gas,Bcm
+Saudi Arabia,2022.0,9514.0,Gas,Bcm
+United Arab Emirates,2022.0,8210.0,Gas,Bcm
+Algeria,2022.0,4504.0,Gas,Bcm
+Angola,2022.0,128.95,Gas,Bcm
+Cameroon,2022.0,173.0,Gas,Bcm
+Congo,2022.0,283.73100000000017,Gas,Bcm
+Egypt,2022.0,2209.0,Gas,Bcm
+Equatorial Guinea,2022.0,39.0002,Gas,Bcm
+Gabon,2022.0,25.981099999999998,Gas,Bcm
+Libya,2022.0,1504.8994619088076,Gas,Bcm
+Mozambique,2022.0,2840.0000000000005,Gas,Bcm
+Nigeria,2022.0,5913.40704,Gas,Bcm
+Russian Federation & USSR,2022.0,44150.0,Gas,Bcm
+Azerbaijan,2022.0,1917.0,Gas,Bcm
+Kazakhstan,2022.0,1830.0,Gas,Bcm
+Turkmenistan,2022.0,13950.0,Gas,Bcm
+Ukraine,2022.0,248.0,Gas,Bcm
+Uzbekistan,2022.0,867.0,Gas,Bcm
+Bulgaria,2022.0,4.0,Gas,Bcm
+Romania,2022.0,70.0,Gas,Bcm
+Canada,2023.0,2802.1,Gas,Bcm
+Chile,2023.0,10.0,Gas,Bcm
+Mexico,2023.0,310.8218947666791,Gas,Bcm
+United States of America,2023.0,17410.27,Gas,Bcm
+Denmark,2023.0,71.47219413549038,Gas,Bcm
+Germany,2023.0,25.2256,Gas,Bcm
+Italy,2023.0,34.58066808813077,Gas,Bcm
+Netherlands,2023.0,56.05871559633027,Gas,Bcm
+Norway,2023.0,1979.0504,Gas,Bcm
+Poland,2023.0,89.0,Gas,Bcm
+United Kingdom,2023.0,171.528,Gas,Bcm
+Australia,2023.0,2844.0,Gas,Bcm
+Japan,2023.0,23.0,Gas,Bcm
+New Zealand,2023.0,39.4156,Gas,Bcm
+China,2023.0,2985.3757280529394,Gas,Bcm
+India,2023.0,944.8391888267696,Gas,Bcm
+Bangladesh,2023.0,225.392,Gas,Bcm
+Brunei Darussalam,2023.0,222.0,Gas,Bcm
+Indonesia,2023.0,787.5703988467083,Gas,Bcm
+Malaysia,2023.0,2056.0,Gas,Bcm
+Burma,2023.0,224.0,Gas,Bcm
+Pakistan,2023.0,430.4444216676062,Gas,Bcm
+Thailand,2023.0,97.0281649245064,Gas,Bcm
+Viet Nam,2023.0,178.0,Gas,Bcm
+Argentina,2023.0,470.1712,Gas,Bcm
+Bolivia,2023.0,175.0,Gas,Bcm
+Brazil,2023.0,433.7468,Gas,Bcm
+Colombia,2023.0,71.30214917825538,Gas,Bcm
+Ecuador,2023.0,9.0,Gas,Bcm
+Peru,2023.0,207.93396226415095,Gas,Bcm
+Trinidad and Tobago,2023.0,279.0,Gas,Bcm
+Venezuela,2023.0,5476.0,Gas,Bcm
+Iran,2023.0,33988.0,Gas,Bcm
+Iraq,2023.0,3714.2378,Gas,Bcm
+Kuwait,2023.0,1784.0,Gas,Bcm
+Oman,2023.0,660.788,Gas,Bcm
+Qatar,2023.0,23831.0,Gas,Bcm
+Saudi Arabia,2023.0,9651.0,Gas,Bcm
+United Arab Emirates,2023.0,8210.0,Gas,Bcm
+Algeria,2023.0,4504.0,Gas,Bcm
+Angola,2023.0,55.2677516462841,Gas,Bcm
+Cameroon,2023.0,173.0,Gas,Bcm
+Congo,2023.0,283.73100000000017,Gas,Bcm
+Egypt,2023.0,2209.0,Gas,Bcm
+Equatorial Guinea,2023.0,39.0002,Gas,Bcm
+Gabon,2023.0,25.981099999999998,Gas,Bcm
+Libya,2023.0,1505.0130619088075,Gas,Bcm
+Mozambique,2023.0,2840.0000000000005,Gas,Bcm
+Nigeria,2023.0,5943.0,Gas,Bcm
+Russian Federation & USSR,2023.0,44150.0,Gas,Bcm
+Azerbaijan,2023.0,1917.0,Gas,Bcm
+Kazakhstan,2023.0,1830.0,Gas,Bcm
+Turkmenistan,2023.0,13950.0,Gas,Bcm
+Ukraine,2023.0,248.0,Gas,Bcm
+Uzbekistan,2023.0,867.0,Gas,Bcm
+Bulgaria,2023.0,4.0,Gas,Bcm
+Romania,2023.0,70.0,Gas,Bcm
