@@ -1,4 +1,4 @@
-from transformation.demographic.population import GapMinderPerZoneAndCountryProcessor, WorldbankPopulationProcessor
+from transformation.demographic.population import WorldbankPopulationProcessor
 from transformation.demographic.worldbank_scrap import WorldBankScrapper
 from utils.format import StatisticsDataframeFormatter
 import os
@@ -17,11 +17,3 @@ if __name__ == "__main__":
     df_population_worldbank = WorldbankPopulationProcessor().run(df_population_raw, df_country)
     df_population_worldbank = StatisticsDataframeFormatter().select_and_sort_values(df_population_worldbank, "population")
     df_population_worldbank.to_csv(f"../../data/processed/demographics/DEMOGRAPHIC_POPULATION_WORLDBANK_prod.csv", index=False)
-
-    # update Gapminder Population
-    df_population_gapmidner_raw = pd.read_excel(f"../../data/raw/demographics/GM-Population - Dataset - v8.xlsx",
-                                                sheet_name="data-pop-gmv8-in-columns")
-
-    df_gapminder = GapMinderPerZoneAndCountryProcessor().run(df_population_gapmidner_raw, df_country)
-    df_gapminder = StatisticsDataframeFormatter().select_and_sort_values(df_gapminder, "population")
-    df_gapminder.to_csv(f"../../data/processed/demographics/DEMOGRAPHIC_POPULATION_GAPMINDER_prod.csv", index=False)
