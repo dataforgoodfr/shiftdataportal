@@ -446,6 +446,7 @@ mapping_country_names = {
     "Réunion": "Reunion",
     "Rwanda": "Rwanda",
     "Saint Helena": "Saint Helena",
+    "Saint Helena, Ascension and Tristan da Cunha": "Saint Helena",
     "Saint Kitts & Nevis": "Saint Kitts and Nevis",
     "Saint Kitts and Nevis": "Saint Kitts and Nevis",
     "St. Kitts and Nevis": "Saint Kitts and Nevis",

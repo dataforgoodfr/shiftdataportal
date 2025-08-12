@@ -132,9 +132,11 @@ class TransformationPipeline:
 
     def process_ghg_data(self, df_country):
         # update PIK data
+        # TODO: if `list_df_multi_sources` below not used -> remove the lines - BEGINNING
         df_pik = pd.read_csv(f"{RAW_DATA_DIR}/ghg/Guetschow_et_al_2023b-PRIMAP-hist_v2.5_final_15-Oct-2023.csv")
         df_pik_cleaned = PikCleaner().run(df_pik)
         df_pik_cleaned.to_csv(f"{RESULTS_DIR}/GHG_PIK_WITH_EDGAR_SECTORS_prod.csv", index=False)
+        # TODO: if `list_df_multi_sources` below not used -> remove the lines - END
         df_original = pd.read_excel(f"{CURRENT_PROD_DATA}/ghg/pik_with_edgar_sectors.xlsx")
         df_original = StatisticsDataframeFormatter.select_and_sort_values(df_original, "ghg", round_statistics=5)
         df_original.to_csv(f"{CURRENT_PROD_DATA}/GHG_PIK_WITH_EDGAR_SECTORS_prod.csv",
