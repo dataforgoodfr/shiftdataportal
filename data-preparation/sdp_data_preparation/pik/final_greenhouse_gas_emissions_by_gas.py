@@ -1,0 +1,41 @@
+import os
+
+import pandas as pd
+from sdp_data_preparation.countries_and_zones import (
+    StatisticsPerCountriesAndZonesProcessor,
+)
+from sdp_data_preparation.utils import StatisticsDataframeFormatter
+
+from .common import prepare_stg_dataset_for_prod
+
+
+def process_final_greenhouse_gas_emissions_by_gas(
+    project_root_path: str,
+) -> pd.DataFrame:
+    ghg_emissions_filepath = os.path.join(
+        project_root_path, f"data/pik/stg_greenhouse_gas_emissions.csv"
+    )
+    countries_and_zones_filepath = os.path.join(
+        project_root_path, "data/countries/countries_and_zones.csv"
+    )
+    ghg_emissions_by_country = pd.read_csv(ghg_emissions_filepath)
+    ghg_emissions_by_country = prepare_stg_dataset_for_prod(ghg_emissions_by_country)
+    countries_and_zones = pd.read_csv(countries_and_zones_filepath)
+
+    processor = StatisticsPerCountriesAndZonesProcessor(
+        df=ghg_emissions_by_country,
+        countries_and_zones=countries_and_zones,
+        group_by_colnames=["group_type", "group_name", "year", "gas", "ghg_unit"],
+        aggregations={"ghg": "sum"},
+    )
+    ghg_emissions_by_country_and_zone = processor.run()
+
+    formatter = StatisticsDataframeFormatter(
+        df=ghg_emissions_by_country_and_zone,
+        col_statistics="ghg",
+    )
+    df = formatter.run()
+
+    df["source"] = "PIK"
+    df["including_lucf"] = None
+    return df[(df["ghg"] != 0) & (df["group_name"] != "Antarctica")]
