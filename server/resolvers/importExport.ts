@@ -14,7 +14,7 @@ const importExport: ImportExportResolvers = {
     const resRawQuery = db
       .knex(TOTAL.__tableName)
       .select(TOTAL.group_name, TOTAL.type, TOTAL.year)
-      .sum(TOTAL.energy)
+      .sum({sum: TOTAL.energy})
       .whereIn(TOTAL.group_name, groupNames)
       .whereIn(TOTAL.type, types)
       .andWhere(TOTAL.energy_source, energyFamily)
